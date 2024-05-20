@@ -1,0 +1,197 @@
+{
+    "Players In Range Display": {
+        "x": 0.0,
+        "y": 0.0,
+        "scale": 1.0
+    },
+    "Necron Phase Timer": {
+        "x": 0.8333333,
+        "y": 0.5,
+        "scale": 1.0
+    },
+    "Soulflow Display": {
+        "x": 0.65,
+        "y": 0.85,
+        "scale": 1.0
+    },
+    "Endstone Protector Spawn Timer": {
+        "x": 0.625,
+        "y": 0.083333336,
+        "scale": 1.0
+    },
+    "Container Sell Value": {
+        "x": 0.258,
+        "y": 0.283,
+        "scale": 1.0
+    },
+    "Blood Room Portal Timer": {
+        "x": 0.05,
+        "y": 0.4,
+        "scale": 1.0
+    },
+    "Livid HP": {
+        "x": 0.46679688,
+        "y": 0.0094907405,
+        "scale": 1.0
+    },
+    "Arrow Swapper Display": {
+        "x": 0.65,
+        "y": 0.85,
+        "scale": 1.0
+    },
+    "Dolphin Pet Display": {
+        "x": 0.20833333,
+        "y": 0.083333336,
+        "scale": 1.0
+    },
+    "Stacking Enchant Display": {
+        "x": 0.65,
+        "y": 0.85,
+        "scale": 1.0
+    },
+    "Placed Summoning Eye Display": {
+        "x": 0.20833333,
+        "y": 0.25,
+        "scale": 1.0
+    },
+    "Rain Timer": {
+        "x": 0.041666668,
+        "y": 0.041666668,
+        "scale": 1.0
+    },
+    "Legion Player Display": {
+        "x": 0.20833333,
+        "y": 0.20833333,
+        "scale": 1.0
+    },
+    "Dungeon Timer": {
+        "x": 0.0045386907,
+        "y": 0.34923983,
+        "scale": 1.0
+    },
+    "Seraph Display": {
+        "x": 0.083333336,
+        "y": 0.083333336,
+        "scale": 1.0
+    },
+    "Hidden Jerry Timer": {
+        "x": 0.041666668,
+        "y": 0.041666668,
+        "scale": 1.0
+    },
+    "Wither Shield Display": {
+        "x": 0.65,
+        "y": 0.85,
+        "scale": 1.0
+    },
+    "Dungeon Map": {
+        "x": 0.8472619,
+        "y": 0.010827981,
+        "scale": 1.0
+    },
+    "Spirit Bear Spawn Timer": {
+        "x": 0.05,
+        "y": 0.4,
+        "scale": 1.0
+    },
+    "Show Arachne HP": {
+        "x": 0.8333333,
+        "y": 0.125,
+        "scale": 1.0
+    },
+    "Dungeon Crypts Counter": {
+        "x": 0.15,
+        "y": 0.013888889,
+        "scale": 2.0
+    },
+    "Sadan Phase Timer": {
+        "x": 0.8333333,
+        "y": 0.5,
+        "scale": 1.0
+    },
+    "Guardian Respawn Timer": {
+        "x": 0.8333333,
+        "y": 0.125,
+        "scale": 1.0
+    },
+    "Dungeon Chest Profit": {
+        "x": 0.8333333,
+        "y": 0.5,
+        "scale": 1.0
+    },
+    "Dungeon Score Estimate": {
+        "x": 0.8333333,
+        "y": 0.41666666,
+        "scale": 1.0
+    },
+    "Slayer Armor Display": {
+        "x": 0.625,
+        "y": 0.083333336,
+        "scale": 1.0
+    },
+    "Totem Display": {
+        "x": 0.0,
+        "y": 0.0,
+        "scale": 1.0
+    },
+    "Mayor Jerry Tracker": {
+        "x": 0.625,
+        "y": 0.5,
+        "scale": 1.0
+    },
+    "Show Giant HP": {
+        "x": 0.8333333,
+        "y": 0.125,
+        "scale": 1.0
+    },
+    "Mayor Jerry Perk Display": {
+        "x": 0.041666668,
+        "y": 0.041666668,
+        "scale": 1.0
+    },
+    "Slayer Display": {
+        "x": 0.0065104165,
+        "y": 0.28912038,
+        "scale": 1.0
+    },
+    "Jamcat": {
+        "x": 0.0,
+        "y": 0.0,
+        "scale": 1.0
+    },
+    "Visitor Offer Helper": {
+        "x": 0.258,
+        "y": 0.283,
+        "scale": 1.0
+    },
+    "Spam Gui": {
+        "x": 0.65,
+        "y": 0.925,
+        "scale": 1.0
+    },
+    "Crystal Hollows Map": {
+        "x": 0.0018229167,
+        "y": 0.0025462962,
+        "scale": 1.6617813
+    },
+    "Mythological Tracker": {
+        "x": 0.004761905,
+        "y": 0.0068093385,
+        "scale": 1.0
+    },
+    "World Age Display": {
+        "x": 0.20833333,
+        "y": 0.25,
+        "scale": 1.0
+    },
+    "Item Cooldown Display": {
+        "x": 0.041666668,
+        "y": 0.041666668,
+        "scale": 1.0
+    },
+    "Ping Display": {
+        "x": 0.12321428,
+        "y": 0.9833009,
+        "scale": 1.0
+    }
+}

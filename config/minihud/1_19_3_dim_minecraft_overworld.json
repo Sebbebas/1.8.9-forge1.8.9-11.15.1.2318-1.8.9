@@ -1,0 +1,43 @@
+{
+  "data_storage": {
+    "distance_pos": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "seed": -2606084773327412474
+  },
+  "shapes": {
+    "shapes": [
+      {
+        "type": "despawn_sphere",
+        "color": 1621114960,
+        "enabled": true,
+        "display_name": "Despawn Sphere ( \u003e 128)",
+        "render_type": "outer_edge",
+        "layers": {
+          "mode": "ALL",
+          "axis": "Y",
+          "layer_single": 0,
+          "layer_above": 0,
+          "layer_below": 0,
+          "layer_range_min": 0,
+          "layer_range_max": 0,
+          "hotkey_range_min": false,
+          "hotkey_range_max": false
+        },
+        "snap": "center",
+        "combine_quads": false,
+        "center": [
+          971.5,
+          191.0,
+          -179.5
+        ],
+        "main_axis": "UP",
+        "radius": 128.0,
+        "margin": 1.5
+      }
+    ],
+    "selected": 0
+  }
+}

@@ -1,0 +1,3983 @@
+{
+  "about": {
+    "autoUpdates": true,
+    "fullAutoUpdates": false,
+    "updateStream": "BETA",
+    "licenses": {}
+  },
+  "gui": {
+    "compactTabList": {
+      "enabled": false,
+      "toggleTab": false,
+      "hideAdverts": false,
+      "hideFiresales": false,
+      "advancedPlayerList": {
+        "playerSortOrder": "RANK",
+        "reverseSort": false,
+        "hidePlayerIcons": false,
+        "hideRankColor": false,
+        "hideEmblem": false,
+        "hideLevel": false,
+        "hideLevelBrackets": false,
+        "useLevelColorForName": false,
+        "showBingoRankNumber": false,
+        "hideFactions": false,
+        "markSpecialPersons": false
+      }
+    },
+    "customScoreboard": {
+      "enabled": false,
+      "scoreboardEntries": [
+        "TITLE",
+        "PROFILE",
+        "PURSE",
+        "BANK",
+        "MOTES",
+        "BITS",
+        "COPPER",
+        "NORTH_STARS",
+        "HEAT",
+        "COLD",
+        "EMPTY_LINE",
+        "ISLAND",
+        "LOCATION",
+        "LOBBY_CODE",
+        "PLAYER_AMOUNT",
+        "VISITING",
+        "EMPTY_LINE2",
+        "DATE",
+        "TIME",
+        "EVENTS",
+        "OBJECTIVE",
+        "COOKIE",
+        "EMPTY_LINE3",
+        "QUIVER",
+        "POWER",
+        "TUNING",
+        "EMPTY_LINE4",
+        "POWDER",
+        "MAYOR",
+        "PARTY",
+        "FOOTER",
+        "EXTRA"
+      ],
+      "display": {
+        "alignment": {
+          "horizontalAlignment": "RIGHT",
+          "verticalAlignment": "CENTER"
+        },
+        "arrow": {
+          "arrowAmountDisplay": "NUMBER",
+          "colorArrowAmount": false
+        },
+        "events": {
+          "eventEntries": [
+            "VOTING",
+            "SERVER_CLOSE",
+            "DUNGEONS",
+            "KUUDRA",
+            "DOJO",
+            "DARK_AUCTION",
+            "JACOB_CONTEST",
+            "JACOB_MEDALS",
+            "TRAPPER",
+            "GARDEN_CLEAN_UP",
+            "GARDEN_PASTING",
+            "FLIGHT_DURATION",
+            "WINTER",
+            "SPOOKY",
+            "BROODMOTHER",
+            "MINING_EVENTS",
+            "DAMAGE",
+            "MAGMA_BOSS",
+            "RIFT",
+            "ESSENCE",
+            "ACTIVE_TABLIST_EVENTS"
+          ],
+          "showAllActiveEvents": false
+        },
+        "maxwell": {
+          "showMagicalPower": true,
+          "compactTuning": false,
+          "tuningAmount": 2
+        },
+        "mayor": {
+          "showMayorPerks": true,
+          "showTimeTillNextMayor": true
+        },
+        "party": {
+          "maxPartyList": 4,
+          "showPartyEverywhere": false
+        },
+        "titleAndFooter": {
+          "alignTitleAndFooter": "CENTER",
+          "customTitle": "\u00266\u0026lSKYBLOCK",
+          "useHypixelTitleAnimation": false,
+          "customFooter": "\u0026ewww.hypixel.net"
+        },
+        "hideVanillaScoreboard": true,
+        "displayNumbersFirst": false,
+        "showUnclaimedBits": false,
+        "showMaxIslandPlayers": true,
+        "numberFormat": "LONG",
+        "lineSpacing": 10,
+        "cacheScoreboardOnIslandSwitch": false
+      },
+      "background": {
+        "enabled": true,
+        "color": "0:80:0:0:0",
+        "borderSize": 5,
+        "roundedCornerSmoothness": 10,
+        "outline": {
+          "enabled": false,
+          "thickness": 5,
+          "blur": 0.7,
+          "colorTop": "0:255:175:89:255",
+          "colorBottom": "0:255:127:237:255"
+        },
+        "useCustomBackgroundImage": false
+      },
+      "informationFiltering": {
+        "hideEmptyLines": true,
+        "hideConsecutiveEmptyLines": true,
+        "hideEmptyLinesAtTopAndBottom": true,
+        "hideIrrelevantLines": true
+      },
+      "unknownLinesWarning": true,
+      "position": {
+        "x": 10,
+        "y": 80,
+        "scale": 1.0,
+        "center": false,
+        "centerX": false,
+        "centerY": true
+      }
+    },
+    "chroma": {
+      "chromaPreview": false,
+      "enabled": false,
+      "chromaSize": 30.0,
+      "chromaSpeed": 6.0,
+      "chromaSaturation": 0.75,
+      "chromaDirection": "FORWARD_RIGHT",
+      "allChroma": false,
+      "ignoreChat": false
+    },
+    "keyBindOpen": 0,
+    "globalScale": 1.0,
+    "discordRPC": {
+      "enabled": false,
+      "firstLine": "NOTHING",
+      "secondLine": "NOTHING",
+      "customText": "",
+      "autoPriority": [
+        "CROP_MILESTONES",
+        "SLAYER",
+        "STACKING_ENCHANT",
+        "DUNGEONS",
+        "AFK"
+      ],
+      "auto": "NOTHING",
+      "showSkyCryptButton": true
+    },
+    "markedPlayers": {
+      "highlightInWorld": true,
+      "highlightInChat": true,
+      "markOwnName": false,
+      "chatColor": "YELLOW",
+      "entityColor": "YELLOW"
+    },
+    "modifyWords": {
+      "enabled": true
+    },
+    "customTextBox": {
+      "enabled": false,
+      "onlyInGUI": false,
+      "text": "\u0026aYour Text Here\\n\u0026bYour new line here",
+      "position": {
+        "x": 10,
+        "y": 80,
+        "scale": 0.0,
+        "center": false,
+        "centerX": false,
+        "centerY": true
+      }
+    },
+    "inGameDate": {
+      "enabled": false,
+      "position": {
+        "x": 10,
+        "y": 10,
+        "scale": 1.0,
+        "center": false,
+        "centerX": false,
+        "centerY": true
+      },
+      "useScoreboard": true,
+      "includeSunMoon": true,
+      "includeOrdinal": false,
+      "refreshSeconds": 30
+    },
+    "realTime": false,
+    "realTimeFormatToggle": false,
+    "realTimePosition": {
+      "x": 10,
+      "y": 10,
+      "scale": 1.0,
+      "center": false,
+      "centerX": false,
+      "centerY": true
+    },
+    "cosmetic": {
+      "followingLine": {
+        "enabled": false,
+        "lineColor": "0:255:255:255:255",
+        "secondsAlive": 3,
+        "lineWidth": 4,
+        "behindBlocks": false
+      },
+      "arrowTrail": {
+        "enabled": false,
+        "hideOtherArrows": true,
+        "arrowColor": "0:200:85:255:85",
+        "handlePlayerArrowsDifferently": false,
+        "playerArrowColor": "0:200:85:255:255",
+        "secondsAlive": 0.5,
+        "lineWidth": 4
+      }
+    },
+    "tpsDisplay": false,
+    "tpsDisplayPosition": {
+      "x": 10,
+      "y": 10,
+      "scale": 0.0,
+      "center": false,
+      "centerX": false,
+      "centerY": true
+    },
+    "configButtonOnPause": true
+  },
+  "garden": {
+    "skyMart": {
+      "copperPrice": true,
+      "itemScale": 0.9,
+      "copperPricePos": {
+        "x": 211,
+        "y": 132,
+        "scale": 0.0,
+        "center": false,
+        "centerX": false,
+        "centerY": true
+      }
+    },
+    "visitors": {
+      "timer": {
+        "enabled": true,
+        "sixthVisitorEnabled": true,
+        "sixthVisitorWarning": true,
+        "newVisitorPing": false,
+        "pos": {
+          "x": 0,
+          "y": 181,
+          "scale": 0.0,
+          "center": false,
+          "centerX": false,
+          "centerY": true
+        }
+      },
+      "shoppingList": {
+        "display": true,
+        "pos": {
+          "x": 0,
+          "y": 197,
+          "scale": 0.0,
+          "center": false,
+          "centerX": false,
+          "centerY": true
+        },
+        "onlyWhenClose": false,
+        "inBazaarAlley": true,
+        "inFarmingAreas": false,
+        "showPrice": true,
+        "showSackCount": true,
+        "showSuperCraft": false,
+        "itemPreview": true
+      },
+      "inventory": {
+        "showPrice": false,
+        "exactAmountAndTime": true,
+        "copperPrice": true,
+        "copperTime": false,
+        "experiencePrice": false
+      },
+      "rewardWarning": {
+        "notifyInChat": true,
+        "showOverName": true,
+        "preventRefusing": true,
+        "bypassKey": 0,
+        "drops": [
+          "FLOWERING_BOUQUET",
+          "OVERGROWN_GRASS",
+          "GREEN_BANDANA",
+          "DEDICATION",
+          "MUSIC_RUNE",
+          "SPACE_HELMET"
+        ],
+        "coinsPerCopperPrice": 6000,
+        "preventRefusingCopper": false,
+        "preventAcceptingCopper": false,
+        "coinsLossThreshold": 150000,
+        "preventRefusingLowLoss": false,
+        "preventAcceptingHighLoss": false,
+        "preventRefusingNew": true,
+        "opacity": 180,
+        "optionOutline": true
+      },
+      "notificationChat": true,
+      "notificationTitle": true,
+      "highlightStatus": "BOTH",
+      "hypixelArrivedMessage": true,
+      "hideChat": true,
+      "dropsStatistics": {
+        "enabled": true,
+        "textFormat": [
+          "TITLE",
+          "TOTAL_VISITORS",
+          "VISITORS_BY_RARITY",
+          "ACCEPTED",
+          "DENIED",
+          "SPACER_1",
+          "COPPER",
+          "FARMING_EXP",
+          "COINS_SPENT",
+          "OVERGROWN_GRASS",
+          "GREEN_BANDANA",
+          "DEDICATION_IV"
+        ],
+        "displayNumbersFirst": true,
+        "displayIcons": false,
+        "onlyOnBarn": true,
+        "pos": {
+          "x": -317,
+          "y": 0,
+          "scale": 0.0,
+          "center": false,
+          "centerX": false,
+          "centerY": true
+        }
+      },
+      "acceptHotkey": 0,
+      "highlightVisitors": false,
+      "blockInteracting": "ONLY_ON_BINGO"
+    },
+    "number": {
+      "cropMilestone": true,
+      "averageCropMilestone": true,
+      "cropUpgrades": true,
+      "composterUpgrades": true
+    },
+    "cropMilestones": {
+      "progress": true,
+      "overflow": {
+        "cropMilestoneDisplay": false,
+        "bestCropTime": false,
+        "inventoryStackSize": false,
+        "inventoryTooltip": false,
+        "discordRPC": false,
+        "chat": false
+      },
+      "warnClose": false,
+      "highestTimeFormat": "YEAR",
+      "bestShowMaxedNeeded": false,
+      "text": [
+        "TITLE",
+        "MILESTONE_TIER",
+        "NUMBER_OUT_OF_TOTAL",
+        "TIME",
+        "CROPS_PER_MINUTE",
+        "BLOCKS_PER_SECOND"
+      ],
+      "blocksBrokenPrecision": 2,
+      "blocksBrokenResetTime": 5,
+      "progressDisplayPos": {
+        "x": -197,
+        "y": 0,
+        "scale": 0.0,
+        "center": false,
+        "centerX": false,
+        "centerY": true
+      },
+      "next": {
+        "bestDisplay": true,
+        "bestType": "GARDEN_EXP",
+        "showOnlyBest": 10,
+        "showCurrent": true,
+        "bestAlwaysOn": false,
+        "bestCompact": false,
+        "bestHideTitle": false,
+        "displayPos": {
+          "x": 0,
+          "y": 0,
+          "scale": 0.0,
+          "center": false,
+          "centerX": false,
+          "centerY": true
+        }
+      },
+      "mushroomPetPerk": {
+        "enabled": true,
+        "text": [
+          "TITLE",
+          "MUSHROOM_TIER",
+          "NUMBER_OUT_OF_TOTAL",
+          "TIME"
+        ],
+        "pos": {
+          "x": -108,
+          "y": -145,
+          "scale": 0.0,
+          "center": false,
+          "centerX": false,
+          "centerY": true
+        }
+      }
+    },
+    "keyBind": {
+      "enabled": false,
+      "excludeBarn": false,
+      "attack": -100,
+      "useItem": -99,
+      "left": 30,
+      "right": 32,
+      "forward": 17,
+      "back": 31,
+      "jump": 57,
+      "sneak": 42
+    },
+    "optimalSpeeds": {
+      "showOnHUD": true,
+      "warning": false,
+      "signEnabled": true,
+      "signPosition": {
+        "x": -450,
+        "y": 119,
+        "scale": 0.0,
+        "center": false,
+        "centerX": false,
+        "centerY": true
+      },
+      "customSpeed": {
+        "wheat": 93.0,
+        "carrot": 93.0,
+        "potato": 93.0,
+        "netherWart": 93.0,
+        "pumpkin": 155.0,
+        "melon": 155.0,
+        "cocoaBeans": 155.0,
+        "sugarCane": 328.0,
+        "cactus": 400.0,
+        "mushroom": 233.0
+      },
+      "pos": {
+        "x": -394,
+        "y": -43,
+        "scale": 0.0,
+        "center": false,
+        "centerX": false,
+        "centerY": true
+      }
+    },
+    "farmingLane": {
+      "tutorial": false,
+      "laneSwitchNotification": {
+        "enabled": false,
+        "secondsBefore": 5,
+        "text": "\u0026eLane Switch incoming.",
+        "sound": {
+          "name": "random.orb",
+          "pitch": 1.0,
+          "repeatDuration": 20
+        }
+      },
+      "distanceDisplay": false,
+      "distanceDisplayPosition": {
+        "x": 0,
+        "y": 200,
+        "scale": 1.0,
+        "center": false,
+        "centerX": false,
+        "centerY": true
+      },
+      "cornerWaypoints": false
+    },
+    "gardenLevels": {
+      "display": true,
+      "overflow": true,
+      "overflowChat": true,
+      "pos": {
+        "x": 347,
+        "y": -87,
+        "scale": 0.0,
+        "center": false,
+        "centerX": false,
+        "centerY": true
+      }
+    },
+    "eliteFarmingWeights": {
+      "display": true,
+      "pos": {
+        "x": -113,
+        "y": -89,
+        "scale": 0.0,
+        "center": false,
+        "centerX": false,
+        "centerY": true
+      },
+      "leaderboard": true,
+      "overtakeETA": false,
+      "showLbChange": false,
+      "overtakeETAAlways": true,
+      "etaGoalRank": "10000",
+      "ignoreLow": false,
+      "showOutsideGarden": false
+    },
+    "dicerCounters": {
+      "display": true,
+      "hideChat": false,
+      "pos": {
+        "x": 217,
+        "y": 102,
+        "scale": 0.0,
+        "center": false,
+        "centerX": false,
+        "centerY": true
+      }
+    },
+    "moneyPerHours": {
+      "display": true,
+      "showOnlyBest": 5,
+      "showCurrent": true,
+      "alwaysOn": false,
+      "compact": false,
+      "compactPrice": false,
+      "useCustomFormat": false,
+      "customFormat": [
+        "SELL_OFFER",
+        "INSTANT_SELL",
+        "NPC_PRICE"
+      ],
+      "mergeSeeds": true,
+      "bountiful": true,
+      "mooshroom": true,
+      "armor": true,
+      "dicer": true,
+      "hideTitle": false,
+      "pos": {
+        "x": 217,
+        "y": 0,
+        "scale": 0.0,
+        "center": false,
+        "centerX": false,
+        "centerY": true
+      }
+    },
+    "nextJacobContests": {
+      "display": true,
+      "showOutsideGarden": false,
+      "otherGuis": false,
+      "fetchAutomatically": true,
+      "shareAutomatically": "ASK",
+      "warn": false,
+      "warnTime": 120,
+      "warnPopup": false,
+      "warnFor": [
+        "WHEAT",
+        "CARROT",
+        "POTATO",
+        "NETHER_WART",
+        "PUMPKIN",
+        "MELON",
+        "COCOA_BEANS",
+        "SUGAR_CANE",
+        "CACTUS",
+        "MUSHROOM"
+      ],
+      "pos": {
+        "x": -123,
+        "y": 129,
+        "scale": 0.0,
+        "center": false,
+        "centerX": false,
+        "centerY": true
+      }
+    },
+    "farmingArmorDrop": {
+      "enabled": true,
+      "hideChat": false,
+      "pos": {
+        "x": 0,
+        "y": 135,
+        "scale": 0.0,
+        "center": false,
+        "centerX": false,
+        "centerY": true
+      }
+    },
+    "anitaShop": {
+      "medalProfitEnabled": true,
+      "extraFarmingFortune": true,
+      "medalProfitPos": {
+        "x": 206,
+        "y": 158,
+        "scale": 0.0,
+        "center": false,
+        "centerX": false,
+        "centerY": true
+      }
+    },
+    "composters": {
+      "overlay": true,
+      "overlayPriceType": "INSTANT_BUY",
+      "retrieveFrom": "BAZAAR",
+      "overlayOrganicMatterPos": {
+        "x": 140,
+        "y": 152,
+        "scale": 0.0,
+        "center": false,
+        "centerX": false,
+        "centerY": true
+      },
+      "overlayFuelExtrasPos": {
+        "x": -320,
+        "y": 152,
+        "scale": 0.0,
+        "center": false,
+        "centerX": false,
+        "centerY": true
+      },
+      "displayEnabled": true,
+      "displayOutsideGarden": false,
+      "warnAlmostClose": false,
+      "upgradePrice": true,
+      "roundDown": true,
+      "highlightUpgrade": true,
+      "inventoryNumbers": true,
+      "notifyLow": {
+        "enabled": true,
+        "title": false,
+        "organicMatter": 20000,
+        "fuel": 10000
+      },
+      "displayPos": {
+        "x": -136,
+        "y": 2,
+        "scale": 0.0,
+        "center": false,
+        "centerX": false,
+        "centerY": true
+      },
+      "outsideGardenPos": {
+        "x": -363,
+        "y": 13,
+        "scale": 0.0,
+        "center": false,
+        "centerX": false,
+        "centerY": true
+      }
+    },
+    "pests": {
+      "pestSpawn": {
+        "chatMessageFormat": "HYPIXEL",
+        "showTitle": true
+      },
+      "pestFinder": {
+        "showDisplay": true,
+        "showPlotInWorld": true,
+        "visibilityType": "BOTH",
+        "onlyWithVacuum": true,
+        "showBorderForSeconds": 1,
+        "position": {
+          "x": -350,
+          "y": 200,
+          "scale": 1.3,
+          "center": false,
+          "centerX": false,
+          "centerY": true
+        },
+        "teleportHotkey": 0,
+        "alwaysTp": false
+      },
+      "pestWaypoint": {
+        "enabled": true,
+        "hideParticles": true,
+        "drawLine": true,
+        "showForSeconds": 15
+      },
+      "pestTimer": {
+        "enabled": true,
+        "onlyWithVacuum": true,
+        "position": {
+          "x": 383,
+          "y": 93,
+          "scale": 1.0,
+          "center": false,
+          "centerX": false,
+          "centerY": true
+        }
+      },
+      "pestProfitTacker": {
+        "enabled": true,
+        "hideChat": true,
+        "timeDisplayed": 30,
+        "position": {
+          "x": 20,
+          "y": 20,
+          "scale": 1.0,
+          "center": false,
+          "centerX": false,
+          "centerY": true
+        }
+      },
+      "spray": {
+        "pestWhenSelector": true,
+        "drawPlotsBorderWhenInHands": true,
+        "position": {
+          "x": 315,
+          "y": -200,
+          "scale": 2.3,
+          "center": false,
+          "centerX": false,
+          "centerY": true
+        },
+        "displayEnabled": true,
+        "showNotSprayed": false,
+        "expiryNotification": true,
+        "displayPosition": {
+          "x": 390,
+          "y": 75,
+          "scale": 1.0,
+          "center": false,
+          "centerX": false,
+          "centerY": true
+        }
+      },
+      "stereoHarmony": {
+        "displayEnabled": true,
+        "alwaysShow": false,
+        "showHead": true,
+        "showCrop": true,
+        "hideWhenNone": false,
+        "position": {
+          "x": 205,
+          "y": 55,
+          "scale": 1.0,
+          "center": false,
+          "centerX": false,
+          "centerY": true
+        }
+      }
+    },
+    "farmingFortunes": {
+      "display": true,
+      "pos": {
+        "x": 364,
+        "y": -102,
+        "scale": 0.0,
+        "center": false,
+        "centerX": false,
+        "centerY": true
+      }
+    },
+    "tooltipTweak": {
+      "compactToolTooltips": false,
+      "fortuneTooltipKeybind": 42,
+      "cropTooltipFortune": "SHOW",
+      "cropMilestoneTotalProgress": true
+    },
+    "yawPitchDisplay": {
+      "enabled": false,
+      "yawPrecision": 4,
+      "pitchPrecision": 4,
+      "timeout": 5,
+      "showWithoutTool": false,
+      "showOutsideGarden": false,
+      "showAlways": false,
+      "pos": {
+        "x": 445,
+        "y": 225,
+        "scale": 0.0,
+        "center": false,
+        "centerX": false,
+        "centerY": true
+      },
+      "posOutside": {
+        "x": 445,
+        "y": 225,
+        "scale": 0.0,
+        "center": false,
+        "centerX": false,
+        "centerY": true
+      }
+    },
+    "sensitivityReducerConfig": {
+      "mode": "OFF",
+      "keybind": 49,
+      "reducingFactor": 15.0,
+      "showGUI": true,
+      "onGround": false,
+      "onlyPlot": true,
+      "position": {
+        "x": 400,
+        "y": 400,
+        "scale": 0.8,
+        "center": false,
+        "centerX": false,
+        "centerY": true
+      }
+    },
+    "cropStartLocation": {
+      "enabled": false
+    },
+    "plotMenuHighlighting": {
+      "enabled": false,
+      "deskPlotStatusTypes": [
+        "CURRENT",
+        "PESTS",
+        "SPRAYS",
+        "LOCKED"
+      ]
+    },
+    "plotIcon": {
+      "enabled": true
+    },
+    "gardenCommands": {
+      "warpCommands": true,
+      "homeHotkey": 0,
+      "sethomeHotkey": 0,
+      "barnHotkey": 0
+    },
+    "atmosphericFilterDisplay": {
+      "enabled": false,
+      "onlyBuff": false,
+      "abbreviateSeason": false,
+      "abbreviatePerk": false,
+      "outsideGarden": false,
+      "position": {
+        "x": 10,
+        "y": 10,
+        "scale": 1.0,
+        "center": false,
+        "centerX": true,
+        "centerY": true
+      },
+      "positionOutside": {
+        "x": 20,
+        "y": 20,
+        "scale": 1.0,
+        "center": false,
+        "centerX": true,
+        "centerY": true
+      }
+    },
+    "plotPrice": true,
+    "fungiCutterWarn": true,
+    "burrowingSporesNotification": true,
+    "wildStrawberryDyeNotification": true,
+    "farmingFortuneForContest": true,
+    "farmingFortuneForContestPos": {
+      "x": 180,
+      "y": 156,
+      "scale": 0.0,
+      "center": false,
+      "centerX": false,
+      "centerY": true
+    },
+    "jacobContestTimes": true,
+    "jacobContestCustomBps": true,
+    "jacobContestCustomBpsValue": 19.9,
+    "jacobContestTimesPosition": {
+      "x": -359,
+      "y": 149,
+      "scale": 0.0,
+      "center": false,
+      "centerX": false,
+      "centerY": true
+    },
+    "jacobContestSummary": true,
+    "cropSpeedMeterPos": {
+      "x": 278,
+      "y": -236,
+      "scale": 0.0,
+      "center": false,
+      "centerX": false,
+      "centerY": true
+    },
+    "plotBorders": true,
+    "copyMilestoneData": true,
+    "showLogBookStats": true,
+    "logBookStatsPos": {
+      "x": 427,
+      "y": 92,
+      "scale": 1.0,
+      "center": false,
+      "centerX": false,
+      "centerY": true
+    }
+  },
+  "crimsonIsle": {
+    "ashfang": {
+      "gravityOrbs": {
+        "enabled": false,
+        "color": "0:120:255:85:85"
+      },
+      "blazingSouls": {
+        "enabled": false,
+        "color": "0:245:85:255:85"
+      },
+      "hide": {
+        "particles": false,
+        "fullNames": false,
+        "damageSplash": false
+      },
+      "highlightBlazes": false,
+      "freezeCooldown": false,
+      "freezeCooldownPos": {
+        "x": 10,
+        "y": 10,
+        "scale": 0.0,
+        "center": false,
+        "centerX": false,
+        "centerY": true
+      },
+      "nextResetCooldown": false,
+      "nextResetCooldownPos": {
+        "x": 10,
+        "y": 10,
+        "scale": 0.0,
+        "center": false,
+        "centerX": false,
+        "centerY": true
+      }
+    },
+    "reputationHelper": {
+      "enabled": true,
+      "hideComplete": true,
+      "useHotkey": false,
+      "hotkey": 0,
+      "position": {
+        "x": 10,
+        "y": 10,
+        "scale": 0.0,
+        "center": false,
+        "centerX": false,
+        "centerY": true
+      },
+      "showLocation": "ONLY_HOTKEY"
+    },
+    "matriarchHelper": {
+      "enabled": true,
+      "highlight": true,
+      "highlightColor": "0:114:126:255:41",
+      "line": true,
+      "lineColor": "0:230:163:38:255"
+    },
+    "pabloHelper": false,
+    "volcanoExplosivity": false,
+    "positionVolcano": {
+      "x": 20,
+      "y": 20,
+      "scale": 1.0,
+      "center": false,
+      "centerX": false,
+      "centerY": true
+    },
+    "showDojoRankDisplay": false,
+    "dojoRankDisplayPosition": {
+      "x": -378,
+      "y": 206,
+      "scale": 1.0,
+      "center": false,
+      "centerX": false,
+      "centerY": true
+    }
+  },
+  "rift": {
+    "timer": {
+      "enabled": true,
+      "maxTime": true,
+      "percentage": true,
+      "timerPosition": {
+        "x": 10,
+        "y": 10,
+        "scale": 0.0,
+        "center": false,
+        "centerX": false,
+        "centerY": true
+      }
+    },
+    "cruxTalisman": {
+      "enabled": false,
+      "compactWhenMaxed": false,
+      "showBonuses": true,
+      "position": {
+        "x": 144,
+        "y": 139,
+        "scale": 0.0,
+        "center": false,
+        "centerX": false,
+        "centerY": true
+      }
+    },
+    "enigmaSoulWaypoints": {
+      "enabled": true,
+      "color": "0:120:13:49:255"
+    },
+    "area": {
+      "wyldWoods": {
+        "shyWarning": true,
+        "larvas": {
+          "highlight": true,
+          "highlightColor": "0:120:13:49:255"
+        },
+        "odonata": {
+          "highlight": true,
+          "highlightColor": "0:120:13:49:255"
+        }
+      },
+      "westVillage": {
+        "hacking": {
+          "solver": true,
+          "colour": true,
+          "waypoints": true
+        },
+        "verminTracker": {
+          "enabled": true,
+          "showOutsideWestVillage": false,
+          "showWithoutVacuum": false,
+          "hideChat": false,
+          "position": {
+            "x": 16,
+            "y": -232,
+            "scale": 1.0,
+            "center": false,
+            "centerX": false,
+            "centerY": true
+          }
+        },
+        "verminHighlight": {
+          "enabled": true,
+          "color": "0:60:0:0:255"
+        }
+      },
+      "dreadfarm": {
+        "agaricusCap": true,
+        "voltCrux": {
+          "voltWarning": true,
+          "voltRange": true,
+          "voltColour": "0:60:0:0:255",
+          "voltMoodMeter": false
+        },
+        "wiltedBerberis": {
+          "enabled": true,
+          "onlyOnFarmland": false,
+          "hideparticles": false
+        }
+      },
+      "mirrorverse": {
+        "lavaMazeConfig": {
+          "enabled": true,
+          "lookAhead": 3,
+          "rainbowColor": true,
+          "monochromeColor": "0:60:0:0:255",
+          "hidePlayers": false
+        },
+        "upsideDownParkour": {
+          "enabled": true,
+          "lookAhead": 3,
+          "outline": true,
+          "rainbowColor": true,
+          "monochromeColor": "0:60:0:0:255",
+          "hidePlayers": false
+        },
+        "danceRoomHelper": {
+          "enabled": false,
+          "lineToShow": 3,
+          "extraSpace": 0,
+          "hidePlayers": false,
+          "hideOriginalTitle": false,
+          "danceRoomFormatting": {
+            "now": "\u00267Now:",
+            "next": "\u00267Next:",
+            "later": "\u00267Later:",
+            "color": {
+              "move": "\u0026e",
+              "stand": "\u0026e",
+              "sneak": "\u00265",
+              "jump": "\u0026b",
+              "punch": "\u0026d",
+              "countdown": "\u0026f",
+              "fallback": "\u0026f"
+            }
+          },
+          "position": {
+            "x": 442,
+            "y": 239,
+            "scale": 0.0,
+            "center": false,
+            "centerX": false,
+            "centerY": true
+          }
+        },
+        "tubulatorConfig": {
+          "enabled": true,
+          "lookAhead": 2,
+          "outline": true,
+          "rainbowColor": true,
+          "monochromeColor": "0:60:0:0:255",
+          "hidePlayers": false
+        }
+      },
+      "livingCave": {
+        "livingMetalSuitProgress": {
+          "enabled": false,
+          "compactWhenMaxed": false,
+          "position": {
+            "x": 100,
+            "y": 100,
+            "scale": 0.0,
+            "center": false,
+            "centerX": false,
+            "centerY": false
+          }
+        },
+        "defenseBlockConfig": {
+          "enabled": true,
+          "hideParticles": false,
+          "color": "0:255:77:104:255"
+        },
+        "livingCaveLivingMetalConfig": {
+          "enabled": true,
+          "hideParticles": false
+        }
+      },
+      "colosseum": {
+        "highlightBlobbercysts": true
+      },
+      "stillgoreChateau": {
+        "bloodEffigies": {
+          "enabled": false,
+          "respawningSoon": false,
+          "respwningSoonTime": 3,
+          "unknownTime": false
+        }
+      }
+    },
+    "motes": {
+      "showPrice": true,
+      "burgerStacks": 0,
+      "inventoryValue": {
+        "enabled": true,
+        "formatType": "SHORT",
+        "position": {
+          "x": 126,
+          "y": 156,
+          "scale": 0.0,
+          "center": false,
+          "centerX": false,
+          "centerY": true
+        }
+      }
+    },
+    "motesOrbs": {
+      "enabled": true,
+      "size": 3,
+      "hideParticles": false
+    },
+    "highlightGuide": true,
+    "horsezookaHider": false
+  },
+  "fishing": {
+    "trophyFishing": {
+      "chatMessages": {
+        "enabled": false,
+        "design": "STYLE_1",
+        "totalAmount": false,
+        "tooltip": true,
+        "duplicateHider": false,
+        "bronzeHider": false,
+        "silverHider": false
+      },
+      "geyserOptions": {
+        "hideParticles": true,
+        "drawBox": true,
+        "boxColor": "0:245:85:255:85",
+        "onlyWithRod": true
+      },
+      "sulphurSkitterBox": {
+        "enabled": false,
+        "boxType": "WIREFRAME",
+        "boxColor": "0:102:255:216:0",
+        "onlyWithRods": true
+      },
+      "filletTooltip": true,
+      "odgerLocation": true,
+      "loadFromNeuPV": true
+    },
+    "thunderSpark": {
+      "highlight": false,
+      "color": "0:255:255:255:255"
+    },
+    "barnTimer": {
+      "enabled": true,
+      "crystalHollows": true,
+      "crimsonIsle": true,
+      "winterIsland": true,
+      "forStranded": true,
+      "wormLimitAlert": true,
+      "manualResetTimer": 0,
+      "alertTime": 330,
+      "pos": {
+        "x": 10,
+        "y": 10,
+        "scale": 0.0,
+        "center": false,
+        "centerX": false,
+        "centerY": true
+      }
+    },
+    "chumBucketHider": {
+      "enabled": true,
+      "hideBucket": false,
+      "hideOwn": false
+    },
+    "fishedItemName": {
+      "enabled": true,
+      "showBaits": false
+    },
+    "fishingHookDisplay": {
+      "enabled": true,
+      "customAlertText": "\u0026c\u0026l!!!",
+      "hideArmorStand": true,
+      "position": {
+        "x": 460,
+        "y": -240,
+        "scale": 3.4,
+        "center": false,
+        "centerX": false,
+        "centerY": true
+      }
+    },
+    "fishingBaitWarnings": {
+      "baitChangeWarning": false,
+      "noBaitWarning": false
+    },
+    "rareCatches": {
+      "alertOwnCatches": true,
+      "alertOtherCatches": false,
+      "playSound": true,
+      "highlight": false
+    },
+    "fishingProfitTracker": {
+      "enabled": false,
+      "position": {
+        "x": 20,
+        "y": 20,
+        "scale": 1.0,
+        "center": false,
+        "centerX": false,
+        "centerY": true
+      },
+      "showWhenPickup": true
+    },
+    "totemOfCorruption": {
+      "showOverlay": true,
+      "distanceThreshold": 16,
+      "hideParticles": true,
+      "outlineType": "FILLED",
+      "color": "0:153:18:159:85",
+      "warnWhenAboutToExpire": 5,
+      "position": {
+        "x": 50,
+        "y": 20,
+        "scale": 1.0,
+        "center": false,
+        "centerX": false,
+        "centerY": true
+      }
+    },
+    "seaCreatureTracker": {
+      "enabled": false,
+      "position": {
+        "x": 20,
+        "y": 20,
+        "scale": 1.0,
+        "center": false,
+        "centerX": false,
+        "centerY": true
+      },
+      "showPercentage": false,
+      "hideChat": false,
+      "countDouble": true
+    },
+    "sharkFishCounter": false,
+    "sharkFishCounterPos": {
+      "x": 10,
+      "y": 10,
+      "scale": 0.0,
+      "center": false,
+      "centerX": false,
+      "centerY": true
+    },
+    "shortenFishingMessage": false,
+    "compactDoubleHook": true
+  },
+  "mining": {
+    "miningEvent": {
+      "enabled": false,
+      "outsideMining": false,
+      "showType": "ALL",
+      "compressedFormat": false,
+      "passedEvents": false,
+      "position": {
+        "x": 200,
+        "y": 60,
+        "scale": 1.0,
+        "center": false,
+        "centerX": false,
+        "centerY": true
+      }
+    },
+    "powderTracker": {
+      "enabled": false,
+      "onlyWhenPowderGrinding": false,
+      "greatExplorerMaxed": false,
+      "textFormat": [
+        "TOTAL_CHESTS",
+        "DOUBLE_POWDER",
+        "MITHRIL_POWDER",
+        "GEMSTONE_POWDER",
+        "SPACER_1",
+        "DIAMOND_ESSENCE",
+        "GOLD_ESSENCE",
+        "SPACER_2",
+        "RUBY",
+        "SAPPHIRE",
+        "AMBER",
+        "AMETHYST",
+        "JADE",
+        "TOPAZ",
+        "FTX",
+        "ELECTRON",
+        "ROBOTRON"
+      ],
+      "position": {
+        "x": -274,
+        "y": 0,
+        "scale": 1.0,
+        "center": false,
+        "centerX": false,
+        "centerY": true
+      }
+    },
+    "kingTalisman": {
+      "enabled": false,
+      "outsideMines": false,
+      "position": {
+        "x": -400,
+        "y": 220,
+        "scale": 1.0,
+        "center": false,
+        "centerX": false,
+        "centerY": true
+      }
+    },
+    "deepCavernsGuide": {
+      "enabled": true,
+      "lookAhead": 3,
+      "rainbowColor": true,
+      "monochromeColor": "0:60:0:0:255"
+    },
+    "crystalHollowsAreaWalls": {
+      "enabled": false,
+      "nucleus": false
+    },
+    "coldOverlay": {
+      "enabled": false,
+      "coldThreshold": 25,
+      "maxAlpha": 100.0
+    },
+    "fossilExcavator": {
+      "solver": {
+        "enabled": true,
+        "showPercentage": true,
+        "position": {
+          "x": 183,
+          "y": 212,
+          "scale": 1.0,
+          "center": false,
+          "centerX": false,
+          "centerY": true
+        }
+      },
+      "profitTracker": {
+        "enabled": true,
+        "trackGlacitePowder": true,
+        "showFossilDust": true,
+        "position": {
+          "x": -380,
+          "y": 150,
+          "scale": 1.0,
+          "center": false,
+          "centerX": false,
+          "centerY": true
+        }
+      },
+      "profitPerExcavation": false,
+      "glacitePowderStack": false
+    },
+    "notifications": {
+      "enabled": false,
+      "notifications": [
+        "MINESHAFT_SPAWN",
+        "SCRAP",
+        "COLD",
+        "GOLDEN_GOBLIN",
+        "DIAMOND_GOBLIN"
+      ],
+      "playSound": true,
+      "coldThreshold": 50,
+      "getAscensionRope": true
+    },
+    "tunnelMaps": {
+      "enable": true,
+      "autoCommission": false,
+      "campfireKey": 0,
+      "travelScroll": false,
+      "nextSpotHotkey": 0,
+      "dynamicPathColour": true,
+      "pathColour": "0:255:0:255:0",
+      "textSize": 1.0,
+      "pathWidth": 4.0,
+      "distanceFirst": false,
+      "compactGemstone": false,
+      "excludeFairy": false
+    },
+    "commissionsBlocksColor": {
+      "enabled": false,
+      "sneakQuickToggle": false,
+      "color": "GREEN"
+    },
+    "mineshaft": {
+      "profitPerCorpseLoot": true
+    },
+    "highlightCommissionMobs": false,
+    "crystalHollowsNamesInCore": false,
+    "privateIslandNoPickaxeAbility": false,
+    "highlightYourGoldenGoblin": true
+  },
+  "combat": {
+    "damageIndicator": {
+      "enabled": false,
+      "healingMessage": false,
+      "bossName": "FULL_NAME",
+      "bossesToShow": [
+        "NETHER_MINI_BOSSES",
+        "VANQUISHER",
+        "REVENANT_HORROR",
+        "TARANTULA_BROODFATHER",
+        "SVEN_PACKMASTER",
+        "VOIDGLOOM_SERAPH",
+        "INFERNO_DEMONLORD",
+        "DIANA_MOBS",
+        "SEA_CREATURES",
+        "ARACHNE"
+      ],
+      "hideDamageSplash": false,
+      "showDamageOverTime": false,
+      "hideVanillaNametag": false,
+      "timeToKillSlayer": true,
+      "enderSlayer": {
+        "laserPhaseTimer": false,
+        "showHealthDuringLaser": false
+      },
+      "vampireSlayer": {
+        "hpTillSteak": false,
+        "maniaCircles": false,
+        "percentage": false
+      }
+    },
+    "ghostCounter": {
+      "enabled": true,
+      "ghostDisplayText": [
+        "TITLE",
+        "GHOSTS_KILLED",
+        "SORROW",
+        "GHOST_SINCE_SORROW",
+        "GHOST_PER_SORROW",
+        "AVG_MAGIC_FIND",
+        "SCAVENGER_COINS",
+        "KILL_COMBO",
+        "HIGHEST_KILL_COMBO"
+      ],
+      "textFormatting": {
+        "titleFormat": "\u00266Ghost Counter",
+        "ghostKilledFormat": "  \u00266Ghost Killed: \u0026b%value% \u00267(%session%)",
+        "sorrowsFormat": "  \u00266Sorrow: \u0026b%value% \u00267(%session%)",
+        "ghostSinceSorrowFormat": "  \u00266Ghost since Sorrow: \u0026b%value%",
+        "ghostKillPerSorrowFormat": "  \u00266Ghosts/Sorrow: \u0026b%value%",
+        "voltasFormat": "  \u00266Voltas: \u0026b%value% \u00267(%session%)",
+        "plasmasFormat": "  \u00266Plasmas: \u0026b%value% \u00267(%session%)",
+        "ghostlyBootsFormat": "  \u00266Ghostly Boots: \u0026b%value% \u00267(%session%)",
+        "bagOfCashFormat": "  \u00266Bag Of Cash: \u0026b%value% \u00267(%session%)",
+        "avgMagicFindFormat": "  \u00266Avg Magic Find: \u0026b%value%",
+        "scavengerCoinsFormat": "  \u00266Scavenger Coins: \u0026b%value% \u00267(%session%)",
+        "killComboFormat": "  \u00266Kill Combo: \u0026b%value%",
+        "highestKillComboFormat": "  \u00266Highest Kill Combo: \u0026b%value% \u00267(%session%)",
+        "skillXPGainFormat": "  \u00266Skill XP Gained: \u0026b%value% \u00267(%session%)",
+        "bestiaryFormatting": {
+          "base": "  \u00266Bestiary %display%: \u0026b%value%",
+          "openMenu": "§cOpen Bestiary Menu !",
+          "maxed": "%currentKill% (\u0026c\u0026lMaxed!)",
+          "showMax_progress": "%currentKill%/3M (%percentNumber%%)",
+          "progress": "%currentKill%/%killNeeded%"
+        },
+        "xpHourFormatting": {
+          "base": "  \u00266XP/h: \u0026b%value%",
+          "noData": "\u0026bN/A",
+          "paused": "\u0026c(PAUSED)"
+        },
+        "etaFormatting": {
+          "base": "  \u00266ETA: \u0026b%value%",
+          "maxed": "\u0026c\u0026lMAXED!",
+          "noData": "\u0026bN/A",
+          "progress": "\u0026b%value%",
+          "paused": "\u0026c(PAUSED)",
+          "time": "\u00266%days%%hours%%minutes%%seconds%"
+        },
+        "killHourFormatting": {
+          "base": "  \u00266Kill/h: \u0026b%value%",
+          "noData": "\u0026bN/A",
+          "paused": "\u0026c(PAUSED)"
+        },
+        "moneyHourFormat": "  \u00266$/h: \u0026b%value%",
+        "moneyMadeFormat": "  \u00266Money made: \u0026b%value%"
+      },
+      "extraSpace": 1,
+      "pauseTimer": 3,
+      "onlyOnMist": true,
+      "showMax": false,
+      "position": {
+        "x": 50,
+        "y": 50,
+        "scale": 0.0,
+        "center": false,
+        "centerX": false,
+        "centerY": true
+      }
+    },
+    "quiverConfig": {
+      "quiverDisplay": {
+        "enabled": true,
+        "quiverDisplayPos": {
+          "x": -208,
+          "y": -49,
+          "scale": 1.0,
+          "center": false,
+          "centerX": false,
+          "centerY": false
+        },
+        "showIcon": true,
+        "whenToShow": "ONLY_BOW_HAND"
+      },
+      "lowQuiverNotification": true,
+      "reminderAfterRun": true,
+      "lowQuiverAmount": 100
+    },
+    "summonings": {
+      "summoningSoulDisplay": false,
+      "summoningMobDisplay": false,
+      "summoningMobDisplayPos": {
+        "x": 10,
+        "y": 10,
+        "scale": 0.0,
+        "center": false,
+        "centerX": false,
+        "centerY": true
+      },
+      "summoningMobHideNametag": false,
+      "summoningMobColored": false
+    },
+    "mobs": {
+      "areaBossHighlight": true,
+      "arachneKeeperHighlight": true,
+      "corleoneHighlighter": true,
+      "zealotBruiserHighlighter": false,
+      "chestZealotHighlighter": false,
+      "specialZealotHighlighter": true,
+      "corruptedMobHighlight": false,
+      "arachneBossHighlighter": true,
+      "areaBossRespawnTimer": false,
+      "showArachneSpawnTimer": true,
+      "endermanTeleportationHider": true,
+      "hideNameTagArachneMinis": true
+    },
+    "bestiary": {
+      "enabled": false,
+      "numberFormat": "SHORT",
+      "displayType": "GLOBAL_MAX",
+      "hideMaxed": false,
+      "replaceRoman": false,
+      "position": {
+        "x": 100,
+        "y": 100,
+        "scale": 1.0,
+        "center": false,
+        "centerX": false,
+        "centerY": true
+      }
+    },
+    "enderNodeTracker": {
+      "enabled": false,
+      "onlyPickaxe": false,
+      "textFormat": [
+        "TITLE",
+        "NODES_MINED",
+        "COINS_MADE",
+        "SPACER_1",
+        "ENDERMITE_NEST",
+        "ENCHANTED_END_STONE",
+        "ENCHANTED_OBSIDIAN",
+        "ENCHANTED_ENDER_PEARL",
+        "GRAND_XP_BOTTLE",
+        "TITANIC_XP_BOTTLE",
+        "MAGICAL_RUNE_I",
+        "MITE_GEL",
+        "SHRIMP_THE_FISH",
+        "SPACER_2",
+        "ENDER_ARMOR",
+        "ENDERMAN_PET"
+      ],
+      "position": {
+        "x": 10,
+        "y": 80,
+        "scale": 1.0,
+        "center": false,
+        "centerX": false,
+        "centerY": true
+      }
+    },
+    "ferocityDisplay": {
+      "enabled": false,
+      "position": {
+        "x": 10,
+        "y": 80,
+        "scale": 1.0,
+        "center": false,
+        "centerX": false,
+        "centerY": true
+      }
+    },
+    "hideDamageSplash": false
+  },
+  "slayer": {
+    "endermen": {
+      "beacon": {
+        "highlightBeacon": true,
+        "beaconColor": "0:255:255:0:88",
+        "showWarning": false,
+        "showLine": false,
+        "lineColor": "0:255:255:0:88",
+        "lineWidth": 3
+      },
+      "highlightNukekebi": false,
+      "phaseDisplay": false,
+      "hideParticles": false
+    },
+    "blazes": {
+      "hellion": {
+        "coloredMobs": false,
+        "daggers": false,
+        "markRightHellionShield": false,
+        "firstDagger": "SPIRIT_OR_CRYSTAL",
+        "hideDaggerWarning": false,
+        "positionTop": {
+          "x": -475,
+          "y": 173,
+          "scale": 4.4,
+          "center": true,
+          "centerX": false,
+          "centerY": true
+        },
+        "positionBottom": {
+          "x": -475,
+          "y": 230,
+          "scale": 3.2,
+          "center": true,
+          "centerX": false,
+          "centerY": true
+        }
+      },
+      "firePitsWarning": false,
+      "phaseDisplay": false,
+      "clearView": false,
+      "firePillarDisplay": false,
+      "firePillarDisplayPosition": {
+        "x": 400,
+        "y": -150,
+        "scale": 3.0,
+        "center": false,
+        "centerX": false,
+        "centerY": true
+      }
+    },
+    "vampire": {
+      "ownBoss": {
+        "highlight": true,
+        "highlightColor": "0:249:0:255:88",
+        "steakAlert": true,
+        "twinClawsTitle": true
+      },
+      "othersBoss": {
+        "highlight": true,
+        "highlightColor": "0:249:0:255:88",
+        "steakAlert": true,
+        "twinClawsTitle": true
+      },
+      "coopBoss": {
+        "highlight": true,
+        "highlightColor": "0:249:0:255:88",
+        "coopMembers": "",
+        "steakAlert": true,
+        "twinClawsTitle": true
+      },
+      "withAlpha": 80,
+      "seeThrough": false,
+      "changeColorWhenCanSteak": true,
+      "steakColor": "0:255:255:0:88",
+      "twinclawsDelay": 0,
+      "drawLine": false,
+      "lineColor": "0:255:255:0:88",
+      "lineWidth": 1,
+      "bloodIchor": {
+        "highlight": false,
+        "renderBeam": true,
+        "color": "0:199:100:0:88",
+        "showLines": false,
+        "linesColor": "0:255:255:13:0"
+      },
+      "killerSpring": {
+        "highlight": false,
+        "color": "0:199:100:0:88",
+        "showLines": false,
+        "linesColor": "0:255:255:13:0"
+      }
+    },
+    "itemProfitTracker": {
+      "enabled": true,
+      "pos": {
+        "x": 20,
+        "y": 20,
+        "scale": 0.0,
+        "center": false,
+        "centerX": false,
+        "centerY": true
+      }
+    },
+    "itemsOnGround": {
+      "enabled": true,
+      "minimumPrice": 50000
+    },
+    "rngMeterDisplay": {
+      "enabled": true,
+      "warnEmpty": false,
+      "hideChat": true,
+      "pos": {
+        "x": -185,
+        "y": 14,
+        "scale": 0.0,
+        "center": false,
+        "centerX": false,
+        "centerY": true
+      }
+    },
+    "slayerBossWarning": {
+      "enabled": false,
+      "percent": 80,
+      "repeat": false
+    },
+    "slayerMinibossHighlight": false,
+    "slayerMinibossLine": false,
+    "hideMobNames": false,
+    "questWarning": true,
+    "questWarningTitle": true
+  },
+  "dungeon": {
+    "highlightClickedBlocks": false,
+    "showMilestonesDisplay": false,
+    "showMileStonesDisplayPos": {
+      "x": 10,
+      "y": 10,
+      "scale": 0.0,
+      "center": false,
+      "centerX": false,
+      "centerY": true
+    },
+    "deathCounterDisplay": false,
+    "deathCounterPos": {
+      "x": 10,
+      "y": 10,
+      "scale": 0.0,
+      "center": false,
+      "centerX": false,
+      "centerY": true
+    },
+    "cleanEnd": {
+      "enabled": false,
+      "F3IgnoreGuardians": false
+    },
+    "damageSplashBoss": false,
+    "highlightDeathmites": true,
+    "highlightTeammates": true,
+    "architectNotifier": true,
+    "objectHider": {
+      "hideSuperboomTNT": false,
+      "hideBlessing": false,
+      "hideReviveStone": false,
+      "hidePremiumFlesh": false,
+      "hideJournalEntry": false,
+      "hideSkeletonSkull": true,
+      "hideHealerOrbs": false,
+      "hideHealerFairy": false,
+      "hideSoulweaverSkulls": false
+    },
+    "messageFilter": {
+      "keysAndDoors": false,
+      "soloClass": false,
+      "soloStats": false,
+      "fairy": false
+    },
+    "dungeonCopilot": {
+      "enabled": false,
+      "pos": {
+        "x": 10,
+        "y": 10,
+        "scale": 0.0,
+        "center": false,
+        "centerX": false,
+        "centerY": true
+      }
+    },
+    "partyFinder": {
+      "coloredClassLevel": true,
+      "floorAsStackSize": true,
+      "markPaidCarries": true,
+      "markNonPugs": true,
+      "markBelowClassLevel": 0,
+      "markIneligibleGroups": true,
+      "markMissingClass": true,
+      "showMissingClasses": true
+    },
+    "tabList": {
+      "coloredClassLevel": true
+    },
+    "lividFinder": {
+      "enabled": false,
+      "hideWrong": false
+    },
+    "terracottaPhase": {
+      "hideParticles": false,
+      "hideDamageSplash": false
+    },
+    "highlightSkeletonSkull": true,
+    "chest": {
+      "showUsedKismets": true,
+      "kismetStackSize": true
+    },
+    "croesusUnopenedChestTracker": true,
+    "shadowAssassinJumpNotifier": false,
+    "dungeonsRaceGuide": {
+      "enabled": true,
+      "lookAhead": 3,
+      "rainbowColor": true,
+      "monochromeColor": "0:60:0:0:255"
+    }
+  },
+  "inventory": {
+    "skyblockGuideConfig": {
+      "menuGuide": true,
+      "collectionGuide": false,
+      "abiphoneGuide": true,
+      "minionGuide": true,
+      "essenceGuide": false,
+      "consumableGuide": true,
+      "jacobGuide": true,
+      "storyGuide": true,
+      "oneTimeCompletion": true
+    },
+    "auctions": {
+      "auctionsPriceComparison": {
+        "enabled": false,
+        "good": "0:255:85:255:85",
+        "veryGood": "0:255:0:139:0",
+        "bad": "0:255:255:255:85",
+        "veryBad": "0:255:225:43:30"
+      },
+      "highlightAuctions": true,
+      "highlightAuctionsUnderbid": false,
+      "autoCopyUnderbidPrice": false,
+      "copyUnderbidKeybind": 0,
+      "openPriceWebsite": false
+    },
+    "bazaar": {
+      "purchaseHelper": true,
+      "orderHelper": false,
+      "bestSellMethod": false,
+      "bestSellMethodPos": {
+        "x": 394,
+        "y": 142,
+        "scale": 0.0,
+        "center": false,
+        "centerX": false,
+        "centerY": true
+      },
+      "cancelledBuyOrderClipboard": false,
+      "openPriceWebsite": false,
+      "maxPurseItems": false,
+      "maxPurseItemsPosition": {
+        "x": 346,
+        "y": 90,
+        "scale": 1.0,
+        "center": false,
+        "centerX": true,
+        "centerY": false
+      },
+      "craftMaterialsFromBazaar": false,
+      "craftMaterialsFromBazaarPosition": {
+        "x": 50,
+        "y": 50,
+        "scale": 1.0,
+        "center": false,
+        "centerX": true,
+        "centerY": false
+      }
+    },
+    "enchantParsing": {
+      "colorParsing": true,
+      "format": "NORMAL",
+      "perfectEnchantColor": "CHROMA",
+      "greatEnchantColor": "GOLD",
+      "goodEnchantColor": "BLUE",
+      "poorEnchantColor": "GRAY",
+      "commaFormat": "COPY_ENCHANT",
+      "hideVanillaEnchants": true,
+      "hideEnchantDescriptions": false
+    },
+    "helper": {
+      "harp": {
+        "guiScale": false,
+        "quickRestart": false,
+        "keybinds": false,
+        "showNumbers": false,
+        "hideMelodyTooltip": false,
+        "harpKeybinds": {
+          "key1": 2,
+          "key2": 3,
+          "key3": 4,
+          "key4": 5,
+          "key5": 6,
+          "key6": 7,
+          "key7": 8
+        }
+      },
+      "tiaRelay": {
+        "soundHelper": true,
+        "nextWaypoint": true,
+        "allWaypoints": false,
+        "tiaRelayMute": true
+      }
+    },
+    "itemAbilities": {
+      "itemAbilityCooldown": true,
+      "itemAbilityCooldownBackground": true,
+      "itemAbilityShowWhenReady": true,
+      "fireVeilWands": {
+        "display": "LINE",
+        "displayColor": "255:245:255:85:85"
+      },
+      "chickenHead": {
+        "displayTimer": false,
+        "position": {
+          "x": -372,
+          "y": 73,
+          "scale": 0.0,
+          "center": false,
+          "centerX": false,
+          "centerY": true
+        },
+        "hideChat": true
+      },
+      "depletedBonzosMasks": false
+    },
+    "chocolateFactory": {
+      "enabled": true,
+      "statsDisplay": true,
+      "statsDisplayList": [
+        "HEADER",
+        "CURRENT",
+        "THIS_PRESTIGE",
+        "ALL_TIME",
+        "TIME_TO_PRESTIGE",
+        "EMPTY",
+        "PER_SECOND",
+        "PER_MINUTE",
+        "PER_HOUR",
+        "PER_DAY",
+        "EMPTY_2",
+        "MULTIPLIER",
+        "BARN",
+        "TIME_TOWER",
+        "TIME_TOWER_FULL",
+        "LEADERBOARD_POS",
+        "TIME_TO_BEST_UPGRADE"
+      ],
+      "showStackSizes": true,
+      "highlightUpgrades": true,
+      "useMiddleClick": true,
+      "rabbitWarning": true,
+      "barnCapacityThreshold": 6,
+      "rabbitCrushOnlyDuringHoppity": false,
+      "extraTooltipStats": true,
+      "showDuplicateTime": false,
+      "timeTowerWarning": false,
+      "timeTowerReminder": true,
+      "chocolateUpgradeWarnings": {
+        "upgradeWarning": false,
+        "upgradeWarningSound": false,
+        "timeBetweenWarnings": 1.0
+      },
+      "position": {
+        "x": 163,
+        "y": 160,
+        "scale": 1.0,
+        "center": false,
+        "centerX": false,
+        "centerY": true
+      },
+      "compactOnClick": true,
+      "compactOnClickAlways": false,
+      "tooltipMove": false,
+      "tooltipMovePosition": {
+        "x": -380,
+        "y": 150,
+        "scale": 1.0,
+        "center": false,
+        "centerX": false,
+        "centerY": true
+      },
+      "hoppityCollectionStats": true,
+      "hoppityStatsPosition": {
+        "x": 163,
+        "y": 160,
+        "scale": 1.0,
+        "center": false,
+        "centerX": false,
+        "centerY": true
+      },
+      "leaderboardChange": false,
+      "hoppityMenuShortcut": true,
+      "chocolateShopPrice": {
+        "enabled": true,
+        "position": {
+          "x": 200,
+          "y": 150,
+          "scale": 1.0,
+          "center": false,
+          "centerX": false,
+          "centerY": true
+        },
+        "itemScale": 0.6
+      },
+      "keybinds": {
+        "enabled": false,
+        "key1": 2,
+        "key2": 3,
+        "key3": 4,
+        "key4": 5,
+        "key5": 6
+      },
+      "customReminder": {
+        "enabled": false,
+        "always": false,
+        "hideChat": true,
+        "position": {
+          "x": 390,
+          "y": 90,
+          "scale": 1.0,
+          "center": true,
+          "centerX": false,
+          "centerY": true
+        }
+      }
+    },
+    "hideNotClickable": {
+      "items": false,
+      "itemsBlockClicks": true,
+      "opacity": 180,
+      "itemsBypass": true,
+      "itemsGreenLine": true
+    },
+    "rngMeter": {
+      "floorName": false,
+      "noDrop": false,
+      "selectedDrop": false
+    },
+    "statsTuning": {
+      "selectedStats": true,
+      "points": true,
+      "selectedTemplate": true,
+      "templateStats": true
+    },
+    "jacobFarmingContests": {
+      "highlightRewards": true,
+      "realTime": true,
+      "openOnElite": 0,
+      "medalIcon": true,
+      "finneganIcon": true
+    },
+    "sackDisplay": {
+      "enabled": true,
+      "highlightFull": true,
+      "numberFormat": "FORMATTED",
+      "alignment": "LEFT",
+      "extraSpace": 1,
+      "sortingType": "DESC_STORED",
+      "itemToShow": 15,
+      "showEmpty": true,
+      "showPrice": true,
+      "priceFormat": "FORMATTED",
+      "priceFrom": "BAZAAR",
+      "position": {
+        "x": 144,
+        "y": 139,
+        "scale": 0.0,
+        "center": false,
+        "centerX": false,
+        "centerY": true
+      }
+    },
+    "estimatedItemValues": {
+      "enabled": false,
+      "hotkey": 0,
+      "alwaysEnabled": true,
+      "enchantmentsCap": 7,
+      "exactPrice": false,
+      "armor": true,
+      "ignoreHelmetSkins": false,
+      "ignoreArmorDyes": false,
+      "ignoreRunes": false,
+      "itemPriceDataPos": {
+        "x": 140,
+        "y": 90,
+        "scale": 0.0,
+        "center": false,
+        "centerX": false,
+        "centerY": true
+      }
+    },
+    "chestValueConfig": {
+      "enabled": false,
+      "enableInDungeons": false,
+      "showDuringEstimatedItemValue": false,
+      "showStacks": true,
+      "alignedDisplay": true,
+      "nameLength": 100,
+      "enableHighlight": true,
+      "sortingType": "DESCENDING",
+      "formatType": "SHORT",
+      "itemToShow": 15,
+      "hideBelow": 100000,
+      "position": {
+        "x": 107,
+        "y": 141,
+        "scale": 1.0,
+        "center": false,
+        "centerX": false,
+        "centerY": true
+      }
+    },
+    "gfs": {
+      "queuedGFS": true,
+      "bazaarGFS": false,
+      "superCraftGFS": true
+    },
+    "pocketSackInASack": {
+      "showOverlay": false,
+      "replaceLore": true
+    },
+    "itemNumberAsStackSize": [
+      "NEW_YEAR_CAKE",
+      "SKILL_LEVEL",
+      "RANCHERS_BOOTS_SPEED"
+    ],
+    "highlightWidgets": true,
+    "vacuumBagCap": true,
+    "quickCraftingConfirmation": false,
+    "displaySackName": false,
+    "anvilCombineHelper": false,
+    "itemStars": false,
+    "highlightMissingSkyBlockLevelGuide": true,
+    "powerStoneGuide": true,
+    "shiftClickForEquipment": false,
+    "shiftClickNPCSell": false,
+    "shiftClickBrewing": false
+  },
+  "event": {
+    "bingo": {
+      "bingoCard": {
+        "enabled": true,
+        "quickToggle": true,
+        "stepHelper": false,
+        "hideCommunityGoals": false,
+        "bingoSplashGuide": true,
+        "bingoCardPos": {
+          "x": 10,
+          "y": 10,
+          "scale": 0.0,
+          "center": false,
+          "centerX": false,
+          "centerY": true
+        },
+        "nextTipDuration": true,
+        "hideDoneDifficulty": true,
+        "communityGoalProgress": true
+      },
+      "compactChat": {
+        "enabled": true,
+        "hideBorder": true,
+        "outsideBingo": false
+      },
+      "minionCraftHelperEnabled": true,
+      "minionCraftHelperProgressFirst": false,
+      "minionCraftHelperPos": {
+        "x": 10,
+        "y": 10,
+        "scale": 0.0,
+        "center": false,
+        "centerX": false,
+        "centerY": true
+      }
+    },
+    "diana": {
+      "highlightInquisitors": true,
+      "color": "0:127:85:255:255",
+      "burrowsSoopyGuess": false,
+      "burrowsNearbyDetection": false,
+      "lineToNext": true,
+      "burrowNearestWarp": false,
+      "keyBindWarp": 0,
+      "ignoredWarps": {
+        "crypt": false,
+        "wizard": false
+      },
+      "inquisitorSharing": {
+        "enabled": true,
+        "focusInquisitor": false,
+        "instantShare": true,
+        "keyBindShare": 21,
+        "showDespawnTime": true,
+        "globalChat": false
+      },
+      "petWarning": false,
+      "dianaProfitTracker": {
+        "enabled": false,
+        "position": {
+          "x": 20,
+          "y": 20,
+          "scale": 1.0,
+          "center": false,
+          "centerX": false,
+          "centerY": true
+        }
+      },
+      "mythologicalMobtracker": {
+        "enabled": false,
+        "position": {
+          "x": 20,
+          "y": 20,
+          "scale": 1.0,
+          "center": false,
+          "centerX": false,
+          "centerY": true
+        },
+        "showPercentage": false,
+        "hideChat": false
+      },
+      "allBurrowsList": {
+        "save": true,
+        "showAll": false
+      }
+    },
+    "winter": {
+      "frozenTreasureTracker": {
+        "enabled": true,
+        "textFormat": [
+          "TITLE",
+          "TREASURES_MINED",
+          "TOTAL_ICE",
+          "ICE_PER_HOUR",
+          "COMPACT_PROCS",
+          "SPACER_1",
+          "WHITE_GIFT",
+          "GREEN_GIFT",
+          "RED_GIFT",
+          "ENCHANTED_ICE",
+          "ENCHANTED_PACKED_ICE",
+          "GLACIAL_FRAGMENT",
+          "GLACIAL_TALISMAN"
+        ],
+        "onlyInCave": true,
+        "showAsDrops": false,
+        "hideMessages": false,
+        "position": {
+          "x": 10,
+          "y": 80,
+          "scale": 0.0,
+          "center": false,
+          "centerX": false,
+          "centerY": true
+        }
+      },
+      "giftingOpportunities": {
+        "enabled": true,
+        "highlighWithGiftOnly": true,
+        "useArmorStandDetection": false
+      },
+      "uniqueGiftCounter": {
+        "enabled": true,
+        "position": {
+          "x": 100,
+          "y": 100,
+          "scale": 1.0,
+          "center": false,
+          "centerX": false,
+          "centerY": true
+        }
+      },
+      "jyrreTimer": {
+        "enabled": false,
+        "showInactive": true,
+        "pos": {
+          "x": 390,
+          "y": 65,
+          "scale": 1.0,
+          "center": false,
+          "centerX": false,
+          "centerY": true
+        }
+      },
+      "islandCloseTime": true,
+      "islandCloseTimePosition": {
+        "x": 10,
+        "y": 10,
+        "scale": 1.0,
+        "center": false,
+        "centerX": false,
+        "centerY": true
+      },
+      "newYearCakeReminder": true
+    },
+    "hoppityEggs": {
+      "waypoints": true,
+      "waypointsImmediately": false,
+      "showLine": false,
+      "showAllWaypoints": false,
+      "showClaimedEggs": false,
+      "warnUnclaimedEggs": false,
+      "warpUnclaimedEggs": false,
+      "warpDestination": "nucleus",
+      "showDuringContest": false,
+      "sharedWaypoints": true,
+      "playerOpacity": 40,
+      "position": {
+        "x": 200,
+        "y": 120,
+        "scale": 1.0,
+        "center": false,
+        "centerX": false,
+        "centerY": true
+      },
+      "highlightHoppityShop": true,
+      "timeInChat": true
+    },
+    "cityProject": {
+      "showMaterials": true,
+      "showReady": true,
+      "dailyReminder": true,
+      "pos": {
+        "x": 150,
+        "y": 150,
+        "scale": 0.0,
+        "center": false,
+        "centerX": false,
+        "centerY": true
+      }
+    },
+    "jerry": {
+      "highlightJerries": true
+    },
+    "spook": {
+      "primalFearTimer": false,
+      "primalFearNotification": false,
+      "positionTimer": {
+        "x": 20,
+        "y": 20,
+        "scale": 1.0,
+        "center": false,
+        "centerX": false,
+        "centerY": true
+      },
+      "fearStatDisplay": false,
+      "positionFear": {
+        "x": 30,
+        "y": 30,
+        "scale": 1.0,
+        "center": false,
+        "centerX": false,
+        "centerY": true
+      },
+      "greatSpookTimeLeft": false,
+      "positionTimeLeft": {
+        "x": 40,
+        "y": 40,
+        "scale": 1.0,
+        "center": false,
+        "centerX": false,
+        "centerY": true
+      }
+    },
+    "century": {
+      "enableActiveTimer": true,
+      "activeTimerPosition": {
+        "x": 100,
+        "y": 100,
+        "scale": 1.0,
+        "center": false,
+        "centerX": false,
+        "centerY": true
+      },
+      "enableActiveAlert": false
+    },
+    "lobbyWaypoints": {
+      "easterEgg": {
+        "allWaypoints": false,
+        "allEntranceWaypoints": false,
+        "onlyClosest": true
+      },
+      "halloweenBasket": {
+        "allWaypoints": false,
+        "allEntranceWaypoints": false,
+        "onlyClosest": true
+      },
+      "christmasPresent": {
+        "allWaypoints": false,
+        "allEntranceWaypoints": false,
+        "onlyClosest": false
+      }
+    }
+  },
+  "skillProgress": {
+    "enabled": false,
+    "textAlignmentProperty": "CENTERED",
+    "hideInActionBar": false,
+    "alwaysShow": false,
+    "showActionLeft": false,
+    "usePercentage": false,
+    "useIcon": true,
+    "useSkillName": false,
+    "showLevel": true,
+    "skillProgressBarConfig": {
+      "enabled": false,
+      "useTexturedBar": false,
+      "useChroma": false,
+      "barStartColor": "0:255:255:0:0",
+      "texturedBar": {
+        "usedTexture": "MATCH_PACK",
+        "width": 182,
+        "height": 5
+      },
+      "regularBar": {
+        "width": 182,
+        "height": 6
+      }
+    },
+    "overflowConfig": {
+      "enableInDisplay": false,
+      "enableInAllDisplay": false,
+      "enableInEtaDisplay": false,
+      "enableInProgressBar": false,
+      "enableInSkillMenuAsStackSize": false,
+      "enableInSkillMenuTooltip": false,
+      "enableInChat": false
+    },
+    "customGoalConfig": {
+      "enableInDisplay": true,
+      "enableInAllDisplay": false,
+      "enableInETADisplay": false,
+      "enableInProgressBar": true,
+      "enableInSkillMenuTooltip": false,
+      "enableInChat": false
+    },
+    "allSkillDisplayConfig": {
+      "enabled": false,
+      "skillEntryList": [
+        "COMBAT",
+        "FARMING",
+        "FISHING",
+        "MINING",
+        "FORAGING",
+        "ENCHANTING",
+        "ALCHEMY",
+        "CARPENTRY",
+        "TAMING"
+      ]
+    },
+    "skillETADisplayConfig": {
+      "enabled": false,
+      "farmingPauseTime": 3,
+      "miningPauseTime": 3,
+      "combatPauseTime": 30,
+      "foragingPauseTime": 3,
+      "fishingPauseTime": 15
+    },
+    "displayPosition": {
+      "x": 384,
+      "y": -105,
+      "scale": 1.0,
+      "center": false,
+      "centerX": false,
+      "centerY": true
+    },
+    "barPosition": {
+      "x": 384,
+      "y": -87,
+      "scale": 1.0,
+      "center": false,
+      "centerX": false,
+      "centerY": true
+    },
+    "allSkillPosition": {
+      "x": 5,
+      "y": 209,
+      "scale": 1.0,
+      "center": false,
+      "centerX": false,
+      "centerY": true
+    },
+    "etaPosition": {
+      "x": 5,
+      "y": 155,
+      "scale": 1.0,
+      "center": false,
+      "centerX": false,
+      "centerY": true
+    }
+  },
+  "chat": {
+    "peekChat": 44,
+    "filterType": {
+      "hypixelHub": true,
+      "empty": true,
+      "warping": true,
+      "welcome": true,
+      "guildExp": true,
+      "friendJoinLeft": false,
+      "winterGift": false,
+      "powderMining": true,
+      "killCombo": false,
+      "watchDog": true,
+      "profileJoin": true,
+      "fireSale": false,
+      "eventLevelUp": false,
+      "diana": false,
+      "factoryUpgrade": false,
+      "others": false
+    },
+    "playerMessage": {
+      "enable": false,
+      "partsOrder": [
+        "SKYBLOCK_LEVEL",
+        "PRIVATE_ISLAND_RANK",
+        "PRIVATE_ISLAND_GUEST",
+        "PLAYER_NAME",
+        "GUILD_RANK",
+        "EMBLEM"
+      ],
+      "hideLevelBrackets": false,
+      "useLevelColorForName": false,
+      "playerRankHider": false,
+      "ignoreYouTube": false,
+      "chatFilter": false,
+      "sameChatColor": true
+    },
+    "dungeonFilteredMessageTypes": [],
+    "dungeonBossMessages": false,
+    "hideFarDeathMessages": false,
+    "compactPotionMessages": {
+      "enabled": true,
+      "clickableChatMessage": true
+    },
+    "compactBestiaryMessage": true,
+    "hideArachneMessages": false,
+    "hideSacksChange": false,
+    "translator": false,
+    "skyBlockXPInChat": true,
+    "hideJacob": true,
+    "hideSkyMall": true,
+    "petRarityDropMessage": true
+  },
+  "misc": {
+    "pets": {
+      "display": false,
+      "displayPos": {
+        "x": -111,
+        "y": 221,
+        "scale": 0.0,
+        "center": false,
+        "centerX": false,
+        "centerY": true
+      },
+      "petExperienceToolTip": {
+        "petDisplay": true,
+        "showAlways": false,
+        "showGoldenDragonEgg": true
+      },
+      "hideAutopet": false,
+      "petItemDisplay": [
+        "XP_SHARE",
+        "TIER_BOOST"
+      ],
+      "petItemDisplayScale": 0.9
+    },
+    "commands": {
+      "tabComplete": {
+        "warps": true,
+        "islandPlayers": true,
+        "friends": true,
+        "onlyBestFriends": false,
+        "party": true,
+        "vipVisits": true,
+        "gfsSack": true,
+        "partyCommands": true,
+        "viewrecipeItems": true
+      },
+      "betterWiki": {
+        "enabled": false,
+        "sbGuide": false,
+        "useFandom": false,
+        "autoOpenWiki": false,
+        "menuOpenWiki": false,
+        "wikiKeybind": 0
+      },
+      "shortCommands": true,
+      "partyKickReason": true,
+      "replaceWarpIs": false,
+      "viewRecipeLowerCase": true
+    },
+    "partyCommands": {
+      "defaultRequiredTrustLevel": "FRIENDS",
+      "transferCommand": false,
+      "warpCommand": false,
+      "allInviteCommand": false,
+      "showIgnoredReminder": true
+    },
+    "minions": {
+      "nameDisplay": false,
+      "nameOnlyTier": false,
+      "lastClickedMinion": {
+        "display": false,
+        "color": "0:245:85:255:85",
+        "time": 20
+      },
+      "emptiedTime": {
+        "display": false,
+        "distance": 10
+      },
+      "hopperProfitDisplay": true,
+      "xpDisplay": true,
+      "hopperProfitPos": {
+        "x": 10,
+        "y": 10,
+        "scale": 0.0,
+        "center": false,
+        "centerX": false,
+        "centerY": true
+      },
+      "hideMobsNametagNearby": false,
+      "infernoFuelBlocker": false
+    },
+    "stranded": {
+      "highlightPlaceableNpcs": false
+    },
+    "hideArmor2": {
+      "mode": "OFF",
+      "onlyHelmet": false
+    },
+    "potionEffect": {
+      "nonGodPotEffectDisplay": false,
+      "nonGodPotEffectShowMixins": false,
+      "nonGodPotEffectPos": {
+        "x": 10,
+        "y": 10,
+        "scale": 0.0,
+        "center": false,
+        "centerX": false,
+        "centerY": true
+      }
+    },
+    "particleHiders": {
+      "hideBlazeParticles": false,
+      "hideEndermanParticles": false,
+      "hideFireballParticles": true,
+      "hideFireBlockParticles": true,
+      "hideSmokeParticles": false,
+      "hideFarParticles": true,
+      "hideCloseRedstoneParticles": true
+    },
+    "trevorTheTrapper": {
+      "dataTracker": true,
+      "displayType": true,
+      "textFormat": [
+        "TITLE",
+        "QUESTS_STARTED",
+        "TOTAL_PELTS",
+        "PELTS_PER_HOUR",
+        "SPACER_1",
+        "KILLED",
+        "TRACKABLE",
+        "UNTRACKABLE",
+        "UNDETECTED",
+        "ENDANGERED",
+        "ELUSIVE"
+      ],
+      "position": {
+        "x": 10,
+        "y": 80,
+        "scale": 1.0,
+        "center": false,
+        "centerX": false,
+        "centerY": true
+      },
+      "trapperSolver": true,
+      "trapperMobDiedMessage": true,
+      "warpToTrapper": true,
+      "acceptQuest": false,
+      "keyBindWarpTrapper": 210,
+      "trapperTalkCooldown": true,
+      "trapperCooldownGui": false,
+      "trapperCooldownPos": {
+        "x": 10,
+        "y": 10,
+        "scale": 1.0,
+        "center": false,
+        "centerX": false,
+        "centerY": true
+      }
+    },
+    "teleportPad": {
+      "compactName": false,
+      "inventoryNumbers": false
+    },
+    "quickModMenuSwitch": {
+      "enabled": false,
+      "insideEscapeMenu": true,
+      "insidePlayerInventory": false,
+      "pos": {
+        "x": -178,
+        "y": 143,
+        "scale": 0.0,
+        "center": false,
+        "centerX": false,
+        "centerY": true
+      }
+    },
+    "glowingDroppedItems": {
+      "enabled": false,
+      "highlightShowcase": false,
+      "highlightFishingBait": false
+    },
+    "highlightPartyMembers": {
+      "enabled": false,
+      "outlineColor": "0:245:85:255:85"
+    },
+    "kickDuration": {
+      "enabled": true,
+      "warnTime": 60,
+      "position": {
+        "x": 400,
+        "y": 200,
+        "scale": 1.3,
+        "center": false,
+        "centerX": false,
+        "centerY": true
+      }
+    },
+    "tracker": {
+      "hideInEstimatedItemValue": true,
+      "priceFrom": "SELL_OFFER",
+      "defaultDisplayMode": "REMEMBER_LAST",
+      "showRecentDrops": true,
+      "excludeHiddenItemsInPrice": false,
+      "warnings": {
+        "chat": true,
+        "minimumChat": 5000000,
+        "title": true,
+        "minimumTitle": 5000000
+      },
+      "hideCheapItems": {
+        "enabled": true,
+        "alwaysShowBest": 8,
+        "minPrice": 100
+      },
+      "hideItemTrackersOutsideInventory": false
+    },
+    "petCandy": {
+      "showCandy": true,
+      "hideOnMaxed": false
+    },
+    "bits": {
+      "enableWarning": true,
+      "notificationSound": true,
+      "bitsGainChatMessage": true,
+      "threshold": 400
+    },
+    "patcherCoordsWaypoint": {
+      "enabled": false,
+      "color": "0:194:75:197:64",
+      "duration": 60
+    },
+    "showOutsideSB": [],
+    "hideExpBottles": false,
+    "collectionCounterPos": {
+      "x": 10,
+      "y": 10,
+      "scale": 0.0,
+      "center": false,
+      "centerX": false,
+      "centerY": true
+    },
+    "brewingStandOverlay": true,
+    "hideScoreboardNumbers": false,
+    "hidePiggyScoreboard": true,
+    "colorMonthNames": false,
+    "hideExplosions": false,
+    "crystalHollowsJoin": true,
+    "hideFireOverlay": false,
+    "betterSignEditing": true,
+    "playerMovementSpeed": false,
+    "playerMovementSpeedPos": {
+      "x": 394,
+      "y": 124,
+      "scale": 0.0,
+      "center": false,
+      "centerX": false,
+      "centerY": true
+    },
+    "serverRestartTitle": true,
+    "restorePieceOfWizardPortalLore": true,
+    "accountUpgradeReminder": true,
+    "superpairsClicksAlert": false,
+    "fixNeuHeavyPearls": true,
+    "showTimeInLimbo": true,
+    "showTimeInLimboPosition": {
+      "x": 400,
+      "y": 200,
+      "scale": 1.3,
+      "center": false,
+      "centerX": false,
+      "centerY": true
+    },
+    "lesserOrbHider": false,
+    "lockMouseLookChatMessage": true,
+    "lockedMouseDisplay": {
+      "x": 400,
+      "y": 200,
+      "scale": 0.8,
+      "center": false,
+      "centerX": false,
+      "centerY": true
+    },
+    "inventoryLoadPos": {
+      "x": 394,
+      "y": 124,
+      "scale": 0.0,
+      "center": false,
+      "centerX": false,
+      "centerY": true
+    },
+    "fixGhostEntities": true,
+    "replaceRomanNumerals": false,
+    "hideFarEntities": {
+      "enabled": false,
+      "minDistance": 10,
+      "maxAmount": 30,
+      "excludeGarden": false
+    }
+  },
+  "dev": {
+    "repoAutoUpdate": true,
+    "logExpiryTime": 14,
+    "debug": {
+      "enabled": false,
+      "commandLogs": false,
+      "modMenuLog": false,
+      "showInternalName": false,
+      "showEmptyNames": false,
+      "showItemRarity": false,
+      "showItemCategory": false,
+      "showItemName": false,
+      "copyInternalName": 0,
+      "showNpcPrice": false,
+      "showBZPrice": false,
+      "showItemUuid": false,
+      "copyItemData": 0,
+      "copyItemDataCompressed": 0,
+      "copyRngMeter": false,
+      "copyBestiaryData": false,
+      "highlightMissingRepo": false,
+      "hotSwapDetection": false,
+      "alwaysOutdated": false,
+      "eventCounter": false,
+      "bypassAdvancedPlayerTabList": 0,
+      "currentAreaDebug": true,
+      "assumeMayor": "DISABLED",
+      "alwaysFunnyTime": false,
+      "neverFunnyTime": false,
+      "trackSoundPosition": {
+        "x": 0,
+        "y": 0,
+        "scale": 1.0,
+        "center": false,
+        "centerX": false,
+        "centerY": false
+      }
+    },
+    "repoPattern": {
+      "forceLocal": false,
+      "tolerateDuplicateUsage": false,
+      "tolerateLateRegistration": false
+    },
+    "showSlotNumberKey": 0,
+    "worldEdit": false,
+    "waypoint": {
+      "saveKey": 0,
+      "deleteKey": 0,
+      "showPlatformNumber": false,
+      "parkourOutsideSB": false
+    },
+    "debugPos": {
+      "x": 10,
+      "y": 10,
+      "scale": 0.0,
+      "center": false,
+      "centerX": false,
+      "centerY": true
+    },
+    "debugLocationPos": {
+      "x": 1,
+      "y": 160,
+      "scale": 1.0,
+      "center": false,
+      "centerX": false,
+      "centerY": true
+    },
+    "debugItemPos": {
+      "x": 90,
+      "y": 70,
+      "scale": 1.0,
+      "center": false,
+      "centerX": false,
+      "centerY": false
+    },
+    "fancyContributors": true,
+    "flipContributors": true,
+    "rotateContributors": false,
+    "fancySbaContributors": false,
+    "minecraftConsoles": {
+      "printUnfilteredDebugs": false,
+      "logUnfilteredFile": false,
+      "printUnfilteredDebugsOutsideSkyBlock": false,
+      "printFilteredReason": false,
+      "consoleFilter": {
+        "filterChat": false,
+        "filterGrowBuffer": true,
+        "filterUnknownSound": true,
+        "filterScoreboardErrors": true,
+        "filterParticleVillagerHappy": true,
+        "filterOptiFine": true,
+        "filterAmsHelperTransformer": true,
+        "filterAsmHelperApplying": true,
+        "filterBiomeIdBounds": true
+      }
+    },
+    "mobDebug": {
+      "enable": true,
+      "mobDetection": {
+        "logEvents": false,
+        "showRayHit": false,
+        "realPlayerHighlight": false,
+        "displayNPC": "OFF",
+        "skyblockMob": "OFF",
+        "summon": "OFF",
+        "special": "OFF",
+        "showInvisible": false
+      }
+    }
+  },
+  "storage": {
+    "hasPlayedBefore": true,
+    "savedMouselockedSensitivity": 0.5,
+    "savedMouseloweredSensitivity": 0.5,
+    "knownFeatureToggles": {},
+    "modifiedWords": [],
+    "visualWordsImported": false,
+    "contestSendingAsked": false,
+    "trackerDisplayModes": {},
+    "foundDianaBurrowLocations": [],
+    "players": {
+      "edc33d82-40ec-4086-87d3-275d985c4bcb": {
+        "profiles": {
+          "banana": {
+            "currentPet": "§6Mithril Golem",
+            "chocolateFactory": {
+              "currentRabbits": 70,
+              "maxRabbits": 354,
+              "currentChocolate": 2327304,
+              "chocolateThisPrestige": 94095588,
+              "chocolateAllTime": 612830480,
+              "rawChocPerSecond": 1596,
+              "chocolateMultiplier": 1.521,
+              "rawChocolateMultiplier": 1.521,
+              "timeTowerLevel": 1,
+              "currentTimeTowerEnds": 0,
+              "nextTimeTower": 1716185168003,
+              "currentTimeTowerUses": 3,
+              "timeTowerCooldown": 8,
+              "maxTimeTowerUses": 3,
+              "bestUpgradeAvailableAt": 1716153435051,
+              "bestUpgradeCost": 384503,
+              "lastDataSave": 1716154186003,
+              "positionChange": {
+                "lastTime": 1716150419314,
+                "lastPosition": 124882,
+                "lastLeaderboard": "#124 882 §7Top §a10.9%"
+              }
+            },
+            "maxwell": {
+              "currentPower": "Bloody",
+              "magicalPower": 550,
+              "tunings": []
+            },
+            "arrows": {
+              "currentArrow": "ARROW",
+              "arrowAmount": {
+                "ARROW": 1484
+              }
+            },
+            "bits": {
+              "bits": 25740,
+              "bitsAvailable": 0,
+              "boosterCookieExpiryTime": 1716310691370
+            },
+            "minions": {
+              "76.5:64.0:12.5": {
+                "displayName": "Fishing Minion 11",
+                "lastClicked": 0
+              },
+              "56.5:64.0:-3.5": {
+                "displayName": "Slime Minion 10",
+                "lastClicked": 1710079596056
+              },
+              "-61.5:80.0:-61.5": {
+                "displayName": "Snow Minion 11",
+                "lastClicked": 1710079702297
+              },
+              "-61.5:80.0:-66.5": {
+                "displayName": "Snow Minion 11",
+                "lastClicked": 1710079705591
+              },
+              "-61.5:80.0:-71.5": {
+                "displayName": "Snow Minion 11",
+                "lastClicked": 1710079708807
+              },
+              "51.5:64.0:-3.5": {
+                "displayName": "Slime Minion 10",
+                "lastClicked": 1710079515981
+              },
+              "49.5:64.0:-3.5": {
+                "displayName": "Slime Minion 10",
+                "lastClicked": 1710079496899
+              },
+              "48.5:64.0:-3.5": {
+                "displayName": "Slime Minion 10",
+                "lastClicked": 0
+              },
+              "50.5:64.0:-3.5": {
+                "displayName": "Slime Minion 10",
+                "lastClicked": 1710079513429
+              },
+              "53.5:64.0:-3.5": {
+                "displayName": "Slime Minion 10",
+                "lastClicked": 1710079638148
+              },
+              "50.5:64.0:-4.5": {
+                "displayName": "Ghast Minion 9",
+                "lastClicked": 0
+              },
+              "55.5:64.0:-3.5": {
+                "displayName": "Slime Minion 10",
+                "lastClicked": 1710079600708
+              },
+              "54.5:64.0:-3.5": {
+                "displayName": "Slime Minion 10",
+                "lastClicked": 1710079526256
+              },
+              "52.5:64.0:-3.5": {
+                "displayName": "Slime Minion 10",
+                "lastClicked": 1710079521307
+              },
+              "49.5:64.0:-2.5": {
+                "displayName": "Rabbit Minion 8",
+                "lastClicked": 0
+              },
+              "54.5:64.0:-2.5": {
+                "displayName": "Pig Minion 9",
+                "lastClicked": 0
+              },
+              "57.5:64.0:-3.5": {
+                "displayName": "Slime Minion 11",
+                "lastClicked": 1710079598421
+              },
+              "58.5:64.0:-3.5": {
+                "displayName": "Slime Minion 11",
+                "lastClicked": 1703153938994
+              },
+              "59.5:64.0:-3.5": {
+                "displayName": "Slime Minion 11",
+                "lastClicked": 1710079583171
+              },
+              "60.5:64.0:-3.5": {
+                "displayName": "Slime Minion 11",
+                "lastClicked": 1710079581512
+              },
+              "61.5:64.0:-3.5": {
+                "displayName": "Slime Minion 11",
+                "lastClicked": 1703153952232
+              },
+              "62.5:64.0:-3.5": {
+                "displayName": "Slime Minion 11",
+                "lastClicked": 1710079571272
+              },
+              "63.5:64.0:-3.5": {
+                "displayName": "Slime Minion 11",
+                "lastClicked": 1703153955863
+              },
+              "64.5:64.0:-3.5": {
+                "displayName": "Slime Minion 11",
+                "lastClicked": 1710079559845
+              },
+              "65.5:64.0:-3.5": {
+                "displayName": "Slime Minion 11",
+                "lastClicked": 1710079548147
+              },
+              "66.5:64.0:-3.5": {
+                "displayName": "Slime Minion 11",
+                "lastClicked": 1710079545105
+              },
+              "-75.5:80.0:-70.5": {
+                "displayName": "Hard Stone Minion 9",
+                "lastClicked": 0
+              },
+              "47.5:64.0:-3.5": {
+                "displayName": "Slime Minion 10",
+                "lastClicked": 0
+              },
+              "67.5:64.0:-3.5": {
+                "displayName": "Slime Minion 11",
+                "lastClicked": 0
+              }
+            },
+            "crimsonIsle": {
+              "quests": [
+                "Control Rank C:NOT_ACCEPTED:0",
+                "Flyfish:NOT_ACCEPTED:3:0",
+                "Spectre Dust:NOT_ACCEPTED:10:0",
+                "Kill Kuudra Hot Tier:NOT_ACCEPTED:0"
+              ],
+              "miniBossesDoneToday": [],
+              "kuudraTiersDone": [],
+              "trophyFishes": {
+                "blobfish": {},
+                "lavahorse": {},
+                "slugfish": {},
+                "gusher": {},
+                "volcanicstonefish": {},
+                "vanille": {},
+                "flyfish": {},
+                "sulphurskitter": {},
+                "obfuscatedfish1": {}
+              }
+            },
+            "garden": {
+              "experience": 60180,
+              "cropCounter": {
+                "MELON": 26279701,
+                "CARROT": 27292681,
+                "SUGAR_CANE": 75000000,
+                "CACTUS": 13000000,
+                "POTATO": 20000000,
+                "NETHER_WART": 24057325,
+                "MUSHROOM": 15033974,
+                "WHEAT": 30000000,
+                "COCOA_BEANS": 36792631,
+                "PUMPKIN": 20655852
+              },
+              "cropUpgrades": {
+                "MELON": 7,
+                "CARROT": 7,
+                "SUGAR_CANE": 6,
+                "CACTUS": 7,
+                "POTATO": 6,
+                "NETHER_WART": 7,
+                "MUSHROOM": 5,
+                "WHEAT": 6,
+                "COCOA_BEANS": 6,
+                "PUMPKIN": 6
+              },
+              "cropsPerSecond": {
+                "NETHER_WART": 437,
+                "POTATO": 738,
+                "SUGAR_CANE": 560,
+                "CARROT": 854,
+                "PUMPKIN": 179,
+                "CACTUS": 469,
+                "WHEAT": 271,
+                "COCOA_BEANS": 759,
+                "MELON": 41,
+                "MUSHROOM": 239
+              },
+              "latestBlocksPerSecond": {
+                "NETHER_WART": 14.0,
+                "POTATO": 18.37837837837838,
+                "SUGAR_CANE": 19.442857142857143,
+                "CARROT": 19.825396825396826,
+                "PUMPKIN": 16.723076923076924,
+                "CACTUS": 18.5234375,
+                "WHEAT": 19.75,
+                "COCOA_BEANS": 19.530329289428078,
+                "MELON": 15.903703703703703,
+                "MUSHROOM": 18.72972972972973
+              },
+              "latestTrueFarmingFortune": {
+                "POTATO": 1362.0,
+                "PUMPKIN": 1074.0,
+                "NETHER_WART": 1142.0,
+                "SUGAR_CANE": 1302.0,
+                "CARROT": 1322.0,
+                "CACTUS": 1046.0,
+                "WHEAT": 1001.0,
+                "COCOA_BEANS": 1197.0,
+                "MELON": 1253.0,
+                "MUSHROOM": 1277.0
+              },
+              "savedCropAccessory": "FERMENTO",
+              "dicerDropTracker": {
+                "drops": {
+                  "MELON": {
+                    "UNCOMMON": 187,
+                    "CRAZY_RARE": 7,
+                    "RARE": 45,
+                    "PRAY_TO_RNGESUS": 1
+                  },
+                  "PUMPKIN": {
+                    "RARE": 4,
+                    "UNCOMMON": 7
+                  }
+                }
+              },
+              "informedAboutLowMatter": 1695505368913,
+              "informedAboutLowFuel": 1710080822606,
+              "visitorInterval": 660000,
+              "nextSixthVisitorArrival": 1695242362306,
+              "armorDropTracker": {
+                "drops": {
+                  "CROPIE": 308,
+                  "FERMENTO": 63,
+                  "SQUASH": 113
+                }
+              },
+              "composterUpgrades": {
+                "ORGANIC_MATTER_CAP": 7,
+                "COST_REDUCTION": 3,
+                "FUEL_CAP": 3,
+                "MULTI_DROP": 4,
+                "COMPOSTER_SPEED": 5
+              },
+              "toolWithBountiful": {
+                "POTATO": false,
+                "PUMPKIN": false,
+                "NETHER_WART": false,
+                "SUGAR_CANE": false,
+                "CARROT": false,
+                "CACTUS": false,
+                "WHEAT": false,
+                "COCOA_BEANS": false,
+                "MELON": true,
+                "MUSHROOM": false
+              },
+              "composterCurrentOrganicMatterItem": "BOX_OF_SEEDS",
+              "composterCurrentFuelItem": "VOLTA",
+              "uniqueVisitors": 76,
+              "visitorDrops": {
+                "acceptedVisitors": 483,
+                "deniedVisitors": 17,
+                "visitorRarities": [
+                  361,
+                  102,
+                  20,
+                  0,
+                  0
+                ],
+                "copper": 21351,
+                "farmingExp": 7306394,
+                "gardenExp": 9975,
+                "coinsSpent": 239272462,
+                "bits": 0,
+                "mithrilPowder": 0,
+                "gemstonePowder": 0,
+                "rewardsCount": {
+                  "FLOWERING_BOUQUET": 7,
+                  "GREEN_BANDANA": 1,
+                  "OVERGROWN_GRASS": 1
+                }
+              },
+              "plotIcon": {
+                "plotList": {
+                  "15": "PUMPKIN",
+                  "14": "PUMPKIN",
+                  "13": "PUMPKIN",
+                  "12": "PUMPKIN",
+                  "11": "PUMPKIN",
+                  "29": "FERMENTO",
+                  "30": "FERMENTO",
+                  "31": "FERMENTO",
+                  "32": "FERMENTO",
+                  "33": "FERMENTO"
+                }
+              },
+              "plotData": {},
+              "scoreboardPests": 0,
+              "cropStartLocations": {},
+              "farmingLanes": {},
+              "fortune": {
+                "outdatedItems": {
+                  "CLOAK": false,
+                  "BELT": false,
+                  "NECKLACE": false,
+                  "BRACELET": false,
+                  "ELEPHANT": false,
+                  "MOOSHROOM_COW": false,
+                  "RABBIT": false,
+                  "BEE": false
+                },
+                "anitaUpgrade": 15,
+                "farmingStrength": 557,
+                "farmingLevel": 58,
+                "plotsUnlocked": 18,
+                "cakeExpiring": 1699373485520,
+                "carrotFortune": false,
+                "pumpkinFortune": false,
+                "cocoaBeansFortune": false,
+                "farmingItems": {
+                  "CLOAK": "eyJpdGVtaWQiOiJtaW5lY3JhZnQ6c2t1bGwiLCJkaXNwbGF5bmFtZSI6IsKnOVJvb3RlZCBMb3R1cyBDbG9hayIsIm5idHRhZyI6IntlbmNoOltdLEhpZGVGbGFnczoyNTQsU2t1bGxPd25lcjp7SWQ6XCJlYjhiYWQxZi1jZDQyLTM1OWEtYjZkMi1iZjU2MzkyOGNjMjZcIixQcm9wZXJ0aWVzOnt0ZXh0dXJlczpbMDp7VmFsdWU6XCJld29nSUNKMGFXMWxjM1JoYlhBaUlEb2dNVFkyTWpVd01qZ3pNRFkyTkN3S0lDQWljSEp2Wm1sc1pVbGtJaUE2SUNKaU5UTTVOVGt5TWpNd1kySTBNbUUwT1dZNVlUUmxZbVl4Tm1SbE9UWXdZaUlzQ2lBZ0luQnliMlpwYkdWT1lXMWxJaUE2SUNKdFlYSnBZVzVoWm1Gbklpd0tJQ0FpYzJsbmJtRjBkWEpsVW1WeGRXbHlaV1FpSURvZ2RISjFaU3dLSUNBaWRHVjRkSFZ5WlhNaUlEb2dld29nSUNBZ0lsTkxTVTRpSURvZ2V3b2dJQ0FnSUNBaWRYSnNJaUE2SUNKb2RIUndPaTh2ZEdWNGRIVnlaWE11YldsdVpXTnlZV1owTG01bGRDOTBaWGgwZFhKbEwyVmxOREJrTnpjMk1tUXlZamRoWldRMVpEa3lOV1F4TjJZM1lqTmpNVFExTVdVM01EbGpNalV6TjJFMU5UUTJZakZqWlRabE1HUTRaV1V5TnpVM1pEUWlDaUFnSUNCOUNpQWdmUXA5XCJ9XX19LGRpc3BsYXk6e0xvcmU6WzA6XCLCpzdIZWFsdGg6IMKnYSsxOCDCpzkoKzgpXCIsMTpcIsKnN0Zhcm1pbmcgRm9ydHVuZTogwqdhKzI4LjQgwqc5KCsxMilcIiwyOlwiXCIsMzpcIsKnOUdyZWVuIFRodW1iIElJSVwiLDQ6XCLCpzdHcmFudHMgwqc2MC4xNeKYmCBGYXJtaW5nIEZvcnR1bmUgwqc3cGVyXCIsNTpcIsKnN3VuaXF1ZSB2aXNpdG9yIHNlcnZlZC5cIiw2OlwiXCIsNzpcIsKnNlBpZWNlIEJvbnVzOiBTYWxlc3BlcnNvblwiLDg6XCLCpzdDb21wbGV0ZSDCp2FHYXJkZW4gVmlzaXRvciBPZmZlcnMgwqc3dG9cIiw5Olwiwqc3Z2FpbiDCpzbimJggRmFybWluZyBGb3J0dW5lwqc3LlwiLDEwOlwiXCIsMTE6XCLCpzdQaWVjZSBCb251czogwqc2KzEx4piYXCIsMTI6XCLCpzdOZXh0IFVwZ3JhZGU6IMKnNisxMuKYmCDCpzgowqdhMSwyMjTCpzcvwqdjMiwwMDDCpzgpXCIsMTM6XCJcIiwxNDpcIsKnOcKnbFJBUkUgQ0xPQUtcIl0sTmFtZTpcIsKnOVJvb3RlZCBMb3R1cyBDbG9ha1wifSxFeHRyYUF0dHJpYnV0ZXM6e21vZGlmaWVyOlwicm9vdGVkXCIsaWQ6XCJMT1RVU19DTE9BS1wiLGVuY2hhbnRtZW50czp7Z3JlZW5fdGh1bWI6M30sdXVpZDpcImNjOTU2NTNhLWQ1ZmMtNGVkZi1hNzhhLTM5MDU3YzQ0MmEzZVwiLHRpbWVzdGFtcDpcIjYvMTMvMjMgMTE6MTQgQU1cIn19IiwiZGFtYWdlIjozLCJpbnRlcm5hbG5hbWUiOiJfIn0\u003d",
+                  "BELT": "eyJpdGVtaWQiOiJtaW5lY3JhZnQ6c2t1bGwiLCJkaXNwbGF5bmFtZSI6IsKnOVJvb3RlZCBMb3R1cyBCZWx0IiwibmJ0dGFnIjoie2VuY2g6W10sSGlkZUZsYWdzOjI1NCxTa3VsbE93bmVyOntJZDpcIjIyMjc1NjdmLTA0ODctMzZmNy04ZWY5LWIxNjc3NTU3NjljZFwiLFByb3BlcnRpZXM6e3RleHR1cmVzOlswOntWYWx1ZTpcImV3b2dJQ0owYVcxbGMzUmhiWEFpSURvZ01UWTJNalV3TWpnME5UUXlOaXdLSUNBaWNISnZabWxzWlVsa0lpQTZJQ0ptTVRka09XSmxabU0yTkdNMFl6QTRPRFZoWVdVM05XUTBZamhpTldFME5DSXNDaUFnSW5CeWIyWnBiR1ZPWVcxbElpQTZJQ0pUYVhKQ1lXNWtaWEp6Ym1GMFkyZ2lMQW9nSUNKemFXZHVZWFIxY21WU1pYRjFhWEpsWkNJZ09pQjBjblZsTEFvZ0lDSjBaWGgwZFhKbGN5SWdPaUI3Q2lBZ0lDQWlVMHRKVGlJZ09pQjdDaUFnSUNBZ0lDSjFjbXdpSURvZ0ltaDBkSEE2THk5MFpYaDBkWEpsY3k1dGFXNWxZM0poWm5RdWJtVjBMM1JsZUhSMWNtVXZOR05sT0dReE9XSXdNVFl6WkRGbFlXUmtaVFUyTXpNM056TTVOR0l3TldSbE5qTTBNamRqTm1VelpqaGhPVFE1WlRCa1ptRXpNbUppTWpCa04yWXlaQ0lLSUNBZ0lIMEtJQ0I5Q24wXCJ9XX19LGRpc3BsYXk6e0xvcmU6WzA6XCLCpzdIZWFsdGg6IMKnYSsxOCDCpzkoKzgpXCIsMTpcIsKnN0Zhcm1pbmcgRm9ydHVuZTogwqdhKzI4LjQgwqc5KCsxMilcIiwyOlwiXCIsMzpcIsKnOUdyZWVuIFRodW1iIElJSVwiLDQ6XCLCpzdHcmFudHMgwqc2MC4xNeKYmCBGYXJtaW5nIEZvcnR1bmUgwqc3cGVyXCIsNTpcIsKnN3VuaXF1ZSB2aXNpdG9yIHNlcnZlZC5cIiw2OlwiXCIsNzpcIsKnNlBpZWNlIEJvbnVzOiBTYWxlc3BlcnNvblwiLDg6XCLCpzdDb21wbGV0ZSDCp2FHYXJkZW4gVmlzaXRvciBPZmZlcnMgwqc3dG9cIiw5Olwiwqc3Z2FpbiDCpzbimJggRmFybWluZyBGb3J0dW5lwqc3LlwiLDEwOlwiXCIsMTE6XCLCpzdQaWVjZSBCb251czogwqc2KzEx4piYXCIsMTI6XCLCpzdOZXh0IFVwZ3JhZGU6IMKnNisxMuKYmCDCpzgowqdhMSwyMjTCpzcvwqdjMiwwMDDCpzgpXCIsMTM6XCJcIiwxNDpcIsKnOcKnbFJBUkUgQkVMVFwiXSxOYW1lOlwiwqc5Um9vdGVkIExvdHVzIEJlbHRcIn0sRXh0cmFBdHRyaWJ1dGVzOnttb2RpZmllcjpcInJvb3RlZFwiLGlkOlwiTE9UVVNfQkVMVFwiLGVuY2hhbnRtZW50czp7Z3JlZW5fdGh1bWI6M30sdXVpZDpcIjM4NzdmYzQyLThjYmUtNDZmMC1iOGMzLTBiOGI4ZWExMDg3N1wiLHRpbWVzdGFtcDpcIjUvMzEvMjMgMTowNyBQTVwifX0iLCJkYW1hZ2UiOjMsImludGVybmFsbmFtZSI6Il8ifQ\u003d\u003d",
+                  "NECKLACE": "eyJpdGVtaWQiOiJtaW5lY3JhZnQ6c2t1bGwiLCJkaXNwbGF5bmFtZSI6IsKnOVJvb3RlZCBMb3R1cyBOZWNrbGFjZSIsIm5idHRhZyI6IntlbmNoOltdLEhpZGVGbGFnczoyNTQsU2t1bGxPd25lcjp7SWQ6XCJjOGRjNTZiNS1hOTllLTNhZGEtYTdiOC04ODEyNDM2YTg5ZGRcIixQcm9wZXJ0aWVzOnt0ZXh0dXJlczpbMDp7VmFsdWU6XCJld29nSUNKMGFXMWxjM1JoYlhBaUlEb2dNVFkyTWpVd01qZ3hNVEF5TWl3S0lDQWljSEp2Wm1sc1pVbGtJaUE2SUNJek9UVmtaVEpsWWpWak5qVTBabVJrT1dRMk5EQXdZMkpoTm1ObU5qRmhOeUlzQ2lBZ0luQnliMlpwYkdWT1lXMWxJaUE2SUNKemNHRnlaWE4wWlhabElpd0tJQ0FpYzJsbmJtRjBkWEpsVW1WeGRXbHlaV1FpSURvZ2RISjFaU3dLSUNBaWRHVjRkSFZ5WlhNaUlEb2dld29nSUNBZ0lsTkxTVTRpSURvZ2V3b2dJQ0FnSUNBaWRYSnNJaUE2SUNKb2RIUndPaTh2ZEdWNGRIVnlaWE11YldsdVpXTnlZV1owTG01bGRDOTBaWGgwZFhKbEwyRmtPRE5oWVRJMVl6RXhZV05tWTJVM05EUXlabVl3TVRJNVptUTNNR0ppTkRKallUQmtaVFl6WW1FeU1URTFNVFk1T1RZMlkyTXpOVEZtTVRjeE5tSWlDaUFnSUNCOUNpQWdmUXA5XCJ9XX19LGRpc3BsYXk6e0xvcmU6WzA6XCLCpzdIZWFsdGg6IMKnYSsxOCDCpzkoKzgpXCIsMTpcIsKnN0Zhcm1pbmcgRm9ydHVuZTogwqdhKzI4LjQgwqc5KCsxMilcIiwyOlwiXCIsMzpcIsKnOUdyZWVuIFRodW1iIElJSVwiLDQ6XCLCpzdHcmFudHMgwqc2MC4xNeKYmCBGYXJtaW5nIEZvcnR1bmUgwqc3cGVyXCIsNTpcIsKnN3VuaXF1ZSB2aXNpdG9yIHNlcnZlZC5cIiw2OlwiXCIsNzpcIsKnNlBpZWNlIEJvbnVzOiBTYWxlc3BlcnNvblwiLDg6XCLCpzdDb21wbGV0ZSDCp2FHYXJkZW4gVmlzaXRvciBPZmZlcnMgwqc3dG9cIiw5Olwiwqc3Z2FpbiDCpzbimJggRmFybWluZyBGb3J0dW5lwqc3LlwiLDEwOlwiXCIsMTE6XCLCpzdQaWVjZSBCb251czogwqc2KzEx4piYXCIsMTI6XCLCpzdOZXh0IFVwZ3JhZGU6IMKnNisxMuKYmCDCpzgowqdhMSwyMjTCpzcvwqdjMiwwMDDCpzgpXCIsMTM6XCJcIiwxNDpcIsKnOcKnbFJBUkUgTkVDS0xBQ0VcIl0sTmFtZTpcIsKnOVJvb3RlZCBMb3R1cyBOZWNrbGFjZVwifSxFeHRyYUF0dHJpYnV0ZXM6e21vZGlmaWVyOlwicm9vdGVkXCIsaWQ6XCJMT1RVU19ORUNLTEFDRVwiLGVuY2hhbnRtZW50czp7Z3JlZW5fdGh1bWI6M30sdXVpZDpcIjJiMmE1M2IyLTdkN2UtNDA0MC1iMmM4LTc3M2E0N2JhYjM2ZFwiLHRpbWVzdGFtcDpcIjYvNC8yMyA4OjUyIEFNXCJ9fSIsImRhbWFnZSI6MywiaW50ZXJuYWxuYW1lIjoiXyJ9",
+                  "PUMPKIN": "eyJpdGVtaWQiOiJtaW5lY3JhZnQ6Z29sZGVuX2F4ZSIsImRpc3BsYXluYW1lIjoiwqdkQmxlc3NlZCBQdW1wa2luIERpY2VyIDMuMCIsIm5idHRhZyI6IntlbmNoOlswOntsdmw6NXMsaWQ6MzJzfV0sVW5icmVha2FibGU6MWIsSGlkZUZsYWdzOjI1NCxkaXNwbGF5OntMb3JlOlswOlwiwqc3U3BlZWQ6IMKnYSsyMCDCpzkoKzIwKVwiLDE6XCLCpzdGYXJtaW5nIEZvcnR1bmU6IMKnYSsxMDMuNSDCpzIoKzUpIMKnOSgrMjApXCIsMjpcIsKnN0Zhcm1pbmcgV2lzZG9tOiDCp2ErMTQgwqc5KCs2KVwiLDM6XCJcIiw0Olwiwqc5Q3VsdGl2YXRpbmcgVklJSSDCpzg2LDQ2NSwxMjNcIiw1Olwiwqc5RGVkaWNhdGlvbiBJSUlcIiw2Olwiwqc5RGVsaWNhdGUgVlwiLDc6XCLCpzlFZmZpY2llbmN5IFZcIiw4Olwiwqc5U2lsayBUb3VjaCBJXCIsOTpcIsKnOVN1bmRlciBWXCIsMTA6XCLCpzlUdXJiby1QdW1wa2luIFZcIiwxMTpcIlwiLDEyOlwiwqc3wqc3R2FpbiDCpzMrMTDimK8gRmFybWluZyBXaXNkb21cIiwxMzpcIsKnM8KnN3doaWxlIGhhcnZlc3RpbmcgcHVtcGtpbnPCpzcuXCIsMTQ6XCJcIiwxNTpcIsKnNkFiaWxpdHk6IFJvbGwgZW0nKysgXCIsMTY6XCLCpzdFdmVyeSBwdW1wa2luIHlvdSBicmVhaywgeW91XCIsMTc6XCLCpzdtYWtlIGEgd2lzaCB0byDCp2RSTkdlc3VzXCIsMTg6XCLCp2TCpzd3aGljaCBtYXkgZ3JhbnQgeW91IHdpdGggYVwiLDE5Olwiwqc3ZmV3IG9yIFRPTlMgb2YgZXh0cmFcIiwyMDpcIsKnN3B1bXBraW5zIVwiLDIxOlwiwqc3wqdvXFxcIjMuMCBpcyBiZXR0ZXIgdGhhbiB0aGUgMi4wXCIsMjI6XCLCpzfCp292ZXJzaW9uXFxcIiAtIENFTyBvZiBQdW1wa2luRGljZXJcIiwyMzpcIsKnN8Knb0xMQy5cIiwyNDpcIlwiLDI1Olwiwqc5Qmxlc3NlZCBCb251c1wiLDI2Olwiwqc3R3JhbnRzIMKnNisyMOKYmCBGYXJtaW5nIEZvcnR1bmVcIiwyNzpcIsKnNsKnN2FuZCDCpzMrNuKYryBGYXJtaW5nIFdpc2RvbcKnNy5cIiwyODpcIlwiLDI5Olwiwqc4wqdsKiDCpzhDby1vcCBTb3VsYm91bmQgwqc4wqdsKlwiLDMwOlwiwqdkwqdswqdrYcKnciDCp2TCp2zCp2TCp2xNWVRISUMgQVhFIMKnZMKnbMKna2FcIl0sTmFtZTpcIsKnZEJsZXNzZWQgUHVtcGtpbiBEaWNlciAzLjBcIn0sRXh0cmFBdHRyaWJ1dGVzOntyYXJpdHlfdXBncmFkZXM6MSxmYXJtZWRfY3VsdGl2YXRpbmc6NjQ2NTEyMyxtb2RpZmllcjpcImJsZXNzZWRcIixpZDpcIlBVTVBLSU5fRElDRVJfM1wiLGVuY2hhbnRtZW50czp7ZGVsaWNhdGU6NSxlZmZpY2llbmN5OjUsdHVyYm9fcHVtcGtpbjo1LHN1bmRlcjo1LGN1bHRpdmF0aW5nOjgsZGVkaWNhdGlvbjozLHNpbGtfdG91Y2g6MX0sZmFybWluZ19mb3JfZHVtbWllc19jb3VudDo1LHV1aWQ6XCIwNzM5YWNmMy1iOTAyLTQxNDgtOTM1YS1kZGRjNWMxMGFjZDhcIixkb25hdGVkX211c2V1bToxYix0aW1lc3RhbXA6XCI3LzIyLzIyIDEwOjQxIEFNXCJ9fSIsImRhbWFnZSI6MCwiaW50ZXJuYWxuYW1lIjoiXyJ9",
+                  "LEGGINGS": "eyJpdGVtaWQiOiJtaW5lY3JhZnQ6bGVhdGhlcl9sZWdnaW5ncyIsImRpc3BsYXluYW1lIjoiwqc2QnVzdGxpbmcgRmVybWVudG8gTGVnZ2luZ3MiLCJuYnR0YWciOiJ7ZW5jaDpbXSxVbmJyZWFrYWJsZToxYixIaWRlRmxhZ3M6MjU0LGRpc3BsYXk6e0xvcmU6WzA6XCLCpzdIZWFsdGg6IMKnYSsyNzBcIiwxOlwiwqc3RGVmZW5zZTogwqdhKzYwXCIsMjpcIsKnN1NwZWVkOiDCp2ErNlwiLDM6XCLCpzdGYXJtaW5nIEZvcnR1bmU6IMKnYSs0MyDCpzkoKzgpXCIsNDpcIlwiLDU6XCLCpzlHcm93dGggVlwiLDY6XCLCpzdHcmFudHMgwqdhKzc1IMKnY+KdpCBIZWFsdGjCpzcuXCIsNzpcIsKnOVByb3RlY3Rpb24gVlwiLDg6XCLCpzdHcmFudHMgwqdhKzIwIMKnYeKdiCBEZWZlbnNlwqc3LlwiLDk6XCJcIiwxMDpcIsKnNlRpZXJlZCBCb251czogRmVhc3QgKDMvNClcIiwxMTpcIsKnN0NvbWJpbmVzIHRoZSBUaWVyZWQgQm9udXNlcyBvZlwiLDEyOlwiwqc3d2VhcmluZyDCp2EzIHBpZWNlcyDCpzdvZiB0aGUgTWVsb24gQXJtb3IsXCIsMTM6XCLCpzdDcm9waWUgQXJtb3IsIGFuZCBTcXVhc2ggQXJtb3IuXCIsMTQ6XCLCpzfCpzdHcmFudHMgwqc2NTDimJggRmFybWluZyBGb3J0dW5lwqc3LlwiLDE1OlwiXCIsMTY6XCLCpzjCp2wqIMKnOENvLW9wIFNvdWxib3VuZCDCpzjCp2wqXCIsMTc6XCLCpzbCp2xMRUdFTkRBUlkgTEVHR0lOR1NcIl0sY29sb3I6Njk4Njc3OSxOYW1lOlwiwqc2QnVzdGxpbmcgRmVybWVudG8gTGVnZ2luZ3NcIn0sRXh0cmFBdHRyaWJ1dGVzOnttb2RpZmllcjpcImJ1c3RsaW5nXCIsaWQ6XCJGRVJNRU5UT19MRUdHSU5HU1wiLGVuY2hhbnRtZW50czp7Z3Jvd3RoOjUscHJvdGVjdGlvbjo1fSx1dWlkOlwiNzkzOGQ0ODctMDBhMi00MjhhLTljN2EtOTEzZTg4NTg1YWM0XCIsZG9uYXRlZF9tdXNldW06MWIsdGltZXN0YW1wOlwiNS8yNS8yMyA0OjM3IEFNXCJ9fSIsImRhbWFnZSI6MCwiaW50ZXJuYWxuYW1lIjoiXyJ9",
+                  "HELMET": "eyJpdGVtaWQiOiJtaW5lY3JhZnQ6c2t1bGwiLCJkaXNwbGF5bmFtZSI6IsKnNkJ1c3RsaW5nIEZlcm1lbnRvIEhlbG1ldMKnZCDinKYiLCJuYnR0YWciOiJ7ZW5jaDpbMDp7bHZsOjNzLGlkOjVzfSwxOntsdmw6MXMsaWQ6NnN9XSxIaWRlRmxhZ3M6MjU0LFNrdWxsT3duZXI6e0lkOlwiZGM0YmYwNzItMmE4MS0zNDZmLTlkMzktZWUwZGI1NjIxMThmXCIsUHJvcGVydGllczp7dGV4dHVyZXM6WzA6e1ZhbHVlOlwiZXdvZ0lDSjBhVzFsYzNSaGJYQWlJRG9nTVRZNU1qTTBNemN4TURNMk5Td0tJQ0FpY0hKdlptbHNaVWxrSWlBNklDSTJPREF3TnpGbVpUSXhPV0UwT1dObVltTTNNREl4TWpjMU5USTBOREl3TWlJc0NpQWdJbkJ5YjJacGJHVk9ZVzFsSWlBNklDSlNaWHBoWW05NU9EQWlMQW9nSUNKemFXZHVZWFIxY21WU1pYRjFhWEpsWkNJZ09pQjBjblZsTEFvZ0lDSjBaWGgwZFhKbGN5SWdPaUI3Q2lBZ0lDQWlVMHRKVGlJZ09pQjdDaUFnSUNBZ0lDSjFjbXdpSURvZ0ltaDBkSEE2THk5MFpYaDBkWEpsY3k1dGFXNWxZM0poWm5RdWJtVjBMM1JsZUhSMWNtVXZZemxoWXpJd1pqWTRNVEl4WldJMk56QTROV0ZsWlRCa1pqTTNPVEF3TlRGbE5tUm1ZV1UwTkROa1ptUTJPR0l5Tm1VNFltUXlZVEV5TVRVd05qVTRaU0lLSUNBZ0lIMEtJQ0I5Q24wXCJ9XX19LGRpc3BsYXk6e0xvcmU6WzA6XCLCpzhCbG9vbSBTa2luXCIsMTpcIlwiLDI6XCLCpzdIZWFsdGg6IMKnYSsyMDVcIiwzOlwiwqc3RGVmZW5zZTogwqdhKzYwXCIsNDpcIsKnN1NwZWVkOiDCp2ErNVwiLDU6XCLCpzdGYXJtaW5nIEZvcnR1bmU6IMKnYSszOCDCpzkoKzgpXCIsNjpcIlwiLDc6XCLCpzlBcXVhIEFmZmluaXR5IElcIiw4Olwiwqc3SW5jcmVhc2VzIHlvdXIgdW5kZXJ3YXRlciBtaW5pbmdcIiw5Olwiwqc3cmF0ZS5cIiwxMDpcIsKnOUdyb3d0aCBWXCIsMTE6XCLCpzdHcmFudHMgwqdhKzc1IMKnY+KdpCBIZWFsdGjCpzcuXCIsMTI6XCLCpzlQcm90ZWN0aW9uIFZcIiwxMzpcIsKnN0dyYW50cyDCp2ErMjAgwqdh4p2IIERlZmVuc2XCpzcuXCIsMTQ6XCLCpzlSZXNwaXJhdGlvbiBJSUlcIiwxNTpcIsKnN0V4dGVuZHMgeW91ciB1bmRlcndhdGVyIGJyZWF0aGluZ1wiLDE2Olwiwqc3dGltZSBieSDCp2E0NXPCpzcuXCIsMTc6XCJcIiwxODpcIsKnNlRpZXJlZCBCb251czogRmVhc3QgKDMvNClcIiwxOTpcIsKnN0NvbWJpbmVzIHRoZSBUaWVyZWQgQm9udXNlcyBvZlwiLDIwOlwiwqc3d2VhcmluZyDCp2EzIHBpZWNlcyDCpzdvZiB0aGUgTWVsb24gQXJtb3IsXCIsMjE6XCLCpzdDcm9waWUgQXJtb3IsIGFuZCBTcXVhc2ggQXJtb3IuXCIsMjI6XCLCpzfCpzdHcmFudHMgwqc2NTDimJggRmFybWluZyBGb3J0dW5lwqc3LlwiLDIzOlwiXCIsMjQ6XCLCpzjCp2wqIMKnOENvLW9wIFNvdWxib3VuZCDCpzjCp2wqXCIsMjU6XCLCpzbCp2xMRUdFTkRBUlkgSEVMTUVUXCJdLE5hbWU6XCLCpzZCdXN0bGluZyBGZXJtZW50byBIZWxtZXTCp2Qg4pymXCJ9LEV4dHJhQXR0cmlidXRlczp7bW9kaWZpZXI6XCJidXN0bGluZ1wiLHNraW46XCJGRVJNRU5UT19CTE9PTVwiLGlkOlwiRkVSTUVOVE9fSEVMTUVUXCIsZW5jaGFudG1lbnRzOntncm93dGg6NSxwcm90ZWN0aW9uOjUscmVzcGlyYXRpb246MyxhcXVhX2FmZmluaXR5OjF9LHV1aWQ6XCI3YjhlNjUxMi03Yzk2LTQwYWQtOTBjMS00MmFkNmVkNDk2ZmJcIixkb25hdGVkX211c2V1bToxYix0aW1lc3RhbXA6XCI1LzI1LzIzIDQ6MzcgQU1cIn19IiwiZGFtYWdlIjozLCJpbnRlcm5hbG5hbWUiOiJfIn0\u003d",
+                  "BRACELET": "eyJpdGVtaWQiOiJtaW5lY3JhZnQ6c2t1bGwiLCJkaXNwbGF5bmFtZSI6IsKnOVJvb3RlZCBMb3R1cyBCcmFjZWxldCIsIm5idHRhZyI6IntlbmNoOltdLEhpZGVGbGFnczoyNTQsU2t1bGxPd25lcjp7SWQ6XCIzMWI2NjcxNC05ZWRiLTNiYjQtOGQ0Zi00MmI0NTFmYTJhYmFcIixQcm9wZXJ0aWVzOnt0ZXh0dXJlczpbMDp7VmFsdWU6XCJld29nSUNKMGFXMWxjM1JoYlhBaUlEb2dNVFkyTWpVd01qZzJNakk0T0N3S0lDQWljSEp2Wm1sc1pVbGtJaUE2SUNKa1lqSm1NVEpoTW1VNU1USTBaVGhpT0RaalptUXlOelUyTURrMU4ySmhOQ0lzQ2lBZ0luQnliMlpwYkdWT1lXMWxJaUE2SUNKcGFWSmxlbUVpTEFvZ0lDSnphV2R1WVhSMWNtVlNaWEYxYVhKbFpDSWdPaUIwY25WbExBb2dJQ0owWlhoMGRYSmxjeUlnT2lCN0NpQWdJQ0FpVTB0SlRpSWdPaUI3Q2lBZ0lDQWdJQ0oxY213aUlEb2dJbWgwZEhBNkx5OTBaWGgwZFhKbGN5NXRhVzVsWTNKaFpuUXVibVYwTDNSbGVIUjFjbVV2TlRjNE16STNPVEF4T0dOa1pHUm1abUU1TVROaFltWXpOakl4WkRjNFpqSXdORFF3TlRrMk1XWTNOMlppT1RZNE5ERmtNREZpTWpjMFpqQXlOMk5oWWlJS0lDQWdJSDBLSUNCOUNuMFwifV19fSxkaXNwbGF5OntMb3JlOlswOlwiwqc3SGVhbHRoOiDCp2ErMTggwqc5KCs4KVwiLDE6XCLCpzdGYXJtaW5nIEZvcnR1bmU6IMKnYSsyOC40IMKnOSgrMTIpXCIsMjpcIlwiLDM6XCLCpzlHcmVlbiBUaHVtYiBJSUlcIiw0Olwiwqc3R3JhbnRzIMKnNjAuMTXimJggRmFybWluZyBGb3J0dW5lIMKnN3BlclwiLDU6XCLCpzd1bmlxdWUgdmlzaXRvciBzZXJ2ZWQuXCIsNjpcIlwiLDc6XCLCpzZQaWVjZSBCb251czogU2FsZXNwZXJzb25cIiw4Olwiwqc3Q29tcGxldGUgwqdhR2FyZGVuIFZpc2l0b3IgT2ZmZXJzIMKnN3RvXCIsOTpcIsKnN2dhaW4gwqc24piYIEZhcm1pbmcgRm9ydHVuZcKnNy5cIiwxMDpcIlwiLDExOlwiwqc3UGllY2UgQm9udXM6IMKnNisxMeKYmFwiLDEyOlwiwqc3TmV4dCBVcGdyYWRlOiDCpzYrMTLimJggwqc4KMKnYTEsMjI0wqc3L8KnYzIsMDAwwqc4KVwiLDEzOlwiXCIsMTQ6XCLCpznCp2xSQVJFIEJSQUNFTEVUXCJdLE5hbWU6XCLCpzlSb290ZWQgTG90dXMgQnJhY2VsZXRcIn0sRXh0cmFBdHRyaWJ1dGVzOnttb2RpZmllcjpcInJvb3RlZFwiLGlkOlwiTE9UVVNfQlJBQ0VMRVRcIixlbmNoYW50bWVudHM6e2dyZWVuX3RodW1iOjN9LHV1aWQ6XCI2NmE4NTBjNC0wYzg2LTQ3Y2EtOGY4Zi1lMjkyMGE0NDJkOWFcIix0aW1lc3RhbXA6XCI1LzI3LzIzIDU6NTEgQU1cIn19IiwiZGFtYWdlIjozLCJpbnRlcm5hbG5hbWUiOiJfIn0\u003d",
+                  "POTATO": "eyJpdGVtaWQiOiJtaW5lY3JhZnQ6aXJvbl9ob2UiLCJkaXNwbGF5bmFtZSI6IsKnNUJsZXNzZWQgUHl0aGFnb3JlYW4gUG90YXRvIEhvZSIsIm5idHRhZyI6IntlbmNoOlswOntsdmw6NXMsaWQ6MzJzfV0sVW5icmVha2FibGU6MWIsSGlkZUZsYWdzOjI1NCxkaXNwbGF5OntMb3JlOlswOlwiwqc3U3BlZWQ6IMKnYSsxMyDCpzkoKzEzKVwiLDE6XCLCpzdGYXJtaW5nIEZvcnR1bmU6IMKnYSsxMTEgwqcyKCs1KSDCpzkoKzEzKVwiLDI6XCLCpzdGYXJtaW5nIFdpc2RvbTogwqdhKzEzIMKnOSgrNClcIiwzOlwiXCIsNDpcIsKnOUN1bHRpdmF0aW5nIElYIMKnODIwLDM1NSw1MDZcIiw1Olwiwqc5RGVkaWNhdGlvbiBJSUlcIiw2Olwiwqc5RWZmaWNpZW5jeSBWXCIsNzpcIsKnOUhhcnZlc3RpbmcgVklcIiw4Olwiwqc5UmVwbGVuaXNoIElcIiw5Olwiwqc5U2lsayBUb3VjaCBJXCIsMTA6XCLCpzlUdXJiby1Qb3RhdG8gVlwiLDExOlwiXCIsMTI6XCLCpzdHYWluIMKnNisyNeKYmCBGYXJtaW5nIEZvcnR1bmVcIiwxMzpcIsKnNsKnN2FuZCDCpzMrNeKYryBGYXJtaW5nIFdpc2RvbSDCpzdmb3JcIiwxNDpcIsKnN3BvdGF0b2VzLlwiLDE1OlwiXCIsMTY6XCLCpzdDb3VudGVyOiDCp2UyMCwzNTIsMTQ1IFBvdGF0b2VzXCIsMTc6XCJcIiwxODpcIsKnNkxvZ2FyaXRobWljIENvdW50ZXJcIiwxOTpcIsKnN0dhaW4gwqc2KzE24piYIEZhcm1pbmcgRm9ydHVuZVwiLDIwOlwiwqc2wqc3Zm9yIHBvdGF0b2VzIHBlciBkaWdpdHMgb24gdGhlXCIsMjE6XCLCpzdDb3VudGVyLCBtaW51cyA0IVwiLDIyOlwiwqc3WW91IGhhdmUgwqc2KzY04piYIEZhcm1pbmcgRm9ydHVuZVwiLDIzOlwiwqc2wqc3Zm9yIHBvdGF0b2VzLlwiLDI0OlwiXCIsMjU6XCLCpzfCpzhCb251cyBwb3RhdG9lcyBwZXJjZW50XCIsMjY6XCLCpzhpbmNyZWFzZXMgeW91ciBGYXJtaGFuZCBwZXJrJ3NcIiwyNzpcIsKnOGNoYW5jZXNcIiwyODpcIsKnZVJpZ2h0LWNsaWNrIHRvIHZpZXcgcmVjaXBlcyFcIiwyOTpcIlwiLDMwOlwiwqc5Qmxlc3NlZCBCb251c1wiLDMxOlwiwqc3R3JhbnRzIMKnNisxM+KYmCBGYXJtaW5nIEZvcnR1bmVcIiwzMjpcIsKnNsKnN2FuZCDCpzMrNOKYryBGYXJtaW5nIFdpc2RvbcKnNy5cIiwzMzpcIlwiLDM0Olwiwqc4wqdsKiDCpzhDby1vcCBTb3VsYm91bmQgwqc4wqdsKlwiLDM1Olwiwqc1wqdsRVBJQyBIT0VcIl0sTmFtZTpcIsKnNUJsZXNzZWQgUHl0aGFnb3JlYW4gUG90YXRvIEhvZVwifSxFeHRyYUF0dHJpYnV0ZXM6e2Zhcm1lZF9jdWx0aXZhdGluZzoyMDM1NTUwNixtb2RpZmllcjpcImJsZXNzZWRcIixtaW5lZF9jcm9wczoyMDM1MjE0NUwsaWQ6XCJUSEVPUkVUSUNBTF9IT0VfUE9UQVRPXzJcIixlbmNoYW50bWVudHM6e2VmZmljaWVuY3k6NSxoYXJ2ZXN0aW5nOjYsdHVyYm9fcG90YXRvOjUsY3VsdGl2YXRpbmc6OSxkZWRpY2F0aW9uOjMsc2lsa190b3VjaDoxLHJlcGxlbmlzaDoxfSxmYXJtaW5nX2Zvcl9kdW1taWVzX2NvdW50OjUsdXVpZDpcImQ5NjY3OWFjLTZhMjctNDEzOS04NGRlLTZhOTRjMjFkZTk2M1wiLGRvbmF0ZWRfbXVzZXVtOjFiLHRpbWVzdGFtcDpcIjYvMy8yMyA2OjMwIEFNXCJ9fSIsImRhbWFnZSI6MCwiaW50ZXJuYWxuYW1lIjoiXyJ9",
+                  "BOOTS": "eyJpdGVtaWQiOiJtaW5lY3JhZnQ6bGVhdGhlcl9ib290cyIsImRpc3BsYXluYW1lIjoiwqc1QnVzdGxpbmcgUmFuY2hlcidzIEJvb3RzIiwibmJ0dGFnIjoie2VuY2g6WzA6e2x2bDozcyxpZDo4c31dLFVuYnJlYWthYmxlOjFiLEhpZGVGbGFnczoyNTQsZGlzcGxheTp7TG9yZTpbMDpcIsKnN0hlYWx0aDogwqdhKzE3NVwiLDE6XCLCpzdEZWZlbnNlOiDCp2ErMjA2XCIsMjpcIsKnN1NwZWVkOiDCp2ErMjgyXCIsMzpcIsKnN0Zhcm1pbmcgRm9ydHVuZTogwqdhKzY0IMKnOSgrNilcIiw0Olwiwqc3SGVhbHRoIFJlZ2VuOiDCp2ErMTBcIiw1OlwiXCIsNjpcIsKnOURlcHRoIFN0cmlkZXIgSUlJXCIsNzpcIsKnOUZlYXRoZXIgRmFsbGluZyBYXCIsODpcIsKnOUdyb3d0aCBWXCIsOTpcIsKnOVByb3RlY3Rpb24gVlwiLDEwOlwiwqc5UmVqdXZlbmF0ZSBWXCIsMTE6XCLCpzlUaG9ybnMgSUlJXCIsMTI6XCJcIiwxMzpcIsKnN1RoZXNlIGJvb3RzIGdhaW4gwqdhKzLinYggRGVmZW5zZSDCpzdhbmRcIiwxNDpcIsKnN8KnZis04pymIFNwZWVkwqc3IGZvciBldmVyeSBGYXJtaW5nIFNraWxsXCIsMTU6XCLCpzdsZXZlbCB5b3UgaGF2ZS4gV2hpbGUgb24gdGhlIMKnYkdhcmRlbsKnNyxcIiwxNjpcIsKnN3RoZXNlIGJvb3RzIGFsc28gZ2FpbiDCpzYrMeKYmCBGYXJtaW5nXCIsMTc6XCLCpzZGb3J0dW5lIMKnN2ZvciBldmVyeSBGYXJtaW5nIFNraWxsIGxldmVsLlwiLDE4OlwiXCIsMTk6XCLCpzZBYmlsaXR5OiBGYXJtZXIncyBTcGVlZCAgwqdlwqdsTEVGVCBDTElDS1wiLDIwOlwiwqc3U2V0IGEgbWF4aW11bSBhbW91bnQgb2Ygwqdm4pymIFNwZWVkwqc3LlwiLDIxOlwiXCIsMjI6XCLCpzZBYmlsaXR5OiBGYXJtZXIncyBHcmFjZSBcIiwyMzpcIsKnN0dyYW50cyBpbW11bml0eSB0byB0cmFtcGxpbmcgY3JvcHMuXCIsMjQ6XCJcIiwyNTpcIsKnN0JvbnVzIERlZmVuc2U6IMKnYTExNlwiLDI2Olwiwqc3Qm9udXMgU3BlZWQ6IMKnYTIzMlwiLDI3Olwiwqc3Qm9udXMgRmFybWluZyBGb3J0dW5lOiDCp2E1OFwiLDI4OlwiXCIsMjk6XCLCpzdDdXJyZW50IFNwZWVkIENhcDogwqdhwqdhOTNcIiwzMDpcIlwiLDMxOlwiwqc4wqdsKiDCpzhDby1vcCBTb3VsYm91bmQgwqc4wqdsKlwiLDMyOlwiwqc1wqdsRVBJQyBCT09UU1wiXSxjb2xvcjowLE5hbWU6XCLCpzVCdXN0bGluZyBSYW5jaGVyJ3MgQm9vdHNcIn0sRXh0cmFBdHRyaWJ1dGVzOnttb2RpZmllcjpcImJ1c3RsaW5nXCIscmFuY2hlcnNfc3BlZWQ6OTMsaWQ6XCJSQU5DSEVSU19CT09UU1wiLGVuY2hhbnRtZW50czp7ZGVwdGhfc3RyaWRlcjozLHRob3JuczozLGZlYXRoZXJfZmFsbGluZzoxMCxyZWp1dmVuYXRlOjUscHJvdGVjdGlvbjo1LGdyb3d0aDo1fSx1dWlkOlwiYzRiOWM2NDEtMDFhNS00NmM1LThmMDEtOTk5ZDZhNGI3M2Y0XCIsZG9uYXRlZF9tdXNldW06MWIsdGltZXN0YW1wOlwiNy8yMi8yMiA4OjU1IEFNXCJ9fSIsImRhbWFnZSI6MCwiaW50ZXJuYWxuYW1lIjoiXyJ9",
+                  "CHESTPLATE": "eyJpdGVtaWQiOiJtaW5lY3JhZnQ6bGVhdGhlcl9jaGVzdHBsYXRlIiwiZGlzcGxheW5hbWUiOiLCp2RNb3NzeSBGZXJtZW50byBDaGVzdHBsYXRlIiwibmJ0dGFnIjoie2VuY2g6W10sVW5icmVha2FibGU6MWIsSGlkZUZsYWdzOjI1NCxkaXNwbGF5OntMb3JlOlswOlwiwqc3SGVhbHRoOiDCp2ErMjcwXCIsMTpcIsKnN0RlZmVuc2U6IMKnYSs2MFwiLDI6XCLCpzdTcGVlZDogwqdhKzEzIMKnOSgrNylcIiwzOlwiwqc3RmFybWluZyBGb3J0dW5lOiDCp2ErNjUgwqc5KCszMClcIiw0OlwiXCIsNTpcIsKnOUdyb3d0aCBWXCIsNjpcIsKnN0dyYW50cyDCp2ErNzUgwqdj4p2kIEhlYWx0aMKnNy5cIiw3Olwiwqc5UHJvdGVjdGlvbiBWXCIsODpcIsKnN0dyYW50cyDCp2ErMjAgwqdh4p2IIERlZmVuc2XCpzcuXCIsOTpcIlwiLDEwOlwiwqc2VGllcmVkIEJvbnVzOiBGZWFzdCAoMy80KVwiLDExOlwiwqc3Q29tYmluZXMgdGhlIFRpZXJlZCBCb251c2VzIG9mXCIsMTI6XCLCpzd3ZWFyaW5nIMKnYTMgcGllY2VzIMKnN29mIHRoZSBNZWxvbiBBcm1vcixcIiwxMzpcIsKnN0Nyb3BpZSBBcm1vciwgYW5kIFNxdWFzaCBBcm1vci5cIiwxNDpcIsKnN8KnN0dyYW50cyDCpzY1MOKYmCBGYXJtaW5nIEZvcnR1bmXCpzcuXCIsMTU6XCJcIiwxNjpcIsKnOMKnbCogwqc4Q28tb3AgU291bGJvdW5kIMKnOMKnbCpcIiwxNzpcIsKnZMKnbMKna2HCp3IgwqdkwqdswqdkwqdsTVlUSElDIENIRVNUUExBVEUgwqdkwqdswqdrYVwiXSxjb2xvcjo1ODAyMjUyLE5hbWU6XCLCp2RNb3NzeSBGZXJtZW50byBDaGVzdHBsYXRlXCJ9LEV4dHJhQXR0cmlidXRlczp7cmFyaXR5X3VwZ3JhZGVzOjEsbW9kaWZpZXI6XCJtb3NzeVwiLGlkOlwiRkVSTUVOVE9fQ0hFU1RQTEFURVwiLGVuY2hhbnRtZW50czp7Z3Jvd3RoOjUscHJvdGVjdGlvbjo1fSx1dWlkOlwiODhjNWQ2NjAtNjAyYi00MDlmLWExOTctMjZjNDhhYjczZDM3XCIsZG9uYXRlZF9tdXNldW06MWIsdGltZXN0YW1wOlwiNS8yNS8yMyA0OjM3IEFNXCJ9fSIsImRhbWFnZSI6MCwiaW50ZXJuYWxuYW1lIjoiXyJ9",
+                  "ELEPHANT": "eyJpdGVtaWQiOiJtaW5lY3JhZnQ6c2t1bGwiLCJkaXNwbGF5bmFtZSI6IsKnN1tMdmwgMTAwXSDCpzZFbGVwaGFudCIsIm5idHRhZyI6IntTa3VsbE93bmVyOntJZDpcImVjY2RiNWI4LWExNWYtNGY1NC05ZDdhLTIwODY1ZmQzZDI5NlwiLGh5cGl4ZWxQb3B1bGF0ZWQ6MWIsUHJvcGVydGllczp7dGV4dHVyZXM6WzA6e1ZhbHVlOlwiZXlKMFpYaDBkWEpsY3lJNmV5SlRTMGxPSWpwN0luVnliQ0k2SW1oMGRIQTZMeTkwWlhoMGRYSmxjeTV0YVc1bFkzSmhablF1Ym1WMEwzUmxlSFIxY21Vdk56QTNNV0UzTm1ZMk5qbGtZalZsWkRaa016SmlORGhpWWpKa1ltRTFOV1ExTXpFM1pEZG1ORFV5TWpWallqTXlOamRsWXpRek5XTm1ZVFV4TkNKOWZYMD1cIn1dfSxOYW1lOlwiwqdlY2NkYjViOC1hMTVmLTRmNTQtOWQ3YS0yMDg2NWZkM2QyOTZcIn0sZGlzcGxheTp7TG9yZTpbMDpcIsKnOEZhcm1pbmcgUGV0XCIsMTpcIlwiLDI6XCLCpzdIZWFsdGg6IMKnYSsxMDBcIiwzOlwiwqc3SW50ZWxsaWdlbmNlOiDCp2ErNzVcIiw0Olwiwqc3RmFybWluZyBGb3J0dW5lOiDCp2ErNjBcIiw1OlwiXCIsNjpcIsKnNlN0b21wXCIsNzpcIsKnN8KnN0dhaW4gwqdhMjDinYggRGVmZW5zZSDCpzdmb3IgZXZlcnkgMTAwIMKnZuKcplwiLDg6XCLCp2ZTcGVlZMKnNy5cIiw5OlwiXCIsMTA6XCLCpzZXYWxraW5nIEZvcnRyZXNzXCIsMTE6XCLCpzfCpzdHYWluIMKnYzHinaQgSGVhbHRoIMKnN2ZvciBldmVyeSAxMCDCp2HinYhcIiwxMjpcIsKnYURlZmVuc2XCpzcuXCIsMTM6XCJcIiwxNDpcIsKnNlRydW5rIEVmZmljaWVuY3lcIiwxNTpcIsKnN8KnN0dyYW50cyDCpzYrMTUw4piYIEZhcm1pbmcgRm9ydHVuZcKnNyxcIiwxNjpcIsKnN3doaWNoIGluY3JlYXNlcyB5b3VyIGNoYW5jZSBmb3JcIiwxNzpcIsKnN211bHRpcGxlIGRyb3BzLlwiLDE4OlwiXCIsMTk6XCLCpzZIZWxkIEl0ZW06IMKnNUdyZWVuIEJhbmRhbmFcIiwyMDpcIsKnN0dyYW50cyDCpzYrNOKYmCBGYXJtaW5nIEZvcnR1bmUgwqc3Zm9yXCIsMjE6XCLCpzdlYWNoIG9mIHlvdXIgR2FyZGVuIExldmVscy5cIiwyMjpcIlwiLDIzOlwiwqdiwqdsTUFYIExFVkVMXCIsMjQ6XCLCpzjilrggMTEyLDUxMSwzNTQgWFBcIiwyNTpcIlwiLDI2Olwiwqc3wqdlTGVmdC1jbGljayB0byBzdW1tb24hXCIsMjc6XCLCp2VSaWdodC1jbGljayB0byBjb252ZXJ0IHRvIGFuIGl0ZW0hXCJdLE5hbWU6XCLCpzdbTHZsIDEwMF0gwqc2RWxlcGhhbnRcIn0sRXh0cmFBdHRyaWJ1dGVzOntwZXRJbmZvOlwie1xcXCJ0eXBlXFxcIjpcXFwiRUxFUEhBTlRcXFwiLFxcXCJhY3RpdmVcXFwiOmZhbHNlLFxcXCJleHBcXFwiOjEuMTI1MTEzNTQxOTQxMTc4NEU4LFxcXCJ0aWVyXFxcIjpcXFwiTEVHRU5EQVJZXFxcIixcXFwiaGlkZUluZm9cXFwiOmZhbHNlLFxcXCJoZWxkSXRlbVxcXCI6XFxcIkdSRUVOX0JBTkRBTkFcXFwiLFxcXCJjYW5keVVzZWRcXFwiOjAsXFxcInV1aWRcXFwiOlxcXCIzMGI0MDFiOS1jMTMzLTQyNmItODhlMS1mYTJkNmM2MzI1YWFcXFwiLFxcXCJ1bmlxdWVJZFxcXCI6XFxcImU4Zjk0M2E0LWY3MjYtNDNkOC1iMWI3LTI1MjRjYjA2NWM1N1xcXCIsXFxcImhpZGVSaWdodENsaWNrXFxcIjpmYWxzZSxcXFwibm9Nb3ZlXFxcIjpmYWxzZX1cIixpZDpcIlBFVFwiLHV1aWQ6XCIzMGI0MDFiOS1jMTMzLTQyNmItODhlMS1mYTJkNmM2MzI1YWFcIn19IiwiZGFtYWdlIjozLCJpbnRlcm5hbG5hbWUiOiJfIn0\u003d",
+                  "MOOSHROOM_COW": "eyJpdGVtaWQiOiJtaW5lY3JhZnQ6c2t1bGwiLCJkaXNwbGF5bmFtZSI6IsKnN1tMdmwgMTAwXSDCpzZNb29zaHJvb20gQ293IiwibmJ0dGFnIjoie1NrdWxsT3duZXI6e0lkOlwiZjlkMGM3OGYtYjE3OS00NDczLWE4MzEtODNjYjUwYzM0YzRkXCIsaHlwaXhlbFBvcHVsYXRlZDoxYixQcm9wZXJ0aWVzOnt0ZXh0dXJlczpbMDp7VmFsdWU6XCJleUowWlhoMGRYSmxjeUk2ZXlKVFMwbE9JanA3SW5WeWJDSTZJbWgwZEhBNkx5OTBaWGgwZFhKbGN5NXRhVzVsWTNKaFpuUXVibVYwTDNSbGVIUjFjbVV2TW1JMU1qZzBNV1l5Wm1RMU9EbGxNR0pqT0RSalltRmlaamxsTVdNeU4yTmlOekJqWVdNNU9HWTRaRFppTTJSa01EWTFaVFUxWVRSa1kySTNNR1EzTnlKOWZYMD1cIn1dfSxOYW1lOlwiwqdmOWQwYzc4Zi1iMTc5LTQ0NzMtYTgzMS04M2NiNTBjMzRjNGRcIn0sZGlzcGxheTp7TG9yZTpbMDpcIsKnOEZhcm1pbmcgUGV0XCIsMTpcIlwiLDI6XCLCpzdIZWFsdGg6IMKnYSsxMDBcIiwzOlwiwqc3RmFybWluZyBGb3J0dW5lOiDCp2ErMTcwXCIsNDpcIlwiLDU6XCLCpzZFZmZpY2llbnQgTXVzaHJvb21zXCIsNjpcIsKnN8KnN011c2hyb29twqc3IGFuZCBNeWNlbGl1bSBtaW5pb25zIHdvcmtcIiw3Olwiwqc3wqdhMzAlIMKnN2Zhc3RlciB3aGlsZSBvbiB5b3VyIGlzbGFuZC5cIiw4OlwiXCIsOTpcIsKnNk11c2hyb29tIEVhdGVyXCIsMTA6XCLCpzfCpzdXaGVuIGJyZWFraW5nIG1hdHVyZSBjcm9wcywgdGhlcmVcIiwxMTpcIsKnN2lzIGEgwqdhMTAwJSDCpzdjaGFuY2UgdGhhdCBhIG11c2hyb29tXCIsMTI6XCLCpzd3aWxsIGRyb3AuXCIsMTM6XCJcIiwxNDpcIsKnNkZhcm1pbmcgU3RyZW5ndGhcIiwxNTpcIsKnN8KnN0dhaW4gwqc2KzAuN+KYmCBGYXJtaW5nIEZvcnR1bmUgwqc3cGVyXCIsMTY6XCLCpzdldmVyeSDCp2MyMCDCp2PinYEgU3RyZW5ndGjCpzcuXCIsMTc6XCJcIiwxODpcIsKnNkhlbGQgSXRlbTogwqc1R3JlZW4gQmFuZGFuYVwiLDE5Olwiwqc3R3JhbnRzIMKnNis04piYIEZhcm1pbmcgRm9ydHVuZSDCpzdmb3JcIiwyMDpcIsKnN2VhY2ggb2YgeW91ciBHYXJkZW4gTGV2ZWxzLlwiLDIxOlwiXCIsMjI6XCLCp2LCp2xNQVggTEVWRUxcIiwyMzpcIsKnOOKWuCA1OCwxNzgsOTYwIFhQXCIsMjQ6XCJcIiwyNTpcIsKnN8KnZUxlZnQtY2xpY2sgdG8gc3VtbW9uIVwiLDI2OlwiwqdlUmlnaHQtY2xpY2sgdG8gY29udmVydCB0byBhbiBpdGVtIVwiXSxOYW1lOlwiwqc3W0x2bCAxMDBdIMKnNk1vb3Nocm9vbSBDb3dcIn0sRXh0cmFBdHRyaWJ1dGVzOntwZXRJbmZvOlwie1xcXCJ0eXBlXFxcIjpcXFwiTU9PU0hST09NX0NPV1xcXCIsXFxcImFjdGl2ZVxcXCI6ZmFsc2UsXFxcImV4cFxcXCI6NS44MTc4OTYwODkwODQzNzk0RTcsXFxcInRpZXJcXFwiOlxcXCJMRUdFTkRBUllcXFwiLFxcXCJoaWRlSW5mb1xcXCI6ZmFsc2UsXFxcImhlbGRJdGVtXFxcIjpcXFwiR1JFRU5fQkFOREFOQVxcXCIsXFxcImNhbmR5VXNlZFxcXCI6MCxcXFwidXVpZFxcXCI6XFxcIjJjNDY0NDA4LTI0YmItNGQ1Ni1hY2UwLWJjYWU3ODE2YjEwMFxcXCIsXFxcInVuaXF1ZUlkXFxcIjpcXFwiZDRmYzE5NzMtMjQwZS00YjgwLThmYmItNjEyNWJkZGEwMjdhXFxcIixcXFwiaGlkZVJpZ2h0Q2xpY2tcXFwiOmZhbHNlLFxcXCJub01vdmVcXFwiOmZhbHNlfVwiLGlkOlwiUEVUXCIsdXVpZDpcIjJjNDY0NDA4LTI0YmItNGQ1Ni1hY2UwLWJjYWU3ODE2YjEwMFwifX0iLCJkYW1hZ2UiOjMsImludGVybmFsbmFtZSI6Il8ifQ\u003d\u003d",
+                  "RABBIT": "eyJpdGVtaWQiOiJtaW5lY3JhZnQ6c2t1bGwiLCJkaXNwbGF5bmFtZSI6IsKnN1tMdmwgMTAwXSDCpzZSYWJiaXQiLCJuYnR0YWciOiJ7U2t1bGxPd25lcjp7SWQ6XCIwYzVjNDVjYy1iMjA3LTQ5Y2EtYjFlNC0wN2M1ZTM3MDJlMWFcIixoeXBpeGVsUG9wdWxhdGVkOjFiLFByb3BlcnRpZXM6e3RleHR1cmVzOlswOntWYWx1ZTpcImV5SjBaWGgwZFhKbGN5STZleUpUUzBsT0lqcDdJblZ5YkNJNkltaDBkSEE2THk5MFpYaDBkWEpsY3k1dGFXNWxZM0poWm5RdWJtVjBMM1JsZUhSMWNtVXZNVEUzWW1abVl6RTVOekpoWTJRM1pqTmlOR0U0WmpRellqVmlObU0zTlRNME5qazFZamhtWkRZeU5qYzNaVEF6TURaaU1qZ3pNVFUzTkdJaWZYMTlcIn1dfSxOYW1lOlwiwqcwYzVjNDVjYy1iMjA3LTQ5Y2EtYjFlNC0wN2M1ZTM3MDJlMWFcIn0sZGlzcGxheTp7TG9yZTpbMDpcIsKnOEZhcm1pbmcgUGV0XCIsMTpcIlwiLDI6XCLCpzdIZWFsdGg6IMKnYSsxMDBcIiwzOlwiwqc3U3BlZWQ6IMKnYSsyMFwiLDQ6XCJcIiw1Olwiwqc2SGFwcHkgRmVldFwiLDY6XCLCpzfCpzdKdW1wIHBvdGlvbnMgYWxzbyBnaXZlIMKnYSs1MCDCpzdzcGVlZC5cIiw3OlwiXCIsODpcIsKnNkZhcm1pbmcgV2lzZG9tIEJvb3N0XCIsOTpcIsKnN8KnN8KnN0dyYW50cyDCpzMrMzDimK8gRmFybWluZyBXaXNkb23CpzcuXCIsMTA6XCJcIiwxMTpcIsKnNkVmZmljaWVudCBGYXJtaW5nXCIsMTI6XCLCpzfCpzdGYXJtaW5nIG1pbmlvbnMgd29yayDCp2EzMCUgwqc3ZmFzdGVyXCIsMTM6XCLCpzd3aGlsZSBvbiB5b3VyIGlzbGFuZC5cIiwxNDpcIlwiLDE1Olwiwqc2SGVsZCBJdGVtOiDCpzlGYXJtaW5nIEV4cCBCb29zdFwiLDE2Olwiwqc3R2l2ZXMgwqdhKzQwJSDCpzdwZXQgZXhwIGZvciBGYXJtaW5nLlwiLDE3OlwiXCIsMTg6XCLCp2LCp2xNQVggTEVWRUxcIiwxOTpcIsKnOOKWuCAzOSw1MTcsNTc0IFhQXCIsMjA6XCJcIiwyMTpcIsKnN8KnZUxlZnQtY2xpY2sgdG8gc3VtbW9uIVwiLDIyOlwiwqdlUmlnaHQtY2xpY2sgdG8gY29udmVydCB0byBhbiBpdGVtIVwiXSxOYW1lOlwiwqc3W0x2bCAxMDBdIMKnNlJhYmJpdFwifSxFeHRyYUF0dHJpYnV0ZXM6e3BldEluZm86XCJ7XFxcInR5cGVcXFwiOlxcXCJSQUJCSVRcXFwiLFxcXCJhY3RpdmVcXFwiOmZhbHNlLFxcXCJleHBcXFwiOjMuOTUxNzU3NDE2Mjc1MDM3RTcsXFxcInRpZXJcXFwiOlxcXCJMRUdFTkRBUllcXFwiLFxcXCJoaWRlSW5mb1xcXCI6ZmFsc2UsXFxcImhlbGRJdGVtXFxcIjpcXFwiUEVUX0lURU1fRkFSTUlOR19TS0lMTF9CT09TVF9SQVJFXFxcIixcXFwiY2FuZHlVc2VkXFxcIjowLFxcXCJ1dWlkXFxcIjpcXFwiZjc2NzVmODMtNmJjYS00NTE3LTlmYzUtNzM0MzY5ZTc4N2M4XFxcIixcXFwidW5pcXVlSWRcXFwiOlxcXCI5MGFiYjQwZC1lYTc0LTQ2YzgtYjdmNS0wMDRkZjBjOTkyMWFcXFwiLFxcXCJoaWRlUmlnaHRDbGlja1xcXCI6ZmFsc2UsXFxcIm5vTW92ZVxcXCI6ZmFsc2V9XCIsaWQ6XCJQRVRcIix1dWlkOlwiZjc2NzVmODMtNmJjYS00NTE3LTlmYzUtNzM0MzY5ZTc4N2M4XCJ9fSIsImRhbWFnZSI6MywiaW50ZXJuYWxuYW1lIjoiXyJ9",
+                  "NETHER_WART": "eyJpdGVtaWQiOiJtaW5lY3JhZnQ6ZGlhbW9uZF9ob2UiLCJkaXNwbGF5bmFtZSI6IsKnNkJsZXNzZWQgTmV3dG9uIE5ldGhlciBXYXJ0cyBIb2UiLCJuYnR0YWciOiJ7ZW5jaDpbMDp7bHZsOjVzLGlkOjMyc31dLFVuYnJlYWthYmxlOjFiLEhpZGVGbGFnczoyNTQsZGlzcGxheTp7TG9yZTpbMDpcIsKnN1NwZWVkOiDCp2ErMTYgwqc5KCsxNilcIiwxOlwiwqc3RmFybWluZyBGb3J0dW5lOiDCp2ErMTEyIMKnMigrNSkgwqc5KCsxNilcIiwyOlwiwqc3RmFybWluZyBXaXNkb206IMKnYSsxMyDCpzkoKzUpXCIsMzpcIsKnN05ldGhlciBXYXJ0IEZvcnR1bmU6IMKnYSsxOTZcIiw0OlwiXCIsNTpcIsKnOUN1bHRpdmF0aW5nIFZJSUkgwqc4MTcsNDQwLDQ4NFwiLDY6XCLCpzlEZWRpY2F0aW9uIElJSVwiLDc6XCLCpzlFZmZpY2llbmN5IFZcIiw4Olwiwqc5SGFydmVzdGluZyBWSVwiLDk6XCLCpzlSZXBsZW5pc2ggSVwiLDEwOlwiwqc5U2lsayBUb3VjaCBJXCIsMTE6XCLCpzlUdXJiby1XYXJ0cyBWXCIsMTI6XCJcIiwxMzpcIsKnN0dhaW4gwqc2KzUw4piYIE5ldGhlciBXYXJ0IEZvcnR1bmUgwqc3YW5kXCIsMTQ6XCLCpzfCpzMrOOKYryBGYXJtaW5nIFdpc2RvbSDCpzdmb3IgbmV0aGVyXCIsMTU6XCLCpzd3YXJ0cy5cIiwxNjpcIlwiLDE3Olwiwqc3Q291bnRlcjogwqdlMTcsNDMwLDAzNyBOZXRoZXIgV2FydHNcIiwxODpcIlwiLDE5Olwiwqc2TG9nYXJpdGhtaWMgQ291bnRlclwiLDIwOlwiwqc3R2FpbiDCpzYrMTbimJggTmV0aGVyIFdhcnQgRm9ydHVuZSDCpzdwZXJcIiwyMTpcIsKnN2RpZ2l0cyBvbiB0aGUgQ291bnRlciwgbWludXMgNCFcIiwyMjpcIsKnN1lvdSBoYXZlIMKnNis2NOKYmCBOZXRoZXIgV2FydCBGb3J0dW5lwqc3LlwiLDIzOlwiXCIsMjQ6XCLCpzZDb2xsZWN0aW9uIEFuYWx5c2lzXCIsMjU6XCLCpzdHYWluIMKnNis44piYIE5ldGhlciBXYXJ0IEZvcnR1bmUgwqc3cGVyIGRpZ2l0c1wiLDI2Olwiwqc3b2YgeW91ciBjb2xsZWN0aW9uLCBtaW51cyA0IVwiLDI3Olwiwqc3WW91IGhhdmUgwqc2KzMy4piYIE5ldGhlciBXYXJ0IEZvcnR1bmXCpzcuXCIsMjg6XCJcIiwyOTpcIsKnN8KnOEJvbnVzIG5ldGhlciB3YXJ0cyBwZXJjZW50XCIsMzA6XCLCpzhpbmNyZWFzZXMgeW91ciBGYXJtaGFuZCBwZXJrJ3NcIiwzMTpcIsKnOGNoYW5jZXMuXCIsMzI6XCJcIiwzMzpcIsKnOUJsZXNzZWQgQm9udXNcIiwzNDpcIsKnN0dyYW50cyDCpzYrMTbimJggRmFybWluZyBGb3J0dW5lIMKnN2FuZFwiLDM1Olwiwqc3wqczKzXimK8gRmFybWluZyBXaXNkb23CpzcuXCIsMzY6XCJcIiwzNzpcIsKnOMKnbCogwqc4Q28tb3AgU291bGJvdW5kIMKnOMKnbCpcIiwzODpcIsKnNsKnbExFR0VOREFSWSBIT0VcIl0sTmFtZTpcIsKnNkJsZXNzZWQgTmV3dG9uIE5ldGhlciBXYXJ0cyBIb2VcIn0sRXh0cmFBdHRyaWJ1dGVzOntmYXJtZWRfY3VsdGl2YXRpbmc6MTc0NDA0ODQsbW9kaWZpZXI6XCJibGVzc2VkXCIsbWluZWRfY3JvcHM6MTc0MzAwMzdMLGlkOlwiVEhFT1JFVElDQUxfSE9FX1dBUlRTXzNcIixmYXJtaW5nX2Zvcl9kdW1taWVzX2NvdW50OjUsZW5jaGFudG1lbnRzOntlZmZpY2llbmN5OjUsaGFydmVzdGluZzo2LGN1bHRpdmF0aW5nOjgsZGVkaWNhdGlvbjozLHNpbGtfdG91Y2g6MSxyZXBsZW5pc2g6MSx0dXJib193YXJ0czo1fSx1dWlkOlwiZjJkZDFlNTQtYTg3Zi00NWZhLThhOWItOWJmZWMyOTZhM2QzXCIsZG9uYXRlZF9tdXNldW06MWIsdGltZXN0YW1wOlwiNi8xOS8yMyAzOjE4IFBNXCJ9fSIsImRhbWFnZSI6MCwiaW50ZXJuYWxuYW1lIjoiXyJ9",
+                  "SUGAR_CANE": "eyJpdGVtaWQiOiJtaW5lY3JhZnQ6ZGlhbW9uZF9ob2UiLCJkaXNwbGF5bmFtZSI6IsKnZEJsZXNzZWQgVHVyaW5nIFN1Z2FyIENhbmUgSG9lIiwibmJ0dGFnIjoie2VuY2g6WzA6e2x2bDo1cyxpZDozMnN9XSxVbmJyZWFrYWJsZToxYixIaWRlRmxhZ3M6MjU0LGRpc3BsYXk6e0xvcmU6WzA6XCLCpzdTcGVlZDogwqdhKzIwIMKnOSgrMjApXCIsMTpcIsKnN0Zhcm1pbmcgRm9ydHVuZTogwqdhKzExOCDCpzIoKzUpIMKnOSgrMjApXCIsMjpcIsKnN0Zhcm1pbmcgV2lzZG9tOiDCp2ErMTUgwqc5KCs2KVwiLDM6XCJcIiw0Olwiwqc5Q3VsdGl2YXRpbmcgSVggwqc4MjgsOTcwLDQ2NlwiLDU6XCLCpzlEZWRpY2F0aW9uIElJSVwiLDY6XCLCpzlFZmZpY2llbmN5IFZcIiw3Olwiwqc5SGFydmVzdGluZyBWSVwiLDg6XCLCpzlSZXBsZW5pc2ggSVwiLDk6XCLCpzlTaWxrIFRvdWNoIElcIiwxMDpcIsKnOVR1cmJvLUNhbmUgVlwiLDExOlwiXCIsMTI6XCLCpzdHYWluIMKnNis1MOKYmCBGYXJtaW5nIEZvcnR1bmVcIiwxMzpcIsKnNsKnN2FuZCDCpzMrMTLimK8gRmFybWluZyBXaXNkb21cIiwxNDpcIsKnM8KnN2ZvciBzdWdhciBjYW5lcy5cIiwxNTpcIlwiLDE2Olwiwqc3Q291bnRlcjogwqdlMzcsNTA4LDEzMyBTdWdhciBDYW5lc1wiLDE3OlwiXCIsMTg6XCLCpzZMb2dhcml0aG1pYyBDb3VudGVyXCIsMTk6XCLCpzdHYWluIMKnNisxNuKYmCBGYXJtaW5nIEZvcnR1bmVcIiwyMDpcIsKnNsKnN2ZvciBzdWdhciBjYW5lcyBwZXIgZGlnaXRzIG9uXCIsMjE6XCLCpzd0aGUgQ291bnRlciwgbWludXMgNCFcIiwyMjpcIsKnN1lvdSBoYXZlIMKnNis2NOKYmCBGYXJtaW5nIEZvcnR1bmVcIiwyMzpcIsKnNsKnN2ZvciBzdWdhciBjYW5lcy5cIiwyNDpcIlwiLDI1Olwiwqc2Q29sbGVjdGlvbiBBbmFseXNpc1wiLDI2Olwiwqc3R2FpbiDCpzYrOOKYmCBGYXJtaW5nIEZvcnR1bmUgwqc3Zm9yXCIsMjc6XCLCpzdzdWdhciBjYW5lcyBwZXIgZGlnaXRzIG9mIHlvdXJcIiwyODpcIsKnN2NvbGxlY3Rpb24sIG1pbnVzIDQhXCIsMjk6XCLCpzdZb3UgaGF2ZSDCpzYrMzLimJggRmFybWluZyBGb3J0dW5lXCIsMzA6XCLCpzbCpzdmb3Igc3VnYXIgY2FuZXMuXCIsMzE6XCJcIiwzMjpcIsKnN8KnOEJvbnVzIHN1Z2FyIGNhbmVzIHBlcmNlbnRcIiwzMzpcIsKnOGluY3JlYXNlcyB5b3VyIEZhcm1oYW5kIHBlcmsnc1wiLDM0Olwiwqc4Y2hhbmNlc1wiLDM1OlwiXCIsMzY6XCLCpzlCbGVzc2VkIEJvbnVzXCIsMzc6XCLCpzdHcmFudHMgwqc2KzIw4piYIEZhcm1pbmcgRm9ydHVuZVwiLDM4Olwiwqc2wqc3YW5kIMKnMys24pivIEZhcm1pbmcgV2lzZG9twqc3LlwiLDM5OlwiXCIsNDA6XCLCpzjCp2wqIMKnOENvLW9wIFNvdWxib3VuZCDCpzjCp2wqXCIsNDE6XCLCp2TCp2zCp2thwqdyIMKnZMKnbMKnZMKnbE1ZVEhJQyBIT0UgwqdkwqdswqdrYVwiXSxOYW1lOlwiwqdkQmxlc3NlZCBUdXJpbmcgU3VnYXIgQ2FuZSBIb2VcIn0sRXh0cmFBdHRyaWJ1dGVzOntyYXJpdHlfdXBncmFkZXM6MSxmYXJtZWRfY3VsdGl2YXRpbmc6Mjg5NzA0NjYsbWluZWRfY3JvcHM6Mzc1MDgxMzNMLG1vZGlmaWVyOlwiYmxlc3NlZFwiLGlkOlwiVEhFT1JFVElDQUxfSE9FX0NBTkVfM1wiLGVuY2hhbnRtZW50czp7ZWZmaWNpZW5jeTo1LGhhcnZlc3Rpbmc6NixjdWx0aXZhdGluZzo5LGRlZGljYXRpb246MyxzaWxrX3RvdWNoOjEscmVwbGVuaXNoOjEsdHVyYm9fY2FuZTo1fSxmYXJtaW5nX2Zvcl9kdW1taWVzX2NvdW50OjUsdXVpZDpcImM5MWI5NWU5LWIxNDQtNGU1MS05NTM2LWY5ZDg0YTI1MDFkZVwiLGRvbmF0ZWRfbXVzZXVtOjFiLHRpbWVzdGFtcDpcIjcvMTQvMjIgNTozNSBBTVwifX0iLCJkYW1hZ2UiOjAsImludGVybmFsbmFtZSI6Il8ifQ\u003d\u003d",
+                  "CARROT": "eyJpdGVtaWQiOiJtaW5lY3JhZnQ6ZGlhbW9uZF9ob2UiLCJkaXNwbGF5bmFtZSI6IsKnNkJsZXNzZWQgR2F1c3MgQ2Fycm90IEhvZSIsIm5idHRhZyI6IntlbmNoOlswOntsdmw6NXMsaWQ6MzJzfV0sVW5icmVha2FibGU6MWIsSGlkZUZsYWdzOjI1NCxkaXNwbGF5OntMb3JlOlswOlwiwqc3U3BlZWQ6IMKnYSsxNiDCpzkoKzE2KVwiLDE6XCLCpzdGYXJtaW5nIEZvcnR1bmU6IMKnYSsxMTQgwqcyKCs1KSDCpzkoKzE2KVwiLDI6XCLCpzdGYXJtaW5nIFdpc2RvbTogwqdhKzE0IMKnOSgrNSlcIiwzOlwiXCIsNDpcIsKnOUN1bHRpdmF0aW5nIElYIMKnODI4LDMyMyw3MTZcIiw1Olwiwqc5RGVkaWNhdGlvbiBJSUlcIiw2Olwiwqc5RGVsaWNhdGUgVlwiLDc6XCLCpzlFZmZpY2llbmN5IFZcIiw4Olwiwqc5SGFydmVzdGluZyBWSVwiLDk6XCLCpzlSZXBsZW5pc2ggSVwiLDEwOlwiwqc5U2lsayBUb3VjaCBJXCIsMTE6XCLCpzlUdXJiby1DYXJyb3QgVlwiLDEyOlwiXCIsMTM6XCLCpzdHYWluIMKnNis1MOKYmCBGYXJtaW5nIEZvcnR1bmVcIiwxNDpcIsKnNsKnN2FuZCDCpzMrOOKYryBGYXJtaW5nIFdpc2RvbSDCpzdmb3JcIiwxNTpcIsKnN2NhcnJvdHMuXCIsMTY6XCJcIiwxNzpcIsKnN0NvdW50ZXI6IMKnZTI4LDMwNCw4OTEgQ2Fycm90c1wiLDE4OlwiXCIsMTk6XCLCpzZMb2dhcml0aG1pYyBDb3VudGVyXCIsMjA6XCLCpzdHYWluIMKnNisxNuKYmCBGYXJtaW5nIEZvcnR1bmVcIiwyMTpcIsKnNsKnN2ZvciBjYXJyb3RzIHBlciBkaWdpdHMgb24gdGhlXCIsMjI6XCLCpzdDb3VudGVyLCBtaW51cyA0IVwiLDIzOlwiwqc3WW91IGhhdmUgwqc2KzY04piYIEZhcm1pbmcgRm9ydHVuZVwiLDI0Olwiwqc2wqc3Zm9yIGNhcnJvdHMuXCIsMjU6XCJcIiwyNjpcIsKnNkNvbGxlY3Rpb24gQW5hbHlzaXNcIiwyNzpcIsKnN0dhaW4gwqc2KzjimJggRmFybWluZyBGb3J0dW5lIMKnN2ZvclwiLDI4Olwiwqc3Y2Fycm90cyBwZXIgZGlnaXRzIG9mIHlvdXJcIiwyOTpcIsKnN2NvbGxlY3Rpb24sIG1pbnVzIDQhXCIsMzA6XCLCpzdZb3UgaGF2ZSDCpzYrMzLimJggRmFybWluZyBGb3J0dW5lXCIsMzE6XCLCpzbCpzdmb3IgY2Fycm90cy5cIiwzMjpcIlwiLDMzOlwiwqc3wqc4Qm9udXMgY2Fycm90cyBwZXJjZW50XCIsMzQ6XCLCpzhpbmNyZWFzZXMgeW91ciBGYXJtaGFuZCBwZXJrJ3NcIiwzNTpcIsKnOGNoYW5jZXNcIiwzNjpcIlwiLDM3Olwiwqc5Qmxlc3NlZCBCb251c1wiLDM4Olwiwqc3R3JhbnRzIMKnNisxNuKYmCBGYXJtaW5nIEZvcnR1bmVcIiwzOTpcIsKnNsKnN2FuZCDCpzMrNeKYryBGYXJtaW5nIFdpc2RvbcKnNy5cIiw0MDpcIlwiLDQxOlwiwqc4wqdsKiDCpzhDby1vcCBTb3VsYm91bmQgwqc4wqdsKlwiLDQyOlwiwqc2wqdsTEVHRU5EQVJZIEhPRVwiXSxOYW1lOlwiwqc2Qmxlc3NlZCBHYXVzcyBDYXJyb3QgSG9lXCJ9LEV4dHJhQXR0cmlidXRlczp7ZmFybWVkX2N1bHRpdmF0aW5nOjI4MzIzNzE2LG1vZGlmaWVyOlwiYmxlc3NlZFwiLG1pbmVkX2Nyb3BzOjI4MzA0ODkxTCxpZDpcIlRIRU9SRVRJQ0FMX0hPRV9DQVJST1RfM1wiLGVuY2hhbnRtZW50czp7ZGVsaWNhdGU6NSxlZmZpY2llbmN5OjUsaGFydmVzdGluZzo2LGN1bHRpdmF0aW5nOjksZGVkaWNhdGlvbjozLHNpbGtfdG91Y2g6MSxyZXBsZW5pc2g6MSx0dXJib19jYXJyb3Q6NX0sZmFybWluZ19mb3JfZHVtbWllc19jb3VudDo1LHV1aWQ6XCIzNDM2YTAwMi1jMmZmLTQ0ZjAtYWViZi0wZjBiOWFlZDlhZWNcIixkb25hdGVkX211c2V1bToxYix0aW1lc3RhbXA6XCI1LzI3LzIzIDQ6NDYgUE1cIn19IiwiZGFtYWdlIjowLCJpbnRlcm5hbG5hbWUiOiJfIn0\u003d",
+                  "MELON": "eyJpdGVtaWQiOiJtaW5lY3JhZnQ6ZGlhbW9uZF9heGUiLCJkaXNwbGF5bmFtZSI6IsKnNkJvdW50aWZ1bCBNZWxvbiBEaWNlciAzLjAiLCJuYnR0YWciOiJ7ZW5jaDpbMDp7bHZsOjVzLGlkOjMyc31dLFVuYnJlYWthYmxlOjFiLEhpZGVGbGFnczoyNTQsZGlzcGxheTp7TG9yZTpbMDpcIsKnN1NwZWVkOiDCp2ErOCDCpzkoKzgpXCIsMTpcIsKnN0Zhcm1pbmcgRm9ydHVuZTogwqdhKzkyLjUgwqcyKCs1KSDCpzkoKzcpXCIsMjpcIsKnN0Zhcm1pbmcgV2lzZG9tOiDCp2ErOVwiLDM6XCJcIiw0Olwiwqc5Q3VsdGl2YXRpbmcgSVggwqc4MzksNjQ2LDM2OVwiLDU6XCLCpzlEZWRpY2F0aW9uIElJSVwiLDY6XCLCpzlEZWxpY2F0ZSBWXCIsNzpcIsKnOUVmZmljaWVuY3kgVlwiLDg6XCLCpzlTbWVsdGluZyBUb3VjaCBJXCIsOTpcIsKnOVN1bmRlciBWXCIsMTA6XCLCpzlUdXJiby1NZWxvbiBWXCIsMTE6XCJcIiwxMjpcIsKnN8KnN0dhaW4gwqczKzEw4pivIEZhcm1pbmcgV2lzZG9tXCIsMTM6XCLCpzPCpzd3aGlsZSBoYXJ2ZXN0aW5nIG1lbG9uc8KnNy5cIiwxNDpcIlwiLDE1Olwiwqc2QWJpbGl0eTogUm9sbCBlbScrKyBcIiwxNjpcIsKnN0V2ZXJ5IG1lbG9uIHlvdSBicmVhaywgeW91XCIsMTc6XCLCpzdtYWtlIGEgd2lzaCB0byDCp2RSTkdlc3VzXCIsMTg6XCLCp2TCpzd3aGljaCBtYXkgZ3JhbnQgeW91IHdpdGggYVwiLDE5Olwiwqc3ZmV3IG9yIFRPTlMgb2YgZXh0cmEgbWVsb25zIVwiLDIwOlwiwqc3wqdvQWxtb3N0IGlkZW50aWNhbCB0byB0aGUgTWVsb25cIiwyMTpcIsKnN8Knb0RpY2VyIDIuMCwgYnV0IGl0IGhhcyAzLjAgaW4gdGhlXCIsMjI6XCLCpzfCp29uYW1lIVwiLDIzOlwiXCIsMjQ6XCLCpzlCb3VudGlmdWwgQm9udXNcIiwyNTpcIsKnN0dyYW50cyDCp2ErNyDCpzbimJggRmFybWluZ1wiLDI2Olwiwqc2Rm9ydHVuZcKnNywgd2hpY2ggaW5jcmVhc2VzIHlvdXJcIiwyNzpcIsKnN2NoYW5jZSBmb3IgbXVsdGlwbGUgY3JvcHMuXCIsMjg6XCLCpzdHcmFudHMgwqc2KzAuMiBjb2lucyDCpzdwZXIgY3JvcC5cIiwyOTpcIlwiLDMwOlwiwqc4wqdsKiDCpzhDby1vcCBTb3VsYm91bmQgwqc4wqdsKlwiLDMxOlwiwqc2wqdsTEVHRU5EQVJZIEFYRVwiXSxOYW1lOlwiwqc2Qm91bnRpZnVsIE1lbG9uIERpY2VyIDMuMFwifSxFeHRyYUF0dHJpYnV0ZXM6e2Zhcm1lZF9jdWx0aXZhdGluZzozOTY0NjM2OSxtb2RpZmllcjpcImJvdW50aWZ1bFwiLGlkOlwiTUVMT05fRElDRVJfM1wiLGVuY2hhbnRtZW50czp7ZGVsaWNhdGU6NSxlZmZpY2llbmN5OjUsc21lbHRpbmdfdG91Y2g6MSxzdW5kZXI6NSxjdWx0aXZhdGluZzo5LGRlZGljYXRpb246Myx0dXJib19tZWxvbjo1fSxmYXJtaW5nX2Zvcl9kdW1taWVzX2NvdW50OjUsdXVpZDpcImU4ZTJhZTdhLWY0YmItNDZmZS1iMzY2LWQ1YmNhZTI5ZDliNVwiLGRvbmF0ZWRfbXVzZXVtOjFiLHRpbWVzdGFtcDpcIjcvMzAvMjIgODowMSBQTVwifX0iLCJkYW1hZ2UiOjAsImludGVybmFsbmFtZSI6Il8ifQ\u003d\u003d",
+                  "COCOA_BEANS": "eyJpdGVtaWQiOiJtaW5lY3JhZnQ6Z29sZGVuX2F4ZSIsImRpc3BsYXluYW1lIjoiwqc1Qmxlc3NlZCBDb2NvYSBDaG9wcGVyIiwibmJ0dGFnIjoie2VuY2g6WzA6e2x2bDo1cyxpZDozMnN9XSxVbmJyZWFrYWJsZToxYixIaWRlRmxhZ3M6MjU0LGRpc3BsYXk6e0xvcmU6WzA6XCLCpzdTcGVlZDogwqdhKzEzIMKnOSgrMTMpXCIsMTpcIsKnN0Zhcm1pbmcgRm9ydHVuZTogwqdhKzk4LjUgwqcyKCs1KSDCpzkoKzEzKVwiLDI6XCLCpzdGYXJtaW5nIFdpc2RvbTogwqdhKzEzIMKnOSgrNClcIiwzOlwiXCIsNDpcIsKnOUN1bHRpdmF0aW5nIElYIMKnODI0LDc3MCw2NTZcIiw1Olwiwqc5RGVkaWNhdGlvbiBJSUlcIiw2Olwiwqc5RWZmaWNpZW5jeSBWXCIsNzpcIsKnOVJlcGxlbmlzaCBJXCIsODpcIsKnOVNpbGsgVG91Y2ggSVwiLDk6XCLCpzlTdW5kZXIgVlwiLDEwOlwiwqc5VHVyYm8tQ29jb2EgVlwiLDExOlwiXCIsMTI6XCLCpzdHcmFudHMgwqc2KzIw4piYIEZhcm1pbmcgRm9ydHVuZVwiLDEzOlwiwqc2wqc3d2hlbiBoYXJ2ZXN0aW5nIENvY29hIEJlYW5zLlwiLDE0OlwiXCIsMTU6XCLCpzlCbGVzc2VkIEJvbnVzXCIsMTY6XCLCpzdHcmFudHMgwqc2KzEz4piYIEZhcm1pbmcgRm9ydHVuZVwiLDE3Olwiwqc2wqc3YW5kIMKnMys04pivIEZhcm1pbmcgV2lzZG9twqc3LlwiLDE4OlwiXCIsMTk6XCLCpzjCp2wqIMKnOENvLW9wIFNvdWxib3VuZCDCpzjCp2wqXCIsMjA6XCLCpzXCp2xFUElDIEFYRVwiXSxOYW1lOlwiwqc1Qmxlc3NlZCBDb2NvYSBDaG9wcGVyXCJ9LEV4dHJhQXR0cmlidXRlczp7ZmFybWVkX2N1bHRpdmF0aW5nOjI0NzcwNjU2LG1vZGlmaWVyOlwiYmxlc3NlZFwiLGlkOlwiQ09DT19DSE9QUEVSXCIsZW5jaGFudG1lbnRzOnt0dXJib19jb2NvOjUsZWZmaWNpZW5jeTo1LHN1bmRlcjo1LGN1bHRpdmF0aW5nOjksZGVkaWNhdGlvbjozLHNpbGtfdG91Y2g6MSxyZXBsZW5pc2g6MX0sZmFybWluZ19mb3JfZHVtbWllc19jb3VudDo1LHV1aWQ6XCI3MGEyNGE0NS1iNjczLTQwMDUtYWZhNC1jZTcwNTZhZDVhZTlcIixkb25hdGVkX211c2V1bToxYix0aW1lc3RhbXA6XCI2LzE1LzIzIDc6MjkgUE1cIn19IiwiZGFtYWdlIjowLCJpbnRlcm5hbG5hbWUiOiJfIn0\u003d",
+                  "CACTUS": "eyJpdGVtaWQiOiJtaW5lY3JhZnQ6Z29sZGVuX2hvZSIsImRpc3BsYXluYW1lIjoiwqc1Qmxlc3NlZCBDYWN0dXMgS25pZmUiLCJuYnR0YWciOiJ7ZW5jaDpbMDp7bHZsOjVzLGlkOjMyc31dLFVuYnJlYWthYmxlOjFiLEhpZGVGbGFnczoyNTQsZGlzcGxheTp7TG9yZTpbMDpcIsKnN1NwZWVkOiDCp2ErMTMgwqc5KCsxMylcIiwxOlwiwqc3RmFybWluZyBGb3J0dW5lOiDCp2ErMTA5IMKnMigrNSkgwqc5KCsxMylcIiwyOlwiwqc3RmFybWluZyBXaXNkb206IMKnYSsxMiDCpzkoKzQpXCIsMzpcIlwiLDQ6XCLCpzlDdWx0aXZhdGluZyBWSUlJIMKnODgsODg4LDE5MVwiLDU6XCLCpzlEZWRpY2F0aW9uIElJSVwiLDY6XCLCpzlFZmZpY2llbmN5IFZcIiw3Olwiwqc5SGFydmVzdGluZyBWSVwiLDg6XCLCpzlTbWVsdGluZyBUb3VjaCBJXCIsOTpcIsKnOVR1cmJvLUNhY3RpIFZcIiwxMDpcIlwiLDExOlwiwqc3U2xpY2VzIHRocm91Z2ggwqdhY2FjdHVzwqc3IGluc3RhbnRseSFcIiwxMjpcIlwiLDEzOlwiwqc5Qmxlc3NlZCBCb251c1wiLDE0Olwiwqc3R3JhbnRzIMKnNisxM+KYmCBGYXJtaW5nIEZvcnR1bmVcIiwxNTpcIsKnNsKnN2FuZCDCpzMrNOKYryBGYXJtaW5nIFdpc2RvbcKnNy5cIiwxNjpcIlwiLDE3Olwiwqc4wqdsKiDCpzhDby1vcCBTb3VsYm91bmQgwqc4wqdsKlwiLDE4Olwiwqc1wqdsRVBJQyBIT0VcIl0sTmFtZTpcIsKnNUJsZXNzZWQgQ2FjdHVzIEtuaWZlXCJ9LEV4dHJhQXR0cmlidXRlczp7ZmFybWVkX2N1bHRpdmF0aW5nOjg4ODgxOTEsbW9kaWZpZXI6XCJibGVzc2VkXCIsaWQ6XCJDQUNUVVNfS05JRkVcIixlbmNoYW50bWVudHM6e2VmZmljaWVuY3k6NSxzbWVsdGluZ190b3VjaDoxLGhhcnZlc3Rpbmc6NixjdWx0aXZhdGluZzo4LGRlZGljYXRpb246Myx0dXJib19jYWN0dXM6NX0sZmFybWluZ19mb3JfZHVtbWllc19jb3VudDo1LHV1aWQ6XCI3MzAwNTMyOS1jZDI0LTQ0MmEtOTYyYy1iMjdlZjI5MGRhNWNcIixkb25hdGVkX211c2V1bToxYix0aW1lc3RhbXA6XCI2LzE5LzIzIDI6NDYgUE1cIn19IiwiZGFtYWdlIjowLCJpbnRlcm5hbG5hbWUiOiJfIn0\u003d",
+                  "WHEAT": "eyJpdGVtaWQiOiJtaW5lY3JhZnQ6aXJvbl9ob2UiLCJkaXNwbGF5bmFtZSI6IsKnNUJsZXNzZWQgRXVjbGlkJ3MgV2hlYXQgSG9lIiwibmJ0dGFnIjoie2VuY2g6WzA6e2x2bDo1cyxpZDozMnN9XSxVbmJyZWFrYWJsZToxYixIaWRlRmxhZ3M6MjU0LGRpc3BsYXk6e0xvcmU6WzA6XCLCpzdTcGVlZDogwqdhKzEzIMKnOSgrMTMpXCIsMTpcIsKnN0Zhcm1pbmcgRm9ydHVuZTogwqdhKzExMSDCpzIoKzUpIMKnOSgrMTMpXCIsMjpcIsKnN0Zhcm1pbmcgV2lzZG9tOiDCp2ErMTMgwqc5KCs0KVwiLDM6XCJcIiw0Olwiwqc5Q3VsdGl2YXRpbmcgSVggwqc4MjYsODcwLDMxOFwiLDU6XCLCpzlEZWRpY2F0aW9uIElJSVwiLDY6XCLCpzlFZmZpY2llbmN5IFZcIiw3Olwiwqc5SGFydmVzdGluZyBWSVwiLDg6XCLCpzlSZXBsZW5pc2ggSVwiLDk6XCLCpzlTaWxrIFRvdWNoIElcIiwxMDpcIsKnOVR1cmJvLVdoZWF0IFZcIiwxMTpcIlwiLDEyOlwiwqc3R2FpbiDCpzYrMjXimJggRmFybWluZyBGb3J0dW5lXCIsMTM6XCLCpzbCpzdhbmQgwqczKzXimK8gRmFybWluZyBXaXNkb20gwqc3Zm9yXCIsMTQ6XCLCpzd3aGVhdC5cIiwxNTpcIlwiLDE2Olwiwqc3Q291bnRlcjogwqdlMTEsMjc3LDQ2MiBXaGVhdFwiLDE3OlwiXCIsMTg6XCLCpzZMb2dhcml0aG1pYyBDb3VudGVyXCIsMTk6XCLCpzdHYWluIMKnNisxNuKYmCBGYXJtaW5nIEZvcnR1bmVcIiwyMDpcIsKnNsKnN2ZvciB3aGVhdCBwZXIgZGlnaXRzIG9uIHRoZVwiLDIxOlwiwqc3Q291bnRlciwgbWludXMgNCFcIiwyMjpcIsKnN1lvdSBoYXZlIMKnNis2NOKYmCBGYXJtaW5nIEZvcnR1bmVcIiwyMzpcIsKnNsKnN2ZvciB3aGVhdC5cIiwyNDpcIlwiLDI1Olwiwqc3wqc4Qm9udXMgd2hlYXQgcGVyY2VudCBpbmNyZWFzZXNcIiwyNjpcIsKnOHlvdXIgRmFybWhhbmQgcGVyaydzIGNoYW5jZXNcIiwyNzpcIsKnZVJpZ2h0LWNsaWNrIHRvIHZpZXcgcmVjaXBlcyFcIiwyODpcIlwiLDI5Olwiwqc5Qmxlc3NlZCBCb251c1wiLDMwOlwiwqc3R3JhbnRzIMKnNisxM+KYmCBGYXJtaW5nIEZvcnR1bmVcIiwzMTpcIsKnNsKnN2FuZCDCpzMrNOKYryBGYXJtaW5nIFdpc2RvbcKnNy5cIiwzMjpcIlwiLDMzOlwiwqc4wqdsKiDCpzhDby1vcCBTb3VsYm91bmQgwqc4wqdsKlwiLDM0Olwiwqc1wqdsRVBJQyBIT0VcIl0sTmFtZTpcIsKnNUJsZXNzZWQgRXVjbGlkJ3MgV2hlYXQgSG9lXCJ9LEV4dHJhQXR0cmlidXRlczp7ZmFybWVkX2N1bHRpdmF0aW5nOjI2ODcwMzE4LG1pbmVkX2Nyb3BzOjExMjc3NDYyTCxtb2RpZmllcjpcImJsZXNzZWRcIixpZDpcIlRIRU9SRVRJQ0FMX0hPRV9XSEVBVF8yXCIsZW5jaGFudG1lbnRzOntlZmZpY2llbmN5OjUsaGFydmVzdGluZzo2LGN1bHRpdmF0aW5nOjksZGVkaWNhdGlvbjozLHNpbGtfdG91Y2g6MSx0dXJib193aGVhdDo1LHJlcGxlbmlzaDoxfSxmYXJtaW5nX2Zvcl9kdW1taWVzX2NvdW50OjUsdXVpZDpcImFhOGQ4NmE2LTU2MDgtNDMxNC1iODQxLWVjNGRlNWI4YmEzMFwiLGRvbmF0ZWRfbXVzZXVtOjFiLHRpbWVzdGFtcDpcIjgvMjAvMjIgNjo1MCBBTVwifX0iLCJkYW1hZ2UiOjAsImludGVybmFsbmFtZSI6Il8ifQ\u003d\u003d",
+                  "MUSHROOM": "eyJpdGVtaWQiOiJtaW5lY3JhZnQ6Z29sZGVuX2hvZSIsImRpc3BsYXluYW1lIjoiwqc5Qmxlc3NlZCBGdW5naSBDdXR0ZXIiLCJuYnR0YWciOiJ7ZW5jaDpbMDp7bHZsOjVzLGlkOjMyc31dLFVuYnJlYWthYmxlOjFiLEhpZGVGbGFnczoyNTQsZGlzcGxheTp7TG9yZTpbMDpcIsKnN1NwZWVkOiDCp2ErOSDCpzkoKzkpXCIsMTpcIsKnN0Zhcm1pbmcgRm9ydHVuZTogwqdhKzEwNSDCpzIoKzUpIMKnOSgrOSlcIiwyOlwiwqc3RmFybWluZyBXaXNkb206IMKnYSsxMSDCpzkoKzMpXCIsMzpcIlwiLDQ6XCLCpzlDdWx0aXZhdGluZyBWSUlJIMKnODEzLDIxNiw4NTdcIiw1Olwiwqc5RGVkaWNhdGlvbiBJSUlcIiw2Olwiwqc5RWZmaWNpZW5jeSBWXCIsNzpcIsKnOUhhcnZlc3RpbmcgVklcIiw4Olwiwqc5U2lsayBUb3VjaCBJXCIsOTpcIsKnOVR1cmJvLU11c2hyb29tcyBWXCIsMTA6XCJcIiwxMTpcIsKnNkFiaWxpdHk6IEZ1biBHdXkgQm9udXMgIMKnZcKnbFJJR0hUIENMSUNLXCIsMTI6XCLCpzhUb2dnbGVzIE9uL09mZiBvbiB1c2VcIiwxMzpcIsKnN1N3aXRjaGVzIGJldHdlZW4gcmVkIGFuZCBicm93blwiLDE0Olwiwqc3bXVzaHJvb20gY3V0dGluZyBtb2Rlcy5cIiwxNTpcIlwiLDE2OlwiwqdlTW9kZTogwqdjUmVkIE11c2hyb29tc1wiLDE3OlwiXCIsMTg6XCLCpzfCpzdHYWluIMKnNiszMOKYmCBGYXJtaW5nIEZvcnR1bmVcIiwxOTpcIsKnNsKnN2ZvciBSZWQgTXVzaHJvb21zXCIsMjA6XCJcIiwyMTpcIsKnOUJsZXNzZWQgQm9udXNcIiwyMjpcIsKnN0dyYW50cyDCpzYrOeKYmCBGYXJtaW5nIEZvcnR1bmVcIiwyMzpcIsKnNsKnN2FuZCDCpzMrM+KYryBGYXJtaW5nIFdpc2RvbcKnNy5cIiwyNDpcIlwiLDI1Olwiwqc4wqdsKiDCpzhDby1vcCBTb3VsYm91bmQgwqc4wqdsKlwiLDI2Olwiwqc5wqdsUkFSRSBIT0VcIl0sTmFtZTpcIsKnOUJsZXNzZWQgRnVuZ2kgQ3V0dGVyXCJ9LEV4dHJhQXR0cmlidXRlczp7ZmFybWVkX2N1bHRpdmF0aW5nOjEzMjE4MDIxLG1vZGlmaWVyOlwiYmxlc3NlZFwiLGlkOlwiRlVOR0lfQ1VUVEVSXCIsZnVuZ2lfY3V0dGVyX21vZGU6XCJSRURcIixmYXJtaW5nX2Zvcl9kdW1taWVzX2NvdW50OjUsZW5jaGFudG1lbnRzOntlZmZpY2llbmN5OjUsdHVyYm9fbXVzaHJvb21zOjUsaGFydmVzdGluZzo2LGN1bHRpdmF0aW5nOjgsZGVkaWNhdGlvbjozLHNpbGtfdG91Y2g6MX0sdXVpZDpcImM0NGIxOTRkLTY3YTItNDQzNy1iMjc1LTgxY2Y2ZDM4OWVmM1wiLGRvbmF0ZWRfbXVzZXVtOjFiLHRpbWVzdGFtcDpcIjYvMTkvMjMgMzoxOCBQTVwifX0iLCJkYW1hZ2UiOjAsImludGVybmFsbmFtZSI6Il8ifQ\u003d\u003d",
+                  "BEE": "eyJpdGVtaWQiOiJtaW5lY3JhZnQ6c2t1bGwiLCJkaXNwbGF5bmFtZSI6IsKnN1tMdmwgNTddIMKnNkJlZcKnNSDinKYiLCJuYnR0YWciOiJ7U2t1bGxPd25lcjp7SWQ6XCIzMTVkNTY0ZS0wZTAyLTRiNTktYmE3Mi1hYzg4YzU1NDVhNzhcIixoeXBpeGVsUG9wdWxhdGVkOjFiLFByb3BlcnRpZXM6e3RleHR1cmVzOlswOntWYWx1ZTpcImV3b2dJQ0owYVcxbGMzUmhiWEFpSURvZ01UWTJOREUxTmpjME1UQTBPU3dLSUNBaWNISnZabWxzWlVsa0lpQTZJQ0l4Tm1RNE5qSTROell6TVdZME5EWTJPR1EwTkRNMlpUSmxZMkl3TlRsbE5TSXNDaUFnSW5CeWIyWnBiR1ZPWVcxbElpQTZJQ0pTWlhwaFZHOTFjbTVsZVNJc0NpQWdJbk5wWjI1aGRIVnlaVkpsY1hWcGNtVmtJaUE2SUhSeWRXVXNDaUFnSW5SbGVIUjFjbVZ6SWlBNklIc0tJQ0FnSUNKVFMwbE9JaUE2SUhzS0lDQWdJQ0FnSW5WeWJDSWdPaUFpYUhSMGNEb3ZMM1JsZUhSMWNtVnpMbTFwYm1WamNtRm1kQzV1WlhRdmRHVjRkSFZ5WlM5bU5tVXhZV1U1TTJGa05XVTVOR0V3T1RBMFlUQTROemRtWmpFMFlUbGtaVFUyTURnek1qUXlZVFUzT0RaaFl6ZGtZelV3TTJVd09UaGhaVE0zTVRJd0lpd0tJQ0FnSUNBZ0ltMWxkR0ZrWVhSaElpQTZJSHNLSUNBZ0lDQWdJQ0FpYlc5a1pXd2lJRG9nSW5Oc2FXMGlDaUFnSUNBZ0lIMEtJQ0FnSUgwS0lDQjlDbjA9XCJ9XX0sTmFtZTpcIsKnMzE1ZDU2NGUtMGUwMi00YjU5LWJhNzItYWM4OGM1NTQ1YTc4XCJ9LGRpc3BsYXk6e0xvcmU6WzA6XCLCpzhGYXJtaW5nIFBldCwgWm9tQmVlIFNraW5cIiwxOlwiXCIsMjpcIsKnN1NwZWVkOiDCp2ErNS43XCIsMzpcIsKnN1N0cmVuZ3RoOiDCp2MrMTkuMjVcIiw0Olwiwqc3SW50ZWxsaWdlbmNlOiDCp2ErMjguNVwiLDU6XCLCpzdNaW5pbmcgRm9ydHVuZTogwqdhKzE3LjFcIiw2Olwiwqc3RmFybWluZyBGb3J0dW5lOiDCp2ErMTcuMVwiLDc6XCLCpzdGb3JhZ2luZyBGb3J0dW5lOiDCp2ErMTcuMVwiLDg6XCJcIiw5Olwiwqc2SGl2ZVwiLDEwOlwiwqc3Rm9yIGVhY2ggcGxheWVyIHdpdGhpbiDCp2EyNSDCpzdibG9ja3M6XCIsMTE6XCIgwqdiKzYuMTPinI4gSW50ZWxsaWdlbmNlXCIsMTI6XCIgwqdjKzQuOTninYEgU3RyZW5ndGhcIiwxMzpcIiDCp2ErMy4yOOKdiCBEZWZlbnNlXCIsMTQ6XCLCpzhNYXggMTUgcGxheWVyc1wiLDE1OlwiXCIsMTY6XCLCpzZCdXN5IEJ1enogQnV6elwiLDE3Olwiwqc3R3JhbnRzIMKnYSsxNy4xIMKnN29mIGVhY2ggdG8geW91ciBwZXQ6XCIsMTg6XCLCpzbimJggRmFybWluZyBGb3J0dW5lXCIsMTk6XCLCpzbimJggRm9yYWdpbmcgRm9ydHVuZVwiLDIwOlwiwqc24piYIE1pbmluZyBGb3J0dW5lXCIsMjE6XCJcIiwyMjpcIsKnNldlYXBvbml6ZWQgSG9uZXlcIiwyMzpcIsKnN8KnN0dhaW4gwqdhMTYuNCUgwqc3b2YgcmVjZWl2ZWQgZGFtYWdlIGFzIMKnNuKdpFwiLDI0Olwiwqc2QWJzb3JwdGlvbsKnNy5cIiwyNTpcIlwiLDI2Olwiwqc2SGVsZCBJdGVtOiDCpzVGYXJtaW5nIEV4cCBCb29zdFwiLDI3Olwiwqc3R2l2ZXMgwqdhKzUwJSDCpzdwZXQgZXhwIGZvciBGYXJtaW5nLlwiLDI4OlwiXCIsMjk6XCLCpzdQcm9ncmVzcyB0byBMZXZlbCA1ODogwqdlNDAuMSVcIiwzMDpcIsKnMsKnbMKnbSAgICAgICAgICAgwqdmwqdswqdtICAgICAgICAgICAgICDCp3IgwqdlMzMsOTU4LjLCpzYvwqdlODRrXCIsMzE6XCJcIiwzMjpcIsKnN8KnZUxlZnQtY2xpY2sgdG8gc3VtbW9uIVwiLDMzOlwiwqdlUmlnaHQtY2xpY2sgdG8gY29udmVydCB0byBhbiBpdGVtIVwiXSxOYW1lOlwiwqc3W0x2bCA1N10gwqc2QmVlwqc1IOKcplwifSxFeHRyYUF0dHJpYnV0ZXM6e3BldEluZm86XCJ7XFxcInR5cGVcXFwiOlxcXCJCRUVcXFwiLFxcXCJhY3RpdmVcXFwiOmZhbHNlLFxcXCJleHBcXFwiOjEwNjQwODguMjExMzY1MTMzMyxcXFwidGllclxcXCI6XFxcIkxFR0VOREFSWVxcXCIsXFxcImhpZGVJbmZvXFxcIjpmYWxzZSxcXFwiaGVsZEl0ZW1cXFwiOlxcXCJQRVRfSVRFTV9GQVJNSU5HX1NLSUxMX0JPT1NUX0VQSUNcXFwiLFxcXCJjYW5keVVzZWRcXFwiOjAsXFxcInNraW5cXFwiOlxcXCJCRUVfWk9NQkVFXFxcIixcXFwidXVpZFxcXCI6XFxcIjUxNTkyZmJjLTMzOGQtNDY1ZS1iNTRiLTFhNDVjMzliZmVkOFxcXCIsXFxcInVuaXF1ZUlkXFxcIjpcXFwiOTgyZjg5YzEtMDVjNC00Zjk3LTg3NmEtY2RhODM0YmNmNGY3XFxcIixcXFwiaGlkZVJpZ2h0Q2xpY2tcXFwiOmZhbHNlLFxcXCJub01vdmVcXFwiOmZhbHNlfVwiLGlkOlwiUEVUXCIsdXVpZDpcIjUxNTkyZmJjLTMzOGQtNDY1ZS1iNTRiLTFhNDVjMzliZmVkOFwifX0iLCJkYW1hZ2UiOjMsImludGVybmFsbmFtZSI6Il8ifQ\u003d\u003d"
+                }
+              },
+              "composterEmptyTime": 1710080744857,
+              "lastComposterEmptyWarningTime": 0,
+              "farmingWeight": {
+                "lastFarmingWeightLeaderboard": -1
+              },
+              "npcVisitorLocations": {},
+              "customGoalMilestone": {},
+              "pestProfitTracker": {
+                "totalPestsKills": 0,
+                "items": {}
+              }
+            },
+            "ghostCounter": {
+              "data": {
+                "KILLCOMBOCOINS": 0.0,
+                "KILLCOMBO": 0.0
+              },
+              "ctDataImported": false,
+              "bestiaryNextLevel": 0.0,
+              "bestiaryCurrentKill": 0.0,
+              "bestiaryKillNeeded": 0.0,
+              "totalMF": 0.0,
+              "configUpdateVersion": 1
+            },
+            "powderTracker": {
+              "totalChestPicked": 0,
+              "rewards": {}
+            },
+            "frozenTreasureTracker": {
+              "treasuresMined": 0,
+              "compactProcs": 0,
+              "treasureCount": {}
+            },
+            "enderNodeTracker": {
+              "totalNodesMined": 0,
+              "totalEndermiteNests": 0,
+              "lootCount": {}
+            },
+            "rift": {
+              "completedKloonTerminals": [],
+              "verminTracker": {
+                "count": {}
+              }
+            },
+            "slayerProfitData": {
+              "Voidgloom Seraph III": {
+                "slayerSpawnCost": -479673,
+                "slayerCompletedCount": 25,
+                "items": {
+                  "NULL_SPHERE": {
+                    "timesGained": 118,
+                    "totalAmount": 2061,
+                    "hidden": false
+                  },
+                  "ENDERSNAKE_RUNE;1": {
+                    "timesGained": 2,
+                    "totalAmount": 2,
+                    "hidden": false
+                  },
+                  "NULL_ATOM": {
+                    "timesGained": 3,
+                    "totalAmount": 3,
+                    "hidden": false
+                  },
+                  "MANA_STEAL;1": {
+                    "timesGained": 2,
+                    "totalAmount": 2,
+                    "hidden": false
+                  },
+                  "TWILIGHT_ARROW_POISON": {
+                    "timesGained": 1,
+                    "totalAmount": 30,
+                    "hidden": false
+                  },
+                  "SKYBLOCK_COIN": {
+                    "timesGained": 0,
+                    "totalAmount": 220581,
+                    "hidden": false
+                  }
+                }
+              },
+              "Sven Packmaster IV": {
+                "slayerSpawnCost": -1631898,
+                "slayerCompletedCount": 175,
+                "items": {
+                  "FURBALL": {
+                    "timesGained": 11,
+                    "totalAmount": 11,
+                    "hidden": false
+                  },
+                  "COUTURE_RUNE;1": {
+                    "timesGained": 2,
+                    "totalAmount": 2,
+                    "hidden": false
+                  },
+                  "HAMSTER_WHEEL": {
+                    "timesGained": 22,
+                    "totalAmount": 101,
+                    "hidden": false
+                  },
+                  "WOLF_TOOTH": {
+                    "timesGained": 747,
+                    "totalAmount": 13201,
+                    "hidden": false
+                  },
+                  "SPIRIT_RUNE;1": {
+                    "timesGained": 10,
+                    "totalAmount": 10,
+                    "hidden": false
+                  },
+                  "CRITICAL;6": {
+                    "timesGained": 2,
+                    "totalAmount": 2,
+                    "hidden": false
+                  },
+                  "OVERFLUX_CAPACITOR": {
+                    "timesGained": 1,
+                    "totalAmount": 1,
+                    "hidden": false
+                  },
+                  "SKYBLOCK_COIN": {
+                    "timesGained": 0,
+                    "totalAmount": 297025,
+                    "hidden": false
+                  }
+                }
+              },
+              "Revenant Horror V": {
+                "slayerSpawnCost": -192000,
+                "slayerCompletedCount": 0,
+                "items": {
+                  "REVENANT_FLESH": {
+                    "timesGained": 4,
+                    "totalAmount": 20,
+                    "hidden": false
+                  },
+                  "SKYBLOCK_COIN": {
+                    "timesGained": 0,
+                    "totalAmount": 6961,
+                    "hidden": false
+                  }
+                }
+              },
+              "Voidgloom Seraph IV": {
+                "slayerSpawnCost": -192000,
+                "slayerCompletedCount": 4,
+                "items": {
+                  "HANDY_BLOOD_CHALICE": {
+                    "timesGained": 1,
+                    "totalAmount": 1,
+                    "hidden": false
+                  },
+                  "NULL_SPHERE": {
+                    "timesGained": 19,
+                    "totalAmount": 530,
+                    "hidden": false
+                  },
+                  "NULL_ATOM": {
+                    "timesGained": 1,
+                    "totalAmount": 1,
+                    "hidden": false
+                  },
+                  "MANA_STEAL;1": {
+                    "timesGained": 1,
+                    "totalAmount": 1,
+                    "hidden": false
+                  },
+                  "ENDERSNAKE_RUNE;1": {
+                    "timesGained": 1,
+                    "totalAmount": 1,
+                    "hidden": false
+                  },
+                  "SKYBLOCK_COIN": {
+                    "timesGained": 0,
+                    "totalAmount": 34128,
+                    "hidden": false
+                  }
+                }
+              },
+              "Tarantula Broodfather IV": {
+                "slayerSpawnCost": -431922,
+                "slayerCompletedCount": 21,
+                "items": {
+                  "GREEN_CANDY": {
+                    "timesGained": 8,
+                    "totalAmount": 35,
+                    "hidden": false
+                  },
+                  "TARANTULA_WEB": {
+                    "timesGained": 41,
+                    "totalAmount": 1180,
+                    "hidden": false
+                  },
+                  "ECTOPLASM": {
+                    "timesGained": 6,
+                    "totalAmount": 6,
+                    "hidden": false
+                  },
+                  "TOXIC_ARROW_POISON": {
+                    "timesGained": 4,
+                    "totalAmount": 249,
+                    "hidden": false
+                  },
+                  "PUMPKIN_BOMB": {
+                    "timesGained": 4,
+                    "totalAmount": 11,
+                    "hidden": false
+                  },
+                  "PUMPKIN_GUTS": {
+                    "timesGained": 2,
+                    "totalAmount": 2,
+                    "hidden": false
+                  },
+                  "ROCK_CANDY": {
+                    "timesGained": 1,
+                    "totalAmount": 1,
+                    "hidden": false
+                  },
+                  "BAT_PERSON_TALISMAN": {
+                    "timesGained": 1,
+                    "totalAmount": 1,
+                    "hidden": false
+                  },
+                  "CANDY_THE_FISH": {
+                    "timesGained": 1,
+                    "totalAmount": 1,
+                    "hidden": false
+                  },
+                  "BANE_OF_ARTHROPODS;6": {
+                    "timesGained": 1,
+                    "totalAmount": 1,
+                    "hidden": false
+                  },
+                  "PURPLE_CANDY": {
+                    "timesGained": 7,
+                    "totalAmount": 16,
+                    "hidden": false
+                  },
+                  "SKYBLOCK_COIN": {
+                    "timesGained": 0,
+                    "totalAmount": 58042,
+                    "hidden": false
+                  }
+                }
+              },
+              "Riftstalker Bloodfiend I": {
+                "slayerSpawnCost": 0,
+                "slayerCompletedCount": 1,
+                "items": {
+                  "COVEN_SEAL": {
+                    "timesGained": 1,
+                    "totalAmount": 10,
+                    "hidden": false
+                  },
+                  "SKYBLOCK_COIN": {
+                    "timesGained": 0,
+                    "totalAmount": 0,
+                    "hidden": false
+                  }
+                }
+              }
+            },
+            "slayerRngMeter": {
+              "Voidgloom Seraph": {
+                "currentMeter": 8375,
+                "gainPerBoss": 500,
+                "goalNeeded": -1,
+                "itemGoal": ""
+              },
+              "": {
+                "currentMeter": 284750,
+                "gainPerBoss": -1,
+                "goalNeeded": -1,
+                "itemGoal": "?"
+              },
+              "Sven Packmaster": {
+                "currentMeter": 1000,
+                "gainPerBoss": 500,
+                "goalNeeded": 1222700,
+                "itemGoal": ""
+              },
+              "Revenant Horror": {
+                "currentMeter": -1,
+                "gainPerBoss": -1,
+                "goalNeeded": -1,
+                "itemGoal": "?"
+              },
+              "Tarantula Broodfather": {
+                "currentMeter": 24000,
+                "gainPerBoss": 500,
+                "goalNeeded": -1,
+                "itemGoal": "?"
+              },
+              "Riftstalker Bloodfiend": {
+                "currentMeter": -1,
+                "gainPerBoss": -1,
+                "goalNeeded": -1,
+                "itemGoal": "?"
+              }
+            },
+            "mining": {
+              "kingsTalkedTo": [],
+              "fossilExcavatorProfitTracker": {
+                "timesExcavated": 0,
+                "glacitePowderGained": 0,
+                "fossilDustGained": 0,
+                "items": {}
+              }
+            },
+            "trapperData": {
+              "questsDone": 0,
+              "peltsGained": 0,
+              "killedAnimals": 0,
+              "selfKillingAnimals": 0,
+              "animalRarities": {}
+            },
+            "dungeons": {
+              "bosses": {},
+              "runs": [
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {},
+                {}
+              ]
+            },
+            "fishing": {
+              "fishingProfitTracker": {
+                "totalCatchAmount": 0,
+                "items": {}
+              },
+              "seaCreatureTracker": {
+                "amount": {}
+              }
+            },
+            "diana": {
+              "dianaProfitTracker": {
+                "burrowsDug": 0,
+                "items": {}
+              },
+              "mythologicalMobTracker": {
+                "creaturesSinceLastInquisitor": 0,
+                "count": {}
+              }
+            },
+            "skillData": {
+              "ENCHANTING": {
+                "level": 60,
+                "totalXp": 9791600,
+                "currentXp": 9791600,
+                "currentXpMax": 0,
+                "overflowLevel": 61,
+                "overflowCurrentXp": 2191600,
+                "overflowTotalXp": 9791600,
+                "overflowCurrentXpMax": 8200000,
+                "lastGain": "1,188.8",
+                "customGoalLevel": 0
+              },
+              "MINING": {
+                "level": 0,
+                "totalXp": 9,
+                "currentXp": 9,
+                "currentXpMax": 50,
+                "overflowLevel": 0,
+                "overflowCurrentXp": 9,
+                "overflowTotalXp": 9,
+                "overflowCurrentXpMax": 50,
+                "lastGain": "12,328",
+                "customGoalLevel": 0
+              },
+              "COMBAT": {
+                "level": 0,
+                "totalXp": 17,
+                "currentXp": 17,
+                "currentXpMax": 50,
+                "overflowLevel": 0,
+                "overflowCurrentXp": 17,
+                "overflowTotalXp": 17,
+                "overflowCurrentXpMax": 50,
+                "lastGain": "70.4",
+                "customGoalLevel": 0
+              },
+              "CARPENTRY": {
+                "level": 0,
+                "totalXp": 2,
+                "currentXp": 2,
+                "currentXpMax": 50,
+                "overflowLevel": 0,
+                "overflowCurrentXp": 2,
+                "overflowTotalXp": 2,
+                "overflowCurrentXpMax": 50,
+                "lastGain": "6,144",
+                "customGoalLevel": 0
+              },
+              "FARMING": {
+                "level": 58,
+                "totalXp": 106907328,
+                "currentXp": 8934903,
+                "currentXpMax": 6700000,
+                "overflowLevel": 58,
+                "overflowCurrentXp": 8934903,
+                "overflowTotalXp": 106907328,
+                "overflowCurrentXpMax": 6700000,
+                "lastGain": "0.7",
+                "customGoalLevel": 0
+              },
+              "FISHING": {
+                "level": 25,
+                "totalXp": 3591907,
+                "currentXp": 569482,
+                "currentXpMax": 800000,
+                "overflowLevel": 25,
+                "overflowCurrentXp": 569482,
+                "overflowTotalXp": 3591907,
+                "overflowCurrentXpMax": 800000,
+                "lastGain": "",
+                "customGoalLevel": 0
+              },
+              "FORAGING": {
+                "level": 23,
+                "totalXp": 1735595,
+                "currentXp": 13170,
+                "currentXpMax": 600000,
+                "overflowLevel": 23,
+                "overflowCurrentXp": 13170,
+                "overflowTotalXp": 1735595,
+                "overflowCurrentXpMax": 600000,
+                "lastGain": "",
+                "customGoalLevel": 0
+              },
+              "ALCHEMY": {
+                "level": 50,
+                "totalXp": 145378,
+                "currentXp": 145378,
+                "currentXpMax": 0,
+                "overflowLevel": 50,
+                "overflowCurrentXp": 145378,
+                "overflowTotalXp": 145378,
+                "overflowCurrentXpMax": 4300000,
+                "lastGain": "",
+                "customGoalLevel": 0
+              },
+              "TAMING": {
+                "level": 50,
+                "totalXp": 134506763,
+                "currentXp": 79334338,
+                "currentXpMax": 4300000,
+                "overflowLevel": 50,
+                "overflowCurrentXp": 79334338,
+                "overflowTotalXp": 134506763,
+                "overflowCurrentXpMax": 4300000,
+                "lastGain": "",
+                "customGoalLevel": 0
+              }
+            }
+          }
+        },
+        "useRomanNumerals": true,
+        "gardenCommunityUpgrade": 10,
+        "nextCityProjectParticipationTime": 0,
+        "nextAccountUpgradeCompletionTime": -1,
+        "guildMembers": [],
+        "winter": {
+          "playersThatHaveBeenGifted": [],
+          "amountGifted": 0,
+          "cakeCollectedYear": 0
+        },
+        "bingoSessions": {
+          "1714521600": {
+            "tierOneMinionsDone": [],
+            "goals": {}
+          }
+        },
+        "limbo": {
+          "playtime": 0,
+          "personalBest": 0,
+          "userLuck": 0.0
+        }
+      },
+      "da016e25-746b-4239-b731-d8c59c283260": {
+        "profiles": {},
+        "useRomanNumerals": true,
+        "gardenCommunityUpgrade": 2,
+        "nextCityProjectParticipationTime": 0,
+        "nextAccountUpgradeCompletionTime": -1,
+        "guildMembers": [],
+        "winter": {
+          "playersThatHaveBeenGifted": [],
+          "amountGifted": 0,
+          "cakeCollectedYear": 0
+        },
+        "bingoSessions": {},
+        "limbo": {
+          "playtime": 0,
+          "personalBest": 0,
+          "userLuck": 0.0
+        }
+      }
+    },
+    "currentFameRank": "Philanthropist",
+    "blacklistedUsers": []
+  },
+  "lastVersion": 45
+}

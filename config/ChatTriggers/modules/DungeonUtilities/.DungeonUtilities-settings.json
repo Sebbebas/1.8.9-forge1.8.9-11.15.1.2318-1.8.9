@@ -1,0 +1,313 @@
+[
+  {
+    "name": "Main",
+    "settings": [
+      {
+        "type": "button",
+        "name": "                                        &eDungeonUtilities",
+        "text": "&dBETA v0.9.9",
+        "method": "/Function(\n() => {\n}\n)/",
+        "hidden": false
+      },
+      {
+        "type": "button",
+        "name": "&bA collection of useful utilities for dungeons!",
+        "text": "By &aAntonio32A",
+        "method": "/Function(\n() => {\n}\n)/",
+        "hidden": false
+      },
+      {
+        "type": "button",
+        "name": "",
+        "text": "",
+        "method": "/Function(\n() => {\n}\n)/",
+        "hidden": false
+      },
+      {
+        "type": "button",
+        "name": "                                        &dCredits",
+        "text": "",
+        "method": "/Function(\n() => {\n}\n)/",
+        "hidden": false
+      },
+      {
+        "type": "button",
+        "name": "&bComplexOrigin",
+        "text": "Help with rendering the map.",
+        "method": "/Function(\n() => {\n}\n)/",
+        "hidden": false
+      },
+      {
+        "type": "button",
+        "name": "&6Flonja",
+        "text": "Helping with the map feature in it's early development.",
+        "method": "/Function(\n() => {\n}\n)/",
+        "hidden": false
+      },
+      {
+        "type": "button",
+        "name": "&dVals",
+        "text": "Map rendering fixes and the riddle solver.",
+        "method": "/Function(\n() => {\n}\n)/",
+        "hidden": false
+      },
+      {
+        "type": "button",
+        "name": "&6DJtheRedstoner",
+        "text": "Map scale and the map background feature.",
+        "method": "/Function(\n() => {\n}\n)/",
+        "hidden": false
+      },
+      {
+        "type": "button",
+        "name": "&cDebuggings",
+        "text": "Help with the Better Glowing Effect feature.",
+        "method": "/Function(\n() => {\n}\n)/",
+        "hidden": false
+      },
+      {
+        "type": "button",
+        "name": "",
+        "text": "",
+        "method": "/Function(\n() => {\n}\n)/",
+        "hidden": false
+      },
+      {
+        "type": "button",
+        "name": "&dNote: &eAll mods are &cuse at your own risk&e.",
+        "text": "&cWARNING",
+        "method": "/Function(\n() => {\n    ChatLib.chat(\"&eThis mod is use at your own risk meaning that I (&aAntonio32A) &eam not responsible for any \" + \"punishments caused while using this mod.\\n\" + \"&aThe map preview and the better glowing effect are allowed by the admins &ebut other addons \" + \"haven't been confirmed, meaning that they &dmight &ebe punishable. \" + \"It doesn't mean that you will be instantly banned, but there is always a small chance.\\n\" + \"&bThis is why all the modules except the map and the better glowing effect are automatically \" + \"disabled when you install the mod.\\n\" + \"&cIf you ever decide to uninstall the mod, do /ct delete DungeonUtilities\");\n}\n)/",
+        "hidden": false
+      },
+      {
+        "type": "button",
+        "name": "&eDiscord Support Server: &9https://discord.gg/knjSZSC",
+        "text": "",
+        "method": "/Function(\n() => {\n}\n)/",
+        "hidden": false
+      }
+    ]
+  },
+  {
+    "name": "Map",
+    "settings": [
+      {
+        "type": "button",
+        "name": "",
+        "text": "Shows the dungeon map on your screen.",
+        "method": "/Function(\n() => {\n}\n)/",
+        "hidden": false
+      },
+      {
+        "type": "toggle",
+        "name": "Enabled",
+        "value": false,
+        "hidden": false
+      },
+      {
+        "type": "slider",
+        "name": "X",
+        "value": "21",
+        "min": 0,
+        "max": 427,
+        "round": 0,
+        "hidden": false
+      },
+      {
+        "type": "slider",
+        "name": "Y",
+        "value": 10,
+        "min": 0,
+        "max": 240,
+        "round": 0,
+        "hidden": false
+      },
+      {
+        "type": "slider",
+        "name": "Scale",
+        "value": "297",
+        "min": 0,
+        "max": 500,
+        "round": 0,
+        "hidden": false
+      },
+      {
+        "type": "toggle",
+        "name": "Cache Map Data",
+        "value": false,
+        "hidden": false
+      },
+      {
+        "type": "toggle",
+        "name": "Draw Background",
+        "value": false,
+        "hidden": false
+      }
+    ]
+  },
+  {
+    "name": "Blaze Solver",
+    "settings": [
+      {
+        "type": "button",
+        "name": "",
+        "text": "Tells you which blaze to hit in the blaze puzzle.",
+        "method": "/Function(\n() => {\n}\n)/",
+        "hidden": false
+      },
+      {
+        "type": "toggle",
+        "name": "Enabled",
+        "value": true,
+        "hidden": false
+      }
+    ]
+  },
+  {
+    "name": "Party Kicker",
+    "settings": [
+      {
+        "type": "button",
+        "name": "",
+        "text": "Automatically kicks people under the level requirement.",
+        "method": "/Function(\n() => {\n}\n)/",
+        "hidden": false
+      },
+      {
+        "type": "toggle",
+        "name": "Enabled",
+        "value": false,
+        "hidden": false
+      },
+      {
+        "type": "slider",
+        "name": "Minimum Level",
+        "value": 0,
+        "min": 0,
+        "max": 50,
+        "round": 0,
+        "hidden": false
+      },
+      {
+        "type": "toggle",
+        "name": "Healer Allowed",
+        "value": true,
+        "hidden": false
+      },
+      {
+        "type": "toggle",
+        "name": "Mage Allowed",
+        "value": true,
+        "hidden": false
+      },
+      {
+        "type": "toggle",
+        "name": "Berserk Allowed",
+        "value": true,
+        "hidden": false
+      },
+      {
+        "type": "toggle",
+        "name": "Archer Allowed",
+        "value": true,
+        "hidden": false
+      },
+      {
+        "type": "toggle",
+        "name": "Tank Allowed",
+        "value": true,
+        "hidden": false
+      }
+    ]
+  },
+  {
+    "name": "Riddle Solver",
+    "settings": [
+      {
+        "type": "button",
+        "name": "",
+        "text": "Solves the 3 man riddles.",
+        "method": "/Function(\n() => {\n}\n)/",
+        "hidden": false
+      },
+      {
+        "type": "toggle",
+        "name": "Enabled",
+        "value": true,
+        "hidden": false
+      }
+    ]
+  },
+  {
+    "name": "Health Notify",
+    "settings": [
+      {
+        "type": "button",
+        "name": "",
+        "text": "Notifies you when somebody is low on health.",
+        "method": "/Function(\n() => {\n}\n)/",
+        "hidden": false
+      },
+      {
+        "type": "toggle",
+        "name": "Enabled",
+        "value": false,
+        "hidden": false
+      }
+    ]
+  },
+  {
+    "name": "Better Glowing Effect",
+    "settings": [
+      {
+        "type": "button",
+        "name": "",
+        "text": "Adds a glowing effect similar to 1.9.",
+        "method": "/Function(\n() => {\n}\n)/",
+        "hidden": false
+      },
+      {
+        "type": "toggle",
+        "name": "Enabled",
+        "value": true,
+        "hidden": false
+      }
+    ]
+  },
+  {
+    "name": "Loot Tracker",
+    "settings": [
+      {
+        "type": "button",
+        "name": "",
+        "text": "Tracks your dungeon loot.",
+        "method": "/Function(\n() => {\n}\n)/",
+        "hidden": false
+      },
+      {
+        "type": "toggle",
+        "name": "Enabled",
+        "value": false,
+        "hidden": false
+      },
+      {
+        "type": "slider",
+        "name": "X",
+        "value": 100,
+        "min": 0,
+        "max": 427,
+        "round": 0,
+        "hidden": false
+      },
+      {
+        "type": "slider",
+        "name": "Y",
+        "value": 200,
+        "min": 0,
+        "max": 240,
+        "round": 0,
+        "hidden": false
+      }
+    ]
+  }
+]

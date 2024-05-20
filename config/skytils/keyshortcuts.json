@@ -1,0 +1,10 @@
+[
+    {
+        "message": "/warp dungeon_hub",
+        "keyCode": 201
+    },
+    {
+        "message": "/warp garden",
+        "keyCode": 199
+    }
+]

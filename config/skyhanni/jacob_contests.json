@@ -1,0 +1,624 @@
+{
+  "contestTimes": {
+    "1716071700000": [
+      "CACTUS",
+      "COCOA_BEANS",
+      "WHEAT"
+    ],
+    "1716075300000": [
+      "CARROT",
+      "MELON",
+      "MUSHROOM"
+    ],
+    "1716078900000": [
+      "CARROT",
+      "COCOA_BEANS",
+      "NETHER_WART"
+    ],
+    "1716082500000": [
+      "MUSHROOM",
+      "PUMPKIN",
+      "SUGAR_CANE"
+    ],
+    "1716086100000": [
+      "MELON",
+      "POTATO",
+      "WHEAT"
+    ],
+    "1716089700000": [
+      "COCOA_BEANS",
+      "PUMPKIN",
+      "SUGAR_CANE"
+    ],
+    "1716093300000": [
+      "MELON",
+      "NETHER_WART",
+      "POTATO"
+    ],
+    "1716096900000": [
+      "CACTUS",
+      "MUSHROOM",
+      "WHEAT"
+    ],
+    "1716100500000": [
+      "MELON",
+      "NETHER_WART",
+      "WHEAT"
+    ],
+    "1716104100000": [
+      "CACTUS",
+      "POTATO",
+      "PUMPKIN"
+    ],
+    "1716107700000": [
+      "CARROT",
+      "MUSHROOM",
+      "SUGAR_CANE"
+    ],
+    "1716111300000": [
+      "MUSHROOM",
+      "NETHER_WART",
+      "SUGAR_CANE"
+    ],
+    "1716114900000": [
+      "CARROT",
+      "POTATO",
+      "WHEAT"
+    ],
+    "1716118500000": [
+      "CACTUS",
+      "COCOA_BEANS",
+      "PUMPKIN"
+    ],
+    "1716122100000": [
+      "CACTUS",
+      "MELON",
+      "SUGAR_CANE"
+    ],
+    "1716125700000": [
+      "CARROT",
+      "COCOA_BEANS",
+      "MUSHROOM"
+    ],
+    "1716129300000": [
+      "POTATO",
+      "PUMPKIN",
+      "WHEAT"
+    ],
+    "1716132900000": [
+      "CACTUS",
+      "NETHER_WART",
+      "WHEAT"
+    ],
+    "1716136500000": [
+      "MELON",
+      "POTATO",
+      "SUGAR_CANE"
+    ],
+    "1716140100000": [
+      "CARROT",
+      "COCOA_BEANS",
+      "MUSHROOM"
+    ],
+    "1716143700000": [
+      "CACTUS",
+      "CARROT",
+      "NETHER_WART"
+    ],
+    "1716147300000": [
+      "POTATO",
+      "PUMPKIN",
+      "WHEAT"
+    ],
+    "1716150900000": [
+      "MELON",
+      "MUSHROOM",
+      "SUGAR_CANE"
+    ],
+    "1716154500000": [
+      "CACTUS",
+      "COCOA_BEANS",
+      "WHEAT"
+    ],
+    "1716158100000": [
+      "CARROT",
+      "MUSHROOM",
+      "POTATO"
+    ],
+    "1716161700000": [
+      "NETHER_WART",
+      "PUMPKIN",
+      "SUGAR_CANE"
+    ],
+    "1716165300000": [
+      "COCOA_BEANS",
+      "MELON",
+      "POTATO"
+    ],
+    "1716168900000": [
+      "MUSHROOM",
+      "SUGAR_CANE",
+      "WHEAT"
+    ],
+    "1716172500000": [
+      "CACTUS",
+      "CARROT",
+      "PUMPKIN"
+    ],
+    "1716176100000": [
+      "CARROT",
+      "NETHER_WART",
+      "WHEAT"
+    ],
+    "1716179700000": [
+      "COCOA_BEANS",
+      "MUSHROOM",
+      "SUGAR_CANE"
+    ],
+    "1716183300000": [
+      "CACTUS",
+      "MELON",
+      "POTATO"
+    ],
+    "1716186900000": [
+      "COCOA_BEANS",
+      "MUSHROOM",
+      "POTATO"
+    ],
+    "1716190500000": [
+      "CACTUS",
+      "NETHER_WART",
+      "WHEAT"
+    ],
+    "1716194100000": [
+      "MELON",
+      "PUMPKIN",
+      "SUGAR_CANE"
+    ],
+    "1716197700000": [
+      "CARROT",
+      "MUSHROOM",
+      "WHEAT"
+    ],
+    "1716201300000": [
+      "COCOA_BEANS",
+      "NETHER_WART",
+      "SUGAR_CANE"
+    ],
+    "1716204900000": [
+      "MELON",
+      "POTATO",
+      "PUMPKIN"
+    ],
+    "1716208500000": [
+      "POTATO",
+      "PUMPKIN",
+      "SUGAR_CANE"
+    ],
+    "1716212100000": [
+      "MELON",
+      "MUSHROOM",
+      "NETHER_WART"
+    ],
+    "1716215700000": [
+      "CACTUS",
+      "CARROT",
+      "COCOA_BEANS"
+    ],
+    "1716219300000": [
+      "COCOA_BEANS",
+      "MELON",
+      "PUMPKIN"
+    ],
+    "1716222900000": [
+      "CARROT",
+      "SUGAR_CANE",
+      "WHEAT"
+    ],
+    "1716226500000": [
+      "CACTUS",
+      "NETHER_WART",
+      "POTATO"
+    ],
+    "1716230100000": [
+      "CACTUS",
+      "COCOA_BEANS",
+      "POTATO"
+    ],
+    "1716233700000": [
+      "CARROT",
+      "MUSHROOM",
+      "NETHER_WART"
+    ],
+    "1716237300000": [
+      "MELON",
+      "SUGAR_CANE",
+      "WHEAT"
+    ],
+    "1716240900000": [
+      "MELON",
+      "MUSHROOM",
+      "NETHER_WART"
+    ],
+    "1716244500000": [
+      "CACTUS",
+      "PUMPKIN",
+      "WHEAT"
+    ],
+    "1716248100000": [
+      "CARROT",
+      "POTATO",
+      "SUGAR_CANE"
+    ],
+    "1716251700000": [
+      "MELON",
+      "SUGAR_CANE",
+      "WHEAT"
+    ],
+    "1716255300000": [
+      "CARROT",
+      "MUSHROOM",
+      "PUMPKIN"
+    ],
+    "1716258900000": [
+      "CACTUS",
+      "COCOA_BEANS",
+      "NETHER_WART"
+    ],
+    "1716262500000": [
+      "CARROT",
+      "NETHER_WART",
+      "PUMPKIN"
+    ],
+    "1716266100000": [
+      "MELON",
+      "MUSHROOM",
+      "WHEAT"
+    ],
+    "1716269700000": [
+      "CACTUS",
+      "COCOA_BEANS",
+      "POTATO"
+    ],
+    "1716273300000": [
+      "COCOA_BEANS",
+      "NETHER_WART",
+      "POTATO"
+    ],
+    "1716276900000": [
+      "CARROT",
+      "PUMPKIN",
+      "WHEAT"
+    ],
+    "1716280500000": [
+      "CACTUS",
+      "MELON",
+      "SUGAR_CANE"
+    ],
+    "1716284100000": [
+      "CACTUS",
+      "MUSHROOM",
+      "NETHER_WART"
+    ],
+    "1716287700000": [
+      "MELON",
+      "PUMPKIN",
+      "WHEAT"
+    ],
+    "1716291300000": [
+      "COCOA_BEANS",
+      "POTATO",
+      "SUGAR_CANE"
+    ],
+    "1716294900000": [
+      "COCOA_BEANS",
+      "NETHER_WART",
+      "SUGAR_CANE"
+    ],
+    "1716298500000": [
+      "CARROT",
+      "MUSHROOM",
+      "POTATO"
+    ],
+    "1716302100000": [
+      "CACTUS",
+      "PUMPKIN",
+      "WHEAT"
+    ],
+    "1716305700000": [
+      "CACTUS",
+      "MUSHROOM",
+      "PUMPKIN"
+    ],
+    "1716309300000": [
+      "CARROT",
+      "NETHER_WART",
+      "SUGAR_CANE"
+    ],
+    "1716312900000": [
+      "COCOA_BEANS",
+      "MELON",
+      "POTATO"
+    ],
+    "1716316500000": [
+      "CARROT",
+      "POTATO",
+      "PUMPKIN"
+    ],
+    "1716320100000": [
+      "CACTUS",
+      "MELON",
+      "SUGAR_CANE"
+    ],
+    "1716323700000": [
+      "COCOA_BEANS",
+      "MUSHROOM",
+      "NETHER_WART"
+    ],
+    "1716327300000": [
+      "CACTUS",
+      "COCOA_BEANS",
+      "NETHER_WART"
+    ],
+    "1716330900000": [
+      "PUMPKIN",
+      "SUGAR_CANE",
+      "WHEAT"
+    ],
+    "1716334500000": [
+      "CARROT",
+      "MELON",
+      "POTATO"
+    ],
+    "1716338100000": [
+      "CARROT",
+      "NETHER_WART",
+      "PUMPKIN"
+    ],
+    "1716341700000": [
+      "CACTUS",
+      "MELON",
+      "SUGAR_CANE"
+    ],
+    "1716345300000": [
+      "MUSHROOM",
+      "POTATO",
+      "WHEAT"
+    ],
+    "1716348900000": [
+      "COCOA_BEANS",
+      "NETHER_WART",
+      "POTATO"
+    ],
+    "1716352500000": [
+      "CARROT",
+      "MUSHROOM",
+      "SUGAR_CANE"
+    ],
+    "1716356100000": [
+      "CACTUS",
+      "PUMPKIN",
+      "WHEAT"
+    ],
+    "1716359700000": [
+      "MELON",
+      "PUMPKIN",
+      "WHEAT"
+    ],
+    "1716363300000": [
+      "CACTUS",
+      "CARROT",
+      "COCOA_BEANS"
+    ],
+    "1716366900000": [
+      "MUSHROOM",
+      "NETHER_WART",
+      "SUGAR_CANE"
+    ],
+    "1716370500000": [
+      "CARROT",
+      "MELON",
+      "POTATO"
+    ],
+    "1716374100000": [
+      "CACTUS",
+      "MUSHROOM",
+      "WHEAT"
+    ],
+    "1716377700000": [
+      "COCOA_BEANS",
+      "PUMPKIN",
+      "SUGAR_CANE"
+    ],
+    "1716381300000": [
+      "COCOA_BEANS",
+      "MELON",
+      "MUSHROOM"
+    ],
+    "1716384900000": [
+      "CACTUS",
+      "NETHER_WART",
+      "PUMPKIN"
+    ],
+    "1716388500000": [
+      "POTATO",
+      "SUGAR_CANE",
+      "WHEAT"
+    ],
+    "1716392100000": [
+      "COCOA_BEANS",
+      "NETHER_WART",
+      "SUGAR_CANE"
+    ],
+    "1716395700000": [
+      "CARROT",
+      "MUSHROOM",
+      "POTATO"
+    ],
+    "1716399300000": [
+      "MELON",
+      "PUMPKIN",
+      "WHEAT"
+    ],
+    "1716402900000": [
+      "CACTUS",
+      "COCOA_BEANS",
+      "NETHER_WART"
+    ],
+    "1716406500000": [
+      "CARROT",
+      "POTATO",
+      "WHEAT"
+    ],
+    "1716410100000": [
+      "MUSHROOM",
+      "PUMPKIN",
+      "SUGAR_CANE"
+    ],
+    "1716413700000": [
+      "CACTUS",
+      "COCOA_BEANS",
+      "POTATO"
+    ],
+    "1716417300000": [
+      "CARROT",
+      "MUSHROOM",
+      "SUGAR_CANE"
+    ],
+    "1716420900000": [
+      "MELON",
+      "NETHER_WART",
+      "PUMPKIN"
+    ],
+    "1716424500000": [
+      "CACTUS",
+      "MELON",
+      "POTATO"
+    ],
+    "1716428100000": [
+      "COCOA_BEANS",
+      "MUSHROOM",
+      "SUGAR_CANE"
+    ],
+    "1716431700000": [
+      "CARROT",
+      "NETHER_WART",
+      "WHEAT"
+    ],
+    "1716435300000": [
+      "CACTUS",
+      "PUMPKIN",
+      "SUGAR_CANE"
+    ],
+    "1716438900000": [
+      "MELON",
+      "MUSHROOM",
+      "NETHER_WART"
+    ],
+    "1716442500000": [
+      "CARROT",
+      "POTATO",
+      "WHEAT"
+    ],
+    "1716446100000": [
+      "CARROT",
+      "MELON",
+      "NETHER_WART"
+    ],
+    "1716449700000": [
+      "COCOA_BEANS",
+      "POTATO",
+      "PUMPKIN"
+    ],
+    "1716453300000": [
+      "MUSHROOM",
+      "SUGAR_CANE",
+      "WHEAT"
+    ],
+    "1716456900000": [
+      "CACTUS",
+      "MUSHROOM",
+      "WHEAT"
+    ],
+    "1716460500000": [
+      "COCOA_BEANS",
+      "MELON",
+      "SUGAR_CANE"
+    ],
+    "1716464100000": [
+      "CARROT",
+      "NETHER_WART",
+      "PUMPKIN"
+    ],
+    "1716467700000": [
+      "MELON",
+      "NETHER_WART",
+      "SUGAR_CANE"
+    ],
+    "1716471300000": [
+      "POTATO",
+      "PUMPKIN",
+      "WHEAT"
+    ],
+    "1716474900000": [
+      "CACTUS",
+      "CARROT",
+      "COCOA_BEANS"
+    ],
+    "1716478500000": [
+      "MELON",
+      "MUSHROOM",
+      "NETHER_WART"
+    ],
+    "1716482100000": [
+      "COCOA_BEANS",
+      "PUMPKIN",
+      "WHEAT"
+    ],
+    "1716485700000": [
+      "CACTUS",
+      "POTATO",
+      "SUGAR_CANE"
+    ],
+    "1716489300000": [
+      "CARROT",
+      "COCOA_BEANS",
+      "PUMPKIN"
+    ],
+    "1716492900000": [
+      "MELON",
+      "NETHER_WART",
+      "WHEAT"
+    ],
+    "1716496500000": [
+      "CACTUS",
+      "POTATO",
+      "SUGAR_CANE"
+    ],
+    "1716500100000": [
+      "POTATO",
+      "PUMPKIN",
+      "WHEAT"
+    ],
+    "1716503700000": [
+      "CACTUS",
+      "COCOA_BEANS",
+      "MUSHROOM"
+    ],
+    "1716507300000": [
+      "MELON",
+      "NETHER_WART",
+      "SUGAR_CANE"
+    ],
+    "1716510900000": [
+      "CARROT",
+      "MUSHROOM",
+      "WHEAT"
+    ],
+    "1716514500000": [
+      "CACTUS",
+      "COCOA_BEANS",
+      "SUGAR_CANE"
+    ]
+  }
+}

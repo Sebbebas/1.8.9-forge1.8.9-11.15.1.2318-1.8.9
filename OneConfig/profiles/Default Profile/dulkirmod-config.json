@@ -1,0 +1,302 @@
+{
+  "crimsonIslesMemoryLeakPatch": false,
+  "blankStandRemoval": false,
+  "doubleHookDing": false,
+  "removeHookMessage": false,
+  "archerBox": false,
+  "archerBoxEverywhere": false,
+  "archBoxColor": {
+    "hsba": [
+      180,
+      100,
+      100,
+      255
+    ],
+    "dataBit": -1
+  },
+  "hideEnchantRune": false,
+  "displayReaperCD": false,
+  "displayImpactCD": false,
+  "abiDND": false,
+  "abiCallerID": false,
+  "hurtCamIntensity": 1.0,
+  "scaledTooltips": false,
+  "tooltipSize": 1.0,
+  "minibossHitbox": false,
+  "attunementDisplay": false,
+  "hideHealerFairy": false,
+  "hideHeartParticles": false,
+  "throttleNotifier": true,
+  "vanqBroadcast": false,
+  "cancelArmorGlint": false,
+  "dynamicCommandString": "",
+  "customMessage": "",
+  "throttleNotifierSpam": true,
+  "dragonTimer": false,
+  "dragonKillBox": false,
+  "gyroWaypoints": false,
+  "decoyWaypoints": false,
+  "lbWaypoints": false,
+  "hideTags": true,
+  "customAnimations": true,
+  "customSize": -0.421875,
+  "doesScaleSwing": true,
+  "customX": 0.26953125,
+  "customY": -0.017578125,
+  "customZ": 0.38671875,
+  "customYaw": 8.4375,
+  "customPitch": 0.0,
+  "customRoll": 0.0,
+  "customSpeed": -1.015625,
+  "ignoreHaste": true,
+  "drinkingSelector": 2,
+  "dungeonCommandConfirm": true,
+  "hideOpenedChests": false,
+  "highlightLeap": false,
+  "highlightLeapName": "Dilkur",
+  "secretClickSounds": true,
+  "secretSoundVolume": 0.7,
+  "noReverse3rdPerson": false,
+  "bridgeBot": false,
+  "botName": "",
+  "bridgeColor": 6,
+  "notifyGhast": false,
+  "notifyZombieVillager": false,
+  "notifyHype": false,
+  "notifyMatcho": false,
+  "bestiaryNotifColor": 15,
+  "bestiaryTextShadow": false,
+  "bestiaryNotifSize": 0.7,
+  "bestiaryAlertSounds": false,
+  "bestiaryNotifVol": 0.7,
+  "hideArachneTags": false,
+  "arachneKillTimer": false,
+  "arachneSpawnTimer": false,
+  "keeperWaypoints": false,
+  "keeperFocus": false,
+  "notifyMaxVisitors": false,
+  "persistentAlert": true,
+  "defaultSens": 0.7,
+  "cancelReequip": false,
+  "showReEquipAnimationWhenChangingSlots": true,
+  "witherKeyDisplayHUD": {
+    "color": {
+      "hsba": [
+        0,
+        0,
+        100,
+        255
+      ],
+      "dataBit": -1
+    },
+    "textType": 0,
+    "background": true,
+    "rounded": false,
+    "border": false,
+    "bgColor": {
+      "hsba": [
+        0,
+        0,
+        0,
+        120
+      ],
+      "dataBit": -1
+    },
+    "borderColor": {
+      "hsba": [
+        0,
+        0,
+        0,
+        255
+      ],
+      "dataBit": -1
+    },
+    "cornerRadius": 2.0,
+    "borderSize": 2.0,
+    "defaultPaddingX": 5.0,
+    "paddingX": 5.0,
+    "defaultPaddingY": 5.0,
+    "paddingY": 5.0,
+    "enabled": false,
+    "locked": false,
+    "ignoreCaching": false,
+    "position": {
+      "anchor": "0",
+      "x": 0.0,
+      "y": 0.0
+    },
+    "scale": 1.0,
+    "positionAlignment": 0,
+    "showInChat": true,
+    "showInDebug": false,
+    "showInGuis": true
+  },
+  "YawDisplayHud": {
+    "color": {
+      "hsba": [
+        0,
+        0,
+        100,
+        255
+      ],
+      "dataBit": -1
+    },
+    "textType": 0,
+    "background": true,
+    "rounded": false,
+    "border": false,
+    "bgColor": {
+      "hsba": [
+        0,
+        0,
+        0,
+        120
+      ],
+      "dataBit": -1
+    },
+    "borderColor": {
+      "hsba": [
+        0,
+        0,
+        0,
+        255
+      ],
+      "dataBit": -1
+    },
+    "cornerRadius": 2.0,
+    "borderSize": 2.0,
+    "defaultPaddingX": 5.0,
+    "paddingX": 5.0,
+    "defaultPaddingY": 5.0,
+    "paddingY": 5.0,
+    "enabled": false,
+    "locked": false,
+    "ignoreCaching": false,
+    "position": {
+      "anchor": "0",
+      "x": 0.0,
+      "y": 0.0
+    },
+    "scale": 1.0,
+    "positionAlignment": 0,
+    "showInChat": true,
+    "showInDebug": false,
+    "showInGuis": true
+  },
+  "showPitch": false,
+  "yaw3Decimals": false,
+  "showYawEverywhere": false,
+  "GardenInfoHud": {
+    "color": {
+      "hsba": [
+        0,
+        0,
+        100,
+        255
+      ],
+      "dataBit": -1
+    },
+    "textType": 0,
+    "background": true,
+    "rounded": false,
+    "border": false,
+    "bgColor": {
+      "hsba": [
+        0,
+        0,
+        0,
+        120
+      ],
+      "dataBit": -1
+    },
+    "borderColor": {
+      "hsba": [
+        0,
+        0,
+        0,
+        255
+      ],
+      "dataBit": -1
+    },
+    "cornerRadius": 2.0,
+    "borderSize": 2.0,
+    "defaultPaddingX": 5.0,
+    "paddingX": 5.0,
+    "defaultPaddingY": 5.0,
+    "paddingY": 5.0,
+    "enabled": false,
+    "locked": false,
+    "ignoreCaching": false,
+    "position": {
+      "anchor": "0",
+      "x": 0.0,
+      "y": 0.0
+    },
+    "scale": 1.0,
+    "positionAlignment": 0,
+    "showInChat": true,
+    "showInDebug": false,
+    "showInGuis": true
+  },
+  "slayerTracker": {
+    "color": {
+      "hsba": [
+        0,
+        0,
+        100,
+        255
+      ],
+      "dataBit": -1
+    },
+    "textType": 0,
+    "background": true,
+    "rounded": false,
+    "border": false,
+    "bgColor": {
+      "hsba": [
+        0,
+        0,
+        0,
+        120
+      ],
+      "dataBit": -1
+    },
+    "borderColor": {
+      "hsba": [
+        0,
+        0,
+        0,
+        255
+      ],
+      "dataBit": -1
+    },
+    "cornerRadius": 2.0,
+    "borderSize": 2.0,
+    "defaultPaddingX": 5.0,
+    "paddingX": 5.0,
+    "defaultPaddingY": 5.0,
+    "paddingY": 5.0,
+    "enabled": false,
+    "locked": false,
+    "ignoreCaching": false,
+    "position": {
+      "anchor": "0",
+      "x": 0.0,
+      "y": 0.0
+    },
+    "scale": 1.0,
+    "positionAlignment": 0,
+    "showInChat": true,
+    "showInDebug": false,
+    "showInGuis": true
+  },
+  "slayerXP": 500,
+  "composterAlert": true,
+  "gardenMilestoneDisplay": true,
+  "visitorInfo": true,
+  "steakDisplay": false,
+  "ichorHighlight": false,
+  "effigyWaypoint": false,
+  "enabled": true,
+  "canToggle": true
+}

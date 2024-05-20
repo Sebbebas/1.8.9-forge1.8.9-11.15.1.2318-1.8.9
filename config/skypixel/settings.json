@@ -1,0 +1,14 @@
+{
+  "enchantmentGuiEnabled": false,
+  "anvilUsesEnabled": true,
+  "anvilUsesPosition": "BOTTOM",
+  "anvilUsesColor": "GRAY",
+  "cancelItemDamage": true,
+  "cancelInventoryDrag": true,
+  "minionItemTierEnabled": true,
+  "potionItemTierEnabled": true,
+  "armorItemTierEnabled": true,
+  "itemTierColor": "WHITE",
+  "itemTierType": "ROMAN",
+  "forgeClientCommandFix": true
+}

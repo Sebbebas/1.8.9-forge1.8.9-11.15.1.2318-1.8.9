@@ -1,0 +1,41 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.taco_wings",
+				"texture_width": 64,
+				"texture_height": 64,
+				"visible_bounds_width": 4,
+				"visible_bounds_height": 3.5,
+				"visible_bounds_offset": [0, 1.25, 0]
+			},
+			"bones": [
+				{
+					"name": "root",
+					"pivot": [0, 0, 0]
+				},
+				{
+					"name": "wing_right",
+					"parent": "root",
+					"pivot": [-0.5, 18.5, 2],
+					"rotation": [7.53548, -54.86112, -3.66921],
+					"cubes": [
+						{"origin": [-1, 13, 1.74118], "size": [1, 12, 24], "uv": [0, 0]},
+						{"origin": [-0.5, 14, 1.74118], "size": [0, 12, 24], "uv": [0, 13]}
+					]
+				},
+				{
+					"name": "wing_left",
+					"parent": "root",
+					"pivot": [0.5, 18.5, 2],
+					"rotation": [7.53548, 54.86112, 3.66921],
+					"cubes": [
+						{"origin": [0, 13, 1.74118], "size": [1, 12, 24], "uv": [0, 0], "mirror": true},
+						{"origin": [0.5, 14, 2], "size": [0, 12, 24], "uv": [0, 13], "mirror": true}
+					]
+				}
+			]
+		}
+	]
+}

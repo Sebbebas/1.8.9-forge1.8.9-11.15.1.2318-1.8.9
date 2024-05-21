@@ -13,7 +13,7 @@ fboEnable:true
 difficulty:3
 fancyGraphics:false
 ao:0
-renderClouds:false
+renderClouds:fast
 resourcePacks:["!  Tightfault [Revamp].zip"]
 incompatibleResourcePacks:[]
 lastServer:
@@ -135,8 +135,6 @@ key_Lock Slot:38
 key_Freeze Backpack Preview:33
 key_Dungeon Map Zoom In:13
 key_Dungeon Map Zoom Out:74
-key_Warp to nearest location to burrial guess:0
-key_Choose the nearest eman boss as your boss.:0
 soundCategory_master:0.15562914
 soundCategory_music:0.0
 soundCategory_record:1.0

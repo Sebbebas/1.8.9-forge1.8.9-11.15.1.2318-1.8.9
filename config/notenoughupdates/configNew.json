@@ -850,14 +850,14 @@
         "hotmTree": {}
       },
       "Banana": {
-        "godPotionDuration": 79200000,
-        "puzzlerCompleted": 1716227124138,
+        "godPotionDuration": 75600000,
+        "puzzlerCompleted": 1716314066462,
         "firstCakeAte": 1716061825182,
-        "fetchurCompleted": 1716227153172,
-        "commissionsCompleted": 1716116869114,
+        "fetchurCompleted": 1716314150807,
+        "commissionsCompleted": 1716310522154,
         "lastFreeRiftInfusionApplied": 1715965304301,
         "experimentsCompleted": 1716055430440,
-        "cookieBuffRemaining": 1716310691433,
+        "cookieBuffRemaining": 1716310691893,
         "forgeItems": [
           {
             "finishTime": 0,
@@ -914,7 +914,7 @@
           "Topaz": 0
         },
         "dailyGemstonePowderCompleted": 1716116024819,
-        "dailyMithrilPowerCompleted": 1716116400416,
+        "dailyMithrilPowerCompleted": 1716309931031,
         "nonUnlockedWarpScrolls": [],
         "dailyHeavyPearlCompleted": 1695415835258,
         "questBoardCompleted": 0,
@@ -1028,7 +1028,9 @@
           "Seasoned Mineman": 11,
           "Mining Madness": 1,
           "Quick Forge": 1,
-          "Orbiter": 1
+          "Orbiter": 1,
+          "Sky Mall": 1,
+          "Front Loaded": 1
         }
       }
     },
@@ -1073,7 +1075,8 @@
           "Star Sentry Puncher": 10,
           "Treasure Hoarder Puncher": 10,
           "Golden Goblin Slayer": 1,
-          "Goblin Raid Slayer": 20
+          "Goblin Raid Slayer": 20,
+          "Lucky Raffle": 20
         }
       }
     },
@@ -1584,11 +1587,11 @@
       "Etherwarp Merger"
     ],
     "previousBazaarSearches": [
+      "Booster Cookie",
       "Super Enchanted Egg",
       "Rabbit\u0027s Foot",
       "Hot Stuff",
-      "Jungle Key",
-      "Minion Expander"
+      "Jungle Key"
     ],
     "previousProfileSearches": [
       "jonathanlanunez",

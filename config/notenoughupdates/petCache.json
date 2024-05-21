@@ -40,9 +40,9 @@
         "maxLevel": 100,
         "expRequiredForNextLevel": 1746700,
         "expRequiredForMaxLevel": 25353230,
-        "expInCurrentLevel": 482444.0,
-        "expTotal": 2.2202274E7,
-        "percentageToNextLevel": 0.27620313
+        "expInCurrentLevel": 695846.0,
+        "expTotal": 2.2415676E7,
+        "percentageToNextLevel": 0.3983775
       },
       "petXpType": "combat",
       "petItem": "PET_ITEM_EXP_SHARE",
@@ -246,9 +246,9 @@
         "maxLevel": 100,
         "expRequiredForNextLevel": 383700,
         "expRequiredForMaxLevel": 25353230,
-        "expInCurrentLevel": 56723.5,
-        "expTotal": 5292253.5,
-        "percentageToNextLevel": 0.14783294
+        "expInCurrentLevel": 191906.5,
+        "expTotal": 5427436.5,
+        "percentageToNextLevel": 0.5001472
       },
       "petXpType": "combat",
       "petItem": "PET_ITEM_COMBAT_SKILL_BOOST_RARE",
@@ -287,6 +287,22 @@
       "candyUsed": 0
     },
     "18": {
+      "petType": "MITHRIL_GOLEM",
+      "rarity": "LEGENDARY",
+      "petLevel": {
+        "currentLevel": 68,
+        "maxLevel": 100,
+        "expRequiredForNextLevel": 179700,
+        "expRequiredForMaxLevel": 25353230,
+        "expInCurrentLevel": 43192.0,
+        "expTotal": 2418022.0,
+        "percentageToNextLevel": 0.24035615
+      },
+      "petXpType": "mining",
+      "petItem": "PET_ITEM_MINING_SKILL_BOOST_RARE",
+      "candyUsed": 0
+    },
+    "19": {
       "petType": "AMMONITE",
       "rarity": "LEGENDARY",
       "petLevel": {
@@ -302,7 +318,7 @@
       "petItem": "PET_ITEM_FISHING_SKILL_BOOST_COMMON",
       "candyUsed": 0
     },
-    "19": {
+    "20": {
       "petType": "BEE",
       "rarity": "LEGENDARY",
       "petLevel": {
@@ -317,22 +333,6 @@
       "petXpType": "farming",
       "petItem": "PET_ITEM_FARMING_SKILL_BOOST_EPIC",
       "skin": "PET_SKIN_BEE_ZOMBEE",
-      "candyUsed": 0
-    },
-    "20": {
-      "petType": "MITHRIL_GOLEM",
-      "rarity": "LEGENDARY",
-      "petLevel": {
-        "currentLevel": 54,
-        "maxLevel": 100,
-        "expRequiredForNextLevel": 69400,
-        "expRequiredForMaxLevel": 25353230,
-        "expInCurrentLevel": 46470.812,
-        "expTotal": 853800.8,
-        "percentageToNextLevel": 0.66960824
-      },
-      "petXpType": "mining",
-      "petItem": "PET_ITEM_MINING_SKILL_BOOST_RARE",
       "candyUsed": 0
     },
     "21": {
@@ -581,7 +581,7 @@
       "candyUsed": 0
     }
   },
-  "selectedPet": 20,
+  "selectedPet": 18,
   "selectedPet2": 15,
   "tamingLevel": 50,
   "beastMultiplier": 2.0

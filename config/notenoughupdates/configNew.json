@@ -11,7 +11,7 @@
     "fixSteveSkulls": true,
     "trackFairySouls": true,
     "fariySoul": false,
-    "fairySoulWaypointDistance": false,
+    "fairySoulWaypointDistance": true,
     "fariySoulClear": false,
     "fariySoulUnclear": false,
     "guiButtonClicks": true,
@@ -850,14 +850,14 @@
         "hotmTree": {}
       },
       "Banana": {
-        "godPotionDuration": 75600000,
-        "puzzlerCompleted": 1716314066462,
-        "firstCakeAte": 1716061825182,
-        "fetchurCompleted": 1716314150807,
-        "commissionsCompleted": 1716310522154,
+        "godPotionDuration": 46800000,
+        "puzzlerCompleted": 1716406596092,
+        "firstCakeAte": 1716382254034,
+        "fetchurCompleted": 1716406577893,
+        "commissionsCompleted": 1716384863925,
         "lastFreeRiftInfusionApplied": 1715965304301,
-        "experimentsCompleted": 1716055430440,
-        "cookieBuffRemaining": 1716310691893,
+        "experimentsCompleted": 1716407827461,
+        "cookieBuffRemaining": 1716709759858,
         "forgeItems": [
           {
             "finishTime": 0,
@@ -891,7 +891,7 @@
           }
         ],
         "hotmDesires": {},
-        "commissionMilestone": 4,
+        "commissionMilestone": 5,
         "automatonParts": {
           "Electron Transmitter": false,
           "Robotron Reflector": false,
@@ -914,9 +914,9 @@
           "Topaz": 0
         },
         "dailyGemstonePowderCompleted": 1716116024819,
-        "dailyMithrilPowerCompleted": 1716309931031,
+        "dailyMithrilPowerCompleted": 1716384234630,
         "nonUnlockedWarpScrolls": [],
-        "dailyHeavyPearlCompleted": 1695415835258,
+        "dailyHeavyPearlCompleted": 1716329324454,
         "questBoardCompleted": 0,
         "dailyShopLimitCompleted": 0,
         "savedEquipment": {
@@ -1010,7 +1010,7 @@
             "internalname": "_"
           }
         },
-        "magicalPower": 550,
+        "magicalPower": 552,
         "chestCount": 2,
         "openedChestCount": 2,
         "mithrilPowderFound": 434,
@@ -1330,7 +1330,8 @@
         "anchorRight": false,
         "anchorBottom": false,
         "backgroundIndex": 1,
-        "command": ""
+        "command": "p goldenale7",
+        "icon": "ICE_WALKER_MONSTER"
       },
       {
         "x": 25,
@@ -1350,7 +1351,7 @@
         "anchorBottom": false,
         "backgroundIndex": 1,
         "command": "p olleg2",
-        "icon": "DIVAN_HELMET"
+        "icon": "WOLF;0"
       },
       {
         "x": 67,
@@ -1360,7 +1361,7 @@
         "anchorBottom": false,
         "backgroundIndex": 1,
         "command": "p legohjalten",
-        "icon": "WARDEN_HELMET"
+        "icon": "INK_SACK-6"
       },
       {
         "x": 88,
@@ -1574,28 +1575,28 @@
     ],
     "favourites": [
       "OVERLOAD;5",
-      "DYE_MANGO",
       "GOLDEN_BALL",
       "EXPORTABLE_CARROTS",
-      "BEASTMASTER_CREST_LEGENDARY"
+      "BEASTMASTER_CREST_LEGENDARY",
+      "DYE_MANGO"
     ],
     "previousAuctionSearches": [
-      "Mining Exp Boost",
-      "Gemstone Gauntlet",
-      "egg",
-      "Etherwarp Conduit",
-      "Etherwarp Merger"
+      "rat",
+      "Flaming Sword",
+      "Skeleton Grunt",
+      "Skeleton Grunt Chestplate",
+      "skeleto grunt"
     ],
     "previousBazaarSearches": [
-      "Booster Cookie",
-      "Super Enchanted Egg",
-      "Rabbit\u0027s Foot",
-      "Hot Stuff",
-      "Jungle Key"
+      "Yoggie",
+      "Flint",
+      "spider",
+      "Enchanted Gunpowder",
+      "Enchanted Bone"
     ],
     "previousProfileSearches": [
-      "jonathanlanunez",
       "_eggan_",
+      "jonathanlanunez",
       "goldenale7",
       "legohjalten",
       "lenakos",

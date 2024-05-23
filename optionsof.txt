@@ -5,7 +5,7 @@ ofOcclusionFancy:false
 ofSmoothFps:false
 ofSmoothWorld:true
 ofAoLevel:1.0
-ofClouds:0
+ofClouds:3
 ofCloudsHeight:0.0
 ofTrees:0
 ofDroppedItems:0
@@ -60,6 +60,6 @@ ofDynamicLights:3
 ofCustomGuis:true
 ofFullscreenMode:Default
 ofFastMath:false
-ofFastRender:true
+ofFastRender:false
 ofTranslucentBlocks:0
 key_of.key.zoom:-97

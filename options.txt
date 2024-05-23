@@ -13,8 +13,8 @@ fboEnable:true
 difficulty:3
 fancyGraphics:false
 ao:0
-renderClouds:fast
-resourcePacks:["!  Tightfault [Revamp].zip"]
+renderClouds:false
+resourcePacks:["!      ?fp?brism ?8[?f16?3x?8].zip"]
 incompatibleResourcePacks:[]
 lastServer:
 lang:en_us
@@ -106,7 +106,7 @@ key_keybind.name.EMOTE_SLOT_6:0
 key_keybind.name.EMOTE_SLOT_7:0
 key_keybind.name.EMOTE_SLOT_8:0
 key_Add item to inventory (Creative-only):38
-key_Set item as favourite:0
+key_Set item as favourite:40
 key_Show usages for item:0
 key_Show recipe for item:0
 key_Show previous recipe:0
@@ -135,7 +135,9 @@ key_Lock Slot:38
 key_Freeze Backpack Preview:33
 key_Dungeon Map Zoom In:13
 key_Dungeon Map Zoom Out:74
-soundCategory_master:0.15562914
+key_Warp to nearest location to burrial guess:0
+key_Choose the nearest eman boss as your boss.:0
+soundCategory_master:0.05629139
 soundCategory_music:0.0
 soundCategory_record:1.0
 soundCategory_weather:1.0

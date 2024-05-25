@@ -17,7 +17,7 @@
 		has_key_color = "255,0,255,0"
 		no_key_color = "255,255,0,0"
 		door_fill_opacity = 0.25
-		box_wither_doors = false
+		box_wither_doors = true
 		door_outline_width = 3.0
 		door_outline_opacity = 1.0
 
@@ -29,12 +29,12 @@
 		player_heads_scale = 1.0
 
 	[map.toggle]
-		vanilla_head_marker = false
+		vanilla_head_marker = true
 		center_map = false
 		dynamic_rotate = false
 		rotate_map = false
-		map_enabled = false
-		show_player_names = 0
+		map_enabled = true
+		show_player_names = 1
 		hide_in_boss = false
 
 	[map.render]

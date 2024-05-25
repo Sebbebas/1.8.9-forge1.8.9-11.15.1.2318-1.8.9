@@ -850,44 +850,49 @@
         "hotmTree": {}
       },
       "Banana": {
-        "godPotionDuration": 46800000,
-        "puzzlerCompleted": 1716406596092,
+        "godPotionDuration": 32400000,
+        "puzzlerCompleted": 1716589742932,
         "firstCakeAte": 1716382254034,
-        "fetchurCompleted": 1716406577893,
-        "commissionsCompleted": 1716384863925,
-        "lastFreeRiftInfusionApplied": 1715965304301,
-        "experimentsCompleted": 1716407827461,
-        "cookieBuffRemaining": 1716709759858,
+        "fetchurCompleted": 1716630283808,
+        "commissionsCompleted": 1716589135503,
+        "lastFreeRiftInfusionApplied": 1716583902481,
+        "experimentsCompleted": 1716479527917,
+        "cookieBuffRemaining": 1716709758380,
         "forgeItems": [
           {
-            "finishTime": 0,
-            "status": 0,
+            "itemName": "Refined Titanium",
+            "finishTime": 1716669132745,
+            "status": 2,
             "forgeID": 0,
-            "fromScoreBoard": true
+            "fromScoreBoard": false
           },
           {
-            "finishTime": 0,
-            "status": 0,
+            "itemName": "Refined Titanium",
+            "finishTime": 1716669134745,
+            "status": 2,
             "forgeID": 1,
-            "fromScoreBoard": true
+            "fromScoreBoard": false
           },
           {
-            "finishTime": 0,
-            "status": 0,
+            "itemName": "Refined Titanium",
+            "finishTime": 1716669138745,
+            "status": 2,
             "forgeID": 2,
-            "fromScoreBoard": true
+            "fromScoreBoard": false
           },
           {
-            "finishTime": 0,
-            "status": 0,
+            "itemName": "Refined Titanium",
+            "finishTime": 1716669143745,
+            "status": 2,
             "forgeID": 3,
-            "fromScoreBoard": true
+            "fromScoreBoard": false
           },
           {
-            "finishTime": 0,
-            "status": 0,
+            "itemName": "Refined Titanium",
+            "finishTime": 1716669147745,
+            "status": 2,
             "forgeID": 4,
-            "fromScoreBoard": true
+            "fromScoreBoard": false
           }
         ],
         "hotmDesires": {},
@@ -914,11 +919,11 @@
           "Topaz": 0
         },
         "dailyGemstonePowderCompleted": 1716116024819,
-        "dailyMithrilPowerCompleted": 1716384234630,
+        "dailyMithrilPowerCompleted": 1716588968629,
         "nonUnlockedWarpScrolls": [],
         "dailyHeavyPearlCompleted": 1716329324454,
         "questBoardCompleted": 0,
-        "dailyShopLimitCompleted": 0,
+        "dailyShopLimitCompleted": 1716571292226,
         "savedEquipment": {
           "19": {
             "itemid": "minecraft:skull",
@@ -1581,26 +1586,26 @@
       "DYE_MANGO"
     ],
     "previousAuctionSearches": [
+      "Jerry-chine Gun",
+      "Shadow Assassin Cloak",
+      "Hyperion",
       "rat",
-      "Flaming Sword",
-      "Skeleton Grunt",
-      "Skeleton Grunt Chestplate",
-      "skeleto grunt"
+      "Flaming Sword"
     ],
     "previousBazaarSearches": [
-      "Yoggie",
-      "Flint",
-      "spider",
-      "Enchanted Gunpowder",
-      "Enchanted Bone"
+      "tita",
+      "Enchanted Obsidian",
+      "Revenant Flesh",
+      "Enchanted Rabbit Hide",
+      "Yoggie"
     ],
     "previousProfileSearches": [
+      "itstrigo",
+      "croakymusic",
+      "p4t_o",
       "_eggan_",
       "jonathanlanunez",
-      "goldenale7",
-      "legohjalten",
-      "lenakos",
-      "itstrigo"
+      "goldenale7"
     ],
     "eventFavourites": [],
     "quickCommands": [
@@ -1633,7 +1638,7 @@
     "dmRoomSize": 2.6041665,
     "dmIconScale": 1.4895834,
     "dmBorderStyle": 2,
-    "dmEnable": true,
+    "dmEnable": false,
     "dmCenterPlayer": false,
     "dmRotatePlayer": false,
     "dmOrientCheck": false,

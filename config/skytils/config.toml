@@ -128,7 +128,7 @@
 		twitch_fix = true
 		boss_bar_fix = true
 		fix_world_time = false
-		fix_falling_sand_rendering = false
+		fix_falling_sand_rendering = true
 		fix_sba_chroma = true
 
 	[miscellaneous.item_rarity]

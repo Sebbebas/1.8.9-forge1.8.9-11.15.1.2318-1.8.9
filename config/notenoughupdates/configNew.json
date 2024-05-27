@@ -850,14 +850,14 @@
         "hotmTree": {}
       },
       "Banana": {
-        "godPotionDuration": 32400000,
+        "godPotionDuration": 25200000,
         "puzzlerCompleted": 1716589742932,
-        "firstCakeAte": 1716382254034,
+        "firstCakeAte": 1716731413611,
         "fetchurCompleted": 1716630283808,
         "commissionsCompleted": 1716589135503,
         "lastFreeRiftInfusionApplied": 1716583902481,
-        "experimentsCompleted": 1716479527917,
-        "cookieBuffRemaining": 1716709758380,
+        "experimentsCompleted": 1716732110690,
+        "cookieBuffRemaining": 1717058733239,
         "forgeItems": [
           {
             "itemName": "Refined Titanium",
@@ -976,7 +976,7 @@
           "10": {
             "itemid": "minecraft:skull",
             "displayname": "§5Strengthened §dRift Necklace",
-            "nbttag": "{HideFlags:254,SkullOwner:{Id:\"ad049247-1862-300f-a0db-dfd5cf5f6220\",Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTY0Nzg2ODQ3MDQxOCwKICAicHJvZmlsZUlkIiA6ICIwNjNhMTc2Y2RkMTU0ODRiYjU1MjRhNjQyMGM1YjdhNCIsCiAgInByb2ZpbGVOYW1lIiA6ICJkYXZpcGF0dXJ5IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzljMDg5NDkzMWE1MTAzODdlNGY2MTM4MjhmMDIzOWNhNGQ5MDg1MzQ5OTYzN2Y2MDc5ZDM5MzI3ZjE0NmYwZTkiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ\u003d\u003d\"}]}},display:{Lore:[0:\"§7Strength: §c+26 §9(+6)\",1:\"§7Health: §a+100\",2:\"§7Defense: §a+33 §9(+8)\",3:\"§7Intelligence: §a+65\",4:\"§7Magic Find: §a+6\",5:\"\",6:\"§7A very powerful piece of equipment\",7:\"§7originating from the §dRift Dimension§7.\",8:\"\",9:\"§7Becomes more powerful as you fill\",10:\"§7the §dRift Gallery§7.\",11:\"§7Secured: §c6/8 Timecharms\",12:\"\",13:\"§8§l* §8Soulbound §8§l*\",14:\"§6§lLEGENDARY NECKLACE\"],Name:\"§5Strengthened §dRift Necklace\"},ExtraAttributes:{modifier:\"strengthened\",id:\"RIFT_NECKLACE_OUTSIDE\",uuid:\"3d635644-59ce-4147-a1bd-e4a5110b1beb\",donated_museum:1b,timestamp:\"7/6/23 2:10 PM\"}}",
+            "nbttag": "{HideFlags:254,SkullOwner:{Id:\"ad049247-1862-300f-a0db-dfd5cf5f6220\",Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTY0Nzg2ODQ3MDQxOCwKICAicHJvZmlsZUlkIiA6ICIwNjNhMTc2Y2RkMTU0ODRiYjU1MjRhNjQyMGM1YjdhNCIsCiAgInByb2ZpbGVOYW1lIiA6ICJkYXZpcGF0dXJ5IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzljMDg5NDkzMWE1MTAzODdlNGY2MTM4MjhmMDIzOWNhNGQ5MDg1MzQ5OTYzN2Y2MDc5ZDM5MzI3ZjE0NmYwZTkiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ\u003d\u003d\"}]}},display:{Lore:[0:\"§7Strength: §c+26 §9(+6)\",1:\"§7Health: §a+100\",2:\"§7Defense: §a+33 §9(+8)\",3:\"§7Intelligence: §a+65\",4:\"§7Magic Find: §a+6\",5:\"\",6:\"§7A very powerful piece of equipment\",7:\"§7originating from the §dRift Dimension§7.\",8:\"\",9:\"§7Becomes more powerful as you fill\",10:\"§7the §dRift Gallery§7.\",11:\"§7Secured: §c6/8 Timecharms\",12:\"\",13:\"§8§l* §8Soulbound §8§l*\",14:\"§6§lLEGENDARY NECKLACE\"],Name:\"§5Strengthened §dRift Necklace\"},ExtraAttributes:{modifier:\"strengthened\",id:\"RIFT_NECKLACE_OUTSIDE\",uuid:\"3d635644-59ce-4147-a1bd-e4a5110b1beb\",donated_museum:1b,timestamp:1688667000000L}}",
             "damage": 3,
             "lore": [
               "§7Strength: §c+26 §9(+6)",
@@ -1583,29 +1583,32 @@
       "GOLDEN_BALL",
       "EXPORTABLE_CARROTS",
       "BEASTMASTER_CREST_LEGENDARY",
-      "DYE_MANGO"
+      "DYE_MANGO",
+      "SOULWEAVER_GLOVES",
+      "SHADOW_ASSASSIN_CLOAK",
+      "ADAPTIVE_BELT"
     ],
     "previousAuctionSearches": [
+      "Wither Boots",
+      "Wither Leggings",
+      "Wither Chestplate",
       "Jerry-chine Gun",
-      "Shadow Assassin Cloak",
-      "Hyperion",
-      "rat",
-      "Flaming Sword"
+      "Shadow Assassin Cloak"
     ],
     "previousBazaarSearches": [
+      "Enchanted Seeds",
+      "L.A.S.R.\u0027s Eye",
+      "Booster Cookie",
       "tita",
-      "Enchanted Obsidian",
-      "Revenant Flesh",
-      "Enchanted Rabbit Hide",
-      "Yoggie"
+      "Enchanted Obsidian"
     ],
     "previousProfileSearches": [
       "itstrigo",
+      "swplayerr",
       "croakymusic",
       "p4t_o",
       "_eggan_",
-      "jonathanlanunez",
-      "goldenale7"
+      "jonathanlanunez"
     ],
     "eventFavourites": [],
     "quickCommands": [

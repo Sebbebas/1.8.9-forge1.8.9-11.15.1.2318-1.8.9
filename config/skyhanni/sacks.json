@@ -315,37 +315,37 @@
               "status": "CORRECT"
             },
             "GOLEM_POPPY": {
-              "amount": 0,
+              "amount": 4,
               "lastChange": 0,
               "status": "CORRECT"
             },
             "ARCHITECT_FIRST_DRAFT": {
-              "amount": 3,
+              "amount": 4,
               "lastChange": 0,
               "status": "CORRECT"
             },
             "GIANT_FRAGMENT_BIGFOOT": {
-              "amount": 16,
+              "amount": 17,
               "lastChange": 0,
               "status": "CORRECT"
             },
             "BONZO_FRAGMENT": {
-              "amount": 15,
+              "amount": 17,
               "lastChange": 0,
               "status": "CORRECT"
             },
             "DUNGEON_DECOY": {
-              "amount": 62,
+              "amount": 83,
               "lastChange": 0,
               "status": "CORRECT"
             },
             "DUNGEON_CHEST_KEY": {
-              "amount": 7,
+              "amount": 8,
               "lastChange": 0,
               "status": "CORRECT"
             },
             "FEL_PEARL": {
-              "amount": 53,
+              "amount": 68,
               "lastChange": 0,
               "status": "CORRECT"
             },
@@ -360,52 +360,52 @@
               "status": "CORRECT"
             },
             "GIANT_FRAGMENT_BOULDER": {
-              "amount": 22,
+              "amount": 23,
               "lastChange": 0,
               "status": "CORRECT"
             },
             "KISMET_FEATHER": {
-              "amount": 1,
-              "lastChange": 0,
-              "status": "CORRECT"
-            },
-            "GIANT_FRAGMENT_LASER": {
               "amount": 0,
               "lastChange": 0,
               "status": "CORRECT"
             },
+            "GIANT_FRAGMENT_LASER": {
+              "amount": 1,
+              "lastChange": 0,
+              "status": "CORRECT"
+            },
             "LIVID_FRAGMENT": {
-              "amount": 11,
+              "amount": 14,
               "lastChange": 0,
               "status": "CORRECT"
             },
             "MIMIC_FRAGMENT": {
-              "amount": 9,
+              "amount": 14,
               "lastChange": 0,
               "status": "CORRECT"
             },
             "SCARF_FRAGMENT": {
-              "amount": 13,
+              "amount": 17,
               "lastChange": 0,
               "status": "CORRECT"
             },
             "SPIRIT_LEAP": {
-              "amount": 1735,
+              "amount": 1728,
               "lastChange": 0,
               "status": "CORRECT"
             },
             "SUPERBOOM_TNT": {
-              "amount": 2074,
+              "amount": 2240,
               "lastChange": 0,
               "status": "CORRECT"
             },
             "THORN_FRAGMENT": {
-              "amount": 20,
+              "amount": 24,
               "lastChange": 0,
               "status": "CORRECT"
             },
             "DUNGEON_TRAP": {
-              "amount": 5,
+              "amount": 6,
               "lastChange": 0,
               "status": "CORRECT"
             },
@@ -785,7 +785,7 @@
               "status": "CORRECT"
             },
             "ENCHANTED_BAKED_POTATO": {
-              "amount": 130,
+              "amount": 126,
               "lastChange": 0,
               "status": "CORRECT"
             },
@@ -815,7 +815,7 @@
               "status": "CORRECT"
             },
             "ENCHANTED_CARROT": {
-              "amount": 3719,
+              "amount": 3723,
               "lastChange": 0,
               "status": "CORRECT"
             },
@@ -835,7 +835,7 @@
               "status": "CORRECT"
             },
             "ENCHANTED_HAY_BLOCK": {
-              "amount": 569,
+              "amount": 574,
               "lastChange": 0,
               "status": "CORRECT"
             },
@@ -845,12 +845,12 @@
               "status": "CORRECT"
             },
             "ENCHANTED_MELON_BLOCK": {
-              "amount": 234,
+              "amount": 235,
               "lastChange": 0,
               "status": "CORRECT"
             },
             "ENCHANTED_NETHER_STALK": {
-              "amount": 3667,
+              "amount": 3678,
               "lastChange": 0,
               "status": "CORRECT"
             },
@@ -860,17 +860,17 @@
               "status": "CORRECT"
             },
             "ENCHANTED_POTATO": {
-              "amount": 6665,
+              "amount": 6669,
               "lastChange": 0,
               "status": "CORRECT"
             },
             "ENCHANTED_PUMPKIN": {
-              "amount": 168,
+              "amount": 171,
               "lastChange": 0,
               "status": "CORRECT"
             },
             "ENCHANTED_RED_MUSHROOM": {
-              "amount": 5,
+              "amount": 10,
               "lastChange": 0,
               "status": "CORRECT"
             },
@@ -900,7 +900,7 @@
               "status": "CORRECT"
             },
             "POLISHED_PUMPKIN": {
-              "amount": 4,
+              "amount": 2,
               "lastChange": 0,
               "status": "CORRECT"
             },
@@ -930,7 +930,7 @@
               "status": "CORRECT"
             },
             "GHAST_TEAR": {
-              "amount": 160,
+              "amount": 163,
               "lastChange": 0,
               "status": "CORRECT"
             },
@@ -1050,7 +1050,7 @@
               "status": "CORRECT"
             },
             "CORRUPTED_FRAGMENT": {
-              "amount": 480,
+              "amount": 491,
               "lastChange": 0,
               "status": "CORRECT"
             },
@@ -1140,7 +1140,7 @@
               "status": "CORRECT"
             },
             "SULPHUR_ORE": {
-              "amount": 480,
+              "amount": 491,
               "lastChange": 0,
               "status": "CORRECT"
             },

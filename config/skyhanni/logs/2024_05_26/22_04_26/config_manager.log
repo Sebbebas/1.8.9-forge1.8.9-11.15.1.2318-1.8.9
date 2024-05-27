@@ -1,0 +1,33 @@
+22:04:38 Trying to load config from config\skyhanni\config.json
+22:04:38 load-config-now
+22:04:38 Loaded config from file
+22:04:38 Trying to load sacks from config\skyhanni\sacks.json
+22:04:38 load-sacks-now
+22:04:38 Loaded sacks from file
+22:04:38 Trying to load friends from config\skyhanni\friends.json
+22:04:38 load-friends-now
+22:04:38 Loaded friends from file
+22:04:38 Trying to load known_features from config\skyhanni\known_features.json
+22:04:38 load-known_features-now
+22:04:38 Loaded known_features from file
+22:04:38 Trying to load jacob_contests from config\skyhanni\jacob_contests.json
+22:04:38 load-jacob_contests-now
+22:04:38 Loaded jacob_contests from file
+22:04:38 Trying to load visual_words from config\skyhanni\visual_words.json
+22:04:38 Setting visual_words to be blank as it did not exist. It will be saved once something is written to it
+22:05:38 saveConfig: auto-save-60s
+22:05:38 Saving config file
+22:06:25 saveConfig: Updated known feature flags
+22:06:25 Saving known_features file
+22:06:38 saveConfig: auto-save-60s
+22:06:38 Saving config file
+22:07:38 saveConfig: auto-save-60s
+22:07:38 Saving config file
+22:08:13 saveConfig: Save file
+22:08:13 Saving friends file
+22:08:38 saveConfig: auto-save-60s
+22:08:38 Saving config file
+22:09:38 saveConfig: auto-save-60s
+22:09:38 Saving config file
+22:10:10 saveConfig: shutdown-hook
+22:10:10 Saving config file

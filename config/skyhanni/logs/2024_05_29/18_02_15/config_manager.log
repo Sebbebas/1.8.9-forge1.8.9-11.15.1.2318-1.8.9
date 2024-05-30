@@ -1,0 +1,115 @@
+18:02:26 Trying to load config from config\skyhanni\config.json
+18:02:26 load-config-now
+18:02:26 Loaded config from file
+18:02:26 Trying to load sacks from config\skyhanni\sacks.json
+18:02:26 load-sacks-now
+18:02:26 Loaded sacks from file
+18:02:26 Trying to load friends from config\skyhanni\friends.json
+18:02:26 load-friends-now
+18:02:26 Loaded friends from file
+18:02:26 Trying to load known_features from config\skyhanni\known_features.json
+18:02:26 load-known_features-now
+18:02:26 Loaded known_features from file
+18:02:26 Trying to load jacob_contests from config\skyhanni\jacob_contests.json
+18:02:26 load-jacob_contests-now
+18:02:26 Loaded jacob_contests from file
+18:02:26 Trying to load visual_words from config\skyhanni\visual_words.json
+18:02:26 Setting visual_words to be blank as it did not exist. It will be saved once something is written to it
+18:03:26 saveConfig: auto-save-60s
+18:03:26 Saving config file
+18:03:47 saveConfig: Updated known feature flags
+18:03:47 Saving known_features file
+18:04:26 saveConfig: auto-save-60s
+18:04:26 Saving config file
+18:05:26 saveConfig: auto-save-60s
+18:05:26 Saving config file
+18:06:26 saveConfig: auto-save-60s
+18:06:26 Saving config file
+18:07:26 saveConfig: auto-save-60s
+18:07:26 Saving config file
+18:08:26 saveConfig: auto-save-60s
+18:08:26 Saving config file
+18:09:26 saveConfig: auto-save-60s
+18:09:26 Saving config file
+18:10:26 saveConfig: auto-save-60s
+18:10:26 Saving config file
+18:11:26 saveConfig: auto-save-60s
+18:11:26 Saving config file
+18:12:26 saveConfig: auto-save-60s
+18:12:26 Saving config file
+18:13:26 saveConfig: auto-save-60s
+18:13:26 Saving config file
+18:14:26 saveConfig: auto-save-60s
+18:14:26 Saving config file
+18:15:26 saveConfig: auto-save-60s
+18:15:26 Saving config file
+18:15:56 saveConfig: saving-data
+18:15:56 Saving sacks file
+18:16:26 saveConfig: auto-save-60s
+18:16:26 Saving config file
+18:16:36 saveConfig: saving-data
+18:16:36 Saving sacks file
+18:17:26 saveConfig: auto-save-60s
+18:17:26 Saving config file
+18:18:26 saveConfig: auto-save-60s
+18:18:26 Saving config file
+18:19:26 saveConfig: auto-save-60s
+18:19:26 Saving config file
+18:20:13 saveConfig: Save contests
+18:20:13 Saving jacob_contests file
+18:20:26 saveConfig: auto-save-60s
+18:20:26 Saving config file
+18:21:26 saveConfig: auto-save-60s
+18:21:26 Saving config file
+18:22:26 saveConfig: auto-save-60s
+18:22:26 Saving config file
+18:23:26 saveConfig: auto-save-60s
+18:23:26 Saving config file
+18:24:26 saveConfig: auto-save-60s
+18:24:26 Saving config file
+18:25:26 saveConfig: auto-save-60s
+18:25:26 Saving config file
+18:26:26 saveConfig: auto-save-60s
+18:26:26 Saving config file
+18:27:26 saveConfig: auto-save-60s
+18:27:26 Saving config file
+18:28:26 saveConfig: auto-save-60s
+18:28:26 Saving config file
+18:29:26 saveConfig: auto-save-60s
+18:29:26 Saving config file
+18:30:26 saveConfig: auto-save-60s
+18:30:26 Saving config file
+18:31:26 saveConfig: auto-save-60s
+18:31:26 Saving config file
+18:32:26 saveConfig: auto-save-60s
+18:32:26 Saving config file
+18:33:26 saveConfig: auto-save-60s
+18:33:26 Saving config file
+18:34:26 saveConfig: auto-save-60s
+18:34:26 Saving config file
+18:35:26 saveConfig: auto-save-60s
+18:35:26 Saving config file
+18:36:26 saveConfig: auto-save-60s
+18:36:26 Saving config file
+18:37:26 saveConfig: auto-save-60s
+18:37:26 Saving config file
+18:38:26 saveConfig: auto-save-60s
+18:38:26 Saving config file
+18:39:26 saveConfig: auto-save-60s
+18:39:26 Saving config file
+18:40:26 saveConfig: auto-save-60s
+18:40:26 Saving config file
+18:41:26 saveConfig: auto-save-60s
+18:41:26 Saving config file
+18:41:55 saveConfig: saving-data
+18:41:55 Saving sacks file
+18:42:26 saveConfig: auto-save-60s
+18:42:26 Saving config file
+18:43:26 saveConfig: auto-save-60s
+18:43:26 Saving config file
+18:44:26 saveConfig: auto-save-60s
+18:44:26 Saving config file
+18:45:26 saveConfig: auto-save-60s
+18:45:26 Saving config file
+18:46:00 saveConfig: shutdown-hook
+18:46:00 Saving config file

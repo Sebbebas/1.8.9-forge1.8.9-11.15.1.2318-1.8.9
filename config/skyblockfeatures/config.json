@@ -1,0 +1,968 @@
+{
+  "updateNotify": {
+    "value": true
+  },
+  "updateCheckType": {
+    "value": 0
+  },
+  "developerMode": {
+    "value": false
+  },
+  "riskyFeatures": {
+    "value": true
+  },
+  "customSidebar": {
+    "value": false
+  },
+  "removeSidebarBackground": {
+    "value": false
+  },
+  "removeSidebarRedNumbers": {
+    "value": true
+  },
+  "useShadowOnSidebar": {
+    "value": true
+  },
+  "hideHypixelFromSidebar": {
+    "value": true
+  },
+  "fireFreezeTimer": {
+    "value": false
+  },
+  "salvageProtection": {
+    "value": false
+  },
+  "salvageProtectionMinValue": {
+    "value": 200000
+  },
+  "boxShadowAssasins": {
+    "value": false
+  },
+  "shadowAssassinNotify": {
+    "value": false
+  },
+  "quickCloseChest": {
+    "value": false
+  },
+  "highlightDoors": {
+    "value": false
+  },
+  "stopBloodMusic": {
+    "value": false
+  },
+  "clickInOrderSolver": {
+    "value": false
+  },
+  "clickInOrderSolverCurrent": {
+    "value": {
+      "value": -16761796,
+      "falpha": 0.0
+    }
+  },
+  "clickInOrderSolverNext": {
+    "value": {
+      "value": -16741236,
+      "falpha": 0.0
+    }
+  },
+  "clickInOrderSolverNext2": {
+    "value": {
+      "value": -16712966,
+      "falpha": 0.0
+    }
+  },
+  "blazeSolver": {
+    "value": false
+  },
+  "WaterBoardSolver": {
+    "value": false
+  },
+  "ThreeWeirdosSolver": {
+    "value": false
+  },
+  "teleportPadSolver": {
+    "value": false
+  },
+  "teleportPadSolverColor": {
+    "value": {
+      "value": -65536,
+      "falpha": 0.0
+    }
+  },
+  "creeperSolver": {
+    "value": false
+  },
+  "cryptCount": {
+    "value": false
+  },
+  "blessingViewer": {
+    "value": false
+  },
+  "highlightBats": {
+    "value": false
+  },
+  "highlightBatColor": {
+    "value": {
+      "value": -16711936,
+      "falpha": 0.0
+    }
+  },
+  "presentWaypoints": {
+    "value": false
+  },
+  "presentWaypointsColor": {
+    "value": {
+      "value": -256,
+      "falpha": 0.0
+    }
+  },
+  "highlightSelfGifts": {
+    "value": false
+  },
+  "selfGiftHighlightColor": {
+    "value": {
+      "value": -65536,
+      "falpha": 0.0
+    }
+  },
+  "icecaveHighlight": {
+    "value": false
+  },
+  "icecaveHighlightWalls": {
+    "value": false
+  },
+  "showGiftingInfo": {
+    "value": false
+  },
+  "IceTreasureTracker": {
+    "value": false
+  },
+  "hideOtherGifts": {
+    "value": false
+  },
+  "hideGiftParticles": {
+    "value": false
+  },
+  "highlightSlayers": {
+    "value": true
+  },
+  "highlightSlayerColor": {
+    "value": {
+      "value": -14336,
+      "falpha": 0.0
+    }
+  },
+  "highlightSlayerMiniboss": {
+    "value": false
+  },
+  "highlightSlayerMinibossColor": {
+    "value": {
+      "value": -16711936,
+      "falpha": 0.0
+    }
+  },
+  "highlightVoidgloomColors": {
+    "value": false
+  },
+  "highlightVoidgloomHitPhase": {
+    "value": {
+      "value": -65281,
+      "falpha": 0.0
+    }
+  },
+  "highlightVoidgloomLaserPhase": {
+    "value": {
+      "value": -16711681,
+      "falpha": 0.0
+    }
+  },
+  "slayerTimer": {
+    "value": false
+  },
+  "highlightBeacons": {
+    "value": false
+  },
+  "highlightBeaconsThroughWalls": {
+    "value": false
+  },
+  "highlightBeaconsColor": {
+    "value": {
+      "value": -16711936,
+      "falpha": 0.0
+    }
+  },
+  "EnderNodeTracker": {
+    "value": false
+  },
+  "dayTracker": {
+    "value": false
+  },
+  "highlightEnderNodes": {
+    "value": false
+  },
+  "highlightEnderNodesWalls": {
+    "value": false
+  },
+  "highlightEnderNodesEndstoneColor": {
+    "value": {
+      "value": -65281,
+      "falpha": 0.0
+    }
+  },
+  "highlightEnderNodesObiColor": {
+    "value": {
+      "value": -11599281,
+      "falpha": 0.0
+    }
+  },
+  "dungeonChestProfit": {
+    "value": false
+  },
+  "dungeonChestProfitEssence": {
+    "value": true
+  },
+  "cleanerActionBar": {
+    "value": false
+  },
+  "hideHealthFromBar": {
+    "value": true
+  },
+  "hideManaFromBar": {
+    "value": true
+  },
+  "hideOverflowManaFromBar": {
+    "value": true
+  },
+  "hideDefenseFromBar": {
+    "value": true
+  },
+  "hideSecretsFromBar": {
+    "value": true
+  },
+  "HealthBar": {
+    "value": false
+  },
+  "ManaBar": {
+    "value": false
+  },
+  "HealthDisplay": {
+    "value": false
+  },
+  "SpeedDisplay": {
+    "value": false
+  },
+  "EffectiveHealthDisplay": {
+    "value": false
+  },
+  "ManaDisplay": {
+    "value": false
+  },
+  "DefenseDisplay": {
+    "value": false
+  },
+  "SecretsDisplay": {
+    "value": false
+  },
+  "betterPartyFinder": {
+    "value": false
+  },
+  "betterPartyFinderSideMenu": {
+    "value": true
+  },
+  "betterPartyFinderNoCarry": {
+    "value": true
+  },
+  "betterPartyFinderNoDupe": {
+    "value": true
+  },
+  "betterPartyFinderReloadKey": {
+    "value": 19
+  },
+  "dungeonPartyDisplay": {
+    "value": false
+  },
+  "dungeonPartyDisplayDupes": {
+    "value": true
+  },
+  "partyFinderJoinMessages": {
+    "value": false
+  },
+  "hideNonStarredMobs": {
+    "value": false
+  },
+  "boxStarredMobs": {
+    "value": false
+  },
+  "boxStarredMobsColor": {
+    "value": {
+      "value": -22016,
+      "falpha": 0.0
+    }
+  },
+  "highlightCorrectLivid": {
+    "value": false
+  },
+  "correctLividColor": {
+    "value": {
+      "value": -16711681,
+      "falpha": 0.0
+    }
+  },
+  "fairySoulHelper": {
+    "value": false
+  },
+  "fairySoulUnfound": {
+    "value": {
+      "value": -65281,
+      "falpha": 0.0
+    }
+  },
+  "fairySoulFound": {
+    "value": {
+      "value": -16711936,
+      "falpha": 0.0
+    }
+  },
+  "highlightOdanta": {
+    "value": true
+  },
+  "riftSouls": {
+    "value": false
+  },
+  "riftSoulUnfound": {
+    "value": {
+      "value": -65281,
+      "falpha": 0.0
+    }
+  },
+  "riftSoulFound": {
+    "value": {
+      "value": -16711936,
+      "falpha": 0.0
+    }
+  },
+  "riftMirrorverseHelper": {
+    "value": true
+  },
+  "riftMirrorverseHelperColor": {
+    "value": {
+      "value": -16711681,
+      "falpha": 0.0
+    }
+  },
+  "riftHackingHelper": {
+    "value": false
+  },
+  "larvaSilkDisplay": {
+    "value": false
+  },
+  "larvaSilkBlockColor": {
+    "value": {
+      "value": -16711936,
+      "falpha": 0.0
+    }
+  },
+  "larvaSilkLineColor": {
+    "value": {
+      "value": -16711681,
+      "falpha": 0.0
+    }
+  },
+  "spiderRelicHelper": {
+    "value": false
+  },
+  "hideArmorBar": {
+    "value": false
+  },
+  "hideHungerBar": {
+    "value": false
+  },
+  "hideHealthHearts": {
+    "value": false
+  },
+  "hidePlayerNametags": {
+    "value": false
+  },
+  "fullbright": {
+    "value": false
+  },
+  "DynamicFullbright": {
+    "value": false
+  },
+  "DynamicFullbrightDisabled": {
+    "value": 100
+  },
+  "DynamicFullbrightElsewhere": {
+    "value": 1
+  },
+  "hideAllNametags": {
+    "value": false
+  },
+  "hidePlayersNearNPC": {
+    "value": false
+  },
+  "hideArrows": {
+    "value": false
+  },
+  "treecapCooldown": {
+    "value": false
+  },
+  "treecapHeld": {
+    "value": false
+  },
+  "clock": {
+    "value": false
+  },
+  "jerryTimer": {
+    "value": false
+  },
+  "customFont": {
+    "value": false
+  },
+  "furfSkyThemed": {
+    "value": false
+  },
+  "guiLines": {
+    "value": {
+      "value": -7500403,
+      "falpha": 0.0
+    }
+  },
+  "selectedCategory": {
+    "value": {
+      "value": -16602646,
+      "falpha": 0.0
+    }
+  },
+  "hoveredCategory": {
+    "value": {
+      "value": -13842185,
+      "falpha": 0.0
+    }
+  },
+  "defaultCategory": {
+    "value": {
+      "value": -1,
+      "falpha": 0.0
+    }
+  },
+  "featureDescription": {
+    "value": {
+      "value": -4473925,
+      "falpha": 0.0
+    }
+  },
+  "mainBackground": {
+    "value": {
+      "value": -937879271,
+      "falpha": 0.0
+    }
+  },
+  "searchBoxBackground": {
+    "value": {
+      "value": 1014528120,
+      "falpha": 0.0
+    }
+  },
+  "editGuiText": {
+    "value": {
+      "value": -1,
+      "falpha": 0.0
+    }
+  },
+  "titleColor": {
+    "value": {
+      "value": -16711681,
+      "falpha": 0.0
+    }
+  },
+  "versionColor": {
+    "value": {
+      "value": -1,
+      "falpha": 0.0
+    }
+  },
+  "playerDiguiser": {
+    "value": false
+  },
+  "DisguisePlayersAs": {
+    "value": 0
+  },
+  "playerCapeURL": {
+    "value": ""
+  },
+  "MythologicalHelper": {
+    "value": false
+  },
+  "MythologicalHelperActualColor": {
+    "value": {
+      "value": -43691,
+      "falpha": 0.0
+    }
+  },
+  "MythologicalHelperPredictionColor": {
+    "value": {
+      "value": -1,
+      "falpha": 0.0
+    }
+  },
+  "MythologicalHelperNextColor": {
+    "value": {
+      "value": -16711681,
+      "falpha": 0.0
+    }
+  },
+  "MythologicalHelperDefaultColor": {
+    "value": {
+      "value": -16711936,
+      "falpha": 0.0
+    }
+  },
+  "MythologicalHelperMobColor": {
+    "value": {
+      "value": -65536,
+      "falpha": 0.0
+    }
+  },
+  "MythologicalHelperTreasureColor": {
+    "value": {
+      "value": -22016,
+      "falpha": 0.0
+    }
+  },
+  "Counter": {
+    "value": false
+  },
+  "highlightPests": {
+    "value": false
+  },
+  "highlightPestColor": {
+    "value": {
+      "value": -65536,
+      "falpha": 0.0
+    }
+  },
+  "highlightPestThroughWalls": {
+    "value": false
+  },
+  "composterOverlay": {
+    "value": false
+  },
+  "trevorHelper": {
+    "value": false
+  },
+  "autoAcceptReparty": {
+    "value": false
+  },
+  "autoReparty": {
+    "value": false
+  },
+  "HideFarEntity": {
+    "value": false
+  },
+  "damagetint": {
+    "value": false
+  },
+  "NameTags": {
+    "value": false
+  },
+  "highlightTrash": {
+    "value": false
+  },
+  "dungeonMap": {
+    "value": false
+  },
+  "dungeonMapHeadScale": {
+    "value": 100
+  },
+  "dungeonMapCenter": {
+    "value": false
+  },
+  "dungeonMapPlayerNames": {
+    "value": true
+  },
+  "dungeonMapBloodGuy": {
+    "value": true
+  },
+  "dungeonMapHeads": {
+    "value": true
+  },
+  "quickStart": {
+    "value": false
+  },
+  "glowingDungeonPlayers": {
+    "value": false
+  },
+  "glowingItems": {
+    "value": false
+  },
+  "hiddenJerryAlert": {
+    "value": false
+  },
+  "treasureChestSolver": {
+    "value": false
+  },
+  "AutomatonTracker": {
+    "value": false
+  },
+  "gemstoneTracker": {
+    "value": false
+  },
+  "ghostTracker": {
+    "value": false
+  },
+  "powderTracker": {
+    "value": false
+  },
+  "CommisionsTracker": {
+    "value": false
+  },
+  "highlightCobblestone": {
+    "value": false
+  },
+  "highlightCobblestoneColor": {
+    "value": {
+      "value": -16711681,
+      "falpha": 0.0
+    }
+  },
+  "CrystalHollowsMap": {
+    "value": false
+  },
+  "CrystalHollowsMapHeads": {
+    "value": true
+  },
+  "CrystalHollowsMapTrail": {
+    "value": true
+  },
+  "dwarvenMinesMap": {
+    "value": false
+  },
+  "MetalDetectorSolver": {
+    "value": false
+  },
+  "showNPCSellPrice": {
+    "value": false
+  },
+  "crimsonsIslesMap": {
+    "value": false
+  },
+  "showSkyblockID": {
+    "value": false
+  },
+  "fireVeilTimer": {
+    "value": false
+  },
+  "prehistoricEggDistance": {
+    "value": false
+  },
+  "teleportDestination": {
+    "value": false
+  },
+  "itemRarityBackground": {
+    "value": false
+  },
+  "cooldownTracker": {
+    "value": false
+  },
+  "cooldownTrackerType": {
+    "value": 0
+  },
+  "cooldownTrackerSquareColor": {
+    "value": {
+      "value": -1,
+      "falpha": 0.0
+    }
+  },
+  "cooldownTrackerBarColor": {
+    "value": {
+      "value": -16711681,
+      "falpha": 0.0
+    }
+  },
+  "timestamps": {
+    "value": false
+  },
+  "betterTrading": {
+    "value": false
+  },
+  "easierTrading": {
+    "value": true
+  },
+  "hideExpired": {
+    "value": true
+  },
+  "enchantingSolvers": {
+    "value": false
+  },
+  "hideWhiteSquare": {
+    "value": false
+  },
+  "showZealotSpawnAreas": {
+    "value": false
+  },
+  "finalDestinationArmorDisplay": {
+    "value": false
+  },
+  "finalDestinationArmorDisplayKills": {
+    "value": false
+  },
+  "advancedDragonHitbox": {
+    "value": false
+  },
+  "advancedDragonHitboxColor": {
+    "value": {
+      "value": -16711936,
+      "falpha": 0.0
+    }
+  },
+  "GardenVisitorOverlay": {
+    "value": false
+  },
+  "GardenBlocksToRemove": {
+    "value": false
+  },
+  "glowingZealots": {
+    "value": false
+  },
+  "glowingZealotsColor": {
+    "value": {
+      "value": -65281,
+      "falpha": 0.0
+    }
+  },
+  "highlightMushrooms": {
+    "value": false
+  },
+  "highlightMushroomsColor": {
+    "value": {
+      "value": -16711936,
+      "falpha": 0.0
+    }
+  },
+  "cropBox": {
+    "value": false
+  },
+  "hideAirDisplay": {
+    "value": false
+  },
+  "hideGeyserParticles": {
+    "value": false
+  },
+  "geyserBoundingBox": {
+    "value": false
+  },
+  "noFire": {
+    "value": false
+  },
+  "noHurtcam": {
+    "value": false
+  },
+  "showLowestBINPrice": {
+    "value": false
+  },
+  "showPricePaid": {
+    "value": false
+  },
+  "showBazaarPrice": {
+    "value": false
+  },
+  "showSalesPerDay": {
+    "value": false
+  },
+  "showEstimatedPrice": {
+    "value": false
+  },
+  "showAvgLowestBINPrice": {
+    "value": false
+  },
+  "auctionGuis": {
+    "value": false
+  },
+  "showPriceInfoOnShift": {
+    "value": false
+  },
+  "minionOverlay": {
+    "value": true
+  },
+  "minionLastCollected": {
+    "value": false
+  },
+  "quiverOverlay": {
+    "value": false
+  },
+  "quiverOverlayOnlyBow": {
+    "value": false
+  },
+  "quiverOverlayLowArrowNotification": {
+    "value": true
+  },
+  "quiverOverlayType": {
+    "value": false
+  },
+  "collecitonsLeaderboard": {
+    "value": false
+  },
+  "tradeOverlay": {
+    "value": false
+  },
+  "showMissingAccessories": {
+    "value": false
+  },
+  "highlightAuctionProfit": {
+    "value": false
+  },
+  "highlightAuctionProfitMargin": {
+    "value": 100000
+  },
+  "highlightAuctionStatus": {
+    "value": false
+  },
+  "winningAuctionColor": {
+    "value": {
+      "value": -10052676,
+      "falpha": 0.0
+    }
+  },
+  "collectAuctionColor": {
+    "value": {
+      "value": -16764855,
+      "falpha": 0.0
+    }
+  },
+  "outbidAuctionColor": {
+    "value": {
+      "value": -1457046,
+      "falpha": 0.0
+    }
+  },
+  "lostAuctionColor": {
+    "value": {
+      "value": -744863,
+      "falpha": 0.0
+    }
+  },
+  "aucFlipperEnabled": {
+    "value": false
+  },
+  "aucFlipperKeybind": {
+    "value": -1
+  },
+  "aucFlipperBins": {
+    "value": false
+  },
+  "aucFlipperItemUpgrades": {
+    "value": false
+  },
+  "aucFlipperAucs": {
+    "value": true
+  },
+  "aucFlipperSound": {
+    "value": true
+  },
+  "autoAuctionFlipMargin": {
+    "value": 200000
+  },
+  "autoAuctionFlipMinVolume": {
+    "value": 1
+  },
+  "autoAuctionFlipMinPercent": {
+    "value": 5
+  },
+  "autoAuctionFlipMaxAuc": {
+    "value": 50
+  },
+  "autoAuctionFlipSetPurse": {
+    "value": false
+  },
+  "autoAuctionFlipOpen": {
+    "value": false
+  },
+  "autoAuctionFlipOpenKeybind": {
+    "value": 33
+  },
+  "autoAuctionFlipEasyBuy": {
+    "value": false
+  },
+  "autoAuctionFilterOutPets": {
+    "value": false
+  },
+  "autoAuctionFilterOutSkins": {
+    "value": false
+  },
+  "autoAuctionFilterOutFurniture": {
+    "value": false
+  },
+  "autoAuctionFilterOutDyes": {
+    "value": false
+  },
+  "autoAuctionFilterOutRunes": {
+    "value": false
+  },
+  "autoAuctionBlacklist": {
+    "value": "bonemerang;soldier;jungle pick;"
+  },
+  "GrandmaWolfTimer": {
+    "value": false
+  },
+  "hideAdvertisements": {
+    "value": false
+  },
+  "hideAnitaArtifactNotification": {
+    "value": false
+  },
+  "smallItems": {
+    "value": false
+  },
+  "autoPartyChat": {
+    "value": false
+  },
+  "toggleSprint": {
+    "value": true
+  },
+  "speedLvl": {
+    "value": 0
+  },
+  "multiLvl": {
+    "value": 0
+  },
+  "fuelLvl": {
+    "value": 0
+  },
+  "orgLvl": {
+    "value": 0
+  },
+  "costLvl": {
+    "value": 0
+  },
+  "temporaryAuthKey": {
+    "value": ""
+  },
+  "modAPIURL": {
+    "value": "https://app.mrfast-developer.com/"
+  },
+  "showMobIds": {
+    "value": false
+  },
+  "showInspector": {
+    "value": false
+  },
+  "debugAuctionFlipper": {
+    "value": false
+  },
+  "highlightBestiaryMobs": {
+    "value": false
+  },
+  "highlightBestiaryMobsMidClick": {
+    "value": false
+  },
+  "highlightBestiaryColor": {
+    "value": {
+      "value": -14336,
+      "falpha": 0.0
+    }
+  },
+  "trackedBestiaryMobs": {
+    "value": ""
+  }
+}

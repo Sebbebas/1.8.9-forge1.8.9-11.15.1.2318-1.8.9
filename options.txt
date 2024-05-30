@@ -116,6 +116,7 @@ key_Close NEU panes:0
 key_Select Item:0
 key_Toggle Sprint:28
 key_Toggle Sneak:0
+key_Screenshot Chat:0
 key_key.cowlection.moo:0
 key_key.cowlection.waila:0
 key_Open Settings:54
@@ -135,6 +136,8 @@ key_Lock Slot:38
 key_Freeze Backpack Preview:33
 key_Dungeon Map Zoom In:13
 key_Dungeon Map Zoom Out:74
+key_Copy NBT:157
+key_Toggle Sprint:28
 key_Warp to nearest location to burrial guess:0
 key_Choose the nearest eman boss as your boss.:0
 soundCategory_master:0.05629139

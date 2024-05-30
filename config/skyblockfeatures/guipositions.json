@@ -1,0 +1,138 @@
+{
+  "Overflow Mana Display": {
+    "x": 0.6020833,
+    "y": 0.96666664
+  },
+  "Dungeon Party Display": {
+    "x": 0.0020833334,
+    "y": 0.3941395
+  },
+  "CrystalHollowsMap": {
+    "x": 0.86041665,
+    "y": 0.0
+  },
+  "Blessings Viewer": {
+    "x": 0.2,
+    "y": 0.0
+  },
+  "Auto Auction Flip Counter": {
+    "x": 0.2,
+    "y": 0.0
+  },
+  "Dwarven Mines Map": {
+    "x": 0.86041665,
+    "y": 0.0
+  },
+  "Health Display": {
+    "x": 0.39878336,
+    "y": 0.8029036
+  },
+  "Ghost Tracker": {
+    "x": 0.2,
+    "y": 0.0
+  },
+  "Ice Treasure Tracker": {
+    "x": 0.2,
+    "y": 0.0
+  },
+  "Speed Display": {
+    "x": 0.375,
+    "y": 0.9777778
+  },
+  "Jerry Timer": {
+    "x": 0.2,
+    "y": 0.0
+  },
+  "giftingOverlay": {
+    "x": 0.0,
+    "y": 0.0
+  },
+  "Automaton Tracker": {
+    "x": 0.2,
+    "y": 0.0
+  },
+  "Fire Freeze Timer": {
+    "x": 0.37552083,
+    "y": 0.6
+  },
+  "Commissions Tracker": {
+    "x": 0.6484375,
+    "y": 0.0037037036
+  },
+  "Grandma Wolf Timer": {
+    "x": 0.2,
+    "y": 0.0
+  },
+  "finalDestinationOverlay": {
+    "x": 0.0020833334,
+    "y": 0.26018518
+  },
+  "Health Bar": {
+    "x": 0.40605482,
+    "y": 0.9166667
+  },
+  "dayCounter": {
+    "x": 0.2,
+    "y": 0.0
+  },
+  "Effective Health Display": {
+    "x": 0.3703125,
+    "y": 0.9539931
+  },
+  "Zealot Timer": {
+    "x": 0.49635422,
+    "y": 0.9097222
+  },
+  "CropCounter": {
+    "x": 0.43951935,
+    "y": 0.6869489
+  },
+  "Gemstone GUI": {
+    "x": 0.2,
+    "y": 0.0
+  },
+  "timeOverlay": {
+    "x": 0.0,
+    "y": 0.0
+  },
+  "Mana Bar": {
+    "x": 0.50865895,
+    "y": 0.9157407
+  },
+  "Ender Node Tracker": {
+    "x": 0.2,
+    "y": 0.0
+  },
+  "Powder Tracker": {
+    "x": 0.2,
+    "y": 0.0
+  },
+  "Secret Display": {
+    "x": 0.59876317,
+    "y": 0.9574074
+  },
+  "Crypt Display": {
+    "x": 0.2,
+    "y": 0.0
+  },
+  "quiverDisplay": {
+    "x": 0.47239587,
+    "y": 0.8342593
+  },
+  "DungeonMap": {
+    "x": 0.0020833334,
+    "y": 0.0037037036
+  },
+  "Defense Display": {
+    "x": 0.5651042,
+    "y": 0.8037037
+  },
+  "Crimson Isles Map": {
+    "x": 0.0020833334,
+    "y": 0.0037037036
+  },
+  "Mana Display": {
+    "x": 0.47864583,
+    "y": 0.80324066
+  }
+}

@@ -15,7 +15,7 @@
               "status": "CORRECT"
             },
             "DIAMOND": {
-              "amount": 15927,
+              "amount": 15959,
               "lastChange": 0,
               "status": "CORRECT"
             },
@@ -335,17 +335,17 @@
               "status": "CORRECT"
             },
             "DUNGEON_DECOY": {
-              "amount": 95,
+              "amount": 35,
               "lastChange": 0,
               "status": "CORRECT"
             },
             "DUNGEON_CHEST_KEY": {
-              "amount": 8,
+              "amount": 9,
               "lastChange": 0,
               "status": "CORRECT"
             },
             "FEL_PEARL": {
-              "amount": 70,
+              "amount": 72,
               "lastChange": 0,
               "status": "CORRECT"
             },
@@ -355,7 +355,7 @@
               "status": "CORRECT"
             },
             "INFLATABLE_JERRY": {
-              "amount": 8,
+              "amount": 10,
               "lastChange": 0,
               "status": "CORRECT"
             },
@@ -390,12 +390,12 @@
               "status": "CORRECT"
             },
             "SPIRIT_LEAP": {
-              "amount": 1786,
+              "amount": 1810,
               "lastChange": 0,
               "status": "CORRECT"
             },
             "SUPERBOOM_TNT": {
-              "amount": 2286,
+              "amount": 2308,
               "lastChange": 0,
               "status": "CORRECT"
             },
@@ -445,12 +445,12 @@
               "status": "CORRECT"
             },
             "CROPIE": {
-              "amount": 49,
+              "amount": 75,
               "lastChange": 0,
               "status": "CORRECT"
             },
             "GOLDEN_CARROT": {
-              "amount": 7796,
+              "amount": 7444,
               "lastChange": 0,
               "status": "CORRECT"
             },
@@ -465,7 +465,7 @@
               "status": "CORRECT"
             },
             "NETHER_STALK": {
-              "amount": 20160,
+              "amount": 20159,
               "lastChange": 0,
               "status": "CORRECT"
             },
@@ -480,7 +480,7 @@
               "status": "CORRECT"
             },
             "PUMPKIN": {
-              "amount": 20094,
+              "amount": 16094,
               "lastChange": 0,
               "status": "CORRECT"
             },
@@ -490,7 +490,7 @@
               "status": "CORRECT"
             },
             "SEEDS": {
-              "amount": 20160,
+              "amount": 20159,
               "lastChange": 0,
               "status": "CORRECT"
             },
@@ -505,7 +505,7 @@
               "status": "CORRECT"
             },
             "WHEAT": {
-              "amount": 19456,
+              "amount": 19973,
               "lastChange": 0,
               "status": "CORRECT"
             },
@@ -785,7 +785,7 @@
               "status": "CORRECT"
             },
             "ENCHANTED_BAKED_POTATO": {
-              "amount": 114,
+              "amount": 111,
               "lastChange": 0,
               "status": "CORRECT"
             },
@@ -795,32 +795,32 @@
               "status": "CORRECT"
             },
             "ENCHANTED_BROWN_MUSHROOM": {
-              "amount": 598,
+              "amount": 502,
               "lastChange": 0,
               "status": "CORRECT"
             },
             "ENCHANTED_HUGE_MUSHROOM_1": {
-              "amount": 10,
-              "lastChange": 0,
-              "status": "CORRECT"
-            },
-            "ENCHANTED_CACTUS": {
               "amount": 0,
               "lastChange": 0,
               "status": "CORRECT"
             },
+            "ENCHANTED_CACTUS": {
+              "amount": 1,
+              "lastChange": 0,
+              "status": "CORRECT"
+            },
             "ENCHANTED_CACTUS_GREEN": {
-              "amount": 3432,
+              "amount": 2491,
               "lastChange": 0,
               "status": "CORRECT"
             },
             "ENCHANTED_CARROT": {
-              "amount": 15912,
+              "amount": 14510,
               "lastChange": 0,
               "status": "CORRECT"
             },
             "ENCHANTED_COCOA": {
-              "amount": 10269,
+              "amount": 8063,
               "lastChange": 0,
               "status": "CORRECT"
             },
@@ -830,12 +830,12 @@
               "status": "CORRECT"
             },
             "ENCHANTED_GOLDEN_CARROT": {
-              "amount": 16,
+              "amount": 3,
               "lastChange": 0,
               "status": "CORRECT"
             },
             "ENCHANTED_HAY_BLOCK": {
-              "amount": 884,
+              "amount": 1751,
               "lastChange": 0,
               "status": "CORRECT"
             },
@@ -845,12 +845,12 @@
               "status": "CORRECT"
             },
             "ENCHANTED_MELON_BLOCK": {
-              "amount": 203,
+              "amount": 191,
               "lastChange": 0,
               "status": "CORRECT"
             },
             "ENCHANTED_NETHER_STALK": {
-              "amount": 2429,
+              "amount": 1126,
               "lastChange": 0,
               "status": "CORRECT"
             },
@@ -860,32 +860,32 @@
               "status": "CORRECT"
             },
             "ENCHANTED_POTATO": {
-              "amount": 6708,
+              "amount": 6145,
               "lastChange": 0,
               "status": "CORRECT"
             },
             "ENCHANTED_PUMPKIN": {
-              "amount": 196,
+              "amount": 321,
               "lastChange": 0,
               "status": "CORRECT"
             },
             "ENCHANTED_RED_MUSHROOM": {
-              "amount": 56,
+              "amount": 85,
               "lastChange": 0,
               "status": "CORRECT"
             },
             "ENCHANTED_HUGE_MUSHROOM_2": {
-              "amount": 1,
+              "amount": 0,
               "lastChange": 0,
               "status": "CORRECT"
             },
             "ENCHANTED_SEEDS": {
-              "amount": 244,
+              "amount": 9422,
               "lastChange": 0,
               "status": "CORRECT"
             },
             "ENCHANTED_SUGAR": {
-              "amount": 2130,
+              "amount": 1708,
               "lastChange": 0,
               "status": "CORRECT"
             },
@@ -905,7 +905,7 @@
               "status": "CORRECT"
             },
             "TIGHTLY_TIED_HAY_BALE": {
-              "amount": 0,
+              "amount": 1,
               "lastChange": 0,
               "status": "CORRECT"
             },

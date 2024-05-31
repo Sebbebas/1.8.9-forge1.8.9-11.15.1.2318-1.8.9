@@ -39,7 +39,7 @@
     "defaultArmorColour": false,
     "openAHKeybind": 50,
     "openSkyBlockRecipeKeybind": 0,
-    "showWhenCountdownEnds": 1
+    "showWhenCountdownEnds": 2
   },
   "locationedit": {
     "guiScale": 0
@@ -713,7 +713,7 @@
     "tooltip": true
   },
   "apiData": {
-    "apiDataUnlocked": false,
+    "apiDataUnlocked": true,
     "autoupdate_new": true,
     "repoUser": "NotEnoughUpdates",
     "repoName": "NotEnoughUpdates-REPO",
@@ -850,46 +850,46 @@
         "hotmTree": {}
       },
       "Banana": {
-        "godPotionDuration": 1380000,
+        "godPotionDuration": 68400000,
         "puzzlerCompleted": 1716589742932,
         "firstCakeAte": 1716731413611,
         "fetchurCompleted": 1716630283808,
         "commissionsCompleted": 1716589135503,
         "lastFreeRiftInfusionApplied": 1716835769902,
         "experimentsCompleted": 1716732110690,
-        "cookieBuffRemaining": 1717058731299,
+        "cookieBuffRemaining": 1717421780303,
         "forgeItems": [
           {
             "itemName": "Refined Titanium",
-            "finishTime": 1717037617479,
+            "finishTime": 1717211725143,
             "status": 2,
             "forgeID": 0,
             "fromScoreBoard": false
           },
           {
             "itemName": "Refined Titanium",
-            "finishTime": 1717037622479,
+            "finishTime": 1717211728143,
             "status": 2,
             "forgeID": 1,
             "fromScoreBoard": false
           },
           {
             "itemName": "Refined Titanium",
-            "finishTime": 1717037625479,
+            "finishTime": 1717211731143,
             "status": 2,
             "forgeID": 2,
             "fromScoreBoard": false
           },
           {
             "itemName": "Refined Titanium",
-            "finishTime": 1717037628479,
+            "finishTime": 1717211733143,
             "status": 2,
             "forgeID": 3,
             "fromScoreBoard": false
           },
           {
             "itemName": "Refined Titanium",
-            "finishTime": 1717037632479,
+            "finishTime": 1717211742143,
             "status": 2,
             "forgeID": 4,
             "fromScoreBoard": false
@@ -926,43 +926,91 @@
         "dailyShopLimitCompleted": 1716571292226,
         "savedEquipment": {
           "19": {
-            "itemid": "minecraft:stained_glass_pane",
-            "displayname": "§7Empty Equipment Slot",
-            "nbttag": "{display:{Lore:[0:\" §8\u003e Cloak\"],Name:\"§7Empty Equipment Slot\"}}",
-            "damage": 8,
+            "itemid": "minecraft:skull",
+            "displayname": "§5Strengthened Molten Cloak",
+            "nbttag": "{HideFlags:254,SkullOwner:{Id:\"e7b0b792-7786-3b14-82b0-d04f7b5fbf7c\",Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTY0NzAxNjQzNDExNiwKICAicHJvZmlsZUlkIiA6ICJlZThjNWMzMGY3NWU0N2QxOTBmOTllNjI5NDgyOGZjMSIsCiAgInByb2ZpbGVOYW1lIiA6ICJTcGFya19QaGFudG9tIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzZjMThiYjBmNTJmMjQ2ZWM5YmZmNWYwNTc2MTQ1NmJlMjczZTczMGNkMjc2NTU1ZmQ3NzJiYThjM2ZhMGYxNDQiCiAgICB9CiAgfQp9\"}]}},display:{Lore:[0:\"§7Strength: §c+25 §9(+5)\",1:\"§7Health: §a+30\",2:\"§7Defense: §a+26 §9(+6)\",3:\"§7Speed: §a+5\",4:\"\",5:\"§bSpeed I\",6:\"§7Grants §f+5✦ Speed§7.\",7:\"§cVitality I ✖\",8:\"§7Grants §4+3♨ Vitality§7.\",9:\"\",10:\"§8Tiered Bonus: Molten Core (0/4)\",11:\"§7Gain §a5% §7damage resistance while\",12:\"§7fighting §6Kuudra§7.\",13:\"\",14:\"§5§lEPIC CLOAK\"],Name:\"§5Strengthened Molten Cloak\"},ExtraAttributes:{modifier:\"strengthened\",attributes:{mending:1,speed:1},id:\"MOLTEN_CLOAK\",boss_tier:0,uuid:\"c5b79b47-4ff7-42b7-ad19-4436d0ee158f\",timestamp:1692451560000L}}",
+            "damage": 3,
             "lore": [
-              " §8\u003e Cloak"
+              "§7Strength: §c+25 §9(+5)",
+              "§7Health: §a+30",
+              "§7Defense: §a+26 §9(+6)",
+              "§7Speed: §a+5",
+              "",
+              "§bSpeed I",
+              "§7Grants §f+5✦ Speed§7.",
+              "§cVitality I ✖",
+              "§7Grants §4+3♨ Vitality§7.",
+              "",
+              "§8Tiered Bonus: Molten Core (0/4)",
+              "§7Gain §a5% §7damage resistance while",
+              "§7fighting §6Kuudra§7.",
+              "",
+              "§5§lEPIC CLOAK"
             ],
             "internalname": "_"
           },
           "37": {
-            "itemid": "minecraft:stained_glass_pane",
-            "displayname": "§7Empty Equipment Slot",
-            "nbttag": "{display:{Lore:[0:\" §8\u003e Gloves\",1:\" §8\u003e Bracelet\"],Name:\"§7Empty Equipment Slot\"}}",
-            "damage": 8,
+            "itemid": "minecraft:skull",
+            "displayname": "§5Strengthened Molten Bracelet",
+            "nbttag": "{HideFlags:254,SkullOwner:{Id:\"479e23bf-e9c9-3cb7-a346-795f3b0847a9\",Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTY0NzAxNjUwNTAzMSwKICAicHJvZmlsZUlkIiA6ICJiYzRlZGZiNWYzNmM0OGE3YWM5ZjFhMzlkYzIzZjRmOCIsCiAgInByb2ZpbGVOYW1lIiA6ICI4YWNhNjgwYjIyNDYxMzQwIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzIwNTI5NGY4OTE1YzhkYTliNmUzODI5ZjZkYmExMzVmODhhYjQ3NjFiOTQzMGUxOGZmMTI1ZWYzZTk1MGNjZGYiCiAgICB9CiAgfQp9\"}]}},display:{Lore:[0:\"§7Strength: §c+25 §9(+5)\",1:\"§7Health: §a+30\",2:\"§7Defense: §a+26 §9(+6)\",3:\"§7Speed: §a+10\",4:\"\",5:\"§bSpeed II\",6:\"§7Grants §f+10✦ Speed§7.\",7:\"§cVitality II ✖\",8:\"§7Grants §4+6♨ Vitality§7.\",9:\"\",10:\"§8Tiered Bonus: Molten Core (1/4)\",11:\"§7Gain §a5% §7damage resistance while\",12:\"§7fighting §6Kuudra§7.\",13:\"\",14:\"§5§lEPIC BRACELET\"],Name:\"§5Strengthened Molten Bracelet\"},ExtraAttributes:{modifier:\"strengthened\",attributes:{mending:2,speed:2},id:\"MOLTEN_BRACELET\",boss_tier:2,uuid:\"89a1c090-bb51-4a66-aaac-1e0b59dc8284\",timestamp:1689794040000L}}",
+            "damage": 3,
             "lore": [
-              " §8\u003e Gloves",
-              " §8\u003e Bracelet"
+              "§7Strength: §c+25 §9(+5)",
+              "§7Health: §a+30",
+              "§7Defense: §a+26 §9(+6)",
+              "§7Speed: §a+10",
+              "",
+              "§bSpeed II",
+              "§7Grants §f+10✦ Speed§7.",
+              "§cVitality II ✖",
+              "§7Grants §4+6♨ Vitality§7.",
+              "",
+              "§8Tiered Bonus: Molten Core (1/4)",
+              "§7Gain §a5% §7damage resistance while",
+              "§7fighting §6Kuudra§7.",
+              "",
+              "§5§lEPIC BRACELET"
             ],
             "internalname": "_"
           },
           "10": {
-            "itemid": "minecraft:stained_glass_pane",
-            "displayname": "§7Empty Equipment Slot",
-            "nbttag": "{display:{Lore:[0:\" §8\u003e Necklace\"],Name:\"§7Empty Equipment Slot\"}}",
-            "damage": 8,
+            "itemid": "minecraft:skull",
+            "displayname": "§5Strengthened §dRift Necklace",
+            "nbttag": "{HideFlags:254,SkullOwner:{Id:\"ad049247-1862-300f-a0db-dfd5cf5f6220\",Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTY0Nzg2ODQ3MDQxOCwKICAicHJvZmlsZUlkIiA6ICIwNjNhMTc2Y2RkMTU0ODRiYjU1MjRhNjQyMGM1YjdhNCIsCiAgInByb2ZpbGVOYW1lIiA6ICJkYXZpcGF0dXJ5IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzljMDg5NDkzMWE1MTAzODdlNGY2MTM4MjhmMDIzOWNhNGQ5MDg1MzQ5OTYzN2Y2MDc5ZDM5MzI3ZjE0NmYwZTkiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ\u003d\u003d\"}]}},display:{Lore:[0:\"§7Strength: §c+26 §9(+6)\",1:\"§7Health: §a+100\",2:\"§7Defense: §a+33 §9(+8)\",3:\"§7Intelligence: §a+65\",4:\"§7Magic Find: §a+6\",5:\"\",6:\"§7A very powerful piece of equipment\",7:\"§7originating from the §dRift Dimension§7.\",8:\"\",9:\"§7Becomes more powerful as you fill\",10:\"§7the §dRift Gallery§7.\",11:\"§7Secured: §c6/8 Timecharms\",12:\"\",13:\"§8§l* §8Soulbound §8§l*\",14:\"§6§lLEGENDARY NECKLACE\"],Name:\"§5Strengthened §dRift Necklace\"},ExtraAttributes:{modifier:\"strengthened\",id:\"RIFT_NECKLACE_OUTSIDE\",uuid:\"3d635644-59ce-4147-a1bd-e4a5110b1beb\",donated_museum:1b,timestamp:1688667000000L}}",
+            "damage": 3,
             "lore": [
-              " §8\u003e Necklace"
+              "§7Strength: §c+26 §9(+6)",
+              "§7Health: §a+100",
+              "§7Defense: §a+33 §9(+8)",
+              "§7Intelligence: §a+65",
+              "§7Magic Find: §a+6",
+              "",
+              "§7A very powerful piece of equipment",
+              "§7originating from the §dRift Dimension§7.",
+              "",
+              "§7Becomes more powerful as you fill",
+              "§7the §dRift Gallery§7.",
+              "§7Secured: §c6/8 Timecharms",
+              "",
+              "§8§l* §8Soulbound §8§l*",
+              "§6§lLEGENDARY NECKLACE"
             ],
             "internalname": "_"
           },
           "28": {
-            "itemid": "minecraft:stained_glass_pane",
-            "displayname": "§7Empty Equipment Slot",
-            "nbttag": "{display:{Lore:[0:\" §8\u003e Belt\"],Name:\"§7Empty Equipment Slot\"}}",
-            "damage": 8,
+            "itemid": "minecraft:skull",
+            "displayname": "§9Strengthened Blue Belt",
+            "nbttag": "{HideFlags:254,SkullOwner:{Id:\"6cdab1c1-42bd-3604-8656-2f68fb474ff6\",Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTY0MzU5OTY3OTc4MywKICAicHJvZmlsZUlkIiA6ICJiNzVjZDRmMThkZjg0MmNlYjJhY2MxNTU5MTNiMjA0YiIsCiAgInByb2ZpbGVOYW1lIiA6ICJLcmlzdGlqb25hczEzIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzVhNGY3ZTU3YTQzNTk0NTdjZTBlN2RhMjdlODUxM2E4YjYxOTdmMWNhNjhkMDcxNTQyYzY2ZjhhNDFiYWY0ZWQiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ\u003d\u003d\"}]}},display:{Lore:[0:\"§7Strength: §c+4 §9(+4)\",1:\"§7Health: §a+25\",2:\"§7Defense: §a+20 §9(+5)\",3:\"\",4:\"§7Reduces damage taken by §c4%§7.\",5:\"\",6:\"§8§l* §8Soulbound §8§l*\",7:\"§9§lRARE BELT\"],Name:\"§9Strengthened Blue Belt\"},ExtraAttributes:{modifier:\"strengthened\",id:\"DOJO_BLUE_BELT\",uuid:\"d95de37c-e5d1-440f-bd71-0e8fb9601ed0\",timestamp:1691186520000L}}",
+            "damage": 3,
             "lore": [
-              " §8\u003e Belt"
+              "§7Strength: §c+4 §9(+4)",
+              "§7Health: §a+25",
+              "§7Defense: §a+20 §9(+5)",
+              "",
+              "§7Reduces damage taken by §c4%§7.",
+              "",
+              "§8§l* §8Soulbound §8§l*",
+              "§9§lRARE BELT"
             ],
             "internalname": "_"
           }
@@ -1541,26 +1589,26 @@
       "ADAPTIVE_BELT"
     ],
     "previousAuctionSearches": [
+      "Sunflower",
+      "Chirping Stereo",
       "Adaptive Belt",
       "Exp Share",
-      "Wither Boots",
-      "Wither Leggings",
-      "Wither Chestplate"
+      "Wither Boots"
     ],
     "previousBazaarSearches": [
-      "Null Edge",
-      "Null Ovoid",
-      "☘ Perfect Peridot Gemstone",
       "Enchanted Titanium",
-      "Exp Share Core"
+      "Mycelium",
+      "Enchanted Red Mushroom Block",
+      "Booster Cookie",
+      "Null Edge"
     ],
     "previousProfileSearches": [
+      "goldenale7",
       "itstrigo",
       "swplayerr",
       "croakymusic",
       "p4t_o",
-      "_eggan_",
-      "jonathanlanunez"
+      "_eggan_"
     ],
     "eventFavourites": [],
     "quickCommands": [

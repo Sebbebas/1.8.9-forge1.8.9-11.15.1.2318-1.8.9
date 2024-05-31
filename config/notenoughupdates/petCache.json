@@ -8,12 +8,12 @@
         "maxLevel": 100,
         "expRequiredForNextLevel": 1886700,
         "expRequiredForMaxLevel": 25353230,
-        "expInCurrentLevel": 37900.0,
-        "expTotal": 2.539113E7,
-        "percentageToNextLevel": 0.020087983
+        "expInCurrentLevel": 54158.0,
+        "expTotal": 2.5407388E7,
+        "percentageToNextLevel": 0.028705146
       },
       "petXpType": "combat",
-      "petItem": "PET_ITEM_ALL_SKILLS_BOOST_COMMON",
+      "petItem": "CROCHET_TIGER_PLUSHIE",
       "candyUsed": 0
     },
     "1": {
@@ -183,9 +183,9 @@
         "maxLevel": 100,
         "expRequiredForNextLevel": 1886700,
         "expRequiredForMaxLevel": 25353230,
-        "expInCurrentLevel": 1082552.0,
-        "expTotal": 2.4549082E7,
-        "percentageToNextLevel": 0.57378066
+        "expInCurrentLevel": 1423222.0,
+        "expTotal": 2.4889752E7,
+        "percentageToNextLevel": 0.75434464
       },
       "petXpType": "combat",
       "petItem": "DWARF_TURTLE_SHELMET",
@@ -242,19 +242,36 @@
       "petType": "BAL",
       "rarity": "LEGENDARY",
       "petLevel": {
-        "currentLevel": 80,
+        "currentLevel": 85,
         "maxLevel": 100,
-        "expRequiredForNextLevel": 411700,
+        "expRequiredForNextLevel": 611700,
         "expRequiredForMaxLevel": 25353230,
-        "expInCurrentLevel": 323402.5,
-        "expTotal": 5942632.5,
-        "percentageToNextLevel": 0.7855295
+        "expInCurrentLevel": 67082.0,
+        "expTotal": 8094812.0,
+        "percentageToNextLevel": 0.109664865
       },
       "petXpType": "combat",
       "petItem": "PET_ITEM_COMBAT_SKILL_BOOST_RARE",
       "candyUsed": 0
     },
     "16": {
+      "petType": "BEE",
+      "rarity": "LEGENDARY",
+      "petLevel": {
+        "currentLevel": 80,
+        "maxLevel": 100,
+        "expRequiredForNextLevel": 411700,
+        "expRequiredForMaxLevel": 25353230,
+        "expInCurrentLevel": 31503.0,
+        "expTotal": 5650733.0,
+        "percentageToNextLevel": 0.07651931
+      },
+      "petXpType": "farming",
+      "petItem": "PET_ITEM_FARMING_SKILL_BOOST_EPIC",
+      "skin": "PET_SKIN_BEE_ZOMBEE",
+      "candyUsed": 0
+    },
+    "17": {
       "petType": "REINDEER",
       "rarity": "LEGENDARY",
       "petLevel": {
@@ -270,7 +287,7 @@
       "petItem": "PET_ITEM_FISHING_SKILL_BOOST_UNCOMMON",
       "candyUsed": 0
     },
-    "17": {
+    "18": {
       "petType": "BAT",
       "rarity": "LEGENDARY",
       "petLevel": {
@@ -284,23 +301,6 @@
       },
       "petXpType": "mining",
       "petItem": "PET_ITEM_MINING_SKILL_BOOST_RARE",
-      "candyUsed": 0
-    },
-    "18": {
-      "petType": "BEE",
-      "rarity": "LEGENDARY",
-      "petLevel": {
-        "currentLevel": 72,
-        "maxLevel": 100,
-        "expRequiredForNextLevel": 237700,
-        "expRequiredForMaxLevel": 25353230,
-        "expInCurrentLevel": 31864.0,
-        "expTotal": 3207494.0,
-        "percentageToNextLevel": 0.13405132
-      },
-      "petXpType": "farming",
-      "petItem": "PET_ITEM_FARMING_SKILL_BOOST_EPIC",
-      "skin": "PET_SKIN_BEE_ZOMBEE",
       "candyUsed": 0
     },
     "19": {
@@ -323,13 +323,13 @@
       "petType": "OWL",
       "rarity": "LEGENDARY",
       "petLevel": {
-        "currentLevel": 43,
+        "currentLevel": 51,
         "maxLevel": 100,
-        "expRequiredForNextLevel": 29800,
+        "expRequiredForNextLevel": 56200,
         "expRequiredForMaxLevel": 25353230,
-        "expInCurrentLevel": 16640.188,
-        "expTotal": 320170.2,
-        "percentageToNextLevel": 0.55839556
+        "expInCurrentLevel": 17732.188,
+        "expTotal": 643662.2,
+        "percentageToNextLevel": 0.31551936
       },
       "petXpType": "taming",
       "petItem": "PET_ITEM_EXP_SHARE",
@@ -358,9 +358,9 @@
         "maxLevel": 100,
         "expRequiredForNextLevel": 2700,
         "expRequiredForMaxLevel": 25353230,
-        "expInCurrentLevel": 971.1465,
-        "expTotal": 23701.146,
-        "percentageToNextLevel": 0.35968387
+        "expInCurrentLevel": 1404.0977,
+        "expTotal": 24134.098,
+        "percentageToNextLevel": 0.52003616
       },
       "petXpType": "combat",
       "candyUsed": 0
@@ -565,8 +565,8 @@
       "candyUsed": 0
     }
   },
-  "selectedPet": 12,
-  "selectedPet2": -1,
+  "selectedPet": 16,
+  "selectedPet2": 11,
   "tamingLevel": 50,
   "beastMultiplier": 2.0
 }

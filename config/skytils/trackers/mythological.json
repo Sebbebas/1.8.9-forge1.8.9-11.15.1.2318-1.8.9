@@ -1,5 +1,5 @@
 {
-    "dug": 456,
+    "dug": 474,
     "items": {
         "ANTIQUE_REMEDIES": 1,
         "ENCHANTED_BOOK-ULTIMATE_CHIMERA-1": 0,
@@ -8,16 +8,16 @@
         "CROWN_OF_GREED": 0,
         "DAEDALUS_STICK": 1,
         "DWARF_TURTLE_SHELMET": 5,
-        "GRIFFIN_FEATHER": 97,
+        "GRIFFIN_FEATHER": 102,
         "MINOS_RELIC": 0,
         "WASHED_UP_SOUVENIR": 0
     },
     "mobs": {
-        "GAIA_CONSTRUCT": 42,
-        "MINOS_CHAMPION": 29,
-        "MINOS_HUNTER": 33,
+        "GAIA_CONSTRUCT": 46,
+        "MINOS_CHAMPION": 31,
+        "MINOS_HUNTER": 34,
         "MINOS_INQUISITOR": 1,
-        "MINOTAUR": 52,
+        "MINOTAUR": 53,
         "SIAMESE_LYNXES": 43
     }
 }

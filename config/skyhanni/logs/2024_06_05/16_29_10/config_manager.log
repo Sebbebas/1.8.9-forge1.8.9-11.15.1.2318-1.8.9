@@ -1,0 +1,115 @@
+16:29:25 Trying to load config from config\skyhanni\config.json
+16:29:25 load-config-now
+16:29:25 Loaded config from file
+16:29:25 Trying to load sacks from config\skyhanni\sacks.json
+16:29:25 load-sacks-now
+16:29:25 Loaded sacks from file
+16:29:25 Trying to load friends from config\skyhanni\friends.json
+16:29:25 load-friends-now
+16:29:25 Loaded friends from file
+16:29:25 Trying to load known_features from config\skyhanni\known_features.json
+16:29:25 load-known_features-now
+16:29:25 Loaded known_features from file
+16:29:25 Trying to load jacob_contests from config\skyhanni\jacob_contests.json
+16:29:25 load-jacob_contests-now
+16:29:25 Loaded jacob_contests from file
+16:29:25 Trying to load visual_words from config\skyhanni\visual_words.json
+16:29:25 Setting visual_words to be blank as it did not exist. It will be saved once something is written to it
+16:30:25 saveConfig: auto-save-60s
+16:30:25 Saving config file
+16:31:06 saveConfig: Updated known feature flags
+16:31:06 Saving known_features file
+16:31:25 saveConfig: auto-save-60s
+16:31:25 Saving config file
+16:32:25 saveConfig: auto-save-60s
+16:32:25 Saving config file
+16:33:25 saveConfig: auto-save-60s
+16:33:25 Saving config file
+16:34:25 saveConfig: auto-save-60s
+16:34:25 Saving config file
+16:35:25 saveConfig: auto-save-60s
+16:35:25 Saving config file
+16:36:25 saveConfig: auto-save-60s
+16:36:25 Saving config file
+16:37:25 saveConfig: auto-save-60s
+16:37:25 Saving config file
+16:38:25 saveConfig: auto-save-60s
+16:38:25 Saving config file
+16:39:25 saveConfig: auto-save-60s
+16:39:25 Saving config file
+16:40:25 saveConfig: auto-save-60s
+16:40:25 Saving config file
+16:41:25 saveConfig: auto-save-60s
+16:41:25 Saving config file
+16:42:25 saveConfig: auto-save-60s
+16:42:25 Saving config file
+16:43:25 saveConfig: auto-save-60s
+16:43:25 Saving config file
+16:44:25 saveConfig: auto-save-60s
+16:44:25 Saving config file
+16:45:25 saveConfig: auto-save-60s
+16:45:25 Saving config file
+16:46:25 saveConfig: auto-save-60s
+16:46:25 Saving config file
+16:47:25 saveConfig: auto-save-60s
+16:47:25 Saving config file
+16:48:25 saveConfig: auto-save-60s
+16:48:25 Saving config file
+16:49:25 saveConfig: auto-save-60s
+16:49:25 Saving config file
+16:50:25 saveConfig: auto-save-60s
+16:50:25 Saving config file
+16:51:25 saveConfig: auto-save-60s
+16:51:25 Saving config file
+16:52:25 saveConfig: auto-save-60s
+16:52:25 Saving config file
+16:53:25 saveConfig: auto-save-60s
+16:53:25 Saving config file
+16:54:25 saveConfig: auto-save-60s
+16:54:25 Saving config file
+16:55:25 saveConfig: auto-save-60s
+16:55:25 Saving config file
+16:56:25 saveConfig: auto-save-60s
+16:56:25 Saving config file
+16:57:25 saveConfig: auto-save-60s
+16:57:25 Saving config file
+16:58:25 saveConfig: auto-save-60s
+16:58:25 Saving config file
+16:59:25 saveConfig: auto-save-60s
+16:59:25 Saving config file
+17:00:25 saveConfig: auto-save-60s
+17:00:25 Saving config file
+17:01:25 saveConfig: auto-save-60s
+17:01:25 Saving config file
+17:02:25 saveConfig: auto-save-60s
+17:02:25 Saving config file
+17:03:25 saveConfig: auto-save-60s
+17:03:25 Saving config file
+17:04:25 saveConfig: auto-save-60s
+17:04:25 Saving config file
+17:05:25 saveConfig: auto-save-60s
+17:05:25 Saving config file
+17:06:25 saveConfig: auto-save-60s
+17:06:25 Saving config file
+17:07:25 saveConfig: auto-save-60s
+17:07:25 Saving config file
+17:08:25 saveConfig: auto-save-60s
+17:08:25 Saving config file
+17:09:25 saveConfig: auto-save-60s
+17:09:25 Saving config file
+17:10:25 saveConfig: auto-save-60s
+17:10:25 Saving config file
+17:11:25 saveConfig: auto-save-60s
+17:11:25 Saving config file
+17:12:25 saveConfig: auto-save-60s
+17:12:25 Saving config file
+17:13:25 saveConfig: auto-save-60s
+17:13:25 Saving config file
+17:14:25 saveConfig: auto-save-60s
+17:14:25 Saving config file
+17:15:25 saveConfig: auto-save-60s
+17:15:25 Saving config file
+17:16:25 saveConfig: auto-save-60s
+17:16:25 Saving config file
+17:17:24 saveConfig: shutdown-hook
+17:17:24 Saving config file

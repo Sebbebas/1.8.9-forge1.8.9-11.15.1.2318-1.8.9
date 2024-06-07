@@ -42,7 +42,7 @@
     "value": false
   },
   "quickCloseChest": {
-    "value": false
+    "value": true
   },
   "highlightDoors": {
     "value": false
@@ -756,7 +756,7 @@
     "value": false
   },
   "noHurtcam": {
-    "value": false
+    "value": true
   },
   "showLowestBINPrice": {
     "value": false
@@ -918,7 +918,7 @@
     "value": false
   },
   "toggleSprint": {
-    "value": true
+    "value": false
   },
   "speedLvl": {
     "value": 0

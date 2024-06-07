@@ -21,7 +21,7 @@
 		config_button_on_pause = true
 		reopen_options_menu = true
 		first_launch = false
-		last_launched_skytils_version = "1.9.1"
+		last_launched_skytils_version = "1.10.0-pre7"
 
 	[general.reparty]
 		override_other_reparty_commands = false
@@ -46,13 +46,13 @@
 		coop_add_confirmation = true
 
 	[general.updates]
-		update_channel = 2
+		update_channel = 1
 
 [miscellaneous]
 
 	[miscellaneous.other]
 		show_selected_arrow = false
-		dupe_tracker = false
+		dupe_tracker = true
 		hide_tooltips_while_on_storage = false
 		ping_display = 1
 		also_copy_very_rare_drops_to_clipboard = false
@@ -87,7 +87,7 @@
 	[miscellaneous.items]
 		price_paid = true
 		show_npc_sell_price = true
-		item_stars_display = 0
+		item_stars_display = 1
 		dropped_item_scale = 1.0
 		show_dungeon_item_level = true
 		show_attribute_shard_abbreviation = false
@@ -112,11 +112,12 @@
 		head_display_size = 1.0
 		show_potion_tier = false
 		show_enchanted_book_tier = false
+		show_new_year_cake_year = false
 		stacking_enchant_progress_display = false
 		show_pet_candies = false
 		wither_shield_has_wither_impact = true
 		show_etherwarp_teleport_position = false
-		dropped_item_size = 1.0
+		dropped_item_size = 2.0
 		compact_item_stars = false
 		radioactive_bonus = false
 		disable_block_animation = false
@@ -154,13 +155,13 @@
 		hide_hunger_display = false
 		include_item_modifiers = true
 		hide_fire_on_entities = false
-		highlight_salvageable_items = false
+		highlight_salvageable_items = true
 		hide_pet_health_display = false
 		no_hurtcam = false
 		power_orb_lock = false
 		show_coins_per_bit = false
 		hide_fishing_hooks = true
-		stop_clicking_non-salvageable_items = false
+		stop_clicking_non-salvageable_items = true
 		show_trophy_fish_totals = false
 		show_coins_per_copper = false
 		"spider's_den_rain_timer" = false
@@ -182,7 +183,7 @@
 		custom_auction_price_input = false
 		low_health_vignette_threshold = 0.0
 		custom_damage_splash_style = 0
-		protect_starred_items = false
+		protect_starred_items = true
 		show_total_trophy_fish = false
 		hide_scoreboard_score = false
 		highlight_dungeon-sellable_items = false
@@ -273,7 +274,7 @@
 
 	[kuudra.price_checking]
 		kuudra_chest_profit_subtracts_key = true
-		show_kuudra_lowest_bin_price = false
+		show_kuudra_lowest_bin_price = true
 		kuudra_chest_profit = false
 		kuudra_chest_profit_includes_essence = true
 
@@ -425,7 +426,7 @@
 	[farming.garden]
 		visitor_notifications = false
 		visitor_offer_helper = false
-		plot_cleanup_helper = false
+		plot_cleanup_helper = true
 		"show_sam's_scythe_blocks" = true
 		"color_of_sam's_scythe_marked_blocks" = "50,255,0,0"
 
@@ -536,6 +537,9 @@
 		display_gaia_construct_hits = true
 		track_mythological_creatures = true
 		"empty/start_burrow_color" = "255,173,216,230"
+		ping_when_burrow_is_nearby = false
+		"griffin_burrow_estimation_(meow)" = false
+		griffin_burrow_estimation = false
 		broadcast_rare_drop_notifications = false
 		show_griffin_burrows = true
 		mob_burrow_color = "255,173,216,230"

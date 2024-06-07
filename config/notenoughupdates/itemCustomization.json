@@ -38,6 +38,14 @@
       "defaultItem": "minecraft:leather_leggings",
       "customItem": "leather_leggings"
     },
+    "13bddcd4-5bcf-4a16-b321-b03aabd57180": {
+      "customNamePrefix": "",
+      "overrideEnchantGlint": false,
+      "enchantGlintValue": false,
+      "customGlintColour": "0:204:100:25:255",
+      "defaultItem": "minecraft:iron_sword",
+      "customItem": "iron_sword"
+    },
     "d7fbbd1d-8a69-49b2-a11c-1b6a36465971": {
       "customNamePrefix": "",
       "overrideEnchantGlint": false,

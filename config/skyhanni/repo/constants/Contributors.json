@@ -7,6 +7,9 @@
       "spinny": true,
       "upsideDown": true
     },
+    "catgirlasuka": {
+      "suffix": "§d§l:3"
+    },
     "catgirlseraid": {
       "suffix": "§d:3",
       "spinny": true,
@@ -29,7 +32,7 @@
       "suffix": "§3§l:O"
     },
     "HiZe_": {
-      "suffix": "&5&l:3",
+      "suffix": "§5§l:3",
       "spinny": true,
       "upsideDown": true
     },

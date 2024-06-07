@@ -5,7 +5,7 @@
         "banana": {
           "sackContents": {
             "COAL": {
-              "amount": 15110,
+              "amount": 5038,
               "lastChange": 0,
               "status": "CORRECT"
             },
@@ -15,12 +15,12 @@
               "status": "CORRECT"
             },
             "DIAMOND": {
-              "amount": 15959,
+              "amount": 16101,
               "lastChange": 0,
               "status": "CORRECT"
             },
             "EMERALD": {
-              "amount": 945,
+              "amount": 1494,
               "lastChange": 0,
               "status": "CORRECT"
             },
@@ -30,7 +30,7 @@
               "status": "CORRECT"
             },
             "FLINT": {
-              "amount": 12,
+              "amount": 22,
               "lastChange": 0,
               "status": "CORRECT"
             },
@@ -40,32 +40,32 @@
               "status": "CORRECT"
             },
             "GLOWSTONE_DUST": {
-              "amount": 640,
+              "amount": 675,
               "lastChange": 0,
               "status": "CORRECT"
             },
             "GOLD_INGOT": {
-              "amount": 3600,
+              "amount": 4269,
               "lastChange": 0,
               "status": "CORRECT"
             },
             "GRAVEL": {
-              "amount": 17,
+              "amount": 39,
               "lastChange": 0,
               "status": "CORRECT"
             },
             "HARD_STONE": {
-              "amount": 404,
+              "amount": 5807,
               "lastChange": 0,
               "status": "CORRECT"
             },
             "IRON_INGOT": {
-              "amount": 5311,
+              "amount": 7202,
               "lastChange": 0,
               "status": "CORRECT"
             },
             "INK_SACK-4": {
-              "amount": 1395,
+              "amount": 1710,
               "lastChange": 0,
               "status": "CORRECT"
             },
@@ -80,7 +80,7 @@
               "status": "CORRECT"
             },
             "QUARTZ": {
-              "amount": 618,
+              "amount": 588,
               "lastChange": 0,
               "status": "CORRECT"
             },
@@ -90,12 +90,12 @@
               "status": "CORRECT"
             },
             "OBSIDIAN": {
-              "amount": 1137,
+              "amount": 1144,
               "lastChange": 0,
               "status": "CORRECT"
             },
             "OIL_BARREL": {
-              "amount": 281,
+              "amount": 263,
               "lastChange": 0,
               "status": "CORRECT"
             },
@@ -110,7 +110,7 @@
               "status": "CORRECT"
             },
             "REDSTONE": {
-              "amount": 11671,
+              "amount": 15015,
               "lastChange": 0,
               "status": "CORRECT"
             },
@@ -140,7 +140,7 @@
               "status": "CORRECT"
             },
             "TREASURITE": {
-              "amount": 20,
+              "amount": 29,
               "lastChange": 0,
               "status": "CORRECT"
             },
@@ -175,7 +175,7 @@
               "status": "CORRECT"
             },
             "ENCHANTED_BONE": {
-              "amount": 467,
+              "amount": 524,
               "lastChange": 0,
               "status": "CORRECT"
             },
@@ -185,7 +185,7 @@
               "status": "CORRECT"
             },
             "ENCHANTED_ENDER_PEARL": {
-              "amount": 1016,
+              "amount": 1044,
               "lastChange": 0,
               "status": "CORRECT"
             },
@@ -195,7 +195,7 @@
               "status": "CORRECT"
             },
             "ENCHANTED_GHAST_TEAR": {
-              "amount": 519,
+              "amount": 12,
               "lastChange": 0,
               "status": "CORRECT"
             },
@@ -210,7 +210,7 @@
               "status": "CORRECT"
             },
             "ENCHANTED_ROTTEN_FLESH": {
-              "amount": 295,
+              "amount": 326,
               "lastChange": 0,
               "status": "CORRECT"
             },
@@ -220,12 +220,12 @@
               "status": "CORRECT"
             },
             "ENCHANTED_SLIME_BALL": {
-              "amount": 5,
+              "amount": 7,
               "lastChange": 0,
               "status": "CORRECT"
             },
             "ENCHANTED_SPIDER_EYE": {
-              "amount": 32,
+              "amount": 35,
               "lastChange": 0,
               "status": "CORRECT"
             },
@@ -255,7 +255,7 @@
               "status": "CORRECT"
             },
             "ENCHANTED_FEATHER": {
-              "amount": 0,
+              "amount": 2,
               "lastChange": 0,
               "status": "CORRECT"
             },
@@ -320,7 +320,7 @@
               "status": "CORRECT"
             },
             "ARCHITECT_FIRST_DRAFT": {
-              "amount": 3,
+              "amount": 5,
               "lastChange": 0,
               "status": "CORRECT"
             },
@@ -335,12 +335,12 @@
               "status": "CORRECT"
             },
             "DUNGEON_DECOY": {
-              "amount": 35,
+              "amount": 1468,
               "lastChange": 0,
               "status": "CORRECT"
             },
             "DUNGEON_CHEST_KEY": {
-              "amount": 9,
+              "amount": 11,
               "lastChange": 0,
               "status": "CORRECT"
             },
@@ -350,12 +350,12 @@
               "status": "CORRECT"
             },
             "HEALING_TISSUE": {
-              "amount": 3,
+              "amount": 4,
               "lastChange": 0,
               "status": "CORRECT"
             },
             "INFLATABLE_JERRY": {
-              "amount": 10,
+              "amount": 14,
               "lastChange": 0,
               "status": "CORRECT"
             },
@@ -365,7 +365,7 @@
               "status": "CORRECT"
             },
             "KISMET_FEATHER": {
-              "amount": 5,
+              "amount": 3,
               "lastChange": 0,
               "status": "CORRECT"
             },
@@ -380,7 +380,7 @@
               "status": "CORRECT"
             },
             "MIMIC_FRAGMENT": {
-              "amount": 16,
+              "amount": 18,
               "lastChange": 0,
               "status": "CORRECT"
             },
@@ -390,12 +390,12 @@
               "status": "CORRECT"
             },
             "SPIRIT_LEAP": {
-              "amount": 1810,
+              "amount": 1820,
               "lastChange": 0,
               "status": "CORRECT"
             },
             "SUPERBOOM_TNT": {
-              "amount": 2308,
+              "amount": 2392,
               "lastChange": 0,
               "status": "CORRECT"
             },
@@ -440,12 +440,12 @@
               "status": "CORRECT"
             },
             "COMPOST": {
-              "amount": 511,
+              "amount": 509,
               "lastChange": 0,
               "status": "CORRECT"
             },
             "CROPIE": {
-              "amount": 75,
+              "amount": 84,
               "lastChange": 0,
               "status": "CORRECT"
             },
@@ -465,7 +465,7 @@
               "status": "CORRECT"
             },
             "NETHER_STALK": {
-              "amount": 20159,
+              "amount": 20160,
               "lastChange": 0,
               "status": "CORRECT"
             },
@@ -480,7 +480,7 @@
               "status": "CORRECT"
             },
             "PUMPKIN": {
-              "amount": 16094,
+              "amount": 20160,
               "lastChange": 0,
               "status": "CORRECT"
             },
@@ -505,7 +505,7 @@
               "status": "CORRECT"
             },
             "WHEAT": {
-              "amount": 19973,
+              "amount": 20064,
               "lastChange": 0,
               "status": "CORRECT"
             },
@@ -550,22 +550,22 @@
               "status": "CORRECT"
             },
             "BLUE_SHARK_TOOTH": {
-              "amount": 14,
+              "amount": 20,
               "lastChange": 0,
               "status": "CORRECT"
             },
             "CHUM": {
-              "amount": 3388,
+              "amount": 3415,
               "lastChange": 0,
               "status": "CORRECT"
             },
             "CLAY_BALL": {
-              "amount": 663,
+              "amount": 756,
               "lastChange": 0,
               "status": "CORRECT"
             },
             "RAW_FISH-2": {
-              "amount": 1738,
+              "amount": 1860,
               "lastChange": 0,
               "status": "CORRECT"
             },
@@ -575,57 +575,57 @@
               "status": "CORRECT"
             },
             "INK_SACK": {
-              "amount": 1179,
+              "amount": 1309,
               "lastChange": 0,
               "status": "CORRECT"
             },
             "WATER_LILY": {
-              "amount": 6200,
+              "amount": 6659,
               "lastChange": 0,
               "status": "CORRECT"
             },
             "NURSE_SHARK_TOOTH": {
-              "amount": 18,
+              "amount": 34,
               "lastChange": 0,
               "status": "CORRECT"
             },
             "PRISMARINE_CRYSTALS": {
-              "amount": 927,
+              "amount": 1084,
               "lastChange": 0,
               "status": "CORRECT"
             },
             "PRISMARINE_SHARD": {
-              "amount": 911,
+              "amount": 1067,
               "lastChange": 0,
               "status": "CORRECT"
             },
             "RAW_FISH-3": {
-              "amount": 2025,
+              "amount": 2343,
               "lastChange": 0,
               "status": "CORRECT"
             },
             "RAW_FISH": {
-              "amount": 6870,
+              "amount": 7484,
               "lastChange": 0,
               "status": "CORRECT"
             },
             "RAW_FISH-1": {
-              "amount": 3489,
+              "amount": 3805,
               "lastChange": 0,
               "status": "CORRECT"
             },
             "SHARK_FIN": {
-              "amount": 1042,
+              "amount": 1610,
               "lastChange": 0,
               "status": "CORRECT"
             },
             "SPONGE": {
-              "amount": 677,
+              "amount": 757,
               "lastChange": 0,
               "status": "CORRECT"
             },
             "TIGER_SHARK_TOOTH": {
-              "amount": 5,
+              "amount": 11,
               "lastChange": 0,
               "status": "CORRECT"
             },
@@ -635,7 +635,7 @@
               "status": "CORRECT"
             },
             "ENCHANTED_CLOWNFISH": {
-              "amount": 153,
+              "amount": 166,
               "lastChange": 0,
               "status": "CORRECT"
             },
@@ -655,32 +655,32 @@
               "status": "CORRECT"
             },
             "ENCHANTED_WATER_LILY": {
-              "amount": 64,
+              "amount": 65,
               "lastChange": 0,
               "status": "CORRECT"
             },
             "ENCHANTED_PRISMARINE_CRYSTALS": {
-              "amount": 219,
+              "amount": 241,
               "lastChange": 0,
               "status": "CORRECT"
             },
             "ENCHANTED_PRISMARINE_SHARD": {
-              "amount": 287,
+              "amount": 311,
               "lastChange": 0,
               "status": "CORRECT"
             },
             "ENCHANTED_PUFFERFISH": {
-              "amount": 0,
+              "amount": 42,
               "lastChange": 0,
               "status": "CORRECT"
             },
             "ENCHANTED_RAW_FISH": {
-              "amount": 0,
+              "amount": 201,
               "lastChange": 0,
               "status": "CORRECT"
             },
             "ENCHANTED_RAW_SALMON": {
-              "amount": 0,
+              "amount": 75,
               "lastChange": 0,
               "status": "CORRECT"
             },
@@ -810,7 +810,7 @@
               "status": "CORRECT"
             },
             "ENCHANTED_CACTUS_GREEN": {
-              "amount": 2491,
+              "amount": 2218,
               "lastChange": 0,
               "status": "CORRECT"
             },
@@ -835,7 +835,7 @@
               "status": "CORRECT"
             },
             "ENCHANTED_HAY_BLOCK": {
-              "amount": 1751,
+              "amount": 1716,
               "lastChange": 0,
               "status": "CORRECT"
             },
@@ -880,7 +880,7 @@
               "status": "CORRECT"
             },
             "ENCHANTED_SEEDS": {
-              "amount": 9422,
+              "amount": 8841,
               "lastChange": 0,
               "status": "CORRECT"
             },
@@ -900,7 +900,7 @@
               "status": "CORRECT"
             },
             "POLISHED_PUMPKIN": {
-              "amount": 2,
+              "amount": 1,
               "lastChange": 0,
               "status": "CORRECT"
             },
@@ -910,7 +910,7 @@
               "status": "CORRECT"
             },
             "BLAZE_ROD": {
-              "amount": 1882,
+              "amount": 4870,
               "lastChange": 0,
               "status": "CORRECT"
             },
@@ -930,7 +930,7 @@
               "status": "CORRECT"
             },
             "GHAST_TEAR": {
-              "amount": 173,
+              "amount": 10,
               "lastChange": 0,
               "status": "CORRECT"
             },
@@ -940,7 +940,7 @@
               "status": "CORRECT"
             },
             "MAGMA_CREAM": {
-              "amount": 3105,
+              "amount": 3138,
               "lastChange": 0,
               "status": "CORRECT"
             },
@@ -1030,12 +1030,12 @@
               "status": "CORRECT"
             },
             "BEZOS": {
-              "amount": 4,
+              "amount": 8,
               "lastChange": 0,
               "status": "CORRECT"
             },
             "BLAZE_ASHES": {
-              "amount": 10,
+              "amount": 44,
               "lastChange": 0,
               "status": "CORRECT"
             },
@@ -1045,12 +1045,12 @@
               "status": "CORRECT"
             },
             "COMPACT_OOZE": {
-              "amount": 6,
+              "amount": 7,
               "lastChange": 0,
               "status": "CORRECT"
             },
             "CORRUPTED_FRAGMENT": {
-              "amount": 530,
+              "amount": 681,
               "lastChange": 0,
               "status": "CORRECT"
             },
@@ -1070,12 +1070,12 @@
               "status": "CORRECT"
             },
             "HALLOWED_SKULL": {
-              "amount": 24,
+              "amount": 25,
               "lastChange": 0,
               "status": "CORRECT"
             },
             "HEAVY_PEARL": {
-              "amount": 21,
+              "amount": 30,
               "lastChange": 0,
               "status": "CORRECT"
             },
@@ -1115,17 +1115,17 @@
               "status": "CORRECT"
             },
             "MUTATED_BLAZE_ASHES": {
-              "amount": 11,
+              "amount": 12,
               "lastChange": 0,
               "status": "CORRECT"
             },
             "CORRUPTED_NETHER_STAR": {
-              "amount": 6,
+              "amount": 9,
               "lastChange": 0,
               "status": "CORRECT"
             },
             "REKINDLED_EMBER_FRAGMENT": {
-              "amount": 4,
+              "amount": 5,
               "lastChange": 0,
               "status": "CORRECT"
             },
@@ -1135,12 +1135,12 @@
               "status": "CORRECT"
             },
             "SPELL_POWDER": {
-              "amount": 21,
+              "amount": 22,
               "lastChange": 0,
               "status": "CORRECT"
             },
             "SULPHUR_ORE": {
-              "amount": 530,
+              "amount": 728,
               "lastChange": 0,
               "status": "CORRECT"
             },
@@ -1173,6 +1173,52 @@
         },
         "ananab": {
           "sackContents": {}
+        },
+        "strawberry": {
+          "sackContents": {}
+        }
+      }
+    },
+    "da016e25-746b-4239-b731-d8c59c283260": {
+      "profiles": {
+        "apple": {
+          "sackContents": {
+            "ENCHANTED_NETHER_STALK": {
+              "amount": 4,
+              "lastChange": 4,
+              "status": "OUTDATED"
+            },
+            "ENCHANTED_HAY_BLOCK": {
+              "amount": 115,
+              "lastChange": 3,
+              "status": "OUTDATED"
+            },
+            "ENCHANTED_CACTUS_GREEN": {
+              "amount": 15,
+              "lastChange": 8,
+              "status": "OUTDATED"
+            },
+            "ENCHANTED_MELON": {
+              "amount": 15,
+              "lastChange": 8,
+              "status": "OUTDATED"
+            },
+            "ENCHANTED_BROWN_MUSHROOM": {
+              "amount": 7,
+              "lastChange": 7,
+              "status": "OUTDATED"
+            },
+            "ENCHANTED_PUMPKIN": {
+              "amount": 8,
+              "lastChange": 8,
+              "status": "OUTDATED"
+            },
+            "ENCHANTED_SEEDS": {
+              "amount": 1264,
+              "lastChange": 36,
+              "status": "OUTDATED"
+            }
+          }
         }
       }
     }

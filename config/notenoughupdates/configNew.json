@@ -1,7 +1,7 @@
 {
   "about": {
     "autoUpdates": true,
-    "updateStream": "FULL",
+    "updateStream": "PRE",
     "licenses": {}
   },
   "misc": {
@@ -39,7 +39,8 @@
     "defaultArmorColour": false,
     "openAHKeybind": 50,
     "openSkyBlockRecipeKeybind": 0,
-    "showWhenCountdownEnds": 2
+    "showWhenCountdownEnds": 2,
+    "hideRegenBounce": false
   },
   "locationedit": {
     "guiScale": 0
@@ -167,7 +168,10 @@
     "enableEtherwarpHelperOverlay": true,
     "enableEtherwarpBlockOverlay": true,
     "disableOverlayWhenFailed": false,
+    "hideEtherwarpFailText": false,
+    "changeEtherwarpColourWhenFailed": false,
     "etherwarpHighlightColour": "0:70:156:9:97",
+    "etherwarpFailHighlightColour": "00:70:220:40:40",
     "enableBonemerangOverlay": true,
     "highlightTargeted": true,
     "bonemerangPosition": {
@@ -220,7 +224,7 @@
     "farmingResetCPS": 5,
     "farmingPosition": {
       "x": 0,
-      "y": -107,
+      "y": -106,
       "centerX": false,
       "centerY": false
     },
@@ -239,7 +243,7 @@
     "miningPauseTimer": 3,
     "miningPosition": {
       "x": 0,
-      "y": 176,
+      "y": -106,
       "centerX": false,
       "centerY": false
     },
@@ -257,7 +261,7 @@
     "fishingPauseTimer": 3,
     "fishingPosition": {
       "x": 0,
-      "y": -211,
+      "y": -112,
       "centerX": false,
       "centerY": false
     },
@@ -344,8 +348,8 @@
       6
     ],
     "slayerPosition": {
-      "x": 131,
-      "y": 284,
+      "x": 66,
+      "y": -166,
       "centerX": false,
       "centerY": false
     },
@@ -451,7 +455,7 @@
     ],
     "overlayPosition": {
       "x": 0,
-      "y": -191,
+      "y": -199,
       "centerX": false,
       "centerY": false
     },
@@ -516,8 +520,8 @@
       6
     ],
     "powderGrindingTrackerPosition": {
-      "x": 10,
-      "y": 265,
+      "x": 3,
+      "y": 298,
       "centerX": false,
       "centerY": false
     },
@@ -717,7 +721,7 @@
     "autoupdate_new": true,
     "repoUser": "NotEnoughUpdates",
     "repoName": "NotEnoughUpdates-REPO",
-    "repoBranch": "prerelease",
+    "repoBranch": "master",
     "repositoryEditing": false,
     "moulberryCodesApi": "moulberry.codes",
     "ursaApi": ""
@@ -726,15 +730,50 @@
     "customTodos": [],
     "profileSpecific": {
       "Apple": {
-        "godPotionDuration": 54000000,
+        "godPotionDuration": 21600000,
         "puzzlerCompleted": 0,
         "firstCakeAte": 0,
         "fetchurCompleted": 0,
         "commissionsCompleted": 0,
         "lastFreeRiftInfusionApplied": 0,
         "experimentsCompleted": 0,
-        "cookieBuffRemaining": 0,
-        "forgeItems": [],
+        "cookieBuffRemaining": 1717934224854,
+        "forgeItems": [
+          {
+            "itemName": "Gemstone Mixture",
+            "finishTime": 1717774431761,
+            "status": 2,
+            "forgeID": 0,
+            "fromScoreBoard": false
+          },
+          {
+            "itemName": "Gemstone Mixture",
+            "finishTime": 1717774434761,
+            "status": 2,
+            "forgeID": 1,
+            "fromScoreBoard": false
+          },
+          {
+            "itemName": "Gemstone Mixture",
+            "finishTime": 1717774451761,
+            "status": 2,
+            "forgeID": 2,
+            "fromScoreBoard": false
+          },
+          {
+            "itemName": "Gemstone Mixture",
+            "finishTime": 1717774454761,
+            "status": 2,
+            "forgeID": 3,
+            "fromScoreBoard": false
+          },
+          {
+            "finishTime": 0,
+            "status": 1,
+            "forgeID": 4,
+            "fromScoreBoard": true
+          }
+        ],
         "hotmDesires": {},
         "commissionMilestone": 0,
         "automatonParts": {
@@ -766,48 +805,240 @@
         "dailyShopLimitCompleted": 0,
         "savedEquipment": {
           "19": {
-            "itemid": "minecraft:stained_glass_pane",
-            "displayname": "§7Empty Equipment Slot",
-            "nbttag": "{display:{Lore:[0:\" §8\u003e Cloak\"],Name:\"§7Empty Equipment Slot\"}}",
-            "damage": 8,
+            "itemid": "minecraft:skull",
+            "displayname": "§5Molten Cloak",
+            "nbttag": "{HideFlags:254,SkullOwner:{Id:\"e7b0b792-7786-3b14-82b0-d04f7b5fbf7c\",Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTY0NzAxNjQzNDExNiwKICAicHJvZmlsZUlkIiA6ICJlZThjNWMzMGY3NWU0N2QxOTBmOTllNjI5NDgyOGZjMSIsCiAgInByb2ZpbGVOYW1lIiA6ICJTcGFya19QaGFudG9tIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzZjMThiYjBmNTJmMjQ2ZWM5YmZmNWYwNTc2MTQ1NmJlMjczZTczMGNkMjc2NTU1ZmQ3NzJiYThjM2ZhMGYxNDQiCiAgICB9CiAgfQp9\"}]}},display:{Lore:[0:\"§7Strength: §c+20\",1:\"§7Health: §a+30\",2:\"§7Defense: §a+20\",3:\"\",4:\"§bExperience II\",5:\"§7Gain §a+20% §7more experience orbs\",6:\"§7from killing mobs.\",7:\"§cVitality II ✖\",8:\"§7Grants §4+6♨ Vitality§7.\",9:\"\",10:\"§6Tiered Bonus: Molten Core (2/4)\",11:\"§7Gain §a5% §7damage resistance while\",12:\"§7fighting §6Kuudra§7.\",13:\"\",14:\"§7§8This item can be reforged!\",15:\"§5§lEPIC CLOAK\"],Name:\"§5Molten Cloak\"},ExtraAttributes:{attributes:{mending:2,experience:2},id:\"MOLTEN_CLOAK\",boss_tier:2,uuid:\"bd923274-fdec-43aa-b1ab-9652653ad6c1\",timestamp:1716411481387L}}",
+            "damage": 3,
             "lore": [
-              " §8\u003e Cloak"
+              "§7Strength: §c+20",
+              "§7Health: §a+30",
+              "§7Defense: §a+20",
+              "",
+              "§bExperience II",
+              "§7Gain §a+20% §7more experience orbs",
+              "§7from killing mobs.",
+              "§cVitality II ✖",
+              "§7Grants §4+6♨ Vitality§7.",
+              "",
+              "§6Tiered Bonus: Molten Core (2/4)",
+              "§7Gain §a5% §7damage resistance while",
+              "§7fighting §6Kuudra§7.",
+              "",
+              "§7§8This item can be reforged!",
+              "§5§lEPIC CLOAK"
             ],
             "internalname": "_"
           },
           "37": {
             "itemid": "minecraft:skull",
-            "displayname": "§9Lotus Bracelet",
-            "nbttag": "{HideFlags:254,SkullOwner:{Id:\"31b66714-9edb-3bb4-8d4f-42b451fa2aba\",Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTY2MjUwMjg2MjI4OCwKICAicHJvZmlsZUlkIiA6ICJkYjJmMTJhMmU5MTI0ZThiODZjZmQyNzU2MDk1N2JhNCIsCiAgInByb2ZpbGVOYW1lIiA6ICJpaVJlemEiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTc4MzI3OTAxOGNkZGRmZmE5MTNhYmYzNjIxZDc4ZjIwNDQwNTk2MWY3N2ZiOTY4NDFkMDFiMjc0ZjAyN2NhYiIKICAgIH0KICB9Cn0\"}]}},display:{Lore:[0:\"§7Health: §a+10\",1:\"§7Farming Fortune: §a+5\",2:\"\",3:\"§6Piece Bonus: Salesperson\",4:\"§7Complete §aGarden Visitor Offers\",5:\"§a§7to gain §6☘ Farming Fortune§7.\",6:\"\",7:\"§7Piece Bonus: §6+10☘\",8:\"§7Next Upgrade: §6+11☘ §8(§a670§7/§c1,000§8)\",9:\"\",10:\"§7§8This item can be reforged!\",11:\"§9§lRARE BRACELET\"],Name:\"§9Lotus Bracelet\"},ExtraAttributes:{id:\"LOTUS_BRACELET\",uuid:\"86f3f64f-4072-4576-8c5b-643214ce5421\",timestamp:\"7/2/23 5:27 AM\"}}",
+            "displayname": "§9Glowstone Gauntlet",
+            "nbttag": "{HideFlags:254,SkullOwner:{Id:\"a4f1adc4-92c6-31b9-a53d-2e41f8151927\",Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTY0ODQ5NTM1Mjg0MCwKICAicHJvZmlsZUlkIiA6ICI1MTY4ZjZlMjIyM2E0Y2FjYjdiN2QyZjYyZWMxZGFhOSIsCiAgInByb2ZpbGVOYW1lIiA6ICJkZWZfbm90X2FzaCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8yNTE2OTE1MmEzNjI2YTE2NjliZmMzODhiZGU3NTIwYTNlYzVkZGYxMDY1ZmNlYTMzZTAzYjA2NjIzMjIwYjFhIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0\"}]}},display:{Lore:[0:\"§7Intelligence: §a+10\",1:\"§7Mining Fortune: §a+5\",2:\"\",3:\"§bArachno Resistance I\",4:\"§7Grants §a+1.5❈ Defense §7against\",5:\"§7§aspiders§7.\",6:\"§cBreeze I ✖\",7:\"§7When you haven\u0027t been damaged in\",8:\"§7the last §a5s §7or more, your mana\",9:\"§7costs are decreased by §a1%§7.\",10:\"\",11:\"§7§8This item can be reforged!\",12:\"§9§lRARE GLOVES\"],Name:\"§9Glowstone Gauntlet\"},ExtraAttributes:{attributes:{breeze:1,arachno_resistance:1},id:\"GLOWSTONE_GAUNTLET\",uuid:\"86e914b8-e425-4e85-b7e8-d23d0831b86a\",timestamp:1716661111030L}}",
             "damage": 3,
             "lore": [
-              "§7Health: §a+10",
-              "§7Farming Fortune: §a+5",
+              "§7Intelligence: §a+10",
+              "§7Mining Fortune: §a+5",
               "",
-              "§6Piece Bonus: Salesperson",
-              "§7Complete §aGarden Visitor Offers",
-              "§a§7to gain §6☘ Farming Fortune§7.",
-              "",
-              "§7Piece Bonus: §6+10☘",
-              "§7Next Upgrade: §6+11☘ §8(§a670§7/§c1,000§8)",
+              "§bArachno Resistance I",
+              "§7Grants §a+1.5❈ Defense §7against",
+              "§7§aspiders§7.",
+              "§cBreeze I ✖",
+              "§7When you haven\u0027t been damaged in",
+              "§7the last §a5s §7or more, your mana",
+              "§7costs are decreased by §a1%§7.",
               "",
               "§7§8This item can be reforged!",
-              "§9§lRARE BRACELET"
+              "§9§lRARE GLOVES"
+            ],
+            "internalname": "_"
+          },
+          "10": {
+            "itemid": "minecraft:skull",
+            "displayname": "§5Molten Necklace",
+            "nbttag": "{HideFlags:254,SkullOwner:{Id:\"edc180da-fb33-3fd0-9d05-52ce80874304\",Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTY0NzAxNjQxODA4MiwKICAicHJvZmlsZUlkIiA6ICI2NmI0ZDRlMTFlNmE0YjhjYTFkN2Q5YzliZTBhNjQ5OSIsCiAgInByb2ZpbGVOYW1lIiA6ICJBcmFzdG9vWXNmIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzZiYzBjYTQ0YzY3OGM0ZmI0ZWJlNzNmMTI3MTdmOGFiNmRmM2I1YWI4NjhkMjE3ZTY4YzM2YWFmZTJhZDgwZTQiCiAgICB9CiAgfQp9\"}]}},display:{Lore:[0:\"§7Strength: §c+20\",1:\"§7Health: §a+30\",2:\"§7Defense: §a+20\",3:\"§7Health Regen: §a+1.25\",4:\"\",5:\"§bArachno Resistance I\",6:\"§7Grants §a+1.5❈ Defense §7against\",7:\"§7§aspiders§7.\",8:\"§bLife Regeneration I\",9:\"§7Grants §c+1.25❣ Health Regen§7.\",10:\"\",11:\"§6Tiered Bonus: Molten Core (2/4)\",12:\"§7Gain §a5% §7damage resistance while\",13:\"§7fighting §6Kuudra§7.\",14:\"\",15:\"§7§8This item can be reforged!\",16:\"§5§lEPIC NECKLACE\"],Name:\"§5Molten Necklace\"},ExtraAttributes:{attributes:{life_regeneration:1,arachno_resistance:1},id:\"MOLTEN_NECKLACE\",boss_tier:0,uuid:\"70ae9a00-5235-4c27-8a53-9af30c520d14\",timestamp:1717508781819L}}",
+            "damage": 3,
+            "lore": [
+              "§7Strength: §c+20",
+              "§7Health: §a+30",
+              "§7Defense: §a+20",
+              "§7Health Regen: §a+1.25",
+              "",
+              "§bArachno Resistance I",
+              "§7Grants §a+1.5❈ Defense §7against",
+              "§7§aspiders§7.",
+              "§bLife Regeneration I",
+              "§7Grants §c+1.25❣ Health Regen§7.",
+              "",
+              "§6Tiered Bonus: Molten Core (2/4)",
+              "§7Gain §a5% §7damage resistance while",
+              "§7fighting §6Kuudra§7.",
+              "",
+              "§7§8This item can be reforged!",
+              "§5§lEPIC NECKLACE"
+            ],
+            "internalname": "_"
+          },
+          "28": {
+            "itemid": "minecraft:skull",
+            "displayname": "§5Implosion Belt",
+            "nbttag": "{HideFlags:254,SkullOwner:{Id:\"ca91687f-fc70-3294-b3aa-981bb2ae134d\",Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTY0MzYwMjI5OTA2MSwKICAicHJvZmlsZUlkIiA6ICI0ZTMwZjUwZTdiYWU0M2YzYWZkMmE3NDUyY2ViZTI5YyIsCiAgInByb2ZpbGVOYW1lIiA6ICJfdG9tYXRvel8iLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjFkMmIwMzZkZDY2NGJiOTBjOWQ0NDNjMTk5OGZiNTI2Mzk4YWI0ZGRkZWI3OWI4NDAxYjE2YjlhNGQxMGJhMyIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9\"}]}},display:{Lore:[0:\"§7Defense: §a+70\",1:\"§7Health Regen: §a+1.25\",2:\"\",3:\"§bBlazing Resistance I\",4:\"§7Grants §a+1.5❈ Defense §7against mobs\",5:\"§7in §aCrimson Isle§7.\",6:\"§bLife Regeneration I\",7:\"§7Grants §c+1.25❣ Health Regen§7.\",8:\"\",9:\"§6Ability: Consolidated \",10:\"§7§7Increases all explosion damage dealt\",11:\"§7by §a25%§7.\",12:\"\",13:\"§7§8This item can be reforged!\",14:\"§5§lEPIC BELT\"],Name:\"§5Implosion Belt\"},ExtraAttributes:{attributes:{blazing_resistance:1,life_regeneration:1},id:\"IMPLOSION_BELT\",uuid:\"35d1d919-d6a7-4169-8d3e-4a94b27ff6c9\",timestamp:1685174100000L}}",
+            "damage": 3,
+            "lore": [
+              "§7Defense: §a+70",
+              "§7Health Regen: §a+1.25",
+              "",
+              "§bBlazing Resistance I",
+              "§7Grants §a+1.5❈ Defense §7against mobs",
+              "§7in §aCrimson Isle§7.",
+              "§bLife Regeneration I",
+              "§7Grants §c+1.25❣ Health Regen§7.",
+              "",
+              "§6Ability: Consolidated ",
+              "§7§7Increases all explosion damage dealt",
+              "§7by §a25%§7.",
+              "",
+              "§7§8This item can be reforged!",
+              "§5§lEPIC BELT"
+            ],
+            "internalname": "_"
+          }
+        },
+        "magicalPower": 322,
+        "chestCount": 0,
+        "openedChestCount": 0,
+        "mithrilPowderFound": 0,
+        "gemstonePowderFound": 0,
+        "abiphoneFavouriteContacts": [],
+        "abiphoneShowOnlyFavourites": false,
+        "hotmTree": {
+          "Efficient Miner": 30,
+          "Daily Powder": 6,
+          "Titanium Insanium": 10,
+          "Mining Fortune": 12,
+          "Mining Speed": 15,
+          "Seasoned Mineman": 19
+        }
+      },
+      "Strawberry": {
+        "godPotionDuration": 0,
+        "puzzlerCompleted": 1717539767176,
+        "firstCakeAte": 1717497788178,
+        "fetchurCompleted": 1717576945053,
+        "commissionsCompleted": 1717584537275,
+        "lastFreeRiftInfusionApplied": 0,
+        "experimentsCompleted": 1717592132952,
+        "cookieBuffRemaining": 0,
+        "forgeItems": [
+          {
+            "finishTime": 0,
+            "status": 0,
+            "forgeID": 0,
+            "fromScoreBoard": true
+          },
+          {
+            "finishTime": 0,
+            "status": 0,
+            "forgeID": 1,
+            "fromScoreBoard": true
+          },
+          {
+            "finishTime": 0,
+            "status": 0,
+            "forgeID": 2,
+            "fromScoreBoard": true
+          },
+          {
+            "finishTime": 0,
+            "status": 1,
+            "forgeID": 3,
+            "fromScoreBoard": true
+          },
+          {
+            "finishTime": 0,
+            "status": 1,
+            "forgeID": 4,
+            "fromScoreBoard": true
+          }
+        ],
+        "hotmDesires": {},
+        "commissionMilestone": 2,
+        "automatonParts": {
+          "Electron Transmitter": false,
+          "Robotron Reflector": false,
+          "Superlite Motor": false,
+          "Synthetic Heart": false,
+          "Control Switch": false,
+          "FTX 3070": false
+        },
+        "divanMinesParts": {
+          "Scavenged Lapis Sword": false,
+          "Scavenged Diamond Axe": false,
+          "Scavenged Golden Hammer": false,
+          "Scavenged Emerald Hammer": false
+        },
+        "crystals": {
+          "Amber": 0,
+          "Sapphire": 0,
+          "Jade": 0,
+          "Amethyst": 0,
+          "Topaz": 0
+        },
+        "dailyGemstonePowderCompleted": 0,
+        "dailyMithrilPowerCompleted": 1717580437585,
+        "nonUnlockedWarpScrolls": [],
+        "dailyHeavyPearlCompleted": 0,
+        "questBoardCompleted": 0,
+        "dailyShopLimitCompleted": 1717579450416,
+        "savedEquipment": {
+          "19": {
+            "itemid": "minecraft:skull",
+            "displayname": "§5Ender Cloak",
+            "nbttag": "{HideFlags:254,SkullOwner:{Id:\"9b32c16e-e77b-33b9-b0c0-fe3ef3ddf92c\",Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTY1NjUzNzc2NzM4NywKICAicHJvZmlsZUlkIiA6ICIzYWJkYjI5ZDI2MTU0YTAxOWEzZWQ3OGRlMzI4OWUxNCIsCiAgInByb2ZpbGVOYW1lIiA6ICJFcmljSHViZXIiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzc3OGZiNmYyZTY0OWMwYWRhYmY1MWVmNDVjN2NlMzIzZmUxNzU4ZjZkYWM0ZjhjZDEzYWRkMWUyYWYyOWZmNiIKICAgIH0KICB9Cn0\"}]}},display:{Lore:[0:\"§7Health: §a+30\",1:\"§7Defense: §a+20\",2:\"\",3:\"§7All stats on this piece of equipment\",4:\"§7are multiplied by §52x §7while on the End\",5:\"§7Island!\",6:\"\",7:\"§7§8This item can be reforged!\",8:\"§8§l* §8Co-op Soulbound §8§l*\",9:\"§5§lEPIC CLOAK\"],Name:\"§5Ender Cloak\"},ExtraAttributes:{id:\"ENDER_CLOAK\",uuid:\"e1791efc-d47e-4e71-b64d-0bfc09f7baa0\",timestamp:1717255919503L}}",
+            "damage": 3,
+            "lore": [
+              "§7Health: §a+30",
+              "§7Defense: §a+20",
+              "",
+              "§7All stats on this piece of equipment",
+              "§7are multiplied by §52x §7while on the End",
+              "§7Island!",
+              "",
+              "§7§8This item can be reforged!",
+              "§8§l* §8Co-op Soulbound §8§l*",
+              "§5§lEPIC CLOAK"
+            ],
+            "internalname": "_"
+          },
+          "37": {
+            "itemid": "minecraft:skull",
+            "displayname": "§5Ender Gauntlet",
+            "nbttag": "{HideFlags:254,SkullOwner:{Id:\"bd07d48f-8954-344a-882d-3710a6e055e5\",Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTY1NjUzNzgyMzQ3NCwKICAicHJvZmlsZUlkIiA6ICIyMWUzNjdkNzI1Y2Y0ZTNiYjI2OTJjNGEzMDBhNGRlYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJHZXlzZXJNQyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8yMmI4ODEzZmJkOGEwNDlkMGU0MmE3Nzk5ZjhkYjY5ZGZlZDljZGQ0NGU3MzUwY2FlZWM1ZjAyM2M3MTUxYzJmIgogICAgfQogIH0KfQ\"}]}},display:{Lore:[0:\"§7Health: §a+30\",1:\"§7Defense: §a+20\",2:\"\",3:\"§7All stats on this piece of equipment\",4:\"§7are multiplied by §52x §7while on the End\",5:\"§7Island!\",6:\"\",7:\"§7§8This item can be reforged!\",8:\"§8§l* §8Co-op Soulbound §8§l*\",9:\"§5§lEPIC GLOVES\"],Name:\"§5Ender Gauntlet\"},ExtraAttributes:{id:\"ENDER_GAUNTLET\",uuid:\"8b962239-a417-4bc9-b230-6fedf941b263\",timestamp:1717253859723L}}",
+            "damage": 3,
+            "lore": [
+              "§7Health: §a+30",
+              "§7Defense: §a+20",
+              "",
+              "§7All stats on this piece of equipment",
+              "§7are multiplied by §52x §7while on the End",
+              "§7Island!",
+              "",
+              "§7§8This item can be reforged!",
+              "§8§l* §8Co-op Soulbound §8§l*",
+              "§5§lEPIC GLOVES"
             ],
             "internalname": "_"
           },
           "10": {
             "itemid": "minecraft:skull",
             "displayname": "§5Ender Necklace",
-            "nbttag": "{HideFlags:254,SkullOwner:{Id:\"ec2cd15f-06cf-30e2-9ced-397aa0f6fef0\",Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTY1NjUzNzc4NTE1MCwKICAicHJvZmlsZUlkIiA6ICIwODFiZTAxZmZlMmU0ODMyODI3MDIwMjBlNmI1M2ExNyIsCiAgInByb2ZpbGVOYW1lIiA6ICJMeXJpY1BsYXRlMjUyNDIiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzZkYTdiOTU3YjgyMTAzYjE3MTQwZTcxMTc5MTE0NjQ4YTAwMjkxYjA1NjU3YzI3ZDNmOTNkNzI2ZTg3ZTY0MCIKICAgIH0KICB9Cn0\"}]}},display:{Lore:[0:\"§7Health: §a+15\",1:\"§7Defense: §a+10\",2:\"\",3:\"§7All stats on this piece of\",4:\"§7equipment are multiplied by §52x\",5:\"§5§7while on the End Island!\",6:\"\",7:\"§7§8This item can be reforged!\",8:\"§8§l* §8Co-op Soulbound §8§l*\",9:\"§5§lEPIC NECKLACE\"],Name:\"§5Ender Necklace\"},ExtraAttributes:{id:\"ENDER_NECKLACE\",uuid:\"23ec4075-38df-48c8-87f3-9a68e5b0b97f\",timestamp:\"5/21/23 2:15 PM\"}}",
+            "nbttag": "{HideFlags:254,SkullOwner:{Id:\"ec2cd15f-06cf-30e2-9ced-397aa0f6fef0\",Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTY1NjUzNzc4NTE1MCwKICAicHJvZmlsZUlkIiA6ICIwODFiZTAxZmZlMmU0ODMyODI3MDIwMjBlNmI1M2ExNyIsCiAgInByb2ZpbGVOYW1lIiA6ICJMeXJpY1BsYXRlMjUyNDIiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzZkYTdiOTU3YjgyMTAzYjE3MTQwZTcxMTc5MTE0NjQ4YTAwMjkxYjA1NjU3YzI3ZDNmOTNkNzI2ZTg3ZTY0MCIKICAgIH0KICB9Cn0\"}]}},display:{Lore:[0:\"§7Health: §a+30\",1:\"§7Defense: §a+20\",2:\"\",3:\"§7All stats on this piece of equipment\",4:\"§7are multiplied by §52x §7while on the End\",5:\"§7Island!\",6:\"\",7:\"§7§8This item can be reforged!\",8:\"§8§l* §8Co-op Soulbound §8§l*\",9:\"§5§lEPIC NECKLACE\"],Name:\"§5Ender Necklace\"},ExtraAttributes:{id:\"ENDER_NECKLACE\",uuid:\"d8609b6f-abb2-4bff-b445-85c4459bbb65\",timestamp:1717255365080L}}",
             "damage": 3,
             "lore": [
-              "§7Health: §a+15",
-              "§7Defense: §a+10",
+              "§7Health: §a+30",
+              "§7Defense: §a+20",
               "",
-              "§7All stats on this piece of",
-              "§7equipment are multiplied by §52x",
-              "§5§7while on the End Island!",
+              "§7All stats on this piece of equipment",
+              "§7are multiplied by §52x §7while on the End",
+              "§7Island!",
               "",
               "§7§8This item can be reforged!",
               "§8§l* §8Co-op Soulbound §8§l*",
@@ -817,82 +1048,77 @@
           },
           "28": {
             "itemid": "minecraft:skull",
-            "displayname": "§5Implosion Belt",
-            "nbttag": "{HideFlags:254,SkullOwner:{Id:\"ca91687f-fc70-3294-b3aa-981bb2ae134d\",Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTY0MzYwMjI5OTA2MSwKICAicHJvZmlsZUlkIiA6ICI0ZTMwZjUwZTdiYWU0M2YzYWZkMmE3NDUyY2ViZTI5YyIsCiAgInByb2ZpbGVOYW1lIiA6ICJfdG9tYXRvel8iLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjFkMmIwMzZkZDY2NGJiOTBjOWQ0NDNjMTk5OGZiNTI2Mzk4YWI0ZGRkZWI3OWI4NDAxYjE2YjlhNGQxMGJhMyIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9\"}]}},display:{Lore:[0:\"§7Defense: §a+70\",1:\"§7Health Regen: §a+1.25\",2:\"\",3:\"§bBlazing Resistance I\",4:\"§7Grants §a+1.5❈ Defense §7against\",5:\"§7§amobs in §aCrimson Isle§7.\",6:\"§bLife Regeneration I\",7:\"§7Grants §c+1.25❣ Health Regen§7.\",8:\"\",9:\"§6Ability: Consolidated \",10:\"§7§7Increases all explosion damage\",11:\"§7dealt by §a25%§7.\",12:\"\",13:\"§7§8This item can be reforged!\",14:\"§5§lEPIC BELT\"],Name:\"§5Implosion Belt\"},ExtraAttributes:{attributes:{blazing_resistance:1,life_regeneration:1},id:\"IMPLOSION_BELT\",uuid:\"35d1d919-d6a7-4169-8d3e-4a94b27ff6c9\",timestamp:\"5/27/23 3:55 AM\"}}",
+            "displayname": "§5Ender Belt",
+            "nbttag": "{HideFlags:254,SkullOwner:{Id:\"ab2708bd-f1fa-3fa0-93b2-1e3de2210dfe\",Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTY1NjUzNzgwNDIwNywKICAicHJvZmlsZUlkIiA6ICJlZDUzZGQ4MTRmOWQ0YTNjYjRlYjY1MWRjYmE3N2U2NiIsCiAgInByb2ZpbGVOYW1lIiA6ICI0MTQxNDE0MWgiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjAzMmEwMTY2MjFlMTI2ODcwZmEwMGMyOWM1MWQ5NDJhZmRiYTVhOTRhMjMyN2YyNjRmZTFhOTQwOWU0NTVhZSIKICAgIH0KICB9Cn0\"}]}},display:{Lore:[0:\"§7Health: §a+30\",1:\"§7Defense: §a+20\",2:\"\",3:\"§7All stats on this piece of equipment\",4:\"§7are multiplied by §52x §7while on the End\",5:\"§7Island!\",6:\"\",7:\"§7§8This item can be reforged!\",8:\"§8§l* §8Co-op Soulbound §8§l*\",9:\"§5§lEPIC BELT\"],Name:\"§5Ender Belt\"},ExtraAttributes:{id:\"ENDER_BELT\",uuid:\"4773f374-329d-4221-acaa-a7155759b331\",timestamp:1717256176492L}}",
             "damage": 3,
             "lore": [
-              "§7Defense: §a+70",
-              "§7Health Regen: §a+1.25",
+              "§7Health: §a+30",
+              "§7Defense: §a+20",
               "",
-              "§bBlazing Resistance I",
-              "§7Grants §a+1.5❈ Defense §7against",
-              "§7§amobs in §aCrimson Isle§7.",
-              "§bLife Regeneration I",
-              "§7Grants §c+1.25❣ Health Regen§7.",
-              "",
-              "§6Ability: Consolidated ",
-              "§7§7Increases all explosion damage",
-              "§7dealt by §a25%§7.",
+              "§7All stats on this piece of equipment",
+              "§7are multiplied by §52x §7while on the End",
+              "§7Island!",
               "",
               "§7§8This item can be reforged!",
+              "§8§l* §8Co-op Soulbound §8§l*",
               "§5§lEPIC BELT"
             ],
             "internalname": "_"
           }
         },
-        "magicalPower": 309,
-        "chestCount": 0,
-        "openedChestCount": 0,
-        "mithrilPowderFound": 0,
-        "gemstonePowderFound": 0,
+        "magicalPower": 50,
+        "chestCount": 4,
+        "openedChestCount": 4,
+        "mithrilPowderFound": 2441,
+        "gemstonePowderFound": 4616,
         "abiphoneFavouriteContacts": [],
         "abiphoneShowOnlyFavourites": false,
-        "hotmTree": {}
+        "hotmTree": {
+          "Mining Speed": 14,
+          "Mining Fortune": 1,
+          "Titanium Insanium": 10,
+          "Daily Powder": 10
+        }
       },
       "Banana": {
-        "godPotionDuration": 68400000,
-        "puzzlerCompleted": 1716589742932,
+        "godPotionDuration": 28800000,
+        "puzzlerCompleted": 1717195784408,
         "firstCakeAte": 1716731413611,
-        "fetchurCompleted": 1716630283808,
-        "commissionsCompleted": 1716589135503,
+        "fetchurCompleted": 1717195836307,
+        "commissionsCompleted": 1717757517165,
         "lastFreeRiftInfusionApplied": 1716835769902,
         "experimentsCompleted": 1716732110690,
-        "cookieBuffRemaining": 1717421780303,
+        "cookieBuffRemaining": 1717866268849,
         "forgeItems": [
           {
-            "itemName": "Refined Titanium",
-            "finishTime": 1717211725143,
-            "status": 2,
+            "finishTime": 0,
+            "status": 0,
             "forgeID": 0,
-            "fromScoreBoard": false
+            "fromScoreBoard": true
           },
           {
-            "itemName": "Refined Titanium",
-            "finishTime": 1717211728143,
-            "status": 2,
+            "finishTime": 0,
+            "status": 0,
             "forgeID": 1,
-            "fromScoreBoard": false
+            "fromScoreBoard": true
           },
           {
-            "itemName": "Refined Titanium",
-            "finishTime": 1717211731143,
-            "status": 2,
+            "finishTime": 0,
+            "status": 0,
             "forgeID": 2,
-            "fromScoreBoard": false
+            "fromScoreBoard": true
           },
           {
-            "itemName": "Refined Titanium",
-            "finishTime": 1717211733143,
-            "status": 2,
+            "finishTime": 0,
+            "status": 0,
             "forgeID": 3,
-            "fromScoreBoard": false
+            "fromScoreBoard": true
           },
           {
-            "itemName": "Refined Titanium",
-            "finishTime": 1717211742143,
-            "status": 2,
+            "finishTime": 0,
+            "status": 0,
             "forgeID": 4,
-            "fromScoreBoard": false
+            "fromScoreBoard": true
           }
         ],
         "hotmDesires": {},
@@ -918,8 +1144,8 @@
           "Amethyst": 0,
           "Topaz": 0
         },
-        "dailyGemstonePowderCompleted": 1716116024819,
-        "dailyMithrilPowerCompleted": 1716588968629,
+        "dailyGemstonePowderCompleted": 1717718419636,
+        "dailyMithrilPowerCompleted": 1717719199497,
         "nonUnlockedWarpScrolls": [],
         "dailyHeavyPearlCompleted": 1716329324454,
         "questBoardCompleted": 0,
@@ -928,7 +1154,7 @@
           "19": {
             "itemid": "minecraft:skull",
             "displayname": "§5Strengthened Molten Cloak",
-            "nbttag": "{HideFlags:254,SkullOwner:{Id:\"e7b0b792-7786-3b14-82b0-d04f7b5fbf7c\",Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTY0NzAxNjQzNDExNiwKICAicHJvZmlsZUlkIiA6ICJlZThjNWMzMGY3NWU0N2QxOTBmOTllNjI5NDgyOGZjMSIsCiAgInByb2ZpbGVOYW1lIiA6ICJTcGFya19QaGFudG9tIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzZjMThiYjBmNTJmMjQ2ZWM5YmZmNWYwNTc2MTQ1NmJlMjczZTczMGNkMjc2NTU1ZmQ3NzJiYThjM2ZhMGYxNDQiCiAgICB9CiAgfQp9\"}]}},display:{Lore:[0:\"§7Strength: §c+25 §9(+5)\",1:\"§7Health: §a+30\",2:\"§7Defense: §a+26 §9(+6)\",3:\"§7Speed: §a+5\",4:\"\",5:\"§bSpeed I\",6:\"§7Grants §f+5✦ Speed§7.\",7:\"§cVitality I ✖\",8:\"§7Grants §4+3♨ Vitality§7.\",9:\"\",10:\"§8Tiered Bonus: Molten Core (0/4)\",11:\"§7Gain §a5% §7damage resistance while\",12:\"§7fighting §6Kuudra§7.\",13:\"\",14:\"§5§lEPIC CLOAK\"],Name:\"§5Strengthened Molten Cloak\"},ExtraAttributes:{modifier:\"strengthened\",attributes:{mending:1,speed:1},id:\"MOLTEN_CLOAK\",boss_tier:0,uuid:\"c5b79b47-4ff7-42b7-ad19-4436d0ee158f\",timestamp:1692451560000L}}",
+            "nbttag": "{HideFlags:254,SkullOwner:{Id:\"e7b0b792-7786-3b14-82b0-d04f7b5fbf7c\",Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTY0NzAxNjQzNDExNiwKICAicHJvZmlsZUlkIiA6ICJlZThjNWMzMGY3NWU0N2QxOTBmOTllNjI5NDgyOGZjMSIsCiAgInByb2ZpbGVOYW1lIiA6ICJTcGFya19QaGFudG9tIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzZjMThiYjBmNTJmMjQ2ZWM5YmZmNWYwNTc2MTQ1NmJlMjczZTczMGNkMjc2NTU1ZmQ3NzJiYThjM2ZhMGYxNDQiCiAgICB9CiAgfQp9\"}]}},display:{Lore:[0:\"§7Strength: §c+25 §9(+5)\",1:\"§7Health: §a+30\",2:\"§7Defense: §a+26 §9(+6)\",3:\"§7Speed: §a+5\",4:\"\",5:\"§bSpeed I\",6:\"§7Grants §f+5✦ Speed§7.\",7:\"§cVitality I ✖\",8:\"§7Grants §4+3♨ Vitality§7.\",9:\"\",10:\"§6Tiered Bonus: Molten Core (2/4)\",11:\"§7Gain §a5% §7damage resistance while\",12:\"§7fighting §6Kuudra§7.\",13:\"\",14:\"§5§lEPIC CLOAK\"],Name:\"§5Strengthened Molten Cloak\"},ExtraAttributes:{modifier:\"strengthened\",attributes:{mending:1,speed:1},id:\"MOLTEN_CLOAK\",boss_tier:0,uuid:\"c5b79b47-4ff7-42b7-ad19-4436d0ee158f\",timestamp:1692451560000L}}",
             "damage": 3,
             "lore": [
               "§7Strength: §c+25 §9(+5)",
@@ -941,7 +1167,7 @@
               "§cVitality I ✖",
               "§7Grants §4+3♨ Vitality§7.",
               "",
-              "§8Tiered Bonus: Molten Core (0/4)",
+              "§6Tiered Bonus: Molten Core (2/4)",
               "§7Gain §a5% §7damage resistance while",
               "§7fighting §6Kuudra§7.",
               "",
@@ -952,7 +1178,7 @@
           "37": {
             "itemid": "minecraft:skull",
             "displayname": "§5Strengthened Molten Bracelet",
-            "nbttag": "{HideFlags:254,SkullOwner:{Id:\"479e23bf-e9c9-3cb7-a346-795f3b0847a9\",Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTY0NzAxNjUwNTAzMSwKICAicHJvZmlsZUlkIiA6ICJiYzRlZGZiNWYzNmM0OGE3YWM5ZjFhMzlkYzIzZjRmOCIsCiAgInByb2ZpbGVOYW1lIiA6ICI4YWNhNjgwYjIyNDYxMzQwIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzIwNTI5NGY4OTE1YzhkYTliNmUzODI5ZjZkYmExMzVmODhhYjQ3NjFiOTQzMGUxOGZmMTI1ZWYzZTk1MGNjZGYiCiAgICB9CiAgfQp9\"}]}},display:{Lore:[0:\"§7Strength: §c+25 §9(+5)\",1:\"§7Health: §a+30\",2:\"§7Defense: §a+26 §9(+6)\",3:\"§7Speed: §a+10\",4:\"\",5:\"§bSpeed II\",6:\"§7Grants §f+10✦ Speed§7.\",7:\"§cVitality II ✖\",8:\"§7Grants §4+6♨ Vitality§7.\",9:\"\",10:\"§8Tiered Bonus: Molten Core (1/4)\",11:\"§7Gain §a5% §7damage resistance while\",12:\"§7fighting §6Kuudra§7.\",13:\"\",14:\"§5§lEPIC BRACELET\"],Name:\"§5Strengthened Molten Bracelet\"},ExtraAttributes:{modifier:\"strengthened\",attributes:{mending:2,speed:2},id:\"MOLTEN_BRACELET\",boss_tier:2,uuid:\"89a1c090-bb51-4a66-aaac-1e0b59dc8284\",timestamp:1689794040000L}}",
+            "nbttag": "{HideFlags:254,SkullOwner:{Id:\"479e23bf-e9c9-3cb7-a346-795f3b0847a9\",Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTY0NzAxNjUwNTAzMSwKICAicHJvZmlsZUlkIiA6ICJiYzRlZGZiNWYzNmM0OGE3YWM5ZjFhMzlkYzIzZjRmOCIsCiAgInByb2ZpbGVOYW1lIiA6ICI4YWNhNjgwYjIyNDYxMzQwIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzIwNTI5NGY4OTE1YzhkYTliNmUzODI5ZjZkYmExMzVmODhhYjQ3NjFiOTQzMGUxOGZmMTI1ZWYzZTk1MGNjZGYiCiAgICB9CiAgfQp9\"}]}},display:{Lore:[0:\"§7Strength: §c+25 §9(+5)\",1:\"§7Health: §a+30\",2:\"§7Defense: §a+26 §9(+6)\",3:\"§7Speed: §a+10\",4:\"\",5:\"§bSpeed II\",6:\"§7Grants §f+10✦ Speed§7.\",7:\"§cVitality II ✖\",8:\"§7Grants §4+6♨ Vitality§7.\",9:\"\",10:\"§6Tiered Bonus: Molten Core (2/4)\",11:\"§7Gain §a5% §7damage resistance while\",12:\"§7fighting §6Kuudra§7.\",13:\"\",14:\"§5§lEPIC BRACELET\"],Name:\"§5Strengthened Molten Bracelet\"},ExtraAttributes:{modifier:\"strengthened\",attributes:{mending:2,speed:2},id:\"MOLTEN_BRACELET\",boss_tier:2,uuid:\"89a1c090-bb51-4a66-aaac-1e0b59dc8284\",timestamp:1689794040000L}}",
             "damage": 3,
             "lore": [
               "§7Strength: §c+25 §9(+5)",
@@ -965,7 +1191,7 @@
               "§cVitality II ✖",
               "§7Grants §4+6♨ Vitality§7.",
               "",
-              "§8Tiered Bonus: Molten Core (1/4)",
+              "§6Tiered Bonus: Molten Core (2/4)",
               "§7Gain §a5% §7damage resistance while",
               "§7fighting §6Kuudra§7.",
               "",
@@ -1015,11 +1241,11 @@
             "internalname": "_"
           }
         },
-        "magicalPower": 560,
-        "chestCount": 2,
-        "openedChestCount": 2,
-        "mithrilPowderFound": 434,
-        "gemstonePowderFound": 739,
+        "magicalPower": 601,
+        "chestCount": 28,
+        "openedChestCount": 24,
+        "mithrilPowderFound": 12603,
+        "gemstonePowderFound": 9494,
         "abiphoneFavouriteContacts": [
           "Maddox the Slayer"
         ],
@@ -1035,7 +1261,10 @@
           "Quick Forge": 1,
           "Orbiter": 1,
           "Sky Mall": 1,
-          "Front Loaded": 1
+          "Front Loaded": 1,
+          "Mole": 35,
+          "Professional": 32,
+          "Powder Buff": 24
         }
       }
     },
@@ -1589,26 +1818,26 @@
       "ADAPTIVE_BELT"
     ],
     "previousAuctionSearches": [
+      "Fire Veil Wand",
       "Sunflower",
       "Chirping Stereo",
       "Adaptive Belt",
-      "Exp Share",
-      "Wither Boots"
+      "Exp Share"
     ],
     "previousBazaarSearches": [
-      "Enchanted Titanium",
-      "Mycelium",
-      "Enchanted Red Mushroom Block",
-      "Booster Cookie",
-      "Null Edge"
+      "Sludge Juice",
+      "❈ Fine Amethyst Gemstone",
+      "am",
+      "✎ Fine Sapphire Gemstone",
+      "⸕ Fine Amber Gemstone"
     ],
     "previousProfileSearches": [
-      "goldenale7",
-      "itstrigo",
-      "swplayerr",
-      "croakymusic",
-      "p4t_o",
-      "_eggan_"
+      "jonathanlanunez",
+      "_mel0ns_",
+      "jonathan",
+      "zzutten",
+      "zincs",
+      "irinatheta"
     ],
     "eventFavourites": [],
     "quickCommands": [

@@ -34,7 +34,7 @@
 		center_map = false
 		dynamic_rotate = false
 		rotate_map = false
-		map_enabled = true
+		map_enabled = false
 		show_player_names = 1
 		hide_in_boss = false
 

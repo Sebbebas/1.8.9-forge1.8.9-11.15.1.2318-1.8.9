@@ -42,13 +42,13 @@
         "SLAYER",
         "EVENTS",
         "OBJECTIVE",
-        "COOKIE",
         "EMPTY_LINE3",
         "POWER",
         "TUNING",
         "EMPTY_LINE4",
         "POWDER",
         "MAYOR",
+        "COOKIE",
         "EMPTY_LINE6",
         "PARTY",
         "EXTRA"
@@ -138,7 +138,7 @@
       },
       "unknownLinesWarning": true,
       "position": {
-        "x": 848,
+        "x": 847,
         "y": 200,
         "scale": 1.0,
         "center": false,
@@ -2340,6 +2340,7 @@
     "itemStars": false,
     "highlightMissingSkyBlockLevelGuide": true,
     "powerStoneGuide": true,
+    "favoritePowerStone": false,
     "shiftClickForEquipment": false,
     "shiftClickNPCSell": false,
     "shiftClickBrewing": false,
@@ -3195,56 +3196,105 @@
       "edc33d82-40ec-4086-87d3-275d985c4bcb": {
         "profiles": {
           "banana": {
-            "currentPet": "§6Bal",
+            "currentPet": "§6Wither Skeleton§e",
             "chocolateFactory": {
-              "currentRabbits": 83,
+              "currentRabbits": 102,
               "maxRabbits": 394,
-              "currentChocolate": 113721485,
-              "chocolateThisPrestige": 5869561262,
-              "chocolateAllTime": 7589477560,
-              "rawChocPerSecond": 4646,
-              "chocolateMultiplier": 1.712,
-              "rawChocolateMultiplier": 1.712,
-              "timeTowerLevel": 2,
+              "currentChocolate": 112343456,
+              "chocolateThisPrestige": 543641314,
+              "chocolateAllTime": 8979508010,
+              "rawChocPerSecond": 2942,
+              "chocolateMultiplier": 2.01,
+              "rawChocolateMultiplier": 2.01,
+              "timeTowerLevel": 1,
               "currentTimeTowerEnds": 0,
-              "nextTimeTower": 1717232945267,
+              "nextTimeTower": 1717893256333,
               "currentTimeTowerUses": 3,
               "timeTowerCooldown": 8,
               "maxTimeTowerUses": 3,
               "hasMuRabbit": false,
-              "bestUpgradeAvailableAt": 0,
-              "bestUpgradeCost": 0,
-              "lastDataSave": 1717672057076,
+              "bestUpgradeAvailableAt": 1717931252403,
+              "bestUpgradeCost": 126594,
+              "lastDataSave": 1717949329679,
               "positionChange": {
-                "lastTime": 1717672027807,
-                "lastPosition": 66041,
-                "lastLeaderboard": "#66 041 §7Top §a3.88%"
+                "lastTime": 1717949329626,
+                "lastPosition": 66191,
+                "lastLeaderboard": "#66 191 §7Top §a3.66%"
               },
-              "rabbitCounts": {},
-              "collectedEggLocations": {}
+              "rabbitCounts": {
+                "Sven": 1,
+                "Bubbles": 1,
+                "Bartholomew": 1,
+                "Lulu": 1,
+                "Olivier": 1,
+                "Blossom": 1,
+                "Comet": 1,
+                "Milo": 1,
+                "Cookie": 1,
+                "Brian": 1,
+                "Jeffery": 1,
+                "Frankie": 1,
+                "Frank": 1,
+                "Alfie": 1,
+                "Alice": 1,
+                "Jonah": 1,
+                "Bilbo": 1,
+                "Bruno": 1,
+                "Mopsy": 1,
+                "Lenny": 1,
+                "Linus": 1,
+                "Bun Bun": 1,
+                "Claude": 1,
+                "Skippe": 1,
+                "Thumper": 1,
+                "Hopper": 1
+              },
+              "collectedEggLocations": {
+                "CRYSTAL_HOLLOWS": [
+                  "508.0:115.0:564.0",
+                  "557.0:117.0:463.0",
+                  "530.0:71.0:465.0",
+                  "472.0:106.0:518.0",
+                  "513.0:70.0:513.0",
+                  "553.0:106.0:513.0"
+                ],
+                "DUNGEON_HUB": [
+                  "-21.0:120.0:-16.0",
+                  "0.0:146.0:-78.0",
+                  "5.0:11.0:-1.0",
+                  "-54.0:119.0:-13.0",
+                  "-34.0:119.0:9.0",
+                  "-138.0:21.0:-7.0",
+                  "-5.0:23.0:98.0",
+                  "-62.0:121.0:-7.0",
+                  "16.0:125.0:3.0",
+                  "-66.0:121.0:6.0"
+                ]
+              }
             },
             "maxwell": {
               "currentPower": "Bloody",
               "magicalPower": 601,
               "tunings": [
                 {
-                  "value": "16.5%",
+                  "value": "18%",
                   "color": "§e",
                   "name": "Bonus Attack Speed",
                   "icon": "⚔"
                 }
-              ]
+              ],
+              "favoritePowers": []
             },
             "arrows": {
               "currentArrow": "ARROW",
               "arrowAmount": {
-                "ARROW": 1296
+                "ARROW": 2389
               }
             },
             "bits": {
-              "bits": 42820,
+              "bits": 27040,
               "bitsAvailable": 0,
-              "boosterCookieExpiryTime": 1717866268288
+              "boosterCookieExpiryTime": 1718227788626
             },
             "minions": {
               "76.5:64.0:12.5": {
@@ -3358,16 +3408,17 @@
               "-68.5:80.0:-63.5": {
                 "displayName": "Mycelium Minion 4",
                 "lastClicked": 0
+              },
+              "46.5:64.0:-3.5": {
+                "displayName": "Slime Minion 10",
+                "lastClicked": 0
               }
             },
             "beaconPower": {},
             "crimsonIsle": {
               "quests": [
-                "Mage Outlaw:ACCEPTED:1:0",
-                "Magmag:ACCEPTED:10:0",
-                "Sulphur Skitter:ACCEPTED:1:0",
-                "Kill Kuudra Hot Tier:ACCEPTED:0",
-                "Tenacity Rank D:ACCEPTED:0"
+                "Gazing Pearl:NOT_ACCEPTED:12:0",
+                "Moldfin:NOT_ACCEPTED:1:0"
               ],
               "miniBossesDoneToday": [],
               "kuudraTiersDone": [],
@@ -3384,16 +3435,16 @@
               }
             },
             "garden": {
-              "experience": 70350,
+              "experience": 73150,
               "cropCounter": {
                 "MELON": 40352107,
                 "CARROT": 29898689,
                 "SUGAR_CANE": 25626020,
-                "CACTUS": 9117154,
+                "CACTUS": 9286320,
                 "POTATO": 20155123,
-                "NETHER_WART": 15761190,
+                "NETHER_WART": 18665490,
                 "MUSHROOM": 15077413,
-                "WHEAT": 12097206,
+                "WHEAT": 13143160,
                 "COCOA_BEANS": 23276292,
                 "PUMPKIN": 6318547
               },
@@ -3460,7 +3511,7 @@
                   }
                 }
               },
-              "informedAboutLowMatter": 1717238260999,
+              "informedAboutLowMatter": 1717971228260,
               "informedAboutLowFuel": 1717014210765,
               "visitorInterval": 660000,
               "nextSixthVisitorArrival": -400,
@@ -3557,7 +3608,7 @@
                   "pests": 0,
                   "sprayHasNotified": false,
                   "isBeingPasted": false,
-                  "isPestCountInaccurate": true,
+                  "isPestCountInaccurate": false,
                   "locked": false,
                   "uncleared": false
                 },
@@ -3584,7 +3635,7 @@
                 "15": {
                   "id": 15,
                   "name": "MelonPumpking1",
-                  "pests": 1,
+                  "pests": 0,
                   "sprayHasNotified": false,
                   "isBeingPasted": false,
                   "isPestCountInaccurate": false,
@@ -3597,7 +3648,7 @@
                   "pests": 0,
                   "sprayHasNotified": false,
                   "isBeingPasted": false,
-                  "isPestCountInaccurate": true,
+                  "isPestCountInaccurate": false,
                   "locked": false,
                   "uncleared": false
                 },
@@ -3617,7 +3668,7 @@
                   "pests": 0,
                   "sprayHasNotified": false,
                   "isBeingPasted": false,
-                  "isPestCountInaccurate": true,
+                  "isPestCountInaccurate": false,
                   "locked": false,
                   "uncleared": false
                 },
@@ -3627,7 +3678,7 @@
                   "pests": 0,
                   "sprayHasNotified": false,
                   "isBeingPasted": false,
-                  "isPestCountInaccurate": false,
+                  "isPestCountInaccurate": true,
                   "locked": false,
                   "uncleared": false
                 },
@@ -3677,7 +3728,7 @@
                   "pests": 0,
                   "sprayHasNotified": false,
                   "isBeingPasted": false,
-                  "isPestCountInaccurate": false,
+                  "isPestCountInaccurate": true,
                   "locked": false,
                   "uncleared": false
                 },
@@ -3687,7 +3738,7 @@
                   "pests": 0,
                   "sprayHasNotified": false,
                   "isBeingPasted": false,
-                  "isPestCountInaccurate": false,
+                  "isPestCountInaccurate": true,
                   "locked": false,
                   "uncleared": false
                 },
@@ -3697,7 +3748,7 @@
                   "pests": 0,
                   "sprayHasNotified": false,
                   "isBeingPasted": false,
-                  "isPestCountInaccurate": false,
+                  "isPestCountInaccurate": true,
                   "locked": false,
                   "uncleared": false
                 },
@@ -3707,7 +3758,7 @@
                   "pests": 0,
                   "sprayHasNotified": false,
                   "isBeingPasted": false,
-                  "isPestCountInaccurate": false,
+                  "isPestCountInaccurate": true,
                   "locked": false,
                   "uncleared": false
                 },
@@ -3757,7 +3808,7 @@
                   "pests": 0,
                   "sprayHasNotified": false,
                   "isBeingPasted": false,
-                  "isPestCountInaccurate": false,
+                  "isPestCountInaccurate": true,
                   "locked": false,
                   "uncleared": false
                 },
@@ -3782,7 +3833,7 @@
                   "uncleared": false
                 }
               },
-              "scoreboardPests": 5,
+              "scoreboardPests": 8,
               "cropStartLocations": {},
               "cropLastFarmedLocations": {},
               "farmingLanes": {},
@@ -3801,7 +3852,7 @@
                 "farmingStrength": 889,
                 "farmingLevel": 59,
                 "plotsUnlocked": 18,
-                "cakeExpiring": 1716904209748,
+                "cakeExpiring": 1718100970253,
                 "carrolyn": {
                   "CARROT": false,
                   "PUMPKIN": false,
@@ -3819,8 +3870,8 @@
                   "BOOTS": "eyJpdGVtaWQiOiJtaW5lY3JhZnQ6bGVhdGhlcl9ib290cyIsImRpc3BsYXluYW1lIjoiwqc1QnVzdGxpbmcgUmFuY2hlcidzIEJvb3RzIiwibmJ0dGFnIjoie2VuY2g6WzA6e2x2bDozcyxpZDo4c31dLFVuYnJlYWthYmxlOjFiLEhpZGVGbGFnczoyNTQsZGlzcGxheTp7TG9yZTpbMDpcIsKnN0hlYWx0aDogwqdhKzE3NVwiLDE6XCLCpzdEZWZlbnNlOiDCp2ErMjA4XCIsMjpcIsKnN1NwZWVkOiDCp2ErMjg2XCIsMzpcIsKnN0Zhcm1pbmcgRm9ydHVuZTogwqdhKzczIMKnOSgrNikgwqdkKCs4KVwiLDQ6XCLCpzdIZWFsdGggUmVnZW46IMKnYSsxMFwiLDU6XCIgwqc5W8KnMuKYmMKnOV0gwqc5W8KnMuKYmMKnOV1cIiw2OlwiXCIsNzpcIsKnOURlcHRoIFN0cmlkZXIgSUlJXCIsODpcIsKnOUZlYXRoZXIgRmFsbGluZyBYXCIsOTpcIsKnOUdyb3d0aCBWXCIsMTA6XCLCpzlQcm90ZWN0aW9uIFZcIiwxMTpcIsKnOVJlanV2ZW5hdGUgVlwiLDEyOlwiwqc5VGhvcm5zIElJSVwiLDEzOlwiXCIsMTQ6XCLCpzdUaGVzZSBib290cyBnYWluIMKnYSsy4p2IIERlZmVuc2Ugwqc3YW5kXCIsMTU6XCLCpzfCp2YrNOKcpiBTcGVlZMKnNyBmb3IgZXZlcnkgRmFybWluZyBTa2lsbFwiLDE2Olwiwqc3bGV2ZWwgeW91IGhhdmUuIFdoaWxlIG9uIHRoZSDCp2JHYXJkZW7CpzcsXCIsMTc6XCLCpzd0aGVzZSBib290cyBhbHNvIGdhaW4gwqc2KzHimJggRmFybWluZ1wiLDE4Olwiwqc2Rm9ydHVuZSDCpzdmb3IgZXZlcnkgRmFybWluZyBTa2lsbCBsZXZlbC5cIiwxOTpcIlwiLDIwOlwiwqc2QWJpbGl0eTogRmFybWVyJ3MgU3BlZWQgIMKnZcKnbExFRlQgQ0xJQ0tcIiwyMTpcIsKnN1NldCBhIG1heGltdW0gYW1vdW50IG9mIMKnZuKcpiBTcGVlZMKnNy5cIiwyMjpcIlwiLDIzOlwiwqc2QWJpbGl0eTogRmFybWVyJ3MgR3JhY2UgXCIsMjQ6XCLCpzdHcmFudHMgaW1tdW5pdHkgdG8gdHJhbXBsaW5nIGNyb3BzLlwiLDI1OlwiXCIsMjY6XCLCpzdCb251cyBEZWZlbnNlOiDCp2ExMThcIiwyNzpcIsKnN0JvbnVzIFNwZWVkOiDCp2EyMzZcIiwyODpcIsKnN0JvbnVzIEZhcm1pbmcgRm9ydHVuZTogwqdhNTlcIiwyOTpcIlwiLDMwOlwiwqc3Q3VycmVudCBTcGVlZCBDYXA6IMKnYcKnYTI4MlwiLDMxOlwiXCIsMzI6XCLCpzjCp2wqIMKnOENvLW9wIFNvdWxib3VuZCDCpzjCp2wqXCIsMzM6XCLCpzXCp2xFUElDIEJPT1RTXCJdLGNvbG9yOjAsTmFtZTpcIsKnNUJ1c3RsaW5nIFJhbmNoZXIncyBCb290c1wifSxFeHRyYUF0dHJpYnV0ZXM6e2dlbXM6e3VubG9ja2VkX3Nsb3RzOlswOlwiUEVSSURPVF8xXCIsMTpcIlBFUklET1RfMFwiXSxQRVJJRE9UXzE6XCJGSU5FXCIsUEVSSURPVF8wOlwiRklORVwifSxtb2RpZmllcjpcImJ1c3RsaW5nXCIscmFuY2hlcnNfc3BlZWQ6MjgyLGlkOlwiUkFOQ0hFUlNfQk9PVFNcIixlbmNoYW50bWVudHM6e2RlcHRoX3N0cmlkZXI6Myx0aG9ybnM6MyxmZWF0aGVyX2ZhbGxpbmc6MTAscmVqdXZlbmF0ZTo1LHByb3RlY3Rpb246NSxncm93dGg6NX0sdXVpZDpcImM0YjljNjQxLTAxYTUtNDZjNS04ZjAxLTk5OWQ2YTRiNzNmNFwiLGRvbmF0ZWRfbXVzZXVtOjFiLHRpbWVzdGFtcDoxNjU4NDk0NTAwMDAwTH19IiwiZGFtYWdlIjowLCJpbnRlcm5hbG5hbWUiOiJfIn0\u003d",
                   "CHESTPLATE": "eyJpdGVtaWQiOiJtaW5lY3JhZnQ6bGVhdGhlcl9jaGVzdHBsYXRlIiwiZGlzcGxheW5hbWUiOiLCp2RNb3NzeSBGZXJtZW50byBDaGVzdHBsYXRlIiwibmJ0dGFnIjoie2VuY2g6W10sVW5icmVha2FibGU6MWIsSGlkZUZsYWdzOjI1NCxkaXNwbGF5OntMb3JlOlswOlwiwqc3SGVhbHRoOiDCp2ErMjcwXCIsMTpcIsKnN0RlZmVuc2U6IMKnYSs2MFwiLDI6XCLCpzdTcGVlZDogwqdhKzEzIMKnOSgrNylcIiwzOlwiwqc3RmFybWluZyBGb3J0dW5lOiDCp2ErNzcgwqc5KCszMCkgwqdkKCsxMilcIiw0OlwiIMKnOVvCpzLimJjCpzldIMKnOVvCpzLimJjCpzldXCIsNTpcIlwiLDY6XCLCpzlHcm93dGggVlwiLDc6XCLCpzdHcmFudHMgwqdhKzc1IMKnY+KdpCBIZWFsdGjCpzcuXCIsODpcIsKnOVByb3RlY3Rpb24gVlwiLDk6XCLCpzdHcmFudHMgwqdhKzIwIMKnYeKdiCBEZWZlbnNlwqc3LlwiLDEwOlwiXCIsMTE6XCLCpzZUaWVyZWQgQm9udXM6IEZlYXN0ICgzLzQpXCIsMTI6XCLCpzdDb21iaW5lcyB0aGUgVGllcmVkIEJvbnVzZXMgb2ZcIiwxMzpcIsKnN3dlYXJpbmcgwqdhMyBwaWVjZXMgwqc3b2YgdGhlIE1lbG9uIEFybW9yLFwiLDE0Olwiwqc3Q3JvcGllIEFybW9yLCBhbmQgU3F1YXNoIEFybW9yLlwiLDE1Olwiwqc3wqc3R3JhbnRzIMKnNjUw4piYIEZhcm1pbmcgRm9ydHVuZcKnNy5cIiwxNjpcIlwiLDE3Olwiwqc4wqdsKiDCpzhDby1vcCBTb3VsYm91bmQgwqc4wqdsKlwiLDE4OlwiwqdkwqdswqdrYcKnciDCp2TCp2zCp2TCp2xNWVRISUMgQ0hFU1RQTEFURSDCp2TCp2zCp2thXCJdLGNvbG9yOjU4MDIyNTIsTmFtZTpcIsKnZE1vc3N5IEZlcm1lbnRvIENoZXN0cGxhdGVcIn0sRXh0cmFBdHRyaWJ1dGVzOntyYXJpdHlfdXBncmFkZXM6MSxnZW1zOnt1bmxvY2tlZF9zbG90czpbMDpcIlBFUklET1RfMFwiLDE6XCJQRVJJRE9UXzFcIl0sUEVSSURPVF8xOlwiRklORVwiLFBFUklET1RfMDpcIkZJTkVcIn0sbW9kaWZpZXI6XCJtb3NzeVwiLGlkOlwiRkVSTUVOVE9fQ0hFU1RQTEFURVwiLGVuY2hhbnRtZW50czp7Z3Jvd3RoOjUscHJvdGVjdGlvbjo1fSx1dWlkOlwiODhjNWQ2NjAtNjAyYi00MDlmLWExOTctMjZjNDhhYjczZDM3XCIsZG9uYXRlZF9tdXNldW06MWIsdGltZXN0YW1wOjE2ODUwMDM4MjAwMDBMfX0iLCJkYW1hZ2UiOjAsImludGVybmFsbmFtZSI6Il8ifQ\u003d\u003d",
                   "ELEPHANT": "eyJpdGVtaWQiOiJtaW5lY3JhZnQ6c2t1bGwiLCJkaXNwbGF5bmFtZSI6IsKnN1tMdmwgMTAwXSDCpzZFbGVwaGFudCIsIm5idHRhZyI6IntTa3VsbE93bmVyOntJZDpcImFhZmI1ODBhLWNjZjgtNDFkMS1hZmRjLWJkMmNmODFjNTE1MlwiLGh5cGl4ZWxQb3B1bGF0ZWQ6MWIsUHJvcGVydGllczp7dGV4dHVyZXM6WzA6e1ZhbHVlOlwiZXlKMFpYaDBkWEpsY3lJNmV5SlRTMGxPSWpwN0luVnliQ0k2SW1oMGRIQTZMeTkwWlhoMGRYSmxjeTV0YVc1bFkzSmhablF1Ym1WMEwzUmxlSFIxY21Vdk56QTNNV0UzTm1ZMk5qbGtZalZsWkRaa016SmlORGhpWWpKa1ltRTFOV1ExTXpFM1pEZG1ORFV5TWpWallqTXlOamRsWXpRek5XTm1ZVFV4TkNKOWZYMD1cIn1dfSxOYW1lOlwiwqdhYWZiNTgwYS1jY2Y4LTQxZDEtYWZkYy1iZDJjZjgxYzUxNTJcIn0sZGlzcGxheTp7TG9yZTpbMDpcIsKnOEZhcm1pbmcgUGV0XCIsMTpcIlwiLDI6XCLCpzdIZWFsdGg6IMKnYSsxMDBcIiwzOlwiwqc3SW50ZWxsaWdlbmNlOiDCp2ErNzVcIiw0Olwiwqc3RmFybWluZyBGb3J0dW5lOiDCp2ErNjBcIiw1OlwiXCIsNjpcIsKnNlN0b21wXCIsNzpcIsKnN8KnN0dhaW4gwqdhMjDinYggRGVmZW5zZSDCpzdmb3IgZXZlcnkgMTAwIMKnZuKcplwiLDg6XCLCp2ZTcGVlZMKnNy5cIiw5OlwiXCIsMTA6XCLCpzZXYWxraW5nIEZvcnRyZXNzXCIsMTE6XCLCpzfCpzdHYWluIMKnYzHinaQgSGVhbHRoIMKnN2ZvciBldmVyeSAxMCDCp2HinYhcIiwxMjpcIsKnYURlZmVuc2XCpzcuXCIsMTM6XCJcIiwxNDpcIsKnNlRydW5rIEVmZmljaWVuY3lcIiwxNTpcIsKnN8KnN0dyYW50cyDCpzYrMTUw4piYIEZhcm1pbmcgRm9ydHVuZcKnNyxcIiwxNjpcIsKnN3doaWNoIGluY3JlYXNlcyB5b3VyIGNoYW5jZSBmb3JcIiwxNzpcIsKnN211bHRpcGxlIGRyb3BzLlwiLDE4OlwiXCIsMTk6XCLCpzZIZWxkIEl0ZW06IMKnNUdyZWVuIEJhbmRhbmFcIiwyMDpcIsKnN0dyYW50cyDCpzYrNOKYmCBGYXJtaW5nIEZvcnR1bmUgwqc3Zm9yXCIsMjE6XCLCpzdlYWNoIG9mIHlvdXIgR2FyZGVuIExldmVscy5cIiwyMjpcIlwiLDIzOlwiwqdiwqdsTUFYIExFVkVMXCIsMjQ6XCLCpzjilrggMTEzLDU0Myw5MjQgWFBcIiwyNTpcIlwiLDI2Olwiwqc3wqdlTGVmdC1jbGljayB0byBzdW1tb24hXCIsMjc6XCLCp2VSaWdodC1jbGljayB0byBjb252ZXJ0IHRvIGFuIGl0ZW0hXCJdLE5hbWU6XCLCpzdbTHZsIDEwMF0gwqc2RWxlcGhhbnRcIn0sRXh0cmFBdHRyaWJ1dGVzOntwZXRJbmZvOlwie1xcXCJ0eXBlXFxcIjpcXFwiRUxFUEhBTlRcXFwiLFxcXCJhY3RpdmVcXFwiOmZhbHNlLFxcXCJleHBcXFwiOjEuMTM1NDM5MjQ3NzEzNDk2N0U4LFxcXCJ0aWVyXFxcIjpcXFwiTEVHRU5EQVJZXFxcIixcXFwiaGlkZUluZm9cXFwiOmZhbHNlLFxcXCJoZWxkSXRlbVxcXCI6XFxcIkdSRUVOX0JBTkRBTkFcXFwiLFxcXCJjYW5keVVzZWRcXFwiOjAsXFxcInV1aWRcXFwiOlxcXCIzMGI0MDFiOS1jMTMzLTQyNmItODhlMS1mYTJkNmM2MzI1YWFcXFwiLFxcXCJ1bmlxdWVJZFxcXCI6XFxcImU4Zjk0M2E0LWY3MjYtNDNkOC1iMWI3LTI1MjRjYjA2NWM1N1xcXCIsXFxcImhpZGVSaWdodENsaWNrXFxcIjpmYWxzZSxcXFwibm9Nb3ZlXFxcIjpmYWxzZX1cIixpZDpcIlBFVFwiLHV1aWQ6XCIzMGI0MDFiOS1jMTMzLTQyNmItODhlMS1mYTJkNmM2MzI1YWFcIn19IiwiZGFtYWdlIjozLCJpbnRlcm5hbG5hbWUiOiJfIn0\u003d",
-                  "MOOSHROOM_COW": "eyJpdGVtaWQiOiJtaW5lY3JhZnQ6c2t1bGwiLCJkaXNwbGF5bmFtZSI6IsKnN1tMdmwgMTAwXSDCpzZNb29zaHJvb20gQ293IiwibmJ0dGFnIjoie1NrdWxsT3duZXI6e0lkOlwiYmQ2MDQzYTItM2Y0Mi00OTE2LTgyZDgtYTlhMzQyOWUwMGJkXCIsaHlwaXhlbFBvcHVsYXRlZDoxYixQcm9wZXJ0aWVzOnt0ZXh0dXJlczpbMDp7VmFsdWU6XCJleUowWlhoMGRYSmxjeUk2ZXlKVFMwbE9JanA3SW5WeWJDSTZJbWgwZEhBNkx5OTBaWGgwZFhKbGN5NXRhVzVsWTNKaFpuUXVibVYwTDNSbGVIUjFjbVV2TW1JMU1qZzBNV1l5Wm1RMU9EbGxNR0pqT0RSalltRmlaamxsTVdNeU4yTmlOekJqWVdNNU9HWTRaRFppTTJSa01EWTFaVFUxWVRSa1kySTNNR1EzTnlKOWZYMD1cIn1dfSxOYW1lOlwiwqdiZDYwNDNhMi0zZjQyLTQ5MTYtODJkOC1hOWEzNDI5ZTAwYmRcIn0sZGlzcGxheTp7TG9yZTpbMDpcIsKnOEZhcm1pbmcgUGV0XCIsMTpcIlwiLDI6XCLCpzdIZWFsdGg6IMKnYSsxMDBcIiwzOlwiwqc3RmFybWluZyBGb3J0dW5lOiDCp2ErMTcwXCIsNDpcIlwiLDU6XCLCpzZFZmZpY2llbnQgTXVzaHJvb21zXCIsNjpcIsKnN8KnN011c2hyb29twqc3IGFuZCBNeWNlbGl1bSBtaW5pb25zIHdvcmtcIiw3Olwiwqc3wqdhMzAlIMKnN2Zhc3RlciB3aGlsZSBvbiB5b3VyIGlzbGFuZC5cIiw4OlwiXCIsOTpcIsKnNk11c2hyb29tIEVhdGVyXCIsMTA6XCLCpzfCpzdXaGVuIGJyZWFraW5nIG1hdHVyZSBjcm9wcywgdGhlcmVcIiwxMTpcIsKnN2lzIGEgwqdhMTAwJSDCpzdjaGFuY2UgdGhhdCBhIG11c2hyb29tXCIsMTI6XCLCpzd3aWxsIGRyb3AuXCIsMTM6XCJcIiwxNDpcIsKnNkZhcm1pbmcgU3RyZW5ndGhcIiwxNTpcIsKnN8KnN0dhaW4gwqc2KzAuN+KYmCBGYXJtaW5nIEZvcnR1bmUgwqc3cGVyXCIsMTY6XCLCpzdldmVyeSDCp2MyMCDCp2PinYEgU3RyZW5ndGjCpzcuXCIsMTc6XCJcIiwxODpcIsKnNkhlbGQgSXRlbTogwqc1R3JlZW4gQmFuZGFuYVwiLDE5Olwiwqc3R3JhbnRzIMKnNis04piYIEZhcm1pbmcgRm9ydHVuZSDCpzdmb3JcIiwyMDpcIsKnN2VhY2ggb2YgeW91ciBHYXJkZW4gTGV2ZWxzLlwiLDIxOlwiXCIsMjI6XCLCp2LCp2xNQVggTEVWRUxcIiwyMzpcIsKnOOKWuCA1OCw0NjUsMDMyIFhQXCIsMjQ6XCJcIiwyNTpcIsKnN8KnZUxlZnQtY2xpY2sgdG8gc3VtbW9uIVwiLDI2OlwiwqdlUmlnaHQtY2xpY2sgdG8gY29udmVydCB0byBhbiBpdGVtIVwiXSxOYW1lOlwiwqc3W0x2bCAxMDBdIMKnNk1vb3Nocm9vbSBDb3dcIn0sRXh0cmFBdHRyaWJ1dGVzOntwZXRJbmZvOlwie1xcXCJ0eXBlXFxcIjpcXFwiTU9PU0hST09NX0NPV1xcXCIsXFxcImFjdGl2ZVxcXCI6ZmFsc2UsXFxcImV4cFxcXCI6NS44NDY1MDMyODg1NTk1Nzc2RTcsXFxcInRpZXJcXFwiOlxcXCJMRUdFTkRBUllcXFwiLFxcXCJoaWRlSW5mb1xcXCI6ZmFsc2UsXFxcImhlbGRJdGVtXFxcIjpcXFwiR1JFRU5fQkFOREFOQVxcXCIsXFxcImNhbmR5VXNlZFxcXCI6MCxcXFwidXVpZFxcXCI6XFxcIjJjNDY0NDA4LTI0YmItNGQ1Ni1hY2UwLWJjYWU3ODE2YjEwMFxcXCIsXFxcInVuaXF1ZUlkXFxcIjpcXFwiZDRmYzE5NzMtMjQwZS00YjgwLThmYmItNjEyNWJkZGEwMjdhXFxcIixcXFwiaGlkZVJpZ2h0Q2xpY2tcXFwiOmZhbHNlLFxcXCJub01vdmVcXFwiOmZhbHNlfVwiLGlkOlwiUEVUXCIsdXVpZDpcIjJjNDY0NDA4LTI0YmItNGQ1Ni1hY2UwLWJjYWU3ODE2YjEwMFwifX0iLCJkYW1hZ2UiOjMsImludGVybmFsbmFtZSI6Il8ifQ\u003d\u003d",
-                  "RABBIT": "eyJpdGVtaWQiOiJtaW5lY3JhZnQ6c2t1bGwiLCJkaXNwbGF5bmFtZSI6IsKnN1tMdmwgMTAwXSDCpzZSYWJiaXQiLCJuYnR0YWciOiJ7U2t1bGxPd25lcjp7SWQ6XCJjNTMyYzRlYi1hNjMxLTRhMTktYTc1MS1jNTM0ZDg4ODRhYThcIixoeXBpeGVsUG9wdWxhdGVkOjFiLFByb3BlcnRpZXM6e3RleHR1cmVzOlswOntWYWx1ZTpcImV5SjBaWGgwZFhKbGN5STZleUpUUzBsT0lqcDdJblZ5YkNJNkltaDBkSEE2THk5MFpYaDBkWEpsY3k1dGFXNWxZM0poWm5RdWJtVjBMM1JsZUhSMWNtVXZNVEUzWW1abVl6RTVOekpoWTJRM1pqTmlOR0U0WmpRellqVmlObU0zTlRNME5qazFZamhtWkRZeU5qYzNaVEF6TURaaU1qZ3pNVFUzTkdJaWZYMTlcIn1dfSxOYW1lOlwiwqdjNTMyYzRlYi1hNjMxLTRhMTktYTc1MS1jNTM0ZDg4ODRhYThcIn0sZGlzcGxheTp7TG9yZTpbMDpcIsKnOEZhcm1pbmcgUGV0XCIsMTpcIlwiLDI6XCLCpzdIZWFsdGg6IMKnYSsxMDBcIiwzOlwiwqc3U3BlZWQ6IMKnYSsyMFwiLDQ6XCJcIiw1Olwiwqc2SGFwcHkgRmVldFwiLDY6XCLCpzfCpzdKdW1wIHBvdGlvbnMgYWxzbyBnaXZlIMKnYSs1MCDCpzdzcGVlZC5cIiw3OlwiXCIsODpcIsKnNkZhcm1pbmcgV2lzZG9tIEJvb3N0XCIsOTpcIsKnN8KnN8KnN0dyYW50cyDCpzMrMzDimK8gRmFybWluZyBXaXNkb23CpzcuXCIsMTA6XCJcIiwxMTpcIsKnNkVmZmljaWVudCBGYXJtaW5nXCIsMTI6XCLCpzfCpzdGYXJtaW5nIG1pbmlvbnMgd29yayDCp2EzMCUgwqc3ZmFzdGVyXCIsMTM6XCLCpzd3aGlsZSBvbiB5b3VyIGlzbGFuZC5cIiwxNDpcIlwiLDE1Olwiwqc2SGVsZCBJdGVtOiDCpzlGYXJtaW5nIEV4cCBCb29zdFwiLDE2Olwiwqc3R2l2ZXMgwqdhKzQwJSDCpzdwZXQgZXhwIGZvciBGYXJtaW5nLlwiLDE3OlwiXCIsMTg6XCLCp2LCp2xNQVggTEVWRUxcIiwxOTpcIsKnOOKWuCAzOSw1MTcsNTc0IFhQXCIsMjA6XCJcIiwyMTpcIsKnN8KnZUxlZnQtY2xpY2sgdG8gc3VtbW9uIVwiLDIyOlwiwqdlUmlnaHQtY2xpY2sgdG8gY29udmVydCB0byBhbiBpdGVtIVwiXSxOYW1lOlwiwqc3W0x2bCAxMDBdIMKnNlJhYmJpdFwifSxFeHRyYUF0dHJpYnV0ZXM6e3BldEluZm86XCJ7XFxcInR5cGVcXFwiOlxcXCJSQUJCSVRcXFwiLFxcXCJhY3RpdmVcXFwiOmZhbHNlLFxcXCJleHBcXFwiOjMuOTUxNzU3NDE2Mjc1MDM3RTcsXFxcInRpZXJcXFwiOlxcXCJMRUdFTkRBUllcXFwiLFxcXCJoaWRlSW5mb1xcXCI6ZmFsc2UsXFxcImhlbGRJdGVtXFxcIjpcXFwiUEVUX0lURU1fRkFSTUlOR19TS0lMTF9CT09TVF9SQVJFXFxcIixcXFwiY2FuZHlVc2VkXFxcIjowLFxcXCJ1dWlkXFxcIjpcXFwiZjc2NzVmODMtNmJjYS00NTE3LTlmYzUtNzM0MzY5ZTc4N2M4XFxcIixcXFwidW5pcXVlSWRcXFwiOlxcXCI5MGFiYjQwZC1lYTc0LTQ2YzgtYjdmNS0wMDRkZjBjOTkyMWFcXFwiLFxcXCJoaWRlUmlnaHRDbGlja1xcXCI6ZmFsc2UsXFxcIm5vTW92ZVxcXCI6ZmFsc2V9XCIsaWQ6XCJQRVRcIix1dWlkOlwiZjc2NzVmODMtNmJjYS00NTE3LTlmYzUtNzM0MzY5ZTc4N2M4XCJ9fSIsImRhbWFnZSI6MywiaW50ZXJuYWxuYW1lIjoiXyJ9",
+                  "MOOSHROOM_COW": "eyJpdGVtaWQiOiJtaW5lY3JhZnQ6c2t1bGwiLCJkaXNwbGF5bmFtZSI6IsKnN1tMdmwgMTAwXSDCpzZNb29zaHJvb20gQ293IiwibmJ0dGFnIjoie1NrdWxsT3duZXI6e0lkOlwiMmQ2MzU3ODAtMTc2MC00OGNmLTk3YjAtMjFjZjAwMjE4N2MzXCIsaHlwaXhlbFBvcHVsYXRlZDoxYixQcm9wZXJ0aWVzOnt0ZXh0dXJlczpbMDp7VmFsdWU6XCJleUowWlhoMGRYSmxjeUk2ZXlKVFMwbE9JanA3SW5WeWJDSTZJbWgwZEhBNkx5OTBaWGgwZFhKbGN5NXRhVzVsWTNKaFpuUXVibVYwTDNSbGVIUjFjbVV2TW1JMU1qZzBNV1l5Wm1RMU9EbGxNR0pqT0RSalltRmlaamxsTVdNeU4yTmlOekJqWVdNNU9HWTRaRFppTTJSa01EWTFaVFUxWVRSa1kySTNNR1EzTnlKOWZYMD1cIn1dfSxOYW1lOlwiwqcyZDYzNTc4MC0xNzYwLTQ4Y2YtOTdiMC0yMWNmMDAyMTg3YzNcIn0sZGlzcGxheTp7TG9yZTpbMDpcIsKnOEZhcm1pbmcgUGV0XCIsMTpcIlwiLDI6XCLCpzdIZWFsdGg6IMKnYSsxMDBcIiwzOlwiwqc3RmFybWluZyBGb3J0dW5lOiDCp2ErMTcwXCIsNDpcIlwiLDU6XCLCpzZFZmZpY2llbnQgTXVzaHJvb21zXCIsNjpcIsKnN8KnN011c2hyb29twqc3IGFuZCBNeWNlbGl1bSBtaW5pb25zIHdvcmtcIiw3Olwiwqc3wqdhMzAlIMKnN2Zhc3RlciB3aGlsZSBvbiB5b3VyIGlzbGFuZC5cIiw4OlwiXCIsOTpcIsKnNk11c2hyb29tIEVhdGVyXCIsMTA6XCLCpzfCpzdXaGVuIGJyZWFraW5nIG1hdHVyZSBjcm9wcywgdGhlcmVcIiwxMTpcIsKnN2lzIGEgwqdhMTAwJSDCpzdjaGFuY2UgdGhhdCBhIG11c2hyb29tXCIsMTI6XCLCpzd3aWxsIGRyb3AuXCIsMTM6XCJcIiwxNDpcIsKnNkZhcm1pbmcgU3RyZW5ndGhcIiwxNTpcIsKnN8KnN0dhaW4gwqc2KzAuN+KYmCBGYXJtaW5nIEZvcnR1bmUgwqc3cGVyXCIsMTY6XCLCpzdldmVyeSDCp2MyMCDCp2PinYEgU3RyZW5ndGjCpzcuXCIsMTc6XCJcIiwxODpcIsKnNkhlbGQgSXRlbTogwqc1R3JlZW4gQmFuZGFuYVwiLDE5Olwiwqc3R3JhbnRzIMKnNis04piYIEZhcm1pbmcgRm9ydHVuZSDCpzdmb3JcIiwyMDpcIsKnN2VhY2ggb2YgeW91ciBHYXJkZW4gTGV2ZWxzLlwiLDIxOlwiXCIsMjI6XCLCp2LCp2xNQVggTEVWRUxcIiwyMzpcIsKnOOKWuCA1OCw0NjUsMDMyIFhQXCIsMjQ6XCJcIiwyNTpcIsKnN8KnZUxlZnQtY2xpY2sgdG8gc3VtbW9uIVwiLDI2OlwiwqdlUmlnaHQtY2xpY2sgdG8gY29udmVydCB0byBhbiBpdGVtIVwiXSxOYW1lOlwiwqc3W0x2bCAxMDBdIMKnNk1vb3Nocm9vbSBDb3dcIn0sRXh0cmFBdHRyaWJ1dGVzOntwZXRJbmZvOlwie1xcXCJ0eXBlXFxcIjpcXFwiTU9PU0hST09NX0NPV1xcXCIsXFxcImFjdGl2ZVxcXCI6ZmFsc2UsXFxcImV4cFxcXCI6NS44NDY1MDMyODg1NTk1Nzc2RTcsXFxcInRpZXJcXFwiOlxcXCJMRUdFTkRBUllcXFwiLFxcXCJoaWRlSW5mb1xcXCI6ZmFsc2UsXFxcImhlbGRJdGVtXFxcIjpcXFwiR1JFRU5fQkFOREFOQVxcXCIsXFxcImNhbmR5VXNlZFxcXCI6MCxcXFwidXVpZFxcXCI6XFxcIjJjNDY0NDA4LTI0YmItNGQ1Ni1hY2UwLWJjYWU3ODE2YjEwMFxcXCIsXFxcInVuaXF1ZUlkXFxcIjpcXFwiZDRmYzE5NzMtMjQwZS00YjgwLThmYmItNjEyNWJkZGEwMjdhXFxcIixcXFwiaGlkZVJpZ2h0Q2xpY2tcXFwiOmZhbHNlLFxcXCJub01vdmVcXFwiOmZhbHNlfVwiLGlkOlwiUEVUXCIsdXVpZDpcIjJjNDY0NDA4LTI0YmItNGQ1Ni1hY2UwLWJjYWU3ODE2YjEwMFwifX0iLCJkYW1hZ2UiOjMsImludGVybmFsbmFtZSI6Il8ifQ\u003d\u003d",
+                  "RABBIT": "eyJpdGVtaWQiOiJtaW5lY3JhZnQ6c2t1bGwiLCJkaXNwbGF5bmFtZSI6IsKnN1tMdmwgMTAwXSDCpzZSYWJiaXQiLCJuYnR0YWciOiJ7U2t1bGxPd25lcjp7SWQ6XCJiYzQyMWM2NS1lMDE1LTRjZTMtOWUxZC1jODRjY2Y0NGE3ZTBcIixoeXBpeGVsUG9wdWxhdGVkOjFiLFByb3BlcnRpZXM6e3RleHR1cmVzOlswOntWYWx1ZTpcImV5SjBaWGgwZFhKbGN5STZleUpUUzBsT0lqcDdJblZ5YkNJNkltaDBkSEE2THk5MFpYaDBkWEpsY3k1dGFXNWxZM0poWm5RdWJtVjBMM1JsZUhSMWNtVXZNVEUzWW1abVl6RTVOekpoWTJRM1pqTmlOR0U0WmpRellqVmlObU0zTlRNME5qazFZamhtWkRZeU5qYzNaVEF6TURaaU1qZ3pNVFUzTkdJaWZYMTlcIn1dfSxOYW1lOlwiwqdiYzQyMWM2NS1lMDE1LTRjZTMtOWUxZC1jODRjY2Y0NGE3ZTBcIn0sZGlzcGxheTp7TG9yZTpbMDpcIsKnOEZhcm1pbmcgUGV0XCIsMTpcIlwiLDI6XCLCpzdIZWFsdGg6IMKnYSsxMDBcIiwzOlwiwqc3U3BlZWQ6IMKnYSsyMFwiLDQ6XCJcIiw1Olwiwqc2SGFwcHkgRmVldFwiLDY6XCLCpzfCpzdKdW1wIHBvdGlvbnMgYWxzbyBnaXZlIMKnYSs1MCDCpzdzcGVlZC5cIiw3OlwiXCIsODpcIsKnNkZhcm1pbmcgV2lzZG9tIEJvb3N0XCIsOTpcIsKnN8KnN8KnN0dyYW50cyDCpzMrMzDimK8gRmFybWluZyBXaXNkb23CpzcuXCIsMTA6XCJcIiwxMTpcIsKnNkVmZmljaWVudCBGYXJtaW5nXCIsMTI6XCLCpzfCpzdGYXJtaW5nIG1pbmlvbnMgd29yayDCp2EzMCUgwqc3ZmFzdGVyXCIsMTM6XCLCpzd3aGlsZSBvbiB5b3VyIGlzbGFuZC5cIiwxNDpcIlwiLDE1Olwiwqc2SGVsZCBJdGVtOiDCpzlGYXJtaW5nIEV4cCBCb29zdFwiLDE2Olwiwqc3R2l2ZXMgwqdhKzQwJSDCpzdwZXQgZXhwIGZvciBGYXJtaW5nLlwiLDE3OlwiXCIsMTg6XCLCp2LCp2xNQVggTEVWRUxcIiwxOTpcIsKnOOKWuCAzOSw1MTcsNTc0IFhQXCIsMjA6XCJcIiwyMTpcIsKnN8KnZUxlZnQtY2xpY2sgdG8gc3VtbW9uIVwiLDIyOlwiwqdlUmlnaHQtY2xpY2sgdG8gY29udmVydCB0byBhbiBpdGVtIVwiXSxOYW1lOlwiwqc3W0x2bCAxMDBdIMKnNlJhYmJpdFwifSxFeHRyYUF0dHJpYnV0ZXM6e3BldEluZm86XCJ7XFxcInR5cGVcXFwiOlxcXCJSQUJCSVRcXFwiLFxcXCJhY3RpdmVcXFwiOmZhbHNlLFxcXCJleHBcXFwiOjMuOTUxNzU3NDE2Mjc1MDM3RTcsXFxcInRpZXJcXFwiOlxcXCJMRUdFTkRBUllcXFwiLFxcXCJoaWRlSW5mb1xcXCI6ZmFsc2UsXFxcImhlbGRJdGVtXFxcIjpcXFwiUEVUX0lURU1fRkFSTUlOR19TS0lMTF9CT09TVF9SQVJFXFxcIixcXFwiY2FuZHlVc2VkXFxcIjowLFxcXCJ1dWlkXFxcIjpcXFwiZjc2NzVmODMtNmJjYS00NTE3LTlmYzUtNzM0MzY5ZTc4N2M4XFxcIixcXFwidW5pcXVlSWRcXFwiOlxcXCI5MGFiYjQwZC1lYTc0LTQ2YzgtYjdmNS0wMDRkZjBjOTkyMWFcXFwiLFxcXCJoaWRlUmlnaHRDbGlja1xcXCI6ZmFsc2UsXFxcIm5vTW92ZVxcXCI6ZmFsc2V9XCIsaWQ6XCJQRVRcIix1dWlkOlwiZjc2NzVmODMtNmJjYS00NTE3LTlmYzUtNzM0MzY5ZTc4N2M4XCJ9fSIsImRhbWFnZSI6MywiaW50ZXJuYWxuYW1lIjoiXyJ9",
                   "NETHER_WART": "eyJpdGVtaWQiOiJtaW5lY3JhZnQ6ZGlhbW9uZF9ob2UiLCJkaXNwbGF5bmFtZSI6IsKnNkJsZXNzZWQgTmV3dG9uIE5ldGhlciBXYXJ0cyBIb2UiLCJuYnR0YWciOiJ7ZW5jaDpbMDp7bHZsOjVzLGlkOjMyc31dLFVuYnJlYWthYmxlOjFiLEhpZGVGbGFnczoyNTQsZGlzcGxheTp7TG9yZTpbMDpcIsKnN1NwZWVkOiDCp2ErMTYgwqc5KCsxNilcIiwxOlwiwqc3RmFybWluZyBGb3J0dW5lOiDCp2ErMTEyIMKnMigrNSkgwqc5KCsxNilcIiwyOlwiwqc3RmFybWluZyBXaXNkb206IMKnYSsxMyDCpzkoKzUpXCIsMzpcIsKnN05ldGhlciBXYXJ0IEZvcnR1bmU6IMKnYSsxOTZcIiw0OlwiXCIsNTpcIsKnOUN1bHRpdmF0aW5nIFZJSUkgwqc4MTcsNDQwLDQ4NFwiLDY6XCLCpzlEZWRpY2F0aW9uIElJSVwiLDc6XCLCpzlFZmZpY2llbmN5IFZcIiw4Olwiwqc5SGFydmVzdGluZyBWSVwiLDk6XCLCpzlSZXBsZW5pc2ggSVwiLDEwOlwiwqc5U2lsayBUb3VjaCBJXCIsMTE6XCLCpzlUdXJiby1XYXJ0cyBWXCIsMTI6XCJcIiwxMzpcIsKnN0dhaW4gwqc2KzUw4piYIE5ldGhlciBXYXJ0IEZvcnR1bmUgwqc3YW5kXCIsMTQ6XCLCpzfCpzMrOOKYryBGYXJtaW5nIFdpc2RvbSDCpzdmb3IgbmV0aGVyXCIsMTU6XCLCpzd3YXJ0cy5cIiwxNjpcIlwiLDE3Olwiwqc3Q291bnRlcjogwqdlMTcsNDMwLDAzNyBOZXRoZXIgV2FydHNcIiwxODpcIlwiLDE5Olwiwqc2TG9nYXJpdGhtaWMgQ291bnRlclwiLDIwOlwiwqc3R2FpbiDCpzYrMTbimJggTmV0aGVyIFdhcnQgRm9ydHVuZSDCpzdwZXJcIiwyMTpcIsKnN2RpZ2l0cyBvbiB0aGUgQ291bnRlciwgbWludXMgNCFcIiwyMjpcIsKnN1lvdSBoYXZlIMKnNis2NOKYmCBOZXRoZXIgV2FydCBGb3J0dW5lwqc3LlwiLDIzOlwiXCIsMjQ6XCLCpzZDb2xsZWN0aW9uIEFuYWx5c2lzXCIsMjU6XCLCpzdHYWluIMKnNis44piYIE5ldGhlciBXYXJ0IEZvcnR1bmUgwqc3cGVyIGRpZ2l0c1wiLDI2Olwiwqc3b2YgeW91ciBjb2xsZWN0aW9uLCBtaW51cyA0IVwiLDI3Olwiwqc3WW91IGhhdmUgwqc2KzMy4piYIE5ldGhlciBXYXJ0IEZvcnR1bmXCpzcuXCIsMjg6XCJcIiwyOTpcIsKnN8KnOEJvbnVzIG5ldGhlciB3YXJ0cyBwZXJjZW50XCIsMzA6XCLCpzhpbmNyZWFzZXMgeW91ciBGYXJtaGFuZCBwZXJrJ3NcIiwzMTpcIsKnOGNoYW5jZXMuXCIsMzI6XCJcIiwzMzpcIsKnOUJsZXNzZWQgQm9udXNcIiwzNDpcIsKnN0dyYW50cyDCpzYrMTbimJggRmFybWluZyBGb3J0dW5lIMKnN2FuZFwiLDM1Olwiwqc3wqczKzXimK8gRmFybWluZyBXaXNkb23CpzcuXCIsMzY6XCJcIiwzNzpcIsKnOMKnbCogwqc4Q28tb3AgU291bGJvdW5kIMKnOMKnbCpcIiwzODpcIsKnNsKnbExFR0VOREFSWSBIT0VcIl0sTmFtZTpcIsKnNkJsZXNzZWQgTmV3dG9uIE5ldGhlciBXYXJ0cyBIb2VcIn0sRXh0cmFBdHRyaWJ1dGVzOntmYXJtZWRfY3VsdGl2YXRpbmc6MTc0NDA0ODQsbW9kaWZpZXI6XCJibGVzc2VkXCIsbWluZWRfY3JvcHM6MTc0MzAwMzdMLGlkOlwiVEhFT1JFVElDQUxfSE9FX1dBUlRTXzNcIixmYXJtaW5nX2Zvcl9kdW1taWVzX2NvdW50OjUsZW5jaGFudG1lbnRzOntlZmZpY2llbmN5OjUsaGFydmVzdGluZzo2LGN1bHRpdmF0aW5nOjgsZGVkaWNhdGlvbjozLHNpbGtfdG91Y2g6MSxyZXBsZW5pc2g6MSx0dXJib193YXJ0czo1fSx1dWlkOlwiZjJkZDFlNTQtYTg3Zi00NWZhLThhOWItOWJmZWMyOTZhM2QzXCIsZG9uYXRlZF9tdXNldW06MWIsdGltZXN0YW1wOlwiNi8xOS8yMyAzOjE4IFBNXCJ9fSIsImRhbWFnZSI6MCwiaW50ZXJuYWxuYW1lIjoiXyJ9",
                   "SUGAR_CANE": "eyJpdGVtaWQiOiJtaW5lY3JhZnQ6ZGlhbW9uZF9ob2UiLCJkaXNwbGF5bmFtZSI6IsKnZEJsZXNzZWQgVHVyaW5nIFN1Z2FyIENhbmUgSG9lIiwibmJ0dGFnIjoie2VuY2g6WzA6e2x2bDo1cyxpZDozMnN9XSxVbmJyZWFrYWJsZToxYixIaWRlRmxhZ3M6MjU0LGRpc3BsYXk6e0xvcmU6WzA6XCLCpzdTcGVlZDogwqdhKzIwIMKnOSgrMjApXCIsMTpcIsKnN0Zhcm1pbmcgRm9ydHVuZTogwqdhKzExOCDCpzIoKzUpIMKnOSgrMjApXCIsMjpcIsKnN0Zhcm1pbmcgV2lzZG9tOiDCp2ErMTUgwqc5KCs2KVwiLDM6XCLCpzdTdWdhciBDYW5lIEZvcnR1bmU6IMKnYSsxOTlcIiw0OlwiIMKnOFvCpzjimJjCpzhdIMKnOFvCpzjimJjCpzhdIMKnOFvCpzjimJjCpzhdXCIsNTpcIlwiLDY6XCLCpzlDdWx0aXZhdGluZyBJWCDCpzgyOSw1NzUsODI3XCIsNzpcIsKnOURlZGljYXRpb24gSUlJXCIsODpcIsKnOUVmZmljaWVuY3kgVlwiLDk6XCLCpzlIYXJ2ZXN0aW5nIFZJXCIsMTA6XCLCpzlSZXBsZW5pc2ggSVwiLDExOlwiwqc5U2lsayBUb3VjaCBJXCIsMTI6XCLCpzlUdXJiby1DYW5lIFZcIiwxMzpcIlwiLDE0Olwiwqc3R2FpbiDCpzYrNTDimJggU3VnYXIgQ2FuZSBGb3J0dW5lIMKnN2FuZFwiLDE1Olwiwqc3wqczKzEy4pivIEZhcm1pbmcgV2lzZG9tIMKnN2ZvciBzdWdhclwiLDE2Olwiwqc3Y2FuZXMuXCIsMTc6XCJcIiwxODpcIsKnN0NvdW50ZXI6IMKnZTM4LDExMCwzMzIgU3VnYXIgQ2FuZXNcIiwxOTpcIlwiLDIwOlwiwqc2TG9nYXJpdGhtaWMgQ291bnRlclwiLDIxOlwiwqc3R2FpbiDCpzYrMTbimJggU3VnYXIgQ2FuZSBGb3J0dW5lIMKnN3BlclwiLDIyOlwiwqc3ZGlnaXRzIG9uIHRoZSBDb3VudGVyLCBtaW51cyA0IVwiLDIzOlwiwqc3WW91IGhhdmUgwqc2KzY04piYIFN1Z2FyIENhbmUgRm9ydHVuZcKnNy5cIiwyNDpcIlwiLDI1Olwiwqc2Q29sbGVjdGlvbiBBbmFseXNpc1wiLDI2Olwiwqc3R2FpbiDCpzYrOOKYmCBTdWdhciBDYW5lIEZvcnR1bmUgwqc3cGVyIGRpZ2l0c1wiLDI3Olwiwqc3b2YgeW91ciBjb2xsZWN0aW9uLCBtaW51cyA0IVwiLDI4Olwiwqc3WW91IGhhdmUgwqc2KzMy4piYIFN1Z2FyIENhbmUgRm9ydHVuZcKnNy5cIiwyOTpcIlwiLDMwOlwiwqc3wqc4Qm9udXMgc3VnYXIgY2FuZXMgcGVyY2VudFwiLDMxOlwiwqc4aW5jcmVhc2VzIHlvdXIgRmFybWhhbmQgcGVyaydzXCIsMzI6XCLCpzhjaGFuY2VzLlwiLDMzOlwiXCIsMzQ6XCLCpzlCbGVzc2VkIEJvbnVzXCIsMzU6XCLCpzdHcmFudHMgwqc2KzIw4piYIEZhcm1pbmcgRm9ydHVuZSDCpzdhbmRcIiwzNjpcIsKnN8KnMys24pivIEZhcm1pbmcgV2lzZG9twqc3LlwiLDM3OlwiXCIsMzg6XCLCpzjCp2wqIMKnOENvLW9wIFNvdWxib3VuZCDCpzjCp2wqXCIsMzk6XCLCp2TCp2zCp2thwqdyIMKnZMKnbMKnZMKnbE1ZVEhJQyBIT0UgwqdkwqdswqdrYVwiXSxOYW1lOlwiwqdkQmxlc3NlZCBUdXJpbmcgU3VnYXIgQ2FuZSBIb2VcIn0sRXh0cmFBdHRyaWJ1dGVzOntyYXJpdHlfdXBncmFkZXM6MSxmYXJtZWRfY3VsdGl2YXRpbmc6Mjk1NzU4MjcsbWluZWRfY3JvcHM6MzgxMTAzMzJMLG1vZGlmaWVyOlwiYmxlc3NlZFwiLGlkOlwiVEhFT1JFVElDQUxfSE9FX0NBTkVfM1wiLGVuY2hhbnRtZW50czp7ZWZmaWNpZW5jeTo1LGhhcnZlc3Rpbmc6NixjdWx0aXZhdGluZzo5LGRlZGljYXRpb246MyxzaWxrX3RvdWNoOjEscmVwbGVuaXNoOjEsdHVyYm9fY2FuZTo1fSxmYXJtaW5nX2Zvcl9kdW1taWVzX2NvdW50OjUsdXVpZDpcImM5MWI5NWU5LWIxNDQtNGU1MS05NTM2LWY5ZDg0YTI1MDFkZVwiLGRvbmF0ZWRfbXVzZXVtOjFiLHRpbWVzdGFtcDoxNjU3NzkxMzAwMDAwTH19IiwiZGFtYWdlIjowLCJpbnRlcm5hbG5hbWUiOiJfIn0\u003d",
                   "CARROT": "eyJpdGVtaWQiOiJtaW5lY3JhZnQ6ZGlhbW9uZF9ob2UiLCJkaXNwbGF5bmFtZSI6IsKnNkJsZXNzZWQgR2F1c3MgQ2Fycm90IEhvZSIsIm5idHRhZyI6IntlbmNoOlswOntsdmw6NXMsaWQ6MzJzfV0sVW5icmVha2FibGU6MWIsSGlkZUZsYWdzOjI1NCxkaXNwbGF5OntMb3JlOlswOlwiwqc3U3BlZWQ6IMKnYSsxNiDCpzkoKzE2KVwiLDE6XCLCpzdGYXJtaW5nIEZvcnR1bmU6IMKnYSsxMTQgwqcyKCs1KSDCpzkoKzE2KVwiLDI6XCLCpzdGYXJtaW5nIFdpc2RvbTogwqdhKzE0IMKnOSgrNSlcIiwzOlwiwqc3Q2Fycm90IEZvcnR1bmU6IMKnYSsxOThcIiw0OlwiIMKnOFvCpzjimJjCpzhdIMKnOFvCpzjimJjCpzhdIMKnOFvCpzjimJjCpzhdXCIsNTpcIlwiLDY6XCLCpzlDdWx0aXZhdGluZyBJWCDCpzgzMSw1NDMsNDgwXCIsNzpcIsKnOURlZGljYXRpb24gSUlJXCIsODpcIsKnOURlbGljYXRlIFZcIiw5Olwiwqc5RWZmaWNpZW5jeSBWXCIsMTA6XCLCpzlIYXJ2ZXN0aW5nIFZJXCIsMTE6XCLCpzlSZXBsZW5pc2ggSVwiLDEyOlwiwqc5U2lsayBUb3VjaCBJXCIsMTM6XCLCpzlUdXJiby1DYXJyb3QgVlwiLDE0OlwiXCIsMTU6XCLCpzdHYWluIMKnNis1MOKYmCBDYXJyb3QgRm9ydHVuZSDCpzdhbmQgwqczKzjimK9cIiwxNjpcIsKnM0Zhcm1pbmcgV2lzZG9tIMKnN2ZvciBjYXJyb3RzLlwiLDE3OlwiXCIsMTg6XCLCpzdDb3VudGVyOiDCp2UzMSw1MjksOTYxIENhcnJvdHNcIiwxOTpcIlwiLDIwOlwiwqc2TG9nYXJpdGhtaWMgQ291bnRlclwiLDIxOlwiwqc3R2FpbiDCpzYrMTbimJggQ2Fycm90IEZvcnR1bmUgwqc3cGVyIGRpZ2l0c1wiLDIyOlwiwqc3b24gdGhlIENvdW50ZXIsIG1pbnVzIDQhXCIsMjM6XCLCpzdZb3UgaGF2ZSDCpzYrNjTimJggQ2Fycm90IEZvcnR1bmXCpzcuXCIsMjQ6XCJcIiwyNTpcIsKnNkNvbGxlY3Rpb24gQW5hbHlzaXNcIiwyNjpcIsKnN0dhaW4gwqc2KzjimJggQ2Fycm90IEZvcnR1bmUgwqc3cGVyIGRpZ2l0cyBvZlwiLDI3Olwiwqc3eW91ciBjb2xsZWN0aW9uLCBtaW51cyA0IVwiLDI4Olwiwqc3WW91IGhhdmUgwqc2KzMy4piYIENhcnJvdCBGb3J0dW5lwqc3LlwiLDI5OlwiXCIsMzA6XCLCpzfCpzhCb251cyBjYXJyb3RzIHBlcmNlbnQgaW5jcmVhc2VzXCIsMzE6XCLCpzh5b3VyIEZhcm1oYW5kIHBlcmsncyBjaGFuY2VzLlwiLDMyOlwiXCIsMzM6XCLCpzlCbGVzc2VkIEJvbnVzXCIsMzQ6XCLCpzdHcmFudHMgwqc2KzE24piYIEZhcm1pbmcgRm9ydHVuZSDCpzdhbmRcIiwzNTpcIsKnN8KnMys14pivIEZhcm1pbmcgV2lzZG9twqc3LlwiLDM2OlwiXCIsMzc6XCLCpzjCp2wqIMKnOENvLW9wIFNvdWxib3VuZCDCpzjCp2wqXCIsMzg6XCLCpzbCp2xMRUdFTkRBUlkgSE9FXCJdLE5hbWU6XCLCpzZCbGVzc2VkIEdhdXNzIENhcnJvdCBIb2VcIn0sRXh0cmFBdHRyaWJ1dGVzOntmYXJtZWRfY3VsdGl2YXRpbmc6MzE1NDM0ODAsbW9kaWZpZXI6XCJibGVzc2VkXCIsbWluZWRfY3JvcHM6MzE1Mjk5NjFMLGlkOlwiVEhFT1JFVElDQUxfSE9FX0NBUlJPVF8zXCIsZW5jaGFudG1lbnRzOntkZWxpY2F0ZTo1LGVmZmljaWVuY3k6NSxoYXJ2ZXN0aW5nOjYsY3VsdGl2YXRpbmc6OSxkZWRpY2F0aW9uOjMsc2lsa190b3VjaDoxLHJlcGxlbmlzaDoxLHR1cmJvX2NhcnJvdDo1fSxmYXJtaW5nX2Zvcl9kdW1taWVzX2NvdW50OjUsdXVpZDpcIjM0MzZhMDAyLWMyZmYtNDRmMC1hZWJmLTBmMGI5YWVkOWFlY1wiLGRvbmF0ZWRfbXVzZXVtOjFiLHRpbWVzdGFtcDoxNjg1MjIwMzYwMDAwTH19IiwiZGFtYWdlIjowLCJpbnRlcm5hbG5hbWUiOiJfIn0\u003d",
@@ -3829,10 +3880,10 @@
                   "CACTUS": "eyJpdGVtaWQiOiJtaW5lY3JhZnQ6Z29sZGVuX2hvZSIsImRpc3BsYXluYW1lIjoiwqc1Qmxlc3NlZCBDYWN0dXMgS25pZmUiLCJuYnR0YWciOiJ7ZW5jaDpbMDp7bHZsOjVzLGlkOjMyc31dLFVuYnJlYWthYmxlOjFiLEhpZGVGbGFnczoyNTQsZGlzcGxheTp7TG9yZTpbMDpcIsKnN1NwZWVkOiDCp2ErMTMgwqc5KCsxMylcIiwxOlwiwqc3RmFybWluZyBGb3J0dW5lOiDCp2ErMTA5IMKnMigrNSkgwqc5KCsxMylcIiwyOlwiwqc3RmFybWluZyBXaXNkb206IMKnYSsxMiDCpzkoKzQpXCIsMzpcIsKnN0NhY3R1cyBGb3J0dW5lOiDCp2ErNDlcIiw0OlwiIMKnOFvCpzjimJjCpzhdIMKnOFvCpzjimJjCpzhdXCIsNTpcIlwiLDY6XCLCpzlDdWx0aXZhdGluZyBWSUlJIMKnODksOTM1LDgyNVwiLDc6XCLCpzlEZWRpY2F0aW9uIElJSVwiLDg6XCLCpzlFZmZpY2llbmN5IFZcIiw5Olwiwqc5SGFydmVzdGluZyBWSVwiLDEwOlwiwqc5U21lbHRpbmcgVG91Y2ggSVwiLDExOlwiwqc5VHVyYm8tQ2FjdGkgVlwiLDEyOlwiXCIsMTM6XCLCpzdTbGljZXMgdGhyb3VnaCDCp2FjYWN0dXPCpzcgaW5zdGFudGx5IVwiLDE0OlwiXCIsMTU6XCLCpzZBYmlsaXR5OiBTd2lmdCBTbGljZXIgXCIsMTY6XCLCpzdJbmNyZWFzZXMgeW91ciBzcGVlZCBjYXAgYnkgMTAwXCIsMTc6XCLCpzd3aGlsZSBpbiB0aGUgwqdiR2FyZGVuwqc3LlwiLDE4OlwiXCIsMTk6XCLCpzlCbGVzc2VkIEJvbnVzXCIsMjA6XCLCpzdHcmFudHMgwqc2KzEz4piYIEZhcm1pbmcgRm9ydHVuZSDCpzdhbmRcIiwyMTpcIsKnN8KnMys04pivIEZhcm1pbmcgV2lzZG9twqc3LlwiLDIyOlwiXCIsMjM6XCLCpzjCp2wqIMKnOENvLW9wIFNvdWxib3VuZCDCpzjCp2wqXCIsMjQ6XCLCpzXCp2xFUElDIEhPRVwiXSxOYW1lOlwiwqc1Qmxlc3NlZCBDYWN0dXMgS25pZmVcIn0sRXh0cmFBdHRyaWJ1dGVzOntmYXJtZWRfY3VsdGl2YXRpbmc6OTkzNTgyNSxtb2RpZmllcjpcImJsZXNzZWRcIixpZDpcIkNBQ1RVU19LTklGRVwiLGVuY2hhbnRtZW50czp7ZWZmaWNpZW5jeTo1LHNtZWx0aW5nX3RvdWNoOjEsaGFydmVzdGluZzo2LGN1bHRpdmF0aW5nOjgsZGVkaWNhdGlvbjozLHR1cmJvX2NhY3R1czo1fSxmYXJtaW5nX2Zvcl9kdW1taWVzX2NvdW50OjUsdXVpZDpcIjczMDA1MzI5LWNkMjQtNDQyYS05NjJjLWIyN2VmMjkwZGE1Y1wiLGRvbmF0ZWRfbXVzZXVtOjFiLHRpbWVzdGFtcDoxNjg3MjAwMzYwMDAwTH19IiwiZGFtYWdlIjowLCJpbnRlcm5hbG5hbWUiOiJfIn0\u003d",
                   "WHEAT": "eyJpdGVtaWQiOiJtaW5lY3JhZnQ6aXJvbl9ob2UiLCJkaXNwbGF5bmFtZSI6IsKnNUJsZXNzZWQgRXVjbGlkJ3MgV2hlYXQgSG9lIiwibmJ0dGFnIjoie2VuY2g6WzA6e2x2bDo1cyxpZDozMnN9XSxVbmJyZWFrYWJsZToxYixIaWRlRmxhZ3M6MjU0LGRpc3BsYXk6e0xvcmU6WzA6XCLCpzdTcGVlZDogwqdhKzEzIMKnOSgrMTMpXCIsMTpcIsKnN0Zhcm1pbmcgRm9ydHVuZTogwqdhKzExMSDCpzIoKzUpIMKnOSgrMTMpXCIsMjpcIsKnN0Zhcm1pbmcgV2lzZG9tOiDCp2ErMTMgwqc5KCs0KVwiLDM6XCLCpzdXaGVhdCBGb3J0dW5lOiDCp2ErMTQyXCIsNDpcIiDCpzhbwqc44piYwqc4XSDCpzhbwqc44piYwqc4XVwiLDU6XCJcIiw2Olwiwqc5Q3VsdGl2YXRpbmcgSVggwqc4MzEsMTkyLDkyM1wiLDc6XCLCpzlEZWRpY2F0aW9uIElJSVwiLDg6XCLCpzlFZmZpY2llbmN5IFZcIiw5Olwiwqc5SGFydmVzdGluZyBWSVwiLDEwOlwiwqc5UmVwbGVuaXNoIElcIiwxMTpcIsKnOVNpbGsgVG91Y2ggSVwiLDEyOlwiwqc5VHVyYm8tV2hlYXQgVlwiLDEzOlwiXCIsMTQ6XCLCpzdHYWluIMKnNisyNeKYmCBXaGVhdCBGb3J0dW5lIMKnN2FuZCDCpzMrNeKYr1wiLDE1OlwiwqczRmFybWluZyBXaXNkb20gwqc3Zm9yIHdoZWF0LlwiLDE2OlwiXCIsMTc6XCLCpzdDb3VudGVyOiDCp2UxMywwMDcsNTY5IFdoZWF0XCIsMTg6XCJcIiwxOTpcIsKnNkxvZ2FyaXRobWljIENvdW50ZXJcIiwyMDpcIsKnN0dhaW4gwqc2KzE24piYIFdoZWF0IEZvcnR1bmUgwqc3cGVyIGRpZ2l0c1wiLDIxOlwiwqc3b24gdGhlIENvdW50ZXIsIG1pbnVzIDQhXCIsMjI6XCLCpzdZb3UgaGF2ZSDCpzYrNjTimJggV2hlYXQgRm9ydHVuZcKnNy5cIiwyMzpcIlwiLDI0Olwiwqc3wqc4Qm9udXMgd2hlYXQgcGVyY2VudCBpbmNyZWFzZXMgeW91clwiLDI1Olwiwqc4RmFybWhhbmQgcGVyaydzIGNoYW5jZXMuXCIsMjY6XCJcIiwyNzpcIsKnZVJpZ2h0LWNsaWNrIHRvIHZpZXcgcmVjaXBlcyFcIiwyODpcIlwiLDI5Olwiwqc5Qmxlc3NlZCBCb251c1wiLDMwOlwiwqc3R3JhbnRzIMKnNisxM+KYmCBGYXJtaW5nIEZvcnR1bmUgwqc3YW5kXCIsMzE6XCLCpzfCpzMrNOKYryBGYXJtaW5nIFdpc2RvbcKnNy5cIiwzMjpcIlwiLDMzOlwiwqc4wqdsKiDCpzhDby1vcCBTb3VsYm91bmQgwqc4wqdsKlwiLDM0Olwiwqc1wqdsRVBJQyBIT0VcIl0sTmFtZTpcIsKnNUJsZXNzZWQgRXVjbGlkJ3MgV2hlYXQgSG9lXCJ9LEV4dHJhQXR0cmlidXRlczp7ZmFybWVkX2N1bHRpdmF0aW5nOjMxMTkyOTIzLG1pbmVkX2Nyb3BzOjEzMDA3NTY5TCxtb2RpZmllcjpcImJsZXNzZWRcIixpZDpcIlRIRU9SRVRJQ0FMX0hPRV9XSEVBVF8yXCIsZW5jaGFudG1lbnRzOntlZmZpY2llbmN5OjUsaGFydmVzdGluZzo2LGN1bHRpdmF0aW5nOjksZGVkaWNhdGlvbjozLHNpbGtfdG91Y2g6MSx0dXJib193aGVhdDo1LHJlcGxlbmlzaDoxfSxmYXJtaW5nX2Zvcl9kdW1taWVzX2NvdW50OjUsdXVpZDpcImFhOGQ4NmE2LTU2MDgtNDMxNC1iODQxLWVjNGRlNWI4YmEzMFwiLGRvbmF0ZWRfbXVzZXVtOjFiLHRpbWVzdGFtcDoxNjYwOTkyNjAwMDAwTH19IiwiZGFtYWdlIjowLCJpbnRlcm5hbG5hbWUiOiJfIn0\u003d",
                   "MUSHROOM": "eyJpdGVtaWQiOiJtaW5lY3JhZnQ6Z29sZGVuX2hvZSIsImRpc3BsYXluYW1lIjoiwqc5Qmxlc3NlZCBGdW5naSBDdXR0ZXIiLCJuYnR0YWciOiJ7ZW5jaDpbMDp7bHZsOjVzLGlkOjMyc31dLFVuYnJlYWthYmxlOjFiLEhpZGVGbGFnczoyNTQsZGlzcGxheTp7TG9yZTpbMDpcIsKnN1NwZWVkOiDCp2ErOSDCpzkoKzkpXCIsMTpcIsKnN0Zhcm1pbmcgRm9ydHVuZTogwqdhKzEwNSDCpzIoKzUpIMKnOSgrOSlcIiwyOlwiwqc3RmFybWluZyBXaXNkb206IMKnYSsxMSDCpzkoKzMpXCIsMzpcIlwiLDQ6XCLCpzlDdWx0aXZhdGluZyBWSUlJIMKnODEzLDIxNiw4NTdcIiw1Olwiwqc5RGVkaWNhdGlvbiBJSUlcIiw2Olwiwqc5RWZmaWNpZW5jeSBWXCIsNzpcIsKnOUhhcnZlc3RpbmcgVklcIiw4Olwiwqc5U2lsayBUb3VjaCBJXCIsOTpcIsKnOVR1cmJvLU11c2hyb29tcyBWXCIsMTA6XCJcIiwxMTpcIsKnNkFiaWxpdHk6IEZ1biBHdXkgQm9udXMgIMKnZcKnbFJJR0hUIENMSUNLXCIsMTI6XCLCpzhUb2dnbGVzIE9uL09mZiBvbiB1c2VcIiwxMzpcIsKnN1N3aXRjaGVzIGJldHdlZW4gcmVkIGFuZCBicm93blwiLDE0Olwiwqc3bXVzaHJvb20gY3V0dGluZyBtb2Rlcy5cIiwxNTpcIlwiLDE2OlwiwqdlTW9kZTogwqdjUmVkIE11c2hyb29tc1wiLDE3OlwiXCIsMTg6XCLCpzfCpzdHYWluIMKnNiszMOKYmCBGYXJtaW5nIEZvcnR1bmVcIiwxOTpcIsKnNsKnN2ZvciBSZWQgTXVzaHJvb21zXCIsMjA6XCJcIiwyMTpcIsKnOUJsZXNzZWQgQm9udXNcIiwyMjpcIsKnN0dyYW50cyDCpzYrOeKYmCBGYXJtaW5nIEZvcnR1bmVcIiwyMzpcIsKnNsKnN2FuZCDCpzMrM+KYryBGYXJtaW5nIFdpc2RvbcKnNy5cIiwyNDpcIlwiLDI1Olwiwqc4wqdsKiDCpzhDby1vcCBTb3VsYm91bmQgwqc4wqdsKlwiLDI2Olwiwqc5wqdsUkFSRSBIT0VcIl0sTmFtZTpcIsKnOUJsZXNzZWQgRnVuZ2kgQ3V0dGVyXCJ9LEV4dHJhQXR0cmlidXRlczp7ZmFybWVkX2N1bHRpdmF0aW5nOjEzMjE4MDIxLG1vZGlmaWVyOlwiYmxlc3NlZFwiLGlkOlwiRlVOR0lfQ1VUVEVSXCIsZnVuZ2lfY3V0dGVyX21vZGU6XCJSRURcIixmYXJtaW5nX2Zvcl9kdW1taWVzX2NvdW50OjUsZW5jaGFudG1lbnRzOntlZmZpY2llbmN5OjUsdHVyYm9fbXVzaHJvb21zOjUsaGFydmVzdGluZzo2LGN1bHRpdmF0aW5nOjgsZGVkaWNhdGlvbjozLHNpbGtfdG91Y2g6MX0sdXVpZDpcImM0NGIxOTRkLTY3YTItNDQzNy1iMjc1LTgxY2Y2ZDM4OWVmM1wiLGRvbmF0ZWRfbXVzZXVtOjFiLHRpbWVzdGFtcDpcIjYvMTkvMjMgMzoxOCBQTVwifX0iLCJkYW1hZ2UiOjAsImludGVybmFsbmFtZSI6Il8ifQ\u003d\u003d",
-                  "BEE": "eyJpdGVtaWQiOiJtaW5lY3JhZnQ6c2t1bGwiLCJkaXNwbGF5bmFtZSI6IsKnN1tMdmwgODBdIMKnNkJlZcKnNSDinKYiLCJuYnR0YWciOiJ7U2t1bGxPd25lcjp7SWQ6XCIxMDkwNWMzYi1iMzUxLTQyZjgtODBkYi01NWRkZWQ5NmY3NjJcIixoeXBpeGVsUG9wdWxhdGVkOjFiLFByb3BlcnRpZXM6e3RleHR1cmVzOlswOntWYWx1ZTpcImV3b2dJQ0owYVcxbGMzUmhiWEFpSURvZ01UWTJOREUxTmpjME1UQTBPU3dLSUNBaWNISnZabWxzWlVsa0lpQTZJQ0l4Tm1RNE5qSTROell6TVdZME5EWTJPR1EwTkRNMlpUSmxZMkl3TlRsbE5TSXNDaUFnSW5CeWIyWnBiR1ZPWVcxbElpQTZJQ0pTWlhwaFZHOTFjbTVsZVNJc0NpQWdJbk5wWjI1aGRIVnlaVkpsY1hWcGNtVmtJaUE2SUhSeWRXVXNDaUFnSW5SbGVIUjFjbVZ6SWlBNklIc0tJQ0FnSUNKVFMwbE9JaUE2SUhzS0lDQWdJQ0FnSW5WeWJDSWdPaUFpYUhSMGNEb3ZMM1JsZUhSMWNtVnpMbTFwYm1WamNtRm1kQzV1WlhRdmRHVjRkSFZ5WlM5bU5tVXhZV1U1TTJGa05XVTVOR0V3T1RBMFlUQTROemRtWmpFMFlUbGtaVFUyTURnek1qUXlZVFUzT0RaaFl6ZGtZelV3TTJVd09UaGhaVE0zTVRJd0lpd0tJQ0FnSUNBZ0ltMWxkR0ZrWVhSaElpQTZJSHNLSUNBZ0lDQWdJQ0FpYlc5a1pXd2lJRG9nSW5Oc2FXMGlDaUFnSUNBZ0lIMEtJQ0FnSUgwS0lDQjlDbjA9XCJ9XX0sTmFtZTpcIsKnMTA5MDVjM2ItYjM1MS00MmY4LTgwZGItNTVkZGVkOTZmNzYyXCJ9LGRpc3BsYXk6e0xvcmU6WzA6XCLCpzhGYXJtaW5nIFBldCwgWm9tQmVlIFNraW5cIiwxOlwiXCIsMjpcIsKnN1NwZWVkOiDCp2ErOFwiLDM6XCLCpzdTdHJlbmd0aDogwqdjKzI1XCIsNDpcIsKnN0ludGVsbGlnZW5jZTogwqdhKzQwXCIsNTpcIsKnN01pbmluZyBGb3J0dW5lOiDCp2ErMjRcIiw2Olwiwqc3RmFybWluZyBGb3J0dW5lOiDCp2ErMjRcIiw3Olwiwqc3Rm9yYWdpbmcgRm9ydHVuZTogwqdhKzI0XCIsODpcIlwiLDk6XCLCpzZIaXZlXCIsMTA6XCLCpzdGb3IgZWFjaCBwbGF5ZXIgd2l0aGluIMKnYTI1IMKnN2Jsb2NrczpcIiwxMTpcIiDCp2IrOC4y4pyOIEludGVsbGlnZW5jZVwiLDEyOlwiIMKnYys2LjbinYEgU3RyZW5ndGhcIiwxMzpcIiDCp2ErNC4y4p2IIERlZmVuc2VcIiwxNDpcIsKnOE1heCAxNSBwbGF5ZXJzXCIsMTU6XCJcIiwxNjpcIsKnNkJ1c3kgQnV6eiBCdXp6XCIsMTc6XCLCpzdHcmFudHMgwqdhKzI0IMKnN29mIGVhY2ggdG8geW91ciBwZXQ6XCIsMTg6XCLCpzbimJggRmFybWluZyBGb3J0dW5lXCIsMTk6XCLCpzbimJggRm9yYWdpbmcgRm9ydHVuZVwiLDIwOlwiwqc24piYIE1pbmluZyBGb3J0dW5lXCIsMjE6XCJcIiwyMjpcIsKnNldlYXBvbml6ZWQgSG9uZXlcIiwyMzpcIsKnN8KnN0dhaW4gwqdhMjElIMKnN29mIHJlY2VpdmVkIGRhbWFnZSBhcyDCpzbinaRcIiwyNDpcIsKnNkFic29ycHRpb27CpzcuXCIsMjU6XCJcIiwyNjpcIsKnNkhlbGQgSXRlbTogwqc1RmFybWluZyBFeHAgQm9vc3RcIiwyNzpcIsKnN0dpdmVzIMKnYSs1MCUgwqc3cGV0IGV4cCBmb3IgRmFybWluZy5cIiwyODpcIlwiLDI5Olwiwqc3UHJvZ3Jlc3MgdG8gTGV2ZWwgODE6IMKnZTk2LjElXCIsMzA6XCLCpzLCp2zCp20gICAgICAgICAgICAgICAgICAgICAgICAgwqdyIMKnZTM5NSw1NDMuMsKnNi/Cp2U0MTFrXCIsMzE6XCJcIiwzMjpcIsKnN8KnZUxlZnQtY2xpY2sgdG8gc3VtbW9uIVwiLDMzOlwiwqdlUmlnaHQtY2xpY2sgdG8gY29udmVydCB0byBhbiBpdGVtIVwiXSxOYW1lOlwiwqc3W0x2bCA4MF0gwqc2QmVlwqc1IOKcplwifSxFeHRyYUF0dHJpYnV0ZXM6e3BldEluZm86XCJ7XFxcInR5cGVcXFwiOlxcXCJCRUVcXFwiLFxcXCJhY3RpdmVcXFwiOmZhbHNlLFxcXCJleHBcXFwiOjYwMTQ3NzMuMjM3MjY1NDk3LFxcXCJ0aWVyXFxcIjpcXFwiTEVHRU5EQVJZXFxcIixcXFwiaGlkZUluZm9cXFwiOmZhbHNlLFxcXCJoZWxkSXRlbVxcXCI6XFxcIlBFVF9JVEVNX0ZBUk1JTkdfU0tJTExfQk9PU1RfRVBJQ1xcXCIsXFxcImNhbmR5VXNlZFxcXCI6MCxcXFwic2tpblxcXCI6XFxcIkJFRV9aT01CRUVcXFwiLFxcXCJ1dWlkXFxcIjpcXFwiNTE1OTJmYmMtMzM4ZC00NjVlLWI1NGItMWE0NWMzOWJmZWQ4XFxcIixcXFwidW5pcXVlSWRcXFwiOlxcXCI5ODJmODljMS0wNWM0LTRmOTctODc2YS1jZGE4MzRiY2Y0ZjdcXFwiLFxcXCJoaWRlUmlnaHRDbGlja1xcXCI6ZmFsc2UsXFxcIm5vTW92ZVxcXCI6ZmFsc2V9XCIsaWQ6XCJQRVRcIix1dWlkOlwiNTE1OTJmYmMtMzM4ZC00NjVlLWI1NGItMWE0NWMzOWJmZWQ4XCJ9fSIsImRhbWFnZSI6MywiaW50ZXJuYWxuYW1lIjoiXyJ9"
+                  "BEE": "eyJpdGVtaWQiOiJtaW5lY3JhZnQ6c2t1bGwiLCJkaXNwbGF5bmFtZSI6IsKnN1tMdmwgODBdIMKnNkJlZcKnNSDinKYiLCJuYnR0YWciOiJ7U2t1bGxPd25lcjp7SWQ6XCI0OTYzMzM1NC0wMTcxLTQ3ODYtYTI3Zi01NzkzN2ZhZjE2NDJcIixoeXBpeGVsUG9wdWxhdGVkOjFiLFByb3BlcnRpZXM6e3RleHR1cmVzOlswOntWYWx1ZTpcImV3b2dJQ0owYVcxbGMzUmhiWEFpSURvZ01UWTJOREUxTmpjME1UQTBPU3dLSUNBaWNISnZabWxzWlVsa0lpQTZJQ0l4Tm1RNE5qSTROell6TVdZME5EWTJPR1EwTkRNMlpUSmxZMkl3TlRsbE5TSXNDaUFnSW5CeWIyWnBiR1ZPWVcxbElpQTZJQ0pTWlhwaFZHOTFjbTVsZVNJc0NpQWdJbk5wWjI1aGRIVnlaVkpsY1hWcGNtVmtJaUE2SUhSeWRXVXNDaUFnSW5SbGVIUjFjbVZ6SWlBNklIc0tJQ0FnSUNKVFMwbE9JaUE2SUhzS0lDQWdJQ0FnSW5WeWJDSWdPaUFpYUhSMGNEb3ZMM1JsZUhSMWNtVnpMbTFwYm1WamNtRm1kQzV1WlhRdmRHVjRkSFZ5WlM5bU5tVXhZV1U1TTJGa05XVTVOR0V3T1RBMFlUQTROemRtWmpFMFlUbGtaVFUyTURnek1qUXlZVFUzT0RaaFl6ZGtZelV3TTJVd09UaGhaVE0zTVRJd0lpd0tJQ0FnSUNBZ0ltMWxkR0ZrWVhSaElpQTZJSHNLSUNBZ0lDQWdJQ0FpYlc5a1pXd2lJRG9nSW5Oc2FXMGlDaUFnSUNBZ0lIMEtJQ0FnSUgwS0lDQjlDbjA9XCJ9XX0sTmFtZTpcIsKnNDk2MzMzNTQtMDE3MS00Nzg2LWEyN2YtNTc5MzdmYWYxNjQyXCJ9LGRpc3BsYXk6e0xvcmU6WzA6XCLCpzhGYXJtaW5nIFBldCwgWm9tQmVlIFNraW5cIiwxOlwiXCIsMjpcIsKnN1NwZWVkOiDCp2ErOFwiLDM6XCLCpzdTdHJlbmd0aDogwqdjKzI1XCIsNDpcIsKnN0ludGVsbGlnZW5jZTogwqdhKzQwXCIsNTpcIsKnN01pbmluZyBGb3J0dW5lOiDCp2ErMjRcIiw2Olwiwqc3RmFybWluZyBGb3J0dW5lOiDCp2ErMjRcIiw3Olwiwqc3Rm9yYWdpbmcgRm9ydHVuZTogwqdhKzI0XCIsODpcIlwiLDk6XCLCpzZIaXZlXCIsMTA6XCLCpzdGb3IgZWFjaCBwbGF5ZXIgd2l0aGluIMKnYTI1IMKnN2Jsb2NrczpcIiwxMTpcIiDCp2IrOC4y4pyOIEludGVsbGlnZW5jZVwiLDEyOlwiIMKnYys2LjbinYEgU3RyZW5ndGhcIiwxMzpcIiDCp2ErNC4y4p2IIERlZmVuc2VcIiwxNDpcIsKnOE1heCAxNSBwbGF5ZXJzXCIsMTU6XCJcIiwxNjpcIsKnNkJ1c3kgQnV6eiBCdXp6XCIsMTc6XCLCpzdHcmFudHMgwqdhKzI0IMKnN29mIGVhY2ggdG8geW91ciBwZXQ6XCIsMTg6XCLCpzbimJggRmFybWluZyBGb3J0dW5lXCIsMTk6XCLCpzbimJggRm9yYWdpbmcgRm9ydHVuZVwiLDIwOlwiwqc24piYIE1pbmluZyBGb3J0dW5lXCIsMjE6XCJcIiwyMjpcIsKnNldlYXBvbml6ZWQgSG9uZXlcIiwyMzpcIsKnN8KnN0dhaW4gwqdhMjElIMKnN29mIHJlY2VpdmVkIGRhbWFnZSBhcyDCpzbinaRcIiwyNDpcIsKnNkFic29ycHRpb27CpzcuXCIsMjU6XCJcIiwyNjpcIsKnNkhlbGQgSXRlbTogwqc1RmFybWluZyBFeHAgQm9vc3RcIiwyNzpcIsKnN0dpdmVzIMKnYSs1MCUgwqc3cGV0IGV4cCBmb3IgRmFybWluZy5cIiwyODpcIlwiLDI5Olwiwqc3UHJvZ3Jlc3MgdG8gTGV2ZWwgODE6IMKnZTk2LjElXCIsMzA6XCLCpzLCp2zCp20gICAgICAgICAgICAgICAgICAgICAgICAgwqdyIMKnZTM5NSw1NDMuMsKnNi/Cp2U0MTFrXCIsMzE6XCJcIiwzMjpcIsKnN8KnZUxlZnQtY2xpY2sgdG8gc3VtbW9uIVwiLDMzOlwiwqdlUmlnaHQtY2xpY2sgdG8gY29udmVydCB0byBhbiBpdGVtIVwiXSxOYW1lOlwiwqc3W0x2bCA4MF0gwqc2QmVlwqc1IOKcplwifSxFeHRyYUF0dHJpYnV0ZXM6e3BldEluZm86XCJ7XFxcInR5cGVcXFwiOlxcXCJCRUVcXFwiLFxcXCJhY3RpdmVcXFwiOmZhbHNlLFxcXCJleHBcXFwiOjYwMTQ3NzMuMjM3MjY1NDk3LFxcXCJ0aWVyXFxcIjpcXFwiTEVHRU5EQVJZXFxcIixcXFwiaGlkZUluZm9cXFwiOmZhbHNlLFxcXCJoZWxkSXRlbVxcXCI6XFxcIlBFVF9JVEVNX0ZBUk1JTkdfU0tJTExfQk9PU1RfRVBJQ1xcXCIsXFxcImNhbmR5VXNlZFxcXCI6MCxcXFwic2tpblxcXCI6XFxcIkJFRV9aT01CRUVcXFwiLFxcXCJ1dWlkXFxcIjpcXFwiNTE1OTJmYmMtMzM4ZC00NjVlLWI1NGItMWE0NWMzOWJmZWQ4XFxcIixcXFwidW5pcXVlSWRcXFwiOlxcXCI5ODJmODljMS0wNWM0LTRmOTctODc2YS1jZGE4MzRiY2Y0ZjdcXFwiLFxcXCJoaWRlUmlnaHRDbGlja1xcXCI6ZmFsc2UsXFxcIm5vTW92ZVxcXCI6ZmFsc2V9XCIsaWQ6XCJQRVRcIix1dWlkOlwiNTE1OTJmYmMtMzM4ZC00NjVlLWI1NGItMWE0NWMzOWJmZWQ4XCJ9fSIsImRhbWFnZSI6MywiaW50ZXJuYWxuYW1lIjoiXyJ9"
                 }
               },
-              "composterEmptyTime": 1717238090170,
+              "composterEmptyTime": 1717970931322,
               "lastComposterEmptyWarningTime": 0,
               "farmingWeight": {
                 "lastFarmingWeightLeaderboard": -1
@@ -4355,7 +4406,7 @@
                     "isUnlocked": true
                   },
                   "EFFICIENT_MINER": {
-                    "level": 25,
+                    "level": 27,
                     "enabled": true,
                     "isUnlocked": true
                   },
@@ -4530,12 +4581,12 @@
                     "isUnlocked": false
                   },
                   "PROFESSIONAL": {
-                    "level": 32,
+                    "level": 50,
                     "enabled": true,
                     "isUnlocked": true
                   },
                   "MOLE": {
-                    "level": 35,
+                    "level": 42,
                     "enabled": true,
                     "isUnlocked": true
                   },
@@ -4558,16 +4609,16 @@
               },
               "powder": {
                 "MITHRIL": {
-                  "available": 56403,
-                  "total": 56403
+                  "available": 101950,
+                  "total": 101950
                 },
                 "GLACITE": {
                   "available": 0,
                   "total": 0
                 },
                 "GEMSTONE": {
-                  "available": 14174,
-                  "total": 14174
+                  "available": 47773,
+                  "total": 47773
                 }
               },
               "tokens": 0,
@@ -4584,19 +4635,39 @@
               "bosses": {
                 "F1": 10,
                 "F2": 14,
-                "F4": 79,
-                "F5": 51,
-                "F6": 84,
-                "F7": 152
+                "F4": 116,
+                "F5": 56,
+                "F6": 91,
+                "F7": 172
               },
               "runs": [
                 {
                   "floor": "F7",
-                  "openState": "OPENED"
+                  "openState": "UNOPENED"
                 },
                 {
                   "floor": "F7",
-                  "openState": "UNOPENED",
+                  "openState": "UNOPENED"
+                },
+                {
+                  "floor": "F7",
+                  "openState": "UNOPENED"
+                },
+                {
+                  "floor": "F7",
+                  "openState": "UNOPENED"
+                },
+                {
+                  "floor": "F7",
+                  "openState": "UNOPENED"
+                },
+                {
+                  "floor": "F7",
+                  "openState": "UNOPENED"
+                },
+                {
+                  "floor": "F7",
+                  "openState": "OPENED",
                   "kismetUsed": true
                 },
                 {
@@ -4604,6 +4675,211 @@
                   "openState": "OPENED",
                   "kismetUsed": true
                 },
+                {
+                  "floor": "F7",
+                  "openState": "OPENED"
+                },
+                {
+                  "floor": "F7",
+                  "openState": "OPENED"
+                },
+                {
+                  "floor": "F7",
+                  "openState": "OPENED"
+                },
+                {
+                  "floor": "F7",
+                  "openState": "OPENED"
+                },
+                {
+                  "floor": "F7",
+                  "openState": "OPENED",
+                  "kismetUsed": true
+                },
+                {
+                  "floor": "F7",
+                  "openState": "OPENED"
+                },
+                {
+                  "floor": "F7",
+                  "openState": "OPENED"
+                },
+                {
+                  "floor": "F7",
+                  "openState": "OPENED"
+                },
+                {
+                  "floor": "F7",
+                  "openState": "UNOPENED"
+                },
+                {
+                  "floor": "F7",
+                  "openState": "OPENED"
+                },
+                {
+                  "floor": "F7",
+                  "openState": "OPENED"
+                },
+                {
+                  "floor": "F5",
+                  "openState": "OPENED"
+                },
+                {
+                  "floor": "F5",
+                  "openState": "OPENED"
+                },
+                {
+                  "floor": "F6",
+                  "openState": "OPENED"
+                },
+                {
+                  "floor": "F6",
+                  "openState": "OPENED"
+                },
+                {
+                  "floor": "F6",
+                  "openState": "OPENED"
+                },
+                {
+                  "floor": "F6",
+                  "openState": "OPENED"
+                },
+                {
+                  "floor": "F6",
+                  "openState": "OPENED"
+                },
+                {
+                  "floor": "F6",
+                  "openState": "OPENED"
+                },
+                {
+                  "floor": "F6",
+                  "openState": "OPENED"
+                },
+                {
+                  "floor": "F6",
+                  "openState": "OPENED"
+                },
+                {
+                  "floor": "F5",
+                  "openState": "OPENED"
+                },
+                {
+                  "floor": "F5",
+                  "openState": "OPENED"
+                },
+                {
+                  "floor": "F5",
+                  "openState": "OPENED"
+                },
+                {
+                  "floor": "F4",
+                  "openState": "OPENED"
+                },
+                {},
+                {
+                  "floor": "F4",
+                  "openState": "OPENED"
+                },
+                {
+                  "floor": "F4",
+                  "openState": "OPENED"
+                },
+                {
+                  "floor": "F4",
+                  "openState": "OPENED"
+                },
+                {
+                  "floor": "F4",
+                  "openState": "OPENED"
+                },
+                {
+                  "floor": "F4",
+                  "openState": "OPENED"
+                },
+                {
+                  "floor": "F4",
+                  "openState": "OPENED"
+                },
+                {
+                  "floor": "F4",
+                  "openState": "OPENED"
+                },
+                {
+                  "floor": "F4",
+                  "openState": "OPENED"
+                },
+                {
+                  "floor": "F4",
+                  "openState": "OPENED"
+                },
+                {
+                  "floor": "F4",
+                  "openState": "OPENED"
+                },
+                {
+                  "floor": "F4",
+                  "openState": "OPENED"
+                },
+                {
+                  "floor": "F4",
+                  "openState": "OPENED"
+                },
+                {
+                  "floor": "F4",
+                  "openState": "OPENED"
+                },
+                {
+                  "floor": "F7",
+                  "openState": "OPENED"
+                },
+                {
+                  "floor": "F7",
+                  "openState": "OPENED"
+                },
+                {
+                  "floor": "F4",
+                  "openState": "OPENED"
+                },
+                {
+                  "floor": "F4",
+                  "openState": "OPENED"
+                },
+                {
+                  "floor": "F4",
+                  "openState": "OPENED"
+                },
+                {
+                  "floor": "F4",
+                  "openState": "OPENED"
+                },
+                {
+                  "floor": "F4",
+                  "openState": "OPENED"
+                },
+                {
+                  "floor": "F4",
+                  "openState": "OPENED"
+                },
+                {
+                  "floor": "F4",
+                  "openState": "OPENED"
+                },
+                {
+                  "floor": "F4",
+                  "openState": "OPENED"
+                },
+                {
+                  "floor": "F4",
+                  "openState": "OPENED"
+                },
+                {
+                  "floor": "F4",
+                  "openState": "OPENED"
+                },
+                {},
+                {},
+                {},
                 {},
                 {},
                 {},
@@ -4767,8 +5043,14 @@
             },
             "fishing": {
               "fishingProfitTracker": {
-                "totalCatchAmount": 0,
-                "items": {}
+                "totalCatchAmount": 4,
+                "items": {
+                  "SKYBLOCK_COIN": {
+                    "timesGained": 4,
+                    "totalAmount": 139409,
+                    "hidden": false
+                  }
+                }
               },
               "seaCreatureTracker": {
                 "amount": {}
@@ -4799,74 +5081,74 @@
             "skillData": {
               "ENCHANTING": {
                 "level": 60,
-                "totalXp": 13628518,
-                "currentXp": 13628518,
+                "totalXp": 15405735,
+                "currentXp": 15405735,
                 "currentXpMax": 0,
                 "overflowLevel": 61,
-                "overflowCurrentXp": 6028518,
-                "overflowTotalXp": 13628518,
+                "overflowCurrentXp": 7805735,
+                "overflowTotalXp": 15405735,
                 "overflowCurrentXpMax": 8200000,
-                "lastGain": "14,354.3",
+                "lastGain": "250,250",
                 "customGoalLevel": 0
               },
               "MINING": {
-                "level": 49,
-                "totalXp": 55106425,
-                "currentXp": 3934000,
-                "currentXpMax": 4000000,
-                "overflowLevel": 49,
-                "overflowCurrentXp": 3934000,
-                "overflowTotalXp": 55106425,
-                "overflowCurrentXpMax": 4000000,
-                "lastGain": "30,820",
+                "level": 50,
+                "totalXp": 59058110,
+                "currentXp": 3885685,
+                "currentXpMax": 4300000,
+                "overflowLevel": 50,
+                "overflowCurrentXp": 3885685,
+                "overflowTotalXp": 59058110,
+                "overflowCurrentXpMax": 4300000,
+                "lastGain": "3,829.5",
                 "customGoalLevel": 0
               },
               "COMBAT": {
-                "level": 46,
-                "totalXp": 42468795,
-                "currentXp": 1496370,
-                "currentXpMax": 3100000,
-                "overflowLevel": 46,
-                "overflowCurrentXp": 1496370,
-                "overflowTotalXp": 42468795,
-                "overflowCurrentXpMax": 3100000,
-                "lastGain": "70.8",
+                "level": 47,
+                "totalXp": 45111711,
+                "currentXp": 1039286,
+                "currentXpMax": 3400000,
+                "overflowLevel": 47,
+                "overflowCurrentXp": 1039286,
+                "overflowTotalXp": 45111711,
+                "overflowCurrentXpMax": 3400000,
+                "lastGain": "9.7",
                 "customGoalLevel": 0
               },
               "CARPENTRY": {
-                "level": 45,
-                "totalXp": 39588593,
-                "currentXp": 1516168,
-                "currentXpMax": 2900000,
-                "overflowLevel": 45,
-                "overflowCurrentXp": 1516168,
-                "overflowTotalXp": 39588593,
-                "overflowCurrentXpMax": 2900000,
-                "lastGain": "21.6",
+                "level": 46,
+                "totalXp": 41084955,
+                "currentXp": 112530,
+                "currentXpMax": 3100000,
+                "overflowLevel": 46,
+                "overflowCurrentXp": 112530,
+                "overflowTotalXp": 41084955,
+                "overflowCurrentXpMax": 3100000,
+                "lastGain": "15,360",
                 "customGoalLevel": 0
               },
               "FARMING": {
                 "level": 59,
-                "totalXp": 110273803,
-                "currentXp": 5601378,
+                "totalXp": 110423803,
+                "currentXp": 5751378,
                 "currentXpMax": 7000000,
                 "overflowLevel": 59,
-                "overflowCurrentXp": 5601378,
-                "overflowTotalXp": 110273803,
+                "overflowCurrentXp": 5751378,
+                "overflowTotalXp": 110423803,
                 "overflowCurrentXpMax": 7000000,
                 "lastGain": "2.9",
                 "customGoalLevel": 0
               },
               "FISHING": {
                 "level": 26,
-                "totalXp": 3868998,
-                "currentXp": 46573,
+                "totalXp": 4124195,
+                "currentXp": 301770,
                 "currentXpMax": 900000,
                 "overflowLevel": 26,
-                "overflowCurrentXp": 46573,
-                "overflowTotalXp": 3868998,
+                "overflowCurrentXp": 301770,
+                "overflowTotalXp": 4124195,
                 "overflowCurrentXpMax": 900000,
-                "lastGain": "90",
+                "lastGain": "1,656.5",
                 "customGoalLevel": 0
               },
               "FORAGING": {
@@ -4895,12 +5177,12 @@
               },
               "TAMING": {
                 "level": 50,
-                "totalXp": 144950336,
-                "currentXp": 89777911,
+                "totalXp": 147963301,
+                "currentXp": 92790876,
                 "currentXpMax": 4300000,
                 "overflowLevel": 50,
-                "overflowCurrentXp": 89777911,
-                "overflowTotalXp": 144950336,
+                "overflowCurrentXp": 92790876,
+                "overflowTotalXp": 147963301,
                 "overflowCurrentXpMax": 4300000,
                 "lastGain": "",
                 "customGoalLevel": 0
@@ -4936,7 +5218,8 @@
             },
             "maxwell": {
               "magicalPower": -1,
-              "tunings": []
+              "tunings": [],
+              "favoritePowers": []
             },
             "arrows": {
               "arrowAmount": {}
@@ -5168,12 +5451,12 @@
             "chocolateFactory": {
               "currentRabbits": 8,
               "maxRabbits": 20,
-              "currentChocolate": 29374182,
-              "chocolateThisPrestige": 31153044,
-              "chocolateAllTime": 31153044,
-              "rawChocPerSecond": 606,
-              "chocolateMultiplier": 1.012,
-              "rawChocolateMultiplier": 1.012,
+              "currentChocolate": 214184783,
+              "chocolateThisPrestige": 215963645,
+              "chocolateAllTime": 215963645,
+              "rawChocPerSecond": 612,
+              "chocolateMultiplier": 1.021,
+              "rawChocolateMultiplier": 1.021,
               "timeTowerLevel": 0,
               "currentTimeTowerEnds": 0,
               "nextTimeTower": 0,
@@ -5181,13 +5464,13 @@
               "timeTowerCooldown": 8,
               "maxTimeTowerUses": 3,
               "hasMuRabbit": false,
-              "bestUpgradeAvailableAt": 1717448702538,
+              "bestUpgradeAvailableAt": 1717449588892,
               "bestUpgradeCost": 1344,
-              "lastDataSave": 1717496597824,
+              "lastDataSave": 1717792363562,
               "positionChange": {
-                "lastTime": 1717496597789,
-                "lastPosition": 218678,
-                "lastLeaderboard": "#218 678 §7Top §a13.21%"
+                "lastTime": 1717792361570,
+                "lastPosition": 226618,
+                "lastLeaderboard": "#226 618 §7Top §a12.96%"
               },
               "rabbitCounts": {
                 "Collin": 1,
@@ -5226,12 +5509,13 @@
                   "name": "Crit Damage",
                   "icon": "☠"
                 }
-              ]
+              ],
+              "favoritePowers": []
             },
             "arrows": {
               "currentArrow": "ARROW",
               "arrowAmount": {
-                "ARROW": 1043
+                "ARROW": 806
               }
             },
             "bits": {
@@ -5289,33 +5573,34 @@
               "trophyFishes": {}
             },
             "garden": {
-              "experience": 2030,
+              "experience": 2370,
               "cropCounter": {
-                "WHEAT": 26004,
-                "CARROT": 959,
-                "SUGAR_CANE": 208170,
-                "POTATO": 1759
+                "WHEAT": 28160,
+                "CARROT": 1759,
+                "SUGAR_CANE": 239470,
+                "POTATO": 2239,
+                "PUMPKIN": 1439
               },
               "cropUpgrades": {
                 "WHEAT": 0
               },
               "cropsPerSecond": {
                 "WHEAT": 33,
-                "SUGAR_CANE": 62
+                "SUGAR_CANE": 65
               },
               "latestBlocksPerSecond": {
                 "WHEAT": 14.0,
-                "SUGAR_CANE": 12.666666666666666
+                "SUGAR_CANE": 14.35135135135135
               },
               "latestTrueFarmingFortune": {},
               "savedCropAccessory": "NONE",
               "dicerDropTracker": {
                 "drops": {}
               },
-              "informedAboutLowMatter": 1717614556869,
-              "informedAboutLowFuel": 1717614556869,
+              "informedAboutLowMatter": 1717792669097,
+              "informedAboutLowFuel": 1717792669097,
               "visitorInterval": 840000,
-              "nextSixthVisitorArrival": -3847800,
+              "nextSixthVisitorArrival": -4498700,
               "armorDropTracker": {
                 "drops": {}
               },
@@ -5393,7 +5678,7 @@
                 "4": {
                   "id": 4,
                   "name": "4",
-                  "pests": 4,
+                  "pests": 1,
                   "sprayHasNotified": false,
                   "isBeingPasted": false,
                   "isPestCountInaccurate": false,
@@ -5601,14 +5886,14 @@
                   "uncleared": false
                 }
               },
-              "scoreboardPests": 4,
+              "scoreboardPests": 1,
               "cropStartLocations": {},
               "cropLastFarmedLocations": {},
               "farmingLanes": {},
               "fortune": {
                 "outdatedItems": {},
                 "anitaUpgrade": -1,
-                "farmingStrength": 78,
+                "farmingStrength": 133,
                 "farmingLevel": 20,
                 "plotsUnlocked": 1,
                 "cakeExpiring": 1717670585434,
@@ -5632,34 +5917,44 @@
               "npcVisitorLocations": {},
               "customGoalMilestone": {},
               "pestProfitTracker": {
-                "totalPestsKills": 14,
+                "totalPestsKills": 23,
                 "items": {
                   "ENCHANTED_CARROT": {
-                    "timesGained": 3,
-                    "totalAmount": 6,
-                    "hidden": false
-                  },
-                  "SKYBLOCK_COIN": {
-                    "timesGained": 11,
-                    "totalAmount": 281,
-                    "hidden": false
-                  },
-                  "ENCHANTED_SUGAR": {
-                    "timesGained": 3,
-                    "totalAmount": 8,
-                    "hidden": false
-                  },
-                  "ENCHANTED_POTATO": {
                     "timesGained": 5,
                     "totalAmount": 11,
                     "hidden": false
                   },
+                  "SKYBLOCK_COIN": {
+                    "timesGained": 18,
+                    "totalAmount": 462,
+                    "hidden": false
+                  },
+                  "ENCHANTED_SUGAR": {
+                    "timesGained": 4,
+                    "totalAmount": 10,
+                    "hidden": false
+                  },
+                  "ENCHANTED_POTATO": {
+                    "timesGained": 6,
+                    "totalAmount": 14,
+                    "hidden": false
+                  },
                   "ENCHANTED_HAY_BLOCK": {
-                    "timesGained": 3,
-                    "totalAmount": 7,
+                    "timesGained": 4,
+                    "totalAmount": 10,
                     "hidden": false
                   },
                   "ENCHANTED_SUGAR_CANE": {
+                    "timesGained": 1,
+                    "totalAmount": 1,
+                    "hidden": false
+                  },
+                  "ENCHANTED_PUMPKIN": {
+                    "timesGained": 4,
+                    "totalAmount": 9,
+                    "hidden": false
+                  },
+                  "BEADY_EYES": {
                     "timesGained": 1,
                     "totalAmount": 1,
                     "hidden": false
@@ -5723,16 +6018,16 @@
               },
               "Revenant Horror II": {
                 "slayerSpawnCost": -89939,
-                "slayerCompletedCount": 156,
+                "slayerCompletedCount": 161,
                 "items": {
                   "ROTTEN_FLESH": {
-                    "timesGained": 5220,
-                    "totalAmount": 11308,
+                    "timesGained": 5402,
+                    "totalAmount": 11709,
                     "hidden": false
                   },
                   "SKYBLOCK_COIN": {
-                    "timesGained": 4336,
-                    "totalAmount": 339352,
+                    "timesGained": 4476,
+                    "totalAmount": 346442,
                     "hidden": false
                   },
                   "GOLD_INGOT": {
@@ -5741,13 +6036,13 @@
                     "hidden": false
                   },
                   "REVENANT_FLESH": {
-                    "timesGained": 153,
-                    "totalAmount": 2039,
+                    "timesGained": 158,
+                    "totalAmount": 2101,
                     "hidden": false
                   },
                   "FOUL_FLESH": {
-                    "timesGained": 23,
-                    "totalAmount": 24,
+                    "timesGained": 25,
+                    "totalAmount": 26,
                     "hidden": false
                   },
                   "ZOMBIE_SLAYER_RUNE;1": {
@@ -5756,8 +6051,8 @@
                     "hidden": false
                   },
                   "UNDEAD_CATALYST": {
-                    "timesGained": 3,
-                    "totalAmount": 3,
+                    "timesGained": 4,
+                    "totalAmount": 4,
                     "hidden": false
                   },
                   "GHOUL;4": {
@@ -6162,8 +6457,8 @@
                   "total": 0
                 },
                 "MITHRIL": {
-                  "available": 1829,
-                  "total": 1829
+                  "available": 3589,
+                  "total": 3589
                 },
                 "GEMSTONE": {
                   "available": 7007,
@@ -6275,14 +6570,14 @@
             "skillData": {
               "COMBAT": {
                 "level": 21,
-                "totalXp": 870656,
-                "currentXp": 48231,
+                "totalXp": 910331,
+                "currentXp": 87906,
                 "currentXpMax": 400000,
                 "overflowLevel": 21,
-                "overflowCurrentXp": 48231,
-                "overflowTotalXp": 870656,
+                "overflowCurrentXp": 87906,
+                "overflowTotalXp": 910331,
                 "overflowCurrentXpMax": 400000,
-                "lastGain": "55.6",
+                "lastGain": "40.7",
                 "customGoalLevel": 0
               },
               "CARPENTRY": {
@@ -6359,26 +6654,26 @@
               },
               "FARMING": {
                 "level": 20,
-                "totalXp": 662084,
-                "currentXp": 139659,
+                "totalXp": 751845,
+                "currentXp": 229420,
                 "currentXpMax": 300000,
                 "overflowLevel": 20,
-                "overflowCurrentXp": 139659,
-                "overflowTotalXp": 662084,
+                "overflowCurrentXp": 229420,
+                "overflowTotalXp": 751845,
                 "overflowCurrentXpMax": 300000,
                 "lastGain": "2.6",
                 "customGoalLevel": 0
               },
               "MINING": {
-                "level": 21,
-                "totalXp": 1221446,
-                "currentXp": 399021,
-                "currentXpMax": 400000,
-                "overflowLevel": 21,
-                "overflowCurrentXp": 399021,
-                "overflowTotalXp": 1221446,
-                "overflowCurrentXpMax": 400000,
-                "lastGain": "137.5",
+                "level": 22,
+                "totalXp": 1243525,
+                "currentXp": 21100,
+                "currentXpMax": 500000,
+                "overflowLevel": 22,
+                "overflowCurrentXp": 21100,
+                "overflowTotalXp": 1243525,
+                "overflowCurrentXpMax": 500000,
+                "lastGain": "20",
                 "customGoalLevel": 0
               }
             }
@@ -6387,8 +6682,10 @@
         "useRomanNumerals": true,
         "gardenCommunityUpgrade": 10,
         "nextCityProjectParticipationTime": 0,
-        "currentAccountUpgrade": "Accessory Bag V",
-        "nextAccountUpgradeCompletionTime": 1718836539566,
+        "communityShopAccountUpgrade": {
+          "name": "Accessory Bag V",
+          "completionTime": 1718836539566
+        },
         "guildMembers": [
           "Sebbebas",
           "",
@@ -6402,7 +6699,7 @@
         "winter": {
           "playersThatHaveBeenGifted": [],
           "amountGifted": 0,
-          "cakeCollectedYear": 0
+          "cakeCollectedYear": 353
         },
         "bingoSessions": {
           "1714521600": {
@@ -6445,7 +6742,7 @@
                 "done": true,
                 "highlight": false,
                 "hiddenGoalData": {},
-                "communtyGoalPercentage": 0.0552
+                "communtyGoalPercentage": 0.0622
               },
               "3": {
                 "type": "PERSONAL",
@@ -6529,7 +6826,7 @@
                 "done": true,
                 "highlight": false,
                 "hiddenGoalData": {},
-                "communtyGoalPercentage": 0.013500000000000002
+                "communtyGoalPercentage": 0.0187
               },
               "13": {
                 "type": "PERSONAL",
@@ -6614,7 +6911,7 @@
                 "done": true,
                 "highlight": false,
                 "hiddenGoalData": {},
-                "communtyGoalPercentage": 0.0473
+                "communtyGoalPercentage": 0.0487
               },
               "23": {
                 "type": "PERSONAL",
@@ -6697,7 +6994,7 @@
                 "done": true,
                 "highlight": false,
                 "hiddenGoalData": {},
-                "communtyGoalPercentage": 0.01
+                "communtyGoalPercentage": 0.0101
               },
               "33": {
                 "type": "PERSONAL",
@@ -6779,7 +7076,7 @@
                 "done": true,
                 "highlight": false,
                 "hiddenGoalData": {},
-                "communtyGoalPercentage": 0.029900000000000003
+                "communtyGoalPercentage": 0.0518
               }
             }
           }
@@ -6793,16 +7090,16 @@
       "da016e25-746b-4239-b731-d8c59c283260": {
         "profiles": {
           "apple": {
-            "currentPet": "",
+            "currentPet": "§6Baby Yeti",
             "chocolateFactory": {
               "currentRabbits": 0,
-              "maxRabbits": -1,
-              "currentChocolate": 0,
-              "chocolateThisPrestige": 0,
-              "chocolateAllTime": 0,
-              "rawChocPerSecond": 0,
-              "chocolateMultiplier": 1.0,
-              "rawChocolateMultiplier": 1.0,
+              "maxRabbits": 20,
+              "currentChocolate": 2,
+              "chocolateThisPrestige": 52,
+              "chocolateAllTime": 52,
+              "rawChocPerSecond": 1,
+              "chocolateMultiplier": 1.25,
+              "rawChocolateMultiplier": 1.25,
               "timeTowerLevel": 0,
               "currentTimeTowerEnds": 0,
               "nextTimeTower": 0,
@@ -6810,9 +7107,9 @@
               "timeTowerCooldown": 8,
               "maxTimeTowerUses": 3,
               "hasMuRabbit": false,
-              "bestUpgradeAvailableAt": 0,
-              "bestUpgradeCost": 0,
-              "lastDataSave": 0,
+              "bestUpgradeAvailableAt": 1717844808281,
+              "bestUpgradeCost": 100,
+              "lastDataSave": 1717844729881,
               "positionChange": {
                 "lastPosition": -1
               },
@@ -6829,25 +7126,33 @@
                   "name": "Intelligence",
                   "icon": "✎"
                 }
-              ]
+              ],
+              "favoritePowers": []
             },
             "arrows": {
               "arrowAmount": {}
             },
             "bits": {
-              "bits": 27136,
-              "bitsAvailable": 7664,
-              "boosterCookieExpiryTime": 1717934224142
+              "bits": 23484,
+              "bitsAvailable": 3162,
+              "boosterCookieExpiryTime": 1717934225434
             },
             "minions": {},
             "beaconPower": {},
             "crimsonIsle": {
-              "quests": [],
+              "quests": [
+                "Rescue Mission:NOT_ACCEPTED:0",
+                "Mage Outlaw:NOT_ACCEPTED:1:0",
+                "Tenacity Rank F:NOT_ACCEPTED:0",
+                "Magmag:NOT_ACCEPTED:20:0",
+                "Volcanic Stonefish:NOT_ACCEPTED:1:0"
+              ],
               "miniBossesDoneToday": [],
               "kuudraTiersDone": [],
               "trophyFishes": {}
             },
             "garden": {
+              "experience": 72350,
               "cropCounter": {
                 "WHEAT": 12509320,
                 "CACTUS": 2400,
@@ -6870,7 +7175,7 @@
               "dicerDropTracker": {
                 "drops": {}
               },
-              "informedAboutLowMatter": 1717399132047,
+              "informedAboutLowMatter": 1717847401631,
               "informedAboutLowFuel": 0,
               "visitorInterval": 900000,
               "nextSixthVisitorArrival": -1398400,
@@ -6953,7 +7258,7 @@
                   "pests": 0,
                   "sprayHasNotified": false,
                   "isBeingPasted": false,
-                  "isPestCountInaccurate": false,
+                  "isPestCountInaccurate": true,
                   "locked": true,
                   "uncleared": false
                 },
@@ -6983,7 +7288,7 @@
                   "pests": 0,
                   "sprayHasNotified": false,
                   "isBeingPasted": false,
-                  "isPestCountInaccurate": false,
+                  "isPestCountInaccurate": true,
                   "locked": true,
                   "uncleared": false
                 },
@@ -7023,7 +7328,7 @@
                   "pests": 0,
                   "sprayHasNotified": false,
                   "isBeingPasted": false,
-                  "isPestCountInaccurate": false,
+                  "isPestCountInaccurate": true,
                   "locked": true,
                   "uncleared": false
                 },
@@ -7033,7 +7338,7 @@
                   "pests": 0,
                   "sprayHasNotified": false,
                   "isBeingPasted": false,
-                  "isPestCountInaccurate": false,
+                  "isPestCountInaccurate": true,
                   "locked": true,
                   "uncleared": false
                 },
@@ -7073,7 +7378,7 @@
                   "pests": 0,
                   "sprayHasNotified": false,
                   "isBeingPasted": false,
-                  "isPestCountInaccurate": false,
+                  "isPestCountInaccurate": true,
                   "locked": true,
                   "uncleared": false
                 },
@@ -7083,14 +7388,14 @@
                   "pests": 0,
                   "sprayHasNotified": false,
                   "isBeingPasted": false,
-                  "isPestCountInaccurate": false,
+                  "isPestCountInaccurate": true,
                   "locked": true,
                   "uncleared": false
                 },
                 "18": {
                   "id": 18,
                   "name": "18",
-                  "pests": 1,
+                  "pests": 0,
                   "sprayHasNotified": false,
                   "isBeingPasted": false,
                   "isPestCountInaccurate": false,
@@ -7158,7 +7463,7 @@
                   "uncleared": false
                 }
               },
-              "scoreboardPests": 3,
+              "scoreboardPests": 8,
               "cropStartLocations": {},
               "cropLastFarmedLocations": {},
               "farmingLanes": {},
@@ -7166,7 +7471,8 @@
                 "outdatedItems": {
                   "BRACELET": false,
                   "NECKLACE": false,
-                  "BELT": false
+                  "BELT": false,
+                  "ELEPHANT": false
                 },
                 "anitaUpgrade": 15,
                 "farmingStrength": 186,
@@ -7182,7 +7488,8 @@
                   "BELT": "eyJpdGVtaWQiOiJtaW5lY3JhZnQ6c2t1bGwiLCJkaXNwbGF5bmFtZSI6IsKnOUxvdHVzIEJlbHQiLCJuYnR0YWciOiJ7SGlkZUZsYWdzOjI1NCxTa3VsbE93bmVyOntJZDpcIjIyMjc1NjdmLTA0ODctMzZmNy04ZWY5LWIxNjc3NTU3NjljZFwiLFByb3BlcnRpZXM6e3RleHR1cmVzOlswOntWYWx1ZTpcImV3b2dJQ0owYVcxbGMzUmhiWEFpSURvZ01UWTJNalV3TWpnME5UUXlOaXdLSUNBaWNISnZabWxzWlVsa0lpQTZJQ0ptTVRka09XSmxabU0yTkdNMFl6QTRPRFZoWVdVM05XUTBZamhpTldFME5DSXNDaUFnSW5CeWIyWnBiR1ZPWVcxbElpQTZJQ0pUYVhKQ1lXNWtaWEp6Ym1GMFkyZ2lMQW9nSUNKemFXZHVZWFIxY21WU1pYRjFhWEpsWkNJZ09pQjBjblZsTEFvZ0lDSjBaWGgwZFhKbGN5SWdPaUI3Q2lBZ0lDQWlVMHRKVGlJZ09pQjdDaUFnSUNBZ0lDSjFjbXdpSURvZ0ltaDBkSEE2THk5MFpYaDBkWEpsY3k1dGFXNWxZM0poWm5RdWJtVjBMM1JsZUhSMWNtVXZOR05sT0dReE9XSXdNVFl6WkRGbFlXUmtaVFUyTXpNM056TTVOR0l3TldSbE5qTTBNamRqTm1VelpqaGhPVFE1WlRCa1ptRXpNbUppTWpCa04yWXlaQ0lLSUNBZ0lIMEtJQ0I5Q24wXCJ9XX19LGRpc3BsYXk6e0xvcmU6WzA6XCLCpzdIZWFsdGg6IMKnYSsxMFwiLDE6XCLCpzdGYXJtaW5nIEZvcnR1bmU6IMKnYSs1XCIsMjpcIlwiLDM6XCLCpzZQaWVjZSBCb251czogU2FsZXNwZXJzb25cIiw0Olwiwqc3Q29tcGxldGUgwqdhR2FyZGVuIFZpc2l0b3IgT2ZmZXJzIMKnN3RvXCIsNTpcIsKnN2dhaW4gwqc24piYIEZhcm1pbmcgRm9ydHVuZcKnNy5cIiw2OlwiXCIsNzpcIsKnN1BpZWNlIEJvbnVzOiDCpzYrMTHimJhcIiw4Olwiwqc3TmV4dCBVcGdyYWRlOiDCpzYrMTLimJggwqc4KMKnYTEsMzIxwqc3L8KnYzIsMDAwwqc4KVwiLDk6XCJcIiwxMDpcIsKnN8KnOFRoaXMgaXRlbSBjYW4gYmUgcmVmb3JnZWQhXCIsMTE6XCLCpznCp2xSQVJFIEJFTFRcIl0sTmFtZTpcIsKnOUxvdHVzIEJlbHRcIn0sRXh0cmFBdHRyaWJ1dGVzOntpZDpcIkxPVFVTX0JFTFRcIix1dWlkOlwiMGNkNmUxNzEtZWNjZS00MWZkLThhZTItZGYxNTgzODBkNDM2XCIsdGltZXN0YW1wOjE3MTczNTk3NjE5MjRMfX0iLCJkYW1hZ2UiOjMsImludGVybmFsbmFtZSI6Il8ifQ\u003d\u003d",
                   "LEGGINGS": "eyJpdGVtaWQiOiJtaW5lY3JhZnQ6bGVhdGhlcl9sZWdnaW5ncyIsImRpc3BsYXluYW1lIjoiwqc5QnVzdGxpbmcgQ3JvcGllIExlZ2dpbmdzIiwibmJ0dGFnIjoie1VuYnJlYWthYmxlOjFiLEhpZGVGbGFnczoyNTQsZGlzcGxheTp7TG9yZTpbMDpcIsKnN0hlYWx0aDogwqdhKzE2NVwiLDE6XCLCpzdEZWZlbnNlOiDCp2ErMzBcIiwyOlwiwqc3U3BlZWQ6IMKnYSs0XCIsMzpcIsKnN0Zhcm1pbmcgRm9ydHVuZTogwqdhKzI5IMKnOSgrNClcIiw0OlwiIMKnOFvCpzjimJjCpzhdXCIsNTpcIlwiLDY6XCLCpzZUaWVyZWQgQm9udXM6IFNxdWFzaGJ1Y2tsZSAoMy80KVwiLDc6XCLCpzfCpzdGYXJtaW5nIFB1bXBraW5zLCBNZWxvbnMsIGFuZCBDb2NvYVwiLDg6XCLCpzdCZWFucyBoYXZlIGEgwqdhMC4wMiUgwqc3Y2hhbmNlIG9mXCIsOTpcIsKnN2Ryb3BwaW5nIGEgU3F1YXNoLiDCpzdHcmFudHMgwqc2MzDimJhcIiwxMDpcIsKnNkZhcm1pbmcgRm9ydHVuZcKnNy5cIiwxMTpcIlwiLDEyOlwiwqc5wqdsUkFSRSBMRUdHSU5HU1wiXSxjb2xvcjo5NzE3MDIzLE5hbWU6XCLCpzlCdXN0bGluZyBDcm9waWUgTGVnZ2luZ3NcIn0sRXh0cmFBdHRyaWJ1dGVzOnttb2RpZmllcjpcImJ1c3RsaW5nXCIsaWQ6XCJDUk9QSUVfTEVHR0lOR1NcIix1dWlkOlwiMDFhNDMwZjktZjQzMy00MDNmLTgzMzMtMzQ2ZTQ4YTg4Mjg5XCIsdGltZXN0YW1wOjE2ODgyODkxMjAwMDBMfX0iLCJkYW1hZ2UiOjAsImludGVybmFsbmFtZSI6Il8ifQ\u003d\u003d",
                   "WHEAT": "eyJpdGVtaWQiOiJtaW5lY3JhZnQ6aXJvbl9ob2UiLCJkaXNwbGF5bmFtZSI6IsKnNUJsZXNzZWQgRXVjbGlkJ3MgV2hlYXQgSG9lIiwibmJ0dGFnIjoie2VuY2g6WzA6e2x2bDo1cyxpZDozMnN9XSxVbmJyZWFrYWJsZToxYixIaWRlRmxhZ3M6MjU0LGRpc3BsYXk6e0xvcmU6WzA6XCLCpzdTcGVlZDogwqdhKzEzIMKnOSgrMTMpXCIsMTpcIsKnN0Zhcm1pbmcgRm9ydHVuZTogwqdhKzExMSDCpzIoKzUpIMKnOSgrMTMpXCIsMjpcIsKnN0Zhcm1pbmcgV2lzZG9tOiDCp2ErMTMgwqc5KCs0KVwiLDM6XCLCpzdXaGVhdCBGb3J0dW5lOiDCp2ErMTM3XCIsNDpcIiDCpzhbwqc44piYwqc4XSDCpzhbwqc44piYwqc4XVwiLDU6XCJcIiw2Olwiwqc5Q3VsdGl2YXRpbmcgSVggwqc4MzIsMTUxLDYwNFwiLDc6XCLCpzlEZWRpY2F0aW9uIElJSVwiLDg6XCLCpzlFZmZpY2llbmN5IFZcIiw5Olwiwqc5SGFydmVzdGluZyBWSVwiLDEwOlwiwqc5UmVwbGVuaXNoIElcIiwxMTpcIsKnOVNpbGsgVG91Y2ggSVwiLDEyOlwiwqc5VHVyYm8tV2hlYXQgVlwiLDEzOlwiXCIsMTQ6XCLCpzdHYWluIMKnNisyNeKYmCBXaGVhdCBGb3J0dW5lIMKnN2FuZCDCpzMrNeKYr1wiLDE1OlwiwqczRmFybWluZyBXaXNkb20gwqc3Zm9yIHdoZWF0LlwiLDE2OlwiXCIsMTc6XCLCpzdDb3VudGVyOiDCp2UxMywzOTAsNDg0IFdoZWF0XCIsMTg6XCJcIiwxOTpcIsKnNkxvZ2FyaXRobWljIENvdW50ZXJcIiwyMDpcIsKnN0dhaW4gwqc2KzE24piYIFdoZWF0IEZvcnR1bmUgwqc3cGVyIGRpZ2l0c1wiLDIxOlwiwqc3b24gdGhlIENvdW50ZXIsIG1pbnVzIDQhXCIsMjI6XCLCpzdZb3UgaGF2ZSDCpzYrNjTimJggV2hlYXQgRm9ydHVuZcKnNy5cIiwyMzpcIlwiLDI0Olwiwqc3wqc4Qm9udXMgd2hlYXQgcGVyY2VudCBpbmNyZWFzZXMgeW91clwiLDI1Olwiwqc4RmFybWhhbmQgcGVyaydzIGNoYW5jZXMuXCIsMjY6XCJcIiwyNzpcIsKnZVJpZ2h0LWNsaWNrIHRvIHZpZXcgcmVjaXBlcyFcIiwyODpcIlwiLDI5Olwiwqc5Qmxlc3NlZCBCb251c1wiLDMwOlwiwqc3R3JhbnRzIMKnNisxM+KYmCBGYXJtaW5nIEZvcnR1bmUgwqc3YW5kXCIsMzE6XCLCpzfCpzMrNOKYryBGYXJtaW5nIFdpc2RvbcKnNy5cIiwzMjpcIlwiLDMzOlwiwqc4wqdsKiDCpzhDby1vcCBTb3VsYm91bmQgwqc4wqdsKlwiLDM0Olwiwqc1wqdsRVBJQyBIT0VcIl0sTmFtZTpcIsKnNUJsZXNzZWQgRXVjbGlkJ3MgV2hlYXQgSG9lXCJ9LEV4dHJhQXR0cmlidXRlczp7ZmFybWVkX2N1bHRpdmF0aW5nOjMyMTUyMDA5LG1pbmVkX2Nyb3BzOjEzMzkwNjQ2TCxtb2RpZmllcjpcImJsZXNzZWRcIixpZDpcIlRIRU9SRVRJQ0FMX0hPRV9XSEVBVF8yXCIsZW5jaGFudG1lbnRzOntlZmZpY2llbmN5OjUsaGFydmVzdGluZzo2LGN1bHRpdmF0aW5nOjksZGVkaWNhdGlvbjozLHNpbGtfdG91Y2g6MSx0dXJib193aGVhdDo1LHJlcGxlbmlzaDoxfSxmYXJtaW5nX2Zvcl9kdW1taWVzX2NvdW50OjUsdXVpZDpcImFhOGQ4NmE2LTU2MDgtNDMxNC1iODQxLWVjNGRlNWI4YmEzMFwiLGRvbmF0ZWRfbXVzZXVtOjFiLHRpbWVzdGFtcDoxNjYwOTkyNjAwMDAwTH19IiwiZGFtYWdlIjowLCJpbnRlcm5hbG5hbWUiOiJfIn0\u003d",
-                  "CHESTPLATE": "eyJpdGVtaWQiOiJtaW5lY3JhZnQ6bGVhdGhlcl9jaGVzdHBsYXRlIiwiZGlzcGxheW5hbWUiOiLCpzlCdXN0bGluZyBDcm9waWUgQ2hlc3RwbGF0ZSIsIm5idHRhZyI6IntVbmJyZWFrYWJsZToxYixIaWRlRmxhZ3M6MjU0LGRpc3BsYXk6e0xvcmU6WzA6XCLCpzdIZWFsdGg6IMKnYSsxNjVcIiwxOlwiwqc3RGVmZW5zZTogwqdhKzMwXCIsMjpcIsKnN1NwZWVkOiDCp2ErNFwiLDM6XCLCpzdGYXJtaW5nIEZvcnR1bmU6IMKnYSsyOSDCpzkoKzQpXCIsNDpcIiDCpzhbwqc44piYwqc4XVwiLDU6XCJcIiw2Olwiwqc2VGllcmVkIEJvbnVzOiBTcXVhc2hidWNrbGUgKDMvNClcIiw3Olwiwqc3wqc3RmFybWluZyBQdW1wa2lucywgTWVsb25zLCBhbmQgQ29jb2FcIiw4Olwiwqc3QmVhbnMgaGF2ZSBhIMKnYTAuMDIlIMKnN2NoYW5jZSBvZlwiLDk6XCLCpzdkcm9wcGluZyBhIFNxdWFzaC4gwqc3R3JhbnRzIMKnNjMw4piYXCIsMTA6XCLCpzZGYXJtaW5nIEZvcnR1bmXCpzcuXCIsMTE6XCJcIiwxMjpcIsKnOcKnbFJBUkUgQ0hFU1RQTEFURVwiXSxjb2xvcjo4MDA1ODg4LE5hbWU6XCLCpzlCdXN0bGluZyBDcm9waWUgQ2hlc3RwbGF0ZVwifSxFeHRyYUF0dHJpYnV0ZXM6e21vZGlmaWVyOlwiYnVzdGxpbmdcIixpZDpcIkNST1BJRV9DSEVTVFBMQVRFXCIsdXVpZDpcIjllOTVmOGU3LWExOTMtNDQ2Mi1hMmRlLTIyM2ZkNDU2NWZkZlwiLHRpbWVzdGFtcDoxNjg4Mjg5OTAwMDAwTH19IiwiZGFtYWdlIjowLCJpbnRlcm5hbG5hbWUiOiJfIn0\u003d"
+                  "CHESTPLATE": "eyJpdGVtaWQiOiJtaW5lY3JhZnQ6bGVhdGhlcl9jaGVzdHBsYXRlIiwiZGlzcGxheW5hbWUiOiLCpzlCdXN0bGluZyBDcm9waWUgQ2hlc3RwbGF0ZSIsIm5idHRhZyI6IntVbmJyZWFrYWJsZToxYixIaWRlRmxhZ3M6MjU0LGRpc3BsYXk6e0xvcmU6WzA6XCLCpzdIZWFsdGg6IMKnYSsxNjVcIiwxOlwiwqc3RGVmZW5zZTogwqdhKzMwXCIsMjpcIsKnN1NwZWVkOiDCp2ErNFwiLDM6XCLCpzdGYXJtaW5nIEZvcnR1bmU6IMKnYSsyOSDCpzkoKzQpXCIsNDpcIiDCpzhbwqc44piYwqc4XVwiLDU6XCJcIiw2Olwiwqc2VGllcmVkIEJvbnVzOiBTcXVhc2hidWNrbGUgKDMvNClcIiw3Olwiwqc3wqc3RmFybWluZyBQdW1wa2lucywgTWVsb25zLCBhbmQgQ29jb2FcIiw4Olwiwqc3QmVhbnMgaGF2ZSBhIMKnYTAuMDIlIMKnN2NoYW5jZSBvZlwiLDk6XCLCpzdkcm9wcGluZyBhIFNxdWFzaC4gwqc3R3JhbnRzIMKnNjMw4piYXCIsMTA6XCLCpzZGYXJtaW5nIEZvcnR1bmXCpzcuXCIsMTE6XCJcIiwxMjpcIsKnOcKnbFJBUkUgQ0hFU1RQTEFURVwiXSxjb2xvcjo4MDA1ODg4LE5hbWU6XCLCpzlCdXN0bGluZyBDcm9waWUgQ2hlc3RwbGF0ZVwifSxFeHRyYUF0dHJpYnV0ZXM6e21vZGlmaWVyOlwiYnVzdGxpbmdcIixpZDpcIkNST1BJRV9DSEVTVFBMQVRFXCIsdXVpZDpcIjllOTVmOGU3LWExOTMtNDQ2Mi1hMmRlLTIyM2ZkNDU2NWZkZlwiLHRpbWVzdGFtcDoxNjg4Mjg5OTAwMDAwTH19IiwiZGFtYWdlIjowLCJpbnRlcm5hbG5hbWUiOiJfIn0\u003d",
+                  "ELEPHANT": "eyJpdGVtaWQiOiJtaW5lY3JhZnQ6c2t1bGwiLCJkaXNwbGF5bmFtZSI6IsKnN1tMdmwgMTAwXSDCpzZFbGVwaGFudCIsIm5idHRhZyI6IntTa3VsbE93bmVyOntJZDpcImY0ZTRjNmQ1LTQ2OTgtNGUyNS05ODllLTdlNWI5ZmEzMGRiZlwiLGh5cGl4ZWxQb3B1bGF0ZWQ6MWIsUHJvcGVydGllczp7dGV4dHVyZXM6WzA6e1ZhbHVlOlwiZXlKMFpYaDBkWEpsY3lJNmV5SlRTMGxPSWpwN0luVnliQ0k2SW1oMGRIQTZMeTkwWlhoMGRYSmxjeTV0YVc1bFkzSmhablF1Ym1WMEwzUmxlSFIxY21Vdk56QTNNV0UzTm1ZMk5qbGtZalZsWkRaa016SmlORGhpWWpKa1ltRTFOV1ExTXpFM1pEZG1ORFV5TWpWallqTXlOamRsWXpRek5XTm1ZVFV4TkNKOWZYMD1cIn1dfSxOYW1lOlwiwqdmNGU0YzZkNS00Njk4LTRlMjUtOTg5ZS03ZTViOWZhMzBkYmZcIn0sZGlzcGxheTp7TG9yZTpbMDpcIsKnOEZhcm1pbmcgUGV0XCIsMTpcIlwiLDI6XCLCpzdIZWFsdGg6IMKnYSsxMDBcIiwzOlwiwqc3SW50ZWxsaWdlbmNlOiDCp2ErNzVcIiw0Olwiwqc3RmFybWluZyBGb3J0dW5lOiDCp2ErNjBcIiw1OlwiXCIsNjpcIsKnNlN0b21wXCIsNzpcIsKnN8KnN0dhaW4gwqdhMjDinYggRGVmZW5zZSDCpzdmb3IgZXZlcnkgMTAwIMKnZuKcplwiLDg6XCLCp2ZTcGVlZMKnNy5cIiw5OlwiXCIsMTA6XCLCpzZXYWxraW5nIEZvcnRyZXNzXCIsMTE6XCLCpzfCpzdHYWluIMKnYzHinaQgSGVhbHRoIMKnN2ZvciBldmVyeSAxMCDCp2HinYhcIiwxMjpcIsKnYURlZmVuc2XCpzcuXCIsMTM6XCJcIiwxNDpcIsKnNlRydW5rIEVmZmljaWVuY3lcIiwxNTpcIsKnN8KnN0dyYW50cyDCpzYrMTUw4piYIEZhcm1pbmcgRm9ydHVuZcKnNyxcIiwxNjpcIsKnN3doaWNoIGluY3JlYXNlcyB5b3VyIGNoYW5jZSBmb3JcIiwxNzpcIsKnN211bHRpcGxlIGRyb3BzLlwiLDE4OlwiXCIsMTk6XCLCpzZIZWxkIEl0ZW06IMKnNUdyZWVuIEJhbmRhbmFcIiwyMDpcIsKnN0dyYW50cyDCpzYrNOKYmCBGYXJtaW5nIEZvcnR1bmUgwqc3Zm9yXCIsMjE6XCLCpzdlYWNoIG9mIHlvdXIgR2FyZGVuIExldmVscy5cIiwyMjpcIlwiLDIzOlwiwqdiwqdsTUFYIExFVkVMXCIsMjQ6XCLCpzjilrggMTE4LDI3Nyw4MDggWFBcIiwyNTpcIlwiLDI2Olwiwqc3wqdlTGVmdC1jbGljayB0byBzdW1tb24hXCIsMjc6XCLCp2VSaWdodC1jbGljayB0byBjb252ZXJ0IHRvIGFuIGl0ZW0hXCJdLE5hbWU6XCLCpzdbTHZsIDEwMF0gwqc2RWxlcGhhbnRcIn0sRXh0cmFBdHRyaWJ1dGVzOntwZXRJbmZvOlwie1xcXCJ0eXBlXFxcIjpcXFwiRUxFUEhBTlRcXFwiLFxcXCJhY3RpdmVcXFwiOmZhbHNlLFxcXCJleHBcXFwiOjEuMTgyNzc4MDgwNTg2MjkzNkU4LFxcXCJ0aWVyXFxcIjpcXFwiTEVHRU5EQVJZXFxcIixcXFwiaGlkZUluZm9cXFwiOmZhbHNlLFxcXCJoZWxkSXRlbVxcXCI6XFxcIkdSRUVOX0JBTkRBTkFcXFwiLFxcXCJjYW5keVVzZWRcXFwiOjAsXFxcInV1aWRcXFwiOlxcXCIzMGI0MDFiOS1jMTMzLTQyNmItODhlMS1mYTJkNmM2MzI1YWFcXFwiLFxcXCJ1bmlxdWVJZFxcXCI6XFxcImU4Zjk0M2E0LWY3MjYtNDNkOC1iMWI3LTI1MjRjYjA2NWM1N1xcXCIsXFxcImhpZGVSaWdodENsaWNrXFxcIjpmYWxzZSxcXFwibm9Nb3ZlXFxcIjpmYWxzZX1cIixpZDpcIlBFVFwiLHV1aWQ6XCIzMGI0MDFiOS1jMTMzLTQyNmItODhlMS1mYTJkNmM2MzI1YWFcIn19IiwiZGFtYWdlIjozLCJpbnRlcm5hbG5hbWUiOiJfIn0\u003d"
                 }
               },
               "composterEmptyTime": 0,
@@ -7239,7 +7546,11 @@
               }
             },
             "ghostCounter": {
-              "data": {},
+              "data": {
+                "KILLCOMBOCOINS": 0.0,
+                "KILLCOMBO": 0.0,
+                "SCAVENGERCOINS": 193.0
+              },
               "ctDataImported": false,
               "bestiaryNextLevel": 0.0,
               "bestiaryCurrentKill": 0.0,
@@ -7267,8 +7578,53 @@
                 "count": {}
               }
             },
-            "slayerProfitData": {},
-            "slayerRngMeter": {},
+            "slayerProfitData": {
+              "Tarantula Broodfather IV": {
+                "slayerSpawnCost": 0,
+                "slayerCompletedCount": 1,
+                "items": {
+                  "BURNING_EYE": {
+                    "timesGained": 1,
+                    "totalAmount": 1,
+                    "hidden": false
+                  },
+                  "TARANTULA_WEB": {
+                    "timesGained": 1,
+                    "totalAmount": 54,
+                    "hidden": false
+                  },
+                  "TOXIC_ARROW_POISON": {
+                    "timesGained": 1,
+                    "totalAmount": 61,
+                    "hidden": false
+                  },
+                  "SKYBLOCK_COIN": {
+                    "timesGained": 10,
+                    "totalAmount": 2526,
+                    "hidden": false
+                  },
+                  "STRING": {
+                    "timesGained": 1,
+                    "totalAmount": 13,
+                    "hidden": false
+                  }
+                }
+              }
+            },
+            "slayerRngMeter": {
+              "Tarantula Broodfather": {
+                "currentMeter": 44705,
+                "gainPerBoss": -1,
+                "goalNeeded": -1,
+                "itemGoal": "?"
+              },
+              "": {
+                "currentMeter": -1,
+                "gainPerBoss": -1,
+                "goalNeeded": -1,
+                "itemGoal": "?"
+              }
+            },
             "mining": {
               "kingsTalkedTo": [],
               "fossilExcavatorProfitTracker": {
@@ -7378,12 +7734,12 @@
               },
               "powder": {
                 "GEMSTONE": {
-                  "available": 62353,
-                  "total": 62353
+                  "available": 65526,
+                  "total": 65526
                 },
                 "MITHRIL": {
-                  "available": 745,
-                  "total": 745
+                  "available": 6212,
+                  "total": 6212
                 },
                 "GLACITE": {
                   "available": 0,
@@ -7503,7 +7859,6 @@
         "useRomanNumerals": true,
         "gardenCommunityUpgrade": 2,
         "nextCityProjectParticipationTime": 0,
-        "nextAccountUpgradeCompletionTime": -1,
         "guildMembers": [],
         "winter": {
           "playersThatHaveBeenGifted": [],
@@ -7526,5 +7881,5 @@
     "currentFameRank": "Philanthropist",
     "blacklistedUsers": []
   },
-  "lastVersion": 48
+  "lastVersion": 49
 }

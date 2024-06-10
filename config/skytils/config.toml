@@ -288,14 +288,14 @@
 		"§b[wip]_§rparty_finder_stats" = false
 
 	[dungeons.miscellaneous]
-		auto_copy_fails_to_clipboard = false
+		auto_copy_fails_to_clipboard = true
 		highlight_unopened_croesus_chests = false
 		red_screen_fix = true
-		sadan_phase_timer = false
+		sadan_phase_timer = true
 		dungeon_timer = true
 		hide_opened_croesus_chests = false
 		show_decimal_seconds_on_timers = false
-		necron_phase_timer = false
+		necron_phase_timer = true
 		death_counter = true
 		dungeon_map = false
 		dungeon_chest_profit_includes_essence = true

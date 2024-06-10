@@ -5,22 +5,22 @@
         "banana": {
           "sackContents": {
             "COAL": {
-              "amount": 5038,
+              "amount": 8299,
               "lastChange": 0,
               "status": "CORRECT"
             },
             "COBBLESTONE": {
-              "amount": 6954,
+              "amount": 6981,
               "lastChange": 0,
               "status": "CORRECT"
             },
             "DIAMOND": {
-              "amount": 16101,
+              "amount": 16365,
               "lastChange": 0,
               "status": "CORRECT"
             },
             "EMERALD": {
-              "amount": 1494,
+              "amount": 1710,
               "lastChange": 0,
               "status": "CORRECT"
             },
@@ -45,7 +45,7 @@
               "status": "CORRECT"
             },
             "GOLD_INGOT": {
-              "amount": 4269,
+              "amount": 4542,
               "lastChange": 0,
               "status": "CORRECT"
             },
@@ -55,22 +55,22 @@
               "status": "CORRECT"
             },
             "HARD_STONE": {
-              "amount": 5807,
+              "amount": 6875,
               "lastChange": 0,
               "status": "CORRECT"
             },
             "IRON_INGOT": {
-              "amount": 7202,
+              "amount": 9567,
               "lastChange": 0,
               "status": "CORRECT"
             },
             "INK_SACK-4": {
-              "amount": 1710,
+              "amount": 3874,
               "lastChange": 0,
               "status": "CORRECT"
             },
             "MITHRIL_ORE": {
-              "amount": 20160,
+              "amount": 1474,
               "lastChange": 0,
               "status": "CORRECT"
             },
@@ -90,12 +90,12 @@
               "status": "CORRECT"
             },
             "OBSIDIAN": {
-              "amount": 1144,
+              "amount": 1353,
               "lastChange": 0,
               "status": "CORRECT"
             },
             "OIL_BARREL": {
-              "amount": 263,
+              "amount": 268,
               "lastChange": 0,
               "status": "CORRECT"
             },
@@ -110,12 +110,12 @@
               "status": "CORRECT"
             },
             "REDSTONE": {
-              "amount": 15015,
+              "amount": 0,
               "lastChange": 0,
               "status": "CORRECT"
             },
             "REFINED_MINERAL": {
-              "amount": 0,
+              "amount": 20,
               "lastChange": 0,
               "status": "CORRECT"
             },
@@ -130,7 +130,7 @@
               "status": "CORRECT"
             },
             "STONE": {
-              "amount": 5391,
+              "amount": 5457,
               "lastChange": 0,
               "status": "CORRECT"
             },
@@ -140,7 +140,7 @@
               "status": "CORRECT"
             },
             "TREASURITE": {
-              "amount": 29,
+              "amount": 31,
               "lastChange": 0,
               "status": "CORRECT"
             },
@@ -170,12 +170,12 @@
               "status": "CORRECT"
             },
             "ENCHANTED_BLAZE_ROD": {
-              "amount": 8,
+              "amount": 0,
               "lastChange": 0,
               "status": "CORRECT"
             },
             "ENCHANTED_BONE": {
-              "amount": 524,
+              "amount": 565,
               "lastChange": 0,
               "status": "CORRECT"
             },
@@ -195,7 +195,7 @@
               "status": "CORRECT"
             },
             "ENCHANTED_GHAST_TEAR": {
-              "amount": 12,
+              "amount": 1177,
               "lastChange": 0,
               "status": "CORRECT"
             },
@@ -210,7 +210,7 @@
               "status": "CORRECT"
             },
             "ENCHANTED_ROTTEN_FLESH": {
-              "amount": 326,
+              "amount": 358,
               "lastChange": 0,
               "status": "CORRECT"
             },
@@ -225,7 +225,7 @@
               "status": "CORRECT"
             },
             "ENCHANTED_SPIDER_EYE": {
-              "amount": 35,
+              "amount": 42,
               "lastChange": 0,
               "status": "CORRECT"
             },
@@ -255,7 +255,7 @@
               "status": "CORRECT"
             },
             "ENCHANTED_FEATHER": {
-              "amount": 2,
+              "amount": 4,
               "lastChange": 0,
               "status": "CORRECT"
             },
@@ -265,12 +265,12 @@
               "status": "CORRECT"
             },
             "ENCHANTED_LEATHER": {
-              "amount": 7,
+              "amount": 3,
               "lastChange": 0,
               "status": "CORRECT"
             },
             "ENCHANTED_MUTTON": {
-              "amount": 0,
+              "amount": 15,
               "lastChange": 0,
               "status": "CORRECT"
             },
@@ -315,7 +315,7 @@
               "status": "CORRECT"
             },
             "GOLEM_POPPY": {
-              "amount": 4,
+              "amount": 6,
               "lastChange": 0,
               "status": "CORRECT"
             },
@@ -325,32 +325,32 @@
               "status": "CORRECT"
             },
             "GIANT_FRAGMENT_BIGFOOT": {
-              "amount": 17,
+              "amount": 27,
               "lastChange": 0,
               "status": "CORRECT"
             },
             "BONZO_FRAGMENT": {
-              "amount": 17,
+              "amount": 22,
               "lastChange": 0,
               "status": "CORRECT"
             },
             "DUNGEON_DECOY": {
-              "amount": 1468,
+              "amount": 1413,
               "lastChange": 0,
               "status": "CORRECT"
             },
             "DUNGEON_CHEST_KEY": {
-              "amount": 11,
+              "amount": 13,
               "lastChange": 0,
               "status": "CORRECT"
             },
             "FEL_PEARL": {
-              "amount": 72,
+              "amount": 97,
               "lastChange": 0,
               "status": "CORRECT"
             },
             "HEALING_TISSUE": {
-              "amount": 4,
+              "amount": 7,
               "lastChange": 0,
               "status": "CORRECT"
             },
@@ -360,12 +360,12 @@
               "status": "CORRECT"
             },
             "GIANT_FRAGMENT_BOULDER": {
-              "amount": 23,
+              "amount": 10,
               "lastChange": 0,
               "status": "CORRECT"
             },
             "KISMET_FEATHER": {
-              "amount": 3,
+              "amount": 0,
               "lastChange": 0,
               "status": "CORRECT"
             },
@@ -375,37 +375,37 @@
               "status": "CORRECT"
             },
             "LIVID_FRAGMENT": {
-              "amount": 14,
+              "amount": 16,
               "lastChange": 0,
               "status": "CORRECT"
             },
             "MIMIC_FRAGMENT": {
-              "amount": 18,
+              "amount": 21,
               "lastChange": 0,
               "status": "CORRECT"
             },
             "SCARF_FRAGMENT": {
-              "amount": 17,
+              "amount": 23,
               "lastChange": 0,
               "status": "CORRECT"
             },
             "SPIRIT_LEAP": {
-              "amount": 1820,
+              "amount": 1861,
               "lastChange": 0,
               "status": "CORRECT"
             },
             "SUPERBOOM_TNT": {
-              "amount": 2392,
+              "amount": 2749,
               "lastChange": 0,
               "status": "CORRECT"
             },
             "THORN_FRAGMENT": {
-              "amount": 24,
+              "amount": 33,
               "lastChange": 0,
               "status": "CORRECT"
             },
             "DUNGEON_TRAP": {
-              "amount": 6,
+              "amount": 8,
               "lastChange": 0,
               "status": "CORRECT"
             },
@@ -415,12 +415,12 @@
               "status": "CORRECT"
             },
             "BROWN_MUSHROOM": {
-              "amount": 20160,
+              "amount": 20157,
               "lastChange": 0,
               "status": "CORRECT"
             },
             "CACTUS": {
-              "amount": 6295,
+              "amount": 6103,
               "lastChange": 0,
               "status": "CORRECT"
             },
@@ -440,7 +440,7 @@
               "status": "CORRECT"
             },
             "COMPOST": {
-              "amount": 509,
+              "amount": 507,
               "lastChange": 0,
               "status": "CORRECT"
             },
@@ -805,17 +805,17 @@
               "status": "CORRECT"
             },
             "ENCHANTED_CACTUS": {
-              "amount": 1,
+              "amount": 0,
               "lastChange": 0,
               "status": "CORRECT"
             },
             "ENCHANTED_CACTUS_GREEN": {
-              "amount": 2218,
+              "amount": 1258,
               "lastChange": 0,
               "status": "CORRECT"
             },
             "ENCHANTED_CARROT": {
-              "amount": 14510,
+              "amount": 14514,
               "lastChange": 0,
               "status": "CORRECT"
             },
@@ -850,7 +850,7 @@
               "status": "CORRECT"
             },
             "ENCHANTED_NETHER_STALK": {
-              "amount": 1126,
+              "amount": 326,
               "lastChange": 0,
               "status": "CORRECT"
             },
@@ -860,12 +860,12 @@
               "status": "CORRECT"
             },
             "ENCHANTED_POTATO": {
-              "amount": 6145,
+              "amount": 6149,
               "lastChange": 0,
               "status": "CORRECT"
             },
             "ENCHANTED_PUMPKIN": {
-              "amount": 321,
+              "amount": 1,
               "lastChange": 0,
               "status": "CORRECT"
             },
@@ -880,7 +880,7 @@
               "status": "CORRECT"
             },
             "ENCHANTED_SEEDS": {
-              "amount": 8841,
+              "amount": 7737,
               "lastChange": 0,
               "status": "CORRECT"
             },
@@ -900,7 +900,7 @@
               "status": "CORRECT"
             },
             "POLISHED_PUMPKIN": {
-              "amount": 1,
+              "amount": 0,
               "lastChange": 0,
               "status": "CORRECT"
             },
@@ -910,12 +910,12 @@
               "status": "CORRECT"
             },
             "BLAZE_ROD": {
-              "amount": 4870,
+              "amount": 4986,
               "lastChange": 0,
               "status": "CORRECT"
             },
             "BONE": {
-              "amount": 2805,
+              "amount": 3629,
               "lastChange": 0,
               "status": "CORRECT"
             },
@@ -925,7 +925,7 @@
               "status": "CORRECT"
             },
             "ENDER_PEARL": {
-              "amount": 18819,
+              "amount": 20158,
               "lastChange": 0,
               "status": "CORRECT"
             },
@@ -935,7 +935,7 @@
               "status": "CORRECT"
             },
             "SULPHUR": {
-              "amount": 1280,
+              "amount": 1331,
               "lastChange": 0,
               "status": "CORRECT"
             },
@@ -945,7 +945,7 @@
               "status": "CORRECT"
             },
             "ROTTEN_FLESH": {
-              "amount": 2377,
+              "amount": 2926,
               "lastChange": 0,
               "status": "CORRECT"
             },
@@ -955,12 +955,12 @@
               "status": "CORRECT"
             },
             "SPIDER_EYE": {
-              "amount": 10047,
+              "amount": 12268,
               "lastChange": 0,
               "status": "CORRECT"
             },
             "STRING": {
-              "amount": 11166,
+              "amount": 12451,
               "lastChange": 0,
               "status": "CORRECT"
             },
@@ -1050,7 +1050,7 @@
               "status": "CORRECT"
             },
             "CORRUPTED_FRAGMENT": {
-              "amount": 681,
+              "amount": 709,
               "lastChange": 0,
               "status": "CORRECT"
             },
@@ -1075,7 +1075,7 @@
               "status": "CORRECT"
             },
             "HEAVY_PEARL": {
-              "amount": 30,
+              "amount": 33,
               "lastChange": 0,
               "status": "CORRECT"
             },
@@ -1140,7 +1140,7 @@
               "status": "CORRECT"
             },
             "SULPHUR_ORE": {
-              "amount": 728,
+              "amount": 777,
               "lastChange": 0,
               "status": "CORRECT"
             },
@@ -1165,6 +1165,371 @@
               "status": "CORRECT"
             },
             "Z": {
+              "amount": 0,
+              "lastChange": 0,
+              "status": "CORRECT"
+            },
+            "ROUGH_JADE_GEM": {
+              "amount": 54,
+              "lastChange": 0,
+              "status": "CORRECT"
+            },
+            "FLAWED_JADE_GEM": {
+              "amount": 11,
+              "lastChange": 0,
+              "status": "CORRECT"
+            },
+            "FINE_JADE_GEM": {
+              "amount": 52,
+              "lastChange": 0,
+              "status": "CORRECT"
+            },
+            "ROUGH_AMBER_GEM": {
+              "amount": 50,
+              "lastChange": 0,
+              "status": "CORRECT"
+            },
+            "FLAWED_AMBER_GEM": {
+              "amount": 29,
+              "lastChange": 0,
+              "status": "CORRECT"
+            },
+            "FINE_AMBER_GEM": {
+              "amount": 47,
+              "lastChange": 0,
+              "status": "CORRECT"
+            },
+            "ROUGH_TOPAZ_GEM": {
+              "amount": 4584,
+              "lastChange": 0,
+              "status": "CORRECT"
+            },
+            "FLAWED_TOPAZ_GEM": {
+              "amount": 692,
+              "lastChange": 0,
+              "status": "CORRECT"
+            },
+            "FINE_TOPAZ_GEM": {
+              "amount": 22,
+              "lastChange": 0,
+              "status": "CORRECT"
+            },
+            "ROUGH_SAPPHIRE_GEM": {
+              "amount": 43,
+              "lastChange": 0,
+              "status": "CORRECT"
+            },
+            "FLAWED_SAPPHIRE_GEM": {
+              "amount": 12,
+              "lastChange": 0,
+              "status": "CORRECT"
+            },
+            "FINE_SAPPHIRE_GEM": {
+              "amount": 48,
+              "lastChange": 0,
+              "status": "CORRECT"
+            },
+            "ROUGH_AMETHYST_GEM": {
+              "amount": 47,
+              "lastChange": 0,
+              "status": "CORRECT"
+            },
+            "FLAWED_AMETHYST_GEM": {
+              "amount": 63,
+              "lastChange": 0,
+              "status": "CORRECT"
+            },
+            "FINE_AMETHYST_GEM": {
+              "amount": 56,
+              "lastChange": 0,
+              "status": "CORRECT"
+            },
+            "ROUGH_JASPER_GEM": {
+              "amount": 3538,
+              "lastChange": 0,
+              "status": "CORRECT"
+            },
+            "FLAWED_JASPER_GEM": {
+              "amount": 403,
+              "lastChange": 0,
+              "status": "CORRECT"
+            },
+            "FINE_JASPER_GEM": {
+              "amount": 27,
+              "lastChange": 0,
+              "status": "CORRECT"
+            },
+            "ROUGH_RUBY_GEM": {
+              "amount": 240,
+              "lastChange": 0,
+              "status": "CORRECT"
+            },
+            "FLAWED_RUBY_GEM": {
+              "amount": 47,
+              "lastChange": 0,
+              "status": "CORRECT"
+            },
+            "FINE_RUBY_GEM": {
+              "amount": 0,
+              "lastChange": 0,
+              "status": "CORRECT"
+            },
+            "ROUGH_OPAL_GEM": {
+              "amount": 0,
+              "lastChange": 0,
+              "status": "CORRECT"
+            },
+            "FLAWED_OPAL_GEM": {
+              "amount": 0,
+              "lastChange": 0,
+              "status": "CORRECT"
+            },
+            "FINE_OPAL_GEM": {
+              "amount": 18,
+              "lastChange": 0,
+              "status": "CORRECT"
+            },
+            "ROUGH_ONYX_GEM": {
+              "amount": 0,
+              "lastChange": 0,
+              "status": "CORRECT"
+            },
+            "FLAWED_ONYX_GEM": {
+              "amount": 0,
+              "lastChange": 0,
+              "status": "CORRECT"
+            },
+            "FINE_ONYX_GEM": {
+              "amount": 0,
+              "lastChange": 0,
+              "status": "CORRECT"
+            },
+            "ROUGH_AQUAMARINE_GEM": {
+              "amount": 0,
+              "lastChange": 0,
+              "status": "CORRECT"
+            },
+            "FLAWED_AQUAMARINE_GEM": {
+              "amount": 0,
+              "lastChange": 0,
+              "status": "CORRECT"
+            },
+            "FINE_AQUAMARINE_GEM": {
+              "amount": 0,
+              "lastChange": 0,
+              "status": "CORRECT"
+            },
+            "ROUGH_CITRINE_GEM": {
+              "amount": 0,
+              "lastChange": 0,
+              "status": "CORRECT"
+            },
+            "FLAWED_CITRINE_GEM": {
+              "amount": 0,
+              "lastChange": 0,
+              "status": "CORRECT"
+            },
+            "FINE_CITRINE_GEM": {
+              "amount": 0,
+              "lastChange": 0,
+              "status": "CORRECT"
+            },
+            "ROUGH_PERIDOT_GEM": {
+              "amount": 0,
+              "lastChange": 0,
+              "status": "CORRECT"
+            },
+            "FLAWED_PERIDOT_GEM": {
+              "amount": 0,
+              "lastChange": 0,
+              "status": "CORRECT"
+            },
+            "FINE_PERIDOT_GEM": {
+              "amount": 0,
+              "lastChange": 0,
+              "status": "CORRECT"
+            },
+            "CONCENTRATED_STONE": {
+              "amount": 1,
+              "lastChange": 0,
+              "status": "CORRECT"
+            },
+            "ENCHANTED_COAL": {
+              "amount": 34,
+              "lastChange": 0,
+              "status": "CORRECT"
+            },
+            "ENCHANTED_COAL_BLOCK": {
+              "amount": 6,
+              "lastChange": 0,
+              "status": "CORRECT"
+            },
+            "ENCHANTED_COBBLESTONE": {
+              "amount": 0,
+              "lastChange": 0,
+              "status": "CORRECT"
+            },
+            "ENCHANTED_DIAMOND": {
+              "amount": 6,
+              "lastChange": 0,
+              "status": "CORRECT"
+            },
+            "ENCHANTED_DIAMOND_BLOCK": {
+              "amount": 0,
+              "lastChange": 0,
+              "status": "CORRECT"
+            },
+            "ENCHANTED_EMERALD": {
+              "amount": 64,
+              "lastChange": 0,
+              "status": "CORRECT"
+            },
+            "ENCHANTED_EMERALD_BLOCK": {
+              "amount": 0,
+              "lastChange": 0,
+              "status": "CORRECT"
+            },
+            "ENCHANTED_ENDSTONE": {
+              "amount": 0,
+              "lastChange": 0,
+              "status": "CORRECT"
+            },
+            "ENCHANTED_FLINT": {
+              "amount": 80,
+              "lastChange": 0,
+              "status": "CORRECT"
+            },
+            "ENCHANTED_GLACITE": {
+              "amount": 0,
+              "lastChange": 0,
+              "status": "CORRECT"
+            },
+            "ENCHANTED_GLOWSTONE": {
+              "amount": 0,
+              "lastChange": 0,
+              "status": "CORRECT"
+            },
+            "ENCHANTED_GLOWSTONE_DUST": {
+              "amount": 0,
+              "lastChange": 0,
+              "status": "CORRECT"
+            },
+            "ENCHANTED_GOLD": {
+              "amount": 0,
+              "lastChange": 0,
+              "status": "CORRECT"
+            },
+            "ENCHANTED_GOLD_BLOCK": {
+              "amount": 0,
+              "lastChange": 0,
+              "status": "CORRECT"
+            },
+            "ENCHANTED_HARD_STONE": {
+              "amount": 1142,
+              "lastChange": 0,
+              "status": "CORRECT"
+            },
+            "ENCHANTED_IRON": {
+              "amount": 148,
+              "lastChange": 0,
+              "status": "CORRECT"
+            },
+            "ENCHANTED_IRON_BLOCK": {
+              "amount": 1,
+              "lastChange": 0,
+              "status": "CORRECT"
+            },
+            "ENCHANTED_LAPIS_LAZULI_BLOCK": {
+              "amount": 0,
+              "lastChange": 0,
+              "status": "CORRECT"
+            },
+            "ENCHANTED_LAPIS_LAZULI": {
+              "amount": 71,
+              "lastChange": 0,
+              "status": "CORRECT"
+            },
+            "ENCHANTED_MITHRIL": {
+              "amount": 127,
+              "lastChange": 0,
+              "status": "CORRECT"
+            },
+            "ENCHANTED_MYCELIUM": {
+              "amount": 14,
+              "lastChange": 0,
+              "status": "CORRECT"
+            },
+            "ENCHANTED_MYCELIUM_CUBE": {
+              "amount": 1,
+              "lastChange": 0,
+              "status": "CORRECT"
+            },
+            "ENCHANTED_NETHERRACK": {
+              "amount": 0,
+              "lastChange": 0,
+              "status": "CORRECT"
+            },
+            "ENCHANTED_OBSIDIAN": {
+              "amount": 81,
+              "lastChange": 0,
+              "status": "CORRECT"
+            },
+            "ENCHANTED_QUARTZ": {
+              "amount": 0,
+              "lastChange": 0,
+              "status": "CORRECT"
+            },
+            "ENCHANTED_QUARTZ_BLOCK": {
+              "amount": 0,
+              "lastChange": 0,
+              "status": "CORRECT"
+            },
+            "ENCHANTED_RED_SAND": {
+              "amount": 0,
+              "lastChange": 0,
+              "status": "CORRECT"
+            },
+            "ENCHANTED_RED_SAND_CUBE": {
+              "amount": 0,
+              "lastChange": 0,
+              "status": "CORRECT"
+            },
+            "ENCHANTED_REDSTONE": {
+              "amount": 127,
+              "lastChange": 0,
+              "status": "CORRECT"
+            },
+            "ENCHANTED_REDSTONE_BLOCK": {
+              "amount": 0,
+              "lastChange": 0,
+              "status": "CORRECT"
+            },
+            "ENCHANTED_SAND": {
+              "amount": 0,
+              "lastChange": 0,
+              "status": "CORRECT"
+            },
+            "ENCHANTED_SULPHUR": {
+              "amount": 0,
+              "lastChange": 0,
+              "status": "CORRECT"
+            },
+            "ENCHANTED_SULPHUR_CUBE": {
+              "amount": 0,
+              "lastChange": 0,
+              "status": "CORRECT"
+            },
+            "ENCHANTED_TITANIUM": {
+              "amount": 0,
+              "lastChange": 0,
+              "status": "CORRECT"
+            },
+            "ENCHANTED_TUNGSTEN": {
+              "amount": 0,
+              "lastChange": 0,
+              "status": "CORRECT"
+            },
+            "ENCHANTED_UMBER": {
               "amount": 0,
               "lastChange": 0,
               "status": "CORRECT"
@@ -1216,6 +1581,46 @@
             "ENCHANTED_SEEDS": {
               "amount": 1264,
               "lastChange": 36,
+              "status": "OUTDATED"
+            },
+            "MAGMA_CREAM": {
+              "amount": 30,
+              "lastChange": 17,
+              "status": "OUTDATED"
+            },
+            "STRING": {
+              "amount": 18,
+              "lastChange": 13,
+              "status": "OUTDATED"
+            },
+            "ROTTEN_FLESH": {
+              "amount": 2,
+              "lastChange": 2,
+              "status": "OUTDATED"
+            },
+            "BONE": {
+              "amount": 12,
+              "lastChange": 12,
+              "status": "OUTDATED"
+            },
+            "COAL": {
+              "amount": 1,
+              "lastChange": 1,
+              "status": "OUTDATED"
+            },
+            "SULPHUR": {
+              "amount": 8,
+              "lastChange": 8,
+              "status": "OUTDATED"
+            },
+            "REDSTONE": {
+              "amount": 1,
+              "lastChange": 1,
+              "status": "OUTDATED"
+            },
+            "COBBLESTONE": {
+              "amount": 14,
+              "lastChange": 6,
               "status": "OUTDATED"
             }
           }

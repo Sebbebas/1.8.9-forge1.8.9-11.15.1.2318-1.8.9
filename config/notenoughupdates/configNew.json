@@ -620,7 +620,7 @@
     "highlightGlowingMushrooms": false,
     "glowingMushroomColor2": "0:100:138:81:37",
     "enderNodeAccordion": true,
-    "highlightEnderNodes": false,
+    "highlightEnderNodes": true,
     "enderNodeColor2": "0:100:0:255:0",
     "frozenTreasuresAccordion": true,
     "highlightFrozenTreasures": false,
@@ -730,39 +730,39 @@
     "customTodos": [],
     "profileSpecific": {
       "Apple": {
-        "godPotionDuration": 21600000,
+        "godPotionDuration": 7200000,
         "puzzlerCompleted": 0,
         "firstCakeAte": 0,
         "fetchurCompleted": 0,
         "commissionsCompleted": 0,
         "lastFreeRiftInfusionApplied": 0,
         "experimentsCompleted": 0,
-        "cookieBuffRemaining": 1717934224854,
+        "cookieBuffRemaining": 1717934225469,
         "forgeItems": [
           {
             "itemName": "Gemstone Mixture",
-            "finishTime": 1717774431761,
+            "finishTime": 1717941666530,
             "status": 2,
             "forgeID": 0,
             "fromScoreBoard": false
           },
           {
             "itemName": "Gemstone Mixture",
-            "finishTime": 1717774434761,
+            "finishTime": 1717941669530,
             "status": 2,
             "forgeID": 1,
             "fromScoreBoard": false
           },
           {
             "itemName": "Gemstone Mixture",
-            "finishTime": 1717774451761,
+            "finishTime": 1717941682530,
             "status": 2,
             "forgeID": 2,
             "fromScoreBoard": false
           },
           {
             "itemName": "Gemstone Mixture",
-            "finishTime": 1717774454761,
+            "finishTime": 1717941685530,
             "status": 2,
             "forgeID": 3,
             "fromScoreBoard": false
@@ -775,7 +775,7 @@
           }
         ],
         "hotmDesires": {},
-        "commissionMilestone": 0,
+        "commissionMilestone": 2,
         "automatonParts": {
           "Electron Transmitter": false,
           "Robotron Reflector": false,
@@ -798,7 +798,7 @@
           "Topaz": 0
         },
         "dailyGemstonePowderCompleted": 0,
-        "dailyMithrilPowerCompleted": 0,
+        "dailyMithrilPowerCompleted": 1717846248572,
         "nonUnlockedWarpScrolls": [],
         "dailyHeavyPearlCompleted": 0,
         "questBoardCompleted": 0,
@@ -923,10 +923,10 @@
         "puzzlerCompleted": 1717539767176,
         "firstCakeAte": 1717497788178,
         "fetchurCompleted": 1717576945053,
-        "commissionsCompleted": 1717584537275,
+        "commissionsCompleted": 0,
         "lastFreeRiftInfusionApplied": 0,
         "experimentsCompleted": 1717592132952,
-        "cookieBuffRemaining": 0,
+        "cookieBuffRemaining": 1717866269057,
         "forgeItems": [
           {
             "finishTime": 0,
@@ -983,7 +983,7 @@
           "Topaz": 0
         },
         "dailyGemstonePowderCompleted": 0,
-        "dailyMithrilPowerCompleted": 1717580437585,
+        "dailyMithrilPowerCompleted": 1717792175706,
         "nonUnlockedWarpScrolls": [],
         "dailyHeavyPearlCompleted": 0,
         "questBoardCompleted": 0,
@@ -1081,20 +1081,21 @@
         }
       },
       "Banana": {
-        "godPotionDuration": 28800000,
-        "puzzlerCompleted": 1717195784408,
-        "firstCakeAte": 1716731413611,
-        "fetchurCompleted": 1717195836307,
-        "commissionsCompleted": 1717757517165,
+        "godPotionDuration": 0,
+        "puzzlerCompleted": 1717931427579,
+        "firstCakeAte": 1717928173266,
+        "fetchurCompleted": 1717931387363,
+        "commissionsCompleted": 1717928514918,
         "lastFreeRiftInfusionApplied": 1716835769902,
-        "experimentsCompleted": 1716732110690,
-        "cookieBuffRemaining": 1717866268849,
+        "experimentsCompleted": 1718012648596,
+        "cookieBuffRemaining": 1718227790608,
         "forgeItems": [
           {
-            "finishTime": 0,
-            "status": 0,
+            "itemName": "Leggings of Divan",
+            "finishTime": 1718044363821,
+            "status": 2,
             "forgeID": 0,
-            "fromScoreBoard": true
+            "fromScoreBoard": false
           },
           {
             "finishTime": 0,
@@ -1144,8 +1145,8 @@
           "Amethyst": 0,
           "Topaz": 0
         },
-        "dailyGemstonePowderCompleted": 1717718419636,
-        "dailyMithrilPowerCompleted": 1717719199497,
+        "dailyGemstonePowderCompleted": 1717891211159,
+        "dailyMithrilPowerCompleted": 1717891242240,
         "nonUnlockedWarpScrolls": [],
         "dailyHeavyPearlCompleted": 1716329324454,
         "questBoardCompleted": 0,
@@ -1242,16 +1243,16 @@
           }
         },
         "magicalPower": 601,
-        "chestCount": 28,
-        "openedChestCount": 24,
-        "mithrilPowderFound": 12603,
-        "gemstonePowderFound": 9494,
+        "chestCount": 86,
+        "openedChestCount": 65,
+        "mithrilPowderFound": 27248,
+        "gemstonePowderFound": 27176,
         "abiphoneFavouriteContacts": [
           "Maddox the Slayer"
         ],
         "abiphoneShowOnlyFavourites": false,
         "hotmTree": {
-          "Efficient Miner": 25,
+          "Efficient Miner": 27,
           "Daily Powder": 56,
           "Titanium Insanium": 9,
           "Mining Fortune": 15,
@@ -1262,8 +1263,8 @@
           "Orbiter": 1,
           "Sky Mall": 1,
           "Front Loaded": 1,
-          "Mole": 35,
-          "Professional": 32,
+          "Mole": 42,
+          "Professional": 50,
           "Powder Buff": 24
         }
       }
@@ -1818,26 +1819,26 @@
       "ADAPTIVE_BELT"
     ],
     "previousAuctionSearches": [
+      "Etherwarp Merger",
       "Fire Veil Wand",
       "Sunflower",
       "Chirping Stereo",
-      "Adaptive Belt",
-      "Exp Share"
+      "Adaptive Belt"
     ],
     "previousBazaarSearches": [
-      "Sludge Juice",
-      "❈ Fine Amethyst Gemstone",
-      "am",
-      "✎ Fine Sapphire Gemstone",
-      "⸕ Fine Amber Gemstone"
+      "hopper",
+      "Slimeball",
+      "pep",
+      "❤ Flawless Ruby Gemstone",
+      "ruby"
     ],
     "previousProfileSearches": [
+      "nuggetstinks",
+      "mrtiger100",
       "jonathanlanunez",
+      "ngreen1",
       "_mel0ns_",
-      "jonathan",
-      "zzutten",
-      "zincs",
-      "irinatheta"
+      "jonathan"
     ],
     "eventFavourites": [],
     "quickCommands": [

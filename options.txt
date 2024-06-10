@@ -96,7 +96,7 @@ key_keybind.name.SCREENSHOT_MANAGER:0
 key_Cosmetic Visibility Toggle:0
 key_Chat Peek:44
 key_Invite Friends:0
-key_keybind.name.EMOTE_WHEEL:19
+key_keybind.name.EMOTE_WHEEL:0
 key_keybind.name.EMOTE_SLOT_1:0
 key_keybind.name.EMOTE_SLOT_2:0
 key_keybind.name.EMOTE_SLOT_3:0
@@ -139,7 +139,7 @@ key_Copy NBT:157
 key_Toggle Sprint:28
 key_Warp to nearest location to burrial guess:0
 key_Choose the nearest eman boss as your boss.:0
-soundCategory_master:0.05629139
+soundCategory_master:0.01655629
 soundCategory_music:0.0
 soundCategory_record:1.0
 soundCategory_weather:1.0

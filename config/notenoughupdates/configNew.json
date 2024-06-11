@@ -730,42 +730,42 @@
     "customTodos": [],
     "profileSpecific": {
       "Apple": {
-        "godPotionDuration": 7200000,
-        "puzzlerCompleted": 0,
-        "firstCakeAte": 0,
+        "godPotionDuration": 57600000,
+        "puzzlerCompleted": 1718053869571,
+        "firstCakeAte": 1718040337381,
         "fetchurCompleted": 0,
         "commissionsCompleted": 0,
         "lastFreeRiftInfusionApplied": 0,
         "experimentsCompleted": 0,
-        "cookieBuffRemaining": 1717934225469,
+        "cookieBuffRemaining": 1718294552060,
         "forgeItems": [
           {
             "itemName": "Gemstone Mixture",
-            "finishTime": 1717941666530,
+            "finishTime": 1718072078063,
             "status": 2,
             "forgeID": 0,
             "fromScoreBoard": false
           },
           {
             "itemName": "Gemstone Mixture",
-            "finishTime": 1717941669530,
+            "finishTime": 1718072081063,
             "status": 2,
             "forgeID": 1,
             "fromScoreBoard": false
           },
           {
             "itemName": "Gemstone Mixture",
-            "finishTime": 1717941682530,
+            "finishTime": 1718072094063,
             "status": 2,
             "forgeID": 2,
             "fromScoreBoard": false
           },
           {
             "itemName": "Gemstone Mixture",
-            "finishTime": 1717941685530,
+            "finishTime": 1718068516504,
             "status": 2,
             "forgeID": 3,
-            "fromScoreBoard": false
+            "fromScoreBoard": true
           },
           {
             "finishTime": 0,
@@ -1081,21 +1081,20 @@
         }
       },
       "Banana": {
-        "godPotionDuration": 0,
-        "puzzlerCompleted": 1717931427579,
+        "godPotionDuration": 46800000,
+        "puzzlerCompleted": 1718038758650,
         "firstCakeAte": 1717928173266,
-        "fetchurCompleted": 1717931387363,
-        "commissionsCompleted": 1717928514918,
+        "fetchurCompleted": 1718038794048,
+        "commissionsCompleted": 1718054128894,
         "lastFreeRiftInfusionApplied": 1716835769902,
         "experimentsCompleted": 1718012648596,
-        "cookieBuffRemaining": 1718227790608,
+        "cookieBuffRemaining": 1718227788841,
         "forgeItems": [
           {
-            "itemName": "Leggings of Divan",
-            "finishTime": 1718044363821,
-            "status": 2,
+            "finishTime": 0,
+            "status": 0,
             "forgeID": 0,
-            "fromScoreBoard": false
+            "fromScoreBoard": true
           },
           {
             "finishTime": 0,
@@ -1145,8 +1144,8 @@
           "Amethyst": 0,
           "Topaz": 0
         },
-        "dailyGemstonePowderCompleted": 1717891211159,
-        "dailyMithrilPowerCompleted": 1717891242240,
+        "dailyGemstonePowderCompleted": 1718053974916,
+        "dailyMithrilPowerCompleted": 1718053742486,
         "nonUnlockedWarpScrolls": [],
         "dailyHeavyPearlCompleted": 1716329324454,
         "questBoardCompleted": 0,
@@ -1154,105 +1153,92 @@
         "savedEquipment": {
           "19": {
             "itemid": "minecraft:skull",
-            "displayname": "§5Strengthened Molten Cloak",
-            "nbttag": "{HideFlags:254,SkullOwner:{Id:\"e7b0b792-7786-3b14-82b0-d04f7b5fbf7c\",Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTY0NzAxNjQzNDExNiwKICAicHJvZmlsZUlkIiA6ICJlZThjNWMzMGY3NWU0N2QxOTBmOTllNjI5NDgyOGZjMSIsCiAgInByb2ZpbGVOYW1lIiA6ICJTcGFya19QaGFudG9tIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzZjMThiYjBmNTJmMjQ2ZWM5YmZmNWYwNTc2MTQ1NmJlMjczZTczMGNkMjc2NTU1ZmQ3NzJiYThjM2ZhMGYxNDQiCiAgICB9CiAgfQp9\"}]}},display:{Lore:[0:\"§7Strength: §c+25 §9(+5)\",1:\"§7Health: §a+30\",2:\"§7Defense: §a+26 §9(+6)\",3:\"§7Speed: §a+5\",4:\"\",5:\"§bSpeed I\",6:\"§7Grants §f+5✦ Speed§7.\",7:\"§cVitality I ✖\",8:\"§7Grants §4+3♨ Vitality§7.\",9:\"\",10:\"§6Tiered Bonus: Molten Core (2/4)\",11:\"§7Gain §a5% §7damage resistance while\",12:\"§7fighting §6Kuudra§7.\",13:\"\",14:\"§5§lEPIC CLOAK\"],Name:\"§5Strengthened Molten Cloak\"},ExtraAttributes:{modifier:\"strengthened\",attributes:{mending:1,speed:1},id:\"MOLTEN_CLOAK\",boss_tier:0,uuid:\"c5b79b47-4ff7-42b7-ad19-4436d0ee158f\",timestamp:1692451560000L}}",
+            "displayname": "§aClownfish Cloak",
+            "nbttag": "{HideFlags:254,SkullOwner:{Id:\"147733b9-fe9e-3f51-a49a-ce2dbdf2167c\",Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTcwMzE5NTAxMzMxMiwKICAicHJvZmlsZUlkIiA6ICI1MDYyYmRjMTM5ZTM0ZDkyYTUwZWM3YTRmZWVmODc5YyIsCiAgInByb2ZpbGVOYW1lIiA6ICJQU3RlY3prYSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9iNDM0NWViODI5OWM2MDY2Mzg0MDk0ZmYzYzQxNmI2NDVkOTQ5NmJmMjY5OGY3N2NkYzY4ODk4ZDhhZTQ5N2IzIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0\u003d\"}]}},display:{Lore:[0:\"§7Sea Creature Chance: §c+0.5%\",1:\"§7Fishing Speed: §a+1\",2:\"\",3:\"§6Full Set Bonus: Fisherman Set (4/4)\",4:\"§7Receive §a-5% §7damage from Sea\",5:\"§7Creatures.\",6:\"\",7:\"§7§8This item can be reforged!\",8:\"§8§l* §8Co-op Soulbound §8§l*\",9:\"§a§lUNCOMMON CLOAK\"],Name:\"§aClownfish Cloak\"},ExtraAttributes:{id:\"CLOWNFISH_CLOAK\",uuid:\"f2f53b8c-87cd-4292-b349-502fc4c9350a\",donated_museum:1b,timestamp:1716371708631L}}",
             "damage": 3,
             "lore": [
-              "§7Strength: §c+25 §9(+5)",
-              "§7Health: §a+30",
-              "§7Defense: §a+26 §9(+6)",
-              "§7Speed: §a+5",
+              "§7Sea Creature Chance: §c+0.5%",
+              "§7Fishing Speed: §a+1",
               "",
-              "§bSpeed I",
-              "§7Grants §f+5✦ Speed§7.",
-              "§cVitality I ✖",
-              "§7Grants §4+3♨ Vitality§7.",
+              "§6Full Set Bonus: Fisherman Set (4/4)",
+              "§7Receive §a-5% §7damage from Sea",
+              "§7Creatures.",
               "",
-              "§6Tiered Bonus: Molten Core (2/4)",
-              "§7Gain §a5% §7damage resistance while",
-              "§7fighting §6Kuudra§7.",
-              "",
-              "§5§lEPIC CLOAK"
+              "§7§8This item can be reforged!",
+              "§8§l* §8Co-op Soulbound §8§l*",
+              "§a§lUNCOMMON CLOAK"
             ],
             "internalname": "_"
           },
           "37": {
             "itemid": "minecraft:skull",
-            "displayname": "§5Strengthened Molten Bracelet",
-            "nbttag": "{HideFlags:254,SkullOwner:{Id:\"479e23bf-e9c9-3cb7-a346-795f3b0847a9\",Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTY0NzAxNjUwNTAzMSwKICAicHJvZmlsZUlkIiA6ICJiYzRlZGZiNWYzNmM0OGE3YWM5ZjFhMzlkYzIzZjRmOCIsCiAgInByb2ZpbGVOYW1lIiA6ICI4YWNhNjgwYjIyNDYxMzQwIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzIwNTI5NGY4OTE1YzhkYTliNmUzODI5ZjZkYmExMzVmODhhYjQ3NjFiOTQzMGUxOGZmMTI1ZWYzZTk1MGNjZGYiCiAgICB9CiAgfQp9\"}]}},display:{Lore:[0:\"§7Strength: §c+25 §9(+5)\",1:\"§7Health: §a+30\",2:\"§7Defense: §a+26 §9(+6)\",3:\"§7Speed: §a+10\",4:\"\",5:\"§bSpeed II\",6:\"§7Grants §f+10✦ Speed§7.\",7:\"§cVitality II ✖\",8:\"§7Grants §4+6♨ Vitality§7.\",9:\"\",10:\"§6Tiered Bonus: Molten Core (2/4)\",11:\"§7Gain §a5% §7damage resistance while\",12:\"§7fighting §6Kuudra§7.\",13:\"\",14:\"§5§lEPIC BRACELET\"],Name:\"§5Strengthened Molten Bracelet\"},ExtraAttributes:{modifier:\"strengthened\",attributes:{mending:2,speed:2},id:\"MOLTEN_BRACELET\",boss_tier:2,uuid:\"89a1c090-bb51-4a66-aaac-1e0b59dc8284\",timestamp:1689794040000L}}",
+            "displayname": "§aClay Bracelet",
+            "nbttag": "{HideFlags:254,SkullOwner:{Id:\"bbe02f31-0264-380e-b122-99aede6cf108\",Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTcwMzE5NDgwMzAxOCwKICAicHJvZmlsZUlkIiA6ICI1NzgzZWMxNDgxMDI0ZDJmOTk4N2JhNGZhNWNlMmFmOCIsCiAgInByb2ZpbGVOYW1lIiA6ICJCbHVlUGhlbml4NDMiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjQ4ZTRhNGMyZjc3ZDMzYTQ0MDJmNWUxNzc3ZjkyZTRiM2Y3NzYxZWUxYjE5YjNhOTlhMzBiMDAyYTY1N2FhMSIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9\"}]}},display:{Lore:[0:\"§7Strength: §c+3\",1:\"§7Sea Creature Chance: §c+0.5%\",2:\"\",3:\"§6Full Set Bonus: Fisherman Set (4/4)\",4:\"§7Receive §a-5% §7damage from Sea\",5:\"§7Creatures.\",6:\"\",7:\"§7§8This item can be reforged!\",8:\"§8§l* §8Co-op Soulbound §8§l*\",9:\"§a§lUNCOMMON BRACELET\"],Name:\"§aClay Bracelet\"},ExtraAttributes:{id:\"CLAY_BRACELET\",uuid:\"ef498380-d5d6-490d-a8e3-9ba56bdf135b\",donated_museum:1b,timestamp:1716371752664L}}",
             "damage": 3,
             "lore": [
-              "§7Strength: §c+25 §9(+5)",
-              "§7Health: §a+30",
-              "§7Defense: §a+26 §9(+6)",
-              "§7Speed: §a+10",
+              "§7Strength: §c+3",
+              "§7Sea Creature Chance: §c+0.5%",
               "",
-              "§bSpeed II",
-              "§7Grants §f+10✦ Speed§7.",
-              "§cVitality II ✖",
-              "§7Grants §4+6♨ Vitality§7.",
+              "§6Full Set Bonus: Fisherman Set (4/4)",
+              "§7Receive §a-5% §7damage from Sea",
+              "§7Creatures.",
               "",
-              "§6Tiered Bonus: Molten Core (2/4)",
-              "§7Gain §a5% §7damage resistance while",
-              "§7fighting §6Kuudra§7.",
-              "",
-              "§5§lEPIC BRACELET"
+              "§7§8This item can be reforged!",
+              "§8§l* §8Co-op Soulbound §8§l*",
+              "§a§lUNCOMMON BRACELET"
             ],
             "internalname": "_"
           },
           "10": {
             "itemid": "minecraft:skull",
-            "displayname": "§5Strengthened §dRift Necklace",
-            "nbttag": "{HideFlags:254,SkullOwner:{Id:\"ad049247-1862-300f-a0db-dfd5cf5f6220\",Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTY0Nzg2ODQ3MDQxOCwKICAicHJvZmlsZUlkIiA6ICIwNjNhMTc2Y2RkMTU0ODRiYjU1MjRhNjQyMGM1YjdhNCIsCiAgInByb2ZpbGVOYW1lIiA6ICJkYXZpcGF0dXJ5IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzljMDg5NDkzMWE1MTAzODdlNGY2MTM4MjhmMDIzOWNhNGQ5MDg1MzQ5OTYzN2Y2MDc5ZDM5MzI3ZjE0NmYwZTkiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ\u003d\u003d\"}]}},display:{Lore:[0:\"§7Strength: §c+26 §9(+6)\",1:\"§7Health: §a+100\",2:\"§7Defense: §a+33 §9(+8)\",3:\"§7Intelligence: §a+65\",4:\"§7Magic Find: §a+6\",5:\"\",6:\"§7A very powerful piece of equipment\",7:\"§7originating from the §dRift Dimension§7.\",8:\"\",9:\"§7Becomes more powerful as you fill\",10:\"§7the §dRift Gallery§7.\",11:\"§7Secured: §c6/8 Timecharms\",12:\"\",13:\"§8§l* §8Soulbound §8§l*\",14:\"§6§lLEGENDARY NECKLACE\"],Name:\"§5Strengthened §dRift Necklace\"},ExtraAttributes:{modifier:\"strengthened\",id:\"RIFT_NECKLACE_OUTSIDE\",uuid:\"3d635644-59ce-4147-a1bd-e4a5110b1beb\",donated_museum:1b,timestamp:1688667000000L}}",
+            "displayname": "§aPrismarine Necklace",
+            "nbttag": "{HideFlags:254,SkullOwner:{Id:\"82c0307b-9c23-3b21-81bb-ec0c6a2a11d4\",Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTcwMzE5NDQxOTc3MCwKICAicHJvZmlsZUlkIiA6ICI4NTZkNmYzMDgzYWY0MDNjODUyMTRlMGQ3NzFhY2ExNyIsCiAgInByb2ZpbGVOYW1lIiA6ICJLb29yeEF0aWxsYSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9kOTE5YzM0ODhmZTlmNDkzNDQyOTg1NmZiNDNmODYwYjhkYWI2MDk2NDgyZTg2MzIwNTA4MTBmNDRlZjdjYjE3IiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0\u003d\"}]}},display:{Lore:[0:\"§7Sea Creature Chance: §c+0.5%\",1:\"§7Health: §a+7\",2:\"\",3:\"§6Full Set Bonus: Fisherman Set (4/4)\",4:\"§7Receive §a-5% §7damage from Sea\",5:\"§7Creatures.\",6:\"\",7:\"§7§8This item can be reforged!\",8:\"§8§l* §8Co-op Soulbound §8§l*\",9:\"§a§lUNCOMMON NECKLACE\"],Name:\"§aPrismarine Necklace\"},ExtraAttributes:{id:\"PRISMARINE_NECKLACE\",uuid:\"aa332f1c-f985-46c7-8384-5ca6d2057bc6\",donated_museum:1b,timestamp:1716371669156L}}",
             "damage": 3,
             "lore": [
-              "§7Strength: §c+26 §9(+6)",
-              "§7Health: §a+100",
-              "§7Defense: §a+33 §9(+8)",
-              "§7Intelligence: §a+65",
-              "§7Magic Find: §a+6",
+              "§7Sea Creature Chance: §c+0.5%",
+              "§7Health: §a+7",
               "",
-              "§7A very powerful piece of equipment",
-              "§7originating from the §dRift Dimension§7.",
+              "§6Full Set Bonus: Fisherman Set (4/4)",
+              "§7Receive §a-5% §7damage from Sea",
+              "§7Creatures.",
               "",
-              "§7Becomes more powerful as you fill",
-              "§7the §dRift Gallery§7.",
-              "§7Secured: §c6/8 Timecharms",
-              "",
-              "§8§l* §8Soulbound §8§l*",
-              "§6§lLEGENDARY NECKLACE"
+              "§7§8This item can be reforged!",
+              "§8§l* §8Co-op Soulbound §8§l*",
+              "§a§lUNCOMMON NECKLACE"
             ],
             "internalname": "_"
           },
           "28": {
             "itemid": "minecraft:skull",
-            "displayname": "§9Strengthened Blue Belt",
-            "nbttag": "{HideFlags:254,SkullOwner:{Id:\"6cdab1c1-42bd-3604-8656-2f68fb474ff6\",Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTY0MzU5OTY3OTc4MywKICAicHJvZmlsZUlkIiA6ICJiNzVjZDRmMThkZjg0MmNlYjJhY2MxNTU5MTNiMjA0YiIsCiAgInByb2ZpbGVOYW1lIiA6ICJLcmlzdGlqb25hczEzIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzVhNGY3ZTU3YTQzNTk0NTdjZTBlN2RhMjdlODUxM2E4YjYxOTdmMWNhNjhkMDcxNTQyYzY2ZjhhNDFiYWY0ZWQiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ\u003d\u003d\"}]}},display:{Lore:[0:\"§7Strength: §c+4 §9(+4)\",1:\"§7Health: §a+25\",2:\"§7Defense: §a+20 §9(+5)\",3:\"\",4:\"§7Reduces damage taken by §c4%§7.\",5:\"\",6:\"§8§l* §8Soulbound §8§l*\",7:\"§9§lRARE BELT\"],Name:\"§9Strengthened Blue Belt\"},ExtraAttributes:{modifier:\"strengthened\",id:\"DOJO_BLUE_BELT\",uuid:\"d95de37c-e5d1-440f-bd71-0e8fb9601ed0\",timestamp:1691186520000L}}",
+            "displayname": "§aSponge Belt",
+            "nbttag": "{HideFlags:254,SkullOwner:{Id:\"d5a62f96-b3a1-345c-9113-7177b0dff49c\",Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTcwMzE5NDYwMjk4MiwKICAicHJvZmlsZUlkIiA6ICIxZjgyNTE2M2U0NDY0YjI2OTZlOTcwNzQxOTZiNTYwOCIsCiAgInByb2ZpbGVOYW1lIiA6ICJUaGVCZXN0RGFkMSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8yNTkxMzMwNWNmNzMyMjMzOTg1MWEwOWRmOTljZjc0MGY5ZTU4ZDQ4ZTZiN2RhNDM5MzAzNTNhMTY1OTQzMTgzIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0\u003d\"}]}},display:{Lore:[0:\"§7Sea Creature Chance: §c+0.5%\",1:\"§7Health: §a+5\",2:\"\",3:\"§6Full Set Bonus: Fisherman Set (4/4)\",4:\"§7Receive §a-5% §7damage from Sea\",5:\"§7Creatures.\",6:\"\",7:\"§7§8This item can be reforged!\",8:\"§8§l* §8Co-op Soulbound §8§l*\",9:\"§a§lUNCOMMON BELT\"],Name:\"§aSponge Belt\"},ExtraAttributes:{id:\"SPONGE_BELT\",uuid:\"f611bffb-64f5-44a4-a5d5-eb41381933a7\",donated_museum:1b,timestamp:1716371707030L}}",
             "damage": 3,
             "lore": [
-              "§7Strength: §c+4 §9(+4)",
-              "§7Health: §a+25",
-              "§7Defense: §a+20 §9(+5)",
+              "§7Sea Creature Chance: §c+0.5%",
+              "§7Health: §a+5",
               "",
-              "§7Reduces damage taken by §c4%§7.",
+              "§6Full Set Bonus: Fisherman Set (4/4)",
+              "§7Receive §a-5% §7damage from Sea",
+              "§7Creatures.",
               "",
-              "§8§l* §8Soulbound §8§l*",
-              "§9§lRARE BELT"
+              "§7§8This item can be reforged!",
+              "§8§l* §8Co-op Soulbound §8§l*",
+              "§a§lUNCOMMON BELT"
             ],
             "internalname": "_"
           }
         },
         "magicalPower": 601,
-        "chestCount": 86,
-        "openedChestCount": 65,
-        "mithrilPowderFound": 27248,
-        "gemstonePowderFound": 27176,
+        "chestCount": 93,
+        "openedChestCount": 71,
+        "mithrilPowderFound": 35309,
+        "gemstonePowderFound": 32513,
         "abiphoneFavouriteContacts": [
           "Maddox the Slayer"
         ],
         "abiphoneShowOnlyFavourites": false,
         "hotmTree": {
-          "Efficient Miner": 27,
+          "Efficient Miner": 28,
           "Daily Powder": 56,
           "Titanium Insanium": 9,
           "Mining Fortune": 15,
@@ -1815,30 +1801,31 @@
       "BEASTMASTER_CREST_LEGENDARY",
       "DYE_MANGO",
       "SOULWEAVER_GLOVES",
+      "ADAPTIVE_BELT",
       "SHADOW_ASSASSIN_CLOAK",
-      "ADAPTIVE_BELT"
+      "GEMSTONE_CHAMBER"
     ],
     "previousAuctionSearches": [
+      "Magma Rod",
       "Etherwarp Merger",
       "Fire Veil Wand",
       "Sunflower",
-      "Chirping Stereo",
-      "Adaptive Belt"
+      "Chirping Stereo"
     ],
     "previousBazaarSearches": [
-      "hopper",
-      "Slimeball",
-      "pep",
-      "❤ Flawless Ruby Gemstone",
-      "ruby"
+      "Silver Magmafish",
+      "Sludge Juice",
+      "✎ Fine Sapphire Gemstone",
+      "❈ Fine Amethyst Gemstone",
+      "⸕ Fine Amber Gemstone"
     ],
     "previousProfileSearches": [
+      "ciellah",
+      "potatus",
       "nuggetstinks",
       "mrtiger100",
       "jonathanlanunez",
-      "ngreen1",
-      "_mel0ns_",
-      "jonathan"
+      "ngreen1"
     ],
     "eventFavourites": [],
     "quickCommands": [

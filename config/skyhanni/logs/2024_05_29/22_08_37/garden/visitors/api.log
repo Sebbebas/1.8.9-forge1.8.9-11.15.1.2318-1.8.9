@@ -1,7 +1,0 @@
-22:20:56 Visitor status change for '§aStella': NEW -> WAITING (tooltipMissingItems)
-22:20:58 Visitor status change for '§9Rusty': NEW -> WAITING (tooltipMissingItems)
-22:25:33 Visitor status change for '§aStella': WAITING -> READY (tooltipClickToGive)
-22:25:33 Visitor status change for '§aStella': READY -> WAITING (noLongerHasItems)
-22:25:33 Visitor status change for '§aStella': WAITING -> ACCEPTED (accepted)
-22:30:41 Visitor status change for '§9Gold Forger': NEW -> READY (tooltipClickToGive)
-22:30:42 Visitor status change for '§9Gold Forger': READY -> ACCEPTED (accepted)

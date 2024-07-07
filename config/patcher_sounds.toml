@@ -542,7 +542,9 @@
 [player]
 
 	[player.sounds]
+		achievements_unlock_hidden = 100
 		random_levelup = 100
+		achievements_unlock = 100
 		minecart_inside = 100
 		random_burp = 100
 		random_orb = 100
@@ -562,11 +564,21 @@
 [master]
 
 	[master.sounds]
-		gui_button_press = 100
-		purchase_confirmation = 100
 		calendar_notif_jingle = 100
+		alert_modes_anime_bedrock_wall = 100
 		calendar_notif_out = 100
+		alert_modes_anime_pet_drop = 100
+		alert_modes_anime_worm = 100
 		coin_fill_up = 100
 		screenshot = 100
 		calendar_notif_in = 100
+		gui_button_press = 100
+		purchase_confirmation = 100
+		alert_modes_meme_scatha = 100
+		alert_modes_meme_bedrock_wall = 100
+		alert_modes_meme_pet_drop = 100
+		alert_modes_anime_prespawn = 100
+		alert_modes_anime_scatha = 100
+		alert_modes_meme_worm = 100
+		alert_modes_meme_prespawn = 100
 

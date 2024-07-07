@@ -1899,6 +1899,31 @@
     ],
     "GANACHE_CHOCOLATE_SLAB": [
       "PRESTIGE_CHOCOLATE_REALM"
+    ],
+    "COIN_TALISMAN": [
+      "RING_OF_COINS",
+      "ARTIFACT_OF_COINS",
+      "RELIC_OF_COINS"
+    ],
+    "RING_OF_COINS": [
+      "ARTIFACT_OF_COINS",
+      "RELIC_OF_COINS"
+    ],
+    "ARTIFACT_OF_COINS": [
+      "RELIC_OF_COINS"
+    ],
+    "EMERALD_RING": [
+      "EMERALD_ARIFACT"
+    ],
+    "MINERAL_TALISMAN": [
+      "GLOSSY_MINERAL_TALISMAN"
+    ],
+    "SCAVENGER_TALISMAN": [
+      "SCAVENGER_RING",
+      "SCAVENGER_ARTIFACT"
+    ],
+    "SCAVENGER_RING": [
+      "SCAVENGER_ARTIFACT"
     ]
   },
   "ignored_talisman": [
@@ -2096,7 +2121,6 @@
     "5620078ede92404092d8684affdb6f4a",
     "b69f04a604704b7f8926668646a8953e",
     "171faf6b54c045d884ba95f27049984f",
-    "cd37f6e9eaa141da9952fbac88109ebc",
     "472b2a7ee5344cff885855759de1d122",
     "3411a2c17cf444b9be5900c2ebe41f69",
     "451674815a7f4cb8be0d3428a4b7878e",
@@ -2111,6 +2135,7 @@
     "283d44db885c41e890be2e00f3a289c1",
     "17632d8e21f6423386ccd703ccac1d4d",
     "ca0f70cc366e492fa6e259db321d408c",
+    "185ae39546a9453b9167b65f89c1c93f",
     "a82c2696ae7440218cfda4064739dedf",
     "600f53cac2f145579ec6ade8047efafd",
     "c3948fb73f3b44afb52671d74ea81c0e",
@@ -2129,19 +2154,15 @@
     "f1f932a964454bcbaa824b4b17baf44d",
     "ec3b2c3c9fc54132a66536f0b09903e1",
     "1f121422af914a99a6e5fd96dc6401fb",
-    "423cc02e28b146b28868bbd3c7a08305",
     "9bd4d1f57a4843df865fde65225f5fa9",
     "10805e7cdac64431ac7f608f302b8642",
-    "92d572097450473d9aa45ec316f5e408",
     "912bd07f98d8406bbfc582bafa7d0ee2",
     "b04d881c86004ced8fc832b92faa043c",
     "3effc0ca533a4305ba279d2ac2f658af",
     "6ff9b7703f3e4edb997ac4544e421668",
-    "0e75b8a584ce4edead3036d585999278",
     "ebd9c13a98ea4010b837ece10b610ea9",
     "a13aec4432234fc3b492290980fe3eeb",
     "f0c855e654054d8cb4ce805e2072582f",
-    "fb2570f5ee034bdba07972096e8db5ea",
     "e71363c2cba64bde9d965d27ffc019e0",
     "4170fa3673be48b8b1b623f2a4c092ae",
     "ee52e9ce519e4449889fde3700ad9cba",
@@ -2151,24 +2172,19 @@
     "1ecc6dde0033419fa49084a410510f62",
     "500055d0c383492a8bd1be303f66cb47",
     "834cc2e874304bd89ddc817aa3f48d2a",
-    "9bbcc5dde18c42db895268fc4d76d26d",
     "6d004cbff8f148b598d4f6a720c239f1",
     "f3c274cbb33147b6a2f42a9ae8b637f5",
     "907e35cf81d04ef7ae98bcae35eb0f08",
     "f415e491104144ab96be44b4f73f844b",
     "867daf03563a4cd7a8b79afb22675776",
     "a691b849f9f145cb93c402b08495fba1",
-    "b40a8ea5b6b14a078e00f683d4f396a5",
     "15aace532a0c461985a2e5ed80e4a28b",
-    "59f37a04c6f9425785c8572c6acad591",
     "b1d6b1fa03cc4ebdbe10dd7cd4515b94",
     "cafac9dc210543ce97cd1d752b0fd594",
-    "ac64c048d7ec4766834a7bccdd813c4e",
     "a165e899c62442a4ae3458fc455c459d",
     "7ee8752e2513488caac4cbb63b5b0f48",
     "c970106c2cb742d185b1ff333ce59a1b",
-    "0740cc1b55324e3fa264dac22f99156c",
-    "42f61e6cc850495abde95e6888e173fb",
+    "5d142c3abdf1418bb907797bbaaed188",
     "ef20c8cfa38f4e8889f34e587c381b97",
     "d2c2cb0f8c7d4ba6afdeafc2d60ccb64",
     "d34b4d1e8a384e9f9848d644c13a653e",
@@ -2176,12 +2192,9 @@
     "a7ca4dd97be54f7f8164844977749ae9",
     "733845d08f7e4de88370b481abe81e1f",
     "259ac3e3a91c449b864014c9bac65441",
-    "ea45fe8b6b1e498c971eddba00d2f72f",
     "64513cd41f134d0b99ee7a70f66b664e",
     "20353a1298fd4ac096604d57d74b3ac7",
-    "6943e3f417544b8f968d895f697ebd73",
     "79d045e02bce4dfea8bb9086e660ee57",
-    "2375d9bf72574da58e6397c7e9ea780e",
     "544e2bd9eed34074841858191c4e91e9",
     "0d07261103ba4f14bda7e950919d4ee9",
     "111f80896d8f43bc83c60a81dc20738c",
@@ -2199,10 +2212,8 @@
     "b50fe4eb16d446e79d4b05b38de8b27b",
     "b07c9d106b234e18b010c4468de250be",
     "e73e79dbc4eb4b0fbe2c5f51a6693185",
-    "22d10721c9cd4dd09bf72701cb46be74",
     "95c95143985c45b2b9937f469ed68dcf",
     "65fa70aa966d43b2af00d10989df1b4e",
-    "d330ae3ca47f4db08d934eb3f2562ab5",
     "f409bb11293b4aa792829e032ce0b386",
     "2b5a86e1fada4ed397fbf0d8930d5c44",
     "239afd67dd694af8b2fbaeb5f6e9aacf",
@@ -2212,14 +2223,19 @@
     "813f474a00584926a713253f1e31d900",
     "777fc4c9296f492a9b006c3673dbd022",
     "40ecc5273dd34e90922e331a9f84507b",
-    "8013a674101d4543a197d29cde1accf2",
-    "ea572966322f4aae8cff754a110620e7",
-    "c24d9a18eb634b64a25da2a7221bf857",
     "592187b3b6544a03b449bf75c697a720",
     "cb57cca42be144708a10a7f4545d669b",
     "3e0cbf00e6d54e9bbf26ea955840f439",
     "87abd285b0924624a6cdeebf3c64f7eb",
-    "e0ea82d34bbc4400a7e31b2d7bb717fc"
+    "e0ea82d34bbc4400a7e31b2d7bb717fc",
+    "213a67b22b7349afb5aa5a07c486fa2f",
+    "edc64a8aa3694cb0a46d27ff72dffa8c",
+    "406e7252cdd6483ebac85eab43885361",
+    "4665b04744f04c30bd701d3794e17f22",
+    "acbd0f19014945e997a02d30e58e721a",
+    "56f5a73d30f44f12882769e14357ae13",
+    "ba20415e00c74690b7e609d5c74c098d",
+    "2436f7a89e0a4eb8bd5adddad4aafdbe"
   ],
   "ranks": {
     "OWNER": {

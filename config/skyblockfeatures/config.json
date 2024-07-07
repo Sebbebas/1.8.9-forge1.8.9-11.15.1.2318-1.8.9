@@ -918,7 +918,7 @@
     "value": false
   },
   "toggleSprint": {
-    "value": false
+    "value": true
   },
   "speedLvl": {
     "value": 0

@@ -14,7 +14,7 @@ difficulty:3
 fancyGraphics:false
 ao:0
 renderClouds:false
-resourcePacks:["!  Tightfault [Revamp].zip"]
+resourcePacks:["!  Tightfault [Revamp].zip","Dark End v1.2.zip"]
 incompatibleResourcePacks:[]
 lastServer:
 lang:en_us
@@ -61,7 +61,7 @@ key_key.use:-99
 key_key.forward:17
 key_key.left:30
 key_key.back:31
-key_key.right:32
+key_key.right:205
 key_key.jump:57
 key_key.sneak:42
 key_key.sprint:29
@@ -139,15 +139,15 @@ key_Copy NBT:157
 key_Toggle Sprint:28
 key_Warp to nearest location to burrial guess:0
 key_Choose the nearest eman boss as your boss.:0
-soundCategory_master:0.01655629
+soundCategory_master:0.102649
 soundCategory_music:0.0
 soundCategory_record:1.0
-soundCategory_weather:1.0
-soundCategory_block:1.0
-soundCategory_hostile:1.0
-soundCategory_neutral:1.0
-soundCategory_player:1.0
-soundCategory_ambient:1.0
+soundCategory_weather:0.5070422
+soundCategory_block:0.5
+soundCategory_hostile:0.5
+soundCategory_neutral:0.5
+soundCategory_player:0.5
+soundCategory_ambient:0.5
 modelPart_cape:true
 modelPart_jacket:true
 modelPart_left_sleeve:true

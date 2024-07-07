@@ -177,7 +177,10 @@
       4,
       0,
       7,
-      8
+      8,
+      12,
+      11,
+      13
     ],
     "mining_1": [],
     "mining_2": [],
@@ -187,10 +190,20 @@
   },
   "apple": {
     "dungeon_hub": [],
-    "hub": [],
+    "combat_3": [],
+    "hub": [
+      65,
+      79
+    ],
+    "farming_1": [],
     "winter": [],
-    "crimson_isle": [],
-    "mining_3": []
+    "foraging_1": [],
+    "crimson_isle": [
+      2,
+      15
+    ],
+    "mining_3": [],
+    "combat_1": []
   },
   "raspberry": {
     "dungeon_hub": [
@@ -460,5 +473,46 @@
   },
   "tomato": {
     "hub": []
+  },
+  "mango": {
+    "dungeon_hub": [],
+    "combat_3": [],
+    "hub": [
+      66,
+      67,
+      68,
+      69,
+      70,
+      38,
+      39,
+      74,
+      46,
+      58,
+      59,
+      61,
+      62
+    ],
+    "farming_1": [],
+    "foraging_1": [],
+    "mining_3": [],
+    "mining_1": [
+      7,
+      8
+    ],
+    "mining_2": [
+      16,
+      2,
+      7,
+      8,
+      9,
+      15
+    ],
+    "combat_1": [
+      7,
+      8,
+      10,
+      12,
+      14
+    ]
   }
 }

@@ -1,0 +1,1 @@
+[{"type":"REQUIRES_UNLOCK_ACTION","id":"UNUSED","enabled":true,"data":{"ACTION_TYPE":"JOIN_SPS","ACTION_DESCRIPTION":"Play 1.21 with a friend using\nEssential world hosting","REQUIRED_VERSION":"1.21"}},{"type":"VARIANTS","id":"UNUSED","enabled":true,"data":{"variants":[{"name":"particle","color":16095519},{"name":"no_particle","color":3360357}]}}]

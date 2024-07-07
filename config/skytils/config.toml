@@ -21,7 +21,7 @@
 		config_button_on_pause = true
 		reopen_options_menu = true
 		first_launch = false
-		last_launched_skytils_version = "1.10.0-pre7"
+		last_launched_skytils_version = "1.10.0-pre9"
 
 	[general.reparty]
 		override_other_reparty_commands = false
@@ -151,6 +151,7 @@
 		party_addons = false
 		show_arachne_spawn = false
 		show_lowest_bin_price = false
+		trophy_fish_tracker = false
 		dungeon_pot_lock = 0
 		hide_hunger_display = false
 		include_item_modifiers = true

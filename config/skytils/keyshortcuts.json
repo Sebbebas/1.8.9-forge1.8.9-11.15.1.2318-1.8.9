@@ -6,5 +6,9 @@
     {
         "message": "/warp garden",
         "keyCode": 199
+    },
+    {
+        "message": "/warp home",
+        "keyCode": 209
     }
 ]

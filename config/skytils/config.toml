@@ -57,7 +57,7 @@
 		ping_display = 1
 		also_copy_very_rare_drops_to_clipboard = false
 		transparent_armor_layer = 1.0
-		auto_copy_rng_drops_to_clipboard = false
+		auto_copy_rng_drops_to_clipboard = true
 		random_stuff = false
 		players_in_range_display = false
 		"mark_'dirty'_items" = true
@@ -81,7 +81,7 @@
 	[miscellaneous.chat_tabs]
 		chat_tabs = false
 		pre-fill_chat_commands = false
-		copy_chat_messages = true
+		copy_chat_messages = false
 		auto_switch_chat_channel = false
 
 	[miscellaneous.items]

@@ -40,7 +40,9 @@
     "openAHKeybind": 50,
     "openSkyBlockRecipeKeybind": 0,
     "showWhenCountdownEnds": 2,
-    "hideRegenBounce": false
+    "useEnglishCountdown": false,
+    "hideRegenBounce": false,
+    "neuCustomizeKeybind": 0
   },
   "locationedit": {
     "guiScale": 0
@@ -68,7 +70,7 @@
     "bgBlurFactor": 0,
     "paneWidthMult": 1.0,
     "panePadding": 10,
-    "foregroundColour": "0:255:97:97:97",
+    "foregroundColour": "0:255:98:97:95",
     "favouriteColour": "0:255:199:145:74",
     "backgroundColour": "0:6:0:119:255",
     "alwaysShowMonsters": false,
@@ -88,8 +90,10 @@
     "quickCommandsClickType": 0
   },
   "inventoryButtons": {
+    "enableInventoryButtons": true,
     "openEditorButton": true,
     "hideCrafting": false,
+    "hideInDungeonMenus": false,
     "clickType": 0,
     "tooltipDelay": 600
   },
@@ -100,6 +104,7 @@
     "bindingAlsoLocks": false,
     "slotLockKey": 38,
     "lockSlotsInTrade": true,
+    "disableInStorage": false,
     "slotLockSwapDelay": 100,
     "slotLockSound": true,
     "slotLockSoundVol": 20.0
@@ -129,6 +134,7 @@
     "disablePriceKeyKeybind": 0,
     "alwaysShowRequiredItems": false,
     "showReforgeStats": true,
+    "showGemstoneStats": true,
     "hideDefaultReforgeStats": true,
     "missingEnchantList": true,
     "guiScale": 0,
@@ -172,8 +178,8 @@
     "changeEtherwarpColourWhenFailed": false,
     "etherwarpHighlightColour": "0:70:156:9:97",
     "etherwarpFailHighlightColour": "00:70:220:40:40",
-    "enableBonemerangOverlay": true,
-    "highlightTargeted": true,
+    "enableBonemerangOverlay": false,
+    "highlightTargeted": false,
     "bonemerangPosition": {
       "x": -1,
       "y": -1,
@@ -197,6 +203,7 @@
     "customWitherCloakSpeed": 2.0,
     "customWitherCloakDistance": 1.2,
     "customWitherCloakCredit": false,
+    "enableGrappleOverlay": true,
     "oldCooldowns": false,
     "pickaxeAbility": true,
     "bonzoAbility": true,
@@ -205,15 +212,9 @@
   "skillOverlays": {
     "farmingOverlay": true,
     "farmingText": [
-      0,
       9,
-      10,
-      1,
+      0,
       2,
-      3,
-      4,
-      5,
-      7,
       11
     ],
     "useBZPrice": true,
@@ -223,8 +224,8 @@
     "farmingCoinRateUnit": 0,
     "farmingResetCPS": 5,
     "farmingPosition": {
-      "x": 0,
-      "y": -106,
+      "x": 6,
+      "y": -228,
       "centerX": false,
       "centerY": false
     },
@@ -233,35 +234,27 @@
     "miningText": [
       0,
       8,
-      1,
       2,
-      3,
-      4,
-      5,
-      7
+      5
     ],
     "miningPauseTimer": 3,
     "miningPosition": {
-      "x": 0,
-      "y": -106,
+      "x": 5,
+      "y": 263,
       "centerX": false,
       "centerY": false
     },
     "miningStyle": 3,
     "FishingSkillOverlay": true,
     "fishingText": [
-      0,
-      1,
       2,
-      3,
-      4,
-      5,
-      6
+      0,
+      1
     ],
     "fishingPauseTimer": 3,
     "fishingPosition": {
-      "x": 0,
-      "y": -112,
+      "x": 5,
+      "y": -247,
       "centerX": false,
       "centerY": false
     },
@@ -281,31 +274,28 @@
     ],
     "combatPauseTimer": 3,
     "combatPosition": {
-      "x": 161,
-      "y": 196,
+      "x": 129,
+      "y": 209,
       "centerX": false,
       "centerY": false
     },
-    "combatStyle": 0,
+    "combatStyle": 3,
     "alwaysShowCombatOverlay": false
   },
   "miscOverlays": {
-    "todoOverlay2": false,
-    "todoOverlayOnlyShowTab": false,
-    "todoOverlayHideAtBingo": false,
+    "todoOverlay2": true,
+    "todoOverlayOnlyShowTab": true,
+    "todoOverlayHideAtBingo": true,
     "todoText2": [
       0,
       1,
       2,
-      3,
-      4,
       5,
       6,
       7,
       8,
       9,
-      10,
-      11
+      10
     ],
     "experimentationDisplay": 0,
     "puzzlerDisplay": 0,
@@ -327,8 +317,8 @@
     "kindaSoonColour": 1,
     "defaultColour": 15,
     "todoPosition": {
-      "x": 100,
-      "y": 0,
+      "x": -16,
+      "y": -33,
       "centerX": false,
       "centerY": false
     },
@@ -348,8 +338,8 @@
       6
     ],
     "slayerPosition": {
-      "x": 66,
-      "y": -166,
+      "x": 33,
+      "y": -129,
       "centerX": false,
       "centerY": false
     },
@@ -359,11 +349,11 @@
     "selectedIndex": 0,
     "enableStorageGUI3": true,
     "storageHeight": 320,
-    "displayStyle": 0,
+    "displayStyle": 2,
     "enderchestPreview": true,
     "backpackPreview": true,
     "masonryMode": false,
-    "fancyPanes": 0,
+    "fancyPanes": 2,
     "searchBarAutofocus": true,
     "showEnchantGlint": true,
     "selectedStorageColour": "0:255:255:223:0",
@@ -455,11 +445,11 @@
     ],
     "overlayPosition": {
       "x": 0,
-      "y": -199,
+      "y": 160,
       "centerX": false,
       "centerY": false
     },
-    "overlayStyle": 0,
+    "overlayStyle": 3,
     "dwarvenOverlayIcons": true,
     "forgeDisplay": 1,
     "forgeDisplayEnabledLocations": 0,
@@ -490,7 +480,7 @@
       3,
       7
     ],
-    "crystalHollowOverlayStyle": 0,
+    "crystalHollowOverlayStyle": 3,
     "crystalHollowIcons": true,
     "crystalHollowHideDone": false,
     "crystalHollowAutomatonLocation": 2,
@@ -499,7 +489,7 @@
     "crystalHollowPartColor": 3,
     "crystalHollowDoneColor": 10,
     "crystalHollowInventoryColor": 14,
-    "crystalHollowStorageColor": 14,
+    "crystalHollowStorageColor": 6,
     "crystalHollowMissingColor": 12,
     "crystalHollowPlacedColor": 10,
     "crystalHollowCollectedColor": 14,
@@ -520,8 +510,8 @@
       6
     ],
     "powderGrindingTrackerPosition": {
-      "x": 3,
-      "y": 298,
+      "x": 0,
+      "y": 245,
       "centerX": false,
       "centerY": false
     },
@@ -530,7 +520,7 @@
     "resetPowderGrindingTracker": 0,
     "puzzlerSolver": true,
     "titaniumAlert": true,
-    "titaniumAlertMustBeVisible": false,
+    "titaniumAlertMustBeVisible": true,
     "dwarvenTextures": false,
     "crystalHollowTextures": false,
     "gemstoneSounds": false,
@@ -606,6 +596,7 @@
       4
     ],
     "petOverlayIcon": true,
+    "petItemIcon": false,
     "petInfoOverlayStyle": 0,
     "dualPets": false,
     "petInvDisplay": false,
@@ -634,6 +625,7 @@
     "keepPreviousSearch": false,
     "showPastSearches": true,
     "escFullClose": true,
+    "ahSearchHistorySize": 5,
     "underCutWarning": true,
     "overCutWarning": true,
     "warningThreshold": 10.0,
@@ -647,6 +639,7 @@
     "keepPreviousSearch": false,
     "showPastSearches": true,
     "escFullClose": true,
+    "bzSearchHistorySize": 5,
     "bazaarOverpayWarning": 1.0E7,
     "ctrlFSearch": true
   },
@@ -730,7 +723,7 @@
     "customTodos": [],
     "profileSpecific": {
       "Apple": {
-        "godPotionDuration": 36000000,
+        "godPotionDuration": 32400000,
         "puzzlerCompleted": 1718053869571,
         "firstCakeAte": 1718197124601,
         "fetchurCompleted": 0,
@@ -1235,14 +1228,14 @@
         }
       },
       "Banana": {
-        "godPotionDuration": 7200000,
+        "godPotionDuration": 46800000,
         "puzzlerCompleted": 1718038758650,
-        "firstCakeAte": 1717928173266,
+        "firstCakeAte": 1721310481195,
         "fetchurCompleted": 1718038794048,
-        "commissionsCompleted": 0,
-        "lastFreeRiftInfusionApplied": 1716835769902,
+        "commissionsCompleted": 1721080692653,
+        "lastFreeRiftInfusionApplied": 1720654307342,
         "experimentsCompleted": 1718012648596,
-        "cookieBuffRemaining": 1719924141765,
+        "cookieBuffRemaining": 1720868822571,
         "forgeItems": [
           {
             "finishTime": 0,
@@ -1275,7 +1268,12 @@
             "fromScoreBoard": true
           }
         ],
-        "hotmDesires": {},
+        "hotmDesires": {
+          "Mithril": {
+            "name": "§cEfficient Miner",
+            "powderRequirement": 36751
+          }
+        },
         "commissionMilestone": 5,
         "automatonParts": {
           "Electron Transmitter": false,
@@ -1294,12 +1292,12 @@
         "crystals": {
           "Amber": 0,
           "Sapphire": 0,
-          "Jade": 0,
+          "Jade": 1,
           "Amethyst": 0,
           "Topaz": 0
         },
-        "dailyGemstonePowderCompleted": 1720358720709,
-        "dailyMithrilPowerCompleted": 1720358898351,
+        "dailyGemstonePowderCompleted": 1721397373941,
+        "dailyMithrilPowerCompleted": 1721391364449,
         "nonUnlockedWarpScrolls": [],
         "dailyHeavyPearlCompleted": 1716329324454,
         "questBoardCompleted": 0,
@@ -1307,119 +1305,120 @@
         "savedEquipment": {
           "19": {
             "itemid": "minecraft:skull",
-            "displayname": "§5Strengthened Molten Cloak",
-            "nbttag": "{HideFlags:254,SkullOwner:{Id:\"e7b0b792-7786-3b14-82b0-d04f7b5fbf7c\",Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTY0NzAxNjQzNDExNiwKICAicHJvZmlsZUlkIiA6ICJlZThjNWMzMGY3NWU0N2QxOTBmOTllNjI5NDgyOGZjMSIsCiAgInByb2ZpbGVOYW1lIiA6ICJTcGFya19QaGFudG9tIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzZjMThiYjBmNTJmMjQ2ZWM5YmZmNWYwNTc2MTQ1NmJlMjczZTczMGNkMjc2NTU1ZmQ3NzJiYThjM2ZhMGYxNDQiCiAgICB9CiAgfQp9\"}]}},display:{Lore:[0:\"§7Strength: §c+25 §9(+5)\",1:\"§7Health: §a+30\",2:\"§7Defense: §a+26 §9(+6)\",3:\"§7Speed: §a+5\",4:\"\",5:\"§bSpeed I\",6:\"§7Grants §f+5✦ Speed§7.\",7:\"§cVitality I ✖\",8:\"§7Grants §4+3♨ Vitality§7.\",9:\"\",10:\"§6Tiered Bonus: Molten Core (2/4)\",11:\"§7Gain §a5% §7damage resistance while\",12:\"§7fighting §6Kuudra§7.\",13:\"\",14:\"§5§lEPIC CLOAK\"],Name:\"§5Strengthened Molten Cloak\"},ExtraAttributes:{modifier:\"strengthened\",attributes:{mending:1,speed:1},id:\"MOLTEN_CLOAK\",boss_tier:0,uuid:\"c5b79b47-4ff7-42b7-ad19-4436d0ee158f\",timestamp:1692451560000L}}",
+            "displayname": "§9Titanium Cloak",
+            "nbttag": "{HideFlags:254,SkullOwner:{Id:\"0c3ebf33-7819-3225-8fb9-9dc8b1cec97a\",Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTcwODM1NTc5ODUyOCwKICAicHJvZmlsZUlkIiA6ICJmNzcxMDI1NGMzYWY0YjA5YmRjY2NiNDRjNjg1NjFiMCIsCiAgInByb2ZpbGVOYW1lIiA6ICJDZXJ1c1YyIiwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzQ5ODIxNDEwNjMxMTg2YzZmM2ZiYmFlNWYwZWY1Yjk0N2Y0NzVlYjMyMDI3YThhYWQwYTQ1NjUxMjU0N2MyMDkiCiAgICB9CiAgfQp9\"}]}},display:{Lore:[0:\"§7Mining Speed: §a+30\",1:\"§7Mining Fortune: §a+10\",2:\"\",3:\"§7Grants §6+10☘ Mining Fortune §7while\",4:\"§7mining §2Mithril §7and §fTitanium§7.\",5:\"§7\",6:\"§6Full Set Bonus: True Dwarf (4/4)\",7:\"§7Grants §6+50⸕ Mining Speed §7and §6+40☘\",8:\"§6Mining Fortune §7while in the §2Dwarven\",9:\"§2Mines§7.\",10:\"\",11:\"§7§8This item can be reforged!\",12:\"§9§lRARE CLOAK\"],Name:\"§9Titanium Cloak\"},ExtraAttributes:{id:\"TITANIUM_CLOAK\",uuid:\"49317b04-66a0-4ef5-8dc0-e8370c9bc559\",timestamp:1720984406581L}}",
             "damage": 3,
             "lore": [
-              "§7Strength: §c+25 §9(+5)",
-              "§7Health: §a+30",
-              "§7Defense: §a+26 §9(+6)",
-              "§7Speed: §a+5",
+              "§7Mining Speed: §a+30",
+              "§7Mining Fortune: §a+10",
               "",
-              "§bSpeed I",
-              "§7Grants §f+5✦ Speed§7.",
-              "§cVitality I ✖",
-              "§7Grants §4+3♨ Vitality§7.",
+              "§7Grants §6+10☘ Mining Fortune §7while",
+              "§7mining §2Mithril §7and §fTitanium§7.",
+              "§7",
+              "§6Full Set Bonus: True Dwarf (4/4)",
+              "§7Grants §6+50⸕ Mining Speed §7and §6+40☘",
+              "§6Mining Fortune §7while in the §2Dwarven",
+              "§2Mines§7.",
               "",
-              "§6Tiered Bonus: Molten Core (2/4)",
-              "§7Gain §a5% §7damage resistance while",
-              "§7fighting §6Kuudra§7.",
-              "",
-              "§5§lEPIC CLOAK"
+              "§7§8This item can be reforged!",
+              "§9§lRARE CLOAK"
             ],
             "internalname": "_"
           },
           "37": {
             "itemid": "minecraft:skull",
-            "displayname": "§5Strengthened Molten Bracelet",
-            "nbttag": "{HideFlags:254,SkullOwner:{Id:\"479e23bf-e9c9-3cb7-a346-795f3b0847a9\",Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTY0NzAxNjUwNTAzMSwKICAicHJvZmlsZUlkIiA6ICJiYzRlZGZiNWYzNmM0OGE3YWM5ZjFhMzlkYzIzZjRmOCIsCiAgInByb2ZpbGVOYW1lIiA6ICI4YWNhNjgwYjIyNDYxMzQwIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzIwNTI5NGY4OTE1YzhkYTliNmUzODI5ZjZkYmExMzVmODhhYjQ3NjFiOTQzMGUxOGZmMTI1ZWYzZTk1MGNjZGYiCiAgICB9CiAgfQp9\"}]}},display:{Lore:[0:\"§7Strength: §c+25 §9(+5)\",1:\"§7Health: §a+30\",2:\"§7Defense: §a+26 §9(+6)\",3:\"§7Speed: §a+10\",4:\"\",5:\"§bSpeed II\",6:\"§7Grants §f+10✦ Speed§7.\",7:\"§cVitality II ✖\",8:\"§7Grants §4+6♨ Vitality§7.\",9:\"\",10:\"§6Tiered Bonus: Molten Core (2/4)\",11:\"§7Gain §a5% §7damage resistance while\",12:\"§7fighting §6Kuudra§7.\",13:\"\",14:\"§5§lEPIC BRACELET\"],Name:\"§5Strengthened Molten Bracelet\"},ExtraAttributes:{modifier:\"strengthened\",attributes:{mending:2,speed:2},id:\"MOLTEN_BRACELET\",boss_tier:2,uuid:\"89a1c090-bb51-4a66-aaac-1e0b59dc8284\",timestamp:1689794040000L}}",
+            "displayname": "§9Titanium Gauntlet",
+            "nbttag": "{HideFlags:254,SkullOwner:{Id:\"1cca15f8-e9fc-3e15-b676-93f719002c46\",Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTcxNzUyMTQzMzg2MiwKICAicHJvZmlsZUlkIiA6ICJkZDNjZGJiOTE2M2Q0NzgyOGQ0YmZkODZmYWE4NGY5ZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJFTFdhbEtlUkpBSkEiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2M4MDI3YzhhOGE2NzY3MDEwN2FkYWRlNDEwMjAwZjExYjIxYzkzYTEwMWE4ZWViMzI1OGVhYzM0NmQ1YzkwIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0\u003d\"}]}},display:{Lore:[0:\"§7Mining Speed: §a+30\",1:\"§7Mining Fortune: §a+10\",2:\"\",3:\"§7Grants §6+10☘ Mining Fortune §7while\",4:\"§7mining §2Mithril §7and §fTitanium§7.\",5:\"§7\",6:\"§6Full Set Bonus: True Dwarf (4/4)\",7:\"§7Grants §6+50⸕ Mining Speed §7and §6+40☘\",8:\"§6Mining Fortune §7while in the §2Dwarven\",9:\"§2Mines§7.\",10:\"\",11:\"§7§8This item can be reforged!\",12:\"§9§lRARE GLOVES\"],Name:\"§9Titanium Gauntlet\"},ExtraAttributes:{id:\"TITANIUM_GAUNTLET\",uuid:\"0ef69382-9357-4afc-9fd0-7433f4b387fd\",timestamp:1720984405474L}}",
             "damage": 3,
             "lore": [
-              "§7Strength: §c+25 §9(+5)",
-              "§7Health: §a+30",
-              "§7Defense: §a+26 §9(+6)",
-              "§7Speed: §a+10",
+              "§7Mining Speed: §a+30",
+              "§7Mining Fortune: §a+10",
               "",
-              "§bSpeed II",
-              "§7Grants §f+10✦ Speed§7.",
-              "§cVitality II ✖",
-              "§7Grants §4+6♨ Vitality§7.",
+              "§7Grants §6+10☘ Mining Fortune §7while",
+              "§7mining §2Mithril §7and §fTitanium§7.",
+              "§7",
+              "§6Full Set Bonus: True Dwarf (4/4)",
+              "§7Grants §6+50⸕ Mining Speed §7and §6+40☘",
+              "§6Mining Fortune §7while in the §2Dwarven",
+              "§2Mines§7.",
               "",
-              "§6Tiered Bonus: Molten Core (2/4)",
-              "§7Gain §a5% §7damage resistance while",
-              "§7fighting §6Kuudra§7.",
-              "",
-              "§5§lEPIC BRACELET"
+              "§7§8This item can be reforged!",
+              "§9§lRARE GLOVES"
             ],
             "internalname": "_"
           },
           "10": {
             "itemid": "minecraft:skull",
-            "displayname": "§5Strengthened §dRift Necklace",
-            "nbttag": "{HideFlags:254,SkullOwner:{Id:\"ad049247-1862-300f-a0db-dfd5cf5f6220\",Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTY0Nzg2ODQ3MDQxOCwKICAicHJvZmlsZUlkIiA6ICIwNjNhMTc2Y2RkMTU0ODRiYjU1MjRhNjQyMGM1YjdhNCIsCiAgInByb2ZpbGVOYW1lIiA6ICJkYXZpcGF0dXJ5IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzljMDg5NDkzMWE1MTAzODdlNGY2MTM4MjhmMDIzOWNhNGQ5MDg1MzQ5OTYzN2Y2MDc5ZDM5MzI3ZjE0NmYwZTkiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ\u003d\u003d\"}]}},display:{Lore:[0:\"§7Strength: §c+26 §9(+6)\",1:\"§7Health: §a+100\",2:\"§7Defense: §a+33 §9(+8)\",3:\"§7Intelligence: §a+65\",4:\"§7Magic Find: §a+6\",5:\"\",6:\"§7A very powerful piece of equipment\",7:\"§7originating from the §dRift Dimension§7.\",8:\"\",9:\"§7Becomes more powerful as you fill\",10:\"§7the §dRift Gallery§7.\",11:\"§7Secured: §c6/8 Timecharms\",12:\"\",13:\"§8§l* §8Soulbound §8§l*\",14:\"§6§lLEGENDARY NECKLACE\"],Name:\"§5Strengthened §dRift Necklace\"},ExtraAttributes:{modifier:\"strengthened\",id:\"RIFT_NECKLACE_OUTSIDE\",uuid:\"3d635644-59ce-4147-a1bd-e4a5110b1beb\",donated_museum:1b,timestamp:1688667000000L}}",
+            "displayname": "§9Titanium Necklace",
+            "nbttag": "{HideFlags:254,SkullOwner:{Id:\"28f67315-9dc4-32c4-9c65-b086316e0e49\",Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTcwODM1NTg0NDMwNCwKICAicHJvZmlsZUlkIiA6ICJmNzcxMDI1NGMzYWY0YjA5YmRjY2NiNDRjNjg1NjFiMCIsCiAgInByb2ZpbGVOYW1lIiA6ICJDZXJ1c1YyIiwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzRmM2I5MWI2YWE3MTI0ZjMwZWQ0YWQxYjJiYjAxMmE4Mjk4NWEzMzY0MDU1NWUxOGU3OTJmOTZhZjhmNThlYzYiCiAgICB9CiAgfQp9\"}]}},display:{Lore:[0:\"§7Mining Speed: §a+30\",1:\"§7Mining Fortune: §a+10\",2:\"\",3:\"§7Grants §6+10☘ Mining Fortune §7while\",4:\"§7mining §2Mithril §7and §fTitanium§7.\",5:\"§7\",6:\"§6Full Set Bonus: True Dwarf (4/4)\",7:\"§7Grants §6+50⸕ Mining Speed §7and §6+40☘\",8:\"§6Mining Fortune §7while in the §2Dwarven\",9:\"§2Mines§7.\",10:\"\",11:\"§7§8This item can be reforged!\",12:\"§9§lRARE NECKLACE\"],Name:\"§9Titanium Necklace\"},ExtraAttributes:{id:\"TITANIUM_NECKLACE\",uuid:\"753d269c-29ba-4053-90e8-02bdafe37b36\",timestamp:1720984405924L}}",
             "damage": 3,
             "lore": [
-              "§7Strength: §c+26 §9(+6)",
-              "§7Health: §a+100",
-              "§7Defense: §a+33 §9(+8)",
-              "§7Intelligence: §a+65",
-              "§7Magic Find: §a+6",
+              "§7Mining Speed: §a+30",
+              "§7Mining Fortune: §a+10",
               "",
-              "§7A very powerful piece of equipment",
-              "§7originating from the §dRift Dimension§7.",
+              "§7Grants §6+10☘ Mining Fortune §7while",
+              "§7mining §2Mithril §7and §fTitanium§7.",
+              "§7",
+              "§6Full Set Bonus: True Dwarf (4/4)",
+              "§7Grants §6+50⸕ Mining Speed §7and §6+40☘",
+              "§6Mining Fortune §7while in the §2Dwarven",
+              "§2Mines§7.",
               "",
-              "§7Becomes more powerful as you fill",
-              "§7the §dRift Gallery§7.",
-              "§7Secured: §c6/8 Timecharms",
-              "",
-              "§8§l* §8Soulbound §8§l*",
-              "§6§lLEGENDARY NECKLACE"
+              "§7§8This item can be reforged!",
+              "§9§lRARE NECKLACE"
             ],
             "internalname": "_"
           },
           "28": {
             "itemid": "minecraft:skull",
-            "displayname": "§9Strengthened Blue Belt",
-            "nbttag": "{HideFlags:254,SkullOwner:{Id:\"6cdab1c1-42bd-3604-8656-2f68fb474ff6\",Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTY0MzU5OTY3OTc4MywKICAicHJvZmlsZUlkIiA6ICJiNzVjZDRmMThkZjg0MmNlYjJhY2MxNTU5MTNiMjA0YiIsCiAgInByb2ZpbGVOYW1lIiA6ICJLcmlzdGlqb25hczEzIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzVhNGY3ZTU3YTQzNTk0NTdjZTBlN2RhMjdlODUxM2E4YjYxOTdmMWNhNjhkMDcxNTQyYzY2ZjhhNDFiYWY0ZWQiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ\u003d\u003d\"}]}},display:{Lore:[0:\"§7Strength: §c+4 §9(+4)\",1:\"§7Health: §a+25\",2:\"§7Defense: §a+20 §9(+5)\",3:\"\",4:\"§7Reduces damage taken by §c4%§7.\",5:\"\",6:\"§8§l* §8Soulbound §8§l*\",7:\"§9§lRARE BELT\"],Name:\"§9Strengthened Blue Belt\"},ExtraAttributes:{modifier:\"strengthened\",id:\"DOJO_BLUE_BELT\",uuid:\"d95de37c-e5d1-440f-bd71-0e8fb9601ed0\",timestamp:1691186520000L}}",
+            "displayname": "§9Titanium Belt",
+            "nbttag": "{HideFlags:254,SkullOwner:{Id:\"de383690-8f4e-3edb-be2d-3c3d823cd578\",Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTcwODM1NTc1MjgyOCwKICAicHJvZmlsZUlkIiA6ICJmNzcxMDI1NGMzYWY0YjA5YmRjY2NiNDRjNjg1NjFiMCIsCiAgInByb2ZpbGVOYW1lIiA6ICJDZXJ1c1YyIiwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzQxNjIzMDNiY2RkNzcwYWViZTdmZDE5ZmEyNjM3MTM5MGE3NTE1MTQwMzU4NTQ4MDg0MzYxYjUwNTZjZGM0ZTYiCiAgICB9CiAgfQp9\"}]}},display:{Lore:[0:\"§7Mining Speed: §a+30\",1:\"§7Mining Fortune: §a+10\",2:\"\",3:\"§7Grants §6+10☘ Mining Fortune §7while\",4:\"§7mining §2Mithril §7and §fTitanium§7.\",5:\"§7\",6:\"§6Full Set Bonus: True Dwarf (4/4)\",7:\"§7Grants §6+50⸕ Mining Speed §7and §6+40☘\",8:\"§6Mining Fortune §7while in the §2Dwarven\",9:\"§2Mines§7.\",10:\"\",11:\"§7§8This item can be reforged!\",12:\"§9§lRARE BELT\"],Name:\"§9Titanium Belt\"},ExtraAttributes:{id:\"TITANIUM_BELT\",uuid:\"2ab3f0e7-2ba6-4812-ae67-19de2ec07411\",timestamp:1720984406224L}}",
             "damage": 3,
             "lore": [
-              "§7Strength: §c+4 §9(+4)",
-              "§7Health: §a+25",
-              "§7Defense: §a+20 §9(+5)",
+              "§7Mining Speed: §a+30",
+              "§7Mining Fortune: §a+10",
               "",
-              "§7Reduces damage taken by §c4%§7.",
+              "§7Grants §6+10☘ Mining Fortune §7while",
+              "§7mining §2Mithril §7and §fTitanium§7.",
+              "§7",
+              "§6Full Set Bonus: True Dwarf (4/4)",
+              "§7Grants §6+50⸕ Mining Speed §7and §6+40☘",
+              "§6Mining Fortune §7while in the §2Dwarven",
+              "§2Mines§7.",
               "",
-              "§8§l* §8Soulbound §8§l*",
+              "§7§8This item can be reforged!",
               "§9§lRARE BELT"
             ],
             "internalname": "_"
           }
         },
-        "magicalPower": 600,
-        "chestCount": 120,
-        "openedChestCount": 89,
-        "mithrilPowderFound": 55418,
-        "gemstonePowderFound": 42461,
+        "magicalPower": 643,
+        "chestCount": 2326,
+        "openedChestCount": 2168,
+        "mithrilPowderFound": 242998,
+        "gemstonePowderFound": 221181,
         "abiphoneFavouriteContacts": [
           "Maddox the Slayer"
         ],
         "abiphoneShowOnlyFavourites": false,
         "hotmTree": {
-          "Efficient Miner": 28,
-          "Daily Powder": 56,
-          "Titanium Insanium": 9,
-          "Mining Fortune": 15,
-          "Mining Speed": 16,
-          "Seasoned Mineman": 11,
+          "Efficient Miner": 55,
+          "Daily Powder": 100,
+          "Titanium Insanium": 11,
+          "Mining Fortune": 21,
+          "Mining Speed": 26,
+          "Seasoned Mineman": 41,
           "Mining Madness": 1,
-          "Quick Forge": 1,
+          "Quick Forge": 12,
           "Orbiter": 1,
           "Sky Mall": 1,
           "Front Loaded": 1,
-          "Mole": 43,
-          "Professional": 50,
-          "Powder Buff": 24,
-          "Fortunate": 20
+          "Mole": 58,
+          "Professional": 29,
+          "Powder Buff": 13,
+          "Fortunate": 19,
+          "Great Explorer": 20,
+          "Mining Fortune II": 13
         }
       }
     },
@@ -1954,8 +1953,8 @@
         "anchorRight": false,
         "anchorBottom": true,
         "backgroundIndex": 1,
-        "command": "warp dwarves",
-        "icon": "ENCHANTED_MITHRIL"
+        "command": "warp cn",
+        "icon": "skull:21dbe30b027acbceb612563bd877cd7ebb719ea6ed1399027dcee58bb9049d4a"
       }
     ],
     "debugFlags": [],
@@ -1975,29 +1974,31 @@
       "OVERLOAD;5",
       "BEASTMASTER_CREST_LEGENDARY",
       "DYE_MANGO",
-      "STARRED_ADAPTIVE_BELT"
+      "STARRED_ADAPTIVE_BELT",
+      "MOOGMA_LEGGINGS",
+      "SLUG_BOOTS"
     ],
     "previousAuctionSearches": [
-      "Jungle Amulet",
-      "Gemstone Chamber",
-      "Skeleton Lord Leggings",
-      "Yeti Sword",
-      "⚚ Yeti Sword"
+      "Magma Rod",
+      "Mining Exp Boost",
+      "Gemstone Drill LT-522",
+      "jum",
+      "Balloon Snake"
     ],
     "previousBazaarSearches": [
-      "Chum",
-      "Gunpowder",
-      "Full Chum Bucket",
-      "Titanic Experience Bottle",
-      "Coal"
+      "Gemstone Mixture",
+      "Worm Membrane",
+      "Enchanted Shark Fin",
+      "Blue Shark Tooth",
+      "Nurse Shark Tooth"
     ],
     "previousProfileSearches": [
+      "legohjalten",
+      "olleg2",
+      "critter",
       "4clover",
       "pengo3301",
-      "ender_nonq",
-      "speedyboy2828",
-      "cochix73",
-      "bagel_toastie"
+      "ender_nonq"
     ],
     "eventFavourites": [],
     "quickCommands": [

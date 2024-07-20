@@ -9,7 +9,7 @@
     "value": false
   },
   "riskyFeatures": {
-    "value": true
+    "value": false
   },
   "customSidebar": {
     "value": false
@@ -261,7 +261,7 @@
     "value": false
   },
   "SecretsDisplay": {
-    "value": false
+    "value": true
   },
   "betterPartyFinder": {
     "value": false
@@ -417,7 +417,7 @@
     "value": false
   },
   "customFont": {
-    "value": false
+    "value": true
   },
   "furfSkyThemed": {
     "value": false

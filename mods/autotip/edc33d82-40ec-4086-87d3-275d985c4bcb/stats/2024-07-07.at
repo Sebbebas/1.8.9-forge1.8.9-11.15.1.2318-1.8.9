@@ -4,66 +4,66 @@
     "month": 7,
     "day": 7
   },
-  "tipsSent": 49,
-  "tipsReceived": 33,
-  "xpSent": 1950,
-  "xpReceived": 1980,
+  "tipsSent": 129,
+  "tipsReceived": 60,
+  "xpSent": 5200,
+  "xpReceived": 3600,
   "gameStatistics": {
     "Turbo Kart Racers": {
-      "coinsSent": 45,
-      "coinsReceived": 100
+      "coinsSent": 135,
+      "coinsReceived": 300
     },
     "SkyWars": {
-      "coinsSent": 45,
-      "coinsReceived": 200
+      "coinsSent": 120,
+      "coinsReceived": 600
     },
     "Smash Heroes": {
-      "coinsSent": 60,
-      "coinsReceived": 400
+      "coinsSent": 165,
+      "coinsReceived": 600
     },
     "Mega Walls": {
-      "coinsSent": 60,
-      "coinsReceived": 200
+      "coinsSent": 150,
+      "coinsReceived": 500
     },
     "UHC Champions": {
-      "coinsSent": 45,
-      "coinsReceived": 500
+      "coinsSent": 150,
+      "coinsReceived": 700
     },
     "Warlords": {
-      "coinsSent": 75,
-      "coinsReceived": 300
+      "coinsSent": 180,
+      "coinsReceived": 500
     },
     "The Walls": {
-      "coinsSent": 45,
-      "coinsReceived": 100
-    },
-    "VampireZ": {
-      "coinsSent": 45,
-      "coinsReceived": 100
-    },
-    "Arcade Games": {
-      "coinsSent": 152,
+      "coinsSent": 135,
       "coinsReceived": 300
     },
+    "VampireZ": {
+      "coinsSent": 135,
+      "coinsReceived": 300
+    },
+    "Arcade Games": {
+      "coinsSent": 418,
+      "coinsReceived": 600
+    },
     "Arena Brawl": {
-      "coinsSent": 45,
-      "coinsReceived": 100
+      "coinsSent": 135,
+      "coinsReceived": 300
     },
     "Blitz SG": {
-      "coinsSent": 75,
-      "coinsReceived": 500
+      "coinsSent": 180,
+      "coinsReceived": 600
     },
     "Cops and Crims": {
-      "coinsSent": 60,
-      "coinsReceived": 500
+      "coinsSent": 150,
+      "coinsReceived": 700
     },
     "Paintball Warfare": {
-      "coinsSent": 45,
-      "coinsReceived": 100
+      "coinsSent": 135,
+      "coinsReceived": 300
     },
     "Quakecraft": {
-      "coinsSent": 45,
-      "coinsReceived": 100
+      "coinsSent": 135,
+      "coinsReceived": 300
     }
   }
 }

@@ -14,7 +14,7 @@ difficulty:3
 fancyGraphics:false
 ao:0
 renderClouds:false
-resourcePacks:["!     ?2defrost ?8[?f16x?8].zip"]
+resourcePacks:["!     ?2defrost ?8[?f16x?8].zip","Default-Dark-Mode Copy"]
 incompatibleResourcePacks:[]
 lastServer:
 lang:en_us
@@ -69,7 +69,7 @@ key_key.drop:16
 key_key.inventory:18
 key_key.chat:20
 key_key.playerlist:15
-key_key.pickItem:0
+key_key.pickItem:-98
 key_key.command:53
 key_key.screenshot:60
 key_key.togglePerspective:47
@@ -106,7 +106,7 @@ key_keybind.name.EMOTE_SLOT_6:0
 key_keybind.name.EMOTE_SLOT_7:0
 key_keybind.name.EMOTE_SLOT_8:0
 key_keys.armorhud.config:211
-key_Add item to inventory (Creative-only):38
+key_Add item to inventory (Creative-only):0
 key_Set item as favourite:39
 key_Show usages for item:0
 key_Show recipe for item:0
@@ -115,7 +115,7 @@ key_Show next recipe:0
 key_Toggle NEU overlay:0
 key_Close NEU panes:0
 key_Select Item:0
-key_Open GUI:43
+key_Open GUI:0
 key_Screenshot Chat:0
 key_key.cowlection.moo:0
 key_key.cowlection.waila:0
@@ -140,7 +140,7 @@ key_Copy NBT:157
 key_Toggle Sprint:28
 key_Warp to nearest location to burrial guess:0
 key_Choose the nearest eman boss as your boss.:0
-soundCategory_master:0.45033112
+soundCategory_master:0.25165564
 soundCategory_music:0.0
 soundCategory_record:1.0
 soundCategory_weather:0.5070422

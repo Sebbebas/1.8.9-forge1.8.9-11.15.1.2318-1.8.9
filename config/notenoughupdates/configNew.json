@@ -224,8 +224,8 @@
     "farmingCoinRateUnit": 0,
     "farmingResetCPS": 5,
     "farmingPosition": {
-      "x": 6,
-      "y": -228,
+      "x": 9,
+      "y": -222,
       "centerX": false,
       "centerY": false
     },
@@ -239,8 +239,8 @@
     ],
     "miningPauseTimer": 3,
     "miningPosition": {
-      "x": 5,
-      "y": 263,
+      "x": 12,
+      "y": -212,
       "centerX": false,
       "centerY": false
     },
@@ -253,8 +253,8 @@
     ],
     "fishingPauseTimer": 3,
     "fishingPosition": {
-      "x": 5,
-      "y": -247,
+      "x": 15,
+      "y": -212,
       "centerX": false,
       "centerY": false
     },
@@ -338,8 +338,8 @@
       6
     ],
     "slayerPosition": {
-      "x": 33,
-      "y": -129,
+      "x": 112,
+      "y": -124,
       "centerX": false,
       "centerY": false
     },
@@ -428,8 +428,8 @@
     "drillFuelBar": true,
     "drillFuelBarWidth": 200,
     "drillFuelBarPosition": {
-      "x": 0,
-      "y": -100,
+      "x": -3,
+      "y": -108,
       "centerX": true,
       "centerY": false
     },
@@ -445,7 +445,7 @@
     ],
     "overlayPosition": {
       "x": 0,
-      "y": 160,
+      "y": 190,
       "centerX": false,
       "centerY": false
     },
@@ -510,8 +510,8 @@
       6
     ],
     "powderGrindingTrackerPosition": {
-      "x": 0,
-      "y": 245,
+      "x": 9,
+      "y": 285,
       "centerX": false,
       "centerY": false
     },
@@ -617,7 +617,7 @@
     "highlightFrozenTreasures": false,
     "frozenTreasuresColor2": "0:100:0:255:0",
     "crystalHollowChestsAccordion": true,
-    "highlightCrystalHollowChests": false,
+    "highlightCrystalHollowChests": true,
     "crystalHollowChestColor": "0:66:255:0:41"
   },
   "ahTweaks": {
@@ -1228,52 +1228,52 @@
         }
       },
       "Banana": {
-        "godPotionDuration": 46800000,
+        "godPotionDuration": 43200000,
         "puzzlerCompleted": 1718038758650,
-        "firstCakeAte": 1721310481195,
+        "firstCakeAte": 1721823362088,
         "fetchurCompleted": 1718038794048,
         "commissionsCompleted": 1721080692653,
-        "lastFreeRiftInfusionApplied": 1720654307342,
+        "lastFreeRiftInfusionApplied": 1721916101425,
         "experimentsCompleted": 1718012648596,
-        "cookieBuffRemaining": 1720868822571,
+        "cookieBuffRemaining": 1721917542115,
         "forgeItems": [
           {
-            "finishTime": 0,
-            "status": 0,
+            "itemName": "☘ Perfect Jade Gemstone",
+            "finishTime": 1721995579576,
+            "status": 2,
             "forgeID": 0,
             "fromScoreBoard": true
           },
           {
-            "finishTime": 0,
-            "status": 0,
+            "itemName": "Refined Titanium",
+            "finishTime": 1721945179576,
+            "status": 2,
             "forgeID": 1,
             "fromScoreBoard": true
           },
           {
-            "finishTime": 0,
-            "status": 0,
+            "itemName": "Refined Titanium",
+            "finishTime": 1721945179576,
+            "status": 2,
             "forgeID": 2,
             "fromScoreBoard": true
           },
           {
-            "finishTime": 0,
-            "status": 0,
+            "itemName": "Refined Titanium",
+            "finishTime": 1721945179576,
+            "status": 2,
             "forgeID": 3,
             "fromScoreBoard": true
           },
           {
-            "finishTime": 0,
-            "status": 0,
+            "itemName": "Refined Titanium",
+            "finishTime": 1721945179576,
+            "status": 2,
             "forgeID": 4,
             "fromScoreBoard": true
           }
         ],
-        "hotmDesires": {
-          "Mithril": {
-            "name": "§cEfficient Miner",
-            "powderRequirement": 36751
-          }
-        },
+        "hotmDesires": {},
         "commissionMilestone": 5,
         "automatonParts": {
           "Electron Transmitter": false,
@@ -1292,12 +1292,12 @@
         "crystals": {
           "Amber": 0,
           "Sapphire": 0,
-          "Jade": 1,
+          "Jade": 0,
           "Amethyst": 0,
           "Topaz": 0
         },
-        "dailyGemstonePowderCompleted": 1721397373941,
-        "dailyMithrilPowerCompleted": 1721391364449,
+        "dailyGemstonePowderCompleted": 1721911000332,
+        "dailyMithrilPowerCompleted": 1721910996600,
         "nonUnlockedWarpScrolls": [],
         "dailyHeavyPearlCompleted": 1716329324454,
         "questBoardCompleted": 0,
@@ -1392,33 +1392,35 @@
             "internalname": "_"
           }
         },
-        "magicalPower": 643,
-        "chestCount": 2326,
-        "openedChestCount": 2168,
-        "mithrilPowderFound": 242998,
-        "gemstonePowderFound": 221181,
+        "magicalPower": 654,
+        "chestCount": 4725,
+        "openedChestCount": 4466,
+        "mithrilPowderFound": 745229,
+        "gemstonePowderFound": 686440,
         "abiphoneFavouriteContacts": [
           "Maddox the Slayer"
         ],
         "abiphoneShowOnlyFavourites": false,
         "hotmTree": {
-          "Efficient Miner": 55,
+          "Efficient Miner": 56,
           "Daily Powder": 100,
-          "Titanium Insanium": 11,
-          "Mining Fortune": 21,
-          "Mining Speed": 26,
+          "Titanium Insanium": 17,
+          "Mining Fortune": 28,
+          "Mining Speed": 43,
           "Seasoned Mineman": 41,
           "Mining Madness": 1,
           "Quick Forge": 12,
           "Orbiter": 1,
           "Sky Mall": 1,
           "Front Loaded": 1,
-          "Mole": 58,
-          "Professional": 29,
-          "Powder Buff": 13,
-          "Fortunate": 19,
+          "Mole": 81,
+          "Professional": 83,
+          "Powder Buff": 30,
+          "Fortunate": 20,
           "Great Explorer": 20,
-          "Mining Fortune II": 13
+          "Mining Fortune II": 20,
+          "No Stone Unturned": 1,
+          "Strong Arm": 1
         }
       }
     },
@@ -1525,7 +1527,8 @@
         "anchorRight": false,
         "anchorBottom": false,
         "backgroundIndex": 1,
-        "command": ""
+        "command": "/hotm",
+        "icon": "skull:86f06eaa3004aeed09b3d5b45d976de584e691c0e9cade133635de93d23b9edb"
       },
       {
         "x": 108,
@@ -1976,29 +1979,32 @@
       "DYE_MANGO",
       "STARRED_ADAPTIVE_BELT",
       "MOOGMA_LEGGINGS",
-      "SLUG_BOOTS"
+      "SLUG_BOOTS",
+      "ANTI_BITE_SCARF_2",
+      "LEGGINGS_OF_THE_COVEN",
+      "LIVELY_SEPULTURE_CHESTPLATE"
     ],
     "previousAuctionSearches": [
+      "Scatha",
       "Magma Rod",
       "Mining Exp Boost",
       "Gemstone Drill LT-522",
-      "jum",
-      "Balloon Snake"
+      "jum"
     ],
     "previousBazaarSearches": [
-      "Gemstone Mixture",
-      "Worm Membrane",
-      "Enchanted Shark Fin",
-      "Blue Shark Tooth",
-      "Nurse Shark Tooth"
+      "ece",
+      "sapphire",
+      "Booster Cookie",
+      "Umber",
+      "Enchanted Titanium"
     ],
     "previousProfileSearches": [
+      "warzoneowner",
+      "imaesthetic",
+      "thetruepumpkin",
+      "catgirlvv",
       "legohjalten",
-      "olleg2",
-      "critter",
-      "4clover",
-      "pengo3301",
-      "ender_nonq"
+      "olleg2"
     ],
     "eventFavourites": [],
     "quickCommands": [

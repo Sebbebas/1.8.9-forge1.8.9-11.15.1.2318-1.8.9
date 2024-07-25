@@ -59,3 +59,7 @@ Deleting C:\Users\tarss\AppData\Roaming\.minecraft\versions\1.8.9-forge1.8.9-11.
 Moving C:\Users\tarss\AppData\Roaming\.minecraft\versions\1.8.9-forge1.8.9-11.15.1.2318-1.8.9\.autoupdates\skyhanni\38fcabe5-5da4-4253-ad47-d43b431d4259\next.jar to C:\Users\tarss\AppData\Roaming\.minecraft\versions\1.8.9-forge1.8.9-11.15.1.2318-1.8.9\mods\SkyHanni-0.26.Beta.17.jar
 Deleting C:\Users\tarss\AppData\Roaming\.minecraft\versions\1.8.9-forge1.8.9-11.15.1.2318-1.8.9\mods\NotEnoughUpdates-2.3.0.jar
 Moving C:\Users\tarss\AppData\Roaming\.minecraft\versions\1.8.9-forge1.8.9-11.15.1.2318-1.8.9\.autoupdates\notenoughupdates\5c261466-1b90-4d10-a4a1-548255b59b61\next.jar to C:\Users\tarss\AppData\Roaming\.minecraft\versions\1.8.9-forge1.8.9-11.15.1.2318-1.8.9\mods\NotEnoughUpdates-2.3.2.jar
+Starting update (with identifier skyhanni and uuid a68fc2c3-64ed-4e3a-b6a0-db1f17bb0207)
+Waiting on a process to relinquish access to C:\Users\tarss\AppData\Roaming\.minecraft\versions\1.8.9-forge1.8.9-11.15.1.2318-1.8.9\mods\SkyHanni-0.26.Beta.17.jar
+Deleting C:\Users\tarss\AppData\Roaming\.minecraft\versions\1.8.9-forge1.8.9-11.15.1.2318-1.8.9\mods\SkyHanni-0.26.Beta.17.jar
+Moving C:\Users\tarss\AppData\Roaming\.minecraft\versions\1.8.9-forge1.8.9-11.15.1.2318-1.8.9\.autoupdates\skyhanni\a68fc2c3-64ed-4e3a-b6a0-db1f17bb0207\next.jar to C:\Users\tarss\AppData\Roaming\.minecraft\versions\1.8.9-forge1.8.9-11.15.1.2318-1.8.9\mods\SkyHanni-0.26.Beta.18.jar

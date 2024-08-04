@@ -162,7 +162,7 @@
 		power_orb_lock = false
 		show_coins_per_bit = false
 		hide_fishing_hooks = true
-		stop_clicking_non-salvageable_items = true
+		stop_clicking_non-salvageable_items = false
 		show_trophy_fish_totals = false
 		show_coins_per_copper = false
 		"spider's_den_rain_timer" = false

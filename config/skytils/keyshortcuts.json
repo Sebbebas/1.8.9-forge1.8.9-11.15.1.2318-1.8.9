@@ -10,5 +10,9 @@
     {
         "message": "/warp home",
         "keyCode": 209
+    },
+    {
+        "message": "/wardrobe",
+        "keyCode": -98
     }
 ]

@@ -203,7 +203,10 @@
       15
     ],
     "mining_3": [],
-    "combat_1": []
+    "mining_2": [],
+    "combat_1": [
+      13
+    ]
   },
   "raspberry": {
     "dungeon_hub": [
@@ -414,6 +417,20 @@
   },
   "lemon": {
     "hub": []
+  },
+  "kiwi": {
+    "dungeon_hub": [],
+    "combat_3": [],
+    "hub": [
+      62,
+      78
+    ],
+    "farming_1": [],
+    "winter": [],
+    "mining_3": [],
+    "mining_1": [],
+    "combat_1": [],
+    "mining_2": []
   },
   "strawberry": {
     "dungeon_hub": [],

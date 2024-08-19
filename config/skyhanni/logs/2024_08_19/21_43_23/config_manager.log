@@ -1,0 +1,53 @@
+21:43:59 Trying to load config from config\skyhanni\config.json
+21:43:59 load-config-now
+21:44:00 Loaded config from file
+21:44:00 Trying to load sacks from config\skyhanni\sacks.json
+21:44:00 load-sacks-now
+21:44:00 Loaded sacks from file
+21:44:00 Trying to load friends from config\skyhanni\friends.json
+21:44:00 load-friends-now
+21:44:00 Loaded friends from file
+21:44:00 Trying to load known_features from config\skyhanni\known_features.json
+21:44:00 load-known_features-now
+21:44:00 Loaded known_features from file
+21:44:00 Trying to load jacob_contests from config\skyhanni\jacob_contests.json
+21:44:00 load-jacob_contests-now
+21:44:00 Loaded jacob_contests from file
+21:44:00 Trying to load visual_words from config\skyhanni\visual_words.json
+21:44:00 Setting visual_words to be blank as it did not exist. It will be saved once something is written to it
+21:45:00 saveConfig: auto-save-60s
+21:45:00 Saving config file
+21:46:00 saveConfig: auto-save-60s
+21:46:00 Saving config file
+21:47:00 saveConfig: auto-save-60s
+21:47:00 Saving config file
+21:48:00 saveConfig: auto-save-60s
+21:48:00 Saving config file
+21:49:00 saveConfig: auto-save-60s
+21:49:00 Saving config file
+21:50:00 saveConfig: auto-save-60s
+21:50:00 Saving config file
+21:51:00 saveConfig: auto-save-60s
+21:51:00 Saving config file
+21:52:00 saveConfig: auto-save-60s
+21:52:00 Saving config file
+21:53:00 saveConfig: auto-save-60s
+21:53:00 Saving config file
+21:54:00 saveConfig: auto-save-60s
+21:54:00 Saving config file
+21:55:00 saveConfig: auto-save-60s
+21:55:00 Saving config file
+21:56:00 saveConfig: auto-save-60s
+21:56:00 Saving config file
+21:56:09 saveConfig: Updated known feature flags
+21:56:09 Saving known_features file
+21:56:41 saveConfig: close-gui
+21:56:41 Saving config file
+21:57:00 saveConfig: auto-save-60s
+21:57:00 Saving config file
+21:57:37 saveConfig: close-gui
+21:57:37 Saving config file
+21:58:00 saveConfig: auto-save-60s
+21:58:00 Saving config file
+21:58:22 saveConfig: shutdown-hook
+21:58:22 Saving config file

@@ -13,13 +13,13 @@
       "coinsSent": 420,
       "coinsReceived": 2100
     },
-    "SkyWars": {
-      "coinsSent": 375,
-      "coinsReceived": 1300
-    },
     "Smash Heroes": {
       "coinsSent": 375,
       "coinsReceived": 1700
+    },
+    "SkyWars": {
+      "coinsSent": 375,
+      "coinsReceived": 1300
     },
     "Mega Walls": {
       "coinsSent": 390,

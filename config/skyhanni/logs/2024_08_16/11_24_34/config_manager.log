@@ -1,0 +1,195 @@
+11:25:12 Trying to load config from config\skyhanni\config.json
+11:25:13 load-config-now
+11:25:13 Loaded config from file
+11:25:13 Trying to load sacks from config\skyhanni\sacks.json
+11:25:13 load-sacks-now
+11:25:13 Loaded sacks from file
+11:25:13 Trying to load friends from config\skyhanni\friends.json
+11:25:13 load-friends-now
+11:25:13 Loaded friends from file
+11:25:13 Trying to load known_features from config\skyhanni\known_features.json
+11:25:13 load-known_features-now
+11:25:13 Loaded known_features from file
+11:25:13 Trying to load jacob_contests from config\skyhanni\jacob_contests.json
+11:25:13 load-jacob_contests-now
+11:25:13 Loaded jacob_contests from file
+11:25:13 Trying to load visual_words from config\skyhanni\visual_words.json
+11:25:13 Setting visual_words to be blank as it did not exist. It will be saved once something is written to it
+11:26:13 saveConfig: auto-save-60s
+11:26:13 Saving config file
+11:27:13 saveConfig: auto-save-60s
+11:27:13 Saving config file
+11:28:11 saveConfig: Updated known feature flags
+11:28:11 Saving known_features file
+11:28:13 saveConfig: auto-save-60s
+11:28:13 Saving config file
+11:29:13 saveConfig: auto-save-60s
+11:29:13 Saving config file
+11:30:13 saveConfig: auto-save-60s
+11:30:13 Saving config file
+11:31:13 saveConfig: auto-save-60s
+11:31:13 Saving config file
+11:32:13 saveConfig: auto-save-60s
+11:32:13 Saving config file
+11:33:13 saveConfig: auto-save-60s
+11:33:13 Saving config file
+11:34:13 saveConfig: auto-save-60s
+11:34:13 Saving config file
+11:35:13 saveConfig: auto-save-60s
+11:35:13 Saving config file
+11:36:13 saveConfig: auto-save-60s
+11:36:13 Saving config file
+11:37:13 saveConfig: auto-save-60s
+11:37:13 Saving config file
+11:38:13 saveConfig: auto-save-60s
+11:38:13 Saving config file
+11:39:13 saveConfig: auto-save-60s
+11:39:13 Saving config file
+11:40:13 saveConfig: auto-save-60s
+11:40:13 Saving config file
+11:41:13 saveConfig: auto-save-60s
+11:41:13 Saving config file
+11:42:13 saveConfig: auto-save-60s
+11:42:13 Saving config file
+11:43:13 saveConfig: auto-save-60s
+11:43:13 Saving config file
+11:44:13 saveConfig: auto-save-60s
+11:44:13 Saving config file
+11:45:13 saveConfig: auto-save-60s
+11:45:13 Saving config file
+11:46:13 saveConfig: auto-save-60s
+11:46:13 Saving config file
+11:47:13 saveConfig: auto-save-60s
+11:47:13 Saving config file
+11:48:13 saveConfig: auto-save-60s
+11:48:13 Saving config file
+11:49:13 saveConfig: auto-save-60s
+11:49:13 Saving config file
+11:50:13 saveConfig: auto-save-60s
+11:50:13 Saving config file
+11:51:13 saveConfig: auto-save-60s
+11:51:13 Saving config file
+11:52:13 saveConfig: auto-save-60s
+11:52:13 Saving config file
+11:53:13 saveConfig: auto-save-60s
+11:53:13 Saving config file
+11:54:13 saveConfig: auto-save-60s
+11:54:13 Saving config file
+11:55:13 saveConfig: auto-save-60s
+11:55:13 Saving config file
+11:56:13 saveConfig: auto-save-60s
+11:56:13 Saving config file
+11:57:13 saveConfig: auto-save-60s
+11:57:13 Saving config file
+11:58:13 saveConfig: auto-save-60s
+11:58:13 Saving config file
+11:59:13 saveConfig: auto-save-60s
+11:59:13 Saving config file
+12:00:13 saveConfig: auto-save-60s
+12:00:13 Saving config file
+12:01:13 saveConfig: auto-save-60s
+12:01:13 Saving config file
+12:02:13 saveConfig: auto-save-60s
+12:02:13 Saving config file
+12:03:13 saveConfig: auto-save-60s
+12:03:13 Saving config file
+12:04:13 saveConfig: auto-save-60s
+12:04:13 Saving config file
+12:05:13 saveConfig: auto-save-60s
+12:05:13 Saving config file
+12:06:13 saveConfig: auto-save-60s
+12:06:13 Saving config file
+12:07:13 saveConfig: auto-save-60s
+12:07:13 Saving config file
+12:08:13 saveConfig: auto-save-60s
+12:08:13 Saving config file
+12:09:13 saveConfig: auto-save-60s
+12:09:13 Saving config file
+12:10:13 saveConfig: auto-save-60s
+12:10:13 Saving config file
+12:11:13 saveConfig: auto-save-60s
+12:11:13 Saving config file
+12:12:13 saveConfig: auto-save-60s
+12:12:13 Saving config file
+12:13:13 saveConfig: auto-save-60s
+12:13:13 Saving config file
+12:14:13 saveConfig: auto-save-60s
+12:14:13 Saving config file
+12:15:13 saveConfig: auto-save-60s
+12:15:13 Saving config file
+12:16:13 saveConfig: auto-save-60s
+12:16:13 Saving config file
+12:17:13 saveConfig: auto-save-60s
+12:17:13 Saving config file
+12:18:13 saveConfig: auto-save-60s
+12:18:13 Saving config file
+12:19:13 saveConfig: auto-save-60s
+12:19:13 Saving config file
+12:20:13 saveConfig: auto-save-60s
+12:20:13 Saving config file
+12:21:13 saveConfig: auto-save-60s
+12:21:13 Saving config file
+12:22:13 saveConfig: auto-save-60s
+12:22:13 Saving config file
+12:23:13 saveConfig: auto-save-60s
+12:23:13 Saving config file
+12:24:13 saveConfig: auto-save-60s
+12:24:13 Saving config file
+12:25:13 saveConfig: auto-save-60s
+12:25:13 Saving config file
+12:26:13 saveConfig: auto-save-60s
+12:26:13 Saving config file
+12:27:13 saveConfig: auto-save-60s
+12:27:13 Saving config file
+12:28:13 saveConfig: auto-save-60s
+12:28:13 Saving config file
+12:29:13 saveConfig: auto-save-60s
+12:29:13 Saving config file
+12:30:13 saveConfig: auto-save-60s
+12:30:13 Saving config file
+12:31:13 saveConfig: auto-save-60s
+12:31:13 Saving config file
+12:32:13 saveConfig: auto-save-60s
+12:32:13 Saving config file
+12:33:13 saveConfig: auto-save-60s
+12:33:13 Saving config file
+12:34:13 saveConfig: auto-save-60s
+12:34:13 Saving config file
+12:35:13 saveConfig: auto-save-60s
+12:35:13 Saving config file
+12:36:13 saveConfig: auto-save-60s
+12:36:13 Saving config file
+12:37:13 saveConfig: auto-save-60s
+12:37:13 Saving config file
+12:38:13 saveConfig: auto-save-60s
+12:38:13 Saving config file
+12:39:13 saveConfig: auto-save-60s
+12:39:13 Saving config file
+12:40:13 saveConfig: auto-save-60s
+12:40:13 Saving config file
+12:41:13 saveConfig: auto-save-60s
+12:41:13 Saving config file
+12:42:13 saveConfig: auto-save-60s
+12:42:13 Saving config file
+12:43:13 saveConfig: auto-save-60s
+12:43:13 Saving config file
+12:44:13 saveConfig: auto-save-60s
+12:44:13 Saving config file
+12:44:20 saveConfig: saving-data
+12:44:20 Saving sacks file
+12:45:13 saveConfig: auto-save-60s
+12:45:13 Saving config file
+12:46:13 saveConfig: auto-save-60s
+12:46:13 Saving config file
+12:47:13 saveConfig: auto-save-60s
+12:47:13 Saving config file
+12:48:13 saveConfig: auto-save-60s
+12:48:13 Saving config file
+12:49:13 saveConfig: auto-save-60s
+12:49:13 Saving config file
+12:50:13 saveConfig: auto-save-60s
+12:50:13 Saving config file
+12:51:13 saveConfig: auto-save-60s
+12:51:13 Saving config file
+12:51:54 saveConfig: shutdown-hook
+12:51:54 Saving config file

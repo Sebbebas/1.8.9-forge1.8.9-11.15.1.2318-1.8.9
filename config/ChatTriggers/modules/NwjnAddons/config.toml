@@ -1,0 +1,114 @@
+
+[general]
+	rend_arrows = false
+	waypoint_color = "255,255,0,255"
+	detect_reaper_armor = false
+	skyblock_xp_gain_message = false
+	"➤_leader_commands" = false
+	treecap_timer = false
+	chat_type_waypoint_rendering = 0
+	stops_entity_death_animation = false
+	draw_chat_waypoints = 0
+	waypoint_beacon_height = 150
+	party_commands = false
+
+[hud]
+	draw_with_shadow = false
+
+	[hud.legion]
+		legion_display = false
+
+	[hud.widget]
+		frozen_corpse_widget = false
+		custom_widget_text = ""
+		trophy_fish_widget = false
+		pet_widget = false
+		stats_widget = false
+		widget_display = false
+		pest_widget = false
+		commission_widget = false
+		crop_milestone_widget = false
+		custom_widget = false
+		visitor_widget = false
+		jacob_widget = false
+		bestiary_widget = false
+		powder_widget = false
+
+	[hud.mana]
+		mana_enchant_calc = false
+		endstone_sword_party_notify = false
+		cumulative_fero_mana = 0
+		endstone_sword_mana_drain_range = false
+		cumulative_strong_mana = 0
+
+	[hud.poison]
+		poison_display = false
+
+	[hud.blaze]
+		blaze_display = false
+
+	[hud.fatal_tempo]
+		"➤_fatal_tempo_show_time_left" = true
+		"➤_fatal_tempo_show_title" = true
+		"➤_fatal_tempo_settings" = 0
+		"➤_fatal_tempo_show_percent" = true
+		fatal_tempo_display = false
+
+	[hud.clock]
+		clock_display = false
+
+	[hud.miniboss]
+		miniboss_display = false
+
+	[hud.champion]
+		champion_display = false
+
+	[hud.gyro]
+		gyro_display = false
+		mage_gyro = false
+
+[bestiary]
+	player_highlight_color = "255,255,0,255"
+	armor_stand_highlight_color = "255,0,255,0"
+	mob_highlight = ""
+	matcho = false
+	armor_stand_names_highlight = ""
+	arachnes_keeper = false
+	player_highlight = ""
+	mob_highlight_color = "255,255,255,0"
+
+[crimson_isle]
+	announce_vanquishers = false
+	trophy_fish_session_counter = false
+	announce_jawbus = false
+	announce_plhlegblasts = false
+	announce_thunder = false
+	better_magma_boss_message = false
+
+[mining]
+	mineshaft_pity = false
+	mineshaft_waypoints = false
+
+[utilities]
+	dev_commands = false
+	damage_tracker = false
+
+["beta_(wip)"]
+	gyro_range = false
+	agro_range_color = "255,255,0,0"
+	totem_range = false
+	gyro_color_opacity = 0.5
+	agro_range = false
+	agro_color_opacity = 0.5
+	totem_color_opacity = 0.25
+	totem_range_options = 0
+	gyro_range_color = "255,255,0,255"
+	totem_range_color = "255,0,255,255"
+
+[qol]
+	toggle_block_highlight = false
+	remove_npc_dialouge_on_garden = false
+	remove_boss_dialouge = false
+	remove_discord_warnings = false
+	highlight_color = "255,255,0,255"
+

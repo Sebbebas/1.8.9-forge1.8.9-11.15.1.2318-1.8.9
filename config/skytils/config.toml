@@ -21,7 +21,7 @@
 		config_button_on_pause = true
 		reopen_options_menu = true
 		first_launch = false
-		last_launched_skytils_version = "1.10.0-pre9"
+		last_launched_skytils_version = "1.10.3"
 
 	[general.reparty]
 		override_other_reparty_commands = false
@@ -100,7 +100,7 @@
 		show_gemstones = false
 		highlight_filled_bazaar_orders = false
 		show_dungeon_floor_as_stack_size = false
-		show_head_floor_number = false
+		show_head_floor_number = true
 		book_helper = false
 		show_item_star_count = false
 		hide_midas_staff_gold = false
@@ -223,6 +223,7 @@
 	[slayer.general]
 		use_hits_to_detect_slayer = true
 		carry_mode = 0
+		use_nametag_to_detect_slayer = false
 
 	[slayer.inferno_demonlord]
 		totem_ping = 0
@@ -409,6 +410,7 @@
 		teleport_maze_solver_color = "200,255,0,0"
 		line_to_next_blaze = true
 		line_to_next_blaze_color = "200,255,255,0"
+		three_weirdos_solver_color = "255,255,0,0"
 		trivia_solver = true
 		highest_blaze_color = "200,0,255,0"
 		blaze_solver = true
@@ -421,6 +423,7 @@
 		creeper_beams_solver = true
 		three_weirdos_solver = true
 		tic_tac_toe_solver_color = "204,23,234,99"
+		boulder_solver_color = "255,255,0,0"
 
 [farming]
 

@@ -1,0 +1,205 @@
+{
+    "first_time": false,
+    "version": "0.11.5",
+    "power": "Bloody",
+    "tuning": "21⚔",
+    "enrich": "Unknown",
+    "mp": "712",
+    "pet": "&6Scatha",
+    "gummy": 0,
+    "wisp": 0,
+    "mobsHighlight": {},
+    "standList": [
+        ""
+    ],
+    "playerList": [
+        ""
+    ],
+    "lastMini": [
+        "&4Magma Boss",
+        "&8Bladesoul",
+        "&8Bladesoul",
+        "&5Mage Outlaw"
+    ],
+    "flare": {
+        "kills": 0,
+        "xp": 0,
+        "vanqs": 0
+    },
+    "ftL": [
+        80,
+        250,
+        1,
+        false,
+        false,
+        false
+    ],
+    "champL": [
+        150,
+        150,
+        1,
+        false,
+        false,
+        false
+    ],
+    "poisonL": [
+        300,
+        300,
+        1,
+        false,
+        false,
+        false
+    ],
+    "blazeL": [
+        90,
+        300,
+        1,
+        false,
+        false,
+        false
+    ],
+    "clockL": [
+        10,
+        350,
+        1,
+        false,
+        false,
+        false
+    ],
+    "miniL": [
+        125,
+        125,
+        1,
+        false,
+        false,
+        false
+    ],
+    "legionL": [
+        50,
+        50,
+        1,
+        false,
+        false,
+        false
+    ],
+    "gyroL": [
+        280,
+        110,
+        1,
+        false,
+        false,
+        false
+    ],
+    "manaL": [
+        100,
+        100,
+        1,
+        false,
+        false,
+        false
+    ],
+    "pityL": [
+        220,
+        120,
+        1,
+        false,
+        false,
+        false
+    ],
+    "statsL": [
+        15,
+        250,
+        1,
+        false,
+        false,
+        false
+    ],
+    "petL": [
+        15,
+        250,
+        1,
+        false,
+        false,
+        false
+    ],
+    "bestiaryL": [
+        15,
+        250,
+        1,
+        false,
+        false,
+        false
+    ],
+    "cropL": [
+        15,
+        250,
+        1,
+        false,
+        false,
+        false
+    ],
+    "pestL": [
+        15,
+        250,
+        1,
+        false,
+        false,
+        false
+    ],
+    "visitorL": [
+        15,
+        250,
+        1,
+        false,
+        false,
+        false
+    ],
+    "contestL": [
+        15,
+        250,
+        1,
+        false,
+        false,
+        false
+    ],
+    "commL": [
+        15,
+        250,
+        1,
+        false,
+        false,
+        false
+    ],
+    "powderL": [
+        15,
+        250,
+        1,
+        false,
+        false,
+        false
+    ],
+    "trophyL": [
+        15,
+        250,
+        1,
+        false,
+        false,
+        false
+    ],
+    "corpseL": [
+        15,
+        250,
+        1,
+        false,
+        false,
+        false
+    ],
+    "customL": [
+        15,
+        250,
+        1,
+        false,
+        false,
+        false
+    ]
+}

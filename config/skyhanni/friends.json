@@ -43,6 +43,42 @@
           "bestFriend": false
         }
       }
+    },
+    "da016e25-746b-4239-b731-d8c59c283260": {
+      "friends": {
+        "864d70a0-4b56-4098-8f42-8cd98d9c9306": {
+          "name": "Blackposo",
+          "bestFriend": false
+        },
+        "c9bb2352-1cc5-4f43-8f18-d96a579562f4": {
+          "name": "_YaCeQ_",
+          "bestFriend": false
+        },
+        "4864f5dc-4cac-404a-bc5a-a048fa3f1d9e": {
+          "name": "BorgerManIsComin",
+          "bestFriend": false
+        },
+        "89bc9554-f5db-41e5-a21e-64b4bcd23f69": {
+          "name": "Ebharing",
+          "bestFriend": false
+        },
+        "3cc3e8ca-7c1e-4d0e-9f98-d98ae85275bc": {
+          "name": "Ecksboxboy",
+          "bestFriend": false
+        },
+        "aa6e0538-a08c-4ab4-8612-10c43d0b51f5": {
+          "name": "FastSnail11",
+          "bestFriend": false
+        },
+        "19bcc815-3090-42f0-b315-6d3048626f99": {
+          "name": "Legohjalten",
+          "bestFriend": false
+        },
+        "edc0df5d-5728-46ee-9685-1738868f4d03": {
+          "name": "miningcolorado",
+          "bestFriend": false
+        }
+      }
     }
   }
 }

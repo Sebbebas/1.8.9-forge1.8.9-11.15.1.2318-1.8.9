@@ -20,7 +20,7 @@ visible_default:true
 visible_hiddenGui:true
 visible_debug:true
 visible_spectator:true
-visible_thirdPerson:true
+visible_thirdPerson:false
 outline:false
 outlineColour_red:0
 outlineColour_green:0

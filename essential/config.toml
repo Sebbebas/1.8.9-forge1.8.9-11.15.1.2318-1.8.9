@@ -48,7 +48,7 @@
 	[notifications.general]
 		disable_all_notifications = false
 		host_world_ip_warning = true
-		update_notifications = true
+		update_notifications = false
 		screenshot_toast_duration = 1
 		message_sound = true
 		online_friend_alert = true
@@ -70,8 +70,8 @@
 		enlarge_chat_metadata = false
 
 	[quality_of_life.discord_integration]
-		show_username_and_avatar = true
-		set_activity_status_on_discord = true
+		show_username_and_avatar = false
+		set_activity_status_on_discord = false
 		allow_ask_to_join = false
 		show_current_server = false
 

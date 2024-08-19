@@ -429,7 +429,9 @@
     "winter": [],
     "mining_3": [],
     "mining_1": [],
-    "combat_1": [],
+    "combat_1": [
+      12
+    ],
     "mining_2": []
   },
   "strawberry": {

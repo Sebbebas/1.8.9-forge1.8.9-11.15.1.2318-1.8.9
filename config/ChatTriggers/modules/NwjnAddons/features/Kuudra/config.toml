@@ -1,0 +1,45 @@
+
+[phase_2]
+
+	[phase_2.renderings]
+		unfinished_pile_beacons = true
+		show_pile_progress_through_mobs = true
+		fresh_timer = true
+		cumulative_build_percentage = true
+		ballista_builders = true
+
+	[phase_2.chats]
+		notify_party_on_fresh = true
+
+[general]
+
+	[general.team_highlight]
+		team_highlight = true
+		"➤_team_color" = "255,255,0,255"
+
+	[general.show_on_kuudra]
+		"draws_kuudra's_hp" = true
+		"draws_kuudra's_hitbox" = true
+
+	[general.player_view_qol]
+		unrender_useless_perks = true
+
+[phase_3]
+
+	[phase_3.renderings]
+		"draws_kuudra's_hitbox" = true
+
+[phase_1]
+
+	[phase_1.renderings]
+		supply_beacons = true
+		pearl_lineups = true
+		supply_drop_beacons = true
+
+	[phase_1.chats]
+		no_supply_chat = true
+		custom_supply_drop_message = true
+
+[phase_4]
+	upcoming = "New features will be added here soon"
+

@@ -14,7 +14,7 @@ difficulty:3
 fancyGraphics:true
 ao:0
 renderClouds:false
-resourcePacks:["§bCland§7estine [§b16x§7] §bAqua.zip","Default-Dark-Mode Copy","!               §6Sky v1.zip"]
+resourcePacks:["§bCland§7estine [§b16x§7] §bAqua.zip","!    ?frefrost ?8[?f16x?8].zip","Default-Dark-Mode Copy","!               §6Sky v1.zip"]
 incompatibleResourcePacks:[]
 lastServer:
 lang:en_us
@@ -61,7 +61,7 @@ key_key.use:-99
 key_key.forward:17
 key_key.left:30
 key_key.back:31
-key_key.right:205
+key_key.right:32
 key_key.jump:57
 key_key.sneak:42
 key_key.sprint:29
@@ -140,7 +140,7 @@ key_Copy NBT:157
 key_Toggle Sprint:28
 key_Warp to nearest location to burrial guess:0
 key_Choose the nearest eman boss as your boss.:0
-soundCategory_master:0.15231788
+soundCategory_master:0.029801324
 soundCategory_music:0.0
 soundCategory_record:0.5
 soundCategory_weather:0.5070422

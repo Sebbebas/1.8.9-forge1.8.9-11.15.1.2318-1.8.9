@@ -1,23 +1,23 @@
 {
-    "dug": 474,
+    "dug": 773,
     "items": {
         "ANTIQUE_REMEDIES": 1,
         "ENCHANTED_BOOK-ULTIMATE_CHIMERA-1": 0,
-        "COINS": 1814000,
-        "CROCHET_TIGER_PLUSHIE": 1,
-        "CROWN_OF_GREED": 0,
-        "DAEDALUS_STICK": 1,
-        "DWARF_TURTLE_SHELMET": 5,
-        "GRIFFIN_FEATHER": 102,
+        "COINS": 3219000,
+        "CROCHET_TIGER_PLUSHIE": 3,
+        "CROWN_OF_GREED": 1,
+        "DAEDALUS_STICK": 3,
+        "DWARF_TURTLE_SHELMET": 7,
+        "GRIFFIN_FEATHER": 152,
         "MINOS_RELIC": 0,
         "WASHED_UP_SOUVENIR": 0
     },
     "mobs": {
-        "GAIA_CONSTRUCT": 46,
-        "MINOS_CHAMPION": 31,
-        "MINOS_HUNTER": 34,
-        "MINOS_INQUISITOR": 1,
-        "MINOTAUR": 53,
-        "SIAMESE_LYNXES": 43
+        "GAIA_CONSTRUCT": 81,
+        "MINOS_CHAMPION": 56,
+        "MINOS_HUNTER": 57,
+        "MINOS_INQUISITOR": 2,
+        "MINOTAUR": 87,
+        "SIAMESE_LYNXES": 65
     }
 }

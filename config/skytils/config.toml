@@ -328,11 +328,11 @@
 		click_in_order_solver = true
 		starts_with_sequence_solver = true
 		shoot_the_target_solver = true
-		item_frame_alignment_solver = true
+		item_frame_alignment_solver = false
 		select_all_colors_solver = true
 		click_in_order_second_color = "255,65,102,245"
 		block_incorrect_terminal_clicks = false
-		simon_says_solver = true
+		simon_says_solver = false
 
 	[dungeons.score_calculation]
 		300_title_message = "300"
@@ -375,7 +375,7 @@
 		blood_camp_helper_color = "255,255,0,0"
 		hide_wither_king_dragon_death = false
 		"show_wither_king's_dragons'_hp" = false
-		"show_necron's_hp" = 0
+		"show_necron's_hp" = 1
 		"retexture_wither_king's_dragons" = false
 		box_starred_mobs = true
 		hide_dying_mobs = false
@@ -391,11 +391,11 @@
 		spirit_pet_warning = false
 		"show_wither_king's_dragons'_spawn_timer" = false
 		box_spirit_bear = true
-		box_skeleton_masters = true
+		box_skeleton_masters = false
 		dungeon_chest_reroll_protection_threshold = 0
 		show_guardian_respawn_timer = false
 		hide_archer_bone_passive = false
-		ghost_leap_names = true
+		ghost_leap_names = false
 		"show_wither_king's_dragons'_color_as_text" = false
 		wither_king_dragon_dimensional_slash_alert = false
 		hide_oruo_messages = false

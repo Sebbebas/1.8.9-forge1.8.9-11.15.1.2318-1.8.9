@@ -1,0 +1,141 @@
+---- Minecraft Crash Report ----
+
+WARNING: coremods are present:
+  FMLLoadingPlugin (Scrollable Tooltips-1.4 (1.8.9).jar)
+  FMLLoadingPlugin (ModCore_Container-1.0.jar)
+  Skytils On Top (Skytils-1.10.3.jar)
+  AsmHelperLoadingPlugin (ctjs-2.2.1-1.8.9.jar)
+  MixinLoader (multibind-1.0.0.jar)
+  ModTweaker (Patcher-1.8.9 (1.8.9).jar)
+  LoadingPlugin (Block_Overlay_4.0.3.jar)
+  SkyblockAddonsLoadingPlugin (SkyblockAddons-1.7.3+7380-for-MC-1.8.9.jar)
+  PlayerAPIPlugin (PlayerAPI-1.8.9-1.0.jar)
+  PatcherTweaker (Patcher-1.8.9 (1.8.9).jar)
+  FMLLoadingPlugin (OofMod-3.0 (1.8.9).jar)
+Contact their authors BEFORE contacting forge
+
+// My bad.
+
+Time: 2024-08-26 17:02
+Description: Exception in server tick loop
+
+java.lang.RuntimeException: No OpenGL context found in the current thread.
+	at org.lwjgl.opengl.GLContext.getCapabilities(GLContext.java:124)
+	at org.lwjgl.opengl.GL30.glBindFramebuffer(GL30.java:1122)
+	at net.minecraft.client.renderer.OpenGlHelper.glBindFramebuffer(OpenGlHelper.java:658)
+	at net.minecraft.client.shader.Framebuffer.bindFramebuffer(Framebuffer.java:203)
+	at net.minecraft.client.shader.Framebuffer.framebufferClear(Framebuffer.java:279)
+	at mrfast.sbf.utils.EntityOutlineRenderer.onWorldChange(EntityOutlineRenderer.java:51)
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_2537_EntityOutlineRenderer_onWorldChange_Load.invoke(.dynamic)
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:49)
+	at net.minecraftforge.fml.common.eventhandler.EventBus.post(EventBus.java:140)
+	at sun.reflect.GeneratedMethodAccessor66.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at Reflector.call(Reflector.java:816)
+	at Reflector.postForgeBusEvent(Reflector.java:1043)
+	at Reflector.postForgeBusEvent(Reflector.java:1029)
+	at net.minecraft.server.integrated.IntegratedServer.loadAllWorlds(IntegratedServer.java:107)
+	at net.minecraft.server.integrated.IntegratedServer.startServer(IntegratedServer.java:206)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:441)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- System Details --
+Details:
+	Game Directory: \AppData\Roaming\.minecraft\versions\1.8.9-forge1.8.9-11.15.1.2318-1.8.9
+	ChatTriggers modules: [Module{name=axios,version=1.0.9}, Module{name=BeaconBeam,version=1.0.1}, Module{name=BetterMap,version=1.0.18}, Module{name=Bloom,version=4.8.4}, Module{name=BloomCore,version=0.4.15}, Module{name=Coleweight,version=1.13.5}, Module{name=DeepProxy,version=2.0.0}, Module{name=DungeonUtilities,version=0.9.9}, Module{name=Elementa,version=1.5.2}, Module{name=guimanager,version=0.1.7}, Module{name=NwjnAddons,version=0.11.5}, Module{name=PersistentData,version=1.1.3}, Module{name=PogData,version=1.0.3}, Module{name=PromiseV2,version=1.0.4}, Module{name=RenderLib,version=0.4.0}, Module{name=requestV2,version=2.1.1}, Module{name=SettingsManager,version=1.2.2}, Module{name=soopyAddonsData,version=0.0.1}, Module{name=soopyApis,version=0.1.17}, Module{name=SoopyV2,version=2.1.202}, Module{name=Vigilance,version=1.3.2}]
+	Minecraft Version: 1.8.9
+	Operating System: Windows 10 (amd64) version 10.0
+	CPU: 6x Intel(R) Core(TM) i5-9400F CPU @ 2.90GHz
+	Java Version: 1.8.0_51, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 3120713368 bytes (2976 MB) / 4932501504 bytes (4704 MB) up to 6442450944 bytes (6144 MB)
+	JVM Flags: 8 total; -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump -Xmx6G -XX:+UnlockExperimentalVMOptions -XX:+UseG1GC -XX:G1NewSizePercent=20 -XX:G1ReservePercent=20 -XX:MaxGCPauseMillis=50 -XX:G1HeapRegionSize=32M
+	IntCache: cache: 0, tcache: 0, allocated: 13, tallocated: 95
+	FML: MCP 9.19 Powered by Forge 11.15.1.2318 Optifine OptiFine_1.8.9_HD_U_I7 34 mods loaded, 34 mods active
+	States: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored
+
+	| State   | ID                    | Version        | Source                                     |
+	| ------- | --------------------- | -------------- | ------------------------------------------ |
+	| UCHIJAA | mcp                   | 9.19           | minecraft.jar                              |
+	| UCHIJAA | FML                   | 8.0.99.99      | forge-1.8.9-11.15.1.2318-1.8.9.jar         |
+	| UCHIJAA | Forge                 | 11.15.1.2318   | forge-1.8.9-11.15.1.2318-1.8.9.jar         |
+	| UCHIJAA | refractionoof         | 3.0            | minecraft.jar                              |
+	| UCHIJAA | PlayerAPI             | 1.0            | minecraft.jar                              |
+	| UCHIJAA | essential             | 1.0.0          | Essential (forge_1.8.9).processed.jar      |
+	| UCHIJAA | autotip               | 3.0.1          | Autotip-3.0.1 [1.8-1.12.2].jar             |
+	| UCHIJAA | multibind             | 1.0.0          | multibind-1.0.0.jar                        |
+	| UCHIJAA | oneconfig             | 0.2.2-alpha213 | OneConfig (1.8.9-forge).jar                |
+	| UCHIJAA | modcore               | 0.1.51         | Sk1er Modcore-0.1.51 (1.8.9).jar           |
+	| UCHIJAA | hypixel_mod_api       | 1.0.1.1        | HypixelModAPI-1.0.1.1.jar                  |
+	| UCHIJAA | customcrosshairmod    | 0.5.1-Forge    | [1.8.9] Crosshairmod-v0.5.1.jar            |
+	| UCHIJAA | sidebarmod            | 2.0            | [1.8.9] Sidebar Mod Revamp.jar             |
+	| UCHIJAA | ArmorHud              | 1.0.0          | ArmorHud-1.8.9-1.0.0.jar                   |
+	| UCHIJAA | autogg                | 4.1.3          | AutoGG-4.1.3 (1.8.9).jar                   |
+	| UCHIJAA | AutoWho               | 1.0            | AutoWho-1.0.jar                            |
+	| UCHIJAA | blockoverlay          | 4.0.3          | Block_Overlay_4.0.3.jar                    |
+	| UCHIJAA | chatting              | 1.5.3          | Chatting-1.8.9-forge-1.5.3.jar             |
+	| UCHIJAA | cowlection            | 1.8.9-0.16.0   | Cowlection-1.8.9-0.16.0.jar                |
+	| UCHIJAA | chattriggers          | 2.2.1          | ctjs-2.2.1-1.8.9.jar                       |
+	| UCHIJAA | dulkirmod             | 1.2.8          | DulkirMod-1.2.8.jar                        |
+	| UCHIJAA | dungeonrooms          | 3.4.1          | Dungeon_Rooms-3.4.1.jar                    |
+	| UCHIJAA | Danker's Skyblock Mod | 2.3.1          | MC.1.8.9.Danker.s.Skyblock.Mod.-.2.3.1.jar |
+	| UCHIJAA | modcore_example_mod   | 1.0            | ModCore_Container-1.0.jar                  |
+	| UCHIJAA | notenoughupdates      | 2.3.3          | NotEnoughUpdates-2.3.3.jar                 |
+	| UCHIJAA | patcher               | 1.8.9          | Patcher-1.8.9 (1.8.9).jar                  |
+	| UCHIJAA | scathapro             | 1.2.3.1        | Scatha-Pro v1.2.3.1.jar                    |
+	| UCHIJAA | text_overflow_scroll  | 1.4.0          | Scrollable Tooltips-1.4 (1.8.9).jar        |
+	| UCHIJAA | skyblockaddons        | 1.7.3          | SkyblockAddons-1.7.3+7380-for-MC-1.8.9.jar |
+	| UCHIJAA | skyblockfeatures      | 1.2.9          | skyblockfeatures-1.2.9.jar                 |
+	| UCHIJAA | skyhanni              | 0.27.Beta.2    | SkyHanni-0.27.Beta.2.jar                   |
+	| UCHIJAA | skytils               | 1.10.3         | Skytils-1.10.3.jar                         |
+	| UCHIJAA | soopyv2forge          | 1.1            | soopyv2forge-1.1.jar                       |
+	| UCHIJAA | publictogglechat      | 2.1.0          | ToggleChat-2.1.0-SNAPSHOT.jar              |
+
+	Loaded coremods (and transformers): 
+FMLLoadingPlugin (Scrollable Tooltips-1.4 (1.8.9).jar)
+  club.sk1er.mods.scrollabletooltips.forge.ClassTransformer
+FMLLoadingPlugin (ModCore_Container-1.0.jar)
+  club.sk1er.mods.core.forge.ClassTransformer
+Skytils On Top (Skytils-1.10.3.jar)
+  gg.skytils.skytilsmod.asm.SkytilsTransformer
+AsmHelperLoadingPlugin (ctjs-2.2.1-1.8.9.jar)
+  com.chattriggers.ctjs.launch.plugin.CTJSTransformer
+MixinLoader (multibind-1.0.0.jar)
+  
+ModTweaker (Patcher-1.8.9 (1.8.9).jar)
+  club.sk1er.patcher.tweaker.other.ModClassTransformer
+LoadingPlugin (Block_Overlay_4.0.3.jar)
+  me.aycy.blockoverlay.asm.Transformer
+SkyblockAddonsLoadingPlugin (SkyblockAddons-1.7.3+7380-for-MC-1.8.9.jar)
+  codes.biscuit.skyblockaddons.tweaker.SkyblockAddonsTransformer
+PlayerAPIPlugin (PlayerAPI-1.8.9-1.0.jar)
+  api.player.forge.PlayerAPITransformer
+PatcherTweaker (Patcher-1.8.9 (1.8.9).jar)
+  club.sk1er.patcher.tweaker.ClassTransformer
+FMLLoadingPlugin (OofMod-3.0 (1.8.9).jar)
+  us.nickfraction.oofmod.asm.EntityPlayerTransformer
+  us.nickfraction.oofmod.asm.EntityArrowTransformer
+  us.nickfraction.oofmod.asm.EntityFishHookTransformer
+  us.nickfraction.oofmod.asm.RenderGlobalTransformer
+	GL info: ~~ERROR~~ RuntimeException: No OpenGL context found in the current thread.
+	Skytils Debug Info: {HasBetterFPS=false, BetterFPS Version=NONE, Disabled Start Checks=false}
+	Profiler Position: N/A (disabled)
+	Player Count: 0 / 8; []
+	Type: Integrated Server (map_client.txt)
+	Is Modded: Definitely; Client brand changed to 'fml,forge'
+	OptiFine Version: OptiFine_1.8.9_HD_U_I7
+	Render Distance Chunks: 12
+	Mipmaps: 4
+	Anisotropic Filtering: 1
+	Antialiasing: 0
+	Multitexture: false
+	Shaders: null
+	OpenGlVersion: 4.6.0 NVIDIA 551.23
+	OpenGlRenderer: NVIDIA GeForce GTX 1660/PCIe/SSE2
+	OpenGlVendor: NVIDIA Corporation
+	CpuCount: 6

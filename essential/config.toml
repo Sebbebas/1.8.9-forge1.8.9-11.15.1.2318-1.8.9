@@ -61,7 +61,7 @@
 [quality_of_life]
 
 	[quality_of_life.general]
-		auto_refresh_session = true
+		auto_refresh_session = false
 
 	[quality_of_life.fullscreen]
 		windowed_fullscreen = true

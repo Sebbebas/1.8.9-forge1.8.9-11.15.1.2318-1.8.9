@@ -1,0 +1,83 @@
+{
+    "firstTime": false,
+    "notifiedZeroPing": false,
+    "speedDisplay": {
+        "x": 0,
+        "y": 0,
+        "scale": 1
+    },
+    "party": {
+        "x": 0,
+        "y": 0
+    },
+    "crystalPB": 0,
+    "runSplits": {
+        "x": 0,
+        "y": 0
+    },
+    "runOverview": {
+        "x": 0,
+        "y": 0,
+        "scale": 1
+    },
+    "dungeonWarpCooldown": {
+        "x": 0,
+        "y": 0,
+        "scale": 1,
+        "lastWarp": 1724618200541
+    },
+    "chMap": {
+        "x": 0,
+        "y": 0,
+        "scale": 1,
+        "headScale": 1
+    },
+    "bridge": {
+        "regex": null,
+        "lastUpdated": null
+    },
+    "stackTracker": {
+        "x": 0,
+        "y": 0
+    },
+    "toggleSprint": {
+        "x": 0,
+        "y": 0
+    },
+    "rngMeter": {
+        "x": 0,
+        "y": 0,
+        "scale": 1,
+        "data": {}
+    },
+    "terminalTimer": {
+        "colors": 999999,
+        "maze": 999999,
+        "melody": 999999,
+        "numbers": 999999,
+        "redgreen": 999999,
+        "rubix": 999999,
+        "startsWith": 999999
+    },
+    "cellsAlignTimer": {
+        "x": 0,
+        "y": 0,
+        "scale": 1
+    },
+    "dungeonChestProfit": {
+        "x": 0,
+        "y": 0,
+        "scale": 0.5
+    },
+    "itemValueOverlay": {
+        "x": 0,
+        "y": 0,
+        "scale": 1
+    },
+    "wikiType": "official",
+    "betterSplits": {
+        "x": 0,
+        "y": 0,
+        "scale": 1
+    }
+}

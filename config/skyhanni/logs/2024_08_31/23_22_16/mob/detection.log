@@ -1,0 +1,12 @@
+23:34:18 `8824rw4d2m`215 missed {
+ is already Found: false).
+ Position: LorenzVec{x=23.5, y=151.0, z=-87.5}
+ DistanceC: 21.627944583823947
+Relative Position: LorenzVec{x=17.840644055566255, y=1.5, z=-21.627944583823947}
+ }
+00:03:05 `yn8ipq6840`162 missed {
+ is already Found: false).
+ Position: LorenzVec{x=-6.5, y=145.0, z=-18.5}
+ DistanceC: 21.909561832855175
+Relative Position: LorenzVec{x=-17.436765701711735, y=-7.5, z=21.909561832855175}
+ }

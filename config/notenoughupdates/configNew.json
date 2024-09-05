@@ -350,7 +350,7 @@
     "selectedIndex": 0,
     "enableStorageGUI3": true,
     "storageHeight": 320,
-    "displayStyle": 2,
+    "displayStyle": 0,
     "enderchestPreview": true,
     "backpackPreview": true,
     "masonryMode": false,
@@ -612,7 +612,7 @@
     "highlightGlowingMushrooms": false,
     "glowingMushroomColor2": "0:100:138:81:37",
     "enderNodeAccordion": true,
-    "highlightEnderNodes": false,
+    "highlightEnderNodes": true,
     "enderNodeColor2": "0:100:0:255:0",
     "frozenTreasuresAccordion": true,
     "highlightFrozenTreasures": false,
@@ -735,9 +735,9 @@
     "customTodos": [],
     "profileSpecific": {
       "Apple": {
-        "godPotionDuration": 57600000,
+        "godPotionDuration": 50400000,
         "puzzlerCompleted": 1718053869571,
-        "firstCakeAte": 1724524842125,
+        "firstCakeAte": 1724790343549,
         "fetchurCompleted": 0,
         "commissionsCompleted": 0,
         "lastFreeRiftInfusionApplied": 0,
@@ -745,29 +745,29 @@
         "cookieBuffRemaining": 1718801452115,
         "forgeItems": [
           {
-            "itemName": "Refined Diamond",
-            "finishTime": 1724731883230,
+            "itemName": "Refined Mithril",
+            "finishTime": 1725535559725,
             "status": 2,
             "forgeID": 0,
             "fromScoreBoard": false
           },
           {
-            "itemName": "Refined Diamond",
-            "finishTime": 1724731885230,
+            "itemName": "Refined Mithril",
+            "finishTime": 1725535561725,
             "status": 2,
             "forgeID": 1,
             "fromScoreBoard": false
           },
           {
-            "itemName": "Refined Diamond",
-            "finishTime": 1724731890230,
+            "itemName": "Refined Mithril",
+            "finishTime": 1725535563725,
             "status": 2,
             "forgeID": 2,
             "fromScoreBoard": false
           },
           {
-            "itemName": "Refined Diamond",
-            "finishTime": 1724729462724,
+            "itemName": "Refined Mithril",
+            "finishTime": 1725535427289,
             "status": 2,
             "forgeID": 3,
             "fromScoreBoard": true
@@ -802,8 +802,8 @@
           "Amethyst": 2,
           "Topaz": 1
         },
-        "dailyGemstonePowderCompleted": 0,
-        "dailyMithrilPowerCompleted": 1717846248572,
+        "dailyGemstonePowderCompleted": 1724790359503,
+        "dailyMithrilPowerCompleted": 1724790387141,
         "nonUnlockedWarpScrolls": [],
         "dailyHeavyPearlCompleted": 1718456867802,
         "questBoardCompleted": 0,
@@ -909,8 +909,8 @@
         "abiphoneFavouriteContacts": [],
         "abiphoneShowOnlyFavourites": false,
         "hotmTree": {
-          "Efficient Miner": 1,
-          "Daily Powder": 1,
+          "Efficient Miner": 13,
+          "Daily Powder": 47,
           "Titanium Insanium": 1,
           "Mining Fortune": 1,
           "Mining Speed": 1,
@@ -1086,6 +1086,167 @@
         "hasConsumedRiftPrism": false,
         "abiphoneMagicPower": 0
       },
+      "Grapes": {
+        "godPotionDuration": 0,
+        "puzzlerCompleted": 1725201160345,
+        "firstCakeAte": 1725460753819,
+        "fetchurCompleted": 0,
+        "commissionsCompleted": 0,
+        "lastFreeRiftInfusionApplied": 0,
+        "experimentsCompleted": 0,
+        "cookieBuffRemaining": 0,
+        "forgeItems": [
+          {
+            "finishTime": 0,
+            "status": 0,
+            "forgeID": 0,
+            "fromScoreBoard": true
+          },
+          {
+            "finishTime": 0,
+            "status": 0,
+            "forgeID": 1,
+            "fromScoreBoard": true
+          },
+          {
+            "finishTime": 0,
+            "status": 0,
+            "forgeID": 2,
+            "fromScoreBoard": true
+          },
+          {
+            "finishTime": 0,
+            "status": 0,
+            "forgeID": 3,
+            "fromScoreBoard": true
+          },
+          {
+            "finishTime": 0,
+            "status": 0,
+            "forgeID": 4,
+            "fromScoreBoard": true
+          }
+        ],
+        "hotmDesires": {},
+        "commissionMilestone": 0,
+        "automatonParts": {
+          "Electron Transmitter": false,
+          "Robotron Reflector": false,
+          "Superlite Motor": false,
+          "Synthetic Heart": false,
+          "Control Switch": false,
+          "FTX 3070": false
+        },
+        "divanMinesParts": {
+          "Scavenged Lapis Sword": false,
+          "Scavenged Diamond Axe": false,
+          "Scavenged Golden Hammer": false,
+          "Scavenged Emerald Hammer": false
+        },
+        "crystals": {
+          "Amber": 0,
+          "Sapphire": 0,
+          "Jade": 0,
+          "Amethyst": 0,
+          "Topaz": 0
+        },
+        "dailyGemstonePowderCompleted": 0,
+        "dailyMithrilPowerCompleted": 0,
+        "nonUnlockedWarpScrolls": [],
+        "dailyHeavyPearlCompleted": 0,
+        "questBoardCompleted": 0,
+        "dailyShopLimitCompleted": 1725307223486,
+        "savedEquipment": {
+          "19": {
+            "itemid": "minecraft:skull",
+            "displayname": "§5Ender Cloak",
+            "nbttag": "{HideFlags:254,SkullOwner:{Id:\"9b32c16e-e77b-33b9-b0c0-fe3ef3ddf92c\",Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTY1NjUzNzc2NzM4NywKICAicHJvZmlsZUlkIiA6ICIzYWJkYjI5ZDI2MTU0YTAxOWEzZWQ3OGRlMzI4OWUxNCIsCiAgInByb2ZpbGVOYW1lIiA6ICJFcmljSHViZXIiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzc3OGZiNmYyZTY0OWMwYWRhYmY1MWVmNDVjN2NlMzIzZmUxNzU4ZjZkYWM0ZjhjZDEzYWRkMWUyYWYyOWZmNiIKICAgIH0KICB9Cn0\"}]}},display:{Lore:[0:\"§7Health: §a+30\",1:\"§7Defense: §a+20\",2:\"\",3:\"§7All stats on this piece of equipment\",4:\"§7are multiplied by §52x §7while on the End\",5:\"§7Island!\",6:\"\",7:\"§7§8This item can be reforged!\",8:\"§8§l* §8Co-op Soulbound §8§l*\",9:\"§5§lEPIC CLOAK\"],Name:\"§5Ender Cloak\"},ExtraAttributes:{id:\"ENDER_CLOAK\",uuid:\"a9130572-f73b-4ce5-8c51-7ca52f38b848\",timestamp:1725225643485L}}",
+            "damage": 3,
+            "lore": [
+              "§7Health: §a+30",
+              "§7Defense: §a+20",
+              "",
+              "§7All stats on this piece of equipment",
+              "§7are multiplied by §52x §7while on the End",
+              "§7Island!",
+              "",
+              "§7§8This item can be reforged!",
+              "§8§l* §8Co-op Soulbound §8§l*",
+              "§5§lEPIC CLOAK"
+            ],
+            "internalname": "_"
+          },
+          "37": {
+            "itemid": "minecraft:skull",
+            "displayname": "§5Ender Gauntlet",
+            "nbttag": "{HideFlags:254,SkullOwner:{Id:\"bd07d48f-8954-344a-882d-3710a6e055e5\",Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTY1NjUzNzgyMzQ3NCwKICAicHJvZmlsZUlkIiA6ICIyMWUzNjdkNzI1Y2Y0ZTNiYjI2OTJjNGEzMDBhNGRlYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJHZXlzZXJNQyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8yMmI4ODEzZmJkOGEwNDlkMGU0MmE3Nzk5ZjhkYjY5ZGZlZDljZGQ0NGU3MzUwY2FlZWM1ZjAyM2M3MTUxYzJmIgogICAgfQogIH0KfQ\"}]}},display:{Lore:[0:\"§7Health: §a+30\",1:\"§7Defense: §a+20\",2:\"\",3:\"§7All stats on this piece of equipment\",4:\"§7are multiplied by §52x §7while on the End\",5:\"§7Island!\",6:\"\",7:\"§7§8This item can be reforged!\",8:\"§8§l* §8Co-op Soulbound §8§l*\",9:\"§5§lEPIC GLOVES\"],Name:\"§5Ender Gauntlet\"},ExtraAttributes:{id:\"ENDER_GAUNTLET\",uuid:\"0ee62408-9554-4650-85cc-8949e3725633\",timestamp:1725226239703L}}",
+            "damage": 3,
+            "lore": [
+              "§7Health: §a+30",
+              "§7Defense: §a+20",
+              "",
+              "§7All stats on this piece of equipment",
+              "§7are multiplied by §52x §7while on the End",
+              "§7Island!",
+              "",
+              "§7§8This item can be reforged!",
+              "§8§l* §8Co-op Soulbound §8§l*",
+              "§5§lEPIC GLOVES"
+            ],
+            "internalname": "_"
+          },
+          "10": {
+            "itemid": "minecraft:skull",
+            "displayname": "§5Ender Necklace",
+            "nbttag": "{HideFlags:254,SkullOwner:{Id:\"ec2cd15f-06cf-30e2-9ced-397aa0f6fef0\",Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTY1NjUzNzc4NTE1MCwKICAicHJvZmlsZUlkIiA6ICIwODFiZTAxZmZlMmU0ODMyODI3MDIwMjBlNmI1M2ExNyIsCiAgInByb2ZpbGVOYW1lIiA6ICJMeXJpY1BsYXRlMjUyNDIiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzZkYTdiOTU3YjgyMTAzYjE3MTQwZTcxMTc5MTE0NjQ4YTAwMjkxYjA1NjU3YzI3ZDNmOTNkNzI2ZTg3ZTY0MCIKICAgIH0KICB9Cn0\"}]}},display:{Lore:[0:\"§7Health: §a+30\",1:\"§7Defense: §a+20\",2:\"\",3:\"§7All stats on this piece of equipment\",4:\"§7are multiplied by §52x §7while on the End\",5:\"§7Island!\",6:\"\",7:\"§7§8This item can be reforged!\",8:\"§8§l* §8Co-op Soulbound §8§l*\",9:\"§5§lEPIC NECKLACE\"],Name:\"§5Ender Necklace\"},ExtraAttributes:{id:\"ENDER_NECKLACE\",uuid:\"b6e425b9-d391-4628-964f-38ab3b7697f9\",timestamp:1725204503440L}}",
+            "damage": 3,
+            "lore": [
+              "§7Health: §a+30",
+              "§7Defense: §a+20",
+              "",
+              "§7All stats on this piece of equipment",
+              "§7are multiplied by §52x §7while on the End",
+              "§7Island!",
+              "",
+              "§7§8This item can be reforged!",
+              "§8§l* §8Co-op Soulbound §8§l*",
+              "§5§lEPIC NECKLACE"
+            ],
+            "internalname": "_"
+          },
+          "28": {
+            "itemid": "minecraft:skull",
+            "displayname": "§5Ender Belt",
+            "nbttag": "{HideFlags:254,SkullOwner:{Id:\"ab2708bd-f1fa-3fa0-93b2-1e3de2210dfe\",Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTY1NjUzNzgwNDIwNywKICAicHJvZmlsZUlkIiA6ICJlZDUzZGQ4MTRmOWQ0YTNjYjRlYjY1MWRjYmE3N2U2NiIsCiAgInByb2ZpbGVOYW1lIiA6ICI0MTQxNDE0MWgiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjAzMmEwMTY2MjFlMTI2ODcwZmEwMGMyOWM1MWQ5NDJhZmRiYTVhOTRhMjMyN2YyNjRmZTFhOTQwOWU0NTVhZSIKICAgIH0KICB9Cn0\"}]}},display:{Lore:[0:\"§7Health: §a+30\",1:\"§7Defense: §a+20\",2:\"\",3:\"§7All stats on this piece of equipment\",4:\"§7are multiplied by §52x §7while on the End\",5:\"§7Island!\",6:\"\",7:\"§7§8This item can be reforged!\",8:\"§8§l* §8Co-op Soulbound §8§l*\",9:\"§5§lEPIC BELT\"],Name:\"§5Ender Belt\"},ExtraAttributes:{id:\"ENDER_BELT\",uuid:\"2feb3154-f890-4959-9a90-61ed8177b061\",timestamp:1725226318275L}}",
+            "damage": 3,
+            "lore": [
+              "§7Health: §a+30",
+              "§7Defense: §a+20",
+              "",
+              "§7All stats on this piece of equipment",
+              "§7are multiplied by §52x §7while on the End",
+              "§7Island!",
+              "",
+              "§7§8This item can be reforged!",
+              "§8§l* §8Co-op Soulbound §8§l*",
+              "§5§lEPIC BELT"
+            ],
+            "internalname": "_"
+          }
+        },
+        "magicalPower": 18,
+        "chestCount": 0,
+        "openedChestCount": 0,
+        "mithrilPowderFound": 0,
+        "gemstonePowderFound": 0,
+        "abiphoneFavouriteContacts": [],
+        "abiphoneShowOnlyFavourites": false,
+        "hotmTree": {
+          "Mining Speed": 7
+        },
+        "hasConsumedRiftPrism": false,
+        "abiphoneMagicPower": 0
+      },
       "Strawberry": {
         "godPotionDuration": 0,
         "puzzlerCompleted": 1717539767176,
@@ -1247,6 +1408,134 @@
           "Titanium Insanium": 10,
           "Daily Powder": 10
         },
+        "hasConsumedRiftPrism": false,
+        "abiphoneMagicPower": 0
+      },
+      "Raspberry": {
+        "godPotionDuration": 0,
+        "puzzlerCompleted": 0,
+        "firstCakeAte": 0,
+        "fetchurCompleted": 0,
+        "commissionsCompleted": 0,
+        "lastFreeRiftInfusionApplied": 0,
+        "experimentsCompleted": 0,
+        "cookieBuffRemaining": 0,
+        "forgeItems": [],
+        "hotmDesires": {},
+        "commissionMilestone": 0,
+        "automatonParts": {
+          "Electron Transmitter": false,
+          "Robotron Reflector": false,
+          "Superlite Motor": false,
+          "Synthetic Heart": false,
+          "Control Switch": false,
+          "FTX 3070": false
+        },
+        "divanMinesParts": {
+          "Scavenged Lapis Sword": false,
+          "Scavenged Diamond Axe": false,
+          "Scavenged Golden Hammer": false,
+          "Scavenged Emerald Hammer": false
+        },
+        "crystals": {
+          "Amber": 0,
+          "Sapphire": 0,
+          "Jade": 0,
+          "Amethyst": 0,
+          "Topaz": 0
+        },
+        "dailyGemstonePowderCompleted": 0,
+        "dailyMithrilPowerCompleted": 0,
+        "nonUnlockedWarpScrolls": [],
+        "dailyHeavyPearlCompleted": 0,
+        "questBoardCompleted": 0,
+        "dailyShopLimitCompleted": 0,
+        "savedEquipment": {
+          "19": {
+            "itemid": "minecraft:skull",
+            "displayname": "§5Ender Cloak",
+            "nbttag": "{HideFlags:254,SkullOwner:{Id:\"9b32c16e-e77b-33b9-b0c0-fe3ef3ddf92c\",Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTY1NjUzNzc2NzM4NywKICAicHJvZmlsZUlkIiA6ICIzYWJkYjI5ZDI2MTU0YTAxOWEzZWQ3OGRlMzI4OWUxNCIsCiAgInByb2ZpbGVOYW1lIiA6ICJFcmljSHViZXIiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzc3OGZiNmYyZTY0OWMwYWRhYmY1MWVmNDVjN2NlMzIzZmUxNzU4ZjZkYWM0ZjhjZDEzYWRkMWUyYWYyOWZmNiIKICAgIH0KICB9Cn0\"}]}},display:{Lore:[0:\"§7Health: §a+15\",1:\"§7Defense: §a+10\",2:\"\",3:\"§7All stats on this piece of equipment\",4:\"§7are multiplied by §52x §7while on the End\",5:\"§7Island!\",6:\"\",7:\"§7§8This item can be reforged!\",8:\"§8§l* §8Co-op Soulbound §8§l*\",9:\"§5§lEPIC CLOAK\"],Name:\"§5Ender Cloak\"},ExtraAttributes:{id:\"ENDER_CLOAK\",uuid:\"d263eaa5-225f-4707-8d66-5bc014df6a7a\",timestamp:\"7/21/23 4:54 PM\"}}",
+            "damage": 3,
+            "lore": [
+              "§7Health: §a+15",
+              "§7Defense: §a+10",
+              "",
+              "§7All stats on this piece of equipment",
+              "§7are multiplied by §52x §7while on the End",
+              "§7Island!",
+              "",
+              "§7§8This item can be reforged!",
+              "§8§l* §8Co-op Soulbound §8§l*",
+              "§5§lEPIC CLOAK"
+            ],
+            "internalname": "_"
+          },
+          "37": {
+            "itemid": "minecraft:skull",
+            "displayname": "§5Ender Gauntlet",
+            "nbttag": "{HideFlags:254,SkullOwner:{Id:\"bd07d48f-8954-344a-882d-3710a6e055e5\",Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTY1NjUzNzgyMzQ3NCwKICAicHJvZmlsZUlkIiA6ICIyMWUzNjdkNzI1Y2Y0ZTNiYjI2OTJjNGEzMDBhNGRlYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJHZXlzZXJNQyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8yMmI4ODEzZmJkOGEwNDlkMGU0MmE3Nzk5ZjhkYjY5ZGZlZDljZGQ0NGU3MzUwY2FlZWM1ZjAyM2M3MTUxYzJmIgogICAgfQogIH0KfQ\"}]}},display:{Lore:[0:\"§7Health: §a+15\",1:\"§7Defense: §a+10\",2:\"\",3:\"§7All stats on this piece of equipment\",4:\"§7are multiplied by §52x §7while on the End\",5:\"§7Island!\",6:\"\",7:\"§7§8This item can be reforged!\",8:\"§8§l* §8Co-op Soulbound §8§l*\",9:\"§5§lEPIC GLOVES\"],Name:\"§5Ender Gauntlet\"},ExtraAttributes:{id:\"ENDER_GAUNTLET\",uuid:\"9e2e2364-ceed-4bd4-866b-1aba52cdb6ad\",donated_museum:1b,timestamp:\"7/18/23 5:22 AM\"}}",
+            "damage": 3,
+            "lore": [
+              "§7Health: §a+15",
+              "§7Defense: §a+10",
+              "",
+              "§7All stats on this piece of equipment",
+              "§7are multiplied by §52x §7while on the End",
+              "§7Island!",
+              "",
+              "§7§8This item can be reforged!",
+              "§8§l* §8Co-op Soulbound §8§l*",
+              "§5§lEPIC GLOVES"
+            ],
+            "internalname": "_"
+          },
+          "10": {
+            "itemid": "minecraft:skull",
+            "displayname": "§5Ender Necklace",
+            "nbttag": "{HideFlags:254,SkullOwner:{Id:\"ec2cd15f-06cf-30e2-9ced-397aa0f6fef0\",Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTY1NjUzNzc4NTE1MCwKICAicHJvZmlsZUlkIiA6ICIwODFiZTAxZmZlMmU0ODMyODI3MDIwMjBlNmI1M2ExNyIsCiAgInByb2ZpbGVOYW1lIiA6ICJMeXJpY1BsYXRlMjUyNDIiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzZkYTdiOTU3YjgyMTAzYjE3MTQwZTcxMTc5MTE0NjQ4YTAwMjkxYjA1NjU3YzI3ZDNmOTNkNzI2ZTg3ZTY0MCIKICAgIH0KICB9Cn0\"}]}},display:{Lore:[0:\"§7Health: §a+15\",1:\"§7Defense: §a+10\",2:\"\",3:\"§7All stats on this piece of equipment\",4:\"§7are multiplied by §52x §7while on the End\",5:\"§7Island!\",6:\"\",7:\"§7§8This item can be reforged!\",8:\"§8§l* §8Co-op Soulbound §8§l*\",9:\"§5§lEPIC NECKLACE\"],Name:\"§5Ender Necklace\"},ExtraAttributes:{id:\"ENDER_NECKLACE\",uuid:\"d7264a13-a8f6-443d-88a6-a6ceeb354478\",timestamp:\"7/21/23 4:42 PM\"}}",
+            "damage": 3,
+            "lore": [
+              "§7Health: §a+15",
+              "§7Defense: §a+10",
+              "",
+              "§7All stats on this piece of equipment",
+              "§7are multiplied by §52x §7while on the End",
+              "§7Island!",
+              "",
+              "§7§8This item can be reforged!",
+              "§8§l* §8Co-op Soulbound §8§l*",
+              "§5§lEPIC NECKLACE"
+            ],
+            "internalname": "_"
+          },
+          "28": {
+            "itemid": "minecraft:skull",
+            "displayname": "§5Ender Belt",
+            "nbttag": "{HideFlags:254,SkullOwner:{Id:\"ab2708bd-f1fa-3fa0-93b2-1e3de2210dfe\",Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTY1NjUzNzgwNDIwNywKICAicHJvZmlsZUlkIiA6ICJlZDUzZGQ4MTRmOWQ0YTNjYjRlYjY1MWRjYmE3N2U2NiIsCiAgInByb2ZpbGVOYW1lIiA6ICI0MTQxNDE0MWgiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjAzMmEwMTY2MjFlMTI2ODcwZmEwMGMyOWM1MWQ5NDJhZmRiYTVhOTRhMjMyN2YyNjRmZTFhOTQwOWU0NTVhZSIKICAgIH0KICB9Cn0\"}]}},display:{Lore:[0:\"§7Health: §a+15\",1:\"§7Defense: §a+10\",2:\"\",3:\"§7All stats on this piece of equipment\",4:\"§7are multiplied by §52x §7while on the End\",5:\"§7Island!\",6:\"\",7:\"§7§8This item can be reforged!\",8:\"§8§l* §8Co-op Soulbound §8§l*\",9:\"§5§lEPIC BELT\"],Name:\"§5Ender Belt\"},ExtraAttributes:{id:\"ENDER_BELT\",uuid:\"437a5bab-070c-4052-989d-b343ece4e45c\",donated_museum:1b,timestamp:\"7/19/23 12:04 PM\"}}",
+            "damage": 3,
+            "lore": [
+              "§7Health: §a+15",
+              "§7Defense: §a+10",
+              "",
+              "§7All stats on this piece of equipment",
+              "§7are multiplied by §52x §7while on the End",
+              "§7Island!",
+              "",
+              "§7§8This item can be reforged!",
+              "§8§l* §8Co-op Soulbound §8§l*",
+              "§5§lEPIC BELT"
+            ],
+            "internalname": "_"
+          }
+        },
+        "magicalPower": 0,
+        "chestCount": 0,
+        "openedChestCount": 0,
+        "mithrilPowderFound": 0,
+        "gemstonePowderFound": 0,
+        "abiphoneFavouriteContacts": [],
+        "abiphoneShowOnlyFavourites": false,
+        "hotmTree": {},
         "hasConsumedRiftPrism": false,
         "abiphoneMagicPower": 0
       },
@@ -1417,55 +1706,59 @@
         "abiphoneMagicPower": 0
       },
       "Banana": {
-        "godPotionDuration": 39600000,
+        "godPotionDuration": 68400000,
         "puzzlerCompleted": 1723931164765,
-        "firstCakeAte": 1724696299063,
+        "firstCakeAte": 1725384292240,
         "fetchurCompleted": 1718038794048,
-        "commissionsCompleted": 1724059681454,
+        "commissionsCompleted": 1725094388098,
         "lastFreeRiftInfusionApplied": 1721916101425,
-        "experimentsCompleted": 1724529461004,
-        "cookieBuffRemaining": 1725029168799,
+        "experimentsCompleted": 1724853726313,
+        "cookieBuffRemaining": 1725439651773,
         "forgeItems": [
           {
-            "itemName": "Refined Titanium",
-            "finishTime": 1724728012302,
+            "itemName": "Refined Mithril",
+            "finishTime": 1725532586152,
             "status": 2,
             "forgeID": 0,
-            "fromScoreBoard": true
+            "fromScoreBoard": false
           },
           {
-            "itemName": "Refined Titanium",
-            "finishTime": 1724728012302,
+            "itemName": "Refined Mithril",
+            "finishTime": 1725532588152,
             "status": 2,
             "forgeID": 1,
-            "fromScoreBoard": true
+            "fromScoreBoard": false
           },
           {
-            "itemName": "Refined Titanium",
-            "finishTime": 1724728012302,
+            "itemName": "Refined Mithril",
+            "finishTime": 1725532590152,
             "status": 2,
             "forgeID": 2,
-            "fromScoreBoard": true
+            "fromScoreBoard": false
           },
           {
-            "itemName": "Refined Titanium",
-            "finishTime": 1724728012302,
+            "itemName": "Refined Mithril",
+            "finishTime": 1725532593152,
             "status": 2,
             "forgeID": 3,
-            "fromScoreBoard": true
+            "fromScoreBoard": false
           },
           {
-            "itemName": "Refined Titanium",
-            "finishTime": 1724728012302,
+            "itemName": "Refined Mithril",
+            "finishTime": 1725531927663,
             "status": 2,
             "forgeID": 4,
             "fromScoreBoard": true
           }
         ],
         "hotmDesires": {
+          "Gemstone": {
+            "name": "§cPowder Buff",
+            "powderRequirement": 224240
+          },
           "Mithril": {
-            "name": "§cQuick Forge",
-            "powderRequirement": 65536
+            "name": "§cEfficient Miner",
+            "powderRequirement": 80329
           }
         },
         "commissionMilestone": 5,
@@ -1490,8 +1783,8 @@
           "Amethyst": 1,
           "Topaz": 0
         },
-        "dailyGemstonePowderCompleted": 1724706319848,
-        "dailyMithrilPowerCompleted": 1724706312461,
+        "dailyGemstonePowderCompleted": 1725482156644,
+        "dailyMithrilPowerCompleted": 1725482148566,
         "nonUnlockedWarpScrolls": [],
         "dailyHeavyPearlCompleted": 1716329324454,
         "questBoardCompleted": 0,
@@ -1499,101 +1792,106 @@
         "savedEquipment": {
           "19": {
             "itemid": "minecraft:skull",
-            "displayname": "§5Strengthened Molten Cloak",
-            "nbttag": "{HideFlags:254,SkullOwner:{Id:\"e7b0b792-7786-3b14-82b0-d04f7b5fbf7c\",Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTY0NzAxNjQzNDExNiwKICAicHJvZmlsZUlkIiA6ICJlZThjNWMzMGY3NWU0N2QxOTBmOTllNjI5NDgyOGZjMSIsCiAgInByb2ZpbGVOYW1lIiA6ICJTcGFya19QaGFudG9tIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzZjMThiYjBmNTJmMjQ2ZWM5YmZmNWYwNTc2MTQ1NmJlMjczZTczMGNkMjc2NTU1ZmQ3NzJiYThjM2ZhMGYxNDQiCiAgICB9CiAgfQp9\"}]}},display:{Lore:[0:\"§7Strength: §c+25 §9(+5)\",1:\"§7Health: §a+30\",2:\"§7Defense: §a+26 §9(+6)\",3:\"§7Speed: §a+5\",4:\"§7Vitality: §a+3\",5:\"\",6:\"§bSpeed I\",7:\"§7Grants §f+5✦ Speed§7.\",8:\"§bVitality I\",9:\"§7Grants §4+3♨ Vitality§7.\",10:\"\",11:\"§6Tiered Bonus: Molten Core (2/4)\",12:\"§7Gain §a5% §7damage resistance while\",13:\"§7fighting §6Kuudra§7.\",14:\"\",15:\"§5§lEPIC CLOAK\"],Name:\"§5Strengthened Molten Cloak\"},ExtraAttributes:{modifier:\"strengthened\",attributes:{mending:1,speed:1},id:\"MOLTEN_CLOAK\",boss_tier:0,uuid:\"c5b79b47-4ff7-42b7-ad19-4436d0ee158f\",timestamp:1692451560000L}}",
+            "displayname": "§9Rooted Lotus Cloak",
+            "nbttag": "{ench:[],HideFlags:254,SkullOwner:{Id:\"eb8bad1f-cd42-359a-b6d2-bf563928cc26\",Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTY2MjUwMjgzMDY2NCwKICAicHJvZmlsZUlkIiA6ICJiNTM5NTkyMjMwY2I0MmE0OWY5YTRlYmYxNmRlOTYwYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJtYXJpYW5hZmFnIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2VlNDBkNzc2MmQyYjdhZWQ1ZDkyNWQxN2Y3YjNjMTQ1MWU3MDljMjUzN2E1NTQ2YjFjZTZlMGQ4ZWUyNzU3ZDQiCiAgICB9CiAgfQp9\"}]}},display:{Lore:[0:\"§7Health: §a+18 §9(+8)\",1:\"§7Farming Fortune: §a+28.4 §9(+12)\",2:\"\",3:\"§9Green Thumb III\",4:\"§7Grants §60.15☘ Farming Fortune §7per\",5:\"§7unique visitor served.\",6:\"\",7:\"§6Piece Bonus: Salesperson\",8:\"§7Complete §aGarden Visitor Offers §7to\",9:\"§7gain §6☘ Farming Fortune§7.\",10:\"\",11:\"§7Piece Bonus: §6+11☘\",12:\"§7Next Upgrade: §6+12☘ §8(§a1,387§7/§c2,000§8)\",13:\"\",14:\"§9§lRARE CLOAK\"],Name:\"§9Rooted Lotus Cloak\"},ExtraAttributes:{modifier:\"rooted\",id:\"LOTUS_CLOAK\",enchantments:{green_thumb:3},uuid:\"cc95653a-d5fc-4edf-a78a-39057c442a3e\",timestamp:1686669240000L}}",
             "damage": 3,
             "lore": [
-              "§7Strength: §c+25 §9(+5)",
-              "§7Health: §a+30",
-              "§7Defense: §a+26 §9(+6)",
-              "§7Speed: §a+5",
-              "§7Vitality: §a+3",
+              "§7Health: §a+18 §9(+8)",
+              "§7Farming Fortune: §a+28.4 §9(+12)",
               "",
-              "§bSpeed I",
-              "§7Grants §f+5✦ Speed§7.",
-              "§bVitality I",
-              "§7Grants §4+3♨ Vitality§7.",
+              "§9Green Thumb III",
+              "§7Grants §60.15☘ Farming Fortune §7per",
+              "§7unique visitor served.",
               "",
-              "§6Tiered Bonus: Molten Core (2/4)",
-              "§7Gain §a5% §7damage resistance while",
-              "§7fighting §6Kuudra§7.",
+              "§6Piece Bonus: Salesperson",
+              "§7Complete §aGarden Visitor Offers §7to",
+              "§7gain §6☘ Farming Fortune§7.",
               "",
-              "§5§lEPIC CLOAK"
+              "§7Piece Bonus: §6+11☘",
+              "§7Next Upgrade: §6+12☘ §8(§a1,387§7/§c2,000§8)",
+              "",
+              "§9§lRARE CLOAK"
             ],
             "internalname": "_"
           },
           "37": {
             "itemid": "minecraft:skull",
-            "displayname": "§5Strengthened Molten Bracelet",
-            "nbttag": "{HideFlags:254,SkullOwner:{Id:\"479e23bf-e9c9-3cb7-a346-795f3b0847a9\",Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTY0NzAxNjUwNTAzMSwKICAicHJvZmlsZUlkIiA6ICJiYzRlZGZiNWYzNmM0OGE3YWM5ZjFhMzlkYzIzZjRmOCIsCiAgInByb2ZpbGVOYW1lIiA6ICI4YWNhNjgwYjIyNDYxMzQwIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzIwNTI5NGY4OTE1YzhkYTliNmUzODI5ZjZkYmExMzVmODhhYjQ3NjFiOTQzMGUxOGZmMTI1ZWYzZTk1MGNjZGYiCiAgICB9CiAgfQp9\"}]}},display:{Lore:[0:\"§7Strength: §c+25 §9(+5)\",1:\"§7Health: §a+30\",2:\"§7Defense: §a+26 §9(+6)\",3:\"§7Speed: §a+10\",4:\"§7Vitality: §a+6\",5:\"\",6:\"§bSpeed II\",7:\"§7Grants §f+10✦ Speed§7.\",8:\"§bVitality II\",9:\"§7Grants §4+6♨ Vitality§7.\",10:\"\",11:\"§6Tiered Bonus: Molten Core (2/4)\",12:\"§7Gain §a5% §7damage resistance while\",13:\"§7fighting §6Kuudra§7.\",14:\"\",15:\"§5§lEPIC BRACELET\"],Name:\"§5Strengthened Molten Bracelet\"},ExtraAttributes:{modifier:\"strengthened\",attributes:{mending:2,speed:2},id:\"MOLTEN_BRACELET\",boss_tier:2,uuid:\"89a1c090-bb51-4a66-aaac-1e0b59dc8284\",timestamp:1689794040000L}}",
+            "displayname": "§9Rooted Lotus Bracelet",
+            "nbttag": "{ench:[],HideFlags:254,SkullOwner:{Id:\"31b66714-9edb-3bb4-8d4f-42b451fa2aba\",Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTY2MjUwMjg2MjI4OCwKICAicHJvZmlsZUlkIiA6ICJkYjJmMTJhMmU5MTI0ZThiODZjZmQyNzU2MDk1N2JhNCIsCiAgInByb2ZpbGVOYW1lIiA6ICJpaVJlemEiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTc4MzI3OTAxOGNkZGRmZmE5MTNhYmYzNjIxZDc4ZjIwNDQwNTk2MWY3N2ZiOTY4NDFkMDFiMjc0ZjAyN2NhYiIKICAgIH0KICB9Cn0\"}]}},display:{Lore:[0:\"§7Health: §a+18 §9(+8)\",1:\"§7Farming Fortune: §a+28.4 §9(+12)\",2:\"\",3:\"§9Green Thumb III\",4:\"§7Grants §60.15☘ Farming Fortune §7per\",5:\"§7unique visitor served.\",6:\"\",7:\"§6Piece Bonus: Salesperson\",8:\"§7Complete §aGarden Visitor Offers §7to\",9:\"§7gain §6☘ Farming Fortune§7.\",10:\"\",11:\"§7Piece Bonus: §6+11☘\",12:\"§7Next Upgrade: §6+12☘ §8(§a1,387§7/§c2,000§8)\",13:\"\",14:\"§9§lRARE BRACELET\"],Name:\"§9Rooted Lotus Bracelet\"},ExtraAttributes:{modifier:\"rooted\",id:\"LOTUS_BRACELET\",enchantments:{green_thumb:3},uuid:\"66a850c4-0c86-47ca-8f8f-e2920a442d9a\",timestamp:1685181060000L}}",
             "damage": 3,
             "lore": [
-              "§7Strength: §c+25 §9(+5)",
-              "§7Health: §a+30",
-              "§7Defense: §a+26 §9(+6)",
-              "§7Speed: §a+10",
-              "§7Vitality: §a+6",
+              "§7Health: §a+18 §9(+8)",
+              "§7Farming Fortune: §a+28.4 §9(+12)",
               "",
-              "§bSpeed II",
-              "§7Grants §f+10✦ Speed§7.",
-              "§bVitality II",
-              "§7Grants §4+6♨ Vitality§7.",
+              "§9Green Thumb III",
+              "§7Grants §60.15☘ Farming Fortune §7per",
+              "§7unique visitor served.",
               "",
-              "§6Tiered Bonus: Molten Core (2/4)",
-              "§7Gain §a5% §7damage resistance while",
-              "§7fighting §6Kuudra§7.",
+              "§6Piece Bonus: Salesperson",
+              "§7Complete §aGarden Visitor Offers §7to",
+              "§7gain §6☘ Farming Fortune§7.",
               "",
-              "§5§lEPIC BRACELET"
+              "§7Piece Bonus: §6+11☘",
+              "§7Next Upgrade: §6+12☘ §8(§a1,387§7/§c2,000§8)",
+              "",
+              "§9§lRARE BRACELET"
             ],
             "internalname": "_"
           },
           "10": {
             "itemid": "minecraft:skull",
-            "displayname": "§5Strengthened §dRift Necklace",
-            "nbttag": "{HideFlags:254,SkullOwner:{Id:\"ad049247-1862-300f-a0db-dfd5cf5f6220\",Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTY0Nzg2ODQ3MDQxOCwKICAicHJvZmlsZUlkIiA6ICIwNjNhMTc2Y2RkMTU0ODRiYjU1MjRhNjQyMGM1YjdhNCIsCiAgInByb2ZpbGVOYW1lIiA6ICJkYXZpcGF0dXJ5IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzljMDg5NDkzMWE1MTAzODdlNGY2MTM4MjhmMDIzOWNhNGQ5MDg1MzQ5OTYzN2Y2MDc5ZDM5MzI3ZjE0NmYwZTkiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ\u003d\u003d\"}]}},display:{Lore:[0:\"§7Strength: §c+26 §9(+6)\",1:\"§7Health: §a+100\",2:\"§7Defense: §a+33 §9(+8)\",3:\"§7Intelligence: §a+65\",4:\"§7Magic Find: §a+6\",5:\"\",6:\"§7A very powerful piece of equipment\",7:\"§7originating from the §dRift Dimension§7.\",8:\"\",9:\"§7Becomes more powerful as you fill\",10:\"§7the §dRift Gallery§7.\",11:\"§7Secured: §c6/8 Timecharms\",12:\"\",13:\"§8§l* §8Soulbound §8§l*\",14:\"§6§lLEGENDARY NECKLACE\"],Name:\"§5Strengthened §dRift Necklace\"},ExtraAttributes:{modifier:\"strengthened\",id:\"RIFT_NECKLACE_OUTSIDE\",uuid:\"3d635644-59ce-4147-a1bd-e4a5110b1beb\",donated_museum:1b,timestamp:1688667000000L}}",
+            "displayname": "§9Rooted Lotus Necklace",
+            "nbttag": "{ench:[],HideFlags:254,SkullOwner:{Id:\"c8dc56b5-a99e-3ada-a7b8-8812436a89dd\",Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTY2MjUwMjgxMTAyMiwKICAicHJvZmlsZUlkIiA6ICIzOTVkZTJlYjVjNjU0ZmRkOWQ2NDAwY2JhNmNmNjFhNyIsCiAgInByb2ZpbGVOYW1lIiA6ICJzcGFyZXN0ZXZlIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2FkODNhYTI1YzExYWNmY2U3NDQyZmYwMTI5ZmQ3MGJiNDJjYTBkZTYzYmEyMTE1MTY5OTY2Y2MzNTFmMTcxNmIiCiAgICB9CiAgfQp9\"}]}},display:{Lore:[0:\"§7Health: §a+18 §9(+8)\",1:\"§7Farming Fortune: §a+28.4 §9(+12)\",2:\"\",3:\"§9Green Thumb III\",4:\"§7Grants §60.15☘ Farming Fortune §7per\",5:\"§7unique visitor served.\",6:\"\",7:\"§6Piece Bonus: Salesperson\",8:\"§7Complete §aGarden Visitor Offers §7to\",9:\"§7gain §6☘ Farming Fortune§7.\",10:\"\",11:\"§7Piece Bonus: §6+11☘\",12:\"§7Next Upgrade: §6+12☘ §8(§a1,387§7/§c2,000§8)\",13:\"\",14:\"§9§lRARE NECKLACE\"],Name:\"§9Rooted Lotus Necklace\"},ExtraAttributes:{modifier:\"rooted\",id:\"LOTUS_NECKLACE\",enchantments:{green_thumb:3},uuid:\"2b2a53b2-7d7e-4040-b2c8-773a47bab36d\",timestamp:1685883120000L}}",
             "damage": 3,
             "lore": [
-              "§7Strength: §c+26 §9(+6)",
-              "§7Health: §a+100",
-              "§7Defense: §a+33 §9(+8)",
-              "§7Intelligence: §a+65",
-              "§7Magic Find: §a+6",
+              "§7Health: §a+18 §9(+8)",
+              "§7Farming Fortune: §a+28.4 §9(+12)",
               "",
-              "§7A very powerful piece of equipment",
-              "§7originating from the §dRift Dimension§7.",
+              "§9Green Thumb III",
+              "§7Grants §60.15☘ Farming Fortune §7per",
+              "§7unique visitor served.",
               "",
-              "§7Becomes more powerful as you fill",
-              "§7the §dRift Gallery§7.",
-              "§7Secured: §c6/8 Timecharms",
+              "§6Piece Bonus: Salesperson",
+              "§7Complete §aGarden Visitor Offers §7to",
+              "§7gain §6☘ Farming Fortune§7.",
               "",
-              "§8§l* §8Soulbound §8§l*",
-              "§6§lLEGENDARY NECKLACE"
+              "§7Piece Bonus: §6+11☘",
+              "§7Next Upgrade: §6+12☘ §8(§a1,387§7/§c2,000§8)",
+              "",
+              "§9§lRARE NECKLACE"
             ],
             "internalname": "_"
           },
           "28": {
             "itemid": "minecraft:skull",
-            "displayname": "§5Strengthened Brown Belt",
-            "nbttag": "{HideFlags:254,SkullOwner:{Id:\"d9051a3d-73e9-382e-a777-20a32abb1bfd\",Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTY0MzU5OTc5NzYyMiwKICAicHJvZmlsZUlkIiA6ICJiNzQ3OWJhZTI5YzQ0YjIzYmE1NjI4MzM3OGYwZTNjNiIsCiAgInByb2ZpbGVOYW1lIiA6ICJTeWxlZXgiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDNhMjE0N2M3ZWY3NzJmOWNjNDBiMzAxNTEyY2JkNGZiMzdiNWE2ODg1ZGQ1ZmUyNDU0OTM2MjU4NGRkYTQ2NyIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9\"}]}},display:{Lore:[0:\"§7Strength: §c+5 §9(+5)\",1:\"§7Health: §a+30\",2:\"§7Defense: §a+26 §9(+6)\",3:\"\",4:\"§7Reduces damage taken by §c5%§7.\",5:\"\",6:\"§8§l* §8Soulbound §8§l*\",7:\"§5§lEPIC BELT\"],Name:\"§5Strengthened Brown Belt\"},ExtraAttributes:{modifier:\"strengthened\",id:\"DOJO_BROWN_BELT\",uuid:\"d95de37c-e5d1-440f-bd71-0e8fb9601ed0\",timestamp:1691186520000L}}",
+            "displayname": "§9Rooted Lotus Belt",
+            "nbttag": "{ench:[],HideFlags:254,SkullOwner:{Id:\"2227567f-0487-36f7-8ef9-b167755769cd\",Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTY2MjUwMjg0NTQyNiwKICAicHJvZmlsZUlkIiA6ICJmMTdkOWJlZmM2NGM0YzA4ODVhYWU3NWQ0YjhiNWE0NCIsCiAgInByb2ZpbGVOYW1lIiA6ICJTaXJCYW5kZXJzbmF0Y2giLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGNlOGQxOWIwMTYzZDFlYWRkZTU2MzM3NzM5NGIwNWRlNjM0MjdjNmUzZjhhOTQ5ZTBkZmEzMmJiMjBkN2YyZCIKICAgIH0KICB9Cn0\"}]}},display:{Lore:[0:\"§7Health: §a+18 §9(+8)\",1:\"§7Farming Fortune: §a+28.4 §9(+12)\",2:\"\",3:\"§9Green Thumb III\",4:\"§7Grants §60.15☘ Farming Fortune §7per\",5:\"§7unique visitor served.\",6:\"\",7:\"§6Piece Bonus: Salesperson\",8:\"§7Complete §aGarden Visitor Offers §7to\",9:\"§7gain §6☘ Farming Fortune§7.\",10:\"\",11:\"§7Piece Bonus: §6+11☘\",12:\"§7Next Upgrade: §6+12☘ §8(§a1,387§7/§c2,000§8)\",13:\"\",14:\"§9§lRARE BELT\"],Name:\"§9Rooted Lotus Belt\"},ExtraAttributes:{modifier:\"rooted\",id:\"LOTUS_BELT\",enchantments:{green_thumb:3},uuid:\"3877fc42-8cbe-46f0-b8c3-0b8b8ea10877\",timestamp:1685552820000L}}",
             "damage": 3,
             "lore": [
-              "§7Strength: §c+5 §9(+5)",
-              "§7Health: §a+30",
-              "§7Defense: §a+26 §9(+6)",
+              "§7Health: §a+18 §9(+8)",
+              "§7Farming Fortune: §a+28.4 §9(+12)",
               "",
-              "§7Reduces damage taken by §c5%§7.",
+              "§9Green Thumb III",
+              "§7Grants §60.15☘ Farming Fortune §7per",
+              "§7unique visitor served.",
               "",
-              "§8§l* §8Soulbound §8§l*",
-              "§5§lEPIC BELT"
+              "§6Piece Bonus: Salesperson",
+              "§7Complete §aGarden Visitor Offers §7to",
+              "§7gain §6☘ Farming Fortune§7.",
+              "",
+              "§7Piece Bonus: §6+11☘",
+              "§7Next Upgrade: §6+12☘ §8(§a1,387§7/§c2,000§8)",
+              "",
+              "§9§lRARE BELT"
             ],
             "internalname": "_"
           }
         },
-        "magicalPower": 720,
-        "chestCount": 9188,
-        "openedChestCount": 8655,
+        "magicalPower": 726,
+        "chestCount": 9189,
+        "openedChestCount": 8656,
         "mithrilPowderFound": 1551518,
-        "gemstonePowderFound": 1551781,
+        "gemstonePowderFound": 1551870,
         "abiphoneFavouriteContacts": [
           "Maddox the Slayer"
         ],
@@ -1601,23 +1899,25 @@
         "hotmTree": {
           "Efficient Miner": 75,
           "Daily Powder": 100,
-          "Titanium Insanium": 20,
-          "Mining Fortune": 42,
-          "Mining Speed": 43,
-          "Seasoned Mineman": 41,
+          "Titanium Insanium": 1,
+          "Mining Fortune": 46,
+          "Mining Speed": 1,
+          "Seasoned Mineman": 1,
           "Mining Madness": 1,
-          "Quick Forge": 14,
+          "Quick Forge": 20,
           "Orbiter": 1,
           "Sky Mall": 1,
           "Front Loaded": 1,
           "Mole": 131,
-          "Professional": 83,
-          "Powder Buff": 42,
-          "Fortunate": 20,
+          "Professional": 55,
+          "Powder Buff": 45,
+          "Fortunate": 1,
           "Great Explorer": 20,
           "Mining Fortune II": 20,
-          "No Stone Unturned": 27,
-          "Strong Arm": 59
+          "No Stone Unturned": 35,
+          "Strong Arm": 1,
+          "Mineshaft Mayhem": 1,
+          "Eager Adventurer": 41
         },
         "hasConsumedRiftPrism": false,
         "abiphoneMagicPower": 0
@@ -2191,34 +2491,37 @@
       "LIVELY_SEPULTURE_CHESTPLATE",
       "LARGE_LAVA_FISHING_SACK",
       "TITANIUM_DRILL_4",
-      "TITANIUM_DRILL_1"
+      "TITANIUM_DRILL_1",
+      "DWARVEN_HANDWARMERS"
     ],
     "previousAuctionSearches": [
+      "Moogma Leggings",
+      "Magma Rod",
       "Foraging Exp Boost",
       "Monkey",
-      "Pulse Ring",
-      "Empty Thunder Bottle",
-      "Necron\u0027s Boots"
+      "Pulse Ring"
     ],
     "previousBazaarSearches": [
-      "Enchanted Dandelion",
-      "Minion Expander",
-      "Slimeball",
-      "Prismarine Crystals",
-      "Kismet Feather"
+      "Jacob\u0027s Ticket",
+      "Enchanted Seeds",
+      "Glacite Jewel",
+      "Enchanted Gold Block",
+      "Coal"
     ],
     "previousProfileSearches": [
-      "olleg2",
+      "arrowcs2",
+      "arrowcs",
+      "gigapersongeb",
       "legohjalten",
-      "callshooter00",
-      "pikapearl",
-      "itstrigo",
-      "very_699"
+      "ogaitnasx",
+      "abc_master"
     ],
     "previousRecipeSearches": [
-      "slab",
-      "Enchanted Hard Stone",
-      "Enchanted Iron"
+      "Skeleton",
+      "oak",
+      "Dark Oak Minion I",
+      "Iron Minion I",
+      "slab"
     ],
     "eventFavourites": [],
     "quickCommands": [

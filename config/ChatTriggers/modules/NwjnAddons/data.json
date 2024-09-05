@@ -1,11 +1,11 @@
 {
     "first_time": false,
     "version": "0.11.5",
-    "power": "Bloody",
-    "tuning": "22⚔",
+    "power": "Forceful",
+    "tuning": "72❁",
     "enrich": "Unknown",
-    "mp": "720",
-    "pet": "&6Tiger",
+    "mp": "726",
+    "pet": "&6Mooshroom Cow",
     "gummy": 0,
     "wisp": 0,
     "mobsHighlight": {},
@@ -16,10 +16,10 @@
         ""
     ],
     "lastMini": [
-        "&5Mage Outlaw",
         "&eBarbarian Duke X",
         "&8Bladesoul",
-        "&eBarbarian Duke X"
+        "&eBarbarian Duke X",
+        "&8Bladesoul"
     ],
     "flare": {
         "kills": 0,

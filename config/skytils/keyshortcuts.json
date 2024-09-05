@@ -8,11 +8,11 @@
         "keyCode": 199
     },
     {
-        "message": "/wardrobe",
-        "keyCode": -98
-    },
-    {
         "message": "/warp home",
         "keyCode": 209
+    },
+    {
+        "message": "/wardrobe",
+        "keyCode": -98
     }
 ]

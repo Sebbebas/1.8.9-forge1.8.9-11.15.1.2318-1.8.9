@@ -533,5 +533,17 @@
       12,
       14
     ]
+  },
+  "grapes": {
+    "dungeon_hub": [],
+    "combat_3": [],
+    "hub": [],
+    "farming_1": [
+      19
+    ],
+    "mining_3": [],
+    "mining_1": [],
+    "combat_1": [],
+    "mining_2": []
   }
 }

@@ -21,7 +21,7 @@
 		config_button_on_pause = true
 		reopen_options_menu = true
 		first_launch = false
-		last_launched_skytils_version = "1.10.3"
+		last_launched_skytils_version = "1.10.5"
 
 	[general.reparty]
 		override_other_reparty_commands = false
@@ -39,6 +39,7 @@
 		hypixel_api_key = "44b5f9ff-9666-4850-8ba4-1827335ddc58"
 		fetch_kuudra_prices = false
 		fetch_lowest_bin_prices = false
+		connect_to_skytils_ws_server = true
 
 	[general.hypixel]
 		multiple_party_invites_fix = false

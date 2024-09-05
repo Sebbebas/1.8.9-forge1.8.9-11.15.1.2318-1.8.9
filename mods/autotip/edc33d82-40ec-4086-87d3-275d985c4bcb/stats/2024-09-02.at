@@ -1,0 +1,69 @@
+{
+  "date": {
+    "year": 2024,
+    "month": 9,
+    "day": 2
+  },
+  "tipsSent": 55,
+  "tipsReceived": 10,
+  "xpSent": 2250,
+  "xpReceived": 600,
+  "gameStatistics": {
+    "Turbo Kart Racers": {
+      "coinsSent": 75,
+      "coinsReceived": 0
+    },
+    "Smash Heroes": {
+      "coinsSent": 60,
+      "coinsReceived": 400
+    },
+    "SkyWars": {
+      "coinsSent": 60,
+      "coinsReceived": 100
+    },
+    "Mega Walls": {
+      "coinsSent": 75,
+      "coinsReceived": 100
+    },
+    "UHC Champions": {
+      "coinsSent": 60,
+      "coinsReceived": 0
+    },
+    "Warlords": {
+      "coinsSent": 60,
+      "coinsReceived": 200
+    },
+    "The Walls": {
+      "coinsSent": 75,
+      "coinsReceived": 0
+    },
+    "VampireZ": {
+      "coinsSent": 75,
+      "coinsReceived": 0
+    },
+    "Arcade Games": {
+      "coinsSent": 190,
+      "coinsReceived": 0
+    },
+    "Arena Brawl": {
+      "coinsSent": 75,
+      "coinsReceived": 0
+    },
+    "Blitz SG": {
+      "coinsSent": 75,
+      "coinsReceived": 0
+    },
+    "Cops and Crims": {
+      "coinsSent": 75,
+      "coinsReceived": 200
+    },
+    "Quakecraft": {
+      "coinsSent": 75,
+      "coinsReceived": 0
+    },
+    "Paintball Warfare": {
+      "coinsSent": 75,
+      "coinsReceived": 0
+    }
+  }
+}

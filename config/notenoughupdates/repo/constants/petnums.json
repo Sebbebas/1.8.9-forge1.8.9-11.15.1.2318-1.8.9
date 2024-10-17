@@ -53,42 +53,46 @@
     "EPIC": {
       "1": {
         "otherNums": [
-          0.1
+          0.02,
+          0.02
         ],
         "statNums": {
-          "FEROCITY": 0.0,
-          "STRENGTH": 0.0
+          "MINING_FORTUNE": 1.0,
+          "HEAT_RESISTANCE": 1.5
         }
       },
       "100": {
         "otherNums": [
-          10.0
+          2,
+          2
         ],
         "statNums": {
-          "FEROCITY": 10.0,
-          "STRENGTH": 25.0
+          "MINING_FORTUNE": 100,
+          "HEAT_RESISTANCE": 150
         }
       }
     },
     "LEGENDARY": {
       "1": {
         "otherNums": [
-          0.1,
+          0.03,
+          0.04,
           0.1
         ],
         "statNums": {
-          "FEROCITY": 0.0,
-          "STRENGTH": 0.0
+          "MINING_FORTUNE": 1.0,
+          "HEAT_RESISTANCE": 1.5
         }
       },
       "100": {
         "otherNums": [
-          10.0,
-          15.0
+          3,
+          4,
+          10
         ],
         "statNums": {
-          "FEROCITY": 10.0,
-          "STRENGTH": 25.0
+          "MINING_FORTUNE": 100,
+          "HEAT_RESISTANCE": 150
         }
       }
     }
@@ -125,7 +129,7 @@
     "RARE": {
       "1": {
         "otherNums": [
-          57.9
+          59.8
         ],
         "statNums": {
           "DEFENSE": 2.0
@@ -133,7 +137,7 @@
       },
       "100": {
         "otherNums": [
-          30.0
+          40.0
         ],
         "statNums": {
           "DEFENSE": 200
@@ -143,7 +147,7 @@
     "EPIC": {
       "1": {
         "otherNums": [
-          57.9
+          59.7
         ],
         "statNums": {
           "DEFENSE": 2.0
@@ -161,8 +165,8 @@
     "LEGENDARY": {
       "1": {
         "otherNums": [
-          57.9,
-          99.5
+          59.6,
+          3
         ],
         "statNums": {
           "DEFENSE": 2.0
@@ -170,8 +174,8 @@
       },
       "100": {
         "otherNums": [
-          30.0,
-          50
+          20.0,
+          300
         ],
         "statNums": {
           "DEFENSE": 200
@@ -535,7 +539,8 @@
     "COMMON": {
       "1": {
         "otherNums": [
-          5.2
+          5.2,
+          100
         ],
         "statNums": {
           "HEALTH": 25.0,
@@ -545,7 +550,8 @@
       },
       "100": {
         "otherNums": [
-          25
+          25,
+          250
         ],
         "statNums": {
           "HEALTH": 100.0,
@@ -558,7 +564,8 @@
       "1": {
         "otherNums": [
           5.2,
-          3.8
+          3.8,
+          100
         ],
         "statNums": {
           "HEALTH": 25.0,
@@ -569,7 +576,8 @@
       "100": {
         "otherNums": [
           25,
-          15
+          15,
+          250
         ],
         "statNums": {
           "HEALTH": 100.0,
@@ -583,7 +591,8 @@
         "otherNums": [
           5.0,
           5.0,
-          10.0
+          10.0,
+          100
         ],
         "statNums": {
           "HEALTH": 25.0,
@@ -595,7 +604,8 @@
         "otherNums": [
           25,
           15,
-          40
+          40,
+          250
         ],
         "statNums": {
           "HEALTH": 100.0,
@@ -610,7 +620,8 @@
           5.0,
           5.0,
           10.0,
-          0.1
+          0.1,
+          100
         ],
         "statNums": {
           "HEALTH": 25.0,
@@ -623,7 +634,8 @@
           25,
           15,
           40,
-          1
+          1,
+          250
         ],
         "statNums": {
           "HEALTH": 100.0,
@@ -639,7 +651,8 @@
           5.0,
           10.0,
           0.1,
-          10
+          10,
+          100
         ],
         "statNums": {
           "HEALTH": 25.0,
@@ -653,7 +666,8 @@
           15,
           40,
           1,
-          50
+          50,
+          250
         ],
         "statNums": {
           "HEALTH": 100.0,
@@ -1395,7 +1409,6 @@
         "otherNums": [
           0.3,
           0.5,
-          5.0,
           0.2
         ],
         "statNums": {
@@ -1406,7 +1419,6 @@
         "otherNums": [
           30,
           50,
-          5,
           25
         ],
         "statNums": {
@@ -1997,25 +2009,23 @@
     "LEGENDARY": {
       "1": {
         "otherNums": [
-          0.5,
+          2.5,
           1,
           0.5
         ],
         "statNums": {
-          "SPEED": 0.2,
-          "CRIT_CHANCE": 0.1,
+          "ORE_FORTUNE": 1.0,
           "MAGIC_FIND": 0.07
         }
       },
       "100": {
         "otherNums": [
-          50,
+          250,
           100,
           50
         ],
         "statNums": {
-          "SPEED": 20,
-          "CRIT_CHANCE": 10,
+          "ORE_FORTUNE": 100,
           "MAGIC_FIND": 7
         }
       }
@@ -3041,11 +3051,11 @@
       "1": {
         "otherNums": [
           0.2,
-          1,
+          0.5,
           1
         ],
         "statNums": {
-          "MINING_SPEED": 0.75,
+          "MINING_SPEED": 1.5,
           "INTELLIGENCE": 1,
           "MAGIC_FIND": 0.05
         }
@@ -3053,11 +3063,11 @@
       "100": {
         "otherNums": [
           25,
-          100,
+          50,
           100
         ],
         "statNums": {
-          "MINING_SPEED": 75,
+          "MINING_SPEED": 150,
           "INTELLIGENCE": 100,
           "MAGIC_FIND": 5
         }
@@ -4104,106 +4114,110 @@
     "COMMON": {
       "1": {
         "otherNums": [
-          0.1
-        ],
-        "statNums": {
-          "DEFENSE": 1.0,
-          "HEALTH": 0.0
-        }
-      },
-      "100": {
-        "otherNums": [
-          5
-        ],
-        "statNums": {
-          "DEFENSE": 100.0,
-          "HEALTH": 20.0
-        }
-      }
-    },
-    "EPIC": {
-      "1": {
-        "otherNums": [
-          0.1,
           0.3
         ],
         "statNums": {
           "DEFENSE": 1.0,
-          "HEALTH": 0.0
+          "MINING_FORTUNE": 0.2
         }
       },
       "100": {
         "otherNums": [
-          15,
           30
         ],
         "statNums": {
           "DEFENSE": 100.0,
-          "HEALTH": 20.0
-        }
-      }
-    },
-    "LEGENDARY": {
-      "1": {
-        "otherNums": [
-          0.1,
-          0.3
-        ],
-        "statNums": {
-          "DEFENSE": 1.0,
-          "HEALTH": 0.0
-        }
-      },
-      "100": {
-        "otherNums": [
-          15,
-          30
-        ],
-        "statNums": {
-          "DEFENSE": 100.0,
-          "HEALTH": 20.0
-        }
-      }
-    },
-    "RARE": {
-      "1": {
-        "otherNums": [
-          0.1,
-          0.2
-        ],
-        "statNums": {
-          "DEFENSE": 1.0,
-          "HEALTH": 0.0
-        }
-      },
-      "100": {
-        "otherNums": [
-          10,
-          25
-        ],
-        "statNums": {
-          "DEFENSE": 100.0,
-          "HEALTH": 20.0
+          "MINING_FORTUNE": 20.0
         }
       }
     },
     "UNCOMMON": {
       "1": {
         "otherNums": [
-          0.1
+          0.3
         ],
         "statNums": {
           "DEFENSE": 1.0,
-          "HEALTH": 0.0
+          "MINING_FORTUNE": 0.2
         }
       },
       "100": {
         "otherNums": [
-          10
+          30
         ],
         "statNums": {
           "DEFENSE": 100.0,
-          "HEALTH": 20.0
+          "MINING_FORTUNE": 20.0
+        }
+      }
+    },
+    "RARE": {
+      "1": {
+        "otherNums": [
+          0.4,
+          0.15
+        ],
+        "statNums": {
+          "DEFENSE": 1.0,
+          "MINING_FORTUNE": 0.2
+        }
+      },
+      "100": {
+        "otherNums": [
+          40,
+          15
+        ],
+        "statNums": {
+          "DEFENSE": 100.0,
+          "MINING_FORTUNE": 20.0
+        }
+      }
+    },
+    "EPIC": {
+      "1": {
+        "otherNums": [
+          0.5,
+          0.25
+        ],
+        "statNums": {
+          "DEFENSE": 1.0,
+          "MINING_FORTUNE": 0.2
+        }
+      },
+      "100": {
+        "otherNums": [
+          50,
+          25
+        ],
+        "statNums": {
+          "DEFENSE": 100.0,
+          "MINING_FORTUNE": 20.0
+        }
+      }
+    },
+    "LEGENDARY": {
+      "1": {
+        "otherNums": [
+          0.5,
+          1.5,
+          1,
+          0.3
+        ],
+        "statNums": {
+          "DEFENSE": 1.0,
+          "MINING_FORTUNE": 0.2
+        }
+      },
+      "100": {
+        "otherNums": [
+          50,
+          150,
+          3,
+          30
+        ],
+        "statNums": {
+          "DEFENSE": 100.0,
+          "MINING_FORTUNE": 20.0
         }
       }
     }
@@ -4768,72 +4782,66 @@
     "RARE": {
       "1": {
         "otherNums": [
-          1.2,
-          0
+          0.3
         ],
         "statNums": {
-          "MINING_SPEED": 0.0,
-          "DEFENSE": 0.0
+          "MINING_SPEED": 1.0,
+          "MINING_FORTUNE": 1.25
         }
       },
       "100": {
         "otherNums": [
-          100,
-          2.5
+          30
         ],
         "statNums": {
-          "MINING_SPEED": 100.0,
-          "DEFENSE": 100.0
+          "MINING_SPEED": 125,
+          "MINING_FORTUNE": 135
         }
       }
     },
     "EPIC": {
       "1": {
         "otherNums": [
-          1.2,
-          0,
+          0.4,
           1
         ],
         "statNums": {
-          "MINING_SPEED": 0.0,
-          "DEFENSE": 0.0
+          "MINING_SPEED": 1.0,
+          "MINING_FORTUNE": 1.25
         }
       },
       "100": {
         "otherNums": [
-          125,
-          3.0,
+          40,
           100
         ],
         "statNums": {
-          "MINING_SPEED": 100.0,
-          "DEFENSE": 100.0
+          "MINING_SPEED": 125,
+          "MINING_FORTUNE": 135
         }
       }
     },
     "LEGENDARY": {
       "1": {
         "otherNums": [
-          1.2,
-          0,
-          1,
+          0.5,
+          1.25,
           0.2
         ],
         "statNums": {
-          "MINING_SPEED": 0.0,
-          "DEFENSE": 0.0
+          "MINING_SPEED": 1.0,
+          "MINING_FORTUNE": 1.25
         }
       },
       "100": {
         "otherNums": [
+          50,
           125,
-          3.0,
-          100,
           20
         ],
         "statNums": {
-          "MINING_SPEED": 100.0,
-          "DEFENSE": 100.0
+          "MINING_SPEED": 125,
+          "MINING_FORTUNE": 135
         }
       }
     }
@@ -4845,7 +4853,8 @@
           0.1
         ],
         "statNums": {
-          "INTELLIGENCE": 1.0
+          "INTELLIGENCE": 1.0,
+          "DEFENSE": 1.0
         }
       },
       "100": {
@@ -4853,43 +4862,50 @@
           10
         ],
         "statNums": {
-          "INTELLIGENCE": 100.0
+          "INTELLIGENCE": 100.0,
+          "DEFENSE": 100.0
         }
       }
     },
     "UNCOMMON": {
       "1": {
         "otherNums": [
-          0.1
+          0.2
         ],
         "statNums": {
-          "INTELLIGENCE": 1.0
+          "INTELLIGENCE": 1.0,
+          "DEFENSE": 1.0
         }
       },
       "100": {
         "otherNums": [
-          10
+          20
         ],
         "statNums": {
-          "INTELLIGENCE": 100.0
+          "INTELLIGENCE": 100.0,
+          "DEFENSE": 100.0
         }
       }
     },
     "RARE": {
       "1": {
         "otherNums": [
-          0.3
+          0.2,
+          5.97
         ],
         "statNums": {
-          "INTELLIGENCE": 1.0
+          "INTELLIGENCE": 1.0,
+          "DEFENSE": 1.0
         }
       },
       "100": {
         "otherNums": [
-          30
+          20,
+          3
         ],
         "statNums": {
-          "INTELLIGENCE": 100.0
+          "INTELLIGENCE": 100.0,
+          "DEFENSE": 100.0
         }
       }
     },
@@ -4897,19 +4913,21 @@
       "1": {
         "otherNums": [
           0.3,
-          0.5
+          5.97
         ],
         "statNums": {
-          "INTELLIGENCE": 1.0
+          "INTELLIGENCE": 1.0,
+          "DEFENSE": 1.0
         }
       },
       "100": {
         "otherNums": [
           30,
-          50
+          3
         ],
         "statNums": {
-          "INTELLIGENCE": 100.0
+          "INTELLIGENCE": 100.0,
+          "DEFENSE": 100.0
         }
       }
     },
@@ -4917,21 +4935,23 @@
       "1": {
         "otherNums": [
           0.3,
-          0.5,
-          0.0
+          4.97,
+          4.0
         ],
         "statNums": {
-          "INTELLIGENCE": 1.0
+          "INTELLIGENCE": 1.0,
+          "DEFENSE": 1.0
         }
       },
       "100": {
         "otherNums": [
           30,
-          50,
-          1.0
+          2,
+          400
         ],
         "statNums": {
-          "INTELLIGENCE": 100.0
+          "INTELLIGENCE": 100.0,
+          "DEFENSE": 100.0
         }
       }
     }
@@ -5692,122 +5712,134 @@
     "COMMON": {
       "1": {
         "otherNums": [
-          0.5
+          1
         ],
         "statNums": {
-          "TRUE_DEFENSE": 0.5
+          "TRUE_DEFENSE": 0.5,
+          "MINING_SPEED": 0.25
         }
       },
       "100": {
         "otherNums": [
-          50
+          100
         ],
         "statNums": {
-          "TRUE_DEFENSE": 50.0
+          "TRUE_DEFENSE": 50.0,
+          "MINING_SPEED": 25.0
         }
       }
     },
     "UNCOMMON": {
       "1": {
         "otherNums": [
-          0.8
+          1.5
         ],
         "statNums": {
-          "TRUE_DEFENSE": 0.5
+          "TRUE_DEFENSE": 0.5,
+          "MINING_SPEED": 0.25
         }
       },
       "100": {
         "otherNums": [
-          80
+          150
         ],
         "statNums": {
-          "TRUE_DEFENSE": 50.0
+          "TRUE_DEFENSE": 50.0,
+          "MINING_SPEED": 25.0
         }
       }
     },
     "RARE": {
       "1": {
         "otherNums": [
-          0.8,
+          1.5,
           0.1
         ],
         "statNums": {
-          "TRUE_DEFENSE": 0.5
+          "TRUE_DEFENSE": 0.5,
+          "MINING_SPEED": 0.25
         }
       },
       "100": {
         "otherNums": [
-          80,
+          150,
           10
         ],
         "statNums": {
-          "TRUE_DEFENSE": 50.0
+          "TRUE_DEFENSE": 50.0,
+          "MINING_SPEED": 25.0
         }
       }
     },
     "EPIC": {
       "1": {
         "otherNums": [
-          1,
+          2,
           0.2
         ],
         "statNums": {
-          "TRUE_DEFENSE": 0.5
+          "TRUE_DEFENSE": 0.5,
+          "MINING_SPEED": 0.25
         }
       },
       "100": {
         "otherNums": [
-          100,
+          200,
           20.0
         ],
         "statNums": {
-          "TRUE_DEFENSE": 50.0
+          "TRUE_DEFENSE": 50.0,
+          "MINING_SPEED": 25.0
         }
       }
     },
     "LEGENDARY": {
       "1": {
         "otherNums": [
-          1,
+          2,
           0.2,
           0.2
         ],
         "statNums": {
-          "TRUE_DEFENSE": 0.5
+          "TRUE_DEFENSE": 0.5,
+          "MINING_SPEED": 0.25
         }
       },
       "100": {
         "otherNums": [
-          100,
+          200,
           20.0,
           20.0
         ],
         "statNums": {
-          "TRUE_DEFENSE": 50.0
+          "TRUE_DEFENSE": 50.0,
+          "MINING_SPEED": 25.0
         }
       }
     },
     "MYTHIC": {
       "1": {
         "otherNums": [
-          1,
+          2,
           0.2,
           0.2,
           0.1
         ],
         "statNums": {
-          "TRUE_DEFENSE": 0.5
+          "TRUE_DEFENSE": 0.5,
+          "MINING_SPEED": 0.25
         }
       },
       "100": {
         "otherNums": [
-          100,
+          200,
           20.0,
           20.0,
           10
         ],
         "statNums": {
-          "TRUE_DEFENSE": 50.0
+          "TRUE_DEFENSE": 50.0,
+          "MINING_SPEED": 25.0
         }
       }
     }

@@ -127,7 +127,7 @@ export const renderBoxFromCorners = (x0, y0, z0, x1, y1, z1, r, g, b, a, phase=t
  * @param {Boolean} phase - Show the line through walls
  * @param {Number} lineWidth - The width of the line
  */
-export const drawLineThroughPoints = (points, r, g, b, a, phase=true, lineWidth=2) => {
+export const drawLineThroughPoints = (points, r, g, b, a, phase=true, lineWidth=2, loop=false) => {
     Tessellator.pushMatrix()
 
     GL11.glLineWidth(lineWidth)
@@ -138,11 +138,13 @@ export const drawLineThroughPoints = (points, r, g, b, a, phase=true, lineWidth=
     
     if (phase) Tessellator.disableDepth()
     
-    Tessellator.begin(3)
+    if (loop) Tessellator.begin(GL11.GL_LINE_LOOP)
+    else Tessellator.begin(3)
+
     Tessellator.colorize(r, g, b, a)
-    points.forEach(([x, y, z]) => {
-        Tessellator.pos(x, y, z).tex(0, 0)
-    })
+    for (let i = 0; i < points.length; i++) {
+        Tessellator.pos(points[i][0], points[i][1], points[i][2])
+    }
 
     Tessellator.draw()
     
@@ -204,4 +206,42 @@ export const drawCircle2D = (x, y, radius, segments, r, g, b, a) => {
     
     Renderer.colorize(r, g, b, a)
     Renderer.drawShape(Renderer.WHITE, points)
+}
+
+/**
+ * 
+ * @param {Number[][]} points - List of vertices as [[x, y, z], [x, y, z], ...]
+ * @param {Number} r 
+ * @param {Number} g 
+ * @param {Number} b 
+ * @param {Number} a 
+ * @param {Boolean} phase - Show the line through walls
+ */
+export const renderShape3D = (points, r, g, b, a, phase=true, filled=true) => {
+    Tessellator.pushMatrix()
+
+    GlStateManager.func_179129_p(); // disableCullFace
+    Tessellator.depthMask(false)
+    Tessellator.disableTexture2D()
+    Tessellator.enableBlend()
+    
+    if (phase) Tessellator.disableDepth()
+    
+    if (filled) Tessellator.begin(GL11.GL_POLYGON)
+    else Tessellator.begin(GL11.GL_LINE_LOOP)
+
+    Tessellator.colorize(r, g, b, a)
+    for (let i = 0; i < points.length; i++) {
+        Tessellator.pos(points[i][0], points[i][1], points[i][2])
+    }
+
+    Tessellator.draw()
+    
+    if (phase) Tessellator.enableDepth()
+
+    GlStateManager.func_179089_o(); // enableCull
+    Tessellator.enableTexture2D()
+    Tessellator.disableBlend()
+    Tessellator.depthMask(true)
+    Tessellator.popMatrix()
 }

@@ -154,7 +154,7 @@ register("packetReceived", (packet, event) => {
     triggerEvent(setSlotFunctions, item, slot, windowID, event)
 }).setFilteredClass(S2FPacketSetSlot)
 
-const chatFuncs = new Set()
+const chatFuncs = []
 
 class ChatPacketEvent {
 
@@ -201,12 +201,13 @@ class ChatPacketEvent {
     }
 
     register() {
-        chatFuncs.add(this)
+        if (!chatFuncs.includes(this)) chatFuncs.push(this)
         return this
     }
 
     unregister() {
-        chatFuncs.delete(this)
+        const idx = chatFuncs.indexOf(this)
+        if (idx !== -1) chatFuncs.splice(idx, 1)
         return this
     }
 }

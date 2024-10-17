@@ -58,7 +58,7 @@
         {
           "id": "MAGMA_CUBE;4",
           "extra": [],
-          "chance": "2%"
+          "chance": "0.4%"
         },
         {
           "id": "ENCHANTED_MAGMA_CREAM",
@@ -89,6 +89,10 @@
           "id": "FIRE_FURY_STAFF",
           "extra": [],
           "chance": "0.5%"
+        },
+        {
+          "id": "DYE_CYCLAMEN",
+          "chance": "0.0004%"
         }
       ]
     }

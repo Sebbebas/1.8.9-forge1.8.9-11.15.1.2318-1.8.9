@@ -10,7 +10,7 @@
 // http://www.curseforge.com/projects/242995/
 // ---------------------------------------------------------------------
 guiKeyBind:GRAVE
-crosshairType:0
+crosshairType:1
 enabled:true
 colour_red:255
 colour_green:255
@@ -21,7 +21,7 @@ visible_hiddenGui:true
 visible_debug:true
 visible_spectator:true
 visible_thirdPerson:false
-outline:false
+outline:true
 outlineColour_red:0
 outlineColour_green:0
 outlineColour_blue:0

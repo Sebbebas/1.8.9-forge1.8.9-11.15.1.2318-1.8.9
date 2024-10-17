@@ -381,6 +381,7 @@
     "profitDisplayLoc": 0,
     "useKismetOnDungeonProfit": true,
     "useEssenceCostFromBazaar": true,
+    "useChestKeyCost": true,
     "shouldWarningDerpy": true,
     "enableDungeonWin": true,
     "dungeonWinMillis": 8000,
@@ -422,11 +423,12 @@
     "locWaypoints": 1,
     "hideWaypointIfAtLocation": true,
     "emissaryWaypoints": 1,
+    "hideEmissaryWaypointInTunnels": true,
     "powderGhastWaypoint": true,
     "fallenStarWaypoint": true,
     "tunnelWaypoints": "SHOW_ALL",
     "alwaysShowTunnelWaypoints": false,
-    "drillFuelBar": true,
+    "drillFuelBar": false,
     "drillFuelBarWidth": 200,
     "drillFuelBarPosition": {
       "x": -3,
@@ -647,6 +649,7 @@
   },
   "recipeTweaks": {
     "enableSearchOverlay": true,
+    "addPickaxeStack": true,
     "keepPreviousSearch": false,
     "showPastSearches": true,
     "escFullClose": true,
@@ -735,7 +738,7 @@
     "customTodos": [],
     "profileSpecific": {
       "Apple": {
-        "godPotionDuration": 50400000,
+        "godPotionDuration": 43200000,
         "puzzlerCompleted": 1718053869571,
         "firstCakeAte": 1724790343549,
         "fetchurCompleted": 0,
@@ -745,30 +748,26 @@
         "cookieBuffRemaining": 1718801452115,
         "forgeItems": [
           {
-            "itemName": "Refined Mithril",
-            "finishTime": 1725535559725,
-            "status": 2,
+            "finishTime": 0,
+            "status": 0,
             "forgeID": 0,
-            "fromScoreBoard": false
+            "fromScoreBoard": true
           },
           {
-            "itemName": "Refined Mithril",
-            "finishTime": 1725535561725,
-            "status": 2,
+            "finishTime": 0,
+            "status": 0,
             "forgeID": 1,
-            "fromScoreBoard": false
+            "fromScoreBoard": true
           },
           {
-            "itemName": "Refined Mithril",
-            "finishTime": 1725535563725,
-            "status": 2,
+            "finishTime": 0,
+            "status": 0,
             "forgeID": 2,
-            "fromScoreBoard": false
+            "fromScoreBoard": true
           },
           {
-            "itemName": "Refined Mithril",
-            "finishTime": 1725535427289,
-            "status": 2,
+            "finishTime": 0,
+            "status": 0,
             "forgeID": 3,
             "fromScoreBoard": true
           },
@@ -776,6 +775,18 @@
             "finishTime": 0,
             "status": 1,
             "forgeID": 4,
+            "fromScoreBoard": true
+          },
+          {
+            "finishTime": 0,
+            "status": 1,
+            "forgeID": 5,
+            "fromScoreBoard": true
+          },
+          {
+            "finishTime": 0,
+            "status": 1,
+            "forgeID": 6,
             "fromScoreBoard": true
           }
         ],
@@ -901,7 +912,7 @@
             "internalname": "_"
           }
         },
-        "magicalPower": 416,
+        "magicalPower": 411,
         "chestCount": 0,
         "openedChestCount": 0,
         "mithrilPowderFound": 0,
@@ -915,7 +926,7 @@
           "Mining Fortune": 1,
           "Mining Speed": 1,
           "Seasoned Mineman": 19,
-          "Quick Forge": 12
+          "Quick Forge": 20
         },
         "hasConsumedRiftPrism": false,
         "abiphoneMagicPower": 0
@@ -1706,59 +1717,62 @@
         "abiphoneMagicPower": 0
       },
       "Banana": {
-        "godPotionDuration": 68400000,
-        "puzzlerCompleted": 1723931164765,
-        "firstCakeAte": 1725384292240,
+        "godPotionDuration": 7200000,
+        "puzzlerCompleted": 1727205433142,
+        "firstCakeAte": 1727194716386,
         "fetchurCompleted": 1718038794048,
-        "commissionsCompleted": 1725094388098,
+        "commissionsCompleted": 1727249674581,
         "lastFreeRiftInfusionApplied": 1721916101425,
         "experimentsCompleted": 1724853726313,
-        "cookieBuffRemaining": 1725439651773,
+        "cookieBuffRemaining": 1727299992056,
         "forgeItems": [
           {
-            "itemName": "Refined Mithril",
-            "finishTime": 1725532586152,
-            "status": 2,
+            "finishTime": 0,
+            "status": 0,
             "forgeID": 0,
-            "fromScoreBoard": false
+            "fromScoreBoard": true
           },
           {
-            "itemName": "Refined Mithril",
-            "finishTime": 1725532588152,
-            "status": 2,
+            "finishTime": 0,
+            "status": 0,
             "forgeID": 1,
-            "fromScoreBoard": false
+            "fromScoreBoard": true
           },
           {
-            "itemName": "Refined Mithril",
-            "finishTime": 1725532590152,
-            "status": 2,
+            "finishTime": 0,
+            "status": 0,
             "forgeID": 2,
-            "fromScoreBoard": false
+            "fromScoreBoard": true
           },
           {
-            "itemName": "Refined Mithril",
-            "finishTime": 1725532593152,
-            "status": 2,
+            "finishTime": 0,
+            "status": 0,
             "forgeID": 3,
-            "fromScoreBoard": false
+            "fromScoreBoard": true
           },
           {
-            "itemName": "Refined Mithril",
-            "finishTime": 1725531927663,
-            "status": 2,
+            "finishTime": 0,
+            "status": 0,
             "forgeID": 4,
+            "fromScoreBoard": true
+          },
+          {
+            "finishTime": 0,
+            "status": 0,
+            "forgeID": 5,
+            "fromScoreBoard": true
+          },
+          {
+            "finishTime": 0,
+            "status": 0,
+            "forgeID": 6,
             "fromScoreBoard": true
           }
         ],
         "hotmDesires": {
-          "Gemstone": {
-            "name": "§cPowder Buff",
-            "powderRequirement": 224240
-          },
           "Mithril": {
-            "name": "§cEfficient Miner",
-            "powderRequirement": 80329
+            "name": "§cMining Fortune",
+            "powderRequirement": 18353
           }
         },
         "commissionMilestone": 5,
@@ -1777,14 +1791,14 @@
           "Scavenged Emerald Hammer": false
         },
         "crystals": {
-          "Amber": 1,
-          "Sapphire": 1,
+          "Amber": 0,
+          "Sapphire": 0,
           "Jade": 0,
-          "Amethyst": 1,
+          "Amethyst": 0,
           "Topaz": 0
         },
-        "dailyGemstonePowderCompleted": 1725482156644,
-        "dailyMithrilPowerCompleted": 1725482148566,
+        "dailyGemstonePowderCompleted": 1727884882064,
+        "dailyMithrilPowerCompleted": 1727884897170,
         "nonUnlockedWarpScrolls": [],
         "dailyHeavyPearlCompleted": 1716329324454,
         "questBoardCompleted": 0,
@@ -1792,132 +1806,138 @@
         "savedEquipment": {
           "19": {
             "itemid": "minecraft:skull",
-            "displayname": "§9Rooted Lotus Cloak",
-            "nbttag": "{ench:[],HideFlags:254,SkullOwner:{Id:\"eb8bad1f-cd42-359a-b6d2-bf563928cc26\",Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTY2MjUwMjgzMDY2NCwKICAicHJvZmlsZUlkIiA6ICJiNTM5NTkyMjMwY2I0MmE0OWY5YTRlYmYxNmRlOTYwYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJtYXJpYW5hZmFnIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2VlNDBkNzc2MmQyYjdhZWQ1ZDkyNWQxN2Y3YjNjMTQ1MWU3MDljMjUzN2E1NTQ2YjFjZTZlMGQ4ZWUyNzU3ZDQiCiAgICB9CiAgfQp9\"}]}},display:{Lore:[0:\"§7Health: §a+18 §9(+8)\",1:\"§7Farming Fortune: §a+28.4 §9(+12)\",2:\"\",3:\"§9Green Thumb III\",4:\"§7Grants §60.15☘ Farming Fortune §7per\",5:\"§7unique visitor served.\",6:\"\",7:\"§6Piece Bonus: Salesperson\",8:\"§7Complete §aGarden Visitor Offers §7to\",9:\"§7gain §6☘ Farming Fortune§7.\",10:\"\",11:\"§7Piece Bonus: §6+11☘\",12:\"§7Next Upgrade: §6+12☘ §8(§a1,387§7/§c2,000§8)\",13:\"\",14:\"§9§lRARE CLOAK\"],Name:\"§9Rooted Lotus Cloak\"},ExtraAttributes:{modifier:\"rooted\",id:\"LOTUS_CLOAK\",enchantments:{green_thumb:3},uuid:\"cc95653a-d5fc-4edf-a78a-39057c442a3e\",timestamp:1686669240000L}}",
+            "displayname": "§5Royal Titanium Cloak",
+            "nbttag": "{HideFlags:254,SkullOwner:{Id:\"0c3ebf33-7819-3225-8fb9-9dc8b1cec97a\",Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTcwODM1NTc5ODUyOCwKICAicHJvZmlsZUlkIiA6ICJmNzcxMDI1NGMzYWY0YjA5YmRjY2NiNDRjNjg1NjFiMCIsCiAgInByb2ZpbGVOYW1lIiA6ICJDZXJ1c1YyIiwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzQ5ODIxNDEwNjMxMTg2YzZmM2ZiYmFlNWYwZWY1Yjk0N2Y0NzVlYjMyMDI3YThhYWQwYTQ1NjUxMjU0N2MyMDkiCiAgICB9CiAgfQp9\"}]}},display:{Lore:[0:\"§7Mining Speed: §a+40 §9(+10)\",1:\"§7Mining Fortune: §a+12 §9(+2)\",2:\"\",3:\"§7Grants §6+10☘ Mining Fortune §7while\",4:\"§7mining §2Mithril §7and §fTitanium§7.\",5:\"§7\",6:\"§6Full Set Bonus: True Dwarf §7(3/4)\",7:\"§7Grants §6+50⸕ Mining Speed §7and §6+40☘\",8:\"§6Mining Fortune §7while in the §2Dwarven\",9:\"§2Mines§7.\",10:\"\",11:\"§9Royal Bonus\",12:\"§7Earn §2+5% ᠅ Mithril Powder §7from\",13:\"§7§bMining Events §7in the §2Dwarven Mines§7.\",14:\"\",15:\"§5§l§ka§r §5§l§5§lEPIC CLOAK §5§l§ka\"],Name:\"§5Royal Titanium Cloak\"},ExtraAttributes:{rarity_upgrades:1,modifier:\"royal\",id:\"TITANIUM_CLOAK\",uuid:\"49317b04-66a0-4ef5-8dc0-e8370c9bc559\",timestamp:1720984406581L}}",
             "damage": 3,
             "lore": [
-              "§7Health: §a+18 §9(+8)",
-              "§7Farming Fortune: §a+28.4 §9(+12)",
+              "§7Mining Speed: §a+40 §9(+10)",
+              "§7Mining Fortune: §a+12 §9(+2)",
               "",
-              "§9Green Thumb III",
-              "§7Grants §60.15☘ Farming Fortune §7per",
-              "§7unique visitor served.",
+              "§7Grants §6+10☘ Mining Fortune §7while",
+              "§7mining §2Mithril §7and §fTitanium§7.",
+              "§7",
+              "§6Full Set Bonus: True Dwarf §7(3/4)",
+              "§7Grants §6+50⸕ Mining Speed §7and §6+40☘",
+              "§6Mining Fortune §7while in the §2Dwarven",
+              "§2Mines§7.",
               "",
-              "§6Piece Bonus: Salesperson",
-              "§7Complete §aGarden Visitor Offers §7to",
-              "§7gain §6☘ Farming Fortune§7.",
+              "§9Royal Bonus",
+              "§7Earn §2+5% ᠅ Mithril Powder §7from",
+              "§7§bMining Events §7in the §2Dwarven Mines§7.",
               "",
-              "§7Piece Bonus: §6+11☘",
-              "§7Next Upgrade: §6+12☘ §8(§a1,387§7/§c2,000§8)",
-              "",
-              "§9§lRARE CLOAK"
+              "§5§l§ka§r §5§l§5§lEPIC CLOAK §5§l§ka"
             ],
             "internalname": "_"
           },
           "37": {
             "itemid": "minecraft:skull",
-            "displayname": "§9Rooted Lotus Bracelet",
-            "nbttag": "{ench:[],HideFlags:254,SkullOwner:{Id:\"31b66714-9edb-3bb4-8d4f-42b451fa2aba\",Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTY2MjUwMjg2MjI4OCwKICAicHJvZmlsZUlkIiA6ICJkYjJmMTJhMmU5MTI0ZThiODZjZmQyNzU2MDk1N2JhNCIsCiAgInByb2ZpbGVOYW1lIiA6ICJpaVJlemEiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTc4MzI3OTAxOGNkZGRmZmE5MTNhYmYzNjIxZDc4ZjIwNDQwNTk2MWY3N2ZiOTY4NDFkMDFiMjc0ZjAyN2NhYiIKICAgIH0KICB9Cn0\"}]}},display:{Lore:[0:\"§7Health: §a+18 §9(+8)\",1:\"§7Farming Fortune: §a+28.4 §9(+12)\",2:\"\",3:\"§9Green Thumb III\",4:\"§7Grants §60.15☘ Farming Fortune §7per\",5:\"§7unique visitor served.\",6:\"\",7:\"§6Piece Bonus: Salesperson\",8:\"§7Complete §aGarden Visitor Offers §7to\",9:\"§7gain §6☘ Farming Fortune§7.\",10:\"\",11:\"§7Piece Bonus: §6+11☘\",12:\"§7Next Upgrade: §6+12☘ §8(§a1,387§7/§c2,000§8)\",13:\"\",14:\"§9§lRARE BRACELET\"],Name:\"§9Rooted Lotus Bracelet\"},ExtraAttributes:{modifier:\"rooted\",id:\"LOTUS_BRACELET\",enchantments:{green_thumb:3},uuid:\"66a850c4-0c86-47ca-8f8f-e2920a442d9a\",timestamp:1685181060000L}}",
+            "displayname": "§6Royal Dwarven Handwarmers",
+            "nbttag": "{HideFlags:254,SkullOwner:{Id:\"7832fa38-404c-3f31-a749-66fe3422bf4e\",Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTcwOTA2MTI0Njg1MywKICAicHJvZmlsZUlkIiA6ICJjYTU4NzNhYmY0Y2U0YWUxODAxZmVmODgzNjhlMWExNiIsCiAgInByb2ZpbGVOYW1lIiA6ICJEZXRocm9uZXMiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzMwMWQ5ZjliNmYxOGRkZWVjYzU3YjUyMjkxNmNjNzU2NmMzOTdkNjQ5ZjIzYzMxOGUzZjVlZjY3Y2JjZjI2NiIKICAgIH0KICB9Cn0\u003d\"}]}},display:{Lore:[0:\"§7Mining Speed: §a+59 §9(+14)\",1:\"§7Mining Fortune: §a+33 §9(+3)\",2:\"§7Cold Resistance: §a+5\",3:\"\",4:\"§9Royal Bonus\",5:\"§7Earn §2+5% ᠅ Mithril Powder §7from\",6:\"§7§bMining Events §7in the §2Dwarven Mines§7.\",7:\"\",8:\"§6§l§ka§r §6§l§6§lLEGENDARY GLOVES §6§l§ka\"],Name:\"§6Royal Dwarven Handwarmers\"},ExtraAttributes:{rarity_upgrades:1,modifier:\"royal\",id:\"DWARVEN_HANDWARMERS\",uuid:\"7b292569-b49d-4402-9c8c-2ce401093ad1\",timestamp:1726936403322L}}",
             "damage": 3,
             "lore": [
-              "§7Health: §a+18 §9(+8)",
-              "§7Farming Fortune: §a+28.4 §9(+12)",
+              "§7Mining Speed: §a+59 §9(+14)",
+              "§7Mining Fortune: §a+33 §9(+3)",
+              "§7Cold Resistance: §a+5",
               "",
-              "§9Green Thumb III",
-              "§7Grants §60.15☘ Farming Fortune §7per",
-              "§7unique visitor served.",
+              "§9Royal Bonus",
+              "§7Earn §2+5% ᠅ Mithril Powder §7from",
+              "§7§bMining Events §7in the §2Dwarven Mines§7.",
               "",
-              "§6Piece Bonus: Salesperson",
-              "§7Complete §aGarden Visitor Offers §7to",
-              "§7gain §6☘ Farming Fortune§7.",
-              "",
-              "§7Piece Bonus: §6+11☘",
-              "§7Next Upgrade: §6+12☘ §8(§a1,387§7/§c2,000§8)",
-              "",
-              "§9§lRARE BRACELET"
+              "§6§l§ka§r §6§l§6§lLEGENDARY GLOVES §6§l§ka"
             ],
             "internalname": "_"
           },
           "10": {
             "itemid": "minecraft:skull",
-            "displayname": "§9Rooted Lotus Necklace",
-            "nbttag": "{ench:[],HideFlags:254,SkullOwner:{Id:\"c8dc56b5-a99e-3ada-a7b8-8812436a89dd\",Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTY2MjUwMjgxMTAyMiwKICAicHJvZmlsZUlkIiA6ICIzOTVkZTJlYjVjNjU0ZmRkOWQ2NDAwY2JhNmNmNjFhNyIsCiAgInByb2ZpbGVOYW1lIiA6ICJzcGFyZXN0ZXZlIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2FkODNhYTI1YzExYWNmY2U3NDQyZmYwMTI5ZmQ3MGJiNDJjYTBkZTYzYmEyMTE1MTY5OTY2Y2MzNTFmMTcxNmIiCiAgICB9CiAgfQp9\"}]}},display:{Lore:[0:\"§7Health: §a+18 §9(+8)\",1:\"§7Farming Fortune: §a+28.4 §9(+12)\",2:\"\",3:\"§9Green Thumb III\",4:\"§7Grants §60.15☘ Farming Fortune §7per\",5:\"§7unique visitor served.\",6:\"\",7:\"§6Piece Bonus: Salesperson\",8:\"§7Complete §aGarden Visitor Offers §7to\",9:\"§7gain §6☘ Farming Fortune§7.\",10:\"\",11:\"§7Piece Bonus: §6+11☘\",12:\"§7Next Upgrade: §6+12☘ §8(§a1,387§7/§c2,000§8)\",13:\"\",14:\"§9§lRARE NECKLACE\"],Name:\"§9Rooted Lotus Necklace\"},ExtraAttributes:{modifier:\"rooted\",id:\"LOTUS_NECKLACE\",enchantments:{green_thumb:3},uuid:\"2b2a53b2-7d7e-4040-b2c8-773a47bab36d\",timestamp:1685883120000L}}",
+            "displayname": "§5Royal Titanium Necklace",
+            "nbttag": "{HideFlags:254,SkullOwner:{Id:\"28f67315-9dc4-32c4-9c65-b086316e0e49\",Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTcwODM1NTg0NDMwNCwKICAicHJvZmlsZUlkIiA6ICJmNzcxMDI1NGMzYWY0YjA5YmRjY2NiNDRjNjg1NjFiMCIsCiAgInByb2ZpbGVOYW1lIiA6ICJDZXJ1c1YyIiwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzRmM2I5MWI2YWE3MTI0ZjMwZWQ0YWQxYjJiYjAxMmE4Mjk4NWEzMzY0MDU1NWUxOGU3OTJmOTZhZjhmNThlYzYiCiAgICB9CiAgfQp9\"}]}},display:{Lore:[0:\"§7Mining Speed: §a+40 §9(+10)\",1:\"§7Mining Fortune: §a+12 §9(+2)\",2:\"\",3:\"§7Grants §6+10☘ Mining Fortune §7while\",4:\"§7mining §2Mithril §7and §fTitanium§7.\",5:\"§7\",6:\"§6Full Set Bonus: True Dwarf §7(3/4)\",7:\"§7Grants §6+50⸕ Mining Speed §7and §6+40☘\",8:\"§6Mining Fortune §7while in the §2Dwarven\",9:\"§2Mines§7.\",10:\"\",11:\"§9Royal Bonus\",12:\"§7Earn §2+5% ᠅ Mithril Powder §7from\",13:\"§7§bMining Events §7in the §2Dwarven Mines§7.\",14:\"\",15:\"§5§l§ka§r §5§l§5§lEPIC NECKLACE §5§l§ka\"],Name:\"§5Royal Titanium Necklace\"},ExtraAttributes:{rarity_upgrades:1,modifier:\"royal\",id:\"TITANIUM_NECKLACE\",uuid:\"753d269c-29ba-4053-90e8-02bdafe37b36\",timestamp:1720984405924L}}",
             "damage": 3,
             "lore": [
-              "§7Health: §a+18 §9(+8)",
-              "§7Farming Fortune: §a+28.4 §9(+12)",
+              "§7Mining Speed: §a+40 §9(+10)",
+              "§7Mining Fortune: §a+12 §9(+2)",
               "",
-              "§9Green Thumb III",
-              "§7Grants §60.15☘ Farming Fortune §7per",
-              "§7unique visitor served.",
+              "§7Grants §6+10☘ Mining Fortune §7while",
+              "§7mining §2Mithril §7and §fTitanium§7.",
+              "§7",
+              "§6Full Set Bonus: True Dwarf §7(3/4)",
+              "§7Grants §6+50⸕ Mining Speed §7and §6+40☘",
+              "§6Mining Fortune §7while in the §2Dwarven",
+              "§2Mines§7.",
               "",
-              "§6Piece Bonus: Salesperson",
-              "§7Complete §aGarden Visitor Offers §7to",
-              "§7gain §6☘ Farming Fortune§7.",
+              "§9Royal Bonus",
+              "§7Earn §2+5% ᠅ Mithril Powder §7from",
+              "§7§bMining Events §7in the §2Dwarven Mines§7.",
               "",
-              "§7Piece Bonus: §6+11☘",
-              "§7Next Upgrade: §6+12☘ §8(§a1,387§7/§c2,000§8)",
-              "",
-              "§9§lRARE NECKLACE"
+              "§5§l§ka§r §5§l§5§lEPIC NECKLACE §5§l§ka"
             ],
             "internalname": "_"
           },
           "28": {
             "itemid": "minecraft:skull",
-            "displayname": "§9Rooted Lotus Belt",
-            "nbttag": "{ench:[],HideFlags:254,SkullOwner:{Id:\"2227567f-0487-36f7-8ef9-b167755769cd\",Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTY2MjUwMjg0NTQyNiwKICAicHJvZmlsZUlkIiA6ICJmMTdkOWJlZmM2NGM0YzA4ODVhYWU3NWQ0YjhiNWE0NCIsCiAgInByb2ZpbGVOYW1lIiA6ICJTaXJCYW5kZXJzbmF0Y2giLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGNlOGQxOWIwMTYzZDFlYWRkZTU2MzM3NzM5NGIwNWRlNjM0MjdjNmUzZjhhOTQ5ZTBkZmEzMmJiMjBkN2YyZCIKICAgIH0KICB9Cn0\"}]}},display:{Lore:[0:\"§7Health: §a+18 §9(+8)\",1:\"§7Farming Fortune: §a+28.4 §9(+12)\",2:\"\",3:\"§9Green Thumb III\",4:\"§7Grants §60.15☘ Farming Fortune §7per\",5:\"§7unique visitor served.\",6:\"\",7:\"§6Piece Bonus: Salesperson\",8:\"§7Complete §aGarden Visitor Offers §7to\",9:\"§7gain §6☘ Farming Fortune§7.\",10:\"\",11:\"§7Piece Bonus: §6+11☘\",12:\"§7Next Upgrade: §6+12☘ §8(§a1,387§7/§c2,000§8)\",13:\"\",14:\"§9§lRARE BELT\"],Name:\"§9Rooted Lotus Belt\"},ExtraAttributes:{modifier:\"rooted\",id:\"LOTUS_BELT\",enchantments:{green_thumb:3},uuid:\"3877fc42-8cbe-46f0-b8c3-0b8b8ea10877\",timestamp:1685552820000L}}",
+            "displayname": "§5Royal Titanium Belt",
+            "nbttag": "{HideFlags:254,SkullOwner:{Id:\"de383690-8f4e-3edb-be2d-3c3d823cd578\",Properties:{textures:[0:{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTcwODM1NTc1MjgyOCwKICAicHJvZmlsZUlkIiA6ICJmNzcxMDI1NGMzYWY0YjA5YmRjY2NiNDRjNjg1NjFiMCIsCiAgInByb2ZpbGVOYW1lIiA6ICJDZXJ1c1YyIiwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzQxNjIzMDNiY2RkNzcwYWViZTdmZDE5ZmEyNjM3MTM5MGE3NTE1MTQwMzU4NTQ4MDg0MzYxYjUwNTZjZGM0ZTYiCiAgICB9CiAgfQp9\"}]}},display:{Lore:[0:\"§7Mining Speed: §a+40 §9(+10)\",1:\"§7Mining Fortune: §a+12 §9(+2)\",2:\"\",3:\"§7Grants §6+10☘ Mining Fortune §7while\",4:\"§7mining §2Mithril §7and §fTitanium§7.\",5:\"§7\",6:\"§6Full Set Bonus: True Dwarf §7(3/4)\",7:\"§7Grants §6+50⸕ Mining Speed §7and §6+40☘\",8:\"§6Mining Fortune §7while in the §2Dwarven\",9:\"§2Mines§7.\",10:\"\",11:\"§9Royal Bonus\",12:\"§7Earn §2+5% ᠅ Mithril Powder §7from\",13:\"§7§bMining Events §7in the §2Dwarven Mines§7.\",14:\"\",15:\"§5§l§ka§r §5§l§5§lEPIC BELT §5§l§ka\"],Name:\"§5Royal Titanium Belt\"},ExtraAttributes:{rarity_upgrades:1,modifier:\"royal\",id:\"TITANIUM_BELT\",uuid:\"2ab3f0e7-2ba6-4812-ae67-19de2ec07411\",timestamp:1720984406224L}}",
             "damage": 3,
             "lore": [
-              "§7Health: §a+18 §9(+8)",
-              "§7Farming Fortune: §a+28.4 §9(+12)",
+              "§7Mining Speed: §a+40 §9(+10)",
+              "§7Mining Fortune: §a+12 §9(+2)",
               "",
-              "§9Green Thumb III",
-              "§7Grants §60.15☘ Farming Fortune §7per",
-              "§7unique visitor served.",
+              "§7Grants §6+10☘ Mining Fortune §7while",
+              "§7mining §2Mithril §7and §fTitanium§7.",
+              "§7",
+              "§6Full Set Bonus: True Dwarf §7(3/4)",
+              "§7Grants §6+50⸕ Mining Speed §7and §6+40☘",
+              "§6Mining Fortune §7while in the §2Dwarven",
+              "§2Mines§7.",
               "",
-              "§6Piece Bonus: Salesperson",
-              "§7Complete §aGarden Visitor Offers §7to",
-              "§7gain §6☘ Farming Fortune§7.",
+              "§9Royal Bonus",
+              "§7Earn §2+5% ᠅ Mithril Powder §7from",
+              "§7§bMining Events §7in the §2Dwarven Mines§7.",
               "",
-              "§7Piece Bonus: §6+11☘",
-              "§7Next Upgrade: §6+12☘ §8(§a1,387§7/§c2,000§8)",
-              "",
-              "§9§lRARE BELT"
+              "§5§l§ka§r §5§l§5§lEPIC BELT §5§l§ka"
             ],
             "internalname": "_"
           }
         },
-        "magicalPower": 726,
-        "chestCount": 9189,
-        "openedChestCount": 8656,
-        "mithrilPowderFound": 1551518,
-        "gemstonePowderFound": 1551870,
+        "magicalPower": 736,
+        "chestCount": 11028,
+        "openedChestCount": 10395,
+        "mithrilPowderFound": 1592265,
+        "gemstonePowderFound": 2107406,
         "abiphoneFavouriteContacts": [
           "Maddox the Slayer"
         ],
         "abiphoneShowOnlyFavourites": false,
         "hotmTree": {
-          "Efficient Miner": 75,
-          "Daily Powder": 100,
+          "Efficient Miner": 100,
+          "Daily Powder": 1,
           "Titanium Insanium": 1,
-          "Mining Fortune": 46,
-          "Mining Speed": 1,
+          "Mining Fortune": 23,
+          "Mining Speed": 22,
           "Seasoned Mineman": 1,
           "Mining Madness": 1,
           "Quick Forge": 20,
           "Orbiter": 1,
           "Sky Mall": 1,
           "Front Loaded": 1,
-          "Mole": 131,
+          "Mole": 143,
           "Professional": 55,
-          "Powder Buff": 45,
-          "Fortunate": 1,
+          "Powder Buff": 50,
+          "Fortunate": 20,
           "Great Explorer": 20,
           "Mining Fortune II": 20,
-          "No Stone Unturned": 35,
+          "No Stone Unturned": 40,
           "Strong Arm": 1,
           "Mineshaft Mayhem": 1,
-          "Eager Adventurer": 41
+          "Eager Adventurer": 41,
+          "Gem Lover": 15,
+          "Keep It Cool": 1,
+          "Lonesome Miner": 1,
+          "Precision Mining": 1,
+          "Fortunate Mineman": 14,
+          "Surveyor": 16,
+          "Warm Heart": 25,
+          "Steady Hand": 30,
+          "Speedy Mineman": 9
         },
         "hasConsumedRiftPrism": false,
         "abiphoneMagicPower": 0
@@ -1974,7 +1994,7 @@
           "Maniac Slayer": 10,
           "Citrine Gemstone Collector": 1500,
           "Scrap Collector": 1,
-          "Corpse Looter": 3,
+          "Corpse Looter": 2,
           "Aquamarine Gemstone Collector": 1500,
           "Peridot Gemstone Collector": 1500,
           "Glacite Collector": 1500,
@@ -2363,8 +2383,8 @@
         "anchorRight": false,
         "anchorBottom": true,
         "backgroundIndex": 1,
-        "command": "",
-        "icon": "skull:9d7e3b19ac4f3dee9c5677c135333b9d35a7f568b63d1ef4ada4b068b5a25"
+        "command": "warp base",
+        "icon": "skull:2461ec3bd654f62ca9a393a32629e21b4e497c877d3f3380bcf2db0e20fc0244"
       },
       {
         "x": -19,
@@ -2373,8 +2393,8 @@
         "anchorRight": false,
         "anchorBottom": true,
         "backgroundIndex": 1,
-        "command": "",
-        "icon": "skull:a221f813dacee0fef8c59f76894dbb26415478d9ddfc44c2e708a6d3b7549b"
+        "command": "warp forge",
+        "icon": "FURNACE"
       },
       {
         "x": -19,
@@ -2383,8 +2403,8 @@
         "anchorRight": false,
         "anchorBottom": true,
         "backgroundIndex": 1,
-        "command": "",
-        "icon": "RUBY_CRYSTAL"
+        "command": "warp mines",
+        "icon": "DWARVEN_MINES_PORTAL"
       },
       {
         "x": 4,
@@ -2482,7 +2502,6 @@
     ],
     "favourites": [
       "OVERLOAD;5",
-      "BEASTMASTER_CREST_LEGENDARY",
       "DYE_MANGO",
       "STARRED_ADAPTIVE_BELT",
       "MOOGMA_LEGGINGS",
@@ -2490,38 +2509,39 @@
       "LEGGINGS_OF_THE_COVEN",
       "LIVELY_SEPULTURE_CHESTPLATE",
       "LARGE_LAVA_FISHING_SACK",
-      "TITANIUM_DRILL_4",
       "TITANIUM_DRILL_1",
-      "DWARVEN_HANDWARMERS"
+      "AMBER_POLISHED_DRILL_ENGINE",
+      "MITHRIL_DRILL_ENGINE",
+      "PERFECT_CHISEL"
     ],
     "previousAuctionSearches": [
+      "Mining Exp Boost",
+      "Empty Thunder Bottle",
       "Moogma Leggings",
       "Magma Rod",
-      "Foraging Exp Boost",
-      "Monkey",
-      "Pulse Ring"
+      "Foraging Exp Boost"
     ],
     "previousBazaarSearches": [
-      "Jacob\u0027s Ticket",
-      "Enchanted Seeds",
-      "Glacite Jewel",
-      "Enchanted Gold Block",
-      "Coal"
+      "Prismatic V",
+      "Titanic Experience Bottle",
+      "Flowstate I",
+      "Enchanted Diamond Block",
+      "Plasma"
     ],
     "previousProfileSearches": [
-      "arrowcs2",
-      "arrowcs",
-      "gigapersongeb",
-      "legohjalten",
-      "ogaitnasx",
-      "abc_master"
+      "ravenw00d",
+      "goldenale7",
+      "lourna",
+      "salmono",
+      "witherzlayer",
+      "arrowcs2"
     ],
     "previousRecipeSearches": [
+      "Enchanted Hard Stone",
+      "Enchanted Titanium",
       "Skeleton",
       "oak",
-      "Dark Oak Minion I",
-      "Iron Minion I",
-      "slab"
+      "Dark Oak Minion I"
     ],
     "eventFavourites": [],
     "quickCommands": [
@@ -2547,7 +2567,8 @@
     "firstTimeSearchFocus": false,
     "disableBrokenCapes": false,
     "npcRetextureOnSelf": false,
-    "hasOpenedWaypointMenu": false
+    "hasOpenedWaypointMenu": false,
+    "disableClientSideSearch": false
   },
   "dungeonMap": {
     "dmBorderSize": 2.2395833,

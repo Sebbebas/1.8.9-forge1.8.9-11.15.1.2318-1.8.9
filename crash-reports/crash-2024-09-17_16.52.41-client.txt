@@ -1,0 +1,243 @@
+---- Minecraft Crash Report ----
+
+WARNING: coremods are present:
+  FMLLoadingPlugin (Scrollable Tooltips-1.4 (1.8.9).jar)
+  FMLLoadingPlugin (ModCore_Container-1.0.jar)
+  AsmHelperLoadingPlugin (ctjs-2.2.1-1.8.9.jar)
+  MixinLoader (multibind-1.0.0.jar)
+  Skytils On Top (Skytils-1.10.6.jar)
+  ModTweaker (Patcher-1.8.9 (1.8.9).jar)
+  LoadingPlugin (Block_Overlay_4.0.3.jar)
+  SkyblockAddonsLoadingPlugin (SkyblockAddons-1.7.3+7380-for-MC-1.8.9.jar)
+  PlayerAPIPlugin (PlayerAPI-1.8.9-1.0.jar)
+  PatcherTweaker (Patcher-1.8.9 (1.8.9).jar)
+  FMLLoadingPlugin (OofMod-3.0 (1.8.9).jar)
+Contact their authors BEFORE contacting forge
+
+// Shall we play a game?
+
+Time: 2024-09-17 16:52
+Description: Unexpected error
+
+java.lang.NullPointerException: Unexpected error
+	at mrfast.sbf.features.items.CooldownTracker.setStackCooldown(CooldownTracker.java:139)
+	at mrfast.sbf.features.items.CooldownTracker.onTick(CooldownTracker.java:76)
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_2525_CooldownTracker_onTick_ClientTickEvent.invoke(.dynamic)
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:49)
+	at net.minecraftforge.fml.common.eventhandler.EventBus.post(EventBus.java:140)
+	at net.minecraftforge.fml.common.FMLCommonHandler.onPreClientTick(FMLCommonHandler.java:331)
+	at net.minecraft.client.Minecraft.runTick(Minecraft.java:1624)
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:1024)
+	at net.minecraft.client.Minecraft.run(Minecraft.java:349)
+	at net.minecraft.client.main.Main.main(SourceFile:124)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at gg.essential.loader.stage2.relaunch.Relaunch.relaunch(Relaunch.java:124)
+	at gg.essential.loader.stage2.EssentialLoader.preloadEssential(EssentialLoader.java:220)
+	at gg.essential.loader.stage2.EssentialLoader.loadPlatform(EssentialLoader.java:116)
+	at gg.essential.loader.stage2.EssentialLoaderBase.load(EssentialLoaderBase.java:148)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at gg.essential.loader.stage1.EssentialLoaderBase.load(EssentialLoaderBase.java:293)
+	at gg.essential.loader.stage1.EssentialSetupTweaker.<init>(EssentialSetupTweaker.java:44)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at gg.essential.loader.stage0.EssentialSetupTweaker.loadStage1(EssentialSetupTweaker.java:53)
+	at gg.essential.loader.stage0.EssentialSetupTweaker.<init>(EssentialSetupTweaker.java:26)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at java.lang.Class.newInstance(Class.java:442)
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:98)
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Stacktrace:
+	at mrfast.sbf.features.items.CooldownTracker.setStackCooldown(CooldownTracker.java:139)
+	at mrfast.sbf.features.items.CooldownTracker.onTick(CooldownTracker.java:76)
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_2525_CooldownTracker_onTick_ClientTickEvent.invoke(.dynamic)
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:49)
+	at net.minecraftforge.fml.common.eventhandler.EventBus.post(EventBus.java:140)
+	at net.minecraftforge.fml.common.FMLCommonHandler.onPreClientTick(FMLCommonHandler.java:331)
+
+-- Affected level --
+Details:
+	Level name: MpServer
+	All players: 3 total; [EntityPlayerSP['Sebbebas'/91539, l='MpServer', x=-48,50, y=200,00, z=-121,50], EntityOtherPlayerMP['XxDiptlyxX'/91540, l='MpServer', x=-48,50, y=211,00, z=-121,50], EntityOtherPlayerMP['Mr_Zcool'/47198, l='MpServer', x=5,13, y=200,00, z=-111,31]]
+	Chunk stats: MultiplayerChunkCache: 32, 32
+	Level seed: 0
+	Level generator: ID 01 - flat, ver 0. Features enabled: false
+	Level generator options: 
+	Level spawn location: -49,00,200,00,-122,00 - World: (-49,200,-122), Chunk: (at 15,12,6 in -4,-8; contains blocks -64,0,-128 to -49,255,-113), Region: (-1,-1; contains chunks -32,-32 to -1,-1, blocks -512,0,-512 to -1,255,-1)
+	Level time: 320297862 game time, 87034 day time
+	Level dimension: 0
+	Level storage version: 0x00000 - Unknown?
+	Level weather: Rain time: 0 (now: false), thunder time: 0 (now: false)
+	Level game mode: Game mode: survival (ID 0). Hardcore: false. Cheats: false
+	Forced entities: 39 total; [EntityArmorStand['Armor Stand'/390, l='MpServer', x=5,38, y=200,25, z=-109,22], EntityArmorStand['Armor Stand'/391, l='MpServer', x=5,38, y=200,00, z=-109,22], EntityArmorStand['Armor Stand'/392, l='MpServer', x=5,38, y=199,75, z=-109,22], EntityArmorStand['Armor Stand'/393, l='MpServer', x=-10,50, y=201,00, z=-103,50], EntityArmorStand['Armor Stand'/394, l='MpServer', x=-10,50, y=200,75, z=-103,50], EntityArmorStand['Armor Stand'/395, l='MpServer', x=-15,50, y=201,00, z=-98,50], EntityArmorStand['Armor Stand'/396, l='MpServer', x=-15,50, y=200,75, z=-98,50], EntityArmorStand['Armor Stand'/4877, l='MpServer', x=-79,50, y=200,00, z=-123,50], EntityArmorStand['Armor Stand'/4878, l='MpServer', x=-79,50, y=199,75, z=-123,50], EntityPlayerSP['Sebbebas'/91539, l='MpServer', x=-48,50, y=200,00, z=-121,50], EntityOtherPlayerMP['XxDiptlyxX'/91540, l='MpServer', x=-48,50, y=211,00, z=-121,50], EntityArmorStand['Armor Stand'/342, l='MpServer', x=-11,50, y=202,00, z=-98,50], EntityArmorStand['Armor Stand'/343, l='MpServer', x=-9,59, y=200,59, z=-102,28], EntityArmorStand['Armor Stand'/344, l='MpServer', x=-9,28, y=200,41, z=-100,91], EntityArmorStand['Armor Stand'/345, l='MpServer', x=-9,44, y=200,38, z=-101,88], EntityItemFrame['entity.ItemFrame.name'/346, l='MpServer', x=-13,03, y=201,50, z=-105,50], EntityItemFrame['entity.ItemFrame.name'/347, l='MpServer', x=-9,50, y=201,50, z=-105,97], EntityItemFrame['entity.ItemFrame.name'/348, l='MpServer', x=-8,03, y=202,50, z=-104,50], EntityArmorStand['Armor Stand'/349, l='MpServer', x=-12,50, y=202,00, z=-97,50], EntityArmorStand['Armor Stand'/1502, l='MpServer', x=13,50, y=201,00, z=-148,50], EntityOtherPlayerMP['Mr_Zcool'/47198, l='MpServer', x=5,13, y=200,00, z=-111,31], EntityArmorStand['Armor Stand'/1503, l='MpServer', x=13,50, y=200,75, z=-148,50], EntityArmorStand['Armor Stand'/11427, l='MpServer', x=-30,00, y=213,84, z=-89,00], EntityArmorStand['Armor Stand'/11428, l='MpServer', x=-30,00, y=213,59, z=-89,00], EntityArmorStand['Armor Stand'/360, l='MpServer', x=-38,00, y=200,38, z=-119,00], EntityArmorStand['Armor Stand'/361, l='MpServer', x=-38,00, y=200,00, z=-119,00], EntityArmorStand['Armor Stand'/362, l='MpServer', x=-38,00, y=199,75, z=-119,00], EntityArmorStand['Armor Stand'/363, l='MpServer', x=-45,50, y=200,00, z=-118,50], EntityArmorStand['Armor Stand'/364, l='MpServer', x=-45,50, y=199,75, z=-118,50], EntityArmorStand['Armor Stand'/365, l='MpServer', x=-45,50, y=200,00, z=-124,50], EntityArmorStand['Armor Stand'/366, l='MpServer', x=-45,50, y=199,75, z=-124,50], EntityArmorStand['Armor Stand'/8302, l='MpServer', x=-3,50, y=149,00, z=-108,50], EntityArmorStand['Armor Stand'/367, l='MpServer', x=-37,50, y=200,00, z=-131,50], EntityArmorStand['Armor Stand'/8303, l='MpServer', x=-3,50, y=148,75, z=-108,50], EntityArmorStand['Armor Stand'/368, l='MpServer', x=-37,50, y=199,75, z=-131,50], EntityOtherPlayerMP['XxDiptlyxX'/91540, l='MpServer', x=-48,50, y=211,00, z=-121,50], EntityArmorStand['Armor Stand'/1462, l='MpServer', x=-6,50, y=201,09, z=-154,50], EntityArmorStand['Armor Stand'/247, l='MpServer', x=-8,50, y=228,53, z=-134,50], EntityArmorStand['Armor Stand'/1463, l='MpServer', x=-6,50, y=200,84, z=-154,50]]
+	Retry entities: 0 total; []
+	Server brand: Hypixel BungeeCord (2024.9.8.2) <- Hygot 2024.9.17.1
+	Server type: Non-integrated multiplayer server
+Stacktrace:
+	at net.minecraft.client.multiplayer.WorldClient.addWorldInfoToCrashReport(WorldClient.java:417)
+	at net.minecraft.client.Minecraft.addGraphicsAndWorldToCrashReport(Minecraft.java:2536)
+	at net.minecraft.client.Minecraft.run(Minecraft.java:378)
+	at net.minecraft.client.main.Main.main(SourceFile:124)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at gg.essential.loader.stage2.relaunch.Relaunch.relaunch(Relaunch.java:124)
+	at gg.essential.loader.stage2.EssentialLoader.preloadEssential(EssentialLoader.java:220)
+	at gg.essential.loader.stage2.EssentialLoader.loadPlatform(EssentialLoader.java:116)
+	at gg.essential.loader.stage2.EssentialLoaderBase.load(EssentialLoaderBase.java:148)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at gg.essential.loader.stage1.EssentialLoaderBase.load(EssentialLoaderBase.java:293)
+	at gg.essential.loader.stage1.EssentialSetupTweaker.<init>(EssentialSetupTweaker.java:44)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at gg.essential.loader.stage0.EssentialSetupTweaker.loadStage1(EssentialSetupTweaker.java:53)
+	at gg.essential.loader.stage0.EssentialSetupTweaker.<init>(EssentialSetupTweaker.java:26)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:422)
+	at java.lang.Class.newInstance(Class.java:442)
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:98)
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+
+-- System Details --
+Details:
+	Game Directory: \AppData\Roaming\.minecraft\versions\1.8.9-forge1.8.9-11.15.1.2318-1.8.9
+	ChatTriggers modules: [Module{name=axios,version=1.0.9}, Module{name=BeaconBeam,version=1.0.1}, Module{name=BetterMap,version=1.2.1}, Module{name=Bloom,version=4.8.4}, Module{name=BloomCore,version=0.4.15}, Module{name=Coleweight,version=1.13.5}, Module{name=DeepProxy,version=2.0.0}, Module{name=DungeonUtilities,version=0.9.9}, Module{name=Elementa,version=1.5.2}, Module{name=guimanager,version=0.1.7}, Module{name=NwjnAddons,version=0.11.5}, Module{name=PersistentData,version=1.1.3}, Module{name=PogData,version=1.0.3}, Module{name=PromiseV2,version=1.0.4}, Module{name=RenderLib,version=0.4.0}, Module{name=requestV2,version=2.1.1}, Module{name=SettingsManager,version=1.2.2}, Module{name=soopyAddonsData,version=0.0.1}, Module{name=soopyApis,version=0.1.17}, Module{name=SoopyV2,version=2.1.202}, Module{name=Vigilance,version=1.3.2}]
+	Minecraft Version: 1.8.9
+	Operating System: Windows 10 (amd64) version 10.0
+	CPU: 6x Intel(R) Core(TM) i5-9400F CPU @ 2.90GHz
+	Java Version: 1.8.0_51, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 1149832024 bytes (1096 MB) / 2751463424 bytes (2624 MB) up to 6442450944 bytes (6144 MB)
+	JVM Flags: 8 total; -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump -Xmx6G -XX:+UnlockExperimentalVMOptions -XX:+UseG1GC -XX:G1NewSizePercent=20 -XX:G1ReservePercent=20 -XX:MaxGCPauseMillis=50 -XX:G1HeapRegionSize=32M
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: MCP 9.19 Powered by Forge 11.15.1.2318 Optifine OptiFine_1.8.9_HD_U_I7 34 mods loaded, 34 mods active
+	States: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored
+
+	| State  | ID                    | Version        | Source                                     |
+	| ------ | --------------------- | -------------- | ------------------------------------------ |
+	| UCHIJA | mcp                   | 9.19           | minecraft.jar                              |
+	| UCHIJA | FML                   | 8.0.99.99      | forge-1.8.9-11.15.1.2318-1.8.9.jar         |
+	| UCHIJA | Forge                 | 11.15.1.2318   | forge-1.8.9-11.15.1.2318-1.8.9.jar         |
+	| UCHIJA | refractionoof         | 3.0            | minecraft.jar                              |
+	| UCHIJA | PlayerAPI             | 1.0            | minecraft.jar                              |
+	| UCHIJA | essential             | 1.0.0          | Essential (forge_1.8.9).processed.jar      |
+	| UCHIJA | autotip               | 3.0.1          | Autotip-3.0.1 [1.8-1.12.2].jar             |
+	| UCHIJA | multibind             | 1.0.0          | multibind-1.0.0.jar                        |
+	| UCHIJA | oneconfig             | 0.2.2-alpha213 | OneConfig (1.8.9-forge).jar                |
+	| UCHIJA | modcore               | 0.1.51         | Sk1er Modcore-0.1.51 (1.8.9).jar           |
+	| UCHIJA | hypixel_mod_api       | 1.0.1.1        | HypixelModAPI-1.0.1.1.jar                  |
+	| UCHIJA | customcrosshairmod    | 0.5.1-Forge    | [1.8.9] Crosshairmod-v0.5.1.jar            |
+	| UCHIJA | sidebarmod            | 2.0            | [1.8.9] Sidebar Mod Revamp.jar             |
+	| UCHIJA | ArmorHud              | 1.0.0          | ArmorHud-1.8.9-1.0.0.jar                   |
+	| UCHIJA | autogg                | 4.1.3          | AutoGG-4.1.3 (1.8.9).jar                   |
+	| UCHIJA | AutoWho               | 1.0            | AutoWho-1.0.jar                            |
+	| UCHIJA | blockoverlay          | 4.0.3          | Block_Overlay_4.0.3.jar                    |
+	| UCHIJA | chatting              | 1.5.3          | Chatting-1.8.9-forge-1.5.3.jar             |
+	| UCHIJA | cowlection            | 1.8.9-0.16.0   | Cowlection-1.8.9-0.16.0.jar                |
+	| UCHIJA | chattriggers          | 2.2.1          | ctjs-2.2.1-1.8.9.jar                       |
+	| UCHIJA | dulkirmod             | 1.2.8          | DulkirMod-1.2.8.jar                        |
+	| UCHIJA | dungeonrooms          | 3.4.1          | Dungeon_Rooms-3.4.1.jar                    |
+	| UCHIJA | Danker's Skyblock Mod | 2.3.1          | MC.1.8.9.Danker.s.Skyblock.Mod.-.2.3.1.jar |
+	| UCHIJA | modcore_example_mod   | 1.0            | ModCore_Container-1.0.jar                  |
+	| UCHIJA | notenoughupdates      | 2.3.3          | NotEnoughUpdates-2.3.3.jar                 |
+	| UCHIJA | patcher               | 1.8.9          | Patcher-1.8.9 (1.8.9).jar                  |
+	| UCHIJA | scathapro             | 1.2.3.1        | Scatha-Pro v1.2.3.1.jar                    |
+	| UCHIJA | text_overflow_scroll  | 1.4.0          | Scrollable Tooltips-1.4 (1.8.9).jar        |
+	| UCHIJA | skyblockaddons        | 1.7.3          | SkyblockAddons-1.7.3+7380-for-MC-1.8.9.jar |
+	| UCHIJA | skyblockfeatures      | 1.2.9          | skyblockfeatures-1.2.9.jar                 |
+	| UCHIJA | skyhanni              | 0.27.Beta.8    | SkyHanni-0.27.Beta.8.jar                   |
+	| UCHIJA | skytils               | 1.10.6         | Skytils-1.10.6.jar                         |
+	| UCHIJA | soopyv2forge          | 1.1            | soopyv2forge-1.1.jar                       |
+	| UCHIJA | publictogglechat      | 2.1.0          | ToggleChat-2.1.0-SNAPSHOT.jar              |
+
+	Loaded coremods (and transformers): 
+FMLLoadingPlugin (Scrollable Tooltips-1.4 (1.8.9).jar)
+  club.sk1er.mods.scrollabletooltips.forge.ClassTransformer
+FMLLoadingPlugin (ModCore_Container-1.0.jar)
+  club.sk1er.mods.core.forge.ClassTransformer
+AsmHelperLoadingPlugin (ctjs-2.2.1-1.8.9.jar)
+  com.chattriggers.ctjs.launch.plugin.CTJSTransformer
+MixinLoader (multibind-1.0.0.jar)
+  
+Skytils On Top (Skytils-1.10.6.jar)
+  gg.skytils.skytilsmod.asm.SkytilsTransformer
+ModTweaker (Patcher-1.8.9 (1.8.9).jar)
+  club.sk1er.patcher.tweaker.other.ModClassTransformer
+LoadingPlugin (Block_Overlay_4.0.3.jar)
+  me.aycy.blockoverlay.asm.Transformer
+SkyblockAddonsLoadingPlugin (SkyblockAddons-1.7.3+7380-for-MC-1.8.9.jar)
+  codes.biscuit.skyblockaddons.tweaker.SkyblockAddonsTransformer
+PlayerAPIPlugin (PlayerAPI-1.8.9-1.0.jar)
+  api.player.forge.PlayerAPITransformer
+PatcherTweaker (Patcher-1.8.9 (1.8.9).jar)
+  club.sk1er.patcher.tweaker.ClassTransformer
+FMLLoadingPlugin (OofMod-3.0 (1.8.9).jar)
+  us.nickfraction.oofmod.asm.EntityPlayerTransformer
+  us.nickfraction.oofmod.asm.EntityArrowTransformer
+  us.nickfraction.oofmod.asm.EntityFishHookTransformer
+  us.nickfraction.oofmod.asm.RenderGlobalTransformer
+	GL info: ' Vendor: 'NVIDIA Corporation' Version: '4.6.0 NVIDIA 551.23' Renderer: 'NVIDIA GeForce GTX 1660/PCIe/SSE2'
+	Skytils Debug Info: {HasBetterFPS=false, BetterFPS Version=NONE, Disabled Start Checks=false}
+	Launched Version: 1.8.9-forge1.8.9-11.15.1.2318-1.8.9
+	LWJGL: 2.9.4
+	OpenGL: NVIDIA GeForce GTX 1660/PCIe/SSE2 GL version 4.6.0 NVIDIA 551.23, NVIDIA Corporation
+	GL Caps: Using GL 1.3 multitexturing.
+Using GL 1.3 texture combiners.
+Using framebuffer objects because OpenGL 3.0 is supported and separate blending is supported.
+Shaders are available because OpenGL 2.1 is supported.
+VBOs are available because OpenGL 1.5 is supported.
+
+	Using VBOs: No
+	Is Modded: Definitely; Client brand changed to 'fml,forge'
+	Type: Client (map_client.txt)
+	Resource Packs: §bCland§7estine [§b16x§7] §bAqua.zip, !    ?frefrost ?8[?f16x?8].zip, Default-Dark-Mode Copy, !               §6Sky v1.zip
+	Current Language: English (US)
+	Profiler Position: N/A (disabled)
+	CPU: 6x Intel(R) Core(TM) i5-9400F CPU @ 2.90GHz
+	OptiFine Version: OptiFine_1.8.9_HD_U_I7
+	Render Distance Chunks: 12
+	Mipmaps: 4
+	Anisotropic Filtering: 1
+	Antialiasing: 0
+	Multitexture: false
+	Shaders: null
+	OpenGlVersion: 4.6.0 NVIDIA 551.23
+	OpenGlRenderer: NVIDIA GeForce GTX 1660/PCIe/SSE2
+	OpenGlVendor: NVIDIA Corporation
+	CpuCount: 6

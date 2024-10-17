@@ -4,7 +4,6 @@
         "c91b95e9-b144-4e51-9536-f9d84a2501de",
         "2abcaa23-d4ee-48e7-88c7-4009600aabf2",
         "d96679ac-6a27-4139-84de-6a94c21de963",
-        "13bddcd4-5bcf-4a16-b321-b03aabd57180",
         "a5178260-1cb2-42cd-88c8-77943205892d",
         "f674f2e2-e8aa-4b10-90f8-969fecb4c327",
         "a967b67a-6030-402b-96f6-47b48cabfdf6",
@@ -20,14 +19,17 @@
         "aa8d86a6-5608-4314-b841-ec4de5b8ba30",
         "71bfe4e9-6871-4399-a43c-a6e3f117d8d0",
         "73005329-cd24-442a-962c-b27ef290da5c",
+        "8e924a0a-7d24-455d-ab3f-ca9c1bcff67a",
         "cefcf4b4-d963-4114-ab0f-1cd8eec76404",
         "853b842a-af0e-44fb-a6df-876c6e259e24",
-        "6afcd6f0-cb35-44d2-8fd8-37c79ebcc3eb",
         "c585cb80-3586-4e85-ad45-29c498affae0",
+        "6afcd6f0-cb35-44d2-8fd8-37c79ebcc3eb",
         "0739acf3-b902-4148-935a-dddc5c10acd8",
         "c4b9c641-01a5-46c5-8f01-999d6a4b73f4"
     ],
     "favoriteItemIds": [
-        "GRAPPLING_HOOK"
+        "OIL_BARREL",
+        "GRAPPLING_HOOK",
+        "SUSPICIOUS_SCRAP"
     ]
 }

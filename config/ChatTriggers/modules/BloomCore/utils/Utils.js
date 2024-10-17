@@ -1507,15 +1507,27 @@ export const rotateCoords = ([x, y, z], degree) => {
  * Gets the player's yaw in range 0 to 360
  * @returns {Number}
  */
-export const getAbsoluteYaw = () => {
-    const yaw = Player.getYaw()
-    if (yaw < 0) return yaw + 360
-    return yaw
+export const getAbsoluteYaw = (yaw=null) => {
+    if (yaw == null) yaw = Player.getYaw()
+    if (yaw < 0) return (yaw % 360) + 360
+    
+    return yaw % 360
+}
+
+/**
+ * Gets the player's pitch in range 0 to 360
+ * @returns {Number}
+ */
+export const getAbsolutePitch = (pitch=null) => {
+    if (pitch == null) pitch = Player.getPitch()
+    if (pitch < 0) return (pitch % 180) + 180
+
+    return pitch % 180
 }
 
 
 /**
- * Gets the x, y and z components of the entity's motion
+ * Gets the x, y and z components of the entity's motion in blocks per tick
  * @param {MCEntity | Entity} entity 
  * @returns {[Number, Number, Number] | null}
  */
@@ -1526,9 +1538,16 @@ export const getEntityMotion = (entity) => {
     return [entity.field_70159_w, entity.field_70181_x, entity.field_70179_y]
 }
 
-export const getEntityVelocity = (entity) => {
+/**
+ * Returns the how fast the entity is travelling in blocks per tick
+ * @param {Entity | MCEntity} entity 
+ * @returns 
+ */
+export const getEntityVelocity = (entity, excludeVertical=false) => {
     const motionComponents = getEntityMotion(entity)
+
     if (!motionComponents) return null
+    if (excludeVertical) motionComponents[1] = 0
 
     return Math.sqrt(motionComponents.reduce((a, b) => a + Math.pow(b, 2), 0))
 }

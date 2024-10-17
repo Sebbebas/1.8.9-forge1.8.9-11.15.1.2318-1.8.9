@@ -270,7 +270,8 @@
         "TIGER_SHARK_TOOTH",
         "CHUM",
         "GLOWING_MUSHROOM",
-        "AGARIMOO_TONGUE"
+        "AGARIMOO_TONGUE",
+        "WORM_MEMBRANE"
       ]
     },
     "Enchanted Fishing": {
@@ -411,7 +412,9 @@
         "PLASMA",
         "SORROW",
         "BIOFUEL",
-        "OIL_BARREL"
+        "OIL_BARREL",
+        "UMBER_KEY",
+        "TUNGSTEN_KEY"
       ]
     },
     "Slayer": {

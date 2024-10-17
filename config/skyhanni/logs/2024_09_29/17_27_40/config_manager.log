@@ -1,0 +1,69 @@
+17:28:23 Trying to load config from config\skyhanni\config.json
+17:28:23 load-config-now
+17:28:24 Loaded config from file
+17:28:24 Trying to load sacks from config\skyhanni\sacks.json
+17:28:24 load-sacks-now
+17:28:24 Loaded sacks from file
+17:28:24 Trying to load friends from config\skyhanni\friends.json
+17:28:24 load-friends-now
+17:28:24 Loaded friends from file
+17:28:24 Trying to load known_features from config\skyhanni\known_features.json
+17:28:24 load-known_features-now
+17:28:24 Loaded known_features from file
+17:28:24 Trying to load jacob_contests from config\skyhanni\jacob_contests.json
+17:28:24 load-jacob_contests-now
+17:28:24 Loaded jacob_contests from file
+17:28:24 Trying to load visual_words from config\skyhanni\visual_words.json
+17:28:24 Setting visual_words to be blank as it did not exist. It will be saved once something is written to it
+17:29:24 saveConfig: auto-save-60s
+17:29:24 Saving config file
+17:29:44 saveConfig: Updated known feature flags
+17:29:44 Saving known_features file
+17:30:24 saveConfig: auto-save-60s
+17:30:24 Saving config file
+17:31:24 saveConfig: auto-save-60s
+17:31:24 Saving config file
+17:32:24 saveConfig: auto-save-60s
+17:32:24 Saving config file
+17:33:24 saveConfig: auto-save-60s
+17:33:24 Saving config file
+17:34:25 saveConfig: auto-save-60s
+17:34:25 Saving config file
+17:35:24 saveConfig: auto-save-60s
+17:35:24 Saving config file
+17:36:24 saveConfig: auto-save-60s
+17:36:24 Saving config file
+17:37:24 saveConfig: auto-save-60s
+17:37:24 Saving config file
+17:37:45 saveConfig: saving-data
+17:37:45 Saving sacks file
+17:38:24 saveConfig: auto-save-60s
+17:38:24 Saving config file
+17:39:24 saveConfig: auto-save-60s
+17:39:24 Saving config file
+17:40:24 saveConfig: auto-save-60s
+17:40:24 Saving config file
+17:41:24 saveConfig: auto-save-60s
+17:41:24 Saving config file
+17:42:24 saveConfig: auto-save-60s
+17:42:24 Saving config file
+17:43:24 saveConfig: auto-save-60s
+17:43:24 Saving config file
+17:44:24 saveConfig: auto-save-60s
+17:44:24 Saving config file
+17:45:24 saveConfig: auto-save-60s
+17:45:24 Saving config file
+17:46:24 saveConfig: auto-save-60s
+17:46:24 Saving config file
+17:47:24 saveConfig: auto-save-60s
+17:47:24 Saving config file
+17:48:24 saveConfig: auto-save-60s
+17:48:24 Saving config file
+17:49:24 saveConfig: auto-save-60s
+17:49:24 Saving config file
+17:50:24 saveConfig: auto-save-60s
+17:50:24 Saving config file
+17:51:24 saveConfig: auto-save-60s
+17:51:24 Saving config file
+17:52:18 saveConfig: shutdown-hook
+17:52:18 Saving config file

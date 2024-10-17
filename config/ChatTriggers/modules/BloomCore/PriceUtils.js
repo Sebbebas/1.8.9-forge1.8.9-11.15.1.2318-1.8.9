@@ -21,6 +21,13 @@ const stackingEnchants = new Set([
     "expertise"
 ])
 
+const promisingTools = [
+    "PROMISING_PICKAXE",
+    "PROMISING_SPADE",
+    "PROMISING_AXE",
+    "PROMISING_HOE"
+]
+
 export default new class PriceUtils {
     constructor() {
         this.bins = new Map()
@@ -365,7 +372,7 @@ export default new class PriceUtils {
         if (extra.enchantments) {
             for (let entry of Object.entries(extra.enchantments)) {
                 let [enchant, level] = entry
-                if (enchant == "efficiency" && level > 5) {
+                if (enchant == "efficiency" && level > 5 && !promisingTools.includes(sbId)) {
                     let silexes = level - 5
                     if (sbId == "STONK_PICKAXE") level--
                     breakdown.silexes = (this.getPrice("SIL_EX") ?? 0) * silexes

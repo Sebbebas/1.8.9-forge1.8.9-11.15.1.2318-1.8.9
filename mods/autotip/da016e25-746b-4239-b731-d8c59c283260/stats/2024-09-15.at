@@ -1,0 +1,25 @@
+{
+  "date": {
+    "year": 2024,
+    "month": 9,
+    "day": 15
+  },
+  "tipsSent": 4,
+  "tipsReceived": 0,
+  "xpSent": 200,
+  "xpReceived": 0,
+  "gameStatistics": {
+    "UHC Champions": {
+      "coinsSent": 15,
+      "coinsReceived": 0
+    },
+    "Blitz SG": {
+      "coinsSent": 15,
+      "coinsReceived": 0
+    },
+    "Cops and Crims": {
+      "coinsSent": 15,
+      "coinsReceived": 0
+    }
+  }
+}

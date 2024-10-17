@@ -12,7 +12,7 @@
 		active_pet_highlight_color = "255,0,255,0"
 		autopet_message_hider = 0
 		hide_pet_nametags = false
-		pet_item_confirmation = true
+		pet_item_confirmation = false
 
 [general]
 
@@ -21,7 +21,7 @@
 		config_button_on_pause = true
 		reopen_options_menu = true
 		first_launch = false
-		last_launched_skytils_version = "1.10.5"
+		last_launched_skytils_version = "1.10.6"
 
 	[general.reparty]
 		override_other_reparty_commands = false
@@ -33,6 +33,7 @@
 		local_api_password = ""
 
 	[general.command_aliases]
+		command_alias_subcommands = false
 		command_alias_mode = 0
 
 	[general.api]
@@ -57,12 +58,12 @@
 		hide_tooltips_while_on_storage = false
 		ping_display = 1
 		also_copy_very_rare_drops_to_clipboard = false
-		transparent_armor_layer = 1.0
+		transparent_armor_layer = 0.0
 		auto_copy_rng_drops_to_clipboard = true
 		random_stuff = false
 		players_in_range_display = false
 		"mark_'dirty'_items" = true
-		head_layer_transparency = 1.0
+		head_layer_transparency = 0.0
 		cap_legion_display = true
 		scam_check = false
 		legion_player_display = false

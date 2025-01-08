@@ -1,0 +1,10 @@
+[
+    {
+        "type": "COSMETIC_BONE_HIDING",
+        "id": "PAPER_BAG",
+        "enabled": true,
+        "data": {
+            "head": true
+        }
+    }
+]

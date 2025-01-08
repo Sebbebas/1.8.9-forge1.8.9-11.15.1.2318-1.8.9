@@ -139,7 +139,7 @@ key_Dungeon Map Zoom Out:74
 key_Copy NBT:157
 key_Warp to nearest location to burrial guess:0
 key_Choose the nearest eman boss as your boss.:0
-soundCategory_master:0.589404
+soundCategory_master:0.16887417
 soundCategory_music:0.0
 soundCategory_record:0.5
 soundCategory_weather:0.5070422
@@ -147,7 +147,7 @@ soundCategory_block:0.5
 soundCategory_hostile:0.5
 soundCategory_neutral:0.5
 soundCategory_player:0.5
-soundCategory_ambient:0.5
+soundCategory_ambient:0.0
 modelPart_cape:true
 modelPart_jacket:true
 modelPart_left_sleeve:true

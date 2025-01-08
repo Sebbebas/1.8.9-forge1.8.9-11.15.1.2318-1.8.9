@@ -1113,7 +1113,7 @@ export const raytraceBlocks = (startPos=null, directionVector=null, distance=60,
 
 // If one of these blocks is above the targeted etherwarp block, it is a valid teleport.
 // However if the block itself is being targetted, then it is not a valid block to etherwarp to.
-const validEtherwarpFeetBlocks = new Set([
+const etherBlockTypes = [
     "minecraft:air",
     "minecraft:fire",
     "minecraft:carpet",
@@ -1122,7 +1122,6 @@ const validEtherwarpFeetBlocks = new Set([
     "minecraft:stone_button",
     "minecraft:wooden_button",
     "minecraft:torch",
-    "minecraft:string",
     "minecraft:tripwire_hook",
     "minecraft:tripwire",
     "minecraft:rail",
@@ -1157,7 +1156,11 @@ const validEtherwarpFeetBlocks = new Set([
     "minecraft:brown_mushroom",
     "minecraft:red_mushroom",
     "minecraft:piston_extension",
-])
+].map(a => new BlockType(a).getID())
+
+// Make it so that the array can be directly indexed into via the block id instead of having to calculate a hash with a set
+// Each index corresponds to a block ID, where that index can either be true or false depending on if this is a valid ether foot block
+export const validEtherwarpFeetBlocks = new Array(500).fill(false).map((_, i) => etherBlockTypes.includes(i))
 
 /**
  * Checks whether the given block is a valid spot to etherwarp to.
@@ -1171,16 +1174,16 @@ export const isValidEtherwarpBlock = (block) => {
 
     // Checking the actual block to etherwarp ontop of
     // Can be at foot level, but not etherwarped onto directly.
-    if (validEtherwarpFeetBlocks.has(block.type.getRegistryName())) return false
+    if (validEtherwarpFeetBlocks[block.type.getID()]) return false
 
     // The block at foot level
     const blockAbove = World.getBlockAt(block.getX(), block.getY()+1, block.getZ())
-    if (!validEtherwarpFeetBlocks.has(blockAbove.type.getRegistryName())) return false
+    if (!validEtherwarpFeetBlocks[blockAbove.type.getID()]) return false
 
     // The block at head height
     const blockAboveAbove = World.getBlockAt(block.getX(), block.getY()+2, block.getZ())
     
-    return validEtherwarpFeetBlocks.has(blockAboveAbove.type.getRegistryName())
+    return validEtherwarpFeetBlocks[blockAboveAbove.type.getID()]
 }
 
 /**
@@ -1610,4 +1613,23 @@ export const unzipGzipData = (data) => {
     if (!data) return null
 
     return new NBTTagCompound(CompressedStreamTools.func_74796_a(new ByteArrayInputStream(Base64.getDecoder().decode(data))))
+}
+
+/**
+ * Returns the median of the given sorted array, or null if the array is empty
+ * @param {Array<Number>} array 
+ * @returns {Number | null}
+ */
+export const getMedian = (array) => {
+    if  (!Array.isArray(array) || array.length == 0) return null
+
+    // Array is an odd number, can find center easily
+    if (array.length % 2 == 1) {
+        return array[array.length >> 1] // Same as dividing by 2
+    }
+
+    // Even number, need to do find the average of the two middle values
+    const mid = (array.length - 1) >> 1
+
+    return (array[mid] + array[mid+1]) / 2
 }

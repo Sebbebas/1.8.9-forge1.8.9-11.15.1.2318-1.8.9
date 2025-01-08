@@ -1,0 +1,260 @@
+[
+    {
+        "type": "VARIANTS",
+        "id": "MECH_ARMOR",
+        "enabled": true,
+        "data": {
+            "variants": [
+                {
+                    "name": "silver",
+                    "color": 13816530
+                },
+                {
+                    "name": "red",
+                    "color": 16711680
+                },
+                {
+                    "name": "black",
+                    "color": 9437439
+                },
+                {
+                    "name": "pink",
+                    "color": 16736755
+                },
+                {
+                    "name": "blue",
+                    "color": 5636351
+                }
+            ]
+        }
+    },
+    {
+        "type": "ARMOR_HANDLING",
+        "id": "MECH_ARMOR",
+        "enabled": true,
+        "data": {
+            "arms": true,
+            "body": true,
+            "legs": true
+        }
+    },
+    {
+        "type": "COSMETIC_BONE_HIDING",
+        "id": "BITZEL_SOCK_MONKEY",
+        "enabled": true,
+        "data": {
+            "head": true,
+            "arms": true,
+            "body": true,
+            "legs": true
+        }
+    },
+    {
+        "type": "COSMETIC_BONE_HIDING",
+        "id": "SHOULDER_PADS_UNDERWORLD",
+        "enabled": true,
+        "data": {
+            "head": true,
+            "arms": true,
+            "body": true,
+            "legs": true
+        }
+    },
+    {
+        "type": "COSMETIC_BONE_HIDING",
+        "id": "SHOULDER_PADS_OVERWORLD",
+        "enabled": true,
+        "data": {
+            "head": true,
+            "arms": true,
+            "body": true,
+            "legs": true
+        }
+    },
+    {
+        "type": "COSMETIC_BONE_HIDING",
+        "id": "MASHCLASH_SHOULDER_YETI",
+        "enabled": true,
+        "data": {
+            "head": true,
+            "arms": true,
+            "body": true,
+            "legs": true
+        }
+    },
+    {
+        "type": "VARIANTS",
+        "id": "UNUSED",
+        "enabled": true,
+        "data": {
+            "variants": [
+                {
+                    "name": "silver",
+                    "color": 13816530
+                },
+                {
+                    "name": "red",
+                    "color": 16711680
+                },
+                {
+                    "name": "black",
+                    "color": 9437439
+                },
+                {
+                    "name": "pink",
+                    "color": 16736755
+                },
+                {
+                    "name": "blue",
+                    "color": 5636351
+                }
+            ]
+        }
+    },
+    {
+        "type": "EXTERNAL_HIDDEN_BONE",
+        "id": "LUXURY_SUIT_VEST",
+        "enabled": true,
+        "data": {
+            "t_shirt": true
+        }
+    },
+    {
+        "type": "EXTERNAL_HIDDEN_BONE",
+        "id": "CAMO_PANTS",
+        "enabled": true,
+        "data": {
+            "body_outer": true,
+            "leg_left_outer": true,
+            "leg_right_outer": true
+        }
+    },
+    {
+        "type": "EXTERNAL_HIDDEN_BONE",
+        "id": "SHORTS",
+        "enabled": true,
+        "data": {
+            "leg_left_outer": true,
+            "leg_right_outer": true,
+            "body_outer": true
+        }
+    },
+    {
+        "type": "EXTERNAL_HIDDEN_BONE",
+        "id": "PANTS",
+        "enabled": true,
+        "data": {
+            "body_outer": true,
+            "leg_left_outer": true,
+            "leg_right_outer": true
+        }
+    },
+    {
+        "type": "EXTERNAL_HIDDEN_BONE",
+        "id": "SHINY_PANTS",
+        "enabled": true,
+        "data": {
+            "body_outer": true,
+            "leg_left_outer": true,
+            "leg_right_outer": true
+        }
+    },
+    {
+        "type": "EXTERNAL_HIDDEN_BONE",
+        "id": "PAJAMA_PANTS",
+        "enabled": true,
+        "data": {
+            "body_outer": true,
+            "leg_left_outer": true,
+            "leg_right_outer": true
+        }
+    },
+    {
+        "type": "EXTERNAL_HIDDEN_BONE",
+        "id": "CAMO_HOODIE",
+        "enabled": true,
+        "data": {
+            "arm_right_outer": true,
+            "arm_left_outer": true,
+            "body_outer": true
+        }
+    },
+    {
+        "type": "EXTERNAL_HIDDEN_BONE",
+        "id": "PAJAMA_TOP",
+        "enabled": true,
+        "data": {
+            "arm_left_outer": true,
+            "arm_right_outer": true,
+            "body_outer": true
+        }
+    },
+    {
+        "type": "EXTERNAL_HIDDEN_BONE",
+        "id": "GRUNGE_SHIRT",
+        "enabled": true,
+        "data": {
+            "arm_left_outer": true,
+            "arm_right_outer": true,
+            "body_outer": true
+        }
+    },
+    {
+        "type": "EXTERNAL_HIDDEN_BONE",
+        "id": "T_SHIRT",
+        "enabled": true,
+        "data": {
+            "body_outer": true
+        }
+    },
+    {
+        "type": "EXTERNAL_HIDDEN_BONE",
+        "id": "HOODIE",
+        "enabled": true,
+        "data": {
+            "arm_left_outer": true,
+            "arm_right_outer": true,
+            "body_outer": true
+        }
+    },
+    {
+        "type": "EXTERNAL_HIDDEN_BONE",
+        "id": "SHINY_HOODIE",
+        "enabled": true,
+        "data": {
+            "arm_left_outer": true,
+            "arm_right_outer": true,
+            "body_outer": true
+        }
+    },
+    {
+        "type": "EXTERNAL_HIDDEN_BONE",
+        "id": "BUTTON_UP_SHIRT",
+        "enabled": true,
+        "data": {
+            "arm_left_outer": true,
+            "arm_right_outer": true,
+            "body_outer": true
+        }
+    },
+    {
+        "type": "EXTERNAL_HIDDEN_BONE",
+        "id": "VEST",
+        "enabled": true,
+        "data": {
+            "vest": true,
+            "body_outer": true,
+	    "t_shirt": true
+        }
+    },
+    {
+       "type": "EXTERNAL_HIDDEN_BONE",
+       "id": "UGLY_SWEATER",
+       "enabled": true,
+       "data": {
+           "arm_right_outer": true,
+           "arm_left_outer": true,
+           "body_outer": true
+    }
+}
+]

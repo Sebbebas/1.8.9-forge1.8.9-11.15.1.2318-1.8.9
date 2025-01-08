@@ -24,7 +24,7 @@
         "x": 0,
         "y": 0,
         "scale": 1,
-        "lastWarp": 1726422453530
+        "lastWarp": 1736253788502
     },
     "chMap": {
         "x": 0,
@@ -48,7 +48,63 @@
         "x": 0,
         "y": 0,
         "scale": 1,
-        "data": {}
+        "data": {
+            "F2": {
+                "score": 192,
+                "needed": 9450,
+                "item": "§6Recombobulator 3000"
+            },
+            "F1": {
+                "score": 1274,
+                "item": "§6Recombobulator 3000",
+                "needed": 10599
+            },
+            "F3": {
+                "score": 869,
+                "item": "§6Recombobulator 3000",
+                "needed": 6525
+            },
+            "F4": {
+                "score": 5074,
+                "item": "§5Spirit Wing",
+                "needed": 12449
+            },
+            "F5": {
+                "score": 18227,
+                "item": "§6Shadow Fury",
+                "needed": 114300
+            },
+            "F6": {
+                "score": 14754,
+                "item": "§6Giant's Sword",
+                "needed": 160020
+            },
+            "F7": {
+                "score": 124165,
+                "item": "§5Necron's Handle",
+                "needed": 274119
+            },
+            "M1": {
+                "score": 820,
+                "item": "§6Recombobulator 3000",
+                "needed": 6450
+            },
+            "M2": {
+                "score": 507,
+                "item": "§6Recombobulator 3000",
+                "needed": 6199
+            },
+            "M3": {
+                "score": 614,
+                "item": "§5First Master Star",
+                "needed": 11850
+            },
+            "M4": {
+                "score": 0,
+                "item": "§5Second Master Star",
+                "needed": 10950
+            }
+        }
     },
     "terminalTimer": {
         "colors": 999999,

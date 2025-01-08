@@ -14,6 +14,11 @@
 		hide_pet_nametags = false
 		pet_item_confirmation = false
 
+[rift]
+
+	[rift.solvers]
+		quad_link_legacy_solver = false
+
 [general]
 
 	[general.other]
@@ -21,7 +26,7 @@
 		config_button_on_pause = true
 		reopen_options_menu = true
 		first_launch = false
-		last_launched_skytils_version = "1.10.6"
+		last_launched_skytils_version = "1.10.9-pre1"
 
 	[general.reparty]
 		override_other_reparty_commands = false

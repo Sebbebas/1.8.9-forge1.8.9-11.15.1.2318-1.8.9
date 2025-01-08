@@ -1,19 +1,11 @@
 import Party from "../../BloomCore/Party"
 import { catacombs } from "../../BloomCore/skills/catacombs"
-import { getHypixelPlayerV2, getPlayerUUID, getSelectedProfileV2 } from "../../BloomCore/utils/APIWrappers"
-import { bcData, calcSkillLevel, convertToPBTime, fn, getRank, unzipGzipData } from "../../BloomCore/utils/Utils"
+import { getHypixelPlayerV2, getPlayerUUID, getSkyblockProfilesV2 } from "../../BloomCore/utils/APIWrappers"
+import { bcData, calcSkillLevel, convertToPBTime, fn, getRank, title, unzipGzipData } from "../../BloomCore/utils/Utils"
 import Promise from "../../PromiseV2"
 import { prefix } from "../utils/Utils"
-import {getMpInfo, getSpiritPetStatus, getGdragStatus, getSelectedArrows, getSbLevelInfo} from "../utils/ProfileInfoCommons"
+import {getMpInfo, getSpiritPetStatus, getGdragStatus, getSelectedArrows, getSbLevelInfo, classWithSymbols} from "../utils/ProfileInfoCommons"
 import Config from "../Config"
-
-const classWithSymbols = {
-    "mage": "⚚ Mage",
-    "healer": "☤ Healer",
-    "archer": "➶ Archer",
-    "tank": "። Tank",
-    "berserk": "⚔ Berserk"
-}
 
 const invisComma = "&0,"
 const columnSeparator = ` &8| `
@@ -62,10 +54,7 @@ const getFormattedComps = (comps, isMM) => {
 // 5] 4589 1138 | 1:41  1:41 | 2:03  2:04  |
 // 6] 504  272  | 2:31  2:27 | 2:49  2:34  |
 // 7] 385  1    | 4:16  9:16 | 4:26  ??:?? |
-/**
- * 
- * @param {*} compMatrix - Example above, 6x7 matrix of comps, pbs etc. Having them all in a neat little matrix makes formatting it all much easier
- */
+
 const getCompInfo = (dungeonObject) => {
     const { matrix, normalComps, masterComps } = createCompMatrix(dungeonObject)
     const totalComps = normalComps + masterComps
@@ -213,7 +202,13 @@ const createInventoryComponent = (sbProfile) => {
 
 }
 
-export const dsCommand = register("command", (player) => {
+const gamemodeColors = {
+    ironman: "&7",
+    bingo: "&c",
+    stranded: "&a"
+}
+
+export const dsCommand = register("command", (player, profilename) => {
     if (!bcData.apiKey) return ChatLib.chat(`${prefix} &cError: API Key not set! Set it with &b/bl setkey <key>`)
     if (player == "p") {
         ChatLib.chat(`${prefix} &aRunning /ds on all party members...`)
@@ -228,9 +223,35 @@ export const dsCommand = register("command", (player) => {
 	getPlayerUUID(player).then(uuid => {
         Promise.all([
             getHypixelPlayerV2(uuid),
-            getSelectedProfileV2(uuid)
+            getSkyblockProfilesV2(uuid)
         ]).then(values => {
-            let [playerInfo, sbProfile] = values
+            let [playerInfo, sbProfiles] = values
+
+            let sbProfile = sbProfiles.profiles.find(a => a.selected)
+
+            const profileNames = sbProfiles.profiles.map(a => {
+                let final = ""
+                if (a.cute_name == sbProfile.cute_name) final += "&a> &r"
+                final += `&b${a.cute_name}`
+
+                if (a.game_mode) {
+                    final += ` &b(${gamemodeColors[a.game_mode] || "&b"}${title(a.game_mode)}&b)`
+                }
+
+                return final
+            })
+
+            // Stats for a specific profile
+            if (profilename) {
+                sbProfile = sbProfiles.profiles.find(a => {
+                    return a.cute_name.toLowerCase() == profilename.toLowerCase()
+                })
+
+                if (!sbProfile) {
+                    ChatLib.chat(`${prefix} &cCould not find profile: ${profilename}`)
+                    return
+                }
+            }
 
             if (!playerInfo) return ChatLib.chat(`${prefix} &cCouldn't get player info for ${player}`)
             if (!sbProfile) return ChatLib.chat(`${prefix} &cCouldn't get ${player}'s Skyblock profile!`)
@@ -238,16 +259,20 @@ export const dsCommand = register("command", (player) => {
             const playerName = playerInfo.player.displayname
             let nameFormatted = `${getRank(playerInfo)} ${playerName}&r`
             let profileName = sbProfile["cute_name"]
+
             if (!sbProfile.members[uuid]) return ChatLib.chat(`${prefix} &cCouldn't get ${player}'s Skyblock profile!`)
+
             sbProfile.members[uuid].banking = sbProfile.banking
             sbProfile = sbProfile.members[uuid]
             
-            if (!Object.keys(sbProfile.dungeons.dungeon_types.catacombs).length) return ChatLib.chat(`${prefix} &c${playerName} has never entered the Catacombs!`)
+            if (!sbProfile.dungeons || !Object.keys(sbProfile.dungeons.dungeon_types.catacombs).length) {
+                return ChatLib.chat(`${prefix} &c${playerName} has never entered the Catacombs on their ${profileName} profile!`)
+            }
+
             const secretsFound = playerInfo.player?.achievements?.skyblock_treasure_hunter || 0
             const profileSecrets = sbProfile?.dungeons?.secrets || 0
             
             let dung = sbProfile.dungeons
-            let master = sbProfile.dungeons.dungeon_types.master_catacombs ?? null
             let cata = sbProfile.dungeons.dungeon_types.catacombs
             
             let selectedClass = dung.selected_dungeon_class
@@ -260,17 +285,18 @@ export const dsCommand = register("command", (player) => {
             
             let nameHover = `${nameFormatted} &a- &e${profileName}`
             let classLvls = []
-            Object.keys(dung.player_classes).forEach(classs => {
-                let classXP = parseInt(dung.player_classes[classs].experience)
+            Object.entries(dung.player_classes).forEach(([classs, classData]) => {
+                let classXP = parseInt(classData.experience)
                 let classLvl = calcSkillLevel(classs, classXP)
                 classLvls.push(classLvl)
                 let xpCurr = classLvl >= 50 ? (classXP - catacombs[50])%2e8 : parseInt(classXP - catacombs[parseInt(classLvl)])
                 let xpNext = classLvl >= 50 ? 2e8 : catacombs[parseInt(classLvl)+1] - catacombs[parseInt(classLvl)] || 0
                 nameHover += `\n${classs == selectedClass ? "&a" : "&c"}${classWithSymbols[classs]} - &e${prettifyLevel(classLvl)}    &a(&6${fn(xpCurr)}&a/&6${fn(xpNext)}&a)`
-                
             })
+
             let classAverage = Math.round(classLvls.reduce((a, b) => a + b) / classLvls.length * 100) / 100
             nameHover += `\n\n&cClass Average: ` + (classAverage == 50 ? `&6&l${classAverage}` : `&e${classAverage}`)
+            nameHover += `\n\nProfiles:\n${profileNames.join("\n")}`
             nameHover += `\n\n&d&lSkyCrypt &7(Click)\n&ahttps://sky.shiiyu.moe/stats/${playerName}`
 
             let xpNext = catacombs[cataLow+1] - catacombs[cataLow]
@@ -324,7 +350,7 @@ export const dsCommand = register("command", (player) => {
                 // new TextComponent(`&cS`).setHover("show_text", sHover), columnSeparator,
             ).chat()
 
-        }).catch(e => ChatLib.chat(`${prefix} &cError getting Dungeon Stats for ${player}: ${e}`))
+        }).catch(e => ChatLib.chat(`${prefix} &cError getting Dungeon Stats for ${player}: ${JSON.stringify(e)}`))
     }).catch(error => {
         ChatLib.chat(`${prefix} &cError getting Dungeon Stats for ${player}: ${error}`)
     })

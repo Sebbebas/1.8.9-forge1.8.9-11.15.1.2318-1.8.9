@@ -630,8 +630,8 @@ export default new class Dungeon {
         // Matches the name and class of every player in the party
         // [74] UnclaimedBloom6 (Mage XXXIX)
         const matches = lines.reduce((a, b) => {
-            // https://regex101.com/r/cUzJoK/4
-            const match = b.match(/^\[(\d+)\] (?:\[\w+\] )*(\w+) (?:.)*?\((\w+)(?: (\w+))*\)$/)
+            // https://regex101.com/r/cUzJoK/7
+            const match = b.match(/^.?\[(\d+)\] (?:\[\w+\] )*(\w+) (?:.)*?\((\w+)(?: (\w+))*\)$/)
             if (!match) return a
             let [_, sbLevel, player, dungeonClass, classLevel] = match
             return a.concat([[player, dungeonClass, classLevel]])

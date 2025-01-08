@@ -21,14 +21,15 @@
         "SQUASH",
         "COMPOST",
         "POISONOUS_POTATO",
-        "GOLDEN_CARROT"
+        "GOLDEN_CARROT",
+        "JACK_O_LANTERN"
       ]
     },
     "Enchanted Agronomy": {
       "item": "LARGE_ENCHANTED_AGRONOMY_SACK",
       "contents": [
-        "ENCHANTED_HAY_BLOCK",
-        "TIGHTLY_TIED_HAY_BALE",
+        "ENCHANTED_WHEAT",
+        "ENCHANTED_HAY_BALE",
         "ENCHANTED_SEEDS",
         "BOX_OF_SEEDS",
         "ENCHANTED_CARROT",
@@ -431,7 +432,12 @@
         "RAW_SOULFLOW",
         "SOULFLOW",
         "DERELICT_ASHE",
-        "CRUDE_GABAGOOL"
+        "CRUDE_GABAGOOL",
+        "BLAZE_ROD_DISTILLATE",
+        "CRUDE_GABAGOOL_DISTILLATE",
+        "GLOWSTONE_DUST_DISTILLATE",
+        "MAGMA_CREAM_DISTILLATE",
+        "NETHER_STALK_DISTILLATE"
       ]
     },
     "Spooky": {

@@ -1,3 +1,4 @@
+import { getSkyblockItemID } from "../../BloomCore/utils/Utils"
 
 register("command", (count) => {
     // Custom number of pearls
@@ -8,7 +9,7 @@ register("command", (count) => {
         return
     }
 
-    const pearlStack = Player.getInventory().getItems().find(a => a?.getName() == "§fEnder Pearl")
+    const pearlStack = Player.getInventory().getItems().find(a => getSkyblockItemID(a) == "ENDER_PEARL")
 
     // No ender pearls in inventory
     if (!pearlStack) {

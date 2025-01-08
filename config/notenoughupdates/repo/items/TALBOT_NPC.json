@@ -44,8 +44,19 @@
       "cost": [
         "SKYBLOCK_PELT:340"
       ]
+    },
+    {
+      "type": "npc_shop",
+      "result": "POTION_STINKY_CHEESE;1:1",
+      "cost": [
+        "SKYBLOCK_PELT:40"
+      ]
     }
   ],
   "crafttext": "",
-  "infoType": ""
+  "infoType": "WIKI_URL",
+  "info": [
+    "https://hypixel-skyblock.fandom.com/wiki/Talbot",
+    "https://wiki.hypixel.net/Talbot"
+  ]
 }

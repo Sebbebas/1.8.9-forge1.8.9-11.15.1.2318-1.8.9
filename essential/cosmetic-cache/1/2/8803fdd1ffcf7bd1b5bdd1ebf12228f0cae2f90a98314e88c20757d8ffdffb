@@ -1,0 +1,91 @@
+[
+    {
+        "type": "VARIANTS",
+        "id": "UNUSED",
+        "enabled": true,
+        "data": {
+            "variants": [
+                {
+                    "name": "fire",
+                    "color": 16753920
+                },
+                {
+                    "name": "blue",
+                    "color": 2654676
+                },
+                {
+                    "name": "green",
+                    "color": 3329330
+                },
+                {
+                    "name": "purple",
+                    "color": 6950317
+                }
+            ]
+        }
+    },
+    {
+        "type": "ARMOR_HANDLING",
+        "id": "FIRE_HAIR",
+        "enabled": true,
+        "data": {
+            "head": true
+        }
+    },
+    {
+        "type": "EXTERNAL_HIDDEN_BONE",
+        "id": "TIKI_MASK",
+        "enabled": true,
+        "data": {
+            "crown": true
+        }
+    },
+    {
+        "type": "EXTERNAL_HIDDEN_BONE",
+        "id": "HOLY_MASK",
+        "enabled": true,
+        "data": {
+            "wing_3": true
+        }
+    },
+    {
+        "type": "EXTERNAL_HIDDEN_BONE",
+        "id": "DINO_ONESIE",
+        "enabled": true,
+        "data": {
+            "spikes_head": true
+        }
+    },
+    {
+        "type": "EXTERNAL_HIDDEN_BONE",
+        "id": "RED_DINO_ONESIE",
+        "enabled": true,
+        "data": {
+            "spikes_head": true
+        }
+    },
+    {
+        "type": "EXTERNAL_HIDDEN_BONE",
+        "id": "DOLPHIN_ONESIE",
+        "enabled": true,
+        "data": {
+            "fin": true
+        }
+    },
+    {
+        "type": "EXTERNAL_HIDDEN_BONE",
+        "id": "JACK_O_LANTERN_SUIT",
+        "enabled": true,
+        "data": {
+            "stem": true
+        }
+    },
+    {
+        "type": "EXTERNAL_HIDDEN_BONE",
+        "id": "SHARK_ONESIE",
+        "enabled": true,
+        "data": {
+            "fin": true
+        }
+    }
+]

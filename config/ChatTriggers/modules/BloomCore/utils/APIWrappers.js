@@ -1,6 +1,6 @@
 import Promise from "../../PromiseV2"
 import request from "../../requestV2"
-import { BufferedImage, Color, ImageIO, bcData, getApiKey } from "./Utils"
+import { BufferedImage, Color, ImageIO, bcData } from "./Utils"
 
 /**
  * Gets a player's mojang info containing their username, uuid and other related information. Returns null if there is an error.
@@ -8,8 +8,42 @@ import { BufferedImage, Color, ImageIO, bcData, getApiKey } from "./Utils"
  * @returns 
  */
 export const getMojangInfo = (player) => {
-    if (player.length > 16) return request({url: `https://sessionserver.mojang.com/session/minecraft/profile/${player}`, json: true}).catch(e => null)
-    return request({url: `https://api.mojang.com/users/profiles/minecraft/${player}`, json: true}).catch(e => null)
+    // Using UUID
+    if (player.length > 16) return request({
+        url: `https://sessionserver.mojang.com/session/minecraft/profile/${player}`,
+        json: true}
+    ).then(resp => {
+        resp.success = true
+
+        return resp
+    }).catch(e => {
+        const { path, errorMessage } = e
+
+        return {
+            success: false,
+            reason: errorMessage,
+            path,
+        }
+    })
+
+    // Using Username
+    return request({
+        url: `https://api.mojang.com/users/profiles/minecraft/${player}`,
+        json: true}
+    ).then(resp => {
+        resp.success = true
+
+        return resp
+
+    }).catch(e => {
+        const { path, errorMessage } = e
+
+        return {
+            success: false,
+            reason: errorMessage,
+            path,
+        }
+    })
 }
 /**
  * Gets a player's data via hypixel API's /player method. Returns null if there is an error.
@@ -111,63 +145,110 @@ const getHeadFromAPI = (uuid, border, both) => {
     if (uuid) resolve(getHeadFromAPI(uuid, border, both))
         
     getMojangInfo(player).then(mojangInfo => {
+        if (!mojangInfo.success) return resolve(null)
+        
         let uuid = mojangInfo.id
         if (!uuid) resolve(null)
         resolve(getHeadFromAPI(uuid, border, both))
     })
 })
 
-const cachedUUIDs = {} // {PLAYER: {uuid: UUID, updated: TIMESTAMP}}
+const cachedUUIDs = {} // {player: {uuid: UUID, name: Username, updated: TIMESTAMP, promise: Promise}}
 
 export const getPlayerUUID = (player) => {
-    // Little optimization
-    if (player == Player.getName()) return new Promise((resolve) => resolve(Player.getUUID().replace(/-/g, "")))
-    if (player.toLowerCase() in cachedUUIDs) {
-        // ChatLib.chat(`&aReturning cached UUID for ${player}`)
-        return new Promise((resolve) => resolve(cachedUUIDs[player.toLowerCase()].uuid))
+    const nameLower = player.toLowerCase()
+
+    if (nameLower == Player.getName().toLowerCase()) {
+        return new Promise((resolve) => resolve(Player.getUUID().replace(/-/g, "")))
     }
 
-    return request({
-        url: `https://api.mojang.com/users/profiles/minecraft/${player}`,
-        json: true
-    }).then(mojangInfo => {
-        const { id, name } = mojangInfo
-        // ChatLib.chat(`Set cached uuid for ${player}: ${uuid}`)
-        cachedUUIDs[name.toLowerCase()] = {
-            uuid: id,
-            name,
-            updated: Date.now()
+
+    if (nameLower in cachedUUIDs) {
+        if (cachedUUIDs[nameLower].promise) {
+            // ChatLib.chat(`&c[UUID]&r PROMISe for uuid! ! ! `)
+            return cachedUUIDs[nameLower].promise
         }
+
+        if (cachedUUIDs[nameLower].uuid) {
+            // ChatLib.chat(`&c[UUID]&r &aReturning cached UUID for ${player}`)
+            return new Promise((resolve) => resolve(cachedUUIDs[player.toLowerCase()].uuid))
+        }
+    }
+    
+    // ChatLib.chat(`&c[UUID]&r Making UUID request for ${player}`)
+    const promise = getMojangInfo(player)
+
+    cachedUUIDs[nameLower] = {
+        uuid: null,
+        name: null,
+        updated: null,
+        promise
+    }
+
+    return promise.then(mojangInfo => {
+        cachedUUIDs[nameLower].promise = null
+
+        if (!mojangInfo.success) return null
+
+        const { id, name } = mojangInfo
+        // ChatLib.chat(`&c[UUID]&r Set cached uuid for ${player}: ${id}`)
+
+        cachedUUIDs[nameLower].uuid = id
+        cachedUUIDs[nameLower].name = name
+        cachedUUIDs[nameLower].updated = Date.now()
+
         
-        // ChatLib.chat(`&eRequesting new UUID data for ${player}`)
-        return id
+        // ChatLib.chat(`&c[UUID]&r &eRequesting new UUID data for ${player}`)
+
+        return id.trim()
     })
 }
 
-const cachedPlayerEndpointData = {} // {UUID: {data: ENDPOINT_DATA, updated: TIMESTAMP}} This endpoint is cached for a minute
+const cachedPlayerEndpointData = {} // {UUID: {data: ENDPOINT_DATA, updated: TIMESTAMP, promise: Promise}} This endpoint is cached for a minute
 
 export const getHypixelPlayerV2 = (uuid, key=null) => {
+
     // Cached data
-    if (uuid in cachedPlayerEndpointData && Date.now() - cachedPlayerEndpointData[uuid].updated < 120_000 && uuid !== Player.getUUID().replace(/-/g, "")) {
-        // ChatLib.chat(`&2Using cached player data for ${uuid} ${Date.now() - cachedPlayerEndpointData[uuid].updated}`)
-        return new Promise((resolve) => resolve(cachedPlayerEndpointData[uuid].data))
+    if (uuid in cachedPlayerEndpointData && uuid !== Player.getUUID().replace(/-/g, "")) {
+        if (cachedPlayerEndpointData[uuid].promise) {
+            // ChatLib.chat(`&5[PLAYER INFO]&r Returning le promise!`)
+            return cachedPlayerEndpointData[uuid].promise
+        }
+        // Cache it for a minute
+        if (Date.now() - cachedPlayerEndpointData[uuid].updated < 60_000) {
+            // ChatLib.chat(`&5[PLAYER INFO]&r &2Using cached player data for ${uuid} ${Date.now() - cachedPlayerEndpointData[uuid].updated}`)
+            return new Promise((resolve) => resolve(cachedPlayerEndpointData[uuid].data))
+        }
     }
 
-    return request({
+    // ChatLib.chat(`&5[PLAYER INFO]&r Making request for ${uuid}`)
+    const promise = request({
         url: `https://api.hypixel.net/v2/player?key=${key ?? bcData.apiKey}&uuid=${uuid}`,
         json: true
-    }).then(resp => {
+    })
+
+    // Initialize the cached data
+    cachedPlayerEndpointData[uuid] = {
+        data: null,
+        updated: null,
+        promise: promise
+    }
+    
+    promise.then(resp => {
+        // Update cached data
+        cachedPlayerEndpointData[uuid].data = resp
+        cachedPlayerEndpointData[uuid].promise = null
+
         if (resp.success) {
-            // ChatLib.chat(`&2Cached ${uuid} PLAYER DATA`)
-            cachedPlayerEndpointData[uuid] = {
-                data: resp,
-                updated: Date.now()
-            }
+            // ChatLib.chat(`&5[PLAYER INFO]&r &2Caching ${uuid} PLAYER DATA`)
+            cachedPlayerEndpointData[uuid].updated = Date.now()
         }
 
-        // ChatLib.chat(`&6Returning new player data for ${uuid}`)
+        // ChatLib.chat(`&5[PLAYER INFO]&r &6Returning new player data for ${uuid}`)
         return resp
     })
+
+    return promise
 }
 export const getSkyblockProfilesV2 = (uuid, key=null) => request({url: `https://api.hypixel.net/v2/skyblock/profiles?key=${key ?? bcData.apiKey}&uuid=${uuid}`, json: true})
 export const getElectionDataV2 = () => request({url: `https://api.hypixel.net/v2/resources/skyblock/election`, json: true})
@@ -179,40 +260,64 @@ export const getSelectedProfileV2 = (uuid, key=null) => {
 // Load cached data
 
 if (FileLib.exists("BloomCore", "data/uuids.json")) {
-    const uuidJson = JSON.parse(FileLib.read("BloomCore", "data/uuids.json"))
+    let uuidJson = {}
 
-    Object.entries(uuidJson).forEach(([player, info]) => {
-        const { uuid, updated } = info
-
-        if (Date.now() - updated > 6.048e8) return // 7 Days
-
-        cachedUUIDs[player] = {
-            uuid,
-            updated
-        }
-    })
-
+    try {
+        uuidJson = JSON.parse(FileLib.read("BloomCore", "data/uuids.json"))
+        
+        Object.entries(uuidJson).forEach(([player, info]) => {
+            if (!info || !player) return
+    
+            const { uuid, name, updated } = info
+    
+            if (Date.now() - updated > 6.048e8 || !uuid || !name) return // Cache for 7 Days
+    
+            cachedUUIDs[player] = {
+                uuid,
+                name,
+                updated,
+            }
+        })
+    }
+    catch(e) {
+        uuidJson = {}
+    }
 }
 
-if (FileLib.exists("BloomCore", "data/cachedHypixelEndpoint.json")) {
-    const playerEndpointData = JSON.parse(FileLib.read("BloomCore", "data/cachedHypixelEndpoint.json"))
+// Probably don't need this
+// if (FileLib.exists("BloomCore", "data/cachedHypixelEndpoint.json")) {
+//     const playerEndpointData = JSON.parse(FileLib.read("BloomCore", "data/cachedHypixelEndpoint.json"))
 
-    Object.entries(playerEndpointData).forEach(([uuid, info]) => {
-        const { data, updated } = info
+//     Object.entries(playerEndpointData).forEach(([uuid, info]) => {
+//         const { data, updated } = info
 
-        if (Date.now() - updated > 120_000) return
+//         if (Date.now() - updated > 120_000) return
 
-        cachedPlayerEndpointData[uuid] = {
-            data,
-            updated
-        }
-    })
-}
+//         cachedPlayerEndpointData&c[uuid]&r = {
+//             data,
+//             updated
+//         }
+//     })
+// }
 
 register("gameUnload", () => {
-    FileLib.write("BloomCore", "data/uuids.json", JSON.stringify(cachedUUIDs, null, 4))
-    FileLib.write("BloomCore", "data/cachedHypixelEndpoint.json", JSON.stringify(cachedPlayerEndpointData))
+    const uuidsToWrite = Object.entries(cachedUUIDs).reduce((a, [nameLower, info]) => {
+        const { uuid, name, updated } = info
+
+        if (!uuid || !name) return a
+
+        a[nameLower] = {
+            uuid,
+            name,
+            updated
+        }
+
+        return a
+    }, {})
+
+    FileLib.write("BloomCore", "data/uuids.json", JSON.stringify(uuidsToWrite, null, 4))
+    // FileLib.write("BloomCore", "data/cachedHypixelEndpoint.json", JSON.stringify(cachedPlayerEndpointData))
 
     // ChatLib.chat(`Wrote ${Object.keys(cachedPlayerEndpointData).length} player data`)
-    // ChatLib.chat(`Wrote ${Object.keys(cachedUUIDs).length} UUIDs`)
+    // ChatLib.chat(`Wrote ${Object.keys(uuidsToWrite).length} UUIDs`)
 })

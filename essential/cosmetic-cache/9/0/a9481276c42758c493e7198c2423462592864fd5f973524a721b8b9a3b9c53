@@ -1,0 +1,46 @@
+{
+	"sound_definitions": {
+		"ice_powers_first": {
+			"category": "neutral",
+			"max_distance": 32,
+			"sounds": [
+				{
+					"name": "sounds/ice_powers_first",
+					"volume": 0.4,
+					"is3D": true,
+					"interruptible": true
+				}
+			]
+		},
+		"ice_powers_loop": {
+			"category": "neutral",
+			"max_distance": 32,
+			"sounds": [
+				{
+					"name": "sounds/ice_powers_loop1",
+					"volume": 0.4,
+					"is3D": true,
+					"interruptible": true
+				},
+				{
+					"name": "sounds/ice_powers_loop2",
+					"volume": 0.4,
+					"is3D": true,
+					"interruptible": true
+				},
+				{
+					"name": "sounds/ice_powers_loop3",
+					"volume": 0.4,
+					"is3D": true,
+					"interruptible": true
+				},
+				{
+					"name": "sounds/ice_powers_loop4",
+					"volume": 0.4,
+					"is3D": true,
+					"interruptible": true
+				}
+			]
+		}
+	}
+}

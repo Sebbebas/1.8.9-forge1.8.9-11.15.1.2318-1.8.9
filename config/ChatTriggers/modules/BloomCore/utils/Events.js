@@ -162,6 +162,7 @@ class ChatPacketEvent {
         this.func = func
         this.criteria = null
         this.formatted = false // Event should run on formatted messages
+        this.isActive = false
         this.register()
     }
 
@@ -200,12 +201,18 @@ class ChatPacketEvent {
         }
     }
 
+    isRegistered() {
+        return this.isActive
+    }
+
     register() {
+        this.isActive = true
         if (!chatFuncs.includes(this)) chatFuncs.push(this)
         return this
     }
 
     unregister() {
+        this.isActive = false
         const idx = chatFuncs.indexOf(this)
         if (idx !== -1) chatFuncs.splice(idx, 1)
         return this
@@ -240,5 +247,14 @@ register("packetReceived", (packet, event) => {
     chatFuncs.forEach(trigger => {
         if (trigger.formatted) trigger.trigger(formatted, event)
         else trigger.trigger(unformatted, event)
-    })
+})
 }).setFilteredClass(S02PacketChat)
+
+register("command", (...message) => {
+    message = message.join(" ")
+    let unformatted = message.removeFormatting()
+    chatFuncs.forEach(trigger => {
+        if (trigger.formatted) trigger.trigger(message, null)
+        else trigger.trigger(unformatted, null)
+    })
+}).setName("simulatechatpacket")

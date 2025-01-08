@@ -1,0 +1,66 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.121_cape",
+				"texture_width": 64,
+				"texture_height": 32,
+				"visible_bounds_width": 3,
+				"visible_bounds_height": 4,
+				"visible_bounds_offset": [0, 1, 0]
+			},
+			"bones": [
+				{
+					"name": "root",
+					"pivot": [0, 0, 0]
+				},
+				{
+					"name": "cape",
+					"parent": "root",
+					"pivot": [0, 24, 2.5],
+					"rotation": [-6, 180, 0],
+					"cubes": [
+						{"origin": [-5, 8, 2], "size": [10, 16, 1], "inflate": -0.01, "uv": [0, 0]}
+					]
+				},
+				{
+					"name": "fire_source_cape",
+					"parent": "cape",
+					"pivot": [0, 16, 1],
+					"locators": {
+						"fire_source_cape": [0, 16, 2]
+					}
+				},
+				{
+					"name": "left_wing",
+					"parent": "root",
+					"pivot": [0, 24, 2],
+					"rotation": [-15, 0, -15]
+				},
+				{
+					"name": "fire_source_left_wing",
+					"parent": "left_wing",
+					"pivot": [0, 14, 4],
+					"locators": {
+						"fire_source_left_wing": [0, 14, 4]
+					}
+				},
+				{
+					"name": "right_wing",
+					"parent": "root",
+					"pivot": [0, 24, 2],
+					"rotation": [-15, 0, 15]
+				},
+				{
+					"name": "fire_source_right_wing",
+					"parent": "right_wing",
+					"pivot": [0, 14, 4],
+					"locators": {
+						"fire_source_right_wing": [0, 14, 4]
+					}
+				}
+			]
+		}
+	]
+}

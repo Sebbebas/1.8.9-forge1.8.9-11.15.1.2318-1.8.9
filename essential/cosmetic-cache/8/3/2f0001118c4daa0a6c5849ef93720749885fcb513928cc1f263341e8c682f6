@@ -1,0 +1,21 @@
+[
+    {
+        "type": "ARMOR_HANDLING",
+        "id": "SHOULDER_PADS_UNDERWORLD",
+        "enabled": true,
+        "data": {
+            "arms": true,
+            "body": true
+        }
+    },
+    {
+        "type": "MUTUALLY_EXCLUSIVE",
+        "id": "UNUSED",
+        "enabled": true,
+        "data": {
+            "slots": [
+                "BACK"
+            ]
+        }
+    }
+]

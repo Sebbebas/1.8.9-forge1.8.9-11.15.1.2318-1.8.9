@@ -1,0 +1,25 @@
+{
+	"sound_definitions": {
+		"confetti_cannon": {
+			"category": "neutral",
+			"max_distance": 32,
+			"sounds": [
+				{
+					"name": "sounds/confetti_cannon1",
+					"is3D": true,
+					"interruptible": true
+				},
+				{
+					"name": "sounds/confetti_cannon2",
+					"is3D": true,
+					"interruptible": true
+				},
+				{
+					"name": "sounds/confetti_cannon3",
+					"is3D": true,
+					"interruptible": true
+				}
+			]
+		}
+	}
+}

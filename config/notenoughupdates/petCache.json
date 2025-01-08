@@ -151,9 +151,9 @@
         "maxLevel": 100,
         "expRequiredForNextLevel": 1886700,
         "expRequiredForMaxLevel": 25353230,
-        "expInCurrentLevel": 6769792.0,
-        "expTotal": 3.2123022E7,
-        "percentageToNextLevel": 3.5881655
+        "expInCurrentLevel": 6780462.0,
+        "expTotal": 3.2133692E7,
+        "percentageToNextLevel": 3.593821
       },
       "petXpType": "fishing",
       "petItem": "DWARF_TURTLE_SHELMET",
@@ -247,9 +247,9 @@
         "maxLevel": 100,
         "expRequiredForNextLevel": 1886700,
         "expRequiredForMaxLevel": 25353230,
-        "expInCurrentLevel": 2159050.0,
-        "expTotal": 2.751228E7,
-        "percentageToNextLevel": 1.1443526
+        "expInCurrentLevel": 2159946.0,
+        "expTotal": 2.7513176E7,
+        "percentageToNextLevel": 1.1448275
       },
       "petXpType": "taming",
       "petItem": "PET_ITEM_EXP_SHARE",
@@ -722,8 +722,8 @@
       "candyUsed": 0
     }
   },
-  "selectedPet": 9,
-  "selectedPet2": 18,
+  "selectedPet": 12,
+  "selectedPet2": 9,
   "tamingLevel": 51,
   "beastMultiplier": 3.0
 }

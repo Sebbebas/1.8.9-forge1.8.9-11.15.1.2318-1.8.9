@@ -370,12 +370,12 @@
               "status": "CORRECT"
             },
             "GIANT_FRAGMENT_LASER": {
-              "amount": 0,
+              "amount": 1,
               "lastChange": 0,
               "status": "CORRECT"
             },
             "LIVID_FRAGMENT": {
-              "amount": 0,
+              "amount": 1,
               "lastChange": 0,
               "status": "CORRECT"
             },
@@ -395,7 +395,7 @@
               "status": "CORRECT"
             },
             "SUPERBOOM_TNT": {
-              "amount": 105,
+              "amount": 112,
               "lastChange": 0,
               "status": "CORRECT"
             },
@@ -410,7 +410,7 @@
               "status": "CORRECT"
             },
             "WITHER_CATALYST": {
-              "amount": 1,
+              "amount": 0,
               "lastChange": 0,
               "status": "CORRECT"
             },

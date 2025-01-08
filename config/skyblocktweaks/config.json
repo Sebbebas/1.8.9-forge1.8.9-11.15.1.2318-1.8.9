@@ -1,0 +1,490 @@
+{
+  "autoPartyChat": false,
+  "cleanerActionBar": false,
+  "cleanerHotbarArea": false,
+  "defenseNumber": false,
+  "defenseNumberColor": {
+    "r": 85,
+    "g": 85,
+    "b": 255,
+    "a": 255,
+    "chroma": false
+  },
+  "drillFuelBar": false,
+  "drillFuelBarBarColor": {
+    "r": 0,
+    "g": 0,
+    "b": 0,
+    "a": 255,
+    "chroma": false
+  },
+  "drillFuelBarColor": {
+    "r": 15,
+    "g": 84,
+    "b": 15,
+    "a": 255,
+    "chroma": false
+  },
+  "drillFuelDisplay": false,
+  "drillFuelDisplayColor": {
+    "r": 22,
+    "g": 119,
+    "b": 22,
+    "a": 255,
+    "chroma": false
+  },
+  "effectiveHealthNumber": false,
+  "effectiveHealthNumberColor": {
+    "r": 0,
+    "g": 170,
+    "b": 0,
+    "a": 255,
+    "chroma": false
+  },
+  "healthBar": false,
+  "healthBarAbsorbColor": {
+    "r": 255,
+    "g": 170,
+    "b": 0,
+    "a": 255,
+    "chroma": false
+  },
+  "healthBarBarColor": {
+    "r": 0,
+    "g": 0,
+    "b": 0,
+    "a": 255,
+    "chroma": false
+  },
+  "healthBarHealthColor": {
+    "r": 255,
+    "g": 0,
+    "b": 0,
+    "a": 255,
+    "chroma": false
+  },
+  "healthDisplayAbsorptionColor": {
+    "r": 255,
+    "g": 170,
+    "b": 0,
+    "a": 255,
+    "chroma": false
+  },
+  "healthDisplayColor": {
+    "r": 255,
+    "g": 85,
+    "b": 85,
+    "a": 255,
+    "chroma": false
+  },
+  "healthNumber": false,
+  "hideAirBubbles": false,
+  "hideArmorBar": true,
+  "hideDefenseFromBar": true,
+  "hideDrillFuel": false,
+  "hideHealthFromBar": true,
+  "hideHealthHearts": false,
+  "hideHungerBar": true,
+  "hideManaFromBar": true,
+  "hideOverflowManaFromBar": true,
+  "hideRiftTimeFromBar": false,
+  "hideSecretsFromBar": true,
+  "itemPickupLog": false,
+  "itemPickupLogItemIds": false,
+  "itemPickupLogItemPrices": true,
+  "itemPickupLogTextStyle": "Shadowed",
+  "lowHealthTint": true,
+  "manaBar": false,
+  "manaBarBarColor": {
+    "value": -16777216,
+    "falpha": 0.0
+  },
+  "manaBarManaColor": {
+    "r": 85,
+    "g": 85,
+    "b": 255,
+    "a": 255,
+    "chroma": false
+  },
+  "manaBarOverflowColor": {
+    "r": 85,
+    "g": 255,
+    "b": 255,
+    "a": 255,
+    "chroma": false
+  },
+  "manaBarShowOverflow": false,
+  "manaNumber": false,
+  "manaNumberColor": {
+    "r": 85,
+    "g": 85,
+    "b": 255,
+    "a": 255,
+    "chroma": false
+  },
+  "manaOverflowNumberColor": {
+    "r": 85,
+    "g": 85,
+    "b": 255,
+    "a": 255,
+    "chroma": false
+  },
+  "overflowManaNumber": false,
+  "partyMemberDisplay": true,
+  "secretNumber": false,
+  "secretNumberTextStyle": "Shadowed",
+  "showMaxEffectiveHealth": false,
+  "showMaxHealth": true,
+  "speedNumber": false,
+  "speedNumberColor": {
+    "r": 255,
+    "g": 255,
+    "b": 255,
+    "a": 255,
+    "chroma": false
+  },
+  "CritParticleHighlight": false,
+  "CritParticleHighlightFocused": {
+    "r": 255,
+    "g": 0,
+    "b": 0,
+    "a": 255,
+    "chroma": false
+  },
+  "CritParticleHighlightUnfocused": {
+    "r": 255,
+    "g": 255,
+    "b": 255,
+    "a": 255,
+    "chroma": false
+  },
+  "dwarvenMinesMap": false,
+  "fireFreezeTimer": true,
+  "floor2SpawnTimer": true,
+  "highlightCorrectLivid": false,
+  "highlightCorrectLividColor": {
+    "r": 0,
+    "g": 255,
+    "b": 255,
+    "a": 255,
+    "chroma": false
+  },
+  "highlightTrash": false,
+  "outlineStarredMobs": false,
+  "outlineStarredMobsColor": {
+    "r": 255,
+    "g": 170,
+    "b": 0,
+    "a": 255,
+    "chroma": false
+  },
+  "partyfinderJoinInfo": false,
+  "partyfinderJoinInfo_showEquipment": false,
+  "partyfinderJoinInfo_showHotbar": false,
+  "trashHighlightType": "Slot",
+  "AF_AucFlips": true,
+  "AF_binFlips": false,
+  "AF_dyeFilter": false,
+  "AF_farmingToolFilter": false,
+  "AF_filtersEnabled": false,
+  "AF_furnitureFilter": true,
+  "AF_maxNotifications": 50,
+  "AF_minimumPercent": 5,
+  "AF_minimumTime": 5,
+  "AF_minimumVolume": 1,
+  "AF_notificationSound": true,
+  "AF_petFilter": false,
+  "AF_profitMargin": 200000,
+  "AF_usePurseLimit": false,
+  "auctionFlipper": false,
+  "auctionSellingOverlay": false,
+  "auctionViewOverlay": false,
+  "autoAuctionFlipOpenKeybind": 33,
+  "biddingOverlay": false,
+  "customOutbidNotifications": false,
+  "customOutbidNotificationsPlaySound": true,
+  "customOutbidNotificationsText": "\u0026c\u0026l[OUTBID] \u0026f{item} \u0026eby \u00266{amount} coins \u0026e\u0026lCLICK!",
+  "highlightLosingAuctions": false,
+  "highlightLosingAuctionsColor": {
+    "r": 255,
+    "g": 0,
+    "b": 0,
+    "a": 255,
+    "chroma": false
+  },
+  "cakeBagSortingHelper": false,
+  "fireFreezeVisual": true,
+  "fireFreezeVisualColor": {
+    "r": 255,
+    "g": 0,
+    "b": 0,
+    "a": 255,
+    "chroma": false
+  },
+  "highlightMissingNewYearCakes": false,
+  "lastCollectedAboveMinion": true,
+  "minionOverlay": false,
+  "quiverOverlay": false,
+  "quiverOverlayOnlyBow": false,
+  "quiverOverlayType": false,
+  "crimsonIslesMap": false,
+  "moodyGrappleShotHighlight": false,
+  "moodyGrappleShotHighlightColor": {
+    "r": 255,
+    "g": 0,
+    "b": 0,
+    "a": 255,
+    "chroma": false
+  },
+  "highlightSlayerBosses": false,
+  "miniBossColor": {
+    "r": 0,
+    "g": 255,
+    "b": 0,
+    "a": 255,
+    "chroma": false
+  },
+  "slayerBossColor": {
+    "r": 255,
+    "g": 0,
+    "b": 0,
+    "a": 255,
+    "chroma": false
+  },
+  "slayerTimer": false,
+  "voidgloomHitsPhase": {
+    "r": 255,
+    "g": 0,
+    "b": 255,
+    "a": 255,
+    "chroma": false
+  },
+  "voidgloomLaserPhase": {
+    "r": 0,
+    "g": 255,
+    "b": 255,
+    "a": 255,
+    "chroma": false
+  },
+  "highlightVampireAnchorColor": {
+    "r": 255,
+    "g": 213,
+    "b": 0,
+    "a": 255,
+    "chroma": false
+  },
+  "highlightVampireAnchors": false,
+  "highlightVampireAnchorsTracer": true,
+  "larvaSilkBlockColor": {
+    "r": 255,
+    "g": 200,
+    "b": 0,
+    "a": 255,
+    "chroma": false
+  },
+  "larvaSilkDisplay": false,
+  "larvaSilkLineColor": {
+    "r": 0,
+    "g": 255,
+    "b": 255,
+    "a": 255,
+    "chroma": false
+  },
+  "nearlyCoherentRodRadius": false,
+  "nearlyCoherentRodRadiusColor": {
+    "r": 0,
+    "g": 255,
+    "b": 255,
+    "a": 255,
+    "chroma": false
+  },
+  "riftBarBarColor": {
+    "r": 0,
+    "g": 0,
+    "b": 0,
+    "a": 255,
+    "chroma": false
+  },
+  "riftBarFillColor": {
+    "r": 0,
+    "g": 117,
+    "b": 255,
+    "a": 255,
+    "chroma": false
+  },
+  "riftTimeBar": false,
+  "riftTimeColor": {
+    "r": 85,
+    "g": 255,
+    "b": 255,
+    "a": 255,
+    "chroma": false
+  },
+  "riftTimeDisplay": false,
+  "riftTimeShowMax": false,
+  "riftTimeTextStyle": "Shadowed",
+  "shenButtonColor": {
+    "r": 85,
+    "g": 255,
+    "b": 85,
+    "a": 255,
+    "chroma": false
+  },
+  "shenPuzzleHelper": false,
+  "disableDamageTint": false,
+  "highlightDragon": false,
+  "highlightDragonColor": {
+    "r": 85,
+    "g": 255,
+    "b": 145,
+    "a": 255,
+    "chroma": false
+  },
+  "pathRenderRange": 75,
+  "pathThroughWalls": true,
+  "pathTracingColor1": {
+    "r": 85,
+    "g": 255,
+    "b": 145,
+    "a": 255,
+    "chroma": false
+  },
+  "pathTracingColor2": {
+    "r": 85,
+    "g": 144,
+    "b": 255,
+    "a": 255,
+    "chroma": false
+  },
+  "showItemEffectiveArea": false,
+  "showItemEffectiveAreaColor": {
+    "r": 255,
+    "g": 0,
+    "b": 0,
+    "a": 255,
+    "chroma": false
+  },
+  "showItemEffectiveAreaMobsNearby": true,
+  "zealotBruiserLocDrawBox": true,
+  "zealotBruiserLocReady": {
+    "r": 106,
+    "g": 90,
+    "b": 205,
+    "a": 255,
+    "chroma": false
+  },
+  "zealotBruiserLocTimer": true,
+  "zealotBruiserLocUnready": {
+    "r": 72,
+    "g": 72,
+    "b": 72,
+    "a": 255,
+    "chroma": false
+  },
+  "zealotBruiserLocations": false,
+  "backgroundBlur": true,
+  "customMenuColors": false,
+  "defaultCategoryColor": {
+    "r": 95,
+    "g": 95,
+    "b": 95,
+    "a": 255,
+    "chroma": false
+  },
+  "developerMode": false,
+  "featureBackgroundColor": {
+    "r": 28,
+    "g": 28,
+    "b": 28,
+    "a": 255,
+    "chroma": false
+  },
+  "featureBorderColor": {
+    "r": 43,
+    "g": 167,
+    "b": 184,
+    "a": 255,
+    "chroma": false
+  },
+  "guiLineColors": {
+    "r": 43,
+    "g": 167,
+    "b": 184,
+    "a": 255,
+    "chroma": false
+  },
+  "headerBackgroundColor": {
+    "r": 15,
+    "g": 15,
+    "b": 15,
+    "a": 255,
+    "chroma": false
+  },
+  "hoveredCategoryColor": {
+    "r": 205,
+    "g": 243,
+    "b": 244,
+    "a": 255,
+    "chroma": false
+  },
+  "mainBackgroundColor": {
+    "r": 9,
+    "g": 9,
+    "b": 9,
+    "a": 255,
+    "chroma": false
+  },
+  "offSwitchColor": {
+    "r": 128,
+    "g": 128,
+    "b": 128,
+    "a": 255,
+    "chroma": false
+  },
+  "onSwitchColor": {
+    "r": 0,
+    "g": 255,
+    "b": 150,
+    "a": 255,
+    "chroma": false
+  },
+  "selectedCategoryColor": {
+    "r": 0,
+    "g": 255,
+    "b": 255,
+    "a": 255,
+    "chroma": false
+  },
+  "selectedTheme": "Dark + Cyan",
+  "sidebarBackgroundColor": {
+    "r": 15,
+    "g": 15,
+    "b": 15,
+    "a": 255,
+    "chroma": false
+  },
+  "smallPlayers": false,
+  "smallPlayersScale": 50,
+  "snowEffect": false,
+  "snowEffectExclusive": false,
+  "snowEffectForce": false,
+  "updateCheckType": "Pre (Beta Releases)",
+  "updateNotify": true,
+  "windowBorderColor": {
+    "r": 0,
+    "g": 255,
+    "b": 255,
+    "a": 255,
+    "chroma": false
+  },
+  "logActionBar": false,
+  "logNetworkRequests": false,
+  "modAPIURL": "https://app.mrfast-developer.com/",
+  "modSocketURL": "ws://app.mrfast-developer.com:1512",
+  "showInspector": false,
+  "showItemAbilities": false,
+  "showMinionDebug": false,
+  "showMobIds": false,
+  "showMobIdsThroughWalls": false,
+  "valueTest": 200
+}

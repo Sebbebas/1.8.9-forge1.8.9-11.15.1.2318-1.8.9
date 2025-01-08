@@ -1,0 +1,144 @@
+{
+  "filters": [
+    {
+      "textInput": "CRYPT_DREADLORD_SWORD",
+      "itemFilter": {
+        "selectedFilter": "EQUALS",
+        "selectedInput": "ITEM_ID"
+      }
+    },
+    {
+      "textInput": "MACHINE_GUN_BOW",
+      "itemFilter": {
+        "selectedFilter": "EQUALS",
+        "selectedInput": "ITEM_ID"
+      }
+    },
+    {
+      "textInput": "Healing VIII",
+      "itemFilter": {
+        "selectedFilter": "CONTAINS",
+        "selectedInput": "DISPLAY_NAME"
+      }
+    },
+    {
+      "textInput": "DUNGEON_LORE_PAPER",
+      "itemFilter": {
+        "selectedFilter": "EQUALS",
+        "selectedInput": "ITEM_ID"
+      }
+    },
+    {
+      "textInput": "ENCHANTED_BONE",
+      "itemFilter": {
+        "selectedFilter": "EQUALS",
+        "selectedInput": "ITEM_ID"
+      }
+    },
+    {
+      "textInput": "CRYPT_BOW",
+      "itemFilter": {
+        "selectedFilter": "EQUALS",
+        "selectedInput": "ITEM_ID"
+      }
+    },
+    {
+      "textInput": "(?:SKELETON|ZOMBIE)_(?:GRUNT|MASTER|SOLDIER)_(?:BOOTS|LEGGINGS|CHESTPLATE|HELMET)",
+      "itemFilter": {
+        "selectedFilter": "REGEX",
+        "selectedInput": "ITEM_ID"
+      }
+    },
+    {
+      "textInput": "SUPER_HEAVY",
+      "itemFilter": {
+        "selectedFilter": "CONTAINS",
+        "selectedInput": "ITEM_ID"
+      }
+    },
+    {
+      "textInput": "INFLATABLE_JERRY",
+      "itemFilter": {
+        "selectedFilter": "EQUALS",
+        "selectedInput": "ITEM_ID"
+      }
+    },
+    {
+      "textInput": "DUNGEON_TRAP",
+      "itemFilter": {
+        "selectedFilter": "CONTAINS",
+        "selectedInput": "ITEM_ID"
+      }
+    },
+    {
+      "textInput": "SNIPER_HELMET",
+      "itemFilter": {
+        "selectedFilter": "EQUALS",
+        "selectedInput": "ITEM_ID"
+      }
+    },
+    {
+      "textInput": "SKELETOR",
+      "itemFilter": {
+        "selectedFilter": "CONTAINS",
+        "selectedInput": "ITEM_ID"
+      }
+    },
+    {
+      "textInput": "ROTTEN",
+      "itemFilter": {
+        "selectedFilter": "CONTAINS",
+        "selectedInput": "ITEM_ID"
+      }
+    },
+    {
+      "textInput": "HEAVY",
+      "itemFilter": {
+        "selectedFilter": "CONTAINS",
+        "selectedInput": "ITEM_ID"
+      }
+    },
+    {
+      "textInput": "PREMIUM_FLESH",
+      "itemFilter": {
+        "selectedFilter": "CONTAINS",
+        "selectedInput": "ITEM_ID"
+      }
+    },
+    {
+      "textInput": "TRAINING",
+      "itemFilter": {
+        "selectedFilter": "CONTAINS",
+        "selectedInput": "ITEM_ID"
+      }
+    },
+    {
+      "textInput": "CONJURING_SWORD",
+      "itemFilter": {
+        "selectedFilter": "EQUALS",
+        "selectedInput": "ITEM_ID"
+      }
+    },
+    {
+      "textInput": "FEL_PEARL",
+      "itemFilter": {
+        "selectedFilter": "EQUALS",
+        "selectedInput": "ITEM_ID"
+      }
+    },
+    {
+      "textInput": "ZOMBIE_KNIGHT",
+      "itemFilter": {
+        "selectedFilter": "CONTAINS",
+        "selectedInput": "ITEM_ID"
+      }
+    },
+    {
+      "textInput": "ENCHANTED_ROTTEN_FLESH",
+      "itemFilter": {
+        "selectedFilter": "CONTAINS",
+        "selectedInput": "ITEM_ID"
+      }
+    }
+  ]
+}

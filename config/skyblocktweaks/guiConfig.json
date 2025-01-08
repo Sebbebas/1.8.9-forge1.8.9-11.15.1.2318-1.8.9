@@ -1,0 +1,173 @@
+[
+  {
+    "scale": 1.0,
+    "relativeX": 0.371875,
+    "relativeY": 0.842593,
+    "needsExample": false,
+    "height": 9,
+    "width": 66,
+    "elementName": "Mana Number"
+  },
+  {
+    "scale": 1.0,
+    "relativeX": 0.83203125,
+    "relativeY": 0.0,
+    "needsExample": false,
+    "height": 238,
+    "width": 213,
+    "elementName": "Dwarven Mines Map"
+  },
+  {
+    "scale": 1.0,
+    "relativeX": 0.459375,
+    "relativeY": 0.852778,
+    "needsExample": false,
+    "height": 10,
+    "width": 80,
+    "elementName": "Drill Fuel Bar"
+  },
+  {
+    "scale": 1.0,
+    "relativeX": 0.43,
+    "relativeY": 0.897,
+    "needsExample": true,
+    "height": 9,
+    "width": 65,
+    "elementName": "Rift Time"
+  },
+  {
+    "scale": 1.0,
+    "relativeX": 0.371875,
+    "relativeY": 0.842593,
+    "needsExample": false,
+    "height": 9,
+    "width": 92,
+    "elementName": "Party Display"
+  },
+  {
+    "scale": 1.0,
+    "relativeX": 0.373,
+    "relativeY": 0.522,
+    "needsExample": true,
+    "height": 20,
+    "width": 254,
+    "elementName": "Fire Freeze Timer"
+  },
+  {
+    "scale": 1.0,
+    "relativeX": 0.371875,
+    "relativeY": 0.842593,
+    "needsExample": false,
+    "height": 9,
+    "width": 66,
+    "elementName": "Health Number"
+  },
+  {
+    "scale": 1.0,
+    "relativeX": 0.602,
+    "relativeY": 0.98,
+    "needsExample": false,
+    "height": 9,
+    "width": 82,
+    "elementName": "Effective Health Number"
+  },
+  {
+    "scale": 1.0,
+    "relativeX": 0.0,
+    "relativeY": 0.0,
+    "needsExample": true,
+    "height": 20,
+    "width": 112,
+    "elementName": "Item Pickup Log"
+  },
+  {
+    "scale": 1.0,
+    "relativeX": 0.371875,
+    "relativeY": 0.842593,
+    "needsExample": false,
+    "height": 10,
+    "width": 80,
+    "elementName": "Health Bar"
+  },
+  {
+    "scale": 1.0,
+    "relativeX": 0.371875,
+    "relativeY": 0.842593,
+    "needsExample": false,
+    "height": 16,
+    "width": 1,
+    "elementName": "Quiver Overlay"
+  },
+  {
+    "scale": 1.0,
+    "relativeX": 0.371875,
+    "relativeY": 0.842593,
+    "needsExample": false,
+    "height": 10,
+    "width": 80,
+    "elementName": "Mana Bar"
+  },
+  {
+    "scale": 1.0,
+    "relativeX": 0.459375,
+    "relativeY": 0.852778,
+    "needsExample": false,
+    "height": 9,
+    "width": 113,
+    "elementName": "Drill Fuel Number"
+  },
+  {
+    "scale": 1.0,
+    "relativeX": 0.371875,
+    "relativeY": 0.842593,
+    "needsExample": false,
+    "height": 9,
+    "width": 38,
+    "elementName": "Defense Number"
+  },
+  {
+    "scale": 1.0,
+    "relativeX": 0.371875,
+    "relativeY": 0.842593,
+    "needsExample": false,
+    "height": 9,
+    "width": 22,
+    "elementName": "Overflow Mana Number"
+  },
+  {
+    "scale": 1.0,
+    "relativeX": 0.458,
+    "relativeY": 0.806,
+    "needsExample": true,
+    "height": 10,
+    "width": 80,
+    "elementName": "Rift Time Bar"
+  },
+  {
+    "scale": 1.0,
+    "relativeX": 0.37,
+    "relativeY": 0.97,
+    "needsExample": false,
+    "height": 9,
+    "width": 1,
+    "elementName": "Speed Number"
+  },
+  {
+    "scale": 1.0,
+    "relativeX": 0.0,
+    "relativeY": 0.0,
+    "needsExample": true,
+    "height": 178,
+    "width": 206,
+    "elementName": "Crimson Isles Map"
+  },
+  {
+    "scale": 1.0,
+    "relativeX": 0.392,
+    "relativeY": 0.93,
+    "needsExample": true,
+    "height": 18,
+    "width": 41,
+    "elementName": "Secret Number"
+  }
+]

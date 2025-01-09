@@ -1170,12 +1170,12 @@
               "status": "CORRECT"
             },
             "ROUGH_JADE_GEM": {
-              "amount": 9401,
+              "amount": 9425,
               "lastChange": 0,
               "status": "CORRECT"
             },
             "FLAWED_JADE_GEM": {
-              "amount": 1288,
+              "amount": 1290,
               "lastChange": 0,
               "status": "CORRECT"
             },
@@ -1185,7 +1185,7 @@
               "status": "CORRECT"
             },
             "ROUGH_AMBER_GEM": {
-              "amount": 58,
+              "amount": 146,
               "lastChange": 0,
               "status": "CORRECT"
             },
@@ -1215,17 +1215,17 @@
               "status": "CORRECT"
             },
             "ROUGH_SAPPHIRE_GEM": {
-              "amount": 8664,
+              "amount": 28376,
               "lastChange": 0,
               "status": "CORRECT"
             },
             "FLAWED_SAPPHIRE_GEM": {
-              "amount": 156,
+              "amount": 347,
               "lastChange": 0,
               "status": "CORRECT"
             },
             "FINE_SAPPHIRE_GEM": {
-              "amount": 20,
+              "amount": 21,
               "lastChange": 0,
               "status": "CORRECT"
             },
@@ -1260,12 +1260,12 @@
               "status": "CORRECT"
             },
             "ROUGH_RUBY_GEM": {
-              "amount": 29428,
+              "amount": 31172,
               "lastChange": 0,
               "status": "CORRECT"
             },
             "FLAWED_RUBY_GEM": {
-              "amount": 3719,
+              "amount": 3721,
               "lastChange": 0,
               "status": "CORRECT"
             },
@@ -1295,57 +1295,57 @@
               "status": "CORRECT"
             },
             "FLAWED_ONYX_GEM": {
-              "amount": 2758,
+              "amount": 2788,
               "lastChange": 0,
               "status": "CORRECT"
             },
             "FINE_ONYX_GEM": {
-              "amount": 144,
+              "amount": 145,
               "lastChange": 0,
               "status": "CORRECT"
             },
             "ROUGH_AQUAMARINE_GEM": {
-              "amount": 35340,
+              "amount": 38259,
               "lastChange": 0,
               "status": "CORRECT"
             },
             "FLAWED_AQUAMARINE_GEM": {
-              "amount": 5203,
+              "amount": 5541,
               "lastChange": 0,
               "status": "CORRECT"
             },
             "FINE_AQUAMARINE_GEM": {
-              "amount": 154,
+              "amount": 159,
               "lastChange": 0,
               "status": "CORRECT"
             },
             "ROUGH_CITRINE_GEM": {
-              "amount": 16697,
+              "amount": 31402,
               "lastChange": 0,
               "status": "CORRECT"
             },
             "FLAWED_CITRINE_GEM": {
-              "amount": 2982,
+              "amount": 5020,
               "lastChange": 0,
               "status": "CORRECT"
             },
             "FINE_CITRINE_GEM": {
-              "amount": 141,
+              "amount": 143,
               "lastChange": 0,
               "status": "CORRECT"
             },
             "ROUGH_PERIDOT_GEM": {
-              "amount": 17684,
+              "amount": 20417,
               "lastChange": 0,
               "status": "CORRECT"
             },
             "FLAWED_PERIDOT_GEM": {
-              "amount": 2913,
+              "amount": 3373,
               "lastChange": 0,
               "status": "CORRECT"
             },
             "FINE_PERIDOT_GEM": {
-              "amount": 121,
+              "amount": 124,
               "lastChange": 0,
               "status": "CORRECT"
             },
@@ -1776,6 +1776,91 @@
             },
             "OBFUSCATED_FISH_3_BRONZE": {
               "amount": 1,
+              "lastChange": 0,
+              "status": "CORRECT"
+            },
+            "BLAZE_ROD_DISTILLATE": {
+              "amount": 0,
+              "lastChange": 0,
+              "status": "CORRECT"
+            },
+            "CRUDE_GABAGOOL": {
+              "amount": 0,
+              "lastChange": 0,
+              "status": "CORRECT"
+            },
+            "DERELICT_ASHE": {
+              "amount": 0,
+              "lastChange": 0,
+              "status": "CORRECT"
+            },
+            "CRUDE_GABAGOOL_DISTILLATE": {
+              "amount": 0,
+              "lastChange": 0,
+              "status": "CORRECT"
+            },
+            "GLOWSTONE_DUST_DISTILLATE": {
+              "amount": 0,
+              "lastChange": 0,
+              "status": "CORRECT"
+            },
+            "MAGMA_CREAM_DISTILLATE": {
+              "amount": 0,
+              "lastChange": 0,
+              "status": "CORRECT"
+            },
+            "NETHER_STALK_DISTILLATE": {
+              "amount": 0,
+              "lastChange": 0,
+              "status": "CORRECT"
+            },
+            "NULL_ATOM": {
+              "amount": 0,
+              "lastChange": 0,
+              "status": "CORRECT"
+            },
+            "NULL_SPHERE": {
+              "amount": 0,
+              "lastChange": 0,
+              "status": "CORRECT"
+            },
+            "RAW_SOULFLOW": {
+              "amount": 0,
+              "lastChange": 0,
+              "status": "CORRECT"
+            },
+            "REVENANT_CATALYST": {
+              "amount": 0,
+              "lastChange": 0,
+              "status": "CORRECT"
+            },
+            "REVENANT_FLESH": {
+              "amount": 0,
+              "lastChange": 0,
+              "status": "CORRECT"
+            },
+            "SOULFLOW": {
+              "amount": 0,
+              "lastChange": 0,
+              "status": "CORRECT"
+            },
+            "SPIDER_CATALYST": {
+              "amount": 0,
+              "lastChange": 0,
+              "status": "CORRECT"
+            },
+            "TARANTULA_WEB": {
+              "amount": 273,
+              "lastChange": 0,
+              "status": "CORRECT"
+            },
+            "UNDEAD_CATALYST": {
+              "amount": 0,
+              "lastChange": 0,
+              "status": "CORRECT"
+            },
+            "WOLF_TOOTH": {
+              "amount": 0,
               "lastChange": 0,
               "status": "CORRECT"
             }

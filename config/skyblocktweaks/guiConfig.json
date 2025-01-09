@@ -37,8 +37,8 @@
   },
   {
     "scale": 1.0,
-    "relativeX": 0.371875,
-    "relativeY": 0.842593,
+    "relativeX": 0.20416666666666666,
+    "relativeY": 0.007407407407407408,
     "needsExample": false,
     "height": 9,
     "width": 92,
@@ -154,8 +154,8 @@
   },
   {
     "scale": 1.0,
-    "relativeX": 0.0,
-    "relativeY": 0.0,
+    "relativeX": 0.7614583333333333,
+    "relativeY": 0.4703703703703704,
     "needsExample": true,
     "height": 178,
     "width": 206,

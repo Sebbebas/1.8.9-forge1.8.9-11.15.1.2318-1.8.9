@@ -199,9 +199,9 @@
         "maxLevel": 100,
         "expRequiredForNextLevel": 1886700,
         "expRequiredForMaxLevel": 25353230,
-        "expInCurrentLevel": 679032.0,
-        "expTotal": 2.6032262E7,
-        "percentageToNextLevel": 0.3599046
+        "expInCurrentLevel": 721826.0,
+        "expTotal": 2.6075056E7,
+        "percentageToNextLevel": 0.38258654
       },
       "petXpType": "combat",
       "petItem": "DWARF_TURTLE_SHELMET",
@@ -247,9 +247,9 @@
         "maxLevel": 100,
         "expRequiredForNextLevel": 1886700,
         "expRequiredForMaxLevel": 25353230,
-        "expInCurrentLevel": 2159946.0,
-        "expTotal": 2.7513176E7,
-        "percentageToNextLevel": 1.1448275
+        "expInCurrentLevel": 2192440.0,
+        "expTotal": 2.754567E7,
+        "percentageToNextLevel": 1.1620501
       },
       "petXpType": "taming",
       "petItem": "PET_ITEM_EXP_SHARE",
@@ -295,12 +295,12 @@
         "maxLevel": 100,
         "expRequiredForNextLevel": 1886700,
         "expRequiredForMaxLevel": 25353230,
-        "expInCurrentLevel": 126188.0,
-        "expTotal": 2.5479418E7,
-        "percentageToNextLevel": 0.066882916
+        "expInCurrentLevel": 434842.0,
+        "expTotal": 2.5788072E7,
+        "percentageToNextLevel": 0.23047756
       },
       "petXpType": "alchemy",
-      "petItem": "PET_ITEM_ALL_SKILLS_BOOST_COMMON",
+      "petItem": "DWARF_TURTLE_SHELMET",
       "candyUsed": 0
     },
     "19": {
@@ -722,8 +722,8 @@
       "candyUsed": 0
     }
   },
-  "selectedPet": 12,
-  "selectedPet2": 9,
+  "selectedPet": 18,
+  "selectedPet2": -1,
   "tamingLevel": 51,
   "beastMultiplier": 3.0
 }

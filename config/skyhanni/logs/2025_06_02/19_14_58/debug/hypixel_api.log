@@ -1,0 +1,112 @@
+19:18:11 HypixelAPIJoinEvent(alpha=false)
+19:18:11 Connected to Hypixel
+19:18:12 HypixelAPIServerChangeEvent(serverName=dynamiclobby24H, serverType=PROTOTYPE, lobbyName=prototypelobby3, mode=null, map=null)
+19:18:35 HypixelAPIServerChangeEvent(serverName=mini31AT, serverType=SKYBLOCK, lobbyName=null, mode=hub, map=Hub)
+19:18:35 Island detected: 'HUB'
+19:18:35 Island change: 'NONE' -> 'HUB'
+19:18:47 HypixelAPIServerChangeEvent(serverName=mini87BC, serverType=SKYBLOCK, lobbyName=null, mode=dynamic, map=Private Island)
+19:18:47 Island detected: 'PRIVATE_ISLAND'
+19:18:47 Island change: 'HUB' -> 'PRIVATE_ISLAND'
+19:24:05 HypixelAPIServerChangeEvent(serverName=mini4CV, serverType=SKYBLOCK, lobbyName=null, mode=hub, map=Hub)
+19:24:05 Island detected: 'HUB'
+19:24:05 Island change: 'PRIVATE_ISLAND' -> 'HUB'
+19:35:05 HypixelAPIServerChangeEvent(serverName=mini89B, serverType=SKYBLOCK, lobbyName=null, mode=dungeon_hub, map=Dungeon Hub)
+19:35:05 Island detected: 'DUNGEON_HUB'
+19:35:05 Island change: 'HUB' -> 'DUNGEON_HUB'
+19:35:22 HypixelAPIServerChangeEvent(serverName=mini204N, serverType=SKYBLOCK, lobbyName=null, mode=dungeon, map=Dungeon)
+19:35:22 Island detected: 'CATACOMBS'
+19:35:22 Island change: 'DUNGEON_HUB' -> 'CATACOMBS'
+19:37:46 HypixelAPIServerChangeEvent(serverName=mini12CG, serverType=SKYBLOCK, lobbyName=null, mode=dynamic, map=Private Island)
+19:37:46 Island detected: 'PRIVATE_ISLAND'
+19:37:46 Island change: 'CATACOMBS' -> 'PRIVATE_ISLAND'
+19:37:49 HypixelAPIServerChangeEvent(serverName=mini84S, serverType=SKYBLOCK, lobbyName=null, mode=hub, map=Hub)
+19:37:49 Island detected: 'HUB'
+19:37:49 Island change: 'PRIVATE_ISLAND' -> 'HUB'
+19:53:32 HypixelAPIServerChangeEvent(serverName=mini154AP, serverType=SKYBLOCK, lobbyName=null, mode=dynamic, map=Private Island)
+19:53:32 Island detected: 'PRIVATE_ISLAND'
+19:53:33 Island change: 'HUB' -> 'PRIVATE_ISLAND'
+20:10:13 HypixelAPIServerChangeEvent(serverName=mini36DB, serverType=SKYBLOCK, lobbyName=null, mode=hub, map=Hub)
+20:10:13 Island detected: 'HUB'
+20:10:13 Island change: 'PRIVATE_ISLAND' -> 'HUB'
+20:14:14 HypixelAPIServerChangeEvent(serverName=mini209C, serverType=SKYBLOCK, lobbyName=null, mode=dungeon_hub, map=Dungeon Hub)
+20:14:14 Island detected: 'DUNGEON_HUB'
+20:14:14 Island change: 'HUB' -> 'DUNGEON_HUB'
+20:14:47 HypixelAPIServerChangeEvent(serverName=mini154CF, serverType=SKYBLOCK, lobbyName=null, mode=dynamic, map=Private Island)
+20:14:47 Island detected: 'PRIVATE_ISLAND'
+20:14:47 Island change: 'DUNGEON_HUB' -> 'PRIVATE_ISLAND_GUEST'
+20:15:32 HypixelAPIServerChangeEvent(serverName=mini91AF, serverType=SKYBLOCK, lobbyName=null, mode=dynamic, map=Private Island)
+20:15:32 Island detected: 'PRIVATE_ISLAND'
+20:15:32 Island change: 'PRIVATE_ISLAND_GUEST' -> 'PRIVATE_ISLAND'
+20:15:37 HypixelAPIServerChangeEvent(serverName=mini23AS, serverType=SKYBLOCK, lobbyName=null, mode=hub, map=Hub)
+20:15:37 Island detected: 'HUB'
+20:15:37 Island change: 'PRIVATE_ISLAND' -> 'HUB'
+20:28:17 HypixelAPIServerChangeEvent(serverName=mini189AU, serverType=SKYBLOCK, lobbyName=null, mode=combat_3, map=The End)
+20:28:17 Island detected: 'THE_END'
+20:28:17 Island change: 'HUB' -> 'THE_END'
+20:28:30 HypixelAPIServerChangeEvent(serverName=mini3F, serverType=SKYBLOCK, lobbyName=null, mode=hub, map=Hub)
+20:28:30 Island detected: 'HUB'
+20:28:30 Island change: 'THE_END' -> 'HUB'
+20:30:03 HypixelAPIServerChangeEvent(serverName=mini147AE, serverType=SKYBLOCK, lobbyName=null, mode=combat_3, map=The End)
+20:30:03 Island detected: 'THE_END'
+20:30:03 Island change: 'HUB' -> 'THE_END'
+20:30:29 HypixelAPIServerChangeEvent(serverName=mini189AU, serverType=SKYBLOCK, lobbyName=null, mode=combat_3, map=The End)
+20:30:29 Island detected: 'THE_END'
+20:31:47 HypixelAPIServerChangeEvent(serverName=mini84AH, serverType=SKYBLOCK, lobbyName=null, mode=hub, map=Hub)
+20:31:47 Island detected: 'HUB'
+20:31:47 Island change: 'THE_END' -> 'HUB'
+20:31:56 HypixelAPIServerChangeEvent(serverName=mini34AT, serverType=SKYBLOCK, lobbyName=null, mode=combat_3, map=The End)
+20:31:56 Island detected: 'THE_END'
+20:31:56 Island change: 'HUB' -> 'THE_END'
+20:37:17 HypixelAPIServerChangeEvent(serverName=mini67DM, serverType=SKYBLOCK, lobbyName=null, mode=hub, map=Hub)
+20:37:17 Island detected: 'HUB'
+20:37:17 Island change: 'THE_END' -> 'HUB'
+20:38:14 HypixelAPIServerChangeEvent(serverName=mini34AT, serverType=SKYBLOCK, lobbyName=null, mode=combat_3, map=The End)
+20:38:14 Island detected: 'THE_END'
+20:38:14 Island change: 'HUB' -> 'THE_END'
+20:42:35 HypixelAPIServerChangeEvent(serverName=mini153CU, serverType=SKYBLOCK, lobbyName=null, mode=hub, map=Hub)
+20:42:35 Island detected: 'HUB'
+20:42:35 Island change: 'THE_END' -> 'HUB'
+20:43:04 HypixelAPIServerChangeEvent(serverName=mini38W, serverType=SKYBLOCK, lobbyName=null, mode=combat_3, map=The End)
+20:43:04 Island detected: 'THE_END'
+20:43:04 Island change: 'HUB' -> 'THE_END'
+20:43:10 HypixelAPIServerChangeEvent(serverName=mini34AT, serverType=SKYBLOCK, lobbyName=null, mode=combat_3, map=The End)
+20:43:10 Island detected: 'THE_END'
+20:45:50 HypixelAPIServerChangeEvent(serverName=mini19DG, serverType=SKYBLOCK, lobbyName=null, mode=hub, map=Hub)
+20:45:50 Island detected: 'HUB'
+20:45:50 Island change: 'THE_END' -> 'HUB'
+20:46:03 HypixelAPIServerChangeEvent(serverName=mini260P, serverType=SKYBLOCK, lobbyName=null, mode=combat_3, map=The End)
+20:46:03 Island detected: 'THE_END'
+20:46:03 Island change: 'HUB' -> 'THE_END'
+20:46:13 HypixelAPIServerChangeEvent(serverName=mini34AT, serverType=SKYBLOCK, lobbyName=null, mode=combat_3, map=The End)
+20:46:13 Island detected: 'THE_END'
+20:48:26 HypixelAPIServerChangeEvent(serverName=mini182K, serverType=SKYBLOCK, lobbyName=null, mode=dynamic, map=Private Island)
+20:48:26 Island detected: 'PRIVATE_ISLAND'
+20:48:27 Island change: 'THE_END' -> 'PRIVATE_ISLAND'
+20:48:30 HypixelAPIServerChangeEvent(serverName=mini14W, serverType=SKYBLOCK, lobbyName=null, mode=hub, map=Hub)
+20:48:30 Island detected: 'HUB'
+20:48:30 Island change: 'PRIVATE_ISLAND' -> 'HUB'
+20:52:00 HypixelAPIServerChangeEvent(serverName=mini94DN, serverType=SKYBLOCK, lobbyName=null, mode=crimson_isle, map=Crimson Isle)
+20:52:00 Island detected: 'CRIMSON_ISLE'
+20:52:00 Island change: 'HUB' -> 'CRIMSON_ISLE'
+20:53:05 HypixelAPIServerChangeEvent(serverName=mini145DW, serverType=SKYBLOCK, lobbyName=null, mode=hub, map=Hub)
+20:53:05 Island detected: 'HUB'
+20:53:05 Island change: 'CRIMSON_ISLE' -> 'HUB'
+20:53:53 HypixelAPIServerChangeEvent(serverName=mini93AD, serverType=SKYBLOCK, lobbyName=null, mode=dynamic, map=Private Island)
+20:53:53 Island detected: 'PRIVATE_ISLAND'
+20:53:53 Island change: 'HUB' -> 'PRIVATE_ISLAND'
+20:54:54 HypixelAPIServerChangeEvent(serverName=mini69AC, serverType=SKYBLOCK, lobbyName=null, mode=hub, map=Hub)
+20:54:54 Island detected: 'HUB'
+20:54:54 Island change: 'PRIVATE_ISLAND' -> 'HUB'
+20:56:36 HypixelAPIServerChangeEvent(serverName=mini204J, serverType=SKYBLOCK, lobbyName=null, mode=crystal_hollows, map=Crystal Hollows)
+20:56:36 Island detected: 'CRYSTAL_HOLLOWS'
+20:56:36 Island change: 'HUB' -> 'CRYSTAL_HOLLOWS'
+20:57:27 HypixelAPIServerChangeEvent(serverName=mini3A, serverType=SKYBLOCK, lobbyName=null, mode=hub, map=Hub)
+20:57:27 Island detected: 'HUB'
+20:57:27 Island change: 'CRYSTAL_HOLLOWS' -> 'HUB'
+21:01:03 HypixelAPIServerChangeEvent(serverName=mini204J, serverType=SKYBLOCK, lobbyName=null, mode=crystal_hollows, map=Crystal Hollows)
+21:01:03 Island detected: 'CRYSTAL_HOLLOWS'
+21:01:03 Island change: 'HUB' -> 'CRYSTAL_HOLLOWS'
+22:14:40 HypixelAPIServerChangeEvent(serverName=mini188AK, serverType=SKYBLOCK, lobbyName=null, mode=mining_3, map=Dwarven Mines)
+22:14:40 Island detected: 'DWARVEN_MINES'
+22:14:40 Island change: 'CRYSTAL_HOLLOWS' -> 'DWARVEN_MINES'
+22:16:29 Disconnected

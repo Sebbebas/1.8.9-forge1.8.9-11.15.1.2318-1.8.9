@@ -26,10 +26,10 @@ outlineColour_red:0
 outlineColour_green:0
 outlineColour_blue:0
 outlineColour_opacity:255
-dot:false
+dot:true
 dotColour_red:255
-dotColour_green:255
-dotColour_blue:255
+dotColour_green:0
+dotColour_blue:0
 dotColour_opacity:255
 width:3
 height:3

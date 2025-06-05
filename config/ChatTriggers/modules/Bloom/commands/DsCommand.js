@@ -1,4 +1,3 @@
-import Party from "../../BloomCore/Party"
 import { catacombs } from "../../BloomCore/skills/catacombs"
 import { getHypixelPlayerV2, getPlayerUUID, getSkyblockProfilesV2 } from "../../BloomCore/utils/APIWrappers"
 import { bcData, calcSkillLevel, convertToPBTime, fn, getRank, title, unzipGzipData } from "../../BloomCore/utils/Utils"
@@ -6,12 +5,14 @@ import Promise from "../../PromiseV2"
 import { prefix } from "../utils/Utils"
 import {getMpInfo, getSpiritPetStatus, getGdragStatus, getSelectedArrows, getSbLevelInfo, classWithSymbols} from "../utils/ProfileInfoCommons"
 import Config from "../Config"
+import PartyV2 from "../../BloomCore/PartyV2"
+import { getHypixelPlayer, requestPlayerUUID } from "../../BloomCore/utils/ApiWrappers2"
 
 const invisComma = "&0,"
 const columnSeparator = ` &8| `
 const runTableSeparator = ` &b| `
 
-const prettifyLevel = (level) => level == 120 ? `&b&l${level}` : level >= 50 ? `&6&l${level}` : `${level}`
+const prettifyLevel = (level) => level == 100 ? `&b&l${level}` : level >= 50 ? `&6&l${level}` : `${level}`
 
 const padWithCommas = (string, maxLength) => {
     const toAdd = Math.floor((maxLength - Renderer.getStringWidth(string)) / Renderer.getStringWidth(invisComma))
@@ -208,150 +209,196 @@ const gamemodeColors = {
     stranded: "&a"
 }
 
-export const dsCommand = register("command", (player, profilename) => {
-    if (!bcData.apiKey) return ChatLib.chat(`${prefix} &cError: API Key not set! Set it with &b/bl setkey <key>`)
-    if (player == "p") {
-        ChatLib.chat(`${prefix} &aRunning /ds on all party members...`)
-        Object.keys(Party.members).forEach(a => {
-            if (a == Player.getName()) return
-            ChatLib.command(`ds ${a}`, true)
-        })
+register("command", (player, profilename) => {
+    if (!bcData.apiKey) {
+        ChatLib.chat(`${prefix} &cError: API Key not set! Set it with &b/bl setkey <key>`)
         return
     }
-	if (!player) player = Player.getName()
 
-	getPlayerUUID(player).then(uuid => {
-        Promise.all([
-            getHypixelPlayerV2(uuid),
-            getSkyblockProfilesV2(uuid)
-        ]).then(values => {
-            let [playerInfo, sbProfiles] = values
-
-            let sbProfile = sbProfiles.profiles.find(a => a.selected)
-
-            const profileNames = sbProfiles.profiles.map(a => {
-                let final = ""
-                if (a.cute_name == sbProfile.cute_name) final += "&a> &r"
-                final += `&b${a.cute_name}`
-
-                if (a.game_mode) {
-                    final += ` &b(${gamemodeColors[a.game_mode] || "&b"}${title(a.game_mode)}&b)`
-                }
-
-                return final
-            })
-
-            // Stats for a specific profile
-            if (profilename) {
-                sbProfile = sbProfiles.profiles.find(a => {
-                    return a.cute_name.toLowerCase() == profilename.toLowerCase()
-                })
-
-                if (!sbProfile) {
-                    ChatLib.chat(`${prefix} &cCould not find profile: ${profilename}`)
-                    return
-                }
+    if (player == "p") {
+        ChatLib.chat(`${prefix} &aRunning /ds on all party members...`)
+        Object.keys(PartyV2.members).forEach(a => {
+            if (a == Player.getName()) {
+                return
             }
-
-            if (!playerInfo) return ChatLib.chat(`${prefix} &cCouldn't get player info for ${player}`)
-            if (!sbProfile) return ChatLib.chat(`${prefix} &cCouldn't get ${player}'s Skyblock profile!`)
             
-            const playerName = playerInfo.player.displayname
-            let nameFormatted = `${getRank(playerInfo)} ${playerName}&r`
-            let profileName = sbProfile["cute_name"]
+            ChatLib.command(`ds ${a}`, true)
+        })
 
-            if (!sbProfile.members[uuid]) return ChatLib.chat(`${prefix} &cCouldn't get ${player}'s Skyblock profile!`)
-
-            sbProfile.members[uuid].banking = sbProfile.banking
-            sbProfile = sbProfile.members[uuid]
-            
-            if (!sbProfile.dungeons || !Object.keys(sbProfile.dungeons.dungeon_types.catacombs).length) {
-                return ChatLib.chat(`${prefix} &c${playerName} has never entered the Catacombs on their ${profileName} profile!`)
-            }
-
-            const secretsFound = playerInfo.player?.achievements?.skyblock_treasure_hunter || 0
-            const profileSecrets = sbProfile?.dungeons?.secrets || 0
-            
-            let dung = sbProfile.dungeons
-            let cata = sbProfile.dungeons.dungeon_types.catacombs
-            
-            let selectedClass = dung.selected_dungeon_class
+        return
+    }
     
-            let cataXP = Math.floor(cata["experience"])
-            let cataLevel = calcSkillLevel("catacombs", cataXP)
-            let cataLevelInt = Math.floor(cataLevel)
-            let cataLevelStr = prettifyLevel(cataLevel)
-            let cataLow = cataLevel > 50 ? 50 : cataLevelInt
-            
-            let nameHover = `${nameFormatted} &a- &e${profileName}`
-            let classLvls = []
-            Object.entries(dung.player_classes).forEach(([classs, classData]) => {
-                let classXP = parseInt(classData.experience)
-                let classLvl = calcSkillLevel(classs, classXP)
-                classLvls.push(classLvl)
-                let xpCurr = classLvl >= 50 ? (classXP - catacombs[50])%2e8 : parseInt(classXP - catacombs[parseInt(classLvl)])
-                let xpNext = classLvl >= 50 ? 2e8 : catacombs[parseInt(classLvl)+1] - catacombs[parseInt(classLvl)] || 0
-                nameHover += `\n${classs == selectedClass ? "&a" : "&c"}${classWithSymbols[classs]} - &e${prettifyLevel(classLvl)}    &a(&6${fn(xpCurr)}&a/&6${fn(xpNext)}&a)`
-            })
+	if (!player) {
+        player = Player.getName()
+    }
+    
+    requestPlayerUUID(player, (resp) => {
+        let { success, uuid, reason } = resp
 
-            let classAverage = Math.round(classLvls.reduce((a, b) => a + b) / classLvls.length * 100) / 100
-            nameHover += `\n\n&cClass Average: ` + (classAverage == 50 ? `&6&l${classAverage}` : `&e${classAverage}`)
-            nameHover += `\n\nProfiles:\n${profileNames.join("\n")}`
-            nameHover += `\n\n&d&lSkyCrypt &7(Click)\n&ahttps://sky.shiiyu.moe/stats/${playerName}`
+        if (!success) {
+            ChatLib.chat(`&cCould not get UUID for ${player}: ${reason}`)
+            return
+        }
 
-            let xpNext = catacombs[cataLow+1] - catacombs[cataLow]
-            xpNext = isNaN(xpNext) ? 0 : xpNext
-            let percentTo50 = Math.floor(cataXP / catacombs[catacombs.length - 1] * 10000) / 100
-
-            let cataHover = `&e&nCatacombs\n` +
-                `&bTotal XP: &6${fn(cataXP)}\n` +
-                `&aProgress: &6${fn(cataXP - catacombs[cataLow])}&a/&6${fn(xpNext)}\n` +
-                (cataLevel < 50 ? `&eRemaining: &6${fn(Math.floor(catacombs[cataLow+1] - cataXP) || 0)}\n` : "") +
-                `&dPercent To 50: &6${percentTo50}%`
-
-            if (cataLevel > 50) cataHover += `\n&cProgress: &6${fn((cataXP - catacombs[50])%2e8)}&c/&6200,000,000`
-            
-            const { compHover, normalComps, masterComps } = getCompInfo(dung)
-
-            const { mp, mpHover } = getMpInfo(sbProfile)
-
-            let secretsHover = `&e&nSecrets\n` +
-            `&aTotal: &e${fn(secretsFound)}\n` +
-            (profileSecrets && profileSecrets !== secretsFound ? `&aProfile: &e${fn(profileSecrets)}\n` : "") +
-            `&aSecrets/Run: &e${(secretsFound / (normalComps + masterComps)).toFixed(2)}`
-
-            const extraComponents = [
-                new TextComponent(`&cMP: &e${fn(mp)}`).setHover("show_text", mpHover), columnSeparator,
-                createInventoryComponent(sbProfile)
-            ]
-
-            if (Config.advancedDS) {
-                const { spirit, spiritText } = getSpiritPetStatus(sbProfile)
-                const { gdragText, gdragHover } = getGdragStatus(sbProfile)
-                
-                extraComponents.push(
-                    "\n   ",
-                    new TextComponent(getSbLevelInfo(sbProfile)),
-                    columnSeparator,
-                    new TextComponent(spiritText).setHover("show_text",`&cSpirit pet: ${ spirit ? "&aYes" : "&cNo" }`),
-                    columnSeparator,
-                    new TextComponent(gdragText).setHover("show_text", gdragHover),
-                    columnSeparator,
-                    new TextComponent(getSelectedArrows(sbProfile))
-                )
+        getHypixelPlayer(uuid, resp => {
+            if (!resp.success) {
+                ChatLib.chat(`&cCould not get player info for ${player}:\n${resp.reason}`)
+                return
             }
 
-            new Message(
-                new TextComponent(`${nameFormatted}`).setHover("show_text", nameHover).setClick("open_url", `https://sky.shiiyu.moe/stats/${playerName}`), columnSeparator,
-                new TextComponent(`&c${cataLevelStr}`).setHover("show_text", cataHover), columnSeparator,
-                new TextComponent(`&e${fn(secretsFound)}`).setHover("show_text", secretsHover), columnSeparator,
-                new TextComponent(`&cRuns`).setHover("show_text", compHover), columnSeparator,
-                ...extraComponents
-                // new TextComponent(`&cS`).setHover("show_text", sHover), columnSeparator,
-            ).chat()
+            const playerInfo = resp.data
 
-        }).catch(e => ChatLib.chat(`${prefix} &cError getting Dungeon Stats for ${player}: ${JSON.stringify(e)}`))
-    }).catch(error => {
-        ChatLib.chat(`${prefix} &cError getting Dungeon Stats for ${player}: ${error}`)
+            getSkyblockProfilesV2(uuid).then(sbProfiles => {
+                let sbProfile = sbProfiles.profiles.find(a => a.selected)
+        
+                // Stats for a specific profile
+                if (profilename) {
+                    sbProfile = sbProfiles.profiles.find(a => {
+                        return a.cute_name.toLowerCase() == profilename.toLowerCase()
+                    })
+        
+                    if (!sbProfile) {
+                        ChatLib.chat(`${prefix} &cCould not find profile: ${profilename}`)
+                        return
+                    }
+                }
+        
+                const profileNames = sbProfiles.profiles.map(a => {
+                    let final = ""
+                    if (a.cute_name == sbProfile.cute_name) final += "&a> &r"
+                    final += `&b${a.cute_name}`
+        
+                    if (a.game_mode) {
+                        final += ` &b(${gamemodeColors[a.game_mode] || "&b"}${title(a.game_mode)}&b)`
+                    }
+        
+                    return final
+                })
+        
+                if (!playerInfo) return ChatLib.chat(`${prefix} &cCouldn't get player info for ${player}`)
+                if (!sbProfile) return ChatLib.chat(`${prefix} &cCouldn't get ${player}'s Skyblock profile!`)
+                
+                const playerName = playerInfo.player.displayname
+                let nameFormatted = `${getRank(playerInfo)} ${playerName}&r`
+                let profileName = sbProfile["cute_name"]
+        
+                if (!sbProfile.members[uuid]) return ChatLib.chat(`${prefix} &cCouldn't get ${player}'s Skyblock profile!`)
+        
+                sbProfile.members[uuid].banking = sbProfile.banking
+                sbProfile = sbProfile.members[uuid]
+                
+                if (!sbProfile.dungeons || !Object.keys(sbProfile.dungeons.dungeon_types.catacombs).length) {
+                    return ChatLib.chat(`${prefix} &c${playerName} has never entered the Catacombs on their ${profileName} profile!`)
+                }
+        
+                const secretsFound = playerInfo.player?.achievements?.skyblock_treasure_hunter || 0
+                const profileSecrets = sbProfile?.dungeons?.secrets || 0
+                
+                let dung = sbProfile.dungeons
+                let cata = sbProfile.dungeons.dungeon_types.catacombs
+                
+                let selectedClass = dung.selected_dungeon_class
+        
+                const cataXP = Math.floor(cata.experience ?? 0)
+                const cataLevel = calcSkillLevel("catacombs", cataXP)
+                const cataLevelInt = Math.floor(cataLevel)
+                const cataLevelStr = prettifyLevel(cataLevel)
+                const cataLow = cataLevel > 50 ? 50 : cataLevelInt
+                
+                let nameHover = `${nameFormatted} &a- &e${profileName}`
+                let classLvls = []
+                Object.entries(dung.player_classes).forEach(([classs, classData]) => {
+                    let classXP = parseInt(classData.experience)
+                    let classLvl = calcSkillLevel(classs, classXP)
+                    classLvls.push(classLvl)
+                    let xpCurr = classLvl >= 50 ? (classXP - catacombs[50])%2e8 : parseInt(classXP - catacombs[parseInt(classLvl)])
+                    let xpNext = classLvl >= 50 ? 2e8 : catacombs[parseInt(classLvl)+1] - catacombs[parseInt(classLvl)] || 0
+                    nameHover += `\n${classs == selectedClass ? "&a" : "&c"}${classWithSymbols[classs]} - &e${prettifyLevel(classLvl)}    &a(&6${fn(xpCurr)}&a/&6${fn(xpNext)}&a)`
+                })
+        
+                const classAverage = (classLvls.reduce((a, b) => a + b) / classLvls.length).toFixed(2)
+
+                nameHover += `\n\n&cClass Average: ` + (classAverage >= 50 ? `&6&l${classAverage}` : `&e${classAverage}`)
+                nameHover += `\n\nProfiles:\n${profileNames.join("\n")}`
+                nameHover += `\n\n&d&lSkyCrypt &7(Click)\n&ahttps://sky.shiiyu.moe/stats/${playerName}`
+        
+                let xpNext = catacombs[cataLow+1] - catacombs[cataLow]
+                xpNext = isNaN(xpNext) ? 0 : xpNext
+                let percentTo50 = Math.floor(cataXP / catacombs[catacombs.length - 1] * 10000) / 100
+
+                let cataHover = `&e&nCatacombs\n`
+                cataHover += `&bTotal XP: &6${fn(cataXP)}\n`
+                
+                if (cataLevel == 100) {
+                    cataHover += "&b&lMAXED"
+                }
+                else if (cataLevel < 50) {
+                    let levelProgress = cataXP - catacombs[cataLow]
+                    cataHover += `&aProgress: &6${fn(levelProgress)}&a/&6${fn(xpNext)} &a(&6${(levelProgress / xpNext * 100).toFixed(2)}%&a)\n`
+                    cataHover += `&eRemaining: &6${fn(Math.floor(catacombs[cataLow+1] - cataXP) || 0)}\n`
+                    cataHover += `&dPercent To 50: &6${percentTo50}%`
+                }
+                else {
+                    let levelProgress = (cataXP - catacombs[50])%2e8
+                    cataHover += `&aProgress: &6${fn(levelProgress)}&a/&6200M &a(&6${(levelProgress / 2e8 * 100).toFixed(2)}%&a)`
+                }
+                
+                const { compHover, normalComps, masterComps } = getCompInfo(dung)
+        
+                const { mp, mpHover } = getMpInfo(sbProfile)
+        
+                let secretsHover = `&e&nSecrets\n` +
+                `&aTotal: &e${fn(secretsFound)}\n` +
+                (profileSecrets && profileSecrets !== secretsFound ? `&aProfile: &e${fn(profileSecrets)}\n` : "") +
+                `&aSecrets/Run: &e${(secretsFound / (normalComps + masterComps)).toFixed(2)}`
+        
+                const extraComponents = [
+                    new TextComponent(`&cMP: &e${fn(mp)}`).setHover("show_text", mpHover), columnSeparator,
+                    createInventoryComponent(sbProfile)
+                ]
+        
+                if (Config.advancedDS) {
+                    const { spirit, spiritText } = getSpiritPetStatus(sbProfile)
+                    const { gdragText, gdragHover } = getGdragStatus(sbProfile)
+                    
+                    extraComponents.push(
+                        "\n   ",
+                        new TextComponent(getSbLevelInfo(sbProfile)),
+                        columnSeparator,
+                        new TextComponent(spiritText).setHover("show_text",`&cSpirit pet: ${ spirit ? "&aYes" : "&cNo" }`),
+                        columnSeparator,
+                        new TextComponent(gdragText).setHover("show_text", gdragHover),
+                        columnSeparator,
+                        new TextComponent(getSelectedArrows(sbProfile))
+                    )
+                }
+        
+                new Message(
+                    new TextComponent(`${nameFormatted}`).setHover("show_text", nameHover).setClick("open_url", `https://sky.shiiyu.moe/stats/${playerName}`), columnSeparator,
+                    new TextComponent(`&c${cataLevelStr}`).setHover("show_text", cataHover), columnSeparator,
+                    new TextComponent(`&e${fn(secretsFound)}`).setHover("show_text", secretsHover), columnSeparator,
+                    new TextComponent(`&cRuns`).setHover("show_text", compHover), columnSeparator,
+                    ...extraComponents
+                    // new TextComponent(`&cS`).setHover("show_text", sHover), columnSeparator,
+                ).chat()
+            }).catch(e => {
+                ChatLib.chat(`&cCould not get Skyblock profiles for ${player}:\n${JSON.stringify(e, null, 4)}`)
+            })
+        })
     })
+}).setTabCompletions((args) => {
+    const partyNames = Object.keys(PartyV2.members)
+    const worldPlayers = World.getAllPlayers()
+        .filter(a => a.getUUID().version() == 4)
+        .map(a => a.getName())
+
+    const final = partyNames.concat(worldPlayers)
+
+    if (args.length > 0) {
+        const finalArg = args[args.length-1]
+
+        return final.filter(a => a.toLowerCase().startsWith(finalArg.toLowerCase()))
+    }
+
+    return final
 }).setName("ds")

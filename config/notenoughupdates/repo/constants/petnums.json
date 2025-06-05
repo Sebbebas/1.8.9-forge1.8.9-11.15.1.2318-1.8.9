@@ -4,7 +4,7 @@
       "1": {
         "otherNums": [
           0.01,
-          1,
+          0.005,
           0.01,
           0.02,
           0.02
@@ -16,7 +16,7 @@
       "100": {
         "otherNums": [
           1.0,
-          100,
+          0.5,
           0.5,
           2,
           2
@@ -510,8 +510,8 @@
           1.09,
           1.07,
           1.04,
-          5.2,
-          5
+          0.3,
+          5.2
         ],
         "statNums": {
           "INTELLIGENCE": 0.5,
@@ -527,7 +527,7 @@
           10,
           8,
           5,
-          25,
+          30,
           25
         ],
         "statNums": {
@@ -1470,7 +1470,7 @@
           0.3,
           0.5,
           0.2,
-          1.004
+          1.005
         ],
         "statNums": {
           "CRIT_DAMAGE": 0.75
@@ -1481,7 +1481,7 @@
           30,
           50,
           25,
-          1.4
+          1.5
         ],
         "statNums": {
           "CRIT_DAMAGE": 75.0
@@ -2324,6 +2324,154 @@
         ],
         "statNums": {
           "SPEED": 15
+        }
+      }
+    }
+  },
+  "HERMIT_CRAB": {
+    "COMMON": {
+      "1": {
+        "otherNums": [
+          0.2
+        ],
+        "statNums": {
+          "DEFENSE": 0.2,
+          "SEA_CREATURE_CHANCE": 0.02,
+          "FISHING_SPEED": 0.2
+        }
+      },
+      "100": {
+        "otherNums": [
+          20
+        ],
+        "statNums": {
+          "DEFENSE": 20,
+          "SEA_CREATURE_CHANCE": 2,
+          "FISHING_SPEED": 20
+        }
+      }
+    },
+    "UNCOMMON": {
+      "1": {
+        "otherNums": [
+          0.3
+        ],
+        "statNums": {
+          "DEFENSE": 0.2,
+          "SEA_CREATURE_CHANCE": 0.02,
+          "FISHING_SPEED": 0.2
+        }
+      },
+      "100": {
+        "otherNums": [
+          30
+        ],
+        "statNums": {
+          "DEFENSE": 20,
+          "SEA_CREATURE_CHANCE": 2,
+          "FISHING_SPEED": 20
+        }
+      }
+    },
+    "RARE": {
+      "1": {
+        "otherNums": [
+          0.3,
+          0.07
+        ],
+        "statNums": {
+          "DEFENSE": 0.2,
+          "SEA_CREATURE_CHANCE": 0.02,
+          "FISHING_SPEED": 0.2
+        }
+      },
+      "100": {
+        "otherNums": [
+          30,
+          7.5
+        ],
+        "statNums": {
+          "DEFENSE": 20,
+          "SEA_CREATURE_CHANCE": 2,
+          "FISHING_SPEED": 20
+        }
+      }
+    },
+    "EPIC": {
+      "1": {
+        "otherNums": [
+          0.4,
+          0.1
+        ],
+        "statNums": {
+          "DEFENSE": 0.2,
+          "SEA_CREATURE_CHANCE": 0.02,
+          "FISHING_SPEED": 0.2
+        }
+      },
+      "100": {
+        "otherNums": [
+          40,
+          10
+        ],
+        "statNums": {
+          "DEFENSE": 20,
+          "SEA_CREATURE_CHANCE": 2,
+          "FISHING_SPEED": 20
+        }
+      }
+    },
+    "LEGENDARY": {
+      "1": {
+        "otherNums": [
+          0.4,
+          0.1,
+          0.002
+        ],
+        "statNums": {
+          "DEFENSE": 0.2,
+          "SEA_CREATURE_CHANCE": 0.02,
+          "FISHING_SPEED": 0.2
+        }
+      },
+      "100": {
+        "otherNums": [
+          40,
+          10,
+          0.2
+        ],
+        "statNums": {
+          "DEFENSE": 20,
+          "SEA_CREATURE_CHANCE": 2,
+          "FISHING_SPEED": 20
+        }
+      }
+    },
+    "MYTHIC": {
+      "1": {
+        "otherNums": [
+          0.4,
+          0.1,
+          0.002,
+          0.2
+        ],
+        "statNums": {
+          "DEFENSE": 0.2,
+          "SEA_CREATURE_CHANCE": 0.02,
+          "FISHING_SPEED": 0.2
+        }
+      },
+      "100": {
+        "otherNums": [
+          40,
+          10,
+          0.2,
+          20
+        ],
+        "statNums": {
+          "DEFENSE": 20,
+          "SEA_CREATURE_CHANCE": 2,
+          "FISHING_SPEED": 20
         }
       }
     }
@@ -3535,21 +3683,23 @@
       "1": {
         "otherNums": [
           1,
-          1,
-          0.8
+          0.01,
+          0.75
         ],
         "statNums": {
-          "SEA_CREATURE_CHANCE": 0.1
+          "SEA_CREATURE_CHANCE": 0.1,
+          "COLD_RESISTANCE": 0.15
         }
       },
       "100": {
         "otherNums": [
-          6,
-          100,
+          5,
+          1,
           75
         ],
         "statNums": {
-          "SEA_CREATURE_CHANCE": 10
+          "SEA_CREATURE_CHANCE": 10,
+          "COLD_RESISTANCE": 15
         }
       }
     }

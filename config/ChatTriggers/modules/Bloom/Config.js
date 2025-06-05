@@ -58,7 +58,6 @@ class Config {
     }
 
     stackTrackerGui = new Gui()
-    partyOverlayMoveGui = new Gui()
     cooldownMoveGui = new Gui()
     toggleSprintMove = new Gui()
     chMapMoveGui = new Gui()
@@ -251,7 +250,7 @@ class Config {
             "Both (Phase)"
         ]
     })
-    etherwarpHighlightType = 0;
+    etherwarpHighlightType = 5;
 
     @ColorProperty({
         name: "Overlay Color",
@@ -259,7 +258,7 @@ class Config {
         category: "General",
         subcategory: "Etherwarp"
     })
-    etherwarpOverlayColor = new Color(0, 1, 0, 1);
+    etherwarpOverlayColor = new Color(0, 1, 0, 0.2);
 
     @ColorProperty({
         name: "Invalid Teleport Color",
@@ -267,7 +266,7 @@ class Config {
         category: "General",
         subcategory: "Etherwarp"
     })
-    etherwarpOverlayFailColor = new Color(1, 0, 0, 1);
+    etherwarpOverlayFailColor = new Color(1, 0, 0, 0.2);
 
     @SwitchProperty({
         name: "Hide Crosshair in Third Person",
@@ -337,7 +336,7 @@ class Config {
 
     @SwitchProperty({
         name: "Run Splits",
-        description: "Shows the Run Splits for the current run on screen. Will also keep track of your fastest splits and show how far away you are from them eg (+2.4s)",
+        description: "Shows the Run Splits for the current run on screen. Will also keep track of your fastest splits and show how far away you are from them eg (+2.4s).\n&aIf your run splits have been corrupted, do /resetsplits <floor> to reset them.",
         category: "Dungeons",
         subcategory: "Run Splits"
     })
@@ -568,6 +567,14 @@ class Config {
         subcategory: "QoL"
     })
     hideBlessingMessages = false;
+
+    @SwitchProperty({
+        name: "Auto Requeue",
+        description: "Automatically joins a new dungeon. Will turn itself off for one run if \"!dt\" is sent in party chat. Can manually be toggled for one run with \"//dt\".",
+        category: "Dungeons",
+        subcategory: "QoL"
+    })
+    autoRequeue = false;
 
     @SwitchProperty({
         name: "&aTerminal Solvers",
@@ -858,7 +865,7 @@ class Config {
         placeholder: "Move"
     })
     MovePartyOverlay() {
-        this.partyOverlayMoveGui.open()
+        ChatLib.command(`bloommovepartyoverlay`, true)
     };
     
     @SwitchProperty({

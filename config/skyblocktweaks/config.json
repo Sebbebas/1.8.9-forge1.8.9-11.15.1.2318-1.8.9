@@ -130,7 +130,7 @@
     "chroma": false
   },
   "overflowManaNumber": false,
-  "partyMemberDisplay": true,
+  "partyMemberDisplay": false,
   "secretNumber": false,
   "secretNumberTextStyle": "Shadowed",
   "showMaxEffectiveHealth": false,
@@ -159,6 +159,7 @@
     "chroma": false
   },
   "dwarvenMinesMap": false,
+  "gemstoneOverlay": true,
   "fireFreezeTimer": true,
   "floor2SpawnTimer": true,
   "highlightCorrectLivid": false,
@@ -227,6 +228,7 @@
   "quiverOverlay": false,
   "quiverOverlayOnlyBow": false,
   "quiverOverlayType": false,
+  "showItemPricingData": false,
   "crimsonIslesMap": false,
   "moodyGrappleShotHighlight": false,
   "moodyGrappleShotHighlightColor": {
@@ -252,6 +254,7 @@
     "chroma": false
   },
   "slayerTimer": false,
+  "slayerTracer": true,
   "voidgloomHitsPhase": {
     "r": 255,
     "g": 0,
@@ -463,7 +466,7 @@
     "a": 255,
     "chroma": false
   },
-  "smallPlayers": false,
+  "smallPlayers": true,
   "smallPlayersScale": 50,
   "snowEffect": false,
   "snowEffectExclusive": false,

@@ -14,7 +14,7 @@ difficulty:3
 fancyGraphics:false
 ao:0
 renderClouds:false
-resourcePacks:["§bCland§7estine [§b16x§7] §bAqua.zip","!     ?2defrost ?8[?f16x?8].zip","Default-Dark-Mode Copy","!               §6Sky v1.zip"]
+resourcePacks:["§bCland§7estine [§b16x§7] §bAqua.zip","Default-Dark-Mode Copy","!               §6Sky v1.zip"]
 incompatibleResourcePacks:[]
 lastServer:
 lang:en_us
@@ -139,7 +139,7 @@ key_Dungeon Map Zoom Out:74
 key_Copy NBT:157
 key_Warp to nearest location to burrial guess:0
 key_Choose the nearest eman boss as your boss.:0
-soundCategory_master:0.16887417
+soundCategory_master:0.17880794
 soundCategory_music:0.0
 soundCategory_record:0.5
 soundCategory_weather:0.5070422

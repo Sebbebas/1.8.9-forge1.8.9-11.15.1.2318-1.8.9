@@ -1,0 +1,97 @@
+[
+    {
+        "type": "VARIANTS",
+        "id": "UNUSED",
+        "enabled": true,
+        "data": {
+            "variants": [
+                {
+                    "name": "black",
+                    "color": 0
+                },
+                {
+                    "name": "blue",
+                    "color": 688893
+                },
+                {
+                    "name": "red",
+                    "color": 13379881
+                }
+            ]
+        }
+    },
+    {
+        "type": "POSITION_RANGE",
+        "id": "UNUSED",
+        "enabled": true,
+        "data": {
+            "y_min": -1.0,
+            "y_max": 1.0
+        }
+    },
+    {
+        "type": "COSMETIC_BONE_HIDING",
+        "id": "FOX_ONESIE",
+        "enabled": true,
+        "data": {
+            "head": true
+        }
+    },
+    {
+        "type": "EXTERNAL_HIDDEN_BONE",
+        "id": "SCARY_FACE_TAKEOVER",
+        "enabled": true,
+        "data": {
+            "smile_outer": true
+        }
+    },
+    {
+        "type": "EXTERNAL_HIDDEN_BONE",
+        "id": "CYBORG_HEAD",
+        "enabled": true,
+        "data": {
+            "outer_left": true,
+            "outer_right": true
+        }
+    },
+    {
+        "type": "COSMETIC_BONE_HIDING",
+        "id": "SPACE_SUIT",
+        "enabled": true,
+        "data": {
+            "head": true
+        }
+    },
+    {
+        "type": "EXTERNAL_HIDDEN_BONE",
+        "id": "DOUBLE_BUN",
+        "enabled": true,
+        "data": {
+            "outer": true
+        }
+    },
+    {
+        "type": "EXTERNAL_HIDDEN_BONE",
+        "id": "MESSY_BUN",
+        "enabled": true,
+        "data": {
+            "outer": true
+        }
+    },
+    {
+        "type": "EXTERNAL_HIDDEN_BONE",
+        "id": "LONG_HAIR",
+        "enabled": true,
+        "data": {
+            "outer": true
+        }
+    },
+    {
+        "type": "EXTERNAL_HIDDEN_BONE",
+        "id": "SPIKY_BUNS",
+        "enabled": true,
+        "data": {
+            "outer": true
+        }
+    }
+]

@@ -1,11 +1,11 @@
 {
     "first_time": false,
-    "version": "0.11.5",
+    "version": "0.11.6",
     "power": "Sighted",
-    "tuning": "22⚔",
+    "tuning": "154✎",
     "enrich": "Unknown",
-    "mp": "736",
-    "pet": "&6Sheep",
+    "mp": "775",
+    "pet": "&6Wolf",
     "gummy": 0,
     "wisp": 0,
     "mobsHighlight": {},
@@ -17,9 +17,9 @@
     ],
     "lastMini": [
         "&eBarbarian Duke X",
-        "&8Bladesoul",
+        "&5Mage Outlaw",
         "&eBarbarian Duke X",
-        "&8Bladesoul"
+        "&4Magma Boss"
     ],
     "flare": {
         "kills": 0,

@@ -5,6 +5,7 @@
 		timestamps_format = 0
 		streamer_mode = false
 		modcore_warning = false
+		replace_window_title = true
 
 	[general.online_status]
 		show_essential_indicator_on_tab = true
@@ -95,6 +96,7 @@
 [cosmetics]
 
 	[cosmetics.general]
+		hide_cosmetic_particles_in_first_person = false
 		hide_cosmetics_on_server_skins = false
 		disable_cosmetics = false
 		"cosmetic_&_armor_conflict_-_on_myself" = 0

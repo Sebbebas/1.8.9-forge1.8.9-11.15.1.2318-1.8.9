@@ -1,6 +1,6 @@
 {
   "//": "If you would like to contribute to this list please ensure that you: take the coordinates of the soul its self and not where you stand.",
-  "Max Souls": 247,
+  "Max Souls": 253,
   "hub": [
     "138,66,129",
     "169,60,129",
@@ -235,7 +235,8 @@
     "-116,142,154",
     "20,121,240",
     "-19,121,397",
-    "111,160,412"
+    "111,160,412",
+    "-195,124,-15"
   ],
   "winter": [
     "-95,77,20",
@@ -252,5 +253,12 @@
     "-55,82,-10",
     "-4,21,-17",
     "14,60,99"
+  ],
+  "fishing_1": [
+    "72,115,-12",
+    "2,67,10",
+    "62,76,5",
+    "16,59,-7",
+    "33,61,-41"
   ]
 }

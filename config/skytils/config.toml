@@ -26,7 +26,8 @@
 		config_button_on_pause = true
 		reopen_options_menu = true
 		first_launch = false
-		last_launched_skytils_version = "1.10.9-pre1"
+		last_launched_skytils_version = "1.12.0-pre1"
+		disable_volume_overrides = false
 
 	[general.reparty]
 		override_other_reparty_commands = false
@@ -111,6 +112,7 @@
 		book_helper = false
 		show_item_star_count = false
 		hide_midas_staff_gold = false
+		"block_zapper:_left_click_to_undo" = false
 		block_zapper_fatigue_timer = false
 		combine_helper = false
 		show_enchanted_book_abbreviation = false
@@ -325,6 +327,7 @@
 		dungeon_crypts_counter = false
 
 	[dungeons.terminal_solvers]
+		change_all_to_same_color_solver_lock = false
 		predict_clicks_for_alignment_solver = true
 		change_all_to_same_color_solver = true
 		predict_clicks_for_simon_says_solver = false
@@ -342,6 +345,7 @@
 		simon_says_solver = false
 
 	[dungeons.score_calculation]
+		hide_score_estimate_in_boss = false
 		300_title_message = "300"
 		send_message_on_300_score = true
 		270_title_message = ""
@@ -355,6 +359,7 @@
 		minimized_dungeon_score_estimate = false
 		score_calculation_party_assist = false
 		send_message_on_270_score = false
+		dungeon_score_estimate_style = 0
 
 	[dungeons.fixes]
 		inject_fake_dungeon_map = false
@@ -457,6 +462,7 @@
 		crystal_hollows_chat_coordinates_grabber = true
 		crystal_hollows_death_waypoints = true
 		crystal_hollows_waypoints = true
+		crystal_hollows_map_player_arrow_scale = 2.25
 		king_yolkar_waypoint = true
 		crystal_hollows_map_special_places = true
 		crystal_hollows_treasure_helper = true

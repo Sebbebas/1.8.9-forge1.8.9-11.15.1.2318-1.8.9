@@ -281,7 +281,7 @@ export const calcSkillLevel = (skill, xp) => {
         if (xp > progression[maxLevel]) {
             if (!cataSkills.includes(skill)) return maxLevel
             let level = Math.floor((50 + (xp - progression[50])/200000000) * 100)/100
-            return level > 120 ? 120 : level
+            return level > 100 ? 100 : level
         }
         level = progression.filter(a => a < xp).length
         return Math.floor((level-1 + (xp - progression[level-1]) / (progression[level] - progression[level-1])) * 100) / 100
@@ -1156,6 +1156,7 @@ const etherBlockTypes = [
     "minecraft:brown_mushroom",
     "minecraft:red_mushroom",
     "minecraft:piston_extension",
+    "minecraft:portal"
 ].map(a => new BlockType(a).getID())
 
 // Make it so that the array can be directly indexed into via the block id instead of having to calculate a hash with a set
@@ -1632,4 +1633,27 @@ export const getMedian = (array) => {
     const mid = (array.length - 1) >> 1
 
     return (array[mid] + array[mid+1]) / 2
+}
+
+/**
+ * Gets the Entity in the world with the matching entityID, or null if it doesn't exist
+ * @param {Number} entityID 
+ * @returns 
+ */
+export const getEntityWithID = (entityID) => World.getWorld().func_73045_a(entityID)
+
+/**
+ * Gets the given entity's entity ID
+ * @param {Entity | MCEntity} entity 
+ */
+export const getEntityID = (entity) => {
+    if (!entity) return null
+
+    // CT Entity
+    if (entity instanceof Entity) {
+        return entity.getEntity().func_145782_y()
+    }
+
+    // MCEntity
+    return entity.func_145782_y()
 }

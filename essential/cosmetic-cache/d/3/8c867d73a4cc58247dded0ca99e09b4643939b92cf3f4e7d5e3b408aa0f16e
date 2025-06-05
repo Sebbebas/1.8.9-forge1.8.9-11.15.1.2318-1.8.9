@@ -1,0 +1,124 @@
+[
+    {
+        "type": "VARIANTS",
+        "id": "UNUSED",
+        "enabled": true,
+        "data": {
+            "variants": [
+                {
+                    "name": "gold",
+                    "color": 16766720
+                },
+                {
+                    "name": "amethyst",
+                    "color": 10053324
+                },
+                {
+                    "name": "diamond",
+                    "color": 12186367
+                },
+                {
+                    "name": "emerald",
+                    "color": 5294200
+                }
+            ]
+        }
+    },
+    {
+        "type": "EXTERNAL_HIDDEN_BONE",
+        "id": "CAMO_PANTS",
+        "enabled": true,
+        "data": {
+            "body_outer": true
+        }
+    },
+    {
+        "type": "EXTERNAL_HIDDEN_BONE",
+        "id": "PANTS",
+        "enabled": true,
+        "data": {
+            "body_outer": true
+        }
+    },
+    {
+        "type": "EXTERNAL_HIDDEN_BONE",
+        "id": "SHORTS",
+        "enabled": true,
+        "data": {
+            "body_outer": true
+        }
+    },
+    {
+        "type": "EXTERNAL_HIDDEN_BONE",
+        "id": "SHINY_PANTS",
+        "enabled": true,
+        "data": {
+            "body_outer": true
+        }
+    },
+    {
+        "type": "EXTERNAL_HIDDEN_BONE",
+        "id": "SKIRT",
+        "enabled": true,
+        "data": {
+            "body_outer": true
+        }
+    },
+    {
+        "type": "EXTERNAL_HIDDEN_BONE",
+        "id": "FIRE_PANTS",
+        "enabled": true,
+        "data": {
+            "body_outer": true
+        }
+    },
+    {
+        "type": "EXTERNAL_HIDDEN_BONE",
+        "id": "PAJAMA_PANTS",
+        "enabled": true,
+        "data": {
+            "body_outer": true
+        }
+    },
+    {
+        "type": "EXTERNAL_HIDDEN_BONE",
+        "id": "NEON_RGB_PANTS",
+        "enabled": true,
+        "data": {
+            "body_outer": true
+        }
+    },
+    {
+        "type": "EXTERNAL_HIDDEN_BONE",
+        "id": "HACKER_JETPACK",
+        "enabled": true,
+        "data": {
+            "straps": true
+        }
+    },
+    {
+        "type": "COSMETIC_BONE_HIDING",
+        "id": "MYSTICAL_HOOD",
+        "enabled": true,
+        "data": {
+            "arms": true,
+            "body": true
+        }
+    },
+    {
+        "type": "EXTERNAL_HIDDEN_BONE",
+        "id": "CARGO_PANTS",
+        "enabled": true,
+        "data": {
+            "body_outer": true
+        }
+    },
+    {
+        "type": "EXTERNAL_HIDDEN_BONE",
+        "id": "GRUNGE_PANTS",
+        "enabled": true,
+        "data": {
+            "body_outer": true
+        }
+    }
+]

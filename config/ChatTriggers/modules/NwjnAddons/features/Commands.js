@@ -39,12 +39,13 @@ register("command", () => {
   }).start()
 }).setName('rocket', true);
 
-register("command", (...args) => {
-  try {
-    const equat = args.join("").replace(/,/g, "")
-    ChatLib.chat(`${PREFIX}&r: ${comma(equat)} = ${comma(eval(equat))}`)
-  } catch (err) {ChatLib.chat(`${PREFIX}&r: ${err}`)}
-}).setName("calc", true)
+// No calc for you funny guy - docilelm
+// register("command", (...args) => {
+//   try {
+//     const equat = args.join("").replace(/,/g, "")
+//     ChatLib.chat(`${PREFIX}&r: ${comma(equat)} = ${comma(eval(equat))}`)
+//   } catch (err) {ChatLib.chat(`${PREFIX}&r: ${err}`)}
+// }).setName("calc", true)
 
 
 register("command", () => {
@@ -53,35 +54,6 @@ register("command", () => {
   ChatLib.command(`trade ${ looking?.getName() }`);
   ChatLib.addToSentMessageHistory(-1, `/trade ${ looking?.getName() }`)
 }).setName("deal", true);
-
-// dev tools
-let code = []
-
-registerWhen(register("command", (...args) => {
-  try {
-    const command = args.shift()
-    switch (command) {
-      case "add": 
-        code.push(args.join(" "));
-        ChatLib.chat(`&dEval added new code:&r ${args.join(" ")}`);
-        break;
-      case "reset": 
-        code.length = 0;
-        ChatLib.chat(`&dEval reset all code`);  break;
-      case "view":
-        ChatLib.chat(`&dCode:`)
-        ChatLib.chat(code.join("\n"));
-        break;
-      case "run":
-        ChatLib.chat(`&dRunning code...`);
-        eval(code.join("\n"));
-        ChatLib.command("eval reset", true)
-        break;
-      default: return;
-    }
-    ChatLib.chat("")
-  } catch (err) { ChatLib.chat(`${ PREFIX } Eval: &c${ err }`);  ChatLib.command("eval reset", true)}
-}).setName("eval", true), () => settings.devTools)
 
 registerWhen(register("command", () => {
   const nbt = Player.getHeldItem()?.getNBT()

@@ -103,20 +103,6 @@ export default new class Dungeon {
 
         onChatPacket(() => this.openedWitherDoors++).setCriteria(/.+ opened a WITHER door\!/)
 
-        // Spirit pet checker
-        register("chat", (player, cause) => {
-            if (!this.inDungeon || this.deaths > 0 || !this.time || !bcData.apiKey) return
-            if (player == "You") player = Player.getName()
-            getMojangInfo(player).then(mojangInfo => {
-                const uuid = mojangInfo.id
-                getRecentProfile(uuid, null, bcData.apiKey).then(profile => {
-                    if (!profile.members[uuid].pets.some(a => a.type == "SPIRIT" && a.tier == "LEGENDARY")) return ChatLib.chat(`&c${mojangInfo.name} does not have a spirit pet`)
-                    this.firstDeathSpirit = true
-                    ChatLib.chat(`&a${mojangInfo.name} Has a spirit pet!`)
-                })
-            })
-        }).setCriteria(/^ ☠ (\w{1,16}) (.+) and became a ghost\.$/)
-
         this.registerWhenInDungeon(register("entityDeath", (entity) => {
             let e = entity.getEntity()
             if (!(e instanceof EntityZombie) || ![6, 7].includes(this.floorNumber) || this.mimicKilled) return
@@ -131,57 +117,60 @@ export default new class Dungeon {
         }).setCriteria(/^Party > .*?: (.+)$/)
 
         this.debugRenderTrigger = register("renderOverlay", () => {
-            Renderer.drawString(
-                `
-                In Dungeon: ${this.inDungeon}
-                Party Size: ${this.partySize}
-                Secrets Found: ${this.secretsFound}
-                Secrets Percent: ${this.secretsPercent}
-                Crypts: ${this.crypts}
-                Opened Rooms: ${this.openedRooms}
-                Completed Rooms: ${this.completedRooms}
-                Percent Cleared: ${this.percentCleared}
-                Adjusted: ${this.adjustedCompleted}
-                Completed Puzzles: ${this.completedPuzzles}
-                Incomplete Puzzles: ${this.incompletePuzzles}
-                Deaths: ${this.deaths}
-                Discoveries: ${this.discoveries}
-                Total Secrets: ${this.totalSecrets}
-                Total Rooms: ${this.totalRooms}
-                Floor: ${this.floor}
-                Floor Number: ${this.floorNumber}
-                Time: ${this.time}
-                Seconds: ${this.seconds}
-                Puzzles: ${JSON.stringify(this.puzzles)}
-                Party: ${JSON.stringify([...this.party])}
-                Skill Score: ${this.skillScore}
-                Explore Score: ${this.exploreScore}
-                Speed Score: ${this.speedScore}
-                Bonus Score: ${this.bonusScore}
-                Score: ${this.score}
-                Blood Open: ${this.bloodOpen}
-                Blood Done: ${this.bloodDone}
-                Blod Map Index: ${this.mapBloodIndex}
-                Boss Entry: ${this.bossEntry}
-                Healing Done: ${this.healingDone}
-                Damage Dealt: ${this.damageDealt}
-                Milestone: ${this.milestone}
-                Dead Players: ${JSON.stringify([...this.deadPlayers])}
-                `, 150, 5
-            )
-            Renderer.drawString(
-                `
-                Secret Percent Needed: ${this.secretsPercentNeeded}
-                Secret Score: ${this.secretsScore}
-                Secrets for Max: ${this.secretsForMax},
-                Icons: ${JSON.stringify(this.icons)}
-                Player Icons: ${JSON.stringify(this.playerIcons)}
-                Map Corner: ${JSON.stringify(this.mapCorner)}
-                Map Room Size: ${this.mapRoomSize}
-                Gap Size: ${this.mapGapSize}
-                Classes: ${JSON.stringify(this.classes)}
-                `, 300, 5
-            )
+
+            const iconStr = Object.entries(this.icons).map(([icon, info]) => {
+                const { x, y, rotation, player } = info
+    
+                return `\n${icon}: &a${player}&r\nx: &6${x} &ry: &6${y} &rrot: &6${rotation}`
+            }).join("\n")
+
+            Renderer.drawString([
+                `In Dungeon: ${this.inDungeon}`,
+                `Party Size: ${this.partySize}`,
+                `Secrets Found: ${this.secretsFound}`,
+                `Secrets Percent: ${this.secretsPercent}`,
+                `Crypts: ${this.crypts}`,
+                `Opened Rooms: ${this.openedRooms}`,
+                `Completed Rooms: ${this.completedRooms}`,
+                `Percent Cleared: ${this.percentCleared}`,
+                `Adjusted: ${this.adjustedCompleted}`,
+                `Completed Puzzles: ${this.completedPuzzles}`,
+                `Incomplete Puzzles: ${this.incompletePuzzles}`,
+                `Deaths: ${this.deaths}`,
+                `Discoveries: ${this.discoveries}`,
+                `Total Secrets: ${this.totalSecrets}`,
+                `Total Rooms: ${this.totalRooms}`,
+                `Floor: ${this.floor}`,
+                `Floor Number: ${this.floorNumber}`,
+                `Time: ${this.time}`,
+                `Seconds: ${this.seconds}`,
+                `Puzzles: ${JSON.stringify(this.puzzles)}`,
+                `Party: ${JSON.stringify([...this.party])}`,
+                `Skill Score: ${this.skillScore}`,
+                `Explore Score: ${this.exploreScore}`,
+                `Speed Score: ${this.speedScore}`,
+                `Bonus Score: ${this.bonusScore}`,
+                `Score: ${this.score}`,
+                `Blood Open: ${this.bloodOpen}`,
+                `Blood Done: ${this.bloodDone}`,
+                `Blod Map Index: ${this.mapBloodIndex}`,
+                `Boss Entry: ${this.bossEntry}`,
+                `Healing Done: ${this.healingDone}`,
+                `Damage Dealt: ${this.damageDealt}`,
+                `Milestone: ${this.milestone}`,
+                `Dead Players: ${JSON.stringify([...this.deadPlayers])}`
+            ].join("\n"), 150, 5)
+
+            Renderer.drawString([
+                `Secret Percent Needed: ${this.secretsPercentNeeded}`,
+                `Secret Score: ${this.secretsScore}`,
+                `Secrets for Max: ${this.secretsForMax},`,
+                `Icons: ${iconStr}`,
+                `Map Corner: ${JSON.stringify(this.mapCorner)}`,
+                `Map Room Size: ${this.mapRoomSize}`,
+                `Gap Size: ${this.mapGapSize}`,
+                `Classes: ${JSON.stringify(this.classes)}`,
+            ].join("\n"), 300, 5)
         }).unregister()
         
         bcData.debugDungeon ? this.debugRenderTrigger.register() : this.debugRenderTrigger.unregister()
@@ -274,9 +263,9 @@ export default new class Dungeon {
             this.updateMapIcons()
             this.checkIfBloodDone()
             
-            this.mapUpdateFuncs.forEach((func, i) => {
-                // ChatLib.chat(`Doing func ${i}: ${func}`)
-                func(this.mapData)
+            this.mapUpdateFuncs.forEach((mapFunc, i) => {
+                // ChatLib.chat(`Doing mapFunc ${i}: ${mapFunc}`)
+                mapFunc(this.mapData)
             })
         }).setFilteredClass(S34PacketMaps)
 
@@ -321,7 +310,7 @@ export default new class Dungeon {
 
         this.crypts = 0
         this.deaths = 0
-        this.firstDeathSpirit = false
+        this.firstDeathSpirit = true
         this.discoveries = 0
         this.openedWitherDoors = 0
 
@@ -465,7 +454,7 @@ export default new class Dungeon {
         this.crypts = getMatchFromLines(/^§r Crypts: §r§6(\d+)§r$/, tabList, "int") ?? this.crypts
         this.openedRooms = getMatchFromLines(/^§r Opened Rooms: §r§5(\d+)§r$/, tabList, "int") ?? this.openedRooms
         this.completedRooms = getMatchFromLines(/^§r Completed Rooms: §r§d(\d+)§r$/, tabList, "int") ?? this.completedRooms
-        this.deaths = getMatchFromLines(/^§r§a§lDeaths: §r§f\((\d+)\)§r$/, tabList, "int") ?? this.deaths
+        this.deaths = getMatchFromLines(/^§r§a§lTeam Deaths: §r§f(\d+)§r$/, tabList, "int") ?? this.deaths
         this.discoveries = getMatchFromLines(/^§r§a§lDiscoveries: §r§f\((\d+)\)§r$/, tabList, "int") ?? this.discoveries
 
         this.percentCleared = getMatchFromLines(/^Cleared: (\d+)% \(\d+\)$/, scoreboard, "int") ?? this.percentCleared
@@ -610,7 +599,8 @@ export default new class Dungeon {
         this.exploreScore = Math.floor(60*completedRoomsRatio + this.secretsScore)
         if (!this.time) this.exploreScore = 0
 
-        this.bonusScore = (this.crypts > 5 ? 5 : this.crypts) + (this.mimicKilled ? 2 : 0) + (this.isPaul || bcData.forcePaul ? 10 : 0)
+        const isPaul = this.isPaul || bcData.forcePaul
+        this.bonusScore = (this.crypts > 5 ? 5 : this.crypts) + (this.mimicKilled ? 2 : 0) + (this.isPaul ? 10 : 0)
 
         // I don't want to calculate this
         this.speedScore = 100
@@ -620,7 +610,12 @@ export default new class Dungeon {
         this.score = this.skillScore + this.exploreScore + this.speedScore + this.bonusScore
 
         this.secretsForMax = Math.ceil(this.totalSecrets * this.secretsPercentNeeded)
-        this.minSecrets = Math.floor(this.secretsForMax*((40 - this.bonusScore + (this.deathPenalty))/40))
+
+        // Assume that bonus score is maxed
+        const maxBonus = (this.floorNumber >= 6 ? 7 : 5) + (isPaul ? 10 : 0)
+        const targetScore = 40 - maxBonus
+
+        this.minSecrets = Math.ceil((targetScore * this.totalSecrets * this.secretsPercentNeeded) / 40)
 
     }
 

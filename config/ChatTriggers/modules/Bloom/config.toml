@@ -97,6 +97,7 @@
 		secret_click_color = "255,0,255,0"
 		only_self = true
 		blood_camp_timer = false
+		auto_requeue = false
 		hide_blessing_messages = false
 		"auto_architect's_first_draft" = false
 

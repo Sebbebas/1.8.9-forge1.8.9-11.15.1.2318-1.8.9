@@ -122,7 +122,18 @@ const setBlackBG = (image) => {
 }
 
 const getHeadFromAPI = (uuid, border, both) => {
-    let img = ImageIO.read(new java.net.URL(`https://crafatar.com/avatars/${uuid}?overlay`)).getScaledInstance(8, 8, java.awt.Image.SCALE_SMOOTH)
+    let img = null
+    try {
+        img = ImageIO.read(new java.net.URL(`https://crafatar.com/avatars/${uuid}?overlay`)).getScaledInstance(8, 8, java.awt.Image.SCALE_SMOOTH)
+    }
+    catch(e) {
+        return null
+    }
+
+    if (!img) {
+        return null
+    }
+
     img.getWidth()
     img = img.getBufferedImage()
     let normal = new Image(img)
@@ -143,13 +154,11 @@ const getHeadFromAPI = (uuid, border, both) => {
  export const getHead = (player, border, both=false, uuid=null) => new Promise((resolve) => {
     
     if (uuid) resolve(getHeadFromAPI(uuid, border, both))
-        
-    getMojangInfo(player).then(mojangInfo => {
-        if (!mojangInfo.success) return resolve(null)
-        
-        let uuid = mojangInfo.id
-        if (!uuid) resolve(null)
+    
+    getPlayerUUID(player).then(uuid => {
         resolve(getHeadFromAPI(uuid, border, both))
+    }).catch(e => {
+        resolve(null)
     })
 })
 
@@ -188,7 +197,9 @@ export const getPlayerUUID = (player) => {
     return promise.then(mojangInfo => {
         cachedUUIDs[nameLower].promise = null
 
-        if (!mojangInfo.success) return null
+        if (!mojangInfo.success) {
+            return null
+        }
 
         const { id, name } = mojangInfo
         // ChatLib.chat(`&c[UUID]&r Set cached uuid for ${player}: ${id}`)
@@ -222,9 +233,29 @@ export const getHypixelPlayerV2 = (uuid, key=null) => {
     }
 
     // ChatLib.chat(`&5[PLAYER INFO]&r Making request for ${uuid}`)
-    const promise = request({
-        url: `https://api.hypixel.net/v2/player?key=${key ?? bcData.apiKey}&uuid=${uuid}`,
-        json: true
+    const promise = new Promise((resolve, reject) => {
+        request({
+            url: `https://api.hypixel.net/v2/player?key=${key ?? bcData.apiKey}&uuid=${uuid}`,
+            json: true
+        }).then(resp => {
+            if (!resp.success) {
+                
+            }
+            // Update cached data
+            cachedPlayerEndpointData[uuid].data = resp
+            cachedPlayerEndpointData[uuid].promise = null
+    
+            if (resp.success) {
+                // ChatLib.chat(`&5[PLAYER INFO]&r &2Caching ${uuid} PLAYER DATA`)
+                cachedPlayerEndpointData[uuid].updated = Date.now()
+            }
+    
+            // ChatLib.chat(`&5[PLAYER INFO]&r &6Returning new player data for ${uuid}`)
+            resolve(resp)
+        }).catch(e => {
+            cachedPlayerEndpointData[uuid].promise = null
+            reject(e)
+        })
     })
 
     // Initialize the cached data
@@ -233,20 +264,6 @@ export const getHypixelPlayerV2 = (uuid, key=null) => {
         updated: null,
         promise: promise
     }
-    
-    promise.then(resp => {
-        // Update cached data
-        cachedPlayerEndpointData[uuid].data = resp
-        cachedPlayerEndpointData[uuid].promise = null
-
-        if (resp.success) {
-            // ChatLib.chat(`&5[PLAYER INFO]&r &2Caching ${uuid} PLAYER DATA`)
-            cachedPlayerEndpointData[uuid].updated = Date.now()
-        }
-
-        // ChatLib.chat(`&5[PLAYER INFO]&r &6Returning new player data for ${uuid}`)
-        return resp
-    })
 
     return promise
 }

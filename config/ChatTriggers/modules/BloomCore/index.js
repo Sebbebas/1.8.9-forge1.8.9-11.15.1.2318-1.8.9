@@ -2,8 +2,9 @@ import Dungeon from "./dungeons/Dungeon";
 import MyPlayer from "./MyPlayer";
 import PriceUtils from "./PriceUtils";
 import Skyblock from "./Skyblock";
-import { bcData, prefix, S02PacketChat } from "./utils/Utils";
+import { bcData, prefix } from "./utils/Utils";
 import "./utils/ItemAPIGrabber"
+import PartyV2 from "./PartyV2";
 
 register("command", (...args) => {
     if (!args || !args.length) return
@@ -23,7 +24,14 @@ register("command", (...args) => {
     }
 
     if (args[0] == "setkey") {
-        if (!args[1]) return ChatLib.chat(`&c/bcore setkey <API_KEY>`)
+        if (!args[1]) return ChatLib.chat(`&c/bcore setkey <API_KEY>\n&cTo reset your API key, run /bcore setkey reset`)
+
+        if (args[1] == "reset") {
+            bcData.apiKey = null
+            bcData.save()
+            ChatLib.chat(`${prefix} &aAPI key reset!`)
+            return
+        }
 
         bcData.apiKey = args[1]
         bcData.save()
@@ -65,32 +73,28 @@ register("command", (...args) => {
         PriceUtils.update()
     }
     bcData.save()
-}).setTabCompletions(["setkey", "d", "sb", "mp", "debug"]).setName("bcore")
+}).setTabCompletions((args) => {
+    const firstArgs = ["setkey", "d", "sb", "mp", "debug", "updateprices", "forcepaul"]
 
-register("chat", (key) => {
-    bcData.apiKey = key
-    bcData.save()
-    ChatLib.chat(`&8[&bBloomCore&8] &aAPI key has been set!`)
-}).setCriteria(/^Your new API key is (.+)$/)
+    if (args.length == 0) {
+        return firstArgs
+    }
+
+    if (args[0] == "debug" && args.length < 3) {
+        const debugCompletions = ["inDungeon", "inSkyblock"]
+
+        return debugCompletions.filter(a => a.toLowerCase().startsWith(args[1].toLowerCase()))
+    }
+
+    if (args.length == 1) {
+        return firstArgs.filter(a => a.startsWith(args[0].toLowerCase()))
+    }
+
+    return []
+}).setName("bcore")
 
 register("command", () => {
     if (!bcData.apiKey) return ChatLib.chat(`${prefix} &cAPI Key not set!`)
     ChatLib.command(`ct copy ${bcData.apiKey}`, true)
     ChatLib.chat(`${prefix} &aCopied your API key to clipboard!`)
 }).setName("copykey")
-
-register("command", (key) => {
-    if (!key) return ChatLib.chat(`&e/simkey <API_KEY> - Simulates the /api new message with the given API key. This allows your other mods to auto detect your API key from the chat message.`)
-    const component = new TextComponent(`§aYour new API key is §r§b${key}§r`).setClick("suggest_command", key)
-    const packet = new S02PacketChat(component.chatComponentText)
-    Client.getMinecraft().func_147114_u().func_147251_a(packet)
-}).setName("simkey")
-
-register("messageSent", (message) => {
-    if (message.toLowerCase() !== "/api new") return
-    new Message(
-        `${prefix} &eHypixel has changed how obtaining API keys works. After getting your new API key from &b`,
-        new TextComponent("developer.hypixel.net").setClick("open_url", "https://developer.hypixel.net"),
-        `&e, run the &b/simkey <API_KEY> &ecommand to have all of your mods auto detect the API key.`
-    ).chat()
-})

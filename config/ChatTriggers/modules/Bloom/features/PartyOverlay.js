@@ -1,28 +1,72 @@
-import Config from "../Config"
 import { data } from "../utils/Utils"
-import Party from "../../BloomCore/Party"
-import { registerWhen } from "../../BloomCore/utils/Utils"
+import ScalableGui from "../../BloomCore/utils/ScalableGui"
+import PartyV2 from "../../BloomCore/PartyV2"
+import Config from "../Config"
 
-register("dragged", (dx, dy, x, y, btn) => {
-    if (!Config.partyOverlayMoveGui.isOpen()) return
-    data.party.x = x
-    data.party.y = y
-    data.save()
+// const exampleData = [
+//     {
+//         name: "UnclaimedBloom6",
+//         formattedRank: "&c[ADMIN]",
+//         online: true
+//     },
+//     {
+//         name: "Noob",
+//         formattedRank: "&7",
+//         online: false
+//     },
+// ]
+
+const moveGui = new ScalableGui(data, data.party).setCommand("bloommovepartyoverlay")
+
+const render = (members) => {
+    Renderer.drawStringWithShadow(
+        `&cParty: (&6${PartyV2.size}&c)`,
+        moveGui.getX() * moveGui.getScale(),
+        moveGui.getY() * moveGui.getScale(),
+    )
+
+    for (let i = 0; i < members.length; i++) {
+        let { name, formattedName, online } = members[i]
+
+        let final = ""
+        if (PartyV2.leader == name) final += "&6♔ &r"
+        final += formattedName
+        final += ` ${online ? "&a" : "&c"}●`
+
+        Renderer.drawStringWithShadow(
+            final,
+            moveGui.getX() * moveGui.getScale(),
+            (moveGui.getY() + (i+1) * 10) * moveGui.getScale(),
+        )
+    }
+}
+
+const renderTrigger = register("renderOverlay", () => {
+    const members = Object.values(PartyV2.members)
+
+    if (members.length) {
+        render(members)
+    }
+    else {
+        render(exampleData)
+    }
+}).unregister()
+
+PartyV2.onPartyJoined(() => {
+    if (Config.partyOverlay) {
+        renderTrigger.register()
+    }
 })
 
-let partyStr = null
-register("tick", () => {
-    if (!Config.partyOverlayMoveGui.isOpen() && !Config.partyOverlay) return partyStr = null
-    if (!Object.keys(Party.members).length) return partyStr = null
-    partyStr = `&cParty (&6${Object.keys(Party.members).length}&c)`
-    Object.keys(Party.members).forEach(member => {
-        if (member == Party.leader) partyStr += `\n&6♔ &r${Party.members[member]}`
-        else if (Party.excludePlayers.includes(member)) partyStr += `\n&c✘ &r${Party.members[member]}`
-        else partyStr += `\n${Party.members[member]}`
-    })
+PartyV2.onPartyDisband(() => {
+    renderTrigger.unregister()
 })
 
-registerWhen(register("renderOverlay", () => {
-    if (!partyStr) return
-    Renderer.drawString(partyStr, data.party.x, data.party.y)
-}), () => partyStr)
+Config.registerListener("Party List Overlay", (state) => {
+    if (state && PartyV2.size > 0) {
+        renderTrigger.register()
+    }
+    else if (!state) {
+        renderTrigger.unregister()
+    }
+})

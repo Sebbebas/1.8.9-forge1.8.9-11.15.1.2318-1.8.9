@@ -1,0 +1,1968 @@
+{
+  "alligator": {
+    "entity": "Player",
+    "modifiers": [
+      {
+        "type": "playerdata",
+        "skin": "neurepo:mobs/alligator.png",
+        "parts": true
+      }
+    ]
+  },
+  "angry_archeologist": {
+    "entity": "Player",
+    "modifiers": [
+      {
+        "type": "playerdata",
+        "skin": "neurepo:mobs/angry_archeologist.png"
+      },
+      {
+        "type": "equipment",
+        "hand": "DIAMOND_SWORD",
+        "helmet": "PERFECT_CHESTPLATE_10",
+        "chestplate": "PERFECT_CHESTPLATE_10",
+        "leggings": "PERFECT_CHESTPLATE_10",
+        "feet": "PERFECT_CHESTPLATE_10"
+      }
+    ]
+  },
+  "atoned_champion": {
+    "entity": "Zombie",
+    "modifiers": [
+      {
+        "type": "equipment",
+        "hand": "STONE_SWORD",
+        "chestplate": "IRON_CHESTPLATE",
+        "leggings": "LEATHER_BOOTS#FFFFFF",
+        "feet": "LEATHER_BOOTS#FFFFFF"
+      }
+    ]
+  },
+  "atoned_revenant": {
+    "entity": "Zombie",
+    "modifiers": [
+      {
+        "type": "equipment",
+        "hand": "IRON_SWORD",
+        "chestplate": "DIAMOND_CHESTPLATE",
+        "leggings": "LEATHER_BOOTS#FFFFFF",
+        "feet": "LEATHER_BOOTS#FFFFFF"
+      }
+    ]
+  },
+  "autonull": {
+    "entity": "Player",
+    "modifiers": [
+      {
+        "type": "playerdata",
+        "skin": "neurepo:mobs/autonull.png",
+        "parts": true
+      },
+      {
+        "type": "equipment",
+        "hand": "DIAMOND_SWORD",
+        "helmet": "CHAINMAIL_HELMET",
+        "chestplate": "CHAINMAIL_CHESTPLATE",
+        "leggings": "CHAINMAIL_LEGGINGS",
+        "feet": "CHAINMAIL_BOOTS"
+      }
+    ]
+  },
+  "banshee": {
+    "entity": "Player",
+    "modifiers": [
+      {
+        "type": "playerdata",
+        "skin": "neurepo:mobs/banshee.png",
+        "parts": true
+      }
+    ]
+  },
+  "barbarian_duke_x": {
+    "entity": "Player",
+    "modifiers": [
+      {
+        "type": "playerdata",
+        "skin": "neurepo:mobs/barbarian_duke_x.png",
+        "parts": true
+      }
+    ]
+  },
+  "bladesoul": {
+    "entity": "WitherSkeleton",
+    "modifiers": [
+      {
+        "type": "equipment",
+        "hand": "RAGNAROCK_AXE",
+        "helmet": "BLADESOUL_MINIBOSS"
+      }
+    ]
+  },
+  "blaze": {
+    "entity": "Blaze"
+  },
+  "blue_ringed_octopus": {
+    "entity": "ArmorStand",
+    "modifiers": [
+      {
+        "type": "invisible"
+      },
+      {
+        "type": "equipment",
+        "helmet": "BLUE_RINGED_OCTOPUS_SC"
+      }
+    ]
+  },
+  "blue_shark": {
+    "entity": "Player",
+    "modifiers": [
+      {
+        "type": "playerdata",
+        "skin": "neurepo:mobs/blue_shark.png",
+        "parts": true
+      }
+    ]
+  },
+  "bonzo": {
+    "entity": "Player",
+    "modifiers": [
+      {
+        "type": "playerdata",
+        "skin": "neurepo:mobs/bonzo.png",
+        "parts": true
+      },
+      {
+        "type": "equipment",
+        "hand": "BONZO_STAFF"
+      }
+    ]
+  },
+  "boss_corleone": {
+    "entity": "Player",
+    "modifiers": [
+      {
+        "type": "playerdata",
+        "skin": "neurepo:mobs/boss_corleone.png",
+        "parts": true
+      },
+      {
+        "type": "equipment",
+        "hand": "IRON_PICKAXE"
+      }
+    ]
+  },
+  "butterfly": {
+    "entity": "ArmorStand",
+    "modifiers": [
+      {
+        "type": "invisible"
+      },
+      {
+        "type": "equipment",
+        "helmet": "BUTTERFLY_MONSTER"
+      }
+    ]
+  },
+  "charged_creeper": {
+    "entity": "Creeper",
+    "modifiers": [
+      {
+        "type": "charged"
+      }
+    ]
+  },
+  "chicken": {
+    "entity": "Chicken"
+  },
+  "chickzilla": {
+    "entity": "Player",
+    "modifiers": [
+      {
+        "type": "playerdata",
+        "skin": "neurepo:mobs/chickzilla.png",
+        "parts": true
+      }
+    ]
+  },
+  "cow": {
+    "entity": "Cow"
+  },
+  "creeper": {
+    "entity": "Creeper"
+  },
+  "crypt_dreadlord": {
+    "entity": "Player",
+    "modifiers": [
+      {
+        "type": "playerdata",
+        "skin": "neurepo:mobs/crypt_dreadlord.png",
+        "parts": true
+      }
+    ]
+  },
+  "crypt_ghoul": {
+    "entity": "Zombie",
+    "modifiers": [
+      {
+        "type": "equipment",
+        "hand": "STONE_SWORD",
+        "chestplate": "CHAINMAIL_CHESTPLATE",
+        "leggings": "CHAINMAIL_LEGGINGS",
+        "feet": "CHAINMAIL_BOOTS"
+      }
+    ]
+  },
+  "crypt_lurker": {
+    "entity": "Zombie",
+    "modifiers": [
+      {
+        "type": "equipment",
+        "hand": "BONE"
+      }
+    ]
+  },
+  "deadgehog": {
+    "entity": "Player",
+    "modifiers": [
+      {
+        "type": "playerdata",
+        "skin": "neurepo:mobs/deadgehog.png"
+      },
+      {
+        "helmet": "SKULL#ewogICJ0aW1lc3RhbXAiIDogMTU4OTk2MzczNTIzMiwKICAicHJvZmlsZUlkIiA6ICJiMGQ3MzJmZTAwZjc0MDdlOWU3Zjc0NjMwMWNkOThjYSIsCiAgInByb2ZpbGVOYW1lIiA6ICJPUHBscyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9mZDRjMTQyYzM4MmE2YmUwMGNhZWVlOWEwMjMwNmYwNjU0NGU2ZTQ2Yjk1M2JjYzhjYWM2NWU1Yzg5ZDQ3OTBhIgogICAgfQogIH0KfQ\u003d\u003d",
+        "type": "equipment"
+      }
+    ]
+  },
+  "deformed_revenant": {
+    "entity": "Zombie",
+    "modifiers": [
+      {
+        "type": "equipment",
+        "hand": "GOLD_SWORD",
+        "helmet": "LEATHER_HELMET",
+        "chestplate": "DIAMOND_CHESTPLATE",
+        "leggings": "LEATHER_LEGGINGS",
+        "feet": "DIAMOND_BOOTS"
+      }
+    ]
+  },
+  "diamond_goblin": {
+    "entity": "Player",
+    "modifiers": [
+      {
+        "type": "playerdata",
+        "skin": "neurepo:mobs/golden_goblin.png",
+        "parts": true
+      },
+      {
+        "type": "equipment",
+        "helmet": "DIAMOND_HELMET",
+        "chestplate": "DIAMOND_CHESTPLATE",
+        "leggings": "DIAMOND_LEGGINGS",
+        "feet": "DIAMOND_BOOTS"
+      }
+    ]
+  },
+  "dumpster_diver": {
+    "entity": "Zombie",
+    "modifiers": [
+      {
+        "type": "equipment",
+        "hand": "OVERFLOWING_TRASH_CAN",
+        "helmet": "DUMPSTER_DIVER_SC",
+        "chestplate": "LEATHER_CHESTPLATE#78368",
+        "leggings": "LEATHER_LEGGINGS#78368",
+        "feet": "LEATHER_BOOTS#78368"
+      }
+    ]
+  },
+  "enderman": {
+    "entity": "Enderman"
+  },
+  "endermite": {
+    "entity": "Endermite"
+  },
+  "endstone_protector": {
+    "entity": "Eisengolem"
+  },
+  "executive_sebastian": {
+    "entity": "Player",
+    "modifiers": [
+      {
+        "type": "playerdata",
+        "skin": "neurepo:mobs/executive_sebastian.png",
+        "parts": true
+      },
+      {
+        "type": "equipment",
+        "hand": "IRON_PICKAXE"
+      }
+    ]
+  },
+  "executive_viper": {
+    "entity": "Player",
+    "modifiers": [
+      {
+        "type": "playerdata",
+        "skin": "neurepo:mobs/executive_viper.png",
+        "parts": true
+      },
+      {
+        "type": "equipment",
+        "hand": "IRON_PICKAXE"
+      }
+    ]
+  },
+  "executive_wendy": {
+    "entity": "Player",
+    "modifiers": [
+      {
+        "type": "playerdata",
+        "skin": "neurepo:mobs/executive_wendy.png",
+        "parts": true
+      },
+      {
+        "type": "equipment",
+        "hand": "IRON_PICKAXE"
+      }
+    ]
+  },
+  "fiery_scuttler": {
+    "entity": "ArmorStand",
+    "modifiers": [
+      {
+        "type": "invisible"
+      },
+      {
+        "type": "equipment",
+        "helmet": "FIERY_SCUTTLER_SC"
+      }
+    ]
+  },
+  "fire_eel": {
+    "entity": "ArmorStand",
+    "modifiers": [
+      {
+        "type": "invisible"
+      },
+      {
+        "type": "equipment",
+        "helmet": "FIRE_EEL_SC"
+      }
+    ]
+  },
+  "fledgling": {
+    "entity": "Player",
+    "modifiers": [
+      {
+        "type": "playerdata",
+        "skin": "neurepo:mobs/fledgling.png",
+        "parts": true
+      }
+    ]
+  },
+  "frog_man": {
+    "entity": "Player",
+    "modifiers": [
+      {
+        "type": "playerdata",
+        "skin": "neurepo:mobs/frog_man.png",
+        "parts": true
+      }
+    ]
+  },
+  "frozen_adventurer": {
+    "entity": "Player",
+    "modifiers": [
+      {
+        "type": "playerdata",
+        "skin": "neurepo:mobs/frozen_adventurer.png",
+        "parts": true
+      },
+      {
+        "type": "equipment",
+        "hand": "STICK",
+        "helmet": "FROZEN_BLAZE_HELMET",
+        "chestplate": "FROZEN_BLAZE_CHESTPLATE",
+        "leggings": "FROZEN_BLAZE_LEGGINGS",
+        "feet": "FROZEN_BLAZE_BOOTS"
+      }
+    ]
+  },
+  "frozen_steve": {
+    "entity": "Player",
+    "modifiers": [
+      {
+        "type": "playerdata",
+        "skin": "neurepo:mobs/frozen_steve.png",
+        "parts": true
+      }
+    ]
+  },
+  "frozille": {
+    "entity": "ArmorStand",
+    "modifiers": [
+      {
+        "type": "equipment",
+        "helmet": "FROZILLE_MONSTER"
+      },
+      {
+        "type": "invisible",
+        "invisible": true
+      }
+    ]
+  },
+  "ghast": {
+    "entity": "Ghast"
+  },
+  "ghost": {
+    "entity": "Creeper",
+    "modifiers": [
+      {
+        "type": "charged"
+      },
+      {
+        "type": "invisible"
+      }
+    ]
+  },
+  "glacite_bowman": {
+    "entity": "Player",
+    "modifiers": [
+      {
+        "type": "playerdata",
+        "skin": "neurepo:mobs/glacite_caver.png",
+        "parts": true
+      },
+      {
+        "type": "equipment",
+        "hand": "BOW",
+        "helmet": "GLACITE_HELMET"
+      }
+    ]
+  },
+  "glacite_caver": {
+    "entity": "Player",
+    "modifiers": [
+      {
+        "type": "playerdata",
+        "skin": "neurepo:mobs/glacite_caver.png",
+        "parts": true
+      },
+      {
+        "type": "equipment",
+        "hand": "DIAMOND_PICKAXE",
+        "helmet": "GLACITE_HELMET"
+      }
+    ]
+  },
+  "glacite_mage": {
+    "entity": "Player",
+    "modifiers": [
+      {
+        "type": "playerdata",
+        "skin": "neurepo:mobs/glacite_mage.png",
+        "parts": true
+      },
+      {
+        "type": "equipment",
+        "hand": "STICK",
+        "helmet": "GLACITE_HELMET"
+      }
+    ]
+  },
+  "goblin": {
+    "entity": "Player",
+    "modifiers": [
+      {
+        "type": "playerdata",
+        "skin": "neurepo:mobs/goblin.png",
+        "parts": true
+      }
+    ]
+  },
+  "golden_ghoul": {
+    "entity": "Zombie",
+    "modifiers": [
+      {
+        "type": "equipment",
+        "hand": "GOLD_SWORD",
+        "chestplate": "GOLD_CHESTPLATE",
+        "leggings": "GOLD_LEGGINGS",
+        "feet": "GOLD_BOOTS"
+      }
+    ]
+  },
+  "golden_goblin": {
+    "entity": "Player",
+    "modifiers": [
+      {
+        "type": "playerdata",
+        "skin": "neurepo:mobs/golden_goblin.png",
+        "parts": true
+      },
+      {
+        "type": "equipment",
+        "helmet": "GOLD_HELMET",
+        "chestplate": "GOLD_CHESTPLATE",
+        "leggings": "GOLD_LEGGINGS",
+        "feet": "GOLD_BOOTS"
+      }
+    ]
+  },
+  "great_white_shark": {
+    "entity": "Player",
+    "modifiers": [
+      {
+        "type": "playerdata",
+        "skin": "neurepo:mobs/great_white_shark.png",
+        "parts": true
+      }
+    ]
+  },
+  "green_gift": {
+    "entity": "ArmorStand",
+    "modifiers": [
+      {
+        "type": "invisible"
+      },
+      {
+        "type": "equipment",
+        "helmet": "GREEN_GIFT"
+      }
+    ]
+  },
+  "grim_reaper": {
+    "entity": "Player",
+    "modifiers": [
+      {
+        "type": "playerdata",
+        "skin": "neurepo:mobs/grim_reaper.png",
+        "parts": true,
+        "hand": "IRON_HOE"
+      }
+    ]
+  },
+  "grinch": {
+    "entity": "Player",
+    "modifiers": [
+      {
+        "type": "playerdata",
+        "skin": "neurepo:mobs/grinch.png",
+        "parts": true
+      }
+    ]
+  },
+  "grunt": {
+    "entity": "Player",
+    "modifiers": [
+      {
+        "type": "playerdata",
+        "skin": "neurepo:mobs/grunt.png",
+        "parts": true
+      },
+      {
+        "type": "equipment",
+        "hand": "IRON_PICKAXE"
+      }
+    ]
+  },
+  "headless_horseman": {
+    "entity": "Horse",
+    "modifiers": [
+      {
+        "type": "horse",
+        "kind": "skeleton"
+      },
+      {
+        "type": "riding",
+        "entity": "Skeleton",
+        "modifiers": [
+          {
+            "type": "equipment",
+            "hand": "DIAMOND_HOE",
+            "helmet": "HEADLESS_HORSEMAN_BOSS",
+            "chestplate": "SPOOKY_CHESTPLATE",
+            "leggings": "SPOOKY_LEGGINGS",
+            "feet": "SPOOKY_BOOTS"
+          }
+        ]
+      }
+    ]
+  },
+  "holy_lost_adventurer": {
+    "entity": "Player",
+    "modifiers": [
+      {
+        "type": "playerdata",
+        "skin": "neurepo:mobs/lost_adventurer.png"
+      },
+      {
+        "type": "equipment",
+        "hand": "DIAMOND_SWORD",
+        "helmet": "HOLY_DRAGON_HELMET",
+        "chestplate": "HOLY_DRAGON_CHESTPLATE",
+        "leggings": "HOLY_DRAGON_LEGGINGS",
+        "feet": "HOLY_DRAGON_BOOTS"
+      }
+    ]
+  },
+  "howling_spirit": {
+    "entity": "Wolf"
+  },
+  "ice_walker": {
+    "entity": "Player",
+    "modifiers": [
+      {
+        "type": "playerdata",
+        "skin": "neurepo:mobs/ice_walker.png",
+        "parts": true
+      },
+      {
+        "type": "equipment",
+        "hand": "IRON_SWORD",
+        "helmet": "PACKED_ICE",
+        "chestplate": "GLACITE_CHESTPLATE",
+        "leggings": "GLACITE_LEGGINGS",
+        "feet": "GLACITE_BOOTS"
+      }
+    ]
+  },
+  "kada_knight": {
+    "entity": "Chicken",
+    "modifiers": [
+      {
+        "type": "riding",
+        "entity": "Pigman",
+        "modifiers": [
+          {
+            "type": "age",
+            "baby": "true"
+          }
+        ]
+      }
+    ]
+  },
+  "king_midas": {
+    "entity": "Player",
+    "modifiers": [
+      {
+        "type": "playerdata",
+        "skin": "neurepo:mobs/king_midas.png",
+        "parts": true
+      },
+      {
+        "type": "equipment",
+        "hand": "GOLD_SWORD",
+        "helmet": "GOLD_HELMET",
+        "chestplate": "GOLD_CHESTPLATE",
+        "leggings": "GOLD_LEGGINGS",
+        "feet": "GOLD_BOOTS"
+      }
+    ]
+  },
+  "lagoon_leech": {
+    "entity": "Zombie",
+    "modifiers": [
+      {
+        "type": "equipment",
+        "helmet": "SKULL#eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGY3ZWRlOWM4OGYxYzMzYzk1NGJiYzgxYzhkYTg3MWNhYmZjYzIzZDU1ZjhiNDkzYTU4OWY4MjM5ZDZjMzkifX19",
+        "chestplate": "LEATHER_CHESTPLATE#202513",
+        "leggings": "CHAINMAIL_LEGGINGS",
+        "feet": "LEATHER_BOOTS#000000"
+      }
+    ]
+  },
+  "lapis_zombie": {
+    "entity": "Zombie",
+    "modifiers": [
+      {
+        "type": "equipment",
+        "helmet": "LAPIS_ARMOR_HELMET",
+        "chestplate": "LAPIS_ARMOR_CHESTPLATE",
+        "leggings": "LAPIS_ARMOR_LEGGINGS",
+        "feet": "LAPIS_ARMOR_BOOTS"
+      }
+    ]
+  },
+  "larva": {
+    "entity": "ArmorStand",
+    "modifiers": [
+      {
+        "type": "equipment",
+        "helmet": "LARVA_MONSTER"
+      },
+      {
+        "type": "invisible",
+        "invisible": true
+      }
+    ]
+  },
+  "leech_supreme": {
+    "entity": "Player",
+    "modifiers": [
+      {
+        "type": "playerdata",
+        "skin": "neurepo:mobs/leech_supreme.png",
+        "parts": true
+      }
+    ]
+  },
+  "leech_swarm": {
+    "entity": "Zombie",
+    "modifiers": [
+      {
+        "type": "equipment",
+        "feet": "LEATHER_BOOTS#000000",
+        "chestplate": "LEATHER_CHESTPLATE#202513",
+        "leggings": "CHAINMAIL_LEGGINGS",
+        "helmet": ""
+      }
+    ]
+  },
+  "livid": {
+    "entity": "Player",
+    "modifiers": [
+      {
+        "type": "playerdata",
+        "skin": "neurepo:mobs/livid.png",
+        "parts": true
+      }
+    ]
+  },
+  "mage_outlaw": {
+    "entity": "Player",
+    "modifiers": [
+      {
+        "type": "playerdata",
+        "skin": "neurepo:mobs/mage_outlaw.png",
+        "parts": true
+      },
+      {
+        "type": "equipment",
+        "hand": "NETHER_STAR"
+      }
+    ]
+  },
+  "magma_cube": {
+    "entity": "MagmaCube"
+  },
+  "magma_cube_boss": {
+    "entity": "MagmaCube"
+  },
+  "magma_cube_rider": {
+    "entity": "MagmaCube",
+    "modifiers": [
+      {
+        "type": "riding",
+        "entity": "Pigman"
+      }
+    ]
+  },
+  "matcho": {
+    "entity": "Player",
+    "modifiers": [
+      {
+        "type": "playerdata",
+        "skin": "neurepo:mobs/matcho.png",
+        "parts": true
+      },
+      {
+        "type": "equipment",
+        "hand": "MATCH_STICKS"
+      }
+    ]
+  },
+  "mimic": {
+    "entity": "Zombie",
+    "modifiers": [
+      {
+        "type": "age",
+        "baby": "true"
+      },
+      {
+        "type": "equipment",
+        "helmet": "MIMIC_MONSTER",
+        "chestplate": "LEATHER_CHESTPLATE",
+        "leggings": "LEATHER_LEGGINGS",
+        "feet": "LEATHER_BOOTS"
+      }
+    ]
+  },
+  "miner_skeleton": {
+    "entity": "Skeleton",
+    "modifiers": [
+      {
+        "type": "equipment",
+        "hand": "BOW",
+        "helmet": "ENCHANTED_DIAMOND_BLOCK",
+        "chestplate": "TANK_MINER_CHESTPLATE",
+        "leggings": "TANK_MINER_LEGGINGS",
+        "feet": "TANK_MINER_BOOTS"
+      }
+    ]
+  },
+  "miner_zombie": {
+    "entity": "Zombie",
+    "modifiers": [
+      {
+        "type": "equipment",
+        "hand": "DIAMOND_SWORD",
+        "helmet": "ENCHANTED_DIAMOND_BLOCK",
+        "chestplate": "TANK_MINER_CHESTPLATE",
+        "leggings": "TANK_MINER_LEGGINGS",
+        "feet": "TANK_MINER_BOOTS"
+      }
+    ]
+  },
+  "minos_champion": {
+    "entity": "Player",
+    "modifiers": [
+      {
+        "type": "playerdata",
+        "skin": "neurepo:mobs/minos_champion.png",
+        "parts": true
+      }
+    ]
+  },
+  "minos_hunter": {
+    "entity": "Zombie",
+    "modifiers": [
+      {
+        "type": "equipment",
+        "hand": "WOOD_SWORD",
+        "helmet": "MINOS_HUNTER_MONSTER",
+        "chestplate": "LEATHER_CHESTPLATE",
+        "leggings": "LEATHER_LEGGINGS",
+        "feet": "LEATHER_BOOTS"
+      }
+    ]
+  },
+  "minos_inquisitor": {
+    "entity": "Player",
+    "modifiers": [
+      {
+        "type": "playerdata",
+        "skin": "neurepo:mobs/minos_inquisitor.png",
+        "parts": true
+      }
+    ]
+  },
+  "minotaur": {
+    "entity": "Player",
+    "modifiers": [
+      {
+        "type": "playerdata",
+        "skin": "neurepo:mobs/minotaur.png",
+        "parts": true
+      }
+    ]
+  },
+  "necron": {
+    "entity": "SiNelverfish"
+  },
+  "nightmare": {
+    "entity": "Horse",
+    "modifiers": [
+      {
+        "type": "horse",
+        "kind": "zombie"
+      }
+    ]
+  },
+  "nurse_shark": {
+    "entity": "Player",
+    "modifiers": [
+      {
+        "type": "playerdata",
+        "skin": "neurepo:mobs/nurse_shark.png",
+        "parts": true
+      }
+    ]
+  },
+  "nutcracker": {
+    "entity": "Zombie",
+    "modifiers": [
+      {
+        "type": "equipment",
+        "helmet": "NUTCRACKER_HELMET",
+        "chestplate": "NUTCRACKER_CHESTPLATE",
+        "leggings": "NUTCRACKER_LEGGINGS",
+        "feet": "NUTCRACKER_BOOTS"
+      }
+    ]
+  },
+  "obsidian_defender": {
+    "entity": "WitherSkeleton",
+    "modifiers": [
+      {
+        "type": "equipment",
+        "helmet": "OBSIDIAN",
+        "chestplate": "OBSIDIAN_CHESTPLATE"
+      }
+    ]
+  },
+  "old_wolf": {
+    "entity": "Wolf"
+  },
+  "party_gift": {
+    "entity": "ArmorStand",
+    "modifiers": [
+      {
+        "type": "invisible"
+      },
+      {
+        "type": "equipment",
+        "helmet": "PARTY_GIFT"
+      }
+    ]
+  },
+  "pest_beetle": {
+    "entity": "ArmorStand",
+    "modifiers": [
+      {
+        "type": "invisible"
+      },
+      {
+        "type": "equipment",
+        "helmet": "PEST_BEETLE_MONSTER"
+      }
+    ]
+  },
+  "pest_cricket": {
+    "entity": "ArmorStand",
+    "modifiers": [
+      {
+        "type": "invisible"
+      },
+      {
+        "type": "equipment",
+        "helmet": "PEST_CRICKET_MONSTER"
+      }
+    ]
+  },
+  "pest_earthworm": {
+    "entity": "ArmorStand",
+    "modifiers": [
+      {
+        "type": "invisible"
+      },
+      {
+        "type": "equipment",
+        "helmet": "PEST_EARTHWORM_MONSTER"
+      }
+    ]
+  },
+  "pest_field_mouse": {
+    "entity": "ArmorStand",
+    "modifiers": [
+      {
+        "type": "invisible"
+      },
+      {
+        "type": "equipment",
+        "helmet": "PEST_FIELD_MOUSE_MONSTER"
+      }
+    ]
+  },
+  "pest_fly": {
+    "entity": "ArmorStand",
+    "modifiers": [
+      {
+        "type": "invisible"
+      },
+      {
+        "type": "equipment",
+        "helmet": "PEST_FLY_MONSTER"
+      }
+    ]
+  },
+  "pest_locust": {
+    "entity": "ArmorStand",
+    "modifiers": [
+      {
+        "type": "invisible"
+      },
+      {
+        "type": "equipment",
+        "helmet": "PEST_LOCUST_MONSTER"
+      }
+    ]
+  },
+  "pest_mite": {
+    "entity": "ArmorStand",
+    "modifiers": [
+      {
+        "type": "invisible"
+      },
+      {
+        "type": "equipment",
+        "helmet": "PEST_MITE_MONSTER"
+      }
+    ]
+  },
+  "pest_mosquito": {
+    "entity": "ArmorStand",
+    "modifiers": [
+      {
+        "type": "invisible"
+      },
+      {
+        "type": "equipment",
+        "helmet": "PEST_MOSQUITO_MONSTER"
+      }
+    ]
+  },
+  "pest_moth": {
+    "entity": "ArmorStand",
+    "modifiers": [
+      {
+        "type": "invisible"
+      },
+      {
+        "type": "equipment",
+        "helmet": "PEST_MOTH_MONSTER"
+      }
+    ]
+  },
+  "pest_rat": {
+    "entity": "ArmorStand",
+    "modifiers": [
+      {
+        "type": "invisible"
+      },
+      {
+        "type": "equipment",
+        "helmet": "PEST_RAT_MONSTER"
+      }
+    ]
+  },
+  "pest_slug": {
+    "entity": "ArmorStand",
+    "modifiers": [
+      {
+        "type": "invisible"
+      },
+      {
+        "type": "equipment",
+        "helmet": "PEST_SLUG_MONSTER"
+      }
+    ]
+  },
+  "phantom_fisher": {
+    "entity": "Player",
+    "modifiers": [
+      {
+        "type": "playerdata",
+        "skin": "neurepo:mobs/phantom_fisher.png",
+        "parts": true
+      },
+      {
+        "type": "equipment",
+        "hand": "PHANTOM_ROD"
+      }
+    ]
+  },
+  "phantom_spirit": {
+    "entity": "Player",
+    "modifiers": [
+      {
+        "type": "playerdata",
+        "skin": "neurepo:mobs/phantom_spirit.png",
+        "parts": true
+      }
+    ]
+  },
+  "pig": {
+    "entity": "Pig"
+  },
+  "powder_ghast": {
+    "entity": "Ghast"
+  },
+  "puff": {
+    "entity": "ArmorStand",
+    "modifiers": [
+      {
+        "type": "equipment",
+        "helmet": "PUFF_MONSTER"
+      },
+      {
+        "type": "invisible",
+        "invisible": true
+      }
+    ]
+  },
+  "pyroclastic_worm": {
+    "entity": "MagmaCube",
+    "modifiers": [
+      {
+        "type": "riding",
+        "entity": "MagmaCube",
+        "modifiers": [
+          {
+            "type": "riding",
+            "entity": "MagmaCube"
+          }
+        ]
+      }
+    ]
+  },
+  "ragnarok": {
+    "entity": "Horse",
+    "modifiers": [
+      {
+        "type": "horse",
+        "kind": "skeleton"
+      },
+      {
+        "type": "riding",
+        "entity": "Player",
+        "modifiers": [
+          {
+            "type": "playerdata",
+            "skin": "neurepo:mobs/ragnarok.png",
+            "parts": true
+          }
+        ]
+      }
+    ]
+  },
+  "red_gift": {
+    "entity": "ArmorStand",
+    "modifiers": [
+      {
+        "type": "invisible"
+      },
+      {
+        "type": "equipment",
+        "helmet": "RED_GIFT"
+      }
+    ]
+  },
+  "redstone_pigman": {
+    "entity": "Pigman",
+    "modifiers": [
+      {
+        "type": "equipment",
+        "hand": "PIGMAN_SWORD"
+      }
+    ]
+  },
+  "revenant_champion": {
+    "entity": "Zombie",
+    "modifiers": [
+      {
+        "type": "equipment",
+        "hand": "DIAMOND_SWORD",
+        "chestplate": "DIAMOND_CHESTPLATE",
+        "leggings": "CHAINMAIL_LEGGINGS",
+        "feet": "IRON_BOOTS"
+      }
+    ]
+  },
+  "revenant_horror": {
+    "entity": "Zombie",
+    "modifiers": [
+      {
+        "type": "equipment",
+        "hand": "DIAMOND_HOE",
+        "helmet": "BEHEADED_HORROR",
+        "chestplate": "DIAMOND_CHESTPLATE",
+        "leggings": "CHAINMAIL_LEGGINGS",
+        "feet": "DIAMOND_BOOTS"
+      }
+    ]
+  },
+  "revenant_horror_5": {
+    "entity": "Zombie",
+    "modifiers": [
+      {
+        "type": "equipment",
+        "hand": "DIAMOND_HOE",
+        "helmet": "REVENANT_HORROR_5_BOSS",
+        "chestplate": "DIAMOND_CHESTPLATE",
+        "leggings": "CHAINMAIL_LEGGINGS",
+        "feet": "DIAMOND_BOOTS"
+      }
+    ]
+  },
+  "revenant_sycophant": {
+    "entity": "Zombie",
+    "modifiers": [
+      {
+        "type": "equipment",
+        "hand": "DIAMOND_SWORD",
+        "chestplate": "DIAMOND_CHESTPLATE",
+        "leggings": "CHAINMAIL_LEGGINGS",
+        "feet": "IRON_BOOTS"
+      }
+    ]
+  },
+  "rider_of_the_deep": {
+    "entity": "Chicken",
+    "modifiers": [
+      {
+        "type": "riding",
+        "entity": "Zombie",
+        "modifiers": [
+          {
+            "type": "equipment",
+            "hand": "DIAMOND_SWORD",
+            "helmet": "CHAINMAIL_HELMET",
+            "chestplate": "CHAINMAIL_CHESTPLATE",
+            "leggings": "CHAINMAIL_LEGGINGS",
+            "feet": "CHAINMAIL_BOOTS"
+          },
+          {
+            "type": "age",
+            "baby": "true"
+          }
+        ]
+      }
+    ]
+  },
+  "riftstalker_bloodfiend": {
+    "entity": "Player",
+    "modifiers": [
+      {
+        "type": "playerdata",
+        "skin": "neurepo:mobs/riftwalker_bloodfiend.png"
+      }
+    ]
+  },
+  "sadan": {
+    "entity": "Player",
+    "modifiers": [
+      {
+        "type": "playerdata",
+        "skin": "neurepo:mobs/sadan.png",
+        "parts": true
+      }
+    ]
+  },
+  "scarecrow": {
+    "entity": "Player",
+    "modifiers": [
+      {
+        "type": "playerdata",
+        "skin": "neurepo:mobs/scarecrow.png",
+        "parts": true
+      }
+    ]
+  },
+  "scared_skeleton": {
+    "entity": "Skeleton",
+    "modifiers": [
+      {
+        "type": "equipment",
+        "hand": "BOW"
+      }
+    ]
+  },
+  "scarf": {
+    "entity": "Player",
+    "modifiers": [
+      {
+        "type": "playerdata",
+        "skin": "neurepo:mobs/scarf.png",
+        "parts": true
+      },
+      {
+        "type": "equipment",
+        "hand": "NETHER_STAR"
+      }
+    ]
+  },
+  "scary_jerry": {
+    "entity": "Player",
+    "modifiers": [
+      {
+        "type": "playerdata",
+        "skin": "neurepo:mobs/scary_jerry.png",
+        "parts": true
+      }
+    ]
+  },
+  "scatha": {
+    "entity": "ArmorStand",
+    "modifiers": [
+      {
+        "type": "invisible"
+      },
+      {
+        "type": "equipment",
+        "helmet": "SCATHA_MONSTER"
+      }
+    ]
+  },
+  "scribe": {
+    "entity": "ArmorStand",
+    "modifiers": [
+      {
+        "type": "equipment",
+        "helmet": "SCRIBE_MONSTER"
+      },
+      {
+        "type": "invisible",
+        "invisible": true
+      }
+    ]
+  },
+  "sea_archer": {
+    "entity": "Skeleton",
+    "modifiers": [
+      {
+        "type": "equipment",
+        "hand": "BOW",
+        "chestplate": "LEATHER_CHESTPLATE#0000FF",
+        "leggings": "LEATHER_LEGGINGS#0000FF",
+        "feet": "LEATHER_BOOTS#0000FF"
+      }
+    ]
+  },
+  "sea_emperor": {
+    "entity": "Guardian",
+    "modifiers": [
+      {
+        "type": "riding",
+        "entity": "Skeleton",
+        "modifiers": [
+          {
+            "type": "equipment",
+            "hand": "BOW",
+            "helmet": "SEA_EMPEROR_SC",
+            "chestplate": "LEATHER_CHESTPLATE#540202",
+            "leggings": "LEATHER_LEGGINGS#540202",
+            "feet": "LEATHER_BOOTS#540202"
+          }
+        ]
+      }
+    ]
+  },
+  "sea_walker": {
+    "entity": "Zombie",
+    "modifiers": [
+      {
+        "type": "equipment",
+        "hand": "DIAMOND_SWORD",
+        "helmet": "SEA_WALKER_SC",
+        "chestplate": "LEATHER_CHESTPLATE",
+        "leggings": "LEATHER_LEGGINGS",
+        "feet": "LEATHER_BOOTS"
+      }
+    ]
+  },
+  "shadow": {
+    "entity": "ArmorStand",
+    "modifiers": [
+      {
+        "type": "equipment",
+        "helmet": "SHADOW_MONSTER"
+      },
+      {
+        "type": "invisible",
+        "invisible": true
+      }
+    ]
+  },
+  "shadow_assassin": {
+    "entity": "Player",
+    "modifiers": [
+      {
+        "type": "playerdata",
+        "skin": "neurepo:mobs/shadow_assassin.png",
+        "parts": true
+      },
+      {
+        "type": "equipment",
+        "hand": "IRON_SWORD"
+      }
+    ]
+  },
+  "sheep": {
+    "entity": "Sheep"
+  },
+  "shy": {
+    "entity": "ArmorStand",
+    "modifiers": [
+      {
+        "type": "equipment",
+        "helmet": "SHY_MONSTER"
+      },
+      {
+        "type": "invisible",
+        "invisible": true
+      }
+    ]
+  },
+  "skeleton_grunt": {
+    "entity": "Skeleton",
+    "modifiers": [
+      {
+        "type": "equipment",
+        "hand": "BOW",
+        "helmet": "SKELETON_GRUNT_HELMET",
+        "chestplate": "SKELETON_GRUNT_CHESTPLATE",
+        "leggings": "SKELETON_GRUNT_LEGGINGS",
+        "feet": "SKELETON_GRUNT_BOOTS"
+      }
+    ]
+  },
+  "skeleton_lord": {
+    "entity": "Skeleton",
+    "modifiers": [
+      {
+        "type": "equipment",
+        "hand": "BOW",
+        "helmet": "SKELETON_LORD_HELMET",
+        "chestplate": "SKELETON_LORD_CHESTPLATE",
+        "leggings": "SKELETON_LORD_LEGGINGS",
+        "feet": "SKELETON_LORD_BOOTS"
+      }
+    ]
+  },
+  "skeleton_master": {
+    "entity": "Skeleton",
+    "modifiers": [
+      {
+        "type": "equipment",
+        "hand": "BOW",
+        "helmet": "SKELETON_MASTER_HELMET",
+        "chestplate": "SKELETON_MASTER_CHESTPLATE",
+        "leggings": "SKELETON_MASTER_LEGGINGS",
+        "feet": "SKELETON_MASTER_BOOTS"
+      }
+    ]
+  },
+  "skeleton_soldier": {
+    "entity": "Skeleton",
+    "modifiers": [
+      {
+        "type": "equipment",
+        "hand": "BOW",
+        "helmet": "SKELETON_SOLDIER_HELMET",
+        "chestplate": "SKELETON_SOLDIER_CHESTPLATE",
+        "leggings": "SKELETON_SOLDIER_LEGGINGS",
+        "feet": "SKELETON_SOLDIER_BOOTS"
+      }
+    ]
+  },
+  "skeletonhorse": {
+    "entity": "SkeletonHorse"
+  },
+  "skeletor": {
+    "entity": "Skeleton",
+    "modifiers": [
+      {
+        "type": "equipment",
+        "hand": "BONE",
+        "helmet": "SKELETOR_HELMET",
+        "chestplate": "SKELETOR_CHESTPLATE",
+        "leggings": "SKELETOR_LEGGINGS",
+        "feet": "SKELETOR_BOOTS"
+      }
+    ]
+  },
+  "skeletor_prime": {
+    "entity": "Player",
+    "modifiers": [
+      {
+        "type": "playerdata",
+        "skin": "neurepo:mobs/skeletor_prime.png",
+        "parts": true
+      }
+    ]
+  },
+  "snapping_turtle": {
+    "entity": "ArmorStand",
+    "modifiers": [
+      {
+        "type": "invisible"
+      },
+      {
+        "type": "equipment",
+        "helmet": "SNAPPING_TURTLE_SC"
+      }
+    ]
+  },
+  "sniper": {
+    "entity": "Skeleton",
+    "modifiers": [
+      {
+        "type": "equipment",
+        "hand": "BOW",
+        "helmet": "SNIPER_HELMET"
+      }
+    ]
+  },
+  "soul_of_the_alpha": {
+    "entity": "Wolf"
+  },
+  "spider": {
+    "entity": "Spider"
+  },
+  "splatter": {
+    "entity": "ArmorStand",
+    "modifiers": [
+      {
+        "type": "equipment",
+        "helmet": "SPLATTER_MONSTER"
+      },
+      {
+        "type": "invisible",
+        "invisible": true
+      }
+    ]
+  },
+  "squid": {
+    "entity": "Squid"
+  },
+  "star_sentry": {
+    "entity": "Player",
+    "modifiers": [
+      {
+        "type": "playerdata",
+        "skin": "neurepo:mobs/star_sentry.png",
+        "parts": true
+      },
+      {
+        "type": "equipment",
+        "hand": "DIAMOND_SWORD"
+      }
+    ]
+  },
+  "super_archer": {
+    "entity": "Skeleton",
+    "modifiers": [
+      {
+        "type": "equipment",
+        "hand": "BOW",
+        "helmet": "BOUNCY_HELMET",
+        "chestplate": "BOUNCY_CHESTPLATE",
+        "leggings": "BOUNCY_LEGGINGS",
+        "feet": "BOUNCY_BOOTS"
+      }
+    ]
+  },
+  "super_tank_zombie": {
+    "entity": "Zombie",
+    "modifiers": [
+      {
+        "type": "equipment",
+        "helmet": "SUPER_HEAVY_HELMET",
+        "chestplate": "SUPER_HEAVY_CHESTPLATE",
+        "leggings": "SUPER_HEAVY_LEGGINGS",
+        "feet": "SUPER_HEAVY_BOOTS"
+      }
+    ]
+  },
+  "superior_lost_adventurer": {
+    "entity": "Player",
+    "modifiers": [
+      {
+        "type": "playerdata",
+        "skin": "neurepo:mobs/lost_adventurer.png"
+      },
+      {
+        "type": "equipment",
+        "hand": "DIAMOND_SWORD",
+        "helmet": "SUPERIOR_DRAGON_HELMET",
+        "chestplate": "SUPERIOR_DRAGON_CHESTPLATE",
+        "leggings": "SUPERIOR_DRAGON_LEGGINGS",
+        "feet": "SUPERIOR_DRAGON_BOOTS"
+      }
+    ]
+  },
+  "tank_zombie": {
+    "entity": "Zombie",
+    "modifiers": [
+      {
+        "type": "equipment",
+        "helmet": "HEAVY_HELMET",
+        "chestplate": "HEAVY_CHESTPLATE",
+        "leggings": "HEAVY_LEGGINGS",
+        "feet": "HEAVY_BOOTS"
+      }
+    ]
+  },
+  "taurus": {
+    "entity": "Pig",
+    "modifiers": [
+      {
+        "type": "riding",
+        "entity": "Player",
+        "modifiers": [
+          {
+            "type": "playerdata",
+            "skin": "neurepo:mobs/taurus.png",
+            "parts": true
+          },
+          {
+            "type": "equipment",
+            "hand": "GOLDEN_SWORD"
+          }
+        ]
+      }
+    ]
+  },
+  "temporal_pillar": {
+    "entity": "Enderman",
+    "modifiers": [
+      {
+        "type": "riding",
+        "entity": "Enderman"
+      }
+    ]
+  },
+  "the_professor": {
+    "entity": "Player",
+    "modifiers": [
+      {
+        "type": "playerdata",
+        "skin": "neurepo:mobs/the_professor.png",
+        "parts": true
+      },
+      {
+        "type": "equipment",
+        "hand": "BOOK_AND_QUILL"
+      }
+    ]
+  },
+  "thorn": {
+    "entity": "Ghast"
+  },
+  "thrall": {
+    "entity": "Zombie",
+    "modifiers": [
+      {
+        "type": "equipment",
+        "hand": "STONE_AXE",
+        "helmet": "THRALL_MONSTER",
+        "chestplate": "LEATHER_CHESTPLATE#9B0808",
+        "leggings": "LEATHER_LEGGINGS#9B0808",
+        "feet": "LEATHER_BOOTS#9B0808"
+      }
+    ]
+  },
+  "thyst": {
+    "entity": "Endermite"
+  },
+  "tiger_shark": {
+    "entity": "Player",
+    "modifiers": [
+      {
+        "type": "playerdata",
+        "skin": "neurepo:mobs/tiger_shark.png",
+        "parts": true
+      }
+    ]
+  },
+  "titanoboa": {
+    "entity": "ArmorStand",
+    "modifiers": [
+      {
+        "type": "invisible"
+      },
+      {
+        "type": "equipment",
+        "helmet": "TITANOBOA_SC"
+      }
+    ]
+  },
+  "treasure_hoarder": {
+    "entity": "Player",
+    "modifiers": [
+      {
+        "type": "playerdata",
+        "skin": "neurepo:mobs/treasure_hoarder.png",
+        "parts": true
+      },
+      {
+        "type": "equipment",
+        "hand": "IRON_PICKAXE"
+      }
+    ]
+  },
+  "trick_or_treater": {
+    "entity": "Zombie",
+    "modifiers": [
+      {
+        "type": "age",
+        "baby": "true"
+      },
+      {
+        "type": "equipment",
+        "helmet": "TRICK_OR_TREATER_MONSTER",
+        "chestplate": "LEATHER_CHESTPLATE",
+        "leggings": "LEATHER_LEGGINGS",
+        "feet": "LEATHER_BOOTS"
+      }
+    ]
+  },
+  "undead_skeleton": {
+    "entity": "Skeleton",
+    "modifiers": [
+      {
+        "type": "equipment",
+        "hand": "BOW"
+      }
+    ]
+  },
+  "unstable_lost_adventurer": {
+    "entity": "Player",
+    "modifiers": [
+      {
+        "type": "playerdata",
+        "skin": "neurepo:mobs/lost_adventurer.png"
+      },
+      {
+        "type": "equipment",
+        "hand": "DIAMOND_SWORD",
+        "helmet": "UNSTABLE_DRAGON_HELMET",
+        "chestplate": "UNSTABLE_DRAGON_CHESTPLATE",
+        "leggings": "UNSTABLE_DRAGON_LEGGINGS",
+        "feet": "UNSTABLE_DRAGON_BOOTS"
+      }
+    ]
+  },
+  "voidgloom_seraph": {
+    "entity": "Enderman",
+    "modifiers": [
+      {
+        "type": "equipment",
+        "hand": "BEACON"
+      }
+    ]
+  },
+  "volt": {
+    "entity": "ArmorStand",
+    "modifiers": [
+      {
+        "type": "equipment",
+        "helmet": "VOLT_MONSTER"
+      },
+      {
+        "type": "invisible",
+        "invisible": true
+      }
+    ]
+  },
+  "watcher": {
+    "entity": "Skeleton",
+    "modifiers": [
+      {
+        "type": "equipment",
+        "hand": "BOW",
+        "helmet": "SUMMONING_EYE",
+        "chestplate": "LEATHER_CHESTPLATE",
+        "leggings": "LEATHER_LEGGINGS",
+        "feet": "LEATHER_BOOTS"
+      }
+    ]
+  },
+  "water_hydra": {
+    "entity": "Zombie",
+    "modifiers": [
+      {
+        "type": "equipment",
+        "hand": "DIAMOND_SWORD",
+        "helmet": "WATER_HYDRA_SC",
+        "chestplate": "LEATHER_CHESTPLATE#04007B",
+        "leggings": "LEATHER_LEGGINGS#04007B",
+        "feet": "LEATHER_BOOTS#04007B"
+      }
+    ]
+  },
+  "werewolf": {
+    "entity": "Player",
+    "modifiers": [
+      {
+        "type": "playerdata",
+        "skin": "neurepo:mobs/werewolf.png",
+        "parts": true
+      }
+    ]
+  },
+  "white_gift": {
+    "entity": "ArmorStand",
+    "modifiers": [
+      {
+        "type": "invisible"
+      },
+      {
+        "type": "equipment",
+        "helmet": "WHITE_GIFT"
+      }
+    ]
+  },
+  "wiki_tiki": {
+    "entity": "ArmorStand",
+    "modifiers": [
+      {
+        "type": "invisible"
+      },
+      {
+        "type": "equipment",
+        "helmet": "WIKI_TIKI_SC"
+      }
+    ]
+  },
+  "witch": {
+    "entity": "Witch"
+  },
+  "wither_gourd": {
+    "entity": "WitherSkeleton",
+    "modifiers": [
+      {
+        "type": "equipment",
+        "helmet": "WITHER_GOURD_MONSTER"
+      }
+    ]
+  },
+  "wither_spectre": {
+    "entity": "WitherSkeleton",
+    "modifiers": [
+      {
+        "type": "invisible"
+      },
+      {
+        "type": "equipment",
+        "hand": "IRON_SWORD",
+        "helmet": "WITHER_SPECTRE_MONSTER",
+        "chestplate": "LEATHER_CHESTPLATE#090608"
+      }
+    ]
+  },
+  "withermancer": {
+    "entity": "WitherSkeleton",
+    "modifiers": [
+      {
+        "type": "equipment",
+        "hand": "CONJURING_SWORD"
+      }
+    ]
+  },
+  "witherskeleton": {
+    "entity": "WitherSkeleton",
+    "modifiers": [
+      {
+        "type": "equipment",
+        "hand": "STONE_SWORD"
+      }
+    ]
+  },
+  "wraith": {
+    "entity": "ArmorStand",
+    "modifiers": [
+      {
+        "type": "invisible"
+      },
+      {
+        "type": "equipment",
+        "helmet": "WRAITH_MONSTER"
+      }
+    ]
+  },
+  "yeti": {
+    "entity": "Player",
+    "modifiers": [
+      {
+        "type": "playerdata",
+        "skin": "neurepo:mobs/yeti.png",
+        "parts": true
+      }
+    ]
+  },
+  "young_lost_adventurer": {
+    "entity": "Player",
+    "modifiers": [
+      {
+        "type": "playerdata",
+        "skin": "neurepo:mobs/lost_adventurer.png"
+      },
+      {
+        "type": "equipment",
+        "hand": "DIAMOND_SWORD",
+        "helmet": "YOUNG_DRAGON_HELMET",
+        "chestplate": "YOUNG_DRAGON_CHESTPLATE",
+        "leggings": "YOUNG_DRAGON_LEGGINGS",
+        "feet": "YOUNG_DRAGON_BOOTS"
+      }
+    ]
+  },
+  "zealot": {
+    "entity": "Enderman",
+    "modifiers": [
+      {
+        "type": "equipment",
+        "hand": "ENDER_CHEST"
+      }
+    ]
+  },
+  "zombie": {
+    "entity": "Zombie"
+  },
+  "zombie_commander": {
+    "entity": "Zombie",
+    "modifiers": [
+      {
+        "type": "equipment",
+        "hand": "FISHING_ROD",
+        "helmet": "ZOMBIE_COMMANDER_HELMET",
+        "chestplate": "ZOMBIE_COMMANDER_CHESTPLATE",
+        "leggings": "ZOMBIE_COMMANDER_LEGGINGS",
+        "feet": "ZOMBIE_COMMANDER_BOOTS"
+      }
+    ]
+  },
+  "zombie_grunt": {
+    "entity": "Zombie",
+    "modifiers": [
+      {
+        "type": "equipment",
+        "helmet": "LEATHER_HELMET",
+        "chestplate": "LEATHER_CHESTPLATE",
+        "leggings": "LEATHER_LEGGINGS",
+        "feet": "LEATHER_BOOTS"
+      }
+    ]
+  },
+  "zombie_knight": {
+    "entity": "Zombie",
+    "modifiers": [
+      {
+        "type": "equipment",
+        "helmet": "ZOMBIE_KNIGHT_HELMET",
+        "chestplate": "ZOMBIE_KNIGHT_CHESTPLATE",
+        "leggings": "ZOMBIE_KNIGHT_LEGGINGS",
+        "feet": "ZOMBIE_KNIGHT_BOOTS"
+      }
+    ]
+  },
+  "zombie_solider": {
+    "entity": "Zombie",
+    "modifiers": [
+      {
+        "type": "equipment",
+        "hand": "ZOMBIE_SOLDIER_CUTLASS",
+        "helmet": "ZOMBIE_SOLDIER_HELMET",
+        "chestplate": "ZOMBIE_SOLDIER_CHESTPLATE",
+        "leggings": "ZOMBIE_SOLDIER_LEGGINGS",
+        "feet": "ZOMBIE_SOLDIER_BOOTS"
+      }
+    ]
+  },
+  "zombie_villager": {
+    "entity": "Zombie",
+    "modifiers": [
+      {
+        "type": "equipment",
+        "helmet": "LEATHER_HELMET",
+        "chestplate": "LEATHER_CHESTPLATE",
+        "leggings": "LEATHER_LEGGINGS",
+        "feet": "LEATHER_BOOTS"
+      }
+    ]
+  }
+}

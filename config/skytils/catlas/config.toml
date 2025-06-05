@@ -27,6 +27,7 @@
 	[map.size]
 		map_text_scale = 0.75
 		player_name_scale = 0.8
+		head_class_border_scale = 0.2
 		player_heads_scale = 1.0
 
 	[map.toggle]
@@ -36,6 +37,7 @@
 		rotate_map = false
 		map_enabled = false
 		show_player_names = 1
+		show_before_start = false
 		hide_in_boss = false
 
 	[map.render]
@@ -63,4 +65,20 @@
 		normal_room = "255,107,58,17"
 		trap_room = "255,216,127,51"
 		miniboss_room = "255,254,223,0"
+
+	[colors.players]
+		"player_border_color_(mage)" = "255,0,0,0"
+		"player_border_color_(berserk)" = "255,0,0,0"
+		"player_border_color_(archer)" = "255,0,0,0"
+		"player_border_color_(healer)" = "255,0,0,0"
+		"player_border_color_(tank)" = "255,0,0,0"
+
+[boss_map]
+
+	[boss_map.toggle]
+		boss_map_enabled = false
+
+	[boss_map.icons]
+		boss_map_terminal_icons = true
+		boss_map_player_icons = true
 

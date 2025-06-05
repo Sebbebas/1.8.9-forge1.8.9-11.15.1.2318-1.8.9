@@ -68,12 +68,12 @@ export default new class Party {
                 }
             }
             // You make a party in party finder
-            if (unformatted == "Party Finder > Your party has been queued in the dungeon finder!") {
-                setTimeout(() => {
-                    hidePartySpam(1000)
-                    ChatLib.command("pl")
-                }, 250);
-            }
+            // if (unformatted == "Party Finder > Your party has been queued in the dungeon finder!") {
+            //     setTimeout(() => {
+            //         hidePartySpam(1000)
+            //         ChatLib.command("pl")
+            //     }, 250);
+            // }
 
             // Creating a party
             if (Object.keys(this.members).length == 1) {
@@ -82,12 +82,12 @@ export default new class Party {
             }
 
             // Joining a party
-            if (/&eYou have joined &r.+'s &r&eparty!&r/.test(formatted)) {
-                setTimeout(() => {
-                    hidePartySpam(750)
-                    ChatLib.command("pl")
-                }, 300);
-            }
+            // if (/&eYou have joined &r.+'s &r&eparty!&r/.test(formatted)) {
+            //     setTimeout(() => {
+            //         hidePartySpam(750)
+            //         ChatLib.command("pl")
+            //     }, 300);
+            // }
 
             // Party leader left
             let match = formatted.match(/&eThe party was transferred to &r(.+) &r&ebecause &r(.+) &r&eleft&r/)

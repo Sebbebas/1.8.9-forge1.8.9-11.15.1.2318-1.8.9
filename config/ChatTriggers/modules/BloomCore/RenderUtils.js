@@ -1,6 +1,21 @@
 import { getBlockBoundingBox } from "./utils/Utils"
 
-const renderBoxOutlineFromCorners = (x0, y0, z0, x1, y1, z1, r, g, b, a, lineWidth=2, phase=true) => {
+/**
+ * Renders a box frame with the given bounds and line width
+ * @param {Number} x0 
+ * @param {Number} y0 
+ * @param {Number} z0 
+ * @param {Number} x1 
+ * @param {Number} y1 
+ * @param {Number} z1 
+ * @param {Number} r 
+ * @param {Number} g 
+ * @param {Number} b 
+ * @param {Number} a 
+ * @param {Number} lineWidth
+ * @param {Boolean} phase 
+ */
+export const renderBoxOutlineFromCorners = (x0, y0, z0, x1, y1, z1, r, g, b, a, lineWidth=2, phase=true) => {
     Tessellator.pushMatrix()
 
     GL11.glLineWidth(lineWidth)
@@ -40,7 +55,21 @@ const renderBoxOutlineFromCorners = (x0, y0, z0, x1, y1, z1, r, g, b, a, lineWid
     Tessellator.popMatrix()
 }
 
-const renderFilledBoxFromCorners = (x0, y0, z0, x1, y1, z1, r, g, b, a, phase=true) => {
+/**
+ * Renders a filled box with the given boundaries
+ * @param {Number} x0 
+ * @param {Number} y0 
+ * @param {Number} z0 
+ * @param {Number} x1 
+ * @param {Number} y1 
+ * @param {Number} z1 
+ * @param {Number} r 
+ * @param {Number} g 
+ * @param {Number} b 
+ * @param {Number} a 
+ * @param {Boolean} phase 
+ */
+export const renderFilledBoxFromCorners = (x0, y0, z0, x1, y1, z1, r, g, b, a, phase=true) => {
     Tessellator.pushMatrix()
 
     Tessellator.begin(GL11.GL_QUADS)
@@ -95,7 +124,7 @@ const renderFilledBoxFromCorners = (x0, y0, z0, x1, y1, z1, r, g, b, a, phase=tr
 }
 
 /**
- * 
+ * Render a box with the given boundaries.
  * @param {Number} x0 - Corner 1 x coordinate
  * @param {Number} y0 - Corner 1 y coordinate
  * @param {Number} z0 - Corner 1 z coordinate
@@ -118,7 +147,7 @@ export const renderBoxFromCorners = (x0, y0, z0, x1, y1, z1, r, g, b, a, phase=t
 
 
 /**
- * 
+ * Draws a line through a list of 3d points
  * @param {Number[][]} points - List of vertices as [[x, y, z], [x, y, z], ...]
  * @param {Number} r 
  * @param {Number} g 

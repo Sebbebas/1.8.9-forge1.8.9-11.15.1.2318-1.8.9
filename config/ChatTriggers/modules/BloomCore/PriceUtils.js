@@ -57,11 +57,16 @@ export default new class PriceUtils {
      */
     loadFromBZFile() {
         if (!FileLib.exists("BloomCore", bzFilePath)) return
-        const bzData = JSON.parse(FileLib.read("BloomCore", bzFilePath))
-        Object.entries(bzData).forEach(([k, v]) => {
-            this.bzBuyPrices.set(k, v.buy)
-            this.bzSellPrices.set(k, v.sell)
-        })
+        try {
+            const bzData = JSON.parse(FileLib.read("BloomCore", bzFilePath))
+            Object.entries(bzData).forEach(([k, v]) => {
+                this.bzBuyPrices.set(k, v.buy)
+                this.bzSellPrices.set(k, v.sell)
+            })
+        }
+        catch(e) {
+            FileLib.delete("BloomCore", bzFilePath)
+        }
     }
 
     /**
@@ -69,10 +74,16 @@ export default new class PriceUtils {
      */
     loadFromBinFile() {
         if (!FileLib.exists("BloomCore", binFilePath)) return
-        const binData = JSON.parse(FileLib.read("BloomCore", binFilePath))
-        Object.entries(binData).forEach(([k, v]) => {
-            this.bins.set(k, v)
-        })
+
+        try {
+            const binData = JSON.parse(FileLib.read("BloomCore", binFilePath))
+            Object.entries(binData).forEach(([k, v]) => {
+                this.bins.set(k, v)
+            })
+        }
+        catch(e) {
+            FileLib.delete("BloomCore", binFilePath)
+        }
     }
 
     /**
@@ -419,6 +430,11 @@ export default new class PriceUtils {
         if (extra.talisman_enrichment) {
             breakdown.enrichment = this.getPrice(`TALISMAN_ENRICHMENT_${extra.talisman_enrichment.toUpperCase()}`) ?? 0
             breakdown.total += breakdown.enrichment
+        }
+
+        if (extra.artOfPeaceApplied) {
+            breakdown.artOfPeace = this.getPrice("THE_ART_OF_PEACE") ?? 0
+            breakdown.total += breakdown.artOfPeace
         }
 
 

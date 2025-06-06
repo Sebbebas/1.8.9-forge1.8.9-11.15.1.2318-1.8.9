@@ -740,7 +740,7 @@
       "Apple": {
         "godPotionDuration": 39600000,
         "puzzlerCompleted": 1749065157927,
-        "firstCakeAte": 1748965165654,
+        "firstCakeAte": 1749204214890,
         "fetchurCompleted": 0,
         "commissionsCompleted": 1749065210167,
         "lastFreeRiftInfusionApplied": 0,
@@ -748,33 +748,37 @@
         "cookieBuffRemaining": 1718801452115,
         "forgeItems": [
           {
-            "itemName": "Sunny Side Goblin Omelette",
-            "finishTime": 1749112338286,
+            "itemName": "Refined Titanium",
+            "finishTime": 1749234465284,
             "status": 2,
             "forgeID": 0,
             "fromScoreBoard": false
           },
           {
-            "finishTime": 0,
-            "status": 0,
+            "itemName": "Refined Titanium",
+            "finishTime": 1749234468284,
+            "status": 2,
             "forgeID": 1,
-            "fromScoreBoard": true
+            "fromScoreBoard": false
           },
           {
-            "finishTime": 0,
-            "status": 0,
+            "itemName": "Refined Titanium",
+            "finishTime": 1749234477284,
+            "status": 2,
             "forgeID": 2,
-            "fromScoreBoard": true
+            "fromScoreBoard": false
           },
           {
-            "finishTime": 0,
-            "status": 0,
+            "itemName": "Refined Titanium",
+            "finishTime": 1749234487284,
+            "status": 2,
             "forgeID": 3,
-            "fromScoreBoard": true
+            "fromScoreBoard": false
           },
           {
-            "finishTime": 0,
-            "status": 0,
+            "itemName": "Refined Titanium",
+            "finishTime": 1749233059219,
+            "status": 2,
             "forgeID": 4,
             "fromScoreBoard": true
           },
@@ -1720,14 +1724,14 @@
         "abiphoneMagicPower": 0
       },
       "Banana": {
-        "godPotionDuration": 72000000,
-        "puzzlerCompleted": 1749063948234,
+        "godPotionDuration": 46800000,
+        "puzzlerCompleted": 1749156530185,
         "firstCakeAte": 1749064239825,
         "fetchurCompleted": 1718038794048,
-        "commissionsCompleted": 1749048203936,
-        "lastFreeRiftInfusionApplied": 1721916101425,
+        "commissionsCompleted": 1749205307994,
+        "lastFreeRiftInfusionApplied": 1749166553840,
         "experimentsCompleted": 1749061728792,
-        "cookieBuffRemaining": 1749237237978,
+        "cookieBuffRemaining": 1749237239979,
         "forgeItems": [
           {
             "finishTime": 0,
@@ -1760,16 +1764,14 @@
             "fromScoreBoard": true
           },
           {
-            "itemName": "Mithril Plate",
-            "finishTime": 1749149877272,
-            "status": 2,
+            "finishTime": 0,
+            "status": 0,
             "forgeID": 5,
             "fromScoreBoard": true
           },
           {
-            "itemName": "Tungsten Plate",
             "finishTime": 0,
-            "status": 2,
+            "status": 0,
             "forgeID": 6,
             "fromScoreBoard": true
           }
@@ -1797,10 +1799,10 @@
           "Amethyst": 0,
           "Topaz": 0
         },
-        "dailyGemstonePowderCompleted": 1749049829723,
-        "dailyMithrilPowerCompleted": 1749049844774,
+        "dailyGemstonePowderCompleted": 1749150010239,
+        "dailyMithrilPowerCompleted": 1749150019681,
         "nonUnlockedWarpScrolls": [],
-        "dailyHeavyPearlCompleted": 1716329324454,
+        "dailyHeavyPearlCompleted": 1749155891243,
         "questBoardCompleted": 0,
         "dailyShopLimitCompleted": 1722428307114,
         "savedEquipment": {
@@ -1899,10 +1901,10 @@
           }
         },
         "magicalPower": 796,
-        "chestCount": 12986,
-        "openedChestCount": 12324,
+        "chestCount": 14233,
+        "openedChestCount": 13554,
         "mithrilPowderFound": 1628224,
-        "gemstonePowderFound": 2953824,
+        "gemstonePowderFound": 3504600,
         "abiphoneFavouriteContacts": [
           "Maddox the Slayer"
         ],
@@ -1911,7 +1913,7 @@
           "Efficient Miner": 100,
           "Daily Powder": 1,
           "Titanium Insanium": 1,
-          "Mining Fortune": 25,
+          "Mining Fortune": 28,
           "Mining Speed": 30,
           "Seasoned Mineman": 1,
           "Mining Madness": 1,
@@ -1929,15 +1931,15 @@
           "Strong Arm": 49,
           "Mineshaft Mayhem": 1,
           "Eager Adventurer": 41,
-          "Gem Lover": 15,
+          "Gem Lover": 20,
           "Keep It Cool": 1,
           "Lonesome Miner": 1,
           "Precision Mining": 1,
-          "Fortunate Mineman": 43,
+          "Fortunate Mineman": 46,
           "Surveyor": 16,
           "Warm Heart": 25,
           "Steady Hand": 50,
-          "Speedy Mineman": 36
+          "Speedy Mineman": 39
         },
         "hasConsumedRiftPrism": false,
         "abiphoneMagicPower": 0
@@ -2522,19 +2524,19 @@
       "Moogma Leggings"
     ],
     "previousBazaarSearches": [
-      "Frozen Bait",
-      "Enchanted Gold Block",
-      "Yellow Goblin Egg",
-      "Plasma",
+      "Refined Titanium",
+      "Enchanted Umber",
+      "Wishing Compass",
+      "Wise Dragon Fragment",
       "Enchanted Glacite"
     ],
     "previousProfileSearches": [
+      "kisiel6",
       "legohjalten",
       "jonathanlanunez",
       "76z5",
       "rippos",
-      "itstrigo",
-      "empire_craft"
+      "itstrigo"
     ],
     "previousRecipeSearches": [
       "Coal",

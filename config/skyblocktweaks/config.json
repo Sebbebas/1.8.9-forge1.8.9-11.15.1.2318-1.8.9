@@ -41,6 +41,7 @@
     "a": 255,
     "chroma": false
   },
+  "experimentationOverlay": false,
   "healthBar": false,
   "healthBarAbsorbColor": {
     "r": 255,
@@ -93,11 +94,17 @@
   "itemPickupLogItemIds": false,
   "itemPickupLogItemPrices": true,
   "itemPickupLogTextStyle": "Shadowed",
+  "katFlipperOverlay": false,
   "lowHealthTint": true,
+  "lowballingOverlay": false,
+  "lowballingOverlayOfferPercentage": 60,
   "manaBar": false,
   "manaBarBarColor": {
-    "value": -16777216,
-    "falpha": 0.0
+    "r": 255,
+    "g": 0,
+    "b": 0,
+    "a": 255,
+    "chroma": false
   },
   "manaBarManaColor": {
     "r": 85,
@@ -159,6 +166,9 @@
     "chroma": false
   },
   "dwarvenMinesMap": false,
+  "forgeFlipperMaxHotm": 10,
+  "forgeFlipperMaxPrice": 0,
+  "forgeFlipperOverlay": true,
   "gemstoneOverlay": true,
   "fireFreezeTimer": true,
   "floor2SpawnTimer": true,
@@ -170,6 +180,7 @@
     "a": 255,
     "chroma": false
   },
+  "highlightCorrectLividLine": true,
   "highlightTrash": false,
   "outlineStarredMobs": false,
   "outlineStarredMobsColor": {
@@ -185,6 +196,7 @@
   "trashHighlightType": "Slot",
   "AF_AucFlips": true,
   "AF_binFlips": false,
+  "AF_commonFilter": false,
   "AF_dyeFilter": false,
   "AF_farmingToolFilter": false,
   "AF_filtersEnabled": false,
@@ -203,6 +215,7 @@
   "autoAuctionFlipOpenKeybind": 33,
   "biddingOverlay": false,
   "customOutbidNotifications": false,
+  "customOutbidNotificationsAbbreviation": true,
   "customOutbidNotificationsPlaySound": true,
   "customOutbidNotificationsText": "\u0026c\u0026l[OUTBID] \u0026f{item} \u0026eby \u00266{amount} coins \u0026e\u0026lCLICK!",
   "highlightLosingAuctions": false,
@@ -213,6 +226,24 @@
     "a": 255,
     "chroma": false
   },
+  "usePriceMatch": true,
+  "accessoryBagOverlay": false,
+  "beastiaryMobHighlight": false,
+  "beastiaryMobHighlightColor": {
+    "r": 255,
+    "g": 0,
+    "b": 0,
+    "a": 255,
+    "chroma": false
+  },
+  "beastiaryMobHighlightLineColor": {
+    "r": 255,
+    "g": 0,
+    "b": 0,
+    "a": 100,
+    "chroma": false
+  },
+  "beastiaryMobHighlightTracer": false,
   "cakeBagSortingHelper": false,
   "fireFreezeVisual": true,
   "fireFreezeVisualColor": {
@@ -223,13 +254,62 @@
     "chroma": false
   },
   "highlightMissingNewYearCakes": false,
+  "highlightMissingTalismans": false,
+  "highlightMissingTalismansColor": {
+    "r": 255,
+    "g": 0,
+    "b": 0,
+    "a": 255,
+    "chroma": false
+  },
+  "hotspotBobberInColor": {
+    "r": 0,
+    "g": 255,
+    "b": 0,
+    "a": 255,
+    "chroma": false
+  },
+  "hotspotBobberOutColor": {
+    "r": 255,
+    "g": 0,
+    "b": 0,
+    "a": 255,
+    "chroma": false
+  },
+  "hotspotCircleHighlight": true,
   "lastCollectedAboveMinion": true,
   "minionOverlay": false,
   "quiverOverlay": false,
   "quiverOverlayOnlyBow": false,
   "quiverOverlayType": false,
+  "showActiveAuctionStat": true,
+  "showAuctionPricingStat": true,
+  "showBazaarStat": true,
+  "showBinPricingStat": true,
   "showItemPricingData": false,
+  "showPriceMatchingStat": true,
+  "showPricePaidStat": true,
+  "showSalesStat": true,
   "crimsonIslesMap": false,
+  "itemAttributeOverlay": false,
+  "itemAttributeOverlayGRPrice": 50000000,
+  "itemAttributeOverlayGRTier": 6,
+  "itemAttributeOverlayGodRollTextColor": {
+    "r": 255,
+    "g": 255,
+    "b": 0,
+    "a": 255,
+    "chroma": false
+  },
+  "itemAttributeOverlayShowGodRoll": true,
+  "itemAttributeOverlayTextColor": {
+    "r": 0,
+    "g": 255,
+    "b": 255,
+    "a": 255,
+    "chroma": false
+  },
+  "itemAttributeOverlayTextScale": 60,
   "moodyGrappleShotHighlight": false,
   "moodyGrappleShotHighlightColor": {
     "r": 255,
@@ -269,6 +349,7 @@
     "a": 255,
     "chroma": false
   },
+  "sentTradeHistoryPrompt": false,
   "highlightVampireAnchorColor": {
     "r": 255,
     "g": 213,
@@ -458,6 +539,7 @@
     "a": 255,
     "chroma": false
   },
+  "selectedFont": "Smooth",
   "selectedTheme": "Dark + Cyan",
   "sidebarBackgroundColor": {
     "r": 15,
@@ -484,10 +566,12 @@
   "logNetworkRequests": false,
   "modAPIURL": "https://app.mrfast-developer.com/",
   "modSocketURL": "ws://app.mrfast-developer.com:1512",
+  "showHiddenConfig": false,
   "showInspector": false,
   "showItemAbilities": false,
   "showMinionDebug": false,
   "showMobIds": false,
   "showMobIdsThroughWalls": false,
+  "showServerErrors": false,
   "valueTest": 200
 }

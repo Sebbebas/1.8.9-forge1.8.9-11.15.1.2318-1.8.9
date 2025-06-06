@@ -5,27 +5,27 @@
         "banana": {
           "sackContents": {
             "COAL": {
-              "amount": 15454,
+              "amount": 20160,
               "lastChange": 0,
               "status": "CORRECT"
             },
             "COBBLESTONE": {
-              "amount": 62,
+              "amount": 1493,
               "lastChange": 0,
               "status": "CORRECT"
             },
             "DIAMOND": {
-              "amount": 70,
+              "amount": 5306,
               "lastChange": 0,
               "status": "CORRECT"
             },
             "EMERALD": {
-              "amount": 5666,
+              "amount": 10823,
               "lastChange": 0,
               "status": "CORRECT"
             },
             "ENDER_STONE": {
-              "amount": 0,
+              "amount": 36,
               "lastChange": 0,
               "status": "CORRECT"
             },
@@ -35,7 +35,7 @@
               "status": "CORRECT"
             },
             "GLACITE": {
-              "amount": 1916,
+              "amount": 19177,
               "lastChange": 0,
               "status": "CORRECT"
             },
@@ -45,7 +45,7 @@
               "status": "CORRECT"
             },
             "GOLD_INGOT": {
-              "amount": 1693,
+              "amount": 1584,
               "lastChange": 0,
               "status": "CORRECT"
             },
@@ -55,22 +55,22 @@
               "status": "CORRECT"
             },
             "HARD_STONE": {
-              "amount": 7943,
+              "amount": 507,
               "lastChange": 0,
               "status": "CORRECT"
             },
             "IRON_INGOT": {
-              "amount": 108,
+              "amount": 16634,
               "lastChange": 0,
               "status": "CORRECT"
             },
             "INK_SACK-4": {
-              "amount": 7641,
+              "amount": 5637,
               "lastChange": 0,
               "status": "CORRECT"
             },
             "MITHRIL_ORE": {
-              "amount": 18,
+              "amount": 1214,
               "lastChange": 0,
               "status": "CORRECT"
             },
@@ -90,12 +90,12 @@
               "status": "CORRECT"
             },
             "OBSIDIAN": {
-              "amount": 48,
+              "amount": 350,
               "lastChange": 0,
               "status": "CORRECT"
             },
             "OIL_BARREL": {
-              "amount": 294,
+              "amount": 301,
               "lastChange": 0,
               "status": "CORRECT"
             },
@@ -110,7 +110,7 @@
               "status": "CORRECT"
             },
             "REDSTONE": {
-              "amount": 0,
+              "amount": 14473,
               "lastChange": 0,
               "status": "CORRECT"
             },
@@ -130,27 +130,27 @@
               "status": "CORRECT"
             },
             "STONE": {
-              "amount": 7752,
+              "amount": 9921,
               "lastChange": 0,
               "status": "CORRECT"
             },
             "TITANIUM_ORE": {
-              "amount": 7252,
+              "amount": 42,
               "lastChange": 0,
               "status": "CORRECT"
             },
             "TREASURITE": {
-              "amount": 15,
+              "amount": 34,
               "lastChange": 0,
               "status": "CORRECT"
             },
             "TUNGSTEN": {
-              "amount": 16600,
+              "amount": 6699,
               "lastChange": 0,
               "status": "CORRECT"
             },
             "UMBER": {
-              "amount": 7396,
+              "amount": 18554,
               "lastChange": 0,
               "status": "CORRECT"
             },
@@ -700,7 +700,7 @@
               "status": "CORRECT"
             },
             "ENCHANTED_ICE": {
-              "amount": 35,
+              "amount": 36,
               "lastChange": 0,
               "status": "CORRECT"
             },
@@ -735,7 +735,7 @@
               "status": "CORRECT"
             },
             "ICE": {
-              "amount": 0,
+              "amount": 1007,
               "lastChange": 0,
               "status": "CORRECT"
             },
@@ -745,7 +745,7 @@
               "status": "CORRECT"
             },
             "SNOW_BLOCK": {
-              "amount": 0,
+              "amount": 536,
               "lastChange": 0,
               "status": "CORRECT"
             },
@@ -1170,12 +1170,12 @@
               "status": "CORRECT"
             },
             "ROUGH_JADE_GEM": {
-              "amount": 30309,
+              "amount": 31999,
               "lastChange": 0,
               "status": "CORRECT"
             },
             "FLAWED_JADE_GEM": {
-              "amount": 4965,
+              "amount": 5083,
               "lastChange": 0,
               "status": "CORRECT"
             },
@@ -1185,12 +1185,12 @@
               "status": "CORRECT"
             },
             "ROUGH_AMBER_GEM": {
-              "amount": 23505,
+              "amount": 51868,
               "lastChange": 0,
               "status": "CORRECT"
             },
             "FLAWED_AMBER_GEM": {
-              "amount": 4123,
+              "amount": 8258,
               "lastChange": 0,
               "status": "CORRECT"
             },
@@ -1215,27 +1215,27 @@
               "status": "CORRECT"
             },
             "ROUGH_SAPPHIRE_GEM": {
-              "amount": 50710,
+              "amount": 9894,
               "lastChange": 0,
               "status": "CORRECT"
             },
             "FLAWED_SAPPHIRE_GEM": {
-              "amount": 6311,
+              "amount": 1429,
               "lastChange": 0,
               "status": "CORRECT"
             },
             "FINE_SAPPHIRE_GEM": {
-              "amount": 41,
+              "amount": 103,
               "lastChange": 0,
               "status": "CORRECT"
             },
             "ROUGH_AMETHYST_GEM": {
-              "amount": 14213,
+              "amount": 27887,
               "lastChange": 0,
               "status": "CORRECT"
             },
             "FLAWED_AMETHYST_GEM": {
-              "amount": 1960,
+              "amount": 4088,
               "lastChange": 0,
               "status": "CORRECT"
             },
@@ -1245,12 +1245,12 @@
               "status": "CORRECT"
             },
             "ROUGH_JASPER_GEM": {
-              "amount": 576,
+              "amount": 16848,
               "lastChange": 0,
               "status": "CORRECT"
             },
             "FLAWED_JASPER_GEM": {
-              "amount": 278,
+              "amount": 2330,
               "lastChange": 0,
               "status": "CORRECT"
             },
@@ -1260,12 +1260,12 @@
               "status": "CORRECT"
             },
             "ROUGH_RUBY_GEM": {
-              "amount": 1376,
+              "amount": 10013,
               "lastChange": 0,
               "status": "CORRECT"
             },
             "FLAWED_RUBY_GEM": {
-              "amount": 391,
+              "amount": 432,
               "lastChange": 0,
               "status": "CORRECT"
             },
@@ -1290,62 +1290,62 @@
               "status": "CORRECT"
             },
             "ROUGH_ONYX_GEM": {
-              "amount": 27,
+              "amount": 13121,
               "lastChange": 0,
               "status": "CORRECT"
             },
             "FLAWED_ONYX_GEM": {
-              "amount": 69,
+              "amount": 1779,
               "lastChange": 0,
               "status": "CORRECT"
             },
             "FINE_ONYX_GEM": {
-              "amount": 268,
+              "amount": 240,
               "lastChange": 0,
               "status": "CORRECT"
             },
             "ROUGH_AQUAMARINE_GEM": {
-              "amount": 15,
+              "amount": 13763,
               "lastChange": 0,
               "status": "CORRECT"
             },
             "FLAWED_AQUAMARINE_GEM": {
-              "amount": 71,
+              "amount": 1966,
               "lastChange": 0,
               "status": "CORRECT"
             },
             "FINE_AQUAMARINE_GEM": {
-              "amount": 334,
+              "amount": 305,
               "lastChange": 0,
               "status": "CORRECT"
             },
             "ROUGH_CITRINE_GEM": {
-              "amount": 72,
+              "amount": 22002,
               "lastChange": 0,
               "status": "CORRECT"
             },
             "FLAWED_CITRINE_GEM": {
-              "amount": 52,
+              "amount": 2791,
               "lastChange": 0,
               "status": "CORRECT"
             },
             "FINE_CITRINE_GEM": {
-              "amount": 296,
+              "amount": 268,
               "lastChange": 0,
               "status": "CORRECT"
             },
             "ROUGH_PERIDOT_GEM": {
-              "amount": 56,
+              "amount": 17351,
               "lastChange": 0,
               "status": "CORRECT"
             },
             "FLAWED_PERIDOT_GEM": {
-              "amount": 41,
+              "amount": 2121,
               "lastChange": 0,
               "status": "CORRECT"
             },
             "FINE_PERIDOT_GEM": {
-              "amount": 242,
+              "amount": 218,
               "lastChange": 0,
               "status": "CORRECT"
             },
@@ -1355,7 +1355,7 @@
               "status": "CORRECT"
             },
             "ENCHANTED_COAL": {
-              "amount": 1084,
+              "amount": 2000,
               "lastChange": 0,
               "status": "CORRECT"
             },
@@ -1365,12 +1365,12 @@
               "status": "CORRECT"
             },
             "ENCHANTED_COBBLESTONE": {
-              "amount": 3,
+              "amount": 4,
               "lastChange": 0,
               "status": "CORRECT"
             },
             "ENCHANTED_DIAMOND": {
-              "amount": 31,
+              "amount": 32,
               "lastChange": 0,
               "status": "CORRECT"
             },
@@ -1390,7 +1390,7 @@
               "status": "CORRECT"
             },
             "ENCHANTED_ENDSTONE": {
-              "amount": 2,
+              "amount": 4,
               "lastChange": 0,
               "status": "CORRECT"
             },
@@ -1400,7 +1400,7 @@
               "status": "CORRECT"
             },
             "ENCHANTED_GLACITE": {
-              "amount": 100,
+              "amount": 254,
               "lastChange": 0,
               "status": "CORRECT"
             },
@@ -1415,7 +1415,7 @@
               "status": "CORRECT"
             },
             "ENCHANTED_GOLD": {
-              "amount": 669,
+              "amount": 1826,
               "lastChange": 0,
               "status": "CORRECT"
             },
@@ -1425,12 +1425,12 @@
               "status": "CORRECT"
             },
             "ENCHANTED_HARD_STONE": {
-              "amount": 2769,
+              "amount": 7121,
               "lastChange": 0,
               "status": "CORRECT"
             },
             "ENCHANTED_IRON": {
-              "amount": 2,
+              "amount": 68,
               "lastChange": 0,
               "status": "CORRECT"
             },
@@ -1445,12 +1445,12 @@
               "status": "CORRECT"
             },
             "ENCHANTED_LAPIS_LAZULI": {
-              "amount": 0,
+              "amount": 132,
               "lastChange": 0,
               "status": "CORRECT"
             },
             "ENCHANTED_MITHRIL": {
-              "amount": 109,
+              "amount": 324,
               "lastChange": 0,
               "status": "CORRECT"
             },
@@ -1495,7 +1495,7 @@
               "status": "CORRECT"
             },
             "ENCHANTED_REDSTONE": {
-              "amount": 641,
+              "amount": 1214,
               "lastChange": 0,
               "status": "CORRECT"
             },
@@ -1520,17 +1520,17 @@
               "status": "CORRECT"
             },
             "ENCHANTED_TITANIUM": {
-              "amount": 13,
+              "amount": 30,
               "lastChange": 0,
               "status": "CORRECT"
             },
             "ENCHANTED_TUNGSTEN": {
-              "amount": 533,
+              "amount": 69,
               "lastChange": 0,
               "status": "CORRECT"
             },
             "ENCHANTED_UMBER": {
-              "amount": 603,
+              "amount": 126,
               "lastChange": 0,
               "status": "CORRECT"
             },

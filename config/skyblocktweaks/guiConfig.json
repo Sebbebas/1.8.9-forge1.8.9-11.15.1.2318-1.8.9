@@ -21,7 +21,7 @@
     "scale": 1.0,
     "relativeX": 0.459375,
     "relativeY": 0.852778,
-    "needsExample": false,
+    "needsExample": true,
     "height": 10,
     "width": 80,
     "elementName": "Drill Fuel Bar"
@@ -39,15 +39,15 @@
     "scale": 1.0,
     "relativeX": 0.20416666666666666,
     "relativeY": 0.007407407407407408,
-    "needsExample": false,
+    "needsExample": true,
     "height": 9,
     "width": 92,
     "elementName": "Party Display"
   },
   {
     "scale": 1.0,
-    "relativeX": 0.373,
-    "relativeY": 0.522,
+    "relativeX": 0.3625,
+    "relativeY": 0.5648148148148148,
     "needsExample": true,
     "height": 20,
     "width": 254,
@@ -111,7 +111,7 @@
     "scale": 1.0,
     "relativeX": 0.459375,
     "relativeY": 0.852778,
-    "needsExample": false,
+    "needsExample": true,
     "height": 9,
     "width": 113,
     "elementName": "Drill Fuel Number"
@@ -151,15 +151,6 @@
     "height": 9,
     "width": 1,
     "elementName": "Speed Number"
-  },
-  {
-    "scale": 1.0,
-    "relativeX": 0.7614583333333333,
-    "relativeY": 0.4703703703703704,
-    "needsExample": true,
-    "height": 178,
-    "width": 206,
-    "elementName": "Crimson Isles Map"
   },
   {
     "scale": 1.0,

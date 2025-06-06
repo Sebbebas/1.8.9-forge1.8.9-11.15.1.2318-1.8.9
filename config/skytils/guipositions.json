@@ -11,6 +11,10 @@
         "x": 0.65,
         "y": 0.85
     },
+    "Dungeon Boss Map": {
+        "x": 0.0,
+        "y": 0.0
+    },
     "Endstone Protector Spawn Timer": {
         "x": 0.625,
         "y": 0.083333336

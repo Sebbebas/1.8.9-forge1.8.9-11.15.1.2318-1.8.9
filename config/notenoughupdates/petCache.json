@@ -76,9 +76,9 @@
         "maxLevel": 100,
         "expRequiredForNextLevel": 1886700,
         "expRequiredForMaxLevel": 25353230,
-        "expInCurrentLevel": 1044388.0,
-        "expTotal": 2.6397618E7,
-        "percentageToNextLevel": 0.55355275
+        "expInCurrentLevel": 1091226.0,
+        "expTotal": 2.6444456E7,
+        "percentageToNextLevel": 0.57837814
       },
       "petXpType": "mining",
       "petItem": "PET_ITEM_TITANIUM_MINECART",
@@ -228,9 +228,9 @@
         "maxLevel": 100,
         "expRequiredForNextLevel": 1886700,
         "expRequiredForMaxLevel": 25353230,
-        "expInCurrentLevel": 535430.0,
-        "expTotal": 2.588866E7,
-        "percentageToNextLevel": 0.2837918
+        "expInCurrentLevel": 535518.0,
+        "expTotal": 2.5888748E7,
+        "percentageToNextLevel": 0.28383845
       },
       "petXpType": "unknown",
       "petItem": "PET_ITEM_MINING_SKILL_BOOST_RARE",
@@ -262,9 +262,9 @@
         "maxLevel": 100,
         "expRequiredForNextLevel": 1886700,
         "expRequiredForMaxLevel": 25353230,
-        "expInCurrentLevel": 5437222.0,
-        "expTotal": 3.0790452E7,
-        "percentageToNextLevel": 2.8818688
+        "expInCurrentLevel": 6133842.0,
+        "expTotal": 3.1487072E7,
+        "percentageToNextLevel": 3.2510955
       },
       "petXpType": "taming",
       "petItem": "PET_ITEM_EXP_SHARE",
@@ -296,9 +296,9 @@
         "maxLevel": 100,
         "expRequiredForNextLevel": 1886700,
         "expRequiredForMaxLevel": 25353230,
-        "expInCurrentLevel": 7.9546896E7,
-        "expTotal": 1.04900128E8,
-        "percentageToNextLevel": 42.161922
+        "expInCurrentLevel": 8.4055184E7,
+        "expTotal": 1.09408416E8,
+        "percentageToNextLevel": 44.55143
       },
       "petXpType": "mining",
       "petItem": "PET_ITEM_MINING_SKILL_BOOST_RARE",
@@ -313,9 +313,9 @@
         "maxLevel": 100,
         "expRequiredForNextLevel": 1886700,
         "expRequiredForMaxLevel": 25353230,
-        "expInCurrentLevel": 1777982.0,
-        "expTotal": 2.7131212E7,
-        "percentageToNextLevel": 0.9423766
+        "expInCurrentLevel": 1779600.0,
+        "expTotal": 2.713283E7,
+        "percentageToNextLevel": 0.9432342
       },
       "petXpType": "alchemy",
       "petItem": "DWARF_TURTLE_SHELMET",
@@ -364,9 +364,9 @@
         "maxLevel": 100,
         "expRequiredForNextLevel": 1886700,
         "expRequiredForMaxLevel": 25353230,
-        "expInCurrentLevel": 118882.0,
-        "expTotal": 2.3585412E7,
-        "percentageToNextLevel": 0.06301055
+        "expInCurrentLevel": 919880.0,
+        "expTotal": 2.438641E7,
+        "percentageToNextLevel": 0.4875603
       },
       "petXpType": "combat",
       "petItem": "PET_ITEM_COMBAT_SKILL_BOOST_RARE",
@@ -398,9 +398,9 @@
         "maxLevel": 100,
         "expRequiredForNextLevel": 611700,
         "expRequiredForMaxLevel": 25353230,
-        "expInCurrentLevel": 131837.0,
-        "expTotal": 8159567.0,
-        "percentageToNextLevel": 0.21552558
+        "expInCurrentLevel": 572950.0,
+        "expTotal": 8600680.0,
+        "percentageToNextLevel": 0.93665195
       },
       "petXpType": "fishing",
       "petItem": "PET_ITEM_MINING_SKILL_BOOST_RARE",
@@ -784,8 +784,8 @@
       "candyUsed": 0
     }
   },
-  "selectedPet": 21,
-  "selectedPet2": 18,
+  "selectedPet": 17,
+  "selectedPet2": 23,
   "tamingLevel": 51,
   "beastMultiplier": 3.0
 }

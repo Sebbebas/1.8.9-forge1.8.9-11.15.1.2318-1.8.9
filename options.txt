@@ -137,11 +137,9 @@ key_Freeze Backpack Preview:33
 key_Dungeon Map Zoom In:13
 key_Dungeon Map Zoom Out:74
 key_Copy NBT:157
-key_Warp to nearest location to burrial guess:0
-key_Choose the nearest eman boss as your boss.:0
 soundCategory_master:0.17880794
 soundCategory_music:0.0
-soundCategory_record:0.5
+soundCategory_record:1.0
 soundCategory_weather:0.5070422
 soundCategory_block:0.5
 soundCategory_hostile:0.5

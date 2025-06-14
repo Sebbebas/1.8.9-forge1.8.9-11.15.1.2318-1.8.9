@@ -87,7 +87,7 @@
 
 [mining]
 	mineshaft_pity = false
-	mineshaft_waypoints = false
+	mineshaft_waypoints = true
 
 [utilities]
 	dev_commands = false

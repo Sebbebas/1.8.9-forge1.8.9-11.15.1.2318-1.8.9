@@ -83,6 +83,9 @@
 		toggle_to_zoom = false
 		smooth_camera_when_zoomed = true
 
+	[quality_of_life.nameplate]
+		show_my_nameplate_in_third-person = true
+
 	[quality_of_life.screenshots]
 		vanilla_screenshot_message = false
 		"screenshot_quick_action_#2_-_top_right" = 2

@@ -1,0 +1,108 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.cat_beanie",
+				"texture_width": 48,
+				"texture_height": 48,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 3.5,
+				"visible_bounds_offset": [0, 1.25, 0]
+			},
+			"bones": [
+				{
+					"name": "root",
+					"pivot": [0, 0, 0]
+				},
+				{
+					"name": "head",
+					"parent": "root",
+					"pivot": [0, 24, 0]
+				},
+				{
+					"name": "cat_beanie",
+					"parent": "head",
+					"pivot": [0, 0, 0],
+					"side": "front",
+					"cubes": [
+						{"origin": [-4, 24, -4], "size": [8, 9, 8], "uv": [0, 0]}
+					]
+				},
+				{
+					"name": "outer",
+					"parent": "cat_beanie",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{
+							"origin": [-4, 24, -4],
+							"size": [8, 9, 8],
+							"inflate": 0.75,
+							"uv": {
+								"north": {"uv": [8, 25], "uv_size": [8, 9]},
+								"east": {"uv": [0, 25], "uv_size": [8, 9]},
+								"south": {"uv": [24, 25], "uv_size": [8, 9]},
+								"west": {"uv": [16, 25], "uv_size": [8, 9]}
+							}
+						}
+					]
+				},
+				{
+					"name": "ears",
+					"parent": "cat_beanie",
+					"pivot": [0, 8, 0]
+				},
+				{
+					"name": "ear_left",
+					"parent": "ears",
+					"pivot": [2.5, 32.4, 0],
+					"rotation": [0, 0, 22.5],
+					"cubes": [
+						{
+							"origin": [1, 29.4, 0],
+							"size": [5, 7, 0],
+							"inflate": 0.01,
+							"uv": {
+								"north": {"uv": [0, 35], "uv_size": [5, 7]}
+							}
+						}
+					]
+				},
+				{
+					"name": "ear_right",
+					"parent": "ears",
+					"pivot": [-2.5, 32.4, 0],
+					"rotation": [0, 0, -22.5],
+					"cubes": [
+						{
+							"origin": [-6, 29.4, 0],
+							"size": [5, 7, 0],
+							"inflate": 0.01,
+							"uv": {
+								"north": {"uv": [5, 35], "uv_size": [-5, 7]}
+							}
+						}
+					]
+				},
+				{
+					"name": "tassels",
+					"parent": "cat_beanie",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{
+							"origin": [-4, 24, -4],
+							"size": [8, 9, 8],
+							"inflate": 0.75,
+							"uv": {
+								"north": {"uv": [24, 39], "uv_size": [8, 9]},
+								"east": {"uv": [16, 39], "uv_size": [8, 9]},
+								"south": {"uv": [40, 39], "uv_size": [8, 9]},
+								"west": {"uv": [32, 39], "uv_size": [8, 9]}
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

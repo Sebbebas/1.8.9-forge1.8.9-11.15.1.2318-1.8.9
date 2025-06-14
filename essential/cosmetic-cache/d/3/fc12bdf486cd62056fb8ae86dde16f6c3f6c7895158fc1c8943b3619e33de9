@@ -1,0 +1,244 @@
+[
+    {
+        "type": "EXTERNAL_HIDDEN_BONE",
+        "id": "REAPER_ROBES",
+        "enabled": true,
+        "data": {
+            "hood": true
+        }
+    },
+    {
+        "type": "COSMETIC_BONE_HIDING",
+        "id": "BANANA_SUIT",
+        "enabled": true,
+        "data": {
+            "head": true
+        }
+    },
+    {
+        "type": "COSMETIC_BONE_HIDING",
+        "id": "SCI_FI_ARMOR",
+        "enabled": true,
+        "data": {
+            "head": true
+        }
+    },
+    {
+        "type": "COSMETIC_BONE_HIDING",
+        "id": "SCI_FI_MINING_SUIT",
+        "enabled": true,
+        "data": {
+            "head": true
+        }
+    },
+    {
+        "type": "COSMETIC_BONE_HIDING",
+        "id": "SPACEWALK_SUIT",
+        "enabled": true,
+        "data": {
+            "head": true
+        }
+    },
+    {
+        "type": "COSMETIC_BONE_HIDING",
+        "id": "SIGILS_STARTER_KIT",
+        "enabled": true,
+        "data": {
+            "head": true
+        }
+    },
+    {
+        "type": "COSMETIC_BONE_HIDING",
+        "id": "SSUNDEE_FOOT_ONESIE",
+        "enabled": true,
+        "data": {
+            "head": true
+        }
+    },
+    {
+        "type": "COSMETIC_BONE_HIDING",
+        "id": "SCARY_CLOWN_SUIT",
+        "enabled": true,
+        "data": {
+            "head": true
+        }
+    },
+    {
+        "type": "COSMETIC_BONE_HIDING",
+        "id": "JACK_O_LANTERN_SUIT",
+        "enabled": true,
+        "data": {
+            "head": true
+        }
+    },
+    {
+        "type": "COSMETIC_BONE_HIDING",
+        "id": "WATERFALL_SUIT",
+        "enabled": true,
+        "data": {
+            "head": true
+        }
+    },
+    {
+        "type": "COSMETIC_BONE_HIDING",
+        "id": "WATERFALL_SUIT",
+        "enabled": true,
+        "data": {
+            "head": true
+        }
+    },
+    {
+        "type": "ARMOR_HANDLING",
+        "id": "HOLY_MASK",
+        "enabled": true,
+        "data": {
+            "head": true
+        }
+    },
+    {
+        "type": "EXTERNAL_HIDDEN_BONE",
+        "id": "CREEPER_TAKEOVER",
+        "enabled": true,
+        "data": {
+            "head": true
+        }
+    },
+    {
+        "type": "EXTERNAL_HIDDEN_BONE",
+        "id": "WARDEN_TAKEOVER",
+        "enabled": true,
+        "data": {
+            "head": true
+        }
+    },
+    {
+        "type": "EXTERNAL_HIDDEN_BONE",
+        "id": "ENDERMAN_TAKEOVER",
+        "enabled": true,
+        "data": {
+            "head": true
+        }
+    },
+    {
+        "type": "EXTERNAL_HIDDEN_BONE",
+        "id": "GIANT_EYE_TAKEOVER",
+        "enabled": true,
+        "data": {
+            "head": true
+        }
+    },
+    {
+        "type": "EXTERNAL_HIDDEN_BONE",
+        "id": "SCARY_FACE_TAKEOVER",
+        "enabled": true,
+        "data": {
+            "smile_outer": true,
+            "head": true
+        }
+    },
+    {
+        "type": "EXTERNAL_HIDDEN_BONE",
+        "id": "DEMON_ONESIE",
+        "enabled": true,
+        "data": {
+            "head": true
+        }
+    },
+    {
+        "type": "EXTERNAL_HIDDEN_BONE",
+        "id": "MUSHROOM_CAP",
+        "enabled": true,
+        "data": {
+            "frills_3": true,
+            "frills_4": true
+        }
+    },
+    {
+        "type": "EXTERNAL_HIDDEN_BONE",
+        "id": "PILOT_HAT",
+        "enabled": true,
+        "data": {
+            "visor": true
+        }
+    },
+    {
+        "type": "COSMETIC_BONE_HIDING",
+        "id": "SPACE_SUIT",
+        "enabled": true,
+        "data": {
+            "head": true
+        }
+    },
+    {
+        "type": "COSMETIC_BONE_HIDING",
+        "id": "BASIC_CLOAK",
+        "enabled": true,
+        "data": {
+            "head": true
+        }
+    },
+    {
+        "type": "COSMETIC_BONE_HIDING",
+        "id": "JEROME_BEAR_ONESIE",
+        "enabled": true,
+        "data": {
+            "head": true
+        }
+    },
+    {
+        "type": "COSMETIC_BONE_HIDING",
+        "id": "REAPER_SUIT",
+        "enabled": true,
+        "data": {
+            "head": true
+        }
+    },
+    {
+        "type": "COSMETIC_BONE_HIDING",
+        "id": "GHOST_BLANKET",
+        "enabled": true,
+        "data": {
+            "head": true
+        }
+    },
+    {
+        "type": "COSMETIC_BONE_HIDING",
+        "id": "VENOM_TAKEOVER",
+        "enabled": true,
+        "data": {
+            "head": true
+        }
+    },
+    {
+        "type": "COSMETIC_BONE_HIDING",
+        "id": "DARK_LORD_SUIT",
+        "enabled": true,
+        "data": {
+            "head": true
+        }
+    },
+    {
+        "type": "COSMETIC_BONE_HIDING",
+        "id": "INFINITY_SUIT",
+        "enabled": true,
+        "data": {
+            "head": true
+        }
+    },
+    {
+        "type": "COSMETIC_BONE_HIDING",
+        "id": "REAPER_ROBES",
+        "enabled": true,
+        "data": {
+            "head": true
+        }
+    },
+    {
+        "type": "EXTERNAL_HIDDEN_BONE",
+        "id": "Y2K_JACKET",
+        "enabled": true,
+        "data": {
+            "hood": true
+        }
+    }
+]

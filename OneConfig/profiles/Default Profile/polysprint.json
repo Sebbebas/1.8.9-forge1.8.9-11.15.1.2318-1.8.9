@@ -2,7 +2,7 @@
   "toggleSprint": true,
   "toggleSneak": false,
   "disableWTapSprint": true,
-  "toggleSprintState": false,
+  "toggleSprintState": true,
   "toggleSneakState": false,
   "keybindToggleSprint": false,
   "keybindToggleSprintKey": {

@@ -28,7 +28,7 @@ export const getMojangInfo = (player) => {
 
     // Using Username
     return request({
-        url: `https://api.mojang.com/users/profiles/minecraft/${player}`,
+        url: `https://api.minecraftservices.com/minecraft/profile/lookup/name/${player}`,
         json: true}
     ).then(resp => {
         resp.success = true

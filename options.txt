@@ -14,7 +14,7 @@ difficulty:3
 fancyGraphics:false
 ao:0
 renderClouds:false
-resourcePacks:["§bCland§7estine [§b16x§7] §bAqua.zip","Default-Dark-Mode Copy","!               §6Sky v1.zip"]
+resourcePacks:["PALLIKA","Default-Dark-Mode Copy","!               §6Sky v1.zip"]
 incompatibleResourcePacks:[]
 lastServer:
 lang:en_us
@@ -130,6 +130,12 @@ key_Drop Stack Modifier:0
 key_Hide Screen:59
 key_Custom F3:61
 key_Clear Vanilla Shaders:62
+key_key.scathapro.lockRotation:0
+key_key.scathapro.toggleOverlay:0
+key_key.scathapro.toggleRotationAngles:0
+key_key.scathapro.cycleSelectedWormStatsType:0
+key_key.scathapro.overlayScreenshot:0
+key_key.scathapro.chatScreenshot:0
 key_Settings:0
 key_Edit GUI Locations:0
 key_Lock Slot:38
@@ -137,7 +143,9 @@ key_Freeze Backpack Preview:33
 key_Dungeon Map Zoom In:13
 key_Dungeon Map Zoom Out:74
 key_Copy NBT:157
-soundCategory_master:0.17880794
+key_Warp to nearest location to burrial guess:0
+key_Choose the nearest eman boss as your boss.:0
+soundCategory_master:0.03311258
 soundCategory_music:0.0
 soundCategory_record:1.0
 soundCategory_weather:0.5070422

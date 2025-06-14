@@ -1,31 +1,39 @@
 {
     "categories": [
         {
-            "name": "NPC",
+            "name": "Locations",
             "waypoints": [
                 {
-                    "name": "Alwin",
-                    "x": -83,
+                    "name": "Heavy Pearls",
+                    "x": -517,
+                    "y": 42,
+                    "z": -887,
+                    "enabled": true,
+                    "addedAt": 1691224307197
+                },
+                {
+                    "name": "Dojo",
+                    "x": -229,
+                    "y": 107,
+                    "z": -598,
+                    "enabled": true,
+                    "addedAt": 1691223992895
+                },
+                {
+                    "name": "Community Center",
+                    "x": -122,
                     "y": 91,
-                    "z": -735,
-                    "enabled": false,
-                    "addedAt": 1722193950377
+                    "z": -755,
+                    "enabled": true,
+                    "addedAt": 1691188970740
                 },
                 {
-                    "name": "Odger",
-                    "x": -374,
-                    "y": 206,
-                    "z": -811,
-                    "enabled": false,
-                    "addedAt": 1722275745686
-                },
-                {
-                    "name": "Carrolyn",
-                    "x": 1,
-                    "y": 103,
-                    "z": -803,
-                    "enabled": false,
-                    "addedAt": 1716329063830
+                    "name": "Kuudra",
+                    "x": -372,
+                    "y": 114,
+                    "z": -1021,
+                    "enabled": true,
+                    "addedAt": 1692464413547
                 }
             ],
             "isExpanded": false,
@@ -71,225 +79,91 @@
             "island": "crimson_isle"
         },
         {
-            "name": "Lava 6",
+            "name": "Lava 4",
             "waypoints": [
                 {
-                    "name": "57",
-                    "x": -209,
-                    "y": 43,
-                    "z": -120,
+                    "name": "31",
+                    "x": -177,
+                    "y": 39,
+                    "z": -92,
                     "enabled": false,
-                    "addedAt": 1688419149429
+                    "addedAt": 1688390134420
                 },
                 {
-                    "name": "51",
-                    "x": -205,
-                    "y": 43,
-                    "z": -108,
-                    "enabled": false,
-                    "addedAt": 1688419058077
-                },
-                {
-                    "name": "60",
-                    "x": -217,
-                    "y": 42,
-                    "z": -108,
-                    "enabled": false,
-                    "addedAt": 1688419229774
-                },
-                {
-                    "name": "56",
-                    "x": -205,
-                    "y": 42,
-                    "z": -120,
-                    "enabled": false,
-                    "addedAt": 1688419141024
-                },
-                {
-                    "name": "52",
-                    "x": -201,
-                    "y": 43,
-                    "z": -108,
-                    "enabled": false,
-                    "addedAt": 1688419100075
-                },
-                {
-                    "name": "59",
-                    "x": -213,
-                    "y": 41,
-                    "z": -112,
-                    "enabled": false,
-                    "addedAt": 1688419178468
-                },
-                {
-                    "name": "53",
-                    "x": -197,
-                    "y": 43,
-                    "z": -112,
-                    "enabled": false,
-                    "addedAt": 1688419107530
-                },
-                {
-                    "name": "54",
-                    "x": -201,
+                    "name": "32",
+                    "x": -181,
                     "y": 40,
-                    "z": -116,
-                    "enabled": false,
-                    "addedAt": 1688419119423
-                },
-                {
-                    "name": "55",
-                    "x": -206,
-                    "y": 41,
-                    "z": -116,
-                    "enabled": false,
-                    "addedAt": 1688419129682
-                },
-                {
-                    "name": "58",
-                    "x": -213,
-                    "y": 41,
-                    "z": -116,
-                    "enabled": false,
-                    "addedAt": 1688419162625
-                },
-                {
-                    "name": "61",
-                    "x": -221,
-                    "y": 43,
-                    "z": -104,
-                    "enabled": false,
-                    "addedAt": 1688419211228
-                }
-            ],
-            "isExpanded": false,
-            "island": "rift"
-        },
-        {
-            "name": "Lava 3",
-            "waypoints": [
-                {
-                    "name": "23",
-                    "x": -166,
-                    "y": 41,
-                    "z": -124,
-                    "enabled": false,
-                    "addedAt": 1688389968160
-                },
-                {
-                    "name": "27",
-                    "x": -173,
-                    "y": 43,
-                    "z": -108,
-                    "enabled": false,
-                    "addedAt": 1688390023319
-                },
-                {
-                    "name": "26",
-                    "x": -173,
-                    "y": 43,
-                    "z": -112,
-                    "enabled": false,
-                    "addedAt": 1688390016814
-                },
-                {
-                    "name": "22",
-                    "x": -161,
-                    "y": 40,
-                    "z": -120,
-                    "enabled": false,
-                    "addedAt": 1688389956149
-                },
-                {
-                    "name": "30",
-                    "x": -173,
-                    "y": 41,
                     "z": -96,
                     "enabled": false,
-                    "addedAt": 1688390089220
+                    "addedAt": 1688390197819
                 },
                 {
-                    "name": "24",
-                    "x": -169,
-                    "y": 41,
-                    "z": -120,
-                    "enabled": false,
-                    "addedAt": 1688389996114
-                },
-                {
-                    "name": "29",
-                    "x": -173,
+                    "name": "33",
+                    "x": -185,
                     "y": 41,
                     "z": -100,
                     "enabled": false,
-                    "addedAt": 1688390076461
+                    "addedAt": 1688390218115
                 },
                 {
-                    "name": "28",
-                    "x": -177,
+                    "name": "37",
+                    "x": -185,
+                    "y": 41,
+                    "z": -117,
+                    "enabled": false,
+                    "addedAt": 1688390280150
+                },
+                {
+                    "name": "36",
+                    "x": -182,
                     "y": 40,
-                    "z": -104,
+                    "z": -113,
                     "enabled": false,
-                    "addedAt": 1688390055259
+                    "addedAt": 1688390264897
                 },
                 {
-                    "name": "21",
-                    "x": -157,
-                    "y": 39,
-                    "z": -116,
+                    "name": "38",
+                    "x": -181,
+                    "y": 40,
+                    "z": -120,
                     "enabled": false,
-                    "addedAt": 1688389939420
+                    "addedAt": 1688418510078
                 },
                 {
-                    "name": "25",
-                    "x": -169,
+                    "name": "39",
+                    "x": -186,
+                    "y": 41,
+                    "z": -124,
+                    "enabled": false,
+                    "addedAt": 1688418529674
+                },
+                {
+                    "name": "40",
+                    "x": -189,
                     "y": 42,
-                    "z": -116,
+                    "z": -120,
                     "enabled": false,
-                    "addedAt": 1688390006000
+                    "addedAt": 1688418546536
+                },
+                {
+                    "name": "34",
+                    "x": -182,
+                    "y": 42,
+                    "z": -105,
+                    "enabled": false,
+                    "addedAt": 1688390229259
+                },
+                {
+                    "name": "35",
+                    "x": -185,
+                    "y": 41,
+                    "z": -108,
+                    "enabled": false,
+                    "addedAt": 1688390245899
                 }
             ],
             "isExpanded": false,
             "island": "rift"
-        },
-        {
-            "name": "Locations",
-            "waypoints": [
-                {
-                    "name": "Heavy Pearls",
-                    "x": -517,
-                    "y": 42,
-                    "z": -887,
-                    "enabled": true,
-                    "addedAt": 1691224307197
-                },
-                {
-                    "name": "Dojo",
-                    "x": -229,
-                    "y": 107,
-                    "z": -598,
-                    "enabled": true,
-                    "addedAt": 1691223992895
-                },
-                {
-                    "name": "Community Center",
-                    "x": -122,
-                    "y": 91,
-                    "z": -755,
-                    "enabled": true,
-                    "addedAt": 1691188970740
-                },
-                {
-                    "name": "Kuudra",
-                    "x": -372,
-                    "y": 114,
-                    "z": -1021,
-                    "enabled": true,
-                    "addedAt": 1692464413547
-                }
-            ],
-            "isExpanded": false,
-            "island": "crimson_isle"
         },
         {
             "name": "Perfect Ruby Route",
@@ -546,65 +420,335 @@
             "island": "crystal_hollows"
         },
         {
-            "name": "Beth",
+            "name": "Amber in tunnels",
             "waypoints": [
                 {
-                    "name": "Secret",
-                    "x": 175,
-                    "y": 42,
-                    "z": -470,
+                    "name": "13",
+                    "x": 51,
+                    "y": 122,
+                    "z": 390,
                     "enabled": false,
-                    "addedAt": 1688053444081
-                }
-            ],
-            "island": "farming_1"
-        },
-        {
-            "name": "Redstone",
-            "waypoints": [
-                {
-                    "name": "3",
-                    "x": -103,
-                    "y": 181,
-                    "z": 44,
-                    "enabled": false,
-                    "addedAt": 1689931147599
+                    "color": 16711680,
+                    "addedAt": 1749206293219
                 },
                 {
-                    "name": "5",
-                    "x": -103,
-                    "y": 180,
-                    "z": 46,
+                    "name": "23",
+                    "x": 49,
+                    "y": 123,
+                    "z": 313,
                     "enabled": false,
-                    "addedAt": 1689931310055
-                },
-                {
-                    "name": "4",
-                    "x": -103,
-                    "y": 181,
-                    "z": 46,
-                    "enabled": false,
-                    "addedAt": 1689931188946
-                },
-                {
-                    "name": "1",
-                    "x": -103,
-                    "y": 181,
-                    "z": 39,
-                    "enabled": false,
-                    "addedAt": 1689931025606
+                    "color": 16711680,
+                    "addedAt": 1749244505807
                 },
                 {
                     "name": "2",
-                    "x": -103,
-                    "y": 180,
-                    "z": 42,
+                    "x": 52,
+                    "y": 123,
+                    "z": 291,
                     "enabled": false,
-                    "addedAt": 1689931081699
+                    "color": 16711680,
+                    "addedAt": 1749205604577
+                },
+                {
+                    "name": "6",
+                    "x": 98,
+                    "y": 130,
+                    "z": 310,
+                    "enabled": false,
+                    "color": 16711680,
+                    "addedAt": 1749205715725
+                },
+                {
+                    "name": "16",
+                    "x": 46,
+                    "y": 125,
+                    "z": 362,
+                    "enabled": false,
+                    "color": 16711680,
+                    "addedAt": 1749207404020
+                },
+                {
+                    "name": "20",
+                    "x": 29,
+                    "y": 131,
+                    "z": 324,
+                    "enabled": false,
+                    "color": 16711680,
+                    "addedAt": 1749244441810
+                },
+                {
+                    "name": "19",
+                    "x": 17,
+                    "y": 130,
+                    "z": 355,
+                    "enabled": false,
+                    "color": 16711680,
+                    "addedAt": 1749207503627
+                },
+                {
+                    "name": "15",
+                    "x": 46,
+                    "y": 124,
+                    "z": 372,
+                    "enabled": false,
+                    "color": 16711680,
+                    "addedAt": 1749207361774
+                },
+                {
+                    "name": "10",
+                    "x": 72,
+                    "y": 125,
+                    "z": 352,
+                    "enabled": false,
+                    "color": 16711680,
+                    "addedAt": 1749205852326
+                },
+                {
+                    "name": "21",
+                    "x": 39,
+                    "y": 124,
+                    "z": 318,
+                    "enabled": false,
+                    "color": 16711680,
+                    "addedAt": 1749244466905
+                },
+                {
+                    "name": "1",
+                    "x": 54,
+                    "y": 119,
+                    "z": 279,
+                    "enabled": false,
+                    "color": 16711680,
+                    "addedAt": 1749205558621
+                },
+                {
+                    "name": "3",
+                    "x": 73,
+                    "y": 122,
+                    "z": 303,
+                    "enabled": false,
+                    "color": 16711680,
+                    "addedAt": 1749205639927
+                },
+                {
+                    "name": "5",
+                    "x": 110,
+                    "y": 125,
+                    "z": 294,
+                    "enabled": false,
+                    "color": 16711680,
+                    "addedAt": 1749205680876
+                },
+                {
+                    "name": "22",
+                    "x": 47,
+                    "y": 123,
+                    "z": 316,
+                    "enabled": false,
+                    "color": 16711680,
+                    "addedAt": 1749244490508
+                },
+                {
+                    "name": "8",
+                    "x": 90,
+                    "y": 125,
+                    "z": 317,
+                    "enabled": false,
+                    "color": 16711680,
+                    "addedAt": 1749205800973
+                },
+                {
+                    "name": "9",
+                    "x": 86,
+                    "y": 124,
+                    "z": 319,
+                    "enabled": false,
+                    "color": 16711680,
+                    "addedAt": 1749205835374
+                },
+                {
+                    "name": "18",
+                    "x": 29,
+                    "y": 130,
+                    "z": 355,
+                    "enabled": false,
+                    "color": 16711680,
+                    "addedAt": 1749207477719
+                },
+                {
+                    "name": "14",
+                    "x": 45,
+                    "y": 123,
+                    "z": 394,
+                    "enabled": false,
+                    "color": 16711680,
+                    "addedAt": 1749206262776
+                },
+                {
+                    "name": "11",
+                    "x": 83,
+                    "y": 123,
+                    "z": 345,
+                    "enabled": false,
+                    "color": 16711680,
+                    "addedAt": 1749205930525
+                },
+                {
+                    "name": "17",
+                    "x": 40,
+                    "y": 128,
+                    "z": 361,
+                    "enabled": false,
+                    "color": 16711680,
+                    "addedAt": 1749207419223
+                },
+                {
+                    "name": "12",
+                    "x": 38,
+                    "y": 124,
+                    "z": 377,
+                    "enabled": false,
+                    "color": 16711680,
+                    "addedAt": 1749205971773
+                },
+                {
+                    "name": "4",
+                    "x": 75,
+                    "y": 122,
+                    "z": 296,
+                    "enabled": false,
+                    "color": 16711680,
+                    "addedAt": 1749205659326
+                },
+                {
+                    "name": "7",
+                    "x": 105,
+                    "y": 127,
+                    "z": 316,
+                    "enabled": false,
+                    "color": 16711680,
+                    "addedAt": 1749205731072
+                }
+            ],
+            "island": "mining_3"
+        },
+        {
+            "name": "Lava 5",
+            "waypoints": [
+                {
+                    "name": "41",
+                    "x": -189,
+                    "y": 43,
+                    "z": -116,
+                    "enabled": false,
+                    "addedAt": 1688418605081
+                },
+                {
+                    "name": "44",
+                    "x": -193,
+                    "y": 42,
+                    "z": -104,
+                    "enabled": false,
+                    "addedAt": 1688418653335
+                },
+                {
+                    "name": "49",
+                    "x": -205,
+                    "y": 41,
+                    "z": -100,
+                    "enabled": false,
+                    "addedAt": 1688418863678
+                },
+                {
+                    "name": "50",
+                    "x": -209,
+                    "y": 42,
+                    "z": -104,
+                    "enabled": false,
+                    "addedAt": 1688419003921
+                },
+                {
+                    "name": "45",
+                    "x": -189,
+                    "y": 43,
+                    "z": -100,
+                    "enabled": false,
+                    "addedAt": 1688418668079
+                },
+                {
+                    "name": "48",
+                    "x": -201,
+                    "y": 40,
+                    "z": -96,
+                    "enabled": false,
+                    "addedAt": 1688418837624
+                },
+                {
+                    "name": "42",
+                    "x": -189,
+                    "y": 43,
+                    "z": -112,
+                    "enabled": false,
+                    "addedAt": 1688418629182
+                },
+                {
+                    "name": "43",
+                    "x": -193,
+                    "y": 41,
+                    "z": -109,
+                    "enabled": false,
+                    "addedAt": 1688418639875
+                },
+                {
+                    "name": "47",
+                    "x": -197,
+                    "y": 39,
+                    "z": -92,
+                    "enabled": false,
+                    "addedAt": 1688418821731
+                },
+                {
+                    "name": "46",
+                    "x": -193,
+                    "y": 42,
+                    "z": -96,
+                    "enabled": false,
+                    "addedAt": 1688418810821
                 }
             ],
             "isExpanded": false,
-            "island": "mining_3"
+            "island": "rift"
+        },
+        {
+            "name": "NPC",
+            "waypoints": [
+                {
+                    "name": "Alwin",
+                    "x": -83,
+                    "y": 91,
+                    "z": -735,
+                    "enabled": false,
+                    "addedAt": 1722193950377
+                },
+                {
+                    "name": "Odger",
+                    "x": -374,
+                    "y": 206,
+                    "z": -811,
+                    "enabled": false,
+                    "addedAt": 1722275745686
+                },
+                {
+                    "name": "Carrolyn",
+                    "x": 1,
+                    "y": 103,
+                    "z": -803,
+                    "enabled": false,
+                    "addedAt": 1716329063830
+                }
+            ],
+            "isExpanded": false,
+            "island": "crimson_isle"
         },
         {
             "name": "Lava 1",
@@ -702,310 +846,200 @@
             "island": "rift"
         },
         {
-            "name": "Lava 4",
+            "name": "Lava 6",
             "waypoints": [
                 {
-                    "name": "31",
-                    "x": -177,
-                    "y": 39,
-                    "z": -92,
-                    "enabled": false,
-                    "addedAt": 1688390134420
-                },
-                {
-                    "name": "32",
-                    "x": -181,
-                    "y": 40,
-                    "z": -96,
-                    "enabled": false,
-                    "addedAt": 1688390197819
-                },
-                {
-                    "name": "33",
-                    "x": -185,
-                    "y": 41,
-                    "z": -100,
-                    "enabled": false,
-                    "addedAt": 1688390218115
-                },
-                {
-                    "name": "37",
-                    "x": -185,
-                    "y": 41,
-                    "z": -117,
-                    "enabled": false,
-                    "addedAt": 1688390280150
-                },
-                {
-                    "name": "36",
-                    "x": -182,
-                    "y": 40,
-                    "z": -113,
-                    "enabled": false,
-                    "addedAt": 1688390264897
-                },
-                {
-                    "name": "38",
-                    "x": -181,
-                    "y": 40,
+                    "name": "57",
+                    "x": -209,
+                    "y": 43,
                     "z": -120,
                     "enabled": false,
-                    "addedAt": 1688418510078
+                    "addedAt": 1688419149429
                 },
                 {
-                    "name": "39",
-                    "x": -186,
-                    "y": 41,
-                    "z": -124,
-                    "enabled": false,
-                    "addedAt": 1688418529674
-                },
-                {
-                    "name": "40",
-                    "x": -189,
-                    "y": 42,
-                    "z": -120,
-                    "enabled": false,
-                    "addedAt": 1688418546536
-                },
-                {
-                    "name": "34",
-                    "x": -182,
-                    "y": 42,
-                    "z": -105,
-                    "enabled": false,
-                    "addedAt": 1688390229259
-                },
-                {
-                    "name": "35",
-                    "x": -185,
-                    "y": 41,
+                    "name": "51",
+                    "x": -205,
+                    "y": 43,
                     "z": -108,
                     "enabled": false,
-                    "addedAt": 1688390245899
-                }
-            ],
-            "isExpanded": false,
-            "island": "rift"
-        },
-        {
-            "name": "Lava 5",
-            "waypoints": [
-                {
-                    "name": "41",
-                    "x": -189,
-                    "y": 43,
-                    "z": -116,
-                    "enabled": false,
-                    "addedAt": 1688418605081
+                    "addedAt": 1688419058077
                 },
                 {
-                    "name": "44",
-                    "x": -193,
+                    "name": "60",
+                    "x": -217,
                     "y": 42,
-                    "z": -104,
+                    "z": -108,
                     "enabled": false,
-                    "addedAt": 1688418653335
+                    "addedAt": 1688419229774
                 },
                 {
-                    "name": "49",
+                    "name": "56",
                     "x": -205,
-                    "y": 41,
-                    "z": -100,
-                    "enabled": false,
-                    "addedAt": 1688418863678
-                },
-                {
-                    "name": "50",
-                    "x": -209,
                     "y": 42,
-                    "z": -104,
+                    "z": -120,
                     "enabled": false,
-                    "addedAt": 1688419003921
+                    "addedAt": 1688419141024
                 },
                 {
-                    "name": "45",
-                    "x": -189,
-                    "y": 43,
-                    "z": -100,
-                    "enabled": false,
-                    "addedAt": 1688418668079
-                },
-                {
-                    "name": "48",
+                    "name": "52",
                     "x": -201,
-                    "y": 40,
-                    "z": -96,
+                    "y": 43,
+                    "z": -108,
                     "enabled": false,
-                    "addedAt": 1688418837624
+                    "addedAt": 1688419100075
                 },
                 {
-                    "name": "42",
-                    "x": -189,
+                    "name": "59",
+                    "x": -213,
+                    "y": 41,
+                    "z": -112,
+                    "enabled": false,
+                    "addedAt": 1688419178468
+                },
+                {
+                    "name": "53",
+                    "x": -197,
                     "y": 43,
                     "z": -112,
                     "enabled": false,
-                    "addedAt": 1688418629182
+                    "addedAt": 1688419107530
                 },
                 {
-                    "name": "43",
-                    "x": -193,
+                    "name": "54",
+                    "x": -201,
+                    "y": 40,
+                    "z": -116,
+                    "enabled": false,
+                    "addedAt": 1688419119423
+                },
+                {
+                    "name": "55",
+                    "x": -206,
                     "y": 41,
-                    "z": -109,
+                    "z": -116,
                     "enabled": false,
-                    "addedAt": 1688418639875
+                    "addedAt": 1688419129682
                 },
                 {
-                    "name": "47",
-                    "x": -197,
-                    "y": 39,
-                    "z": -92,
+                    "name": "58",
+                    "x": -213,
+                    "y": 41,
+                    "z": -116,
                     "enabled": false,
-                    "addedAt": 1688418821731
+                    "addedAt": 1688419162625
                 },
                 {
-                    "name": "46",
-                    "x": -193,
-                    "y": 42,
-                    "z": -96,
+                    "name": "61",
+                    "x": -221,
+                    "y": 43,
+                    "z": -104,
                     "enabled": false,
-                    "addedAt": 1688418810821
+                    "addedAt": 1688419211228
                 }
             ],
             "isExpanded": false,
             "island": "rift"
         },
         {
-            "name": "Amber in tunnels",
+            "name": "Beth",
             "waypoints": [
                 {
-                    "name": "10",
-                    "x": 72,
-                    "y": 125,
-                    "z": 352,
-                    "enabled": true,
-                    "color": 16711680,
-                    "addedAt": 1749205852326
-                },
-                {
-                    "name": "5",
-                    "x": 110,
-                    "y": 125,
-                    "z": 294,
-                    "enabled": true,
-                    "color": 16711680,
-                    "addedAt": 1749205680876
-                },
-                {
-                    "name": "13",
-                    "x": 51,
-                    "y": 122,
-                    "z": 390,
-                    "enabled": true,
-                    "color": 16711680,
-                    "addedAt": 1749206293219
-                },
-                {
-                    "name": "7",
-                    "x": 105,
-                    "y": 127,
-                    "z": 316,
-                    "enabled": true,
-                    "color": 16711680,
-                    "addedAt": 1749205731072
-                },
-                {
-                    "name": "12",
-                    "x": 38,
-                    "y": 124,
-                    "z": 377,
-                    "enabled": true,
-                    "color": 16711680,
-                    "addedAt": 1749205971773
-                },
-                {
-                    "name": "14",
-                    "x": 45,
-                    "y": 123,
-                    "z": 394,
-                    "enabled": true,
-                    "color": 16711680,
-                    "addedAt": 1749206262776
-                },
-                {
-                    "name": "6",
-                    "x": 98,
-                    "y": 130,
-                    "z": 310,
-                    "enabled": true,
-                    "color": 16711680,
-                    "addedAt": 1749205715725
-                },
-                {
-                    "name": "4",
-                    "x": 75,
-                    "y": 122,
-                    "z": 296,
-                    "enabled": true,
-                    "color": 16711680,
-                    "addedAt": 1749205659326
-                },
-                {
-                    "name": "9",
-                    "x": 86,
-                    "y": 124,
-                    "z": 319,
-                    "enabled": true,
-                    "color": 16711680,
-                    "addedAt": 1749205835374
-                },
-                {
-                    "name": "8",
-                    "x": 90,
-                    "y": 125,
-                    "z": 317,
-                    "enabled": true,
-                    "color": 16711680,
-                    "addedAt": 1749205800973
-                },
-                {
-                    "name": "1",
-                    "x": 54,
-                    "y": 119,
-                    "z": 279,
-                    "enabled": true,
-                    "color": 16711680,
-                    "addedAt": 1749205558621
-                },
-                {
-                    "name": "11",
-                    "x": 83,
-                    "y": 123,
-                    "z": 345,
-                    "enabled": true,
-                    "color": 16711680,
-                    "addedAt": 1749205930525
-                },
-                {
-                    "name": "2",
-                    "x": 52,
-                    "y": 123,
-                    "z": 291,
-                    "enabled": true,
-                    "color": 16711680,
-                    "addedAt": 1749205604577
-                },
-                {
-                    "name": "3",
-                    "x": 73,
-                    "y": 122,
-                    "z": 303,
-                    "enabled": true,
-                    "color": 16711680,
-                    "addedAt": 1749205639927
+                    "name": "Secret",
+                    "x": 175,
+                    "y": 42,
+                    "z": -470,
+                    "enabled": false,
+                    "addedAt": 1688053444081
                 }
             ],
-            "island": "mining_3"
+            "island": "farming_1"
+        },
+        {
+            "name": "Lava 3",
+            "waypoints": [
+                {
+                    "name": "23",
+                    "x": -166,
+                    "y": 41,
+                    "z": -124,
+                    "enabled": false,
+                    "addedAt": 1688389968160
+                },
+                {
+                    "name": "27",
+                    "x": -173,
+                    "y": 43,
+                    "z": -108,
+                    "enabled": false,
+                    "addedAt": 1688390023319
+                },
+                {
+                    "name": "26",
+                    "x": -173,
+                    "y": 43,
+                    "z": -112,
+                    "enabled": false,
+                    "addedAt": 1688390016814
+                },
+                {
+                    "name": "22",
+                    "x": -161,
+                    "y": 40,
+                    "z": -120,
+                    "enabled": false,
+                    "addedAt": 1688389956149
+                },
+                {
+                    "name": "30",
+                    "x": -173,
+                    "y": 41,
+                    "z": -96,
+                    "enabled": false,
+                    "addedAt": 1688390089220
+                },
+                {
+                    "name": "24",
+                    "x": -169,
+                    "y": 41,
+                    "z": -120,
+                    "enabled": false,
+                    "addedAt": 1688389996114
+                },
+                {
+                    "name": "29",
+                    "x": -173,
+                    "y": 41,
+                    "z": -100,
+                    "enabled": false,
+                    "addedAt": 1688390076461
+                },
+                {
+                    "name": "28",
+                    "x": -177,
+                    "y": 40,
+                    "z": -104,
+                    "enabled": false,
+                    "addedAt": 1688390055259
+                },
+                {
+                    "name": "21",
+                    "x": -157,
+                    "y": 39,
+                    "z": -116,
+                    "enabled": false,
+                    "addedAt": 1688389939420
+                },
+                {
+                    "name": "25",
+                    "x": -169,
+                    "y": 42,
+                    "z": -116,
+                    "enabled": false,
+                    "addedAt": 1688390006000
+                }
+            ],
+            "isExpanded": false,
+            "island": "rift"
         }
     ]
 }

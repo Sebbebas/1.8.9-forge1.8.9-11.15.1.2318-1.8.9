@@ -5,7 +5,7 @@
         "banana": {
           "sackContents": {
             "COAL": {
-              "amount": 20160,
+              "amount": 42,
               "lastChange": 0,
               "status": "CORRECT"
             },
@@ -15,12 +15,12 @@
               "status": "CORRECT"
             },
             "DIAMOND": {
-              "amount": 5306,
+              "amount": 11099,
               "lastChange": 0,
               "status": "CORRECT"
             },
             "EMERALD": {
-              "amount": 10823,
+              "amount": 14067,
               "lastChange": 0,
               "status": "CORRECT"
             },
@@ -35,7 +35,7 @@
               "status": "CORRECT"
             },
             "GLACITE": {
-              "amount": 19177,
+              "amount": 200,
               "lastChange": 0,
               "status": "CORRECT"
             },
@@ -45,7 +45,7 @@
               "status": "CORRECT"
             },
             "GOLD_INGOT": {
-              "amount": 1584,
+              "amount": 2779,
               "lastChange": 0,
               "status": "CORRECT"
             },
@@ -55,22 +55,22 @@
               "status": "CORRECT"
             },
             "HARD_STONE": {
-              "amount": 507,
+              "amount": 486,
               "lastChange": 0,
               "status": "CORRECT"
             },
             "IRON_INGOT": {
-              "amount": 16634,
+              "amount": 10819,
               "lastChange": 0,
               "status": "CORRECT"
             },
             "INK_SACK-4": {
-              "amount": 5637,
+              "amount": 1488,
               "lastChange": 0,
               "status": "CORRECT"
             },
             "MITHRIL_ORE": {
-              "amount": 1214,
+              "amount": 184,
               "lastChange": 0,
               "status": "CORRECT"
             },
@@ -80,7 +80,7 @@
               "status": "CORRECT"
             },
             "QUARTZ": {
-              "amount": 0,
+              "amount": 70,
               "lastChange": 0,
               "status": "CORRECT"
             },
@@ -95,7 +95,7 @@
               "status": "CORRECT"
             },
             "OIL_BARREL": {
-              "amount": 301,
+              "amount": 294,
               "lastChange": 0,
               "status": "CORRECT"
             },
@@ -110,7 +110,7 @@
               "status": "CORRECT"
             },
             "REDSTONE": {
-              "amount": 14473,
+              "amount": 61,
               "lastChange": 0,
               "status": "CORRECT"
             },
@@ -135,12 +135,12 @@
               "status": "CORRECT"
             },
             "TITANIUM_ORE": {
-              "amount": 42,
+              "amount": 10622,
               "lastChange": 0,
               "status": "CORRECT"
             },
             "TREASURITE": {
-              "amount": 34,
+              "amount": 35,
               "lastChange": 0,
               "status": "CORRECT"
             },
@@ -150,7 +150,7 @@
               "status": "CORRECT"
             },
             "UMBER": {
-              "amount": 18554,
+              "amount": 130,
               "lastChange": 0,
               "status": "CORRECT"
             },
@@ -735,7 +735,7 @@
               "status": "CORRECT"
             },
             "ICE": {
-              "amount": 1007,
+              "amount": 1058,
               "lastChange": 0,
               "status": "CORRECT"
             },

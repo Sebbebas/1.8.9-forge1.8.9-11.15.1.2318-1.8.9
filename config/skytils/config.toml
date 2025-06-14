@@ -545,7 +545,7 @@
 
 	[events.mayor_jerry]
 		track_mayor_jerry_items = false
-		hidden_jerry_timer = false
+		hidden_jerry_timer = true
 		hidden_jerry_alert = false
 		display_jerry_perks = false
 

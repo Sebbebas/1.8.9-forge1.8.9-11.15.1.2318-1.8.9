@@ -1,0 +1,15 @@
+{
+  "sound_definitions": {
+    "tektonic_dance_sound": {
+      "category": "hostile",
+      "max_distance": 32,
+      "sounds": [
+        {
+          "name": "sounds/tektonic_dance",
+          "is3D": true,
+          "interruptible": true
+        }
+      ]
+    }
+  }
+}

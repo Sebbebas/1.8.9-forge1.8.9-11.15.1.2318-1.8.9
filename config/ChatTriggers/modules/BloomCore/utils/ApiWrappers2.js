@@ -218,7 +218,7 @@ export const requestPlayerUUID = (playerName, func) => {
     }
 
     request({
-        url: `https://api.mojang.com/users/profiles/minecraft/${nameLower}`,
+        url: `https://api.minecraftservices.com/minecraft/profile/lookup/name/${nameLower}`,
         json: true
     }).then((resp) => {
         

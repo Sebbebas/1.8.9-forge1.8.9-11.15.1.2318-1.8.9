@@ -349,7 +349,7 @@
     "a": 255,
     "chroma": false
   },
-  "sentTradeHistoryPrompt": false,
+  "sentTradeHistoryPrompt": true,
   "highlightVampireAnchorColor": {
     "r": 255,
     "g": 213,
@@ -548,7 +548,7 @@
     "a": 255,
     "chroma": false
   },
-  "smallPlayers": true,
+  "smallPlayers": false,
   "smallPlayersScale": 50,
   "snowEffect": false,
   "snowEffectExclusive": false,

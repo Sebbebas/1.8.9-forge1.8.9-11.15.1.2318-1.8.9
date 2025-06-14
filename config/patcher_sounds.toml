@@ -565,20 +565,33 @@
 
 	[master.sounds]
 		calendar_notif_jingle = 100
-		alert_modes_anime_bedrock_wall = 100
-		calendar_notif_out = 100
+		alert_modes_anime_scatha_pet_drop = 100
 		alert_modes_anime_pet_drop = 100
+		alert_modes_meme_worm_prespawn = 100
 		alert_modes_anime_worm = 100
-		coin_fill_up = 100
+		alert_modes_anime_worm_prespawn = 100
+		alert_modes_anime_scatha_spawn = 100
 		screenshot = 100
 		calendar_notif_in = 100
+		alert_modes_meme_regular_worm_spawn = 100
 		gui_button_press = 100
-		purchase_confirmation = 100
 		alert_modes_meme_scatha = 100
 		alert_modes_meme_bedrock_wall = 100
 		alert_modes_meme_pet_drop = 100
-		alert_modes_anime_prespawn = 100
+		alert_modes_meme_goblin_spawn = 100
+		alert_modes_meme_worm_spawn_cooldown_end = 100
 		alert_modes_anime_scatha = 100
+		alert_modes_meme_jerry_spawn = 100
+		alert_modes_anime_regular_worm_spawn = 100
+		alert_modes_meme_scatha_spawn = 100
+		alert_modes_meme_high_heat = 100
+		alert_modes_anime_bedrock_wall = 100
+		calendar_notif_out = 100
+		coin_fill_up = 100
+		scappa = 100
+		purchase_confirmation = 100
+		alert_modes_anime_prespawn = 100
 		alert_modes_meme_worm = 100
 		alert_modes_meme_prespawn = 100
+		alert_modes_meme_scatha_pet_drop = 100
 

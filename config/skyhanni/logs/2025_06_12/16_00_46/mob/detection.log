@@ -1,0 +1,30 @@
+16:04:23 `df8pq2kln3`110 missed {
+ is already Found: false).
+ Position: LorenzVec(x=87.5, y=199.0, z=-115.5)
+ DistanceC: 19.0
+Relative Position: LorenzVec(x=-12.727235360000009, y=-2.117041279999995, z=-19.0)
+ }
+16:04:23 `42ru98d178`114 missed {
+ is already Found: false).
+ Position: LorenzVec(x=88.5, y=198.0, z=-98.5)
+ DistanceC: 12.213990240000001
+Relative Position: LorenzVec(x=-12.213990240000001, y=-3.128027519999989, z=-2.0)
+ }
+16:04:23 `pv2sql2utf`119 missed {
+ is already Found: false).
+ Position: LorenzVec(x=88.0, y=199.0, z=-108.0)
+ DistanceC: 12.713990240000001
+Relative Position: LorenzVec(x=-12.713990240000001, y=-2.128027519999989, z=-11.5)
+ }
+16:04:23 `8zb5suwlcl`131 missed {
+ is already Found: false).
+ Position: LorenzVec(x=89.5, y=198.0, z=-92.5)
+ DistanceC: 11.700745119999993
+Relative Position: LorenzVec(x=-11.700745119999993, y=-3.139013759999983, z=4.0)
+ }
+17:27:21 `Bat`154399 missed {
+ is already Found: true).
+ Position: LorenzVec(x=-4.875, y=73.09375, z=-79.5)
+ DistanceC: 10.0
+Relative Position: LorenzVec(x=-2.375, y=3.09375, z=-10.0)
+ }

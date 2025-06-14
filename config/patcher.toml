@@ -182,7 +182,7 @@
 		bow_fov = 1.0
 
 [hidden]
-	selected_audio_device = "OpenAL Soft"
+	selected_audio_device = "HEADPHONES (HyperX Cloud II Wireless)"
 	custom_fps_limit = 0
 	labymod_moment = true
 

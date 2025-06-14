@@ -1,0 +1,472 @@
+[
+    {
+        "type": "EXTERNAL_HIDDEN_BONE",
+        "id": "WIND_WARRIOR_ARMOR",
+        "enabled": true,
+        "data": {
+            "arm_left_outer": true,
+            "arm_right_outer": true
+        }
+    },
+    {
+        "type": "EXTERNAL_HIDDEN_BONE",
+        "id": "MIXED_FIRE_ARMOR",
+        "enabled": true,
+        "data": {
+            "arm_left_side_right_outer": true,
+            "arm_left_side_left_outer": true,
+            "arm_right_side_right_outer": true,
+            "arm_right_side_left_outer": true
+        }
+    },
+    {
+        "type": "EXTERNAL_HIDDEN_BONE",
+        "id": "BEE_ONESIE",
+        "enabled": true,
+        "data": {
+            "arm_left_layer": true,
+            "arm_right_layer": true
+        }
+    },
+    {
+        "type": "EXTERNAL_HIDDEN_BONE",
+        "id": "FOX_ONESIE",
+        "enabled": true,
+        "data": {
+            "arm_left_layer": true,
+            "arm_right_layer": true
+        }
+    },
+    {
+        "type": "EXTERNAL_HIDDEN_BONE",
+        "id": "AXOLOTL_ONESIE",
+        "enabled": true,
+        "data": {
+            "arm_left_layer": true,
+            "arm_right_layer": true
+        }
+    },
+    {
+        "type": "EXTERNAL_HIDDEN_BONE",
+        "id": "DRAGON_ONESIE",
+        "enabled": true,
+        "data": {
+            "arm_left_layer": true,
+            "arm_right_layer": true
+        }
+    },
+    {
+        "type": "EXTERNAL_HIDDEN_BONE",
+        "id": "DINO_ONESIE",
+        "enabled": true,
+        "data": {
+            "arm_left_layer": true,
+            "arm_right_layer": true
+        }
+    },
+    {
+        "type": "EXTERNAL_HIDDEN_BONE",
+        "id": "DOG_ONESIE",
+        "enabled": true,
+        "data": {
+            "arm_left_layer": true,
+            "arm_right_layer": true
+        }
+    },
+    {
+        "type": "EXTERNAL_HIDDEN_BONE",
+        "id": "SCHOOL_DRESS",
+        "enabled": true,
+        "data": {
+            "arm_left_layer": true,
+            "arm_right_layer": true
+        }
+    },
+    {
+        "type": "EXTERNAL_HIDDEN_BONE",
+        "id": "RAINBOW_SUIT",
+        "enabled": true,
+        "data": {
+            "arm_left_layer": true,
+            "arm_right_layer": true
+        }
+    },
+    {
+        "type": "EXTERNAL_HIDDEN_BONE",
+        "id": "NEON_RGB_ROBE",
+        "enabled": true,
+        "data": {
+            "arm_left_layer": true,
+            "arm_right_layer": true
+        }
+    },
+    {
+        "type": "EXTERNAL_HIDDEN_BONE",
+        "id": "BATHROBE",
+        "enabled": true,
+        "data": {
+            "arm_left_outer": true,
+            "arm_right_outer": true
+        }
+    },
+    {
+        "type": "EXTERNAL_HIDDEN_BONE",
+        "id": "SPACE_SUIT",
+        "enabled": true,
+        "data": {
+            "arm_left_layer": true,
+            "arm_right_layer": true
+        }
+    },
+    {
+        "type": "EXTERNAL_HIDDEN_BONE",
+        "id": "FIRE_ARMOR",
+        "enabled": true,
+        "data": {
+            "arm_right_outer": true,
+            "arm_left_outer": true
+        }
+    },
+    {
+        "type": "EXTERNAL_HIDDEN_BONE",
+        "id": "PRINCESS_DRESS",
+        "enabled": true,
+        "data": {
+            "arm_left_layer": true,
+            "arm_right_layer": true
+        }
+    },
+    {
+        "type": "EXTERNAL_HIDDEN_BONE",
+        "id": "SUIT",
+        "enabled": true,
+        "data": {
+            "arm_left_layer": true,
+            "arm_right_layer": true
+        }
+    },
+    {
+        "type": "EXTERNAL_HIDDEN_BONE",
+        "id": "TURTLE_ONESIE",
+        "enabled": true,
+        "data": {
+            "arm_left_layer": true,
+            "arm_right_layer": true
+        }
+    },
+    {
+        "type": "EXTERNAL_HIDDEN_BONE",
+        "id": "REAPER_SUIT",
+        "enabled": true,
+        "data": {
+            "arm_left_layer": true,
+            "arm_right_layer": true
+        }
+    },
+    {
+        "type": "EXTERNAL_HIDDEN_BONE",
+        "id": "GHOST_BLANKET",
+        "enabled": true,
+        "data": {
+            "arm_left_layer": true,
+            "arm_right_layer": true
+        }
+    },
+    {
+        "type": "EXTERNAL_HIDDEN_BONE",
+        "id": "DARK_LORD_SUIT",
+        "enabled": true,
+        "data": {
+            "arm_left_layer": true,
+            "arm_right_layer": true
+        }
+    },
+    {
+        "type": "EXTERNAL_HIDDEN_BONE",
+        "id": "JEROME_BEAR_ONESIE",
+        "enabled": true,
+        "data": {
+            "arm_left_layer": true,
+            "arm_right_layer": true
+        }
+    },
+    {
+        "type": "EXTERNAL_HIDDEN_BONE",
+        "id": "ANTVENOM_ANT_ONESIE",
+        "enabled": true,
+        "data": {
+            "arm_left_layer": true,
+            "arm_right_layer": true
+        }
+    },
+    {
+        "type": "EXTERNAL_HIDDEN_BONE",
+        "id": "RED_DINO_ONESIE",
+        "enabled": true,
+        "data": {
+            "arm_left_layer": true,
+            "arm_right_layer": true
+        }
+    },
+    {
+        "type": "EXTERNAL_HIDDEN_BONE",
+        "id": "REAPER_ROBES",
+        "enabled": true,
+        "data": {
+            "arm_left_layer": true,
+            "arm_right_layer": true
+        }
+    },
+    {
+        "type": "EXTERNAL_HIDDEN_BONE",
+        "id": "SCI_FI_ARMOR",
+        "enabled": true,
+        "data": {
+            "arm_left_layer": true,
+            "arm_right_layer": true
+        }
+    },
+    {
+        "type": "EXTERNAL_HIDDEN_BONE",
+        "id": "DOLPHIN_ONESIE",
+        "enabled": true,
+        "data": {
+            "arm_left_layer": true,
+            "arm_right_layer": true
+        }
+    },
+    {
+        "type": "EXTERNAL_HIDDEN_BONE",
+        "id": "SCARY_CLOWN_SUIT",
+        "enabled": true,
+        "data": {
+            "arm_left_layer": true,
+            "arm_right_layer": true
+        }
+    },
+    {
+        "type": "EXTERNAL_HIDDEN_BONE",
+        "id": "JACK_O_LANTERN_SUIT",
+        "enabled": true,
+        "data": {
+            "arm_left_layer": true,
+            "arm_right_layer": true
+        }
+    },
+    {
+        "type": "EXTERNAL_HIDDEN_BONE",
+        "id": "RED_NEON_ROBE",
+        "enabled": true,
+        "data": {
+            "arm_left_layer": true,
+            "arm_right_layer": true
+        }
+    },
+    {
+        "type": "EXTERNAL_HIDDEN_BONE",
+        "id": "SNOWMAN_ONESIE",
+        "enabled": true,
+        "data": {
+            "arm_left_layer": true,
+            "arm_right_layer": true
+        }
+    },
+    {
+        "type": "EXTERNAL_HIDDEN_BONE",
+        "id": "HACKER_ARMOR",
+        "enabled": true,
+        "data": {
+            "arm_left_outer": true,
+            "arm_right_outer": true
+        }
+    },
+    {
+        "type": "EXTERNAL_HIDDEN_BONE",
+        "id": "SHARK_ONESIE",
+        "enabled": true,
+        "data": {
+            "arm_left_layer": true,
+            "arm_right_layer": true
+        }
+    },
+    {
+        "type": "EXTERNAL_HIDDEN_BONE",
+        "id": "INFINITY_SUIT",
+        "enabled": true,
+        "data": {
+            "arm_left_layer": true,
+            "arm_right_layer": true
+        }
+    },
+    {
+        "type": "EXTERNAL_HIDDEN_BONE",
+        "id": "SCI_FI_MINING_SUIT",
+        "enabled": true,
+        "data": {
+            "arm_left_layer": true,
+            "arm_right_layer": true
+        }
+    },
+    {
+        "type": "EXTERNAL_HIDDEN_BONE",
+        "id": "HOLIDAY_TREE_ONESIE",
+        "enabled": true,
+        "data": {
+            "arm_left_outer": true,
+            "arm_right_outer": true
+        }
+    },
+    {
+        "type": "EXTERNAL_HIDDEN_BONE",
+        "id": "DRAGON_ONESIE_ORANGE",
+        "enabled": true,
+        "data": {
+            "arm_left_layer": true,
+            "arm_right_layer": true
+        }
+    },
+    {
+        "type": "EXTERNAL_HIDDEN_BONE",
+        "id": "SANTA_SUIT",
+        "enabled": true,
+        "data": {
+            "arm_left_outer": true,
+            "arm_right_outer": true
+        }
+    },
+    {
+        "type": "EXTERNAL_HIDDEN_BONE",
+        "id": "UGLY_SWEATER",
+        "enabled": true,
+        "data": {
+            "arm_left_outer": true,
+            "arm_right_outer": true
+        }
+    },
+    {
+        "type": "EXTERNAL_HIDDEN_BONE",
+        "id": "GRUNGE_SHIRT",
+        "enabled": true,
+        "data": {
+            "arm_left_outer": true,
+            "arm_right_outer": true
+        }
+    },
+    {
+        "type": "EXTERNAL_HIDDEN_BONE",
+        "id": "BUTTON_UP_SHIRT",
+        "enabled": true,
+        "data": {
+            "arm_left_outer": true,
+            "arm_right_outer": true
+        }
+    },
+    {
+        "type": "EXTERNAL_HIDDEN_BONE",
+        "id": "HOODIE",
+        "enabled": true,
+        "data": {
+            "arm_left_outer": true,
+            "arm_right_outer": true
+        }
+    },
+    {
+        "type": "EXTERNAL_HIDDEN_BONE",
+        "id": "PAJAMA_TOP",
+        "enabled": true,
+        "data": {
+            "arm_left_outer": true,
+            "arm_right_outer": true
+        }
+    },
+    {
+        "type": "EXTERNAL_HIDDEN_BONE",
+        "id": "CAMO_HOODIE",
+        "enabled": true,
+        "data": {
+            "arm_left_outer": true,
+            "arm_right_outer": true
+        }
+    },
+    {
+        "type": "EXTERNAL_HIDDEN_BONE",
+        "id": "SHINY_HOODIE",
+        "enabled": true,
+        "data": {
+            "arm_left_outer": true,
+            "arm_right_outer": true
+        }
+    },
+    {
+        "type": "EXTERNAL_HIDDEN_BONE",
+        "id": "MAGMA_ARMOR",
+        "enabled": true,
+        "data": {
+            "arm_left_layer": true,
+            "arm_right_layer": true
+        }
+    },
+    {
+        "type": "EXTERNAL_HIDDEN_BONE",
+        "id": "ENDER_ENTITY_BODY",
+        "enabled": true,
+        "data": {
+            "fist_left": true,
+            "fist_right": true
+        }
+    },
+    {
+        "type": "EXTERNAL_HIDDEN_BONE",
+        "id": "MECH_ARMOR",
+        "enabled": true,
+        "data": {
+            "arm_armor_left": true,
+            "arm_armor_right": true
+        }
+    },
+    {
+        "type": "EXTERNAL_HIDDEN_BONE",
+        "id": "FIRE_ARMOR_REMASTER",
+        "enabled": true,
+        "data": {
+            "fist_left": true,
+            "fist_right": true
+        }
+    },
+    {
+        "type": "EXTERNAL_HIDDEN_BONE",
+        "id": "FALLEN_ANGEL_ARMOR",
+        "enabled": true,
+        "data": {
+            "fist_left": true,
+            "fist_right": true
+        }
+    },
+    {
+        "type": "EXTERNAL_HIDDEN_BONE",
+        "id": "DEMONIC_OVERLORD_ARMOR",
+        "enabled": true,
+        "data": {
+            "fist_left": true,
+            "fist_right": true
+        }
+    },
+    {
+        "type": "EXTERNAL_HIDDEN_BONE",
+        "id": "Y2K_TRENDS_TOP",
+        "enabled": true,
+        "data": {
+            "arm_baggy_left_outer": true,
+            "arm_baggy_right_outer": true
+        }
+    },
+    {
+        "type": "EXTERNAL_HIDDEN_BONE",
+        "id": "Y2K_CUTIE_SHIRT",
+        "enabled": true,
+        "data": {
+            "arm_left_outer": true,
+            "arm_right_outer": true
+        }
+    }
+]

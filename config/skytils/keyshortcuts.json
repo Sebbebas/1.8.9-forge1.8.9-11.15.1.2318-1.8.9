@@ -1,11 +1,11 @@
 [
     {
-        "message": "/warp dungeon_hub",
-        "keyCode": 201
-    },
-    {
         "message": "/warp garden",
         "keyCode": 199
+    },
+    {
+        "message": "/warp dungeon_hub",
+        "keyCode": 201
     },
     {
         "message": "/pet",

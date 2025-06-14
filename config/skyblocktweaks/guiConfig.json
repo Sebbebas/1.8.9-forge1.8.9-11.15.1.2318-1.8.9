@@ -5,7 +5,7 @@
     "relativeY": 0.842593,
     "needsExample": false,
     "height": 9,
-    "width": 66,
+    "width": 65,
     "elementName": "Mana Number"
   },
   {
@@ -41,7 +41,7 @@
     "relativeY": 0.007407407407407408,
     "needsExample": true,
     "height": 9,
-    "width": 92,
+    "width": 91,
     "elementName": "Party Display"
   },
   {
@@ -59,7 +59,7 @@
     "relativeY": 0.842593,
     "needsExample": false,
     "height": 9,
-    "width": 66,
+    "width": 65,
     "elementName": "Health Number"
   },
   {
@@ -68,7 +68,7 @@
     "relativeY": 0.98,
     "needsExample": false,
     "height": 9,
-    "width": 82,
+    "width": 81,
     "elementName": "Effective Health Number"
   },
   {
@@ -113,7 +113,7 @@
     "relativeY": 0.852778,
     "needsExample": true,
     "height": 9,
-    "width": 113,
+    "width": 112,
     "elementName": "Drill Fuel Number"
   },
   {

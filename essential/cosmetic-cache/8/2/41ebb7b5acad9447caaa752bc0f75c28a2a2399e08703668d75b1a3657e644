@@ -1,0 +1,420 @@
+[
+    {
+        "type": "EXTERNAL_HIDDEN_BONE",
+        "id": "CAMO_PANTS",
+        "enabled": true,
+        "data": {
+            "body_outer": true
+        }
+    },
+    {
+        "type": "EXTERNAL_HIDDEN_BONE",
+        "id": "SHINY_PANTS",
+        "enabled": true,
+        "data": {
+            "body_outer": true
+        }
+    },
+    {
+        "type": "EXTERNAL_HIDDEN_BONE",
+        "id": "SKIRT",
+        "enabled": true,
+        "data": {
+            "body_outer": true
+        }
+    },
+    {
+        "type": "EXTERNAL_HIDDEN_BONE",
+        "id": "FIRE_PANTS",
+        "enabled": true,
+        "data": {
+            "body_outer": true
+        }
+    },
+    {
+        "type": "EXTERNAL_HIDDEN_BONE",
+        "id": "NEON_RGB_PANTS",
+        "enabled": true,
+        "data": {
+            "body_outer": true
+        }
+    },
+    {
+        "type": "EXTERNAL_HIDDEN_BONE",
+        "id": "GRUNGE_SHIRT",
+        "enabled": true,
+        "data": {
+            "body_outer": true
+        }
+    },
+    {
+        "type": "EXTERNAL_HIDDEN_BONE",
+        "id": "T_SHIRT",
+        "enabled": true,
+        "data": {
+            "body_outer": true
+        }
+    },
+    {
+        "type": "EXTERNAL_HIDDEN_BONE",
+        "id": "HOODIE",
+        "enabled": true,
+        "data": {
+            "body_outer": true
+        }
+    },
+    {
+        "type": "EXTERNAL_HIDDEN_BONE",
+        "id": "SHINY_HOODIE",
+        "enabled": true,
+        "data": {
+            "body_outer": true
+        }
+    },
+    {
+        "type": "EXTERNAL_HIDDEN_BONE",
+        "id": "BUTTON_UP_SHIRT",
+        "enabled": true,
+        "data": {
+            "body_outer": true
+        }
+    },
+    {
+        "type": "EXTERNAL_HIDDEN_BONE",
+        "id": "PAJAMA_TOP",
+        "enabled": true,
+        "data": {
+            "body_outer": true
+        }
+    },
+    {
+        "type": "EXTERNAL_HIDDEN_BONE",
+        "id": "FIRE_T_SHIRT",
+        "enabled": true,
+        "data": {
+            "body_outer": true
+        }
+    },
+    {
+        "type": "EXTERNAL_HIDDEN_BONE",
+        "id": "CAMO_HOODIE",
+        "enabled": true,
+        "data": {
+            "body_outer": true
+        }
+    },
+    {
+        "type": "EXTERNAL_HIDDEN_BONE",
+        "id": "HEART_T_SHIRT",
+        "enabled": true,
+        "data": {
+            "body_outer": true
+        }
+    },
+    {
+        "type": "EXTERNAL_HIDDEN_BONE",
+        "id": "HAWAII_SHIRT",
+        "enabled": true,
+        "data": {
+            "body_outer": true
+        }
+    },
+    {
+        "type": "COSMETIC_BONE_HIDING",
+        "id": "GRUNGE_SHIRT",
+        "enabled": true,
+        "data": {
+            "arms": true,
+            "body": true
+        }
+    },
+    {
+        "type": "COSMETIC_BONE_HIDING",
+        "id": "T_SHIRT",
+        "enabled": true,
+        "data": {
+            "arms": true,
+            "body": true
+        }
+    },
+    {
+        "type": "COSMETIC_BONE_HIDING",
+        "id": "BUTTON_UP_SHIRT",
+        "enabled": true,
+        "data": {
+            "arms": true,
+            "body": true
+        }
+    },
+    {
+        "type": "COSMETIC_BONE_HIDING",
+        "id": "PAJAMA_TOP",
+        "enabled": true,
+        "data": {
+            "arms": true,
+            "body": true
+        }
+    },
+    {
+        "type": "COSMETIC_BONE_HIDING",
+        "id": "FIRE_T_SHIRT",
+        "enabled": true,
+        "data": {
+            "arms": true,
+            "body": true
+        }
+    },
+    {
+        "type": "COSMETIC_BONE_HIDING",
+        "id": "HAWAII_SHIRT",
+        "enabled": true,
+        "data": {
+            "arms": true,
+            "body": true
+        }
+    },
+    {
+        "type": "COSMETIC_BONE_HIDING",
+        "id": "HEART_T_SHIRT",
+        "enabled": true,
+        "data": {
+            "arms": true,
+            "body": true
+        }
+    },
+    {
+        "type": "COSMETIC_BONE_HIDING",
+        "id": "HOODIE",
+        "enabled": true,
+        "data": {
+            "head": true,
+            "arms": true,
+            "body": true
+        }
+    },
+    {
+        "type": "COSMETIC_BONE_HIDING",
+        "id": "SHINY_HOODIE",
+        "enabled": true,
+        "data": {
+            "head": true,
+            "arms": true,
+            "body": true
+        }
+    },
+    {
+        "type": "COSMETIC_BONE_HIDING",
+        "id": "CAMO_HOODIE",
+        "enabled": true,
+        "data": {
+            "head": true,
+            "arms": true,
+            "body": true
+        }
+    },
+    {
+        "type": "COSMETIC_BONE_HIDING",
+        "id": "BASKETBALL_JERSEY",
+        "enabled": true,
+        "data": {
+            "arms": true,
+            "body": true,
+            "legs": true
+        }
+    },
+    {
+        "type": "COSMETIC_BONE_HIDING",
+        "id": "SKIRT",
+        "enabled": true,
+        "data": {
+            "head": true,
+            "arms": true,
+            "body": true,
+            "legs": true
+        }
+    },
+    {
+        "type": "COSMETIC_BONE_HIDING",
+        "id": "FLOWER_LEGS",
+        "enabled": true,
+        "data": {
+            "head": true,
+            "arms": true,
+            "body": true,
+            "legs": true
+        }
+    },
+    {
+        "type": "EXTERNAL_HIDDEN_BONE",
+        "id": "SHORTS",
+        "enabled": true,
+        "data": {
+            "body_outer": true,
+            "leg_left_outer": true,
+            "leg_right_outer": true
+        }
+    },
+    {
+        "type": "EXTERNAL_HIDDEN_BONE",
+        "id": "PANTS",
+        "enabled": true,
+        "data": {
+            "body_outer": true,
+            "leg_left_outer": true,
+            "leg_right_outer": true
+        }
+    },
+    {
+        "type": "EXTERNAL_HIDDEN_BONE",
+        "id": "PAJAMA_PANTS",
+        "enabled": true,
+        "data": {
+            "body_outer": true,
+            "leg_left_outer": true,
+            "leg_right_outer": true
+        }
+    },
+    {
+        "type": "EXTERNAL_HIDDEN_BONE",
+        "id": "NEON_RGB_PANTS",
+        "enabled": true,
+        "data": {
+            "leg_left_outer": true,
+            "leg_right_outer": true
+        }
+    },
+    {
+        "type": "COSMETIC_BONE_HIDING",
+        "id": "UGLY_SWEATER",
+        "enabled": true,
+        "data": {
+            "arms": true,
+            "body": true
+        }
+    },
+    {
+        "type": "EXTERNAL_HIDDEN_BONE",
+        "id": "MYSTICAL_HOOD",
+        "enabled": true,
+        "data": {
+            "body_outer": true,
+            "arm_left_outer": true,
+            "arm_right_outer": true
+        }
+    },
+    {
+        "type": "EXTERNAL_HIDDEN_BONE",
+        "id": "SODA_HAT",
+        "enabled": true,
+        "data": {
+            "tubes": true
+        }
+    },
+    {
+        "type": "EXTERNAL_HIDDEN_BONE",
+        "id": "PHARAOH_HEADDRESS",
+        "enabled": true,
+        "data": {
+            "lower_right": true,
+            "lower_left": true
+        }
+    },
+    {
+        "type": "EXTERNAL_HIDDEN_BONE",
+        "id": "ARMY_HELMET",
+        "enabled": true,
+        "data": {
+            "strap": true
+        }
+    },
+    {
+        "type": "COSMETIC_BONE_HIDING",
+        "id": "BITZEL_SOCK_MONKEY",
+        "enabled": true,
+        "data": {
+            "arms": true
+        }
+    },
+    {
+        "type": "COSMETIC_BONE_HIDING",
+        "id": "MASHCLASH_SHOULDER_YETI",
+        "enabled": true,
+        "data": {
+            "arms": true
+        }
+    },
+    {
+        "type": "COSMETIC_BONE_HIDING",
+        "id": "MINECRAFT_SHIRT",
+        "enabled": true,
+        "data": {
+            "arms": true,
+            "body": true
+        }
+    },
+    {
+        "type": "EXTERNAL_HIDDEN_BONE",
+        "id": "SPIKY_BUNS",
+        "enabled": true,
+        "data": {
+            "outer": true
+        }
+    },
+    {
+        "type": "EXTERNAL_HIDDEN_BONE",
+        "id": "Y2K_JACKET",
+        "enabled": true,
+        "data": {
+            "hood": true
+        }
+    },
+    {
+        "type": "COSMETIC_BONE_HIDING",
+        "id": "Y2K_TRENDS_TOP",
+        "enabled": true,
+        "data": {
+            "head": true,
+            "arms": true,
+            "body": true,
+            "legs": true
+        }
+    },
+    {
+        "type": "COSMETIC_BONE_HIDING",
+        "id": "Y2K_CUTIE_SHIRT",
+        "enabled": true,
+        "data": {
+            "head": true,
+            "arms": true,
+            "body": true,
+            "legs": true
+        }
+    },
+    {
+        "type": "COSMETIC_BONE_HIDING",
+        "id": "CARGO_PANTS",
+        "enabled": true,
+        "data": {
+            "body": true,
+            "legs": true
+        }
+    },
+    {
+        "type": "COSMETIC_BONE_HIDING",
+        "id": "GRUNGE_PANTS",
+        "enabled": true,
+        "data": {
+            "body": true,
+            "legs": true
+        }
+    },
+    {
+        "type": "COSMETIC_BONE_HIDING",
+        "id": "GRUNGE_SKIRT",
+        "enabled": true,
+        "data": {
+            "body": true,
+            "legs": true
+        }
+    }
+]

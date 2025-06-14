@@ -1,0 +1,156 @@
+{
+  "itemData": {
+    "e8e2ae7a-f4bb-46fe-b366-d5bcae29d9b5": {
+      "customNamePrefix": "",
+      "overrideEnchantGlint": false,
+      "enchantGlintValue": false,
+      "customGlintColour": "0:204:100:25:255",
+      "animatedDyeTicks": 2,
+      "dyeMode": "CYCLING"
+    },
+    "503587ea-3410-464e-8227-fb0e561ecd34": {
+      "customName": "§Z §kkka§Z §l AOTE §Z §kkkk",
+      "customNamePrefix": "§9",
+      "overrideEnchantGlint": false,
+      "enchantGlintValue": false,
+      "customGlintColour": "0:204:100:25:255",
+      "animatedDyeTicks": 2,
+      "dyeMode": "CYCLING",
+      "defaultItem": "minecraft:diamond_sword",
+      "customItem": "diamond_sword"
+    },
+    "88c5d660-602b-409f-a197-26c48ab73d37": {
+      "customNamePrefix": "",
+      "overrideEnchantGlint": false,
+      "enchantGlintValue": false,
+      "customGlintColour": "0:204:100:25:255",
+      "customLeatherColour": "0:255:253:190:2",
+      "animatedDyeTicks": 2,
+      "dyeMode": "CYCLING",
+      "defaultItem": "minecraft:leather_chestplate",
+      "customItem": "leather_chestplate"
+    },
+    "7b8e6512-7c96-40ad-90c1-42ad6ed496fb": {
+      "customNamePrefix": "",
+      "overrideEnchantGlint": false,
+      "enchantGlintValue": false,
+      "customGlintColour": "0:204:100:25:255",
+      "animatedDyeTicks": 2,
+      "dyeMode": "CYCLING"
+    },
+    "2103b9f3-4017-4ac3-9d8d-fa0574e91d75": {
+      "customNamePrefix": "",
+      "overrideEnchantGlint": false,
+      "enchantGlintValue": false,
+      "customGlintColour": "0:204:100:25:255",
+      "animatedDyeTicks": 2,
+      "dyeMode": "CYCLING",
+      "defaultItem": "minecraft:leather_leggings",
+      "customItem": "leather_leggings"
+    },
+    "13bddcd4-5bcf-4a16-b321-b03aabd57180": {
+      "customNamePrefix": "",
+      "overrideEnchantGlint": false,
+      "enchantGlintValue": false,
+      "customGlintColour": "0:204:100:25:255",
+      "animatedDyeTicks": 2,
+      "dyeMode": "CYCLING",
+      "defaultItem": "minecraft:iron_sword",
+      "customItem": "iron_sword"
+    },
+    "d7fbbd1d-8a69-49b2-a11c-1b6a36465971": {
+      "customNamePrefix": "",
+      "overrideEnchantGlint": false,
+      "enchantGlintValue": false,
+      "customGlintColour": "0:204:100:25:255",
+      "animatedDyeTicks": 2,
+      "dyeMode": "CYCLING"
+    },
+    "33f0a789-220b-4f40-ad40-8024741af291": {
+      "customName": "LOLI Treecap",
+      "customNamePrefix": "§5",
+      "overrideEnchantGlint": false,
+      "enchantGlintValue": false,
+      "customGlintColour": "0:204:100:25:255",
+      "animatedDyeTicks": 2,
+      "dyeMode": "CYCLING",
+      "defaultItem": "minecraft:golden_axe",
+      "customItem": "golden_axe"
+    },
+    "a967b67a-6030-402b-96f6-47b48cabfdf6": {
+      "customNamePrefix": "",
+      "overrideEnchantGlint": false,
+      "enchantGlintValue": false,
+      "customGlintColour": "0:204:100:25:255",
+      "animatedDyeTicks": 2,
+      "dyeMode": "CYCLING"
+    },
+    "7938d487-00a2-428a-9c7a-913e88585ac4": {
+      "customNamePrefix": "",
+      "overrideEnchantGlint": false,
+      "enchantGlintValue": false,
+      "customGlintColour": "0:204:100:25:255",
+      "customLeatherColour": "0:255:253:190:2",
+      "animatedDyeTicks": 2,
+      "dyeMode": "CYCLING",
+      "defaultItem": "minecraft:leather_leggings",
+      "customItem": "leather_leggings"
+    },
+    "28789199-3809-432a-aa8e-1486de9729d2": {
+      "customName": "Farming For Retards",
+      "customNamePrefix": "§5",
+      "overrideEnchantGlint": false,
+      "enchantGlintValue": false,
+      "customGlintColour": "0:204:100:25:255",
+      "animatedDyeTicks": 2,
+      "dyeMode": "CYCLING"
+    },
+    "42edfd01-9793-473f-ba97-2ec72f5e74e6": {
+      "customNamePrefix": "",
+      "overrideEnchantGlint": false,
+      "enchantGlintValue": false,
+      "customGlintColour": "0:204:100:25:255",
+      "animatedDyeTicks": 2,
+      "dyeMode": "CYCLING"
+    },
+    "058bb978-401d-430e-aabf-435901a58ffb": {
+      "customNamePrefix": "",
+      "overrideEnchantGlint": false,
+      "enchantGlintValue": false,
+      "customGlintColour": "0:204:100:25:255",
+      "animatedDyeTicks": 2,
+      "dyeMode": "CYCLING",
+      "defaultItem": "minecraft:leather_leggings",
+      "customItem": "leather_leggings"
+    },
+    "1e305ec3-f6fa-434c-ad3d-231ec43f8403": {
+      "customNamePrefix": "",
+      "overrideEnchantGlint": false,
+      "enchantGlintValue": false,
+      "customGlintColour": "0:204:100:25:255",
+      "animatedDyeTicks": 2,
+      "dyeMode": "CYCLING",
+      "defaultItem": "minecraft:leather_boots",
+      "customItem": "leather_boots"
+    },
+    "0739acf3-b902-4148-935a-dddc5c10acd8": {
+      "customNamePrefix": "",
+      "overrideEnchantGlint": false,
+      "enchantGlintValue": false,
+      "customGlintColour": "0:204:100:25:255",
+      "animatedDyeTicks": 2,
+      "dyeMode": "CYCLING"
+    },
+    "c4b9c641-01a5-46c5-8f01-999d6a4b73f4": {
+      "customNamePrefix": "",
+      "overrideEnchantGlint": false,
+      "enchantGlintValue": false,
+      "customGlintColour": "0:204:100:25:255",
+      "customLeatherColour": "0:255:253:190:2",
+      "animatedDyeTicks": 2,
+      "dyeMode": "CYCLING",
+      "defaultItem": "minecraft:leather_boots",
+      "customItem": "leather_boots"
+    }
+  }
+}

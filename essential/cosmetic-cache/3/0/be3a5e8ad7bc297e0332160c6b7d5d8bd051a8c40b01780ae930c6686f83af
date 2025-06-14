@@ -1,0 +1,76 @@
+{
+	"format_version": "1.12.0",
+	"minecraft:geometry": [
+		{
+			"description": {
+				"identifier": "geometry.dyed_bob",
+				"texture_width": 48,
+				"texture_height": 48,
+				"visible_bounds_width": 2,
+				"visible_bounds_height": 3.5,
+				"visible_bounds_offset": [0, 1.25, 0]
+			},
+			"bones": [
+				{
+					"name": "root",
+					"pivot": [0, 0, 0]
+				},
+				{
+					"name": "head",
+					"parent": "root",
+					"pivot": [0, 24, 0]
+				},
+				{
+					"name": "bob",
+					"parent": "head",
+					"pivot": [0, 32, 0],
+					"cubes": [
+						{"origin": [-4, 24, -4], "size": [8, 8, 8], "uv": [0, 0]}
+					]
+				},
+				{
+					"name": "outer",
+					"parent": "bob",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [-5, 22, -4], "size": [10, 10, 8], "inflate": 0.3, "uv": [-1, 16]}
+					]
+				},
+				{
+					"name": "bob_left",
+					"parent": "bob",
+					"pivot": [4, 32, 0],
+					"rotation": [0, 0, -10],
+					"cubes": [
+						{"origin": [3, 24, -4], "size": [1, 8, 8], "inflate": 0.01, "uv": [1, 32], "mirror": true}
+					]
+				},
+				{
+					"name": "outer_left",
+					"parent": "bob_left",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [3, 24, -4], "size": [1, 8, 8], "inflate": 0.3, "uv": [19, 32], "mirror": true}
+					]
+				},
+				{
+					"name": "bob_right",
+					"parent": "bob",
+					"pivot": [-4, 32, 0],
+					"rotation": [0, 0, 10],
+					"cubes": [
+						{"origin": [-4, 24, -4], "size": [1, 8, 8], "uv": [1, 32]}
+					]
+				},
+				{
+					"name": "outer_right",
+					"parent": "bob_right",
+					"pivot": [0, 0, 0],
+					"cubes": [
+						{"origin": [-4, 24, -4], "size": [1, 8, 8], "inflate": 0.3, "uv": [19, 32]}
+					]
+				}
+			]
+		}
+	]
+}

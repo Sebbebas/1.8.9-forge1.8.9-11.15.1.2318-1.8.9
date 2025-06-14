@@ -1,0 +1,10 @@
+[
+  {
+    "id": "crying",
+    "type": "INTERRUPTS_EMOTE",
+    "enabled": true,
+    "data": {
+      "MOVEMENT": false
+    }
+  }
+]

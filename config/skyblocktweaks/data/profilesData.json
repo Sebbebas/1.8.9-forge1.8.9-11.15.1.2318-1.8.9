@@ -586,5 +586,291 @@
     "WOOD_TALISMAN": [
       "WOOD_TALISMAN"
     ]
+  },
+  "b1a71305-1956-42bf-90e4-bce6f7285754": {
+    "accessory_bag": [
+      "AUTO_RECOMBOBULATOR",
+      "JACOBUS_REGISTER",
+      "PERSONAL_DELETOR_7000",
+      "RAZOR_SHARP_SHARK_TOOTH_NECKLACE",
+      "BAT_ARTIFACT",
+      "CANDY_RELIC",
+      "GOLD_GIFT_TALISMAN",
+      "BEASTMASTER_CREST_LEGENDARY",
+      "PRESTIGE_CHOCOLATE_REALM",
+      "CAMPFIRE_TALISMAN_22",
+      "TITANIUM_RELIC",
+      "TREASURE_RING",
+      "SCARF_THESIS",
+      "CATACOMBS_EXPERT_RING",
+      "MELODY_HAIR",
+      "EXPERIENCE_ARTIFACT",
+      "INTIMIDATION_RELIC",
+      "WEDDING_RING_7",
+      "RED_CLAW_ARTIFACT",
+      "TARANTULA_TALISMAN",
+      "HASTE_ARTIFACT",
+      "CHEETAH_TALISMAN",
+      "SPIDER_ARTIFACT",
+      "BOOK_OF_PROGRESSION",
+      "MINERAL_TALISMAN",
+      "FERMENTO_ARTIFACT",
+      "SURVIVOR_CUBE",
+      "WOLF_RING",
+      "BLUETOOTH_RING",
+      "BITS_TALISMAN",
+      "SPEED_ARTIFACT",
+      "AGARIMOO_ARTIFACT",
+      "NIGHT_CRYSTAL",
+      "DAY_CRYSTAL",
+      "FEATHER_ARTIFACT",
+      "FROZEN_CHICKEN",
+      "FISH_AFFINITY_TALISMAN",
+      "PIGS_FOOT",
+      "GLACIAL_ARTIFACT",
+      "GENERAL_MEDALLION",
+      "ANITA_ARTIFACT",
+      "DEVOUR_RING",
+      "SEA_CREATURE_ARTIFACT",
+      "SOULFLOW_BATTERY",
+      "PULSE_RING",
+      "ARTIFACT_POTION_AFFINITY",
+      "PESTHUNTER_RING",
+      "LUSH_RING",
+      "ZOMBIE_ARTIFACT",
+      "BLAZE_TALISMAN",
+      "POWER_RING",
+      "ODGERS_SILVER_TOOTH",
+      "PIGGY_BANK",
+      "NEW_YEAR_CAKE_BAG",
+      "TRAPPER_CREST",
+      "MINIATURIZED_TUBULATOR",
+      "JAKE_PLUSHIE",
+      "EMERALD_RING",
+      "LAVA_TALISMAN",
+      "GRAVITY_TALISMAN",
+      "MAGNETIC_TALISMAN",
+      "WOLF_PAW",
+      "GREAT_SPOOK_RING",
+      "VACCINE_RING",
+      "WOOD_TALISMAN",
+      "HEALING_RING",
+      "JUNGLE_AMULET",
+      "TEST_BUCKET_PLEASE_IGNORE",
+      "CHUMMING_TALISMAN",
+      "LUCKY_HOOF",
+      "FARMER_ORB",
+      "BLOOD_GOD_CREST",
+      "CENTURY_TALISMAN",
+      "DANTE_RING",
+      "HANDY_BLOOD_CHALICE",
+      "KING_TALISMAN",
+      "BIG_BRAIN_TALISMAN",
+      "FARMING_TALISMAN",
+      "SCAVENGER_TALISMAN",
+      "COIN_TALISMAN",
+      "POCKET_ESPRESSO_MACHINE",
+      "BAT_PERSON_TALISMAN",
+      "MINE_TALISMAN",
+      "NETHERRACK_LOOKING_SUNSHADE",
+      "BLOOD_DONOR_TALISMAN",
+      "PARTY_HAT_SLOTH",
+      "CARNIVAL_MASK_BAG",
+      "FIRE_TALISMAN",
+      "SKELETON_TALISMAN",
+      "VILLAGE_TALISMAN",
+      "NIGHT_VISION_CHARM",
+      "ARCHAEOLOGIST_COMPASS",
+      "PERSONAL_COMPACTOR_7000",
+      "POWER_ARTIFACT",
+      "BALLOON_HAT_2025",
+      "CANDY_ARTIFACT",
+      "SHARP_SHARK_TOOTH_NECKLACE",
+      "SCARF_STUDIES",
+      "SPIDER_RING",
+      "CAMPFIRE_TALISMAN_8",
+      "HASTE_RING",
+      "TREASURE_TALISMAN",
+      "INTIMIDATION_ARTIFACT",
+      "VACCINE_TALISMAN",
+      "WEDDING_RING_2",
+      "ZOMBIE_RING",
+      "RED_CLAW_RING",
+      "SPEED_RING",
+      "POWER_TALISMAN",
+      "POTATO_TALISMAN",
+      "BROKEN_PIGGY_BANK",
+      "SOULFLOW_PILE",
+      "GLACIAL_TALISMAN",
+      "AGARIMOO_TALISMAN",
+      "BUCKET_OF_DYE"
+    ],
+    "tradeHistory": {
+      "June 8th, 2025": [
+        {
+          "yourItems": [
+            {
+              "count": 1,
+              "damage": 0,
+              "nbt": "{ench:[0:{lvl:3s,id:5s},1:{lvl:1s,id:6s}],Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Strength: §c+10 §9(+10)\",1:\"§7Crit Chance: §c+6% §9(+6%)\",2:\"§7Crit Damage: §c+18% §9(+18%)\",3:\"§7Health: §a+75\",4:\"§7Defense: §a+20\",5:\"§7Magic Find: §a+5\",6:\"§7True Defense: §a+50\",7:\"§7Mining Speed: §a+86 §d(+36)\",8:\"§7Pristine: §a+1.6 §d(+1.6)\",9:\"§7Mining Fortune: §a+40 §d(+20)\",10:\" §9[§6⸕§9] §9[§a☘§9] §5[§e❂§5]\",11:\"\",12:\"§9Aqua Affinity I\",13:\"§7Increases your underwater mining\",14:\"§7rate.\",15:\"§9Growth V\",16:\"§7Grants §a+75 §c❤ Health§7.\",17:\"§9Protection V\",18:\"§7Grants §a+20 §a❈ Defense§7.\",19:\"§9Respiration III\",20:\"§7Extends your underwater breathing\",21:\"§7time by §a45s§7.\",22:\"\",23:\"§62-Piece Set Bonus: Mist Aura\",24:\"§7Hides the wearer in a guise of mist,\",25:\"§7multiplying damage from ghosts by\",26:\"§7§c0.6x§7.\",27:\"\",28:\"§6§lLEGENDARY HELMET\"],Name:\"§6Fierce Sorrow Helmet\"},ExtraAttributes:{gems:{JADE_0:\"FINE\",unlocked_slots:[0:\"JADE_0\",1:\"UNIVERSAL_0\"],AMBER_0:\"FINE\",UNIVERSAL_0:\"FLAWLESS\",UNIVERSAL_0_gem:\"TOPAZ\"},modifier:\"fierce\",id:\"SORROW_HELMET\",enchantments:{protection:5,growth:5,respiration:3,aqua_affinity:1},uuid:\"1d5338d9-041e-4adc-a86e-14a1580c4989\",timestamp:1675006200000L}}",
+              "id": "minecraft:chainmail_helmet"
+            },
+            {
+              "count": 1,
+              "damage": 0,
+              "nbt": "{ench:[0:{lvl:3s,id:8s}],Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Strength: §c+10 §9(+10)\",1:\"§7Crit Chance: §c+6% §9(+6%)\",2:\"§7Crit Damage: §c+18% §9(+18%)\",3:\"§7Health: §a+75\",4:\"§7Defense: §a+20\",5:\"§7Magic Find: §a+5\",6:\"§7True Defense: §a+40\",7:\"§7Mining Speed: §a+86 §d(+36)\",8:\"§7Pristine: §a+1.6 §d(+1.6)\",9:\"§7Mining Fortune: §a+40 §d(+20)\",10:\" §9[§6⸕§9] §9[§a☘§9] §5[§e❂§5]\",11:\"\",12:\"§9Depth Strider III\",13:\"§7Reduces how much you are slowed in\",14:\"§7the water by §a100%§7.\",15:\"§9Feather Falling X\",16:\"§7Increases how high you can fall\",17:\"§7before taking fall damage by §a10§7 and\",18:\"§7reduces fall damage by §a50%§7.\",19:\"§9Growth V\",20:\"§7Grants §a+75 §c❤ Health§7.\",21:\"§9Protection V\",22:\"§7Grants §a+20 §a❈ Defense§7.\",23:\"\",24:\"§c◆ Hot Rune III\",25:\"\",26:\"§62-Piece Set Bonus: Mist Aura\",27:\"§7Hides the wearer in a guise of mist,\",28:\"§7multiplying damage from ghosts by\",29:\"§7§c0.6x§7.\",30:\"\",31:\"§6§lLEGENDARY BOOTS\"],Name:\"§6Fierce Sorrow Boots\"},ExtraAttributes:{runes:{HOT:3},gems:{JADE_0:\"FINE\",unlocked_slots:[0:\"JADE_0\",1:\"UNIVERSAL_0\"],AMBER_0:\"FINE\",UNIVERSAL_0:\"FLAWLESS\",UNIVERSAL_0_gem:\"TOPAZ\"},modifier:\"fierce\",id:\"SORROW_BOOTS\",enchantments:{depth_strider:3,feather_falling:10,growth:5,protection:5},uuid:\"b237132f-d823-4ca0-9ead-af6405b5498e\",timestamp:1663370520000L}}",
+              "id": "minecraft:chainmail_boots"
+            },
+            {
+              "count": 1,
+              "damage": 0,
+              "nbt": "{ench:[],Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Strength: §c+10 §9(+10)\",1:\"§7Crit Chance: §c+6% §9(+6%)\",2:\"§7Crit Damage: §c+18% §9(+18%)\",3:\"§7Health: §a+75\",4:\"§7Defense: §a+20\",5:\"§7Magic Find: §a+5\",6:\"§7True Defense: §a+80\",7:\"§7Mining Speed: §a+86 §d(+36)\",8:\"§7Pristine: §a+1.6 §d(+1.6)\",9:\"§7Mining Fortune: §a+40 §d(+20)\",10:\" §9[§6⸕§9] §9[§a☘§9] §5[§e❂§5]\",11:\"\",12:\"§9Growth V\",13:\"§7Grants §a+75 §c❤ Health§7.\",14:\"§9Protection V\",15:\"§7Grants §a+20 §a❈ Defense§7.\",16:\"\",17:\"§62-Piece Set Bonus: Mist Aura\",18:\"§7Hides the wearer in a guise of mist,\",19:\"§7multiplying damage from ghosts by\",20:\"§7§c0.6x§7.\",21:\"\",22:\"§6§lLEGENDARY CHESTPLATE\"],Name:\"§6Fierce Sorrow Chestplate\"},ExtraAttributes:{gems:{JADE_0:\"FINE\",unlocked_slots:[0:\"JADE_0\",1:\"UNIVERSAL_0\"],AMBER_0:\"FINE\",UNIVERSAL_0:\"FLAWLESS\",UNIVERSAL_0_gem:\"TOPAZ\"},modifier:\"fierce\",id:\"SORROW_CHESTPLATE\",enchantments:{growth:5,protection:5},uuid:\"c7914baa-3f6e-4ba2-b08d-4b2101a71307\",timestamp:1674418620000L}}",
+              "id": "minecraft:chainmail_chestplate"
+            },
+            {
+              "count": 1,
+              "damage": 0,
+              "nbt": "{ench:[],Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Strength: §c+10 §9(+10)\",1:\"§7Crit Chance: §c+6% §9(+6%)\",2:\"§7Crit Damage: §c+18% §9(+18%)\",3:\"§7Health: §a+75\",4:\"§7Defense: §a+20\",5:\"§7Magic Find: §a+5\",6:\"§7True Defense: §a+70\",7:\"§7Mining Speed: §a+86 §d(+36)\",8:\"§7Pristine: §a+1.6 §d(+1.6)\",9:\"§7Mining Fortune: §a+40 §d(+20)\",10:\" §9[§6⸕§9] §9[§a☘§9] §5[§e❂§5]\",11:\"\",12:\"§9Growth V\",13:\"§7Grants §a+75 §c❤ Health§7.\",14:\"§9Protection V\",15:\"§7Grants §a+20 §a❈ Defense§7.\",16:\"\",17:\"§62-Piece Set Bonus: Mist Aura\",18:\"§7Hides the wearer in a guise of mist,\",19:\"§7multiplying damage from ghosts by\",20:\"§7§c0.6x§7.\",21:\"\",22:\"§6§lLEGENDARY LEGGINGS\"],Name:\"§6Fierce Sorrow Leggings\"},ExtraAttributes:{gems:{JADE_0:\"FINE\",unlocked_slots:[0:\"JADE_0\",1:\"UNIVERSAL_0\"],AMBER_0:\"FINE\",UNIVERSAL_0:\"FLAWLESS\",UNIVERSAL_0_gem:\"TOPAZ\"},modifier:\"fierce\",id:\"SORROW_LEGGINGS\",enchantments:{growth:5,protection:5},uuid:\"c815e409-3c96-4a88-944c-67913afecc61\",timestamp:1672125240000L}}",
+              "id": "minecraft:chainmail_leggings"
+            }
+          ],
+          "yourCoins": 0,
+          "theirItems": [
+            {
+              "count": 1,
+              "damage": 0,
+              "nbt": "{ench:[0:{lvl:3s,id:5s},1:{lvl:1s,id:6s}],Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Health: §a+75\",1:\"§7Defense: §a+20\",2:\"§7Magic Find: §a+5\",3:\"§7True Defense: §a+50\",4:\"§7Mining Speed: §a+86 §d(+36)\",5:\"§7Mining Fortune: §a+20\",6:\" §9[§6⸕§9] §8[§8☘§8] §8[§8❂§8]\",7:\"\",8:\"§9Aqua Affinity I\",9:\"§7Increases your underwater mining\",10:\"§7rate.\",11:\"§9Growth V\",12:\"§7Grants §a+75 §c❤ Health§7.\",13:\"§9Protection V\",14:\"§7Grants §a+20 §a❈ Defense§7.\",15:\"§9Respiration III\",16:\"§7Extends your underwater breathing\",17:\"§7time by §a45s§7.\",18:\"§9Thorns III\",19:\"§7Grants a §a50% §7chance to rebound §a9%\",20:\"§a§7of damage dealt back at the attacker.\",21:\"\",22:\"§62-Piece Set Bonus: Mist Aura\",23:\"§7Hides the wearer in a guise of mist,\",24:\"§7multiplying damage from ghosts by\",25:\"§7§c0.6x§7.\",26:\"\",27:\"§7§8This item can be reforged!\",28:\"§6§lLEGENDARY HELMET\"],Name:\"§6Sorrow Helmet\"},ExtraAttributes:{gems:{AMBER_0:\"FINE\"},id:\"SORROW_HELMET\",enchantments:{thorns:3,protection:5,respiration:3,growth:5,aqua_affinity:1},uuid:\"e220db32-b2db-4edb-938b-55c4a846627e\",timestamp:1717695322401L}}",
+              "id": "minecraft:chainmail_helmet"
+            },
+            {
+              "count": 1,
+              "damage": 0,
+              "nbt": "{ench:[],Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Health: §a+75\",1:\"§7Defense: §a+20\",2:\"§7Magic Find: §a+5\",3:\"§7True Defense: §a+80\",4:\"§7Mining Speed: §a+86 §d(+36)\",5:\"§7Mining Fortune: §a+20\",6:\" §9[§6⸕§9] §8[§8☘§8] §8[§8❂§8]\",7:\"\",8:\"§9Growth V\",9:\"§7Grants §a+75 §c❤ Health§7.\",10:\"§9Protection V\",11:\"§7Grants §a+20 §a❈ Defense§7.\",12:\"§9Thorns III\",13:\"§7Grants a §a50% §7chance to rebound §a9%\",14:\"§a§7of damage dealt back at the attacker.\",15:\"\",16:\"§62-Piece Set Bonus: Mist Aura\",17:\"§7Hides the wearer in a guise of mist,\",18:\"§7multiplying damage from ghosts by\",19:\"§7§c0.6x§7.\",20:\"\",21:\"§7§8This item can be reforged!\",22:\"§6§lLEGENDARY CHESTPLATE\"],Name:\"§6Sorrow Chestplate\"},ExtraAttributes:{gems:{AMBER_0:\"FINE\"},id:\"SORROW_CHESTPLATE\",enchantments:{thorns:3,protection:5,growth:5},uuid:\"9190077a-fd91-484c-a726-889414ae2c0b\",timestamp:1717695321503L}}",
+              "id": "minecraft:chainmail_chestplate"
+            },
+            {
+              "count": 1,
+              "damage": 0,
+              "nbt": "{ench:[],Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Health: §a+75\",1:\"§7Defense: §a+20\",2:\"§7Magic Find: §a+5\",3:\"§7True Defense: §a+70\",4:\"§7Mining Speed: §a+86 §d(+36)\",5:\"§7Mining Fortune: §a+20\",6:\" §9[§6⸕§9] §8[§8☘§8] §8[§8❂§8]\",7:\"\",8:\"§9Growth V\",9:\"§7Grants §a+75 §c❤ Health§7.\",10:\"§9Protection V\",11:\"§7Grants §a+20 §a❈ Defense§7.\",12:\"§9Thorns III\",13:\"§7Grants a §a50% §7chance to rebound §a9%\",14:\"§a§7of damage dealt back at the attacker.\",15:\"\",16:\"§62-Piece Set Bonus: Mist Aura\",17:\"§7Hides the wearer in a guise of mist,\",18:\"§7multiplying damage from ghosts by\",19:\"§7§c0.6x§7.\",20:\"\",21:\"§7§8This item can be reforged!\",22:\"§6§lLEGENDARY LEGGINGS\"],Name:\"§6Sorrow Leggings\"},ExtraAttributes:{gems:{AMBER_0:\"FINE\"},id:\"SORROW_LEGGINGS\",enchantments:{thorns:3,protection:5,growth:5},uuid:\"aff8b5df-1e46-42d7-af02-6bf5416541a8\",timestamp:1717695323351L}}",
+              "id": "minecraft:chainmail_leggings"
+            },
+            {
+              "count": 1,
+              "damage": 0,
+              "nbt": "{ench:[0:{lvl:3s,id:8s}],Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§7Health: §a+75\",1:\"§7Defense: §a+20\",2:\"§7Magic Find: §a+5\",3:\"§7True Defense: §a+40\",4:\"§7Mining Speed: §a+86 §d(+36)\",5:\"§7Mining Fortune: §a+20\",6:\" §9[§6⸕§9] §8[§8☘§8] §8[§8❂§8]\",7:\"\",8:\"§9Depth Strider III\",9:\"§7Reduces how much you are slowed in\",10:\"§7the water by §a100%§7.\",11:\"§9Feather Falling X\",12:\"§7Increases how high you can fall\",13:\"§7before taking fall damage by §a10§7 and\",14:\"§7reduces fall damage by §a50%§7.\",15:\"§9Growth V\",16:\"§7Grants §a+75 §c❤ Health§7.\",17:\"§9Protection V\",18:\"§7Grants §a+20 §a❈ Defense§7.\",19:\"§9Thorns III\",20:\"§7Grants a §a50% §7chance to rebound §a9%\",21:\"§a§7of damage dealt back at the attacker.\",22:\"\",23:\"§62-Piece Set Bonus: Mist Aura\",24:\"§7Hides the wearer in a guise of mist,\",25:\"§7multiplying damage from ghosts by\",26:\"§7§c0.6x§7.\",27:\"\",28:\"§7§8This item can be reforged!\",29:\"§6§lLEGENDARY BOOTS\"],Name:\"§6Sorrow Boots\"},ExtraAttributes:{gems:{AMBER_0:\"FINE\"},id:\"SORROW_BOOTS\",enchantments:{depth_strider:3,thorns:3,feather_falling:10,protection:5,growth:5},uuid:\"9b958f37-9d15-4835-a3af-99024d978ad1\",timestamp:1717695324801L}}",
+              "id": "minecraft:chainmail_boots"
+            }
+          ],
+          "theirCoins": 0,
+          "timestamp": 1749372489751,
+          "username": "JonathanLanunez"
+        },
+        {
+          "yourItems": [
+            {
+              "count": 9,
+              "damage": 0,
+              "nbt": "{ench:[],HideFlags:254,display:{Lore:[0:\"§7§7Used to open the entrance to the\",1:\"§7Jungle Temple.\",2:\"\",3:\"§5§lEPIC\"],Name:\"§5Jungle Key\"},ExtraAttributes:{id:\"JUNGLE_KEY\"}}",
+              "id": "minecraft:tripwire_hook"
+            },
+            {
+              "count": 9,
+              "damage": 3,
+              "nbt": "{HideFlags:254,SkullOwner:{Id:\"3d76a94b-7bab-3e2d-898d-59d02bde8012\",hypixelPopulated:1b,Properties:{textures:[0:{Signature:\"ccAps5hTWVAZJfbXw3NtPv+pklgUczdsWjnnefkhAOGBKzV3SwWkxx5uYDHAr3TnQbLqurXfJqd+CqR6UwL2bSrN9ks7TjX6wCDAZMmtRUfA8oKL4Xhiu9fmRYLAP+J+hR3S8MzyT6SpgflPmE4hipGz/vSUY5iqSQk46m2Nmr4t/88PB23M0z269f7RWNt5m9rKRrw6kv04HD/lMgwWZe5Fk4SlL3iQ69C/+eOR7qqQlJAheSAZ1foJVyaHH3MHK2r9zZJ0QuWx3BS1MxxRed1llcwDuebWGmcM8+hygeM3llHJ8Pzp04OO2iDtIZBFlCS8rIW6ORAnWK05/J/0kusC72GHtRENv4kXUbcqtBlbG4sjZUu8vis6RGGL2rylBcT6wAfXhgLsnbilbB5aHOi0c6vSHt25awuMzVvAPs+XAkFMubzUHJ2Q+kW/lymcrkDuP8sjXLP2eN/VwMHQGcXb/L7JxH/Mmr5bRn6315yYUCjJ4uZBR5zank1Roso0ahy4SK81CuPHN+w0hvgV2NWfdgstFMpqZdAgkttg2CapQC1jnriSEkz1OGQCjxBKu/6LyXN9IBWp4V/TgM9YQ6e+7NRqWbSDD2TGj2FTLblOVdWkl5w2K2Ef3Cp8czwxyPIP49Ii4+Vb+nsSz1BuxB85ogxJh1LUdu0bkuyiSco\u003d\",Value:\"eyJ0aW1lc3RhbXAiOjE1NzI3NDE4NDc4NjcsInByb2ZpbGVJZCI6IjdkYTJhYjNhOTNjYTQ4ZWU4MzA0OGFmYzNiODBlNjhlIiwicHJvZmlsZU5hbWUiOiJHb2xkYXBmZWwiLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzgxZTcwZDM5MzU3MDFmYTBlMTI5YmI2YWEwNjU2MTY1MzEwMTNjY2Q5YjZlMDBhY2VjNTcwYWVlYTNlZjUwNTIifX19\"}]}},display:{Lore:[0:\"§7§7Can be given to §9Professor Robot §7to\",1:\"§7complete the §bSapphire Crystal Quest§7.\",2:\"§7\",3:\"§7§8This decaying piece of machinery\",4:\"§8was once a part of a large robot\",5:\"§8known as Automaton Prime. There\u0027s\",6:\"§8still a lot of good stuff in here.\",7:\"\",8:\"§5§lEPIC\"],Name:\"§5Precursor Apparatus\"},ExtraAttributes:{id:\"PRECURSOR_APPARATUS\"}}",
+              "id": "minecraft:skull"
+            }
+          ],
+          "yourCoins": 0,
+          "theirItems": [],
+          "theirCoins": 0,
+          "timestamp": 1749372752285,
+          "username": "JonathanLanunez"
+        },
+        {
+          "yourItems": [],
+          "yourCoins": 0,
+          "theirItems": [
+            {
+              "count": 1,
+              "damage": 3,
+              "nbt": "{HideFlags:254,SkullOwner:{Id:\"1e817b17-9e83-310b-b770-795b861f057f\",hypixelPopulated:1b,Properties:{textures:[0:{Signature:\"RrCvQJZ3JYPET+lwHOXZSiG5ivvKjPKQjQgSVjbU95kHysmHy1mdoRP8NXor62Mscm1kw8Em+SmAAnVPrQDER3iLuAT1EFu4222ymxne8RNbbqF3lPay3YrbxjcRPErkbNEBK9cMfWhSwFpTd80B93qMd65hcyXTPOotD4ctzBJB1tyr4GdygHnX+aKyyh/TyK1YbwRSTG2JX0wE68HMDNMBskmevHQ4mG13fNvhQ7/6ijxRUU4VMRSdK70FwgvmPaTyxfHiNxcpDxljHvzMG/oUJlCD9rgla3VNXoG0bp12zHZwGilWHnqksueJFKWy/eWAKfZKFioWiL20KllVeJLTrfiwu+i9EevB54V8DfdQplt65xHWYYuFz+9jJSemdf4xdXpHG4PVT5YCMysNeipiwihFUqiiiNyRxQT9Gy0w/sv+4F36e30OtlvfUhxEn18niKTsldxegHgefNXe/SXbanUoa/Jlw52WPKV4/21mGMr6rQGdj+DV+ENItyMGwm9CUrQUl32l++HTLeduA4xJtptfpGDsTyNYyvJaAsBxwNVEvFTi3wlvHmGbFQ4N8beDHv0qLagzb8+oElZ5cW0MFj1tUKzbutBiuIE/9bbWFxSt53hLv9XJ0Hgkg6bLxL+QWSQI9tZldpHO6M3bDIy79AXFRaOIb4quU3uY3L0\u003d\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTcwNzg1NDE4MzUyNiwKICAicHJvZmlsZUlkIiA6ICIxMTM1Njg1ZTk3ZGE0ZjYyYTliNDQ3MzA0NGFiZjQ0MSIsCiAgInByb2ZpbGVOYW1lIiA6ICJNYXJpb1dsZXMiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzI3YmFhYWZjMDk5NzhkNGJkYTczZTE2YWZkZGU4NWVjMTNiMGY5NWFkOTg5NTI0YzVmY2FhNzE3Y2YwNmI0YSIKICAgIH0KICB9Cn0\u003d\"}]}},display:{Lore:[0:\"§8Mining Pet\",1:\"\",2:\"§7Intelligence: §a+100\",3:\"§7Magic Find: §a+5\",4:\"§7Mining Speed: §a+150\",5:\"\",6:\"§6Archaeologist\",7:\"§7§7§cScavenged Items §7appear §a25% §7more\",8:\"§7often while in the §2Mines of Divan§7.\",9:\"\",10:\"§6Magnetic Nose\",11:\"§7§7§9Automatons §7drop their parts §a50%\",12:\"§a§7more frequently.\",13:\"\",14:\"§6Nucleic Veins\",15:\"§7§7The §5Crystal Nucleus §7has a §a100%\",16:\"§a§7chance to drop an additional item.\",17:\"\",18:\"§6Held Item: §9Mining Exp Boost\",19:\"§7Gives §a+40% §7pet exp for Mining.\",20:\"\",21:\"§b§lMAX LEVEL\",22:\"§8▸ 26,514,239 XP\",23:\"\",24:\"§7§eRight-click to add this pet to your\",25:\"§epet menu!\",26:\"\",27:\"§6§lLEGENDARY\"],Name:\"§7[Lvl 100] §6Mole\"},ExtraAttributes:{petInfo:\"{\\\"type\\\":\\\"MOLE\\\",\\\"active\\\":false,\\\"exp\\\":2.6514239413939346E7,\\\"tier\\\":\\\"LEGENDARY\\\",\\\"hideInfo\\\":false,\\\"heldItem\\\":\\\"PET_ITEM_MINING_SKILL_BOOST_RARE\\\",\\\"candyUsed\\\":0,\\\"uuid\\\":\\\"4e2b0179-4a89-42c7-83bf-674ad785ac75\\\",\\\"uniqueId\\\":\\\"adc37a8a-2dd6-451b-8c4c-0f384bc8e894\\\",\\\"hideRightClick\\\":false,\\\"noMove\\\":false}\",id:\"PET\",uuid:\"4e2b0179-4a89-42c7-83bf-674ad785ac75\",timestamp:1749373153981L}}",
+              "id": "minecraft:skull"
+            }
+          ],
+          "theirCoins": 0,
+          "timestamp": 1749373181026,
+          "username": "JonathanLanunez"
+        },
+        {
+          "yourItems": [
+            {
+              "count": 1,
+              "damage": 3,
+              "nbt": "{HideFlags:254,SkullOwner:{Id:\"1e817b17-9e83-310b-b770-795b861f057f\",hypixelPopulated:1b,Properties:{textures:[0:{Signature:\"RrCvQJZ3JYPET+lwHOXZSiG5ivvKjPKQjQgSVjbU95kHysmHy1mdoRP8NXor62Mscm1kw8Em+SmAAnVPrQDER3iLuAT1EFu4222ymxne8RNbbqF3lPay3YrbxjcRPErkbNEBK9cMfWhSwFpTd80B93qMd65hcyXTPOotD4ctzBJB1tyr4GdygHnX+aKyyh/TyK1YbwRSTG2JX0wE68HMDNMBskmevHQ4mG13fNvhQ7/6ijxRUU4VMRSdK70FwgvmPaTyxfHiNxcpDxljHvzMG/oUJlCD9rgla3VNXoG0bp12zHZwGilWHnqksueJFKWy/eWAKfZKFioWiL20KllVeJLTrfiwu+i9EevB54V8DfdQplt65xHWYYuFz+9jJSemdf4xdXpHG4PVT5YCMysNeipiwihFUqiiiNyRxQT9Gy0w/sv+4F36e30OtlvfUhxEn18niKTsldxegHgefNXe/SXbanUoa/Jlw52WPKV4/21mGMr6rQGdj+DV+ENItyMGwm9CUrQUl32l++HTLeduA4xJtptfpGDsTyNYyvJaAsBxwNVEvFTi3wlvHmGbFQ4N8beDHv0qLagzb8+oElZ5cW0MFj1tUKzbutBiuIE/9bbWFxSt53hLv9XJ0Hgkg6bLxL+QWSQI9tZldpHO6M3bDIy79AXFRaOIb4quU3uY3L0\u003d\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTcwNzg1NDE4MzUyNiwKICAicHJvZmlsZUlkIiA6ICIxMTM1Njg1ZTk3ZGE0ZjYyYTliNDQ3MzA0NGFiZjQ0MSIsCiAgInByb2ZpbGVOYW1lIiA6ICJNYXJpb1dsZXMiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzI3YmFhYWZjMDk5NzhkNGJkYTczZTE2YWZkZGU4NWVjMTNiMGY5NWFkOTg5NTI0YzVmY2FhNzE3Y2YwNmI0YSIKICAgIH0KICB9Cn0\u003d\"}]}},display:{Lore:[0:\"§8Mining Pet\",1:\"\",2:\"§7Intelligence: §a+100\",3:\"§7Magic Find: §a+5\",4:\"§7Mining Speed: §a+150\",5:\"\",6:\"§6Archaeologist\",7:\"§7§7§cScavenged Items §7appear §a25% §7more\",8:\"§7often while in the §2Mines of Divan§7.\",9:\"\",10:\"§6Magnetic Nose\",11:\"§7§7§9Automatons §7drop their parts §a50%\",12:\"§a§7more frequently.\",13:\"\",14:\"§6Nucleic Veins\",15:\"§7§7The §5Crystal Nucleus §7has a §a100%\",16:\"§a§7chance to drop an additional item.\",17:\"\",18:\"§6Held Item: §9Mining Exp Boost\",19:\"§7Gives §a+40% §7pet exp for Mining.\",20:\"\",21:\"§b§lMAX LEVEL\",22:\"§8▸ 26,514,239 XP\",23:\"\",24:\"§7§eRight-click to add this pet to your\",25:\"§epet menu!\",26:\"\",27:\"§6§lLEGENDARY\"],Name:\"§7[Lvl 100] §6Mole\"},ExtraAttributes:{petInfo:\"{\\\"type\\\":\\\"MOLE\\\",\\\"active\\\":false,\\\"exp\\\":2.6514239413939346E7,\\\"tier\\\":\\\"LEGENDARY\\\",\\\"hideInfo\\\":false,\\\"heldItem\\\":\\\"PET_ITEM_MINING_SKILL_BOOST_RARE\\\",\\\"candyUsed\\\":0,\\\"uuid\\\":\\\"4e2b0179-4a89-42c7-83bf-674ad785ac75\\\",\\\"uniqueId\\\":\\\"adc37a8a-2dd6-451b-8c4c-0f384bc8e894\\\",\\\"hideRightClick\\\":false,\\\"noMove\\\":false}\",id:\"PET\",uuid:\"4e2b0179-4a89-42c7-83bf-674ad785ac75\",timestamp:1749373223744L}}",
+              "id": "minecraft:skull"
+            }
+          ],
+          "yourCoins": 0,
+          "theirItems": [],
+          "theirCoins": 0,
+          "timestamp": 1749373242054,
+          "username": "JonathanLanunez"
+        },
+        {
+          "yourItems": [],
+          "yourCoins": 0,
+          "theirItems": [
+            {
+              "count": 1,
+              "damage": 3,
+              "nbt": "{HideFlags:254,SkullOwner:{Id:\"1e817b17-9e83-310b-b770-795b861f057f\",hypixelPopulated:1b,Properties:{textures:[0:{Signature:\"RrCvQJZ3JYPET+lwHOXZSiG5ivvKjPKQjQgSVjbU95kHysmHy1mdoRP8NXor62Mscm1kw8Em+SmAAnVPrQDER3iLuAT1EFu4222ymxne8RNbbqF3lPay3YrbxjcRPErkbNEBK9cMfWhSwFpTd80B93qMd65hcyXTPOotD4ctzBJB1tyr4GdygHnX+aKyyh/TyK1YbwRSTG2JX0wE68HMDNMBskmevHQ4mG13fNvhQ7/6ijxRUU4VMRSdK70FwgvmPaTyxfHiNxcpDxljHvzMG/oUJlCD9rgla3VNXoG0bp12zHZwGilWHnqksueJFKWy/eWAKfZKFioWiL20KllVeJLTrfiwu+i9EevB54V8DfdQplt65xHWYYuFz+9jJSemdf4xdXpHG4PVT5YCMysNeipiwihFUqiiiNyRxQT9Gy0w/sv+4F36e30OtlvfUhxEn18niKTsldxegHgefNXe/SXbanUoa/Jlw52WPKV4/21mGMr6rQGdj+DV+ENItyMGwm9CUrQUl32l++HTLeduA4xJtptfpGDsTyNYyvJaAsBxwNVEvFTi3wlvHmGbFQ4N8beDHv0qLagzb8+oElZ5cW0MFj1tUKzbutBiuIE/9bbWFxSt53hLv9XJ0Hgkg6bLxL+QWSQI9tZldpHO6M3bDIy79AXFRaOIb4quU3uY3L0\u003d\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTcwNzg1NDE4MzUyNiwKICAicHJvZmlsZUlkIiA6ICIxMTM1Njg1ZTk3ZGE0ZjYyYTliNDQ3MzA0NGFiZjQ0MSIsCiAgInByb2ZpbGVOYW1lIiA6ICJNYXJpb1dsZXMiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzI3YmFhYWZjMDk5NzhkNGJkYTczZTE2YWZkZGU4NWVjMTNiMGY5NWFkOTg5NTI0YzVmY2FhNzE3Y2YwNmI0YSIKICAgIH0KICB9Cn0\u003d\"}]}},display:{Lore:[0:\"§8Mining Pet\",1:\"\",2:\"§7Intelligence: §a+100\",3:\"§7Magic Find: §a+5\",4:\"§7Mining Speed: §a+150\",5:\"\",6:\"§6Archaeologist\",7:\"§7§7§cScavenged Items §7appear §a25% §7more\",8:\"§7often while in the §2Mines of Divan§7.\",9:\"\",10:\"§6Magnetic Nose\",11:\"§7§7§9Automatons §7drop their parts §a50%\",12:\"§a§7more frequently.\",13:\"\",14:\"§6Nucleic Veins\",15:\"§7§7The §5Crystal Nucleus §7has a §a100%\",16:\"§a§7chance to drop an additional item.\",17:\"\",18:\"§6Held Item: §9Mining Exp Boost\",19:\"§7Gives §a+40% §7pet exp for Mining.\",20:\"\",21:\"§b§lMAX LEVEL\",22:\"§8▸ 26,514,239 XP\",23:\"\",24:\"§7§eRight-click to add this pet to your\",25:\"§epet menu!\",26:\"\",27:\"§6§lLEGENDARY\"],Name:\"§7[Lvl 100] §6Mole\"},ExtraAttributes:{petInfo:\"{\\\"type\\\":\\\"MOLE\\\",\\\"active\\\":false,\\\"exp\\\":2.6514239413939346E7,\\\"tier\\\":\\\"LEGENDARY\\\",\\\"hideInfo\\\":false,\\\"heldItem\\\":\\\"PET_ITEM_MINING_SKILL_BOOST_RARE\\\",\\\"candyUsed\\\":0,\\\"uuid\\\":\\\"4e2b0179-4a89-42c7-83bf-674ad785ac75\\\",\\\"uniqueId\\\":\\\"adc37a8a-2dd6-451b-8c4c-0f384bc8e894\\\",\\\"hideRightClick\\\":false,\\\"noMove\\\":false}\",id:\"PET\",uuid:\"4e2b0179-4a89-42c7-83bf-674ad785ac75\",timestamp:1749373869235L}}",
+              "id": "minecraft:skull"
+            }
+          ],
+          "theirCoins": 0,
+          "timestamp": 1749373889722,
+          "username": "JonathanLanunez"
+        },
+        {
+          "yourItems": [
+            {
+              "count": 1,
+              "damage": 3,
+              "nbt": "{HideFlags:254,SkullOwner:{Id:\"1e817b17-9e83-310b-b770-795b861f057f\",hypixelPopulated:1b,Properties:{textures:[0:{Signature:\"RrCvQJZ3JYPET+lwHOXZSiG5ivvKjPKQjQgSVjbU95kHysmHy1mdoRP8NXor62Mscm1kw8Em+SmAAnVPrQDER3iLuAT1EFu4222ymxne8RNbbqF3lPay3YrbxjcRPErkbNEBK9cMfWhSwFpTd80B93qMd65hcyXTPOotD4ctzBJB1tyr4GdygHnX+aKyyh/TyK1YbwRSTG2JX0wE68HMDNMBskmevHQ4mG13fNvhQ7/6ijxRUU4VMRSdK70FwgvmPaTyxfHiNxcpDxljHvzMG/oUJlCD9rgla3VNXoG0bp12zHZwGilWHnqksueJFKWy/eWAKfZKFioWiL20KllVeJLTrfiwu+i9EevB54V8DfdQplt65xHWYYuFz+9jJSemdf4xdXpHG4PVT5YCMysNeipiwihFUqiiiNyRxQT9Gy0w/sv+4F36e30OtlvfUhxEn18niKTsldxegHgefNXe/SXbanUoa/Jlw52WPKV4/21mGMr6rQGdj+DV+ENItyMGwm9CUrQUl32l++HTLeduA4xJtptfpGDsTyNYyvJaAsBxwNVEvFTi3wlvHmGbFQ4N8beDHv0qLagzb8+oElZ5cW0MFj1tUKzbutBiuIE/9bbWFxSt53hLv9XJ0Hgkg6bLxL+QWSQI9tZldpHO6M3bDIy79AXFRaOIb4quU3uY3L0\u003d\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTcwNzg1NDE4MzUyNiwKICAicHJvZmlsZUlkIiA6ICIxMTM1Njg1ZTk3ZGE0ZjYyYTliNDQ3MzA0NGFiZjQ0MSIsCiAgInByb2ZpbGVOYW1lIiA6ICJNYXJpb1dsZXMiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzI3YmFhYWZjMDk5NzhkNGJkYTczZTE2YWZkZGU4NWVjMTNiMGY5NWFkOTg5NTI0YzVmY2FhNzE3Y2YwNmI0YSIKICAgIH0KICB9Cn0\u003d\"}]}},display:{Lore:[0:\"§8Mining Pet\",1:\"\",2:\"§7Intelligence: §a+100\",3:\"§7Magic Find: §a+5\",4:\"§7Mining Speed: §a+150\",5:\"\",6:\"§6Archaeologist\",7:\"§7§7§cScavenged Items §7appear §a25% §7more\",8:\"§7often while in the §2Mines of Divan§7.\",9:\"\",10:\"§6Magnetic Nose\",11:\"§7§7§9Automatons §7drop their parts §a50%\",12:\"§a§7more frequently.\",13:\"\",14:\"§6Nucleic Veins\",15:\"§7§7The §5Crystal Nucleus §7has a §a100%\",16:\"§a§7chance to drop an additional item.\",17:\"\",18:\"§6Held Item: §9Mining Exp Boost\",19:\"§7Gives §a+40% §7pet exp for Mining.\",20:\"\",21:\"§b§lMAX LEVEL\",22:\"§8▸ 26,514,239 XP\",23:\"\",24:\"§7§eRight-click to add this pet to your\",25:\"§epet menu!\",26:\"\",27:\"§6§lLEGENDARY\"],Name:\"§7[Lvl 100] §6Mole\"},ExtraAttributes:{petInfo:\"{\\\"type\\\":\\\"MOLE\\\",\\\"active\\\":false,\\\"exp\\\":2.6514239413939346E7,\\\"tier\\\":\\\"LEGENDARY\\\",\\\"hideInfo\\\":false,\\\"heldItem\\\":\\\"PET_ITEM_MINING_SKILL_BOOST_RARE\\\",\\\"candyUsed\\\":0,\\\"uuid\\\":\\\"4e2b0179-4a89-42c7-83bf-674ad785ac75\\\",\\\"uniqueId\\\":\\\"adc37a8a-2dd6-451b-8c4c-0f384bc8e894\\\",\\\"hideRightClick\\\":false,\\\"noMove\\\":false}\",id:\"PET\",uuid:\"4e2b0179-4a89-42c7-83bf-674ad785ac75\",timestamp:1749373957937L}}",
+              "id": "minecraft:skull"
+            },
+            {
+              "count": 1,
+              "damage": 0,
+              "nbt": "{ench:[],Unbreakable:1b,HideFlags:254,display:{Lore:[0:\"§8Breaking Power 8\",1:\"\",2:\"§7Damage: §c+30\",3:\"§7Mining Speed: §a+750\",4:\"\",5:\"§7A powerful tool that breaks after\",6:\"§7§a2,000§7 uses.\",7:\"\",8:\"§6Ability: Mining Speed Boost  §e§lRIGHT CLICK\",9:\"§7Grants §6+250% §6⸕ Mining Speed §7for\",10:\"§7§a15s§7.\",11:\"§8Cooldown: §a120s\",12:\"\",13:\"§7§8This item can be reforged!\",14:\"§5§lEPIC PICKAXE\"],Name:\"§5Pickonimbus 2000\"},ExtraAttributes:{id:\"PICKONIMBUS\",uuid:\"6f5311c7-cd50-4fc2-bc9b-6ecf306a899a\",timestamp:1749373897152L}}",
+              "id": "minecraft:diamond_pickaxe"
+            }
+          ],
+          "yourCoins": 0,
+          "theirItems": [],
+          "theirCoins": 0,
+          "timestamp": 1749374015062,
+          "username": "JonathanLanunez"
+        },
+        {
+          "yourItems": [],
+          "yourCoins": 0,
+          "theirItems": [
+            {
+              "count": 1,
+              "damage": 3,
+              "nbt": "{HideFlags:254,SkullOwner:{Id:\"1e817b17-9e83-310b-b770-795b861f057f\",hypixelPopulated:1b,Properties:{textures:[0:{Signature:\"RrCvQJZ3JYPET+lwHOXZSiG5ivvKjPKQjQgSVjbU95kHysmHy1mdoRP8NXor62Mscm1kw8Em+SmAAnVPrQDER3iLuAT1EFu4222ymxne8RNbbqF3lPay3YrbxjcRPErkbNEBK9cMfWhSwFpTd80B93qMd65hcyXTPOotD4ctzBJB1tyr4GdygHnX+aKyyh/TyK1YbwRSTG2JX0wE68HMDNMBskmevHQ4mG13fNvhQ7/6ijxRUU4VMRSdK70FwgvmPaTyxfHiNxcpDxljHvzMG/oUJlCD9rgla3VNXoG0bp12zHZwGilWHnqksueJFKWy/eWAKfZKFioWiL20KllVeJLTrfiwu+i9EevB54V8DfdQplt65xHWYYuFz+9jJSemdf4xdXpHG4PVT5YCMysNeipiwihFUqiiiNyRxQT9Gy0w/sv+4F36e30OtlvfUhxEn18niKTsldxegHgefNXe/SXbanUoa/Jlw52WPKV4/21mGMr6rQGdj+DV+ENItyMGwm9CUrQUl32l++HTLeduA4xJtptfpGDsTyNYyvJaAsBxwNVEvFTi3wlvHmGbFQ4N8beDHv0qLagzb8+oElZ5cW0MFj1tUKzbutBiuIE/9bbWFxSt53hLv9XJ0Hgkg6bLxL+QWSQI9tZldpHO6M3bDIy79AXFRaOIb4quU3uY3L0\u003d\",Value:\"ewogICJ0aW1lc3RhbXAiIDogMTcwNzg1NDE4MzUyNiwKICAicHJvZmlsZUlkIiA6ICIxMTM1Njg1ZTk3ZGE0ZjYyYTliNDQ3MzA0NGFiZjQ0MSIsCiAgInByb2ZpbGVOYW1lIiA6ICJNYXJpb1dsZXMiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzI3YmFhYWZjMDk5NzhkNGJkYTczZTE2YWZkZGU4NWVjMTNiMGY5NWFkOTg5NTI0YzVmY2FhNzE3Y2YwNmI0YSIKICAgIH0KICB9Cn0\u003d\"}]}},display:{Lore:[0:\"§8Mining Pet\",1:\"\",2:\"§7Intelligence: §a+100\",3:\"§7Magic Find: §a+5\",4:\"§7Mining Speed: §a+150\",5:\"\",6:\"§6Archaeologist\",7:\"§7§7§cScavenged Items §7appear §a25% §7more\",8:\"§7often while in the §2Mines of Divan§7.\",9:\"\",10:\"§6Magnetic Nose\",11:\"§7§7§9Automatons §7drop their parts §a50%\",12:\"§a§7more frequently.\",13:\"\",14:\"§6Nucleic Veins\",15:\"§7§7The §5Crystal Nucleus §7has a §a100%\",16:\"§a§7chance to drop an additional item.\",17:\"\",18:\"§6Held Item: §9Mining Exp Boost\",19:\"§7Gives §a+40% §7pet exp for Mining.\",20:\"\",21:\"§b§lMAX LEVEL\",22:\"§8▸ 26,589,578 XP\",23:\"\",24:\"§7§eRight-click to add this pet to your\",25:\"§epet menu!\",26:\"\",27:\"§6§lLEGENDARY\"],Name:\"§7[Lvl 100] §6Mole\"},ExtraAttributes:{petInfo:\"{\\\"type\\\":\\\"MOLE\\\",\\\"active\\\":false,\\\"exp\\\":2.658957843284558E7,\\\"tier\\\":\\\"LEGENDARY\\\",\\\"hideInfo\\\":false,\\\"heldItem\\\":\\\"PET_ITEM_MINING_SKILL_BOOST_RARE\\\",\\\"candyUsed\\\":0,\\\"uuid\\\":\\\"4e2b0179-4a89-42c7-83bf-674ad785ac75\\\",\\\"uniqueId\\\":\\\"adc37a8a-2dd6-451b-8c4c-0f384bc8e894\\\",\\\"hideRightClick\\\":false,\\\"noMove\\\":false}\",id:\"PET\",uuid:\"4e2b0179-4a89-42c7-83bf-674ad785ac75\",timestamp:1749374708339L}}",
+              "id": "minecraft:skull"
+            }
+          ],
+          "theirCoins": 0,
+          "timestamp": 1749374726352,
+          "username": "JonathanLanunez"
+        }
+      ]
+    }
+  },
+  "pricePaidMap": {
+    "7a987424-802c-4085-a0ca-9130737e4a2a": 72499000
   }
 }

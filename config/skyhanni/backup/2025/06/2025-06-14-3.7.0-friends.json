@@ -1,0 +1,84 @@
+{
+  "players": {
+    "edc33d82-40ec-4086-87d3-275d985c4bcb": {
+      "friends": {
+        "89bc9554-f5db-41e5-a21e-64b4bcd23f69": {
+          "name": "Ebharing",
+          "bestFriend": false
+        },
+        "aa6e0538-a08c-4ab4-8612-10c43d0b51f5": {
+          "name": "FastSnail11",
+          "bestFriend": false
+        },
+        "b7cb32fb-3dc8-4194-940e-37e508559572": {
+          "name": "ItsTrigo",
+          "bestFriend": false
+        },
+        "da016e25-746b-4239-b731-d8c59c283260": {
+          "name": "JonathanLanunez",
+          "bestFriend": false
+        },
+        "19bcc815-3090-42f0-b315-6d3048626f99": {
+          "name": "Legohjalten",
+          "bestFriend": false
+        },
+        "6c28d890-6e94-49c1-ab1e-2888801e027b": {
+          "name": "olleg2",
+          "bestFriend": false
+        },
+        "be22a613-a21a-4b71-9fa2-6534e47b288d": {
+          "name": "Hanf06",
+          "bestFriend": false
+        },
+        "9e7809b5-464c-4292-94d8-c0d5b81ba8ed": {
+          "name": "_Eggan_",
+          "bestFriend": false
+        },
+        "059aee51-8423-44fd-9af8-29550635354d": {
+          "name": "GoldenAle7",
+          "bestFriend": false
+        },
+        "d580847d-8701-4476-a48e-a53395c8a612": {
+          "name": "GrandBoss",
+          "bestFriend": false
+        }
+      }
+    },
+    "da016e25-746b-4239-b731-d8c59c283260": {
+      "friends": {
+        "864d70a0-4b56-4098-8f42-8cd98d9c9306": {
+          "name": "Blackposo",
+          "bestFriend": false
+        },
+        "c9bb2352-1cc5-4f43-8f18-d96a579562f4": {
+          "name": "_YaCeQ_",
+          "bestFriend": false
+        },
+        "4864f5dc-4cac-404a-bc5a-a048fa3f1d9e": {
+          "name": "BorgerManIsComin",
+          "bestFriend": false
+        },
+        "89bc9554-f5db-41e5-a21e-64b4bcd23f69": {
+          "name": "Ebharing",
+          "bestFriend": false
+        },
+        "3cc3e8ca-7c1e-4d0e-9f98-d98ae85275bc": {
+          "name": "Ecksboxboy",
+          "bestFriend": false
+        },
+        "aa6e0538-a08c-4ab4-8612-10c43d0b51f5": {
+          "name": "FastSnail11",
+          "bestFriend": false
+        },
+        "19bcc815-3090-42f0-b315-6d3048626f99": {
+          "name": "Legohjalten",
+          "bestFriend": false
+        },
+        "edc0df5d-5728-46ee-9685-1738868f4d03": {
+          "name": "miningcolorado",
+          "bestFriend": false
+        }
+      }
+    }
+  }
+}

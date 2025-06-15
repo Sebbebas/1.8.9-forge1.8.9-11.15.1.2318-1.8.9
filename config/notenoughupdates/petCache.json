@@ -160,9 +160,9 @@
         "maxLevel": 100,
         "expRequiredForNextLevel": 1886700,
         "expRequiredForMaxLevel": 25353230,
-        "expInCurrentLevel": 6899018.0,
-        "expTotal": 3.2252248E7,
-        "percentageToNextLevel": 3.6566586
+        "expInCurrentLevel": 6984882.0,
+        "expTotal": 3.2338112E7,
+        "percentageToNextLevel": 3.702169
       },
       "petXpType": "fishing",
       "petItem": "DWARF_TURTLE_SHELMET",
@@ -194,9 +194,9 @@
         "maxLevel": 100,
         "expRequiredForNextLevel": 1886700,
         "expRequiredForMaxLevel": 25353230,
-        "expInCurrentLevel": 7827830.0,
-        "expTotal": 3.318106E7,
-        "percentageToNextLevel": 4.148953
+        "expInCurrentLevel": 1.2828638E7,
+        "expTotal": 3.8181868E7,
+        "percentageToNextLevel": 6.7995114
       },
       "petXpType": "mining",
       "petItem": "BEJEWELED_COLLAR",
@@ -313,9 +313,9 @@
         "maxLevel": 100,
         "expRequiredForNextLevel": 1886700,
         "expRequiredForMaxLevel": 25353230,
-        "expInCurrentLevel": 1.17370048E8,
-        "expTotal": 1.4272328E8,
-        "percentageToNextLevel": 62.209175
+        "expInCurrentLevel": 1.31761872E8,
+        "expTotal": 1.57115104E8,
+        "percentageToNextLevel": 69.83721
       },
       "petXpType": "mining",
       "petItem": "BEJEWELED_COLLAR",
@@ -377,13 +377,13 @@
       "petType": "REINDEER",
       "rarity": "LEGENDARY",
       "petLevel": {
-        "currentLevel": 96,
+        "currentLevel": 97,
         "maxLevel": 100,
-        "expRequiredForNextLevel": 1496700,
+        "expRequiredForNextLevel": 1616700,
         "expRequiredForMaxLevel": 25353230,
-        "expInCurrentLevel": 557302.0,
-        "expTotal": 1.9163732E7,
-        "percentageToNextLevel": 0.37235385
+        "expInCurrentLevel": 555666.0,
+        "expTotal": 2.0658796E7,
+        "percentageToNextLevel": 0.34370384
       },
       "petXpType": "fishing",
       "petItem": "PET_ITEM_MINING_SKILL_BOOST_RARE",
@@ -426,6 +426,22 @@
       "candyUsed": 0
     },
     "25": {
+      "petType": "SPIRIT",
+      "rarity": "LEGENDARY",
+      "petLevel": {
+        "currentLevel": 59,
+        "maxLevel": 100,
+        "expRequiredForNextLevel": 97200,
+        "expRequiredForMaxLevel": 25353230,
+        "expInCurrentLevel": 58148.5,
+        "expTotal": 1263678.5,
+        "percentageToNextLevel": 0.5982356
+      },
+      "petXpType": "combat",
+      "skinVariantSelected": -1,
+      "candyUsed": 0
+    },
+    "26": {
       "petType": "FLYING_FISH",
       "rarity": "LEGENDARY",
       "petLevel": {
@@ -438,22 +454,6 @@
         "percentageToNextLevel": 0.25568908
       },
       "petXpType": "fishing",
-      "skinVariantSelected": -1,
-      "candyUsed": 0
-    },
-    "26": {
-      "petType": "SPIRIT",
-      "rarity": "LEGENDARY",
-      "petLevel": {
-        "currentLevel": 37,
-        "maxLevel": 100,
-        "expRequiredForNextLevel": 17800,
-        "expRequiredForMaxLevel": 25353230,
-        "expInCurrentLevel": 15360.422,
-        "expTotal": 184490.42,
-        "percentageToNextLevel": 0.862945
-      },
-      "petXpType": "combat",
       "skinVariantSelected": -1,
       "candyUsed": 0
     },
@@ -474,8 +474,8 @@
       "candyUsed": 0
     }
   },
-  "selectedPet": 9,
-  "selectedPet2": 19,
+  "selectedPet": 18,
+  "selectedPet2": 11,
   "tamingLevel": 51,
   "beastMultiplier": 3.0
 }

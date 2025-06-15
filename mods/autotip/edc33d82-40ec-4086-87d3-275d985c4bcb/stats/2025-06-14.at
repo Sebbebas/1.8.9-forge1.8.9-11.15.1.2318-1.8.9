@@ -4,66 +4,66 @@
     "month": 6,
     "day": 14
   },
-  "tipsSent": 157,
-  "tipsReceived": 170,
-  "xpSent": 7100,
-  "xpReceived": 10200,
+  "tipsSent": 362,
+  "tipsReceived": 333,
+  "xpSent": 15600,
+  "xpReceived": 19980,
   "gameStatistics": {
     "Turbo Kart Racers": {
-      "coinsSent": 225,
-      "coinsReceived": 2000
+      "coinsSent": 480,
+      "coinsReceived": 3300
     },
     "SkyWars": {
-      "coinsSent": 210,
-      "coinsReceived": 1500
+      "coinsSent": 480,
+      "coinsReceived": 2800
     },
     "Smash Heroes": {
-      "coinsSent": 180,
-      "coinsReceived": 1700
+      "coinsSent": 390,
+      "coinsReceived": 3900
     },
     "Mega Walls": {
-      "coinsSent": 225,
-      "coinsReceived": 1700
+      "coinsSent": 525,
+      "coinsReceived": 4000
     },
     "UHC Champions": {
-      "coinsSent": 225,
-      "coinsReceived": 1900
+      "coinsSent": 495,
+      "coinsReceived": 4300
     },
     "Warlords": {
-      "coinsSent": 180,
-      "coinsReceived": 2000
+      "coinsSent": 435,
+      "coinsReceived": 3100
     },
     "The Walls": {
-      "coinsSent": 225,
-      "coinsReceived": 2000
+      "coinsSent": 480,
+      "coinsReceived": 3300
     },
     "VampireZ": {
-      "coinsSent": 225,
-      "coinsReceived": 2000
+      "coinsSent": 480,
+      "coinsReceived": 3300
     },
     "Arcade Games": {
-      "coinsSent": 646,
-      "coinsReceived": 800
+      "coinsSent": 1330,
+      "coinsReceived": 2400
     },
     "Arena Brawl": {
-      "coinsSent": 225,
-      "coinsReceived": 2000
+      "coinsSent": 480,
+      "coinsReceived": 3300
     },
     "Blitz SG": {
-      "coinsSent": 210,
-      "coinsReceived": 1800
+      "coinsSent": 450,
+      "coinsReceived": 2700
     },
     "Paintball Warfare": {
-      "coinsSent": 225,
-      "coinsReceived": 2000
+      "coinsSent": 480,
+      "coinsReceived": 3300
     },
     "Quakecraft": {
-      "coinsSent": 225,
-      "coinsReceived": 2000
+      "coinsSent": 480,
+      "coinsReceived": 3300
     },
     "Cops and Crims": {
-      "coinsSent": 195,
-      "coinsReceived": 1500
+      "coinsSent": 420,
+      "coinsReceived": 2600
     }
   }
 }

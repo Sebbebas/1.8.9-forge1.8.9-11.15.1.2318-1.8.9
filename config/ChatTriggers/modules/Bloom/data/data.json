@@ -25,7 +25,7 @@
         "x": 0,
         "y": 0,
         "scale": 1,
-        "lastWarp": 1749900340380
+        "lastWarp": 1749911779083
     },
     "chMap": {
         "x": 0,
@@ -81,7 +81,7 @@
                 "needed": 160020
             },
             "F7": {
-                "score": 129434,
+                "score": 130670,
                 "item": "§6Necron's Handle",
                 "needed": 274119
             },
@@ -137,5 +137,5 @@
         "y": 0,
         "scale": 1
     },
-    "lastQuizFetch": 1749885932747
+    "lastQuizFetch": 1749902598880
 }
